@@ -1,0 +1,86 @@
+site_name: Generia
+site_url: https://perseus27.github.io/generia/
+repo_url: https://github.com/perseus27/generia
+repo_name: perseus27/generia
+
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  features:
+    - navigation.sections
+    - navigation.tracking
+    - content.code.copy
+    - content.action.edit
+    - search.suggest
+    - search.highlight
+    - toc.follow
+
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+
+plugins:
+  - search
+  - macros
+  - awesome-pages
+
+
+extra:
+  generator: false
+
+
+extra_css:
+  - stylesheets/overall.css
+  - stylesheets/statblock.css
+  - stylesheets/typography.css
+  - stylesheets/sidebar-extra.css
+  - stylesheets/container.css
+
+extra_javascript:
+  - javascripts/sidebar-extra.js
+
+
+nav:
+  - Home: index.md
+  - Rules:
+    - Basic:
+      - rules/basic/definitions.md
+      - rules/basic/core-mechanics.md
+      - rules/basic/attributes.md
+      - rules/basic/values.md
+      - rules/basic/charisma.md
+    - Combat:
+      - rules/combat/status-effects.md
+      - rules/combat/damage-types.md
+      - rules/combat/wounds.md
+    - Magic:
+      - rules/magic/freecasting.md
+      - rules/magic/chaotic-magic.md
+  - Character Building:
+      - Spellcasting Traditions:
+        - Acolyte:
+          - character/spellcasting-traditions/acolyte/what-is-an-acolyte.md
+          - character/spellcasting-traditions/acolyte/acolyte-spells.md
+        - Alchemist:
+          - character/spellcasting-traditions/alchemist/what-is-an-alchemist.md
+          - character/spellcasting-traditions/alchemist/alchemist-spells.md
+  - Bestiary: bestiary/index.md

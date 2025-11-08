@@ -1,0 +1,6 @@
+mkdocs==1.6.1
+mkdocs-material==9.5.34
+mkdocs-macros-plugin==1.0.5
+mkdocs-awesome-pages-plugin==2.9.3
+pymdown-extensions==10.11.2
+bbcode==1.1.0

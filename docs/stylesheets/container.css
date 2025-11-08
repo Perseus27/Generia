@@ -1,0 +1,32 @@
+.spell {
+	background: rgba(0,0,0,0.1);
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 5px;
+}
+.spell-content {
+	display: flex;
+}
+.spell-columnleft {
+	width: 20%;
+	padding: 2px;
+	font-weight: bold;
+}
+.spell-columncenter {
+	width: 50%;
+	padding: 2px;
+}
+.spell-columnright {
+	width: 30%;
+	padding: 2px;
+}
+.spell-casttype {
+	font-weight: bold;
+}
+.spell-overview {}
+.spell-description {}
+.spell-effect {}
+.spell-save {}

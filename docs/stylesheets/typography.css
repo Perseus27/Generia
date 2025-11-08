@@ -1,0 +1,42 @@
+/* Tighten vertical rhythm site-wide */
+.md-typeset h1 { margin: 1.5rem 0 0rem; }
+.md-typeset h2 { margin: 1.0rem 0 0rem; }
+.md-typeset h3 { margin: 0.75rem 0 0rem; }
+.md-typeset h4 { margin: .5rem 0 .25rem; }
+
+/* Tighten content right after a heading */
+.md-typeset h1 + p,
+.md-typeset h2 + p,
+.md-typeset h3 + p { margin-top: .3rem; }
+
+/* Reduce paragraph/list/table spacing in general */
+.md-typeset p,
+.md-typeset ul,
+.md-typeset ol,
+.md-typeset table { margin: .4rem 0; }
+
+/* Remove extra top gap on the very first heading on a page */
+.md-content__inner > h1:first-of-type,
+.md-content__inner > h2:first-of-type { margin-top: 0; }
+
+
+
+.toc-box {
+  float: right;
+  width: 18rem;
+  margin: 0 0 1rem 1rem;
+  position: sticky;
+  top: 4.5rem;
+  max-height: calc(100vh - 6rem);
+  overflow: auto;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 8px;
+  padding: .75rem .9rem;
+  background: var(--md-default-bg-color);
+}
+.toc-box ul { margin: .25rem 0; }
+.toc-box li { margin: .1rem 0; }
+
+
+.md-sidebar--secondary { display: none; }              /* hide globally */
+.show-toc .md-sidebar--secondary { display: block; }   /* show on flagged pages */

@@ -1,0 +1,28 @@
+.statblock {
+  border: 2px solid var(--md-default-fg-color--lighter);
+  border-radius: 8px;
+  padding: 12px;
+  background: var(--md-default-bg-color);
+  box-shadow: var(--md-shadow-z2);
+}
+.statblock .header h2 { margin: 0 0 4px 0; }
+.statblock .meta { font-style: italic; opacity: .8; }
+.statblock .row { margin: 6px 0; }
+.statblock .abilities {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 6px;
+}
+.statblock .ability {
+  text-align: center;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 6px;
+  padding: 6px 4px;
+}
+.statblock .ability .label { font-weight: 600; font-size: 0.8rem; opacity: 0.85; }
+.statblock .ability .score { font-weight: 700; font-size: 1rem; }
+.statblock .section h3 { margin: 10px 0 6px; font-size: 0.95rem; }
+.statblock .entry { margin: 4px 0; }
+@media print {
+  .statblock { break-inside: avoid; }
+}

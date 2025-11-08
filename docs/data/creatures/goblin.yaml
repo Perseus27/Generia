@@ -1,0 +1,26 @@
+name: Goblin
+size: Small
+type: Humanoid (goblinoid)
+alignment: Neutral Evil
+ac: 15
+hp: 7
+speed: 30 ft.
+abilities:
+  STR: 8
+  DEX: 14
+  CON: 10
+  INT: 10
+  WIS: 8
+  CHA: 8
+skills: ["Stealth +6", "Perception +1"]
+senses: darkvision 60 ft., passive Perception 11
+languages: Common, Goblin
+cr: 1/4
+traits:
+  - name: Nimble Escape
+    text: The goblin can take the Disengage or Hide action as a bonus action.
+actions:
+  - name: Scimitar
+    text: "+4 to hit, 5 ft., 1d6+2 slashing."
+  - name: Shortbow
+    text: "+4 to hit, 80/320 ft., 1d6+2 piercing."
