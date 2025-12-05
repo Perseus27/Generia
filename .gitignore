@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+
+# MkDocs build output
+site/
+
+
+# OS
+.DS_Store
+Thumbs.db
+
+# General
+local_startup.bat
+
+# Local Testing
+docs/data/test/

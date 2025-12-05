@@ -1,0 +1,132 @@
+.spell {
+	background: rgba(180,180,180,0.1);
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 5px;
+	padding: 4px;
+	margin: 12px;
+	line-height: 1.2;
+	font-size: .7rem;
+}
+.spell h2 {
+	margin-top: 0px;
+}
+.spell-content {
+	display: flex;
+}
+.spell-columnleft {
+	width: 25%;
+	margin: 2px 8px 2px;
+	font-weight: bold;
+}
+.spell-columncenter {
+	width: 45%;
+	margin: 2px 8px 2px;
+}
+.spell-columnright {
+	width: 30%;
+	margin: 2px 8px 2px;
+}
+.spell-casttype {
+	font-weight: bold;
+}
+.spell hr {
+	margin: 4px 0px 4px;
+}
+
+
+.skill {
+	background: rgba(180,180,180,0.1);
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 5px;
+	padding: 4px;
+	margin: 12px;
+	line-height: 1.2;
+	font-size: .7rem;
+}
+.skill h2 {
+	margin-top: 0px;
+}
+.skill-content {
+	display: flex;
+}
+.skill-columnleft {
+	width: 25%;
+	margin: 2px 8px 2px;
+	font-weight: bold;
+}
+.skill-columnright {
+	width: 75%;
+	margin: 2px 8px 2px;
+}
+.skill-type {
+	font-weight: bold;
+}
+.skill hr {
+	margin: 4px 0px 4px;
+}
+
+
+.perk {
+	background: rgba(180,180,180,0.1);
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 5px;
+	padding: 4px;
+	margin: 12px;
+	line-height: 1.2;
+	font-size: .7rem;
+}
+.perk h2 {
+	margin-top: 0px;
+}
+
+
+
+.orgblock {	
+	background: rgba(180,180,180,0.1);
+	border-style: dashed;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 5px;
+	padding: 5px;
+}
+.orgblock h2 {
+	margin-top: 0px;
+}
+.orgblock h4 {
+	margin-top: 0px;
+}
+
+
+.orgblock-transparent {
+	border-style: dashed;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 5px;
+	padding: 5px;
+}
+.orgblock-transparent h2 {
+	margin-top: 0px;
+}
+
+.statusblock {	
+	background: rgba(180,180,180,0.1);
+	border-style: dashed;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 0.6rem;
+	margin: 0.5rem;
+}
+.statusblock h2 {
+	margin-top: 0px;
+}
+.statusblock h4 {
+	margin-top: 0px;
+}

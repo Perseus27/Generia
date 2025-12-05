@@ -1,0 +1,313 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"packagedev",
+				"PackageDev: Edit Current Theme"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"Install Packa",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/admin/AppData/Roaming/Sublime Text/Packages/User/Default Dark.sublime-theme",
+		"/C/Users/admin/AppData/Roaming/Sublime Text/Packages/Theme - Default/Default Dark.sublime-theme",
+		"/C/Users/admin/AppData/Roaming/Sublime Text/Packages/BBCode Syntax/BBCode.tmTheme",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/main/docs/bb_docs/character/skills/skills-tier-i.bb",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/main/docs/bb_docs/rules/combat/ranged-combat.bb",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/main/docs/bb_docs/rules/basic/definitions.bb",
+		"/C/Users/admin/Desktop/p&p/_Generia/tech/Overall CSS.txt",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/main/docs/bb_docs/rules/magic/freecasting.bb",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/main/docs/bb_docs/character/spellcasting-traditions/wizard/wizard-spells-hermetics.bb",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/main/docs/bb_docs/character/spellcasting-traditions/wizard/wizard-spells-kinetics.bb",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/main/docs/bb_docs/character/spellcasting-traditions/shaman/what-is-a-shaman.bb",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/main/docs/bb_docs/character/spellcasting-traditions/acolyte/what-is-an-acolyte.bb",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/main/docs/bb_docs/character/spellcasting-traditions/wizard/wizard-spells-meteorics.bb",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/main/docs/bb_docs/character/spellcasting-traditions/wizard/what-is-a-wizard.bb",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/main/docs/bb_docs/character/spellcasting-traditions/druid/what-is-a-druid.bb",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/main/docs/bb_docs/character/spellcasting-traditions/bard/what-is-a-bard.bb",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/main/docs/bb_docs/rules/basic/values.bb",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/main/docs/bb_docs/rules/combat/status-effects.bb",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/main/docs/bb_docs/character/spellcasting-traditions/sorcerer/sorcerer-spells.bb",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/main/docs/bb_docs/character/spellcasting-traditions/nox/what-is-a-nox.bb",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/main/docs/bb_docs/character/spellcasting-traditions/alchemist/what-is-an-alchemist.bb",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/main/docs/bb_docs/character/spellcasting-traditions/acolyte/acolyte-spells.bb",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/main/docs/bb_docs/character/spellcasting-traditions/wizard/wizard-spells-thermics.bb",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/main/docs/bb_docs/character/spellcasting-traditions/druid/druid-spells.bb",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/main/docs/bb_docs/character/spellcasting-traditions/bard/bard-spells.bb",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/main/docs/bb_docs/rules/magic/chaotic-magic.bb",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/main/docs/bb_docs/rules/combat/wounds.bb",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/main/docs/bb_docs/rules/combat/damage-types.bb",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/main/docs/bb_docs/character/spellcasting-traditions/nox/nox-spells.bb",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/main/docs/bb_docs/character/spellcasting-traditions/shaman/shaman-spells.bb",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/main/docs/bb_docs/character/spellcasting-traditions/sorcerer/what-is-a-sorcerer.bb",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/main/docs/bb_docs/rules/basic/attributes.bb",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/main/docs/bb_docs/character/spellcasting-traditions/alchemist/alchemist-spells.bb",
+		"/C/Users/admin/Desktop/p&p/__Kampfnotizen/Luis, Marvin/251109 Dungeon 8 Trial.txt",
+		"/C/Users/admin/Desktop/p&p/__Kampfnotizen/trhdfh.txt",
+		"/C/Users/admin/Desktop/p&p/__Kampfnotizen/Marvin/251108 Dungeon Level 5.txt",
+		"/C/Users/admin/Desktop/p&p/_Generia/tech/aura jsons/Jünger.txt",
+		"/C/Users/admin/Desktop/p&p/__Kampfnotizen/Dungeon – Level 5.txt",
+		"/C/Users/admin/Desktop/p&p/_Generia/tech/foundry macros/Initiative.txt",
+		"/C/Users/admin/Desktop/p&p/__Kampfnotizen/Luis, Marvin/251109 Dungeon 7 Trial.txt",
+		"/C/Users/admin/Desktop/p&p/__Kampfnotizen/Luis, Marvin/Dungeon 6 251019.txt",
+		"/C/Users/admin/Desktop/p&p/_Generia/Brainstorm Marvin Charaktere.txt",
+		"/C/Users/admin/Desktop/p&p/__Kampfnotizen/Marvin/251108 Dungeon Level 4.txt",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/main/.gitignore",
+		"/C/Users/admin/Desktop/p&p/_Generia/sp-rechnungen/Harutos Gruppe.txt",
+		"/C/dl/251001/zeug/mainold.txt",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/main/README.md",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/_starter/README.md",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/_starter/mkdocs.yml",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/_starter/requirements.txt",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/_starter/.gitignore",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/_starter/docs/wa/definitions.bb",
+		"/C/Users/admin/AppData/Roaming/Sublime Text/Installed Packages/BBCode Syntax/BBCode.tmTheme",
+		"/C/Users/admin/Desktop/p&p/_Generia/Divine Perks.txt",
+		"/C/Users/admin/AppData/Local/Temp/7zE472A6147/BBCode.tmTheme",
+		"/C/Users/admin/AppData/Roaming/Sublime Text/Packages/User/bbcode-url.sublime-snippet",
+		"/C/Users/admin/AppData/Roaming/Sublime Text/Packages/User/bbcode-br.sublime-snippet",
+		"/C/Users/admin/AppData/Roaming/Sublime Text/Packages/User/bbcode-container.sublime-snippet",
+		"/C/Users/admin/AppData/Roaming/Sublime Text/Packages/User/bbcode-bold.sublime-snippet",
+		"/C/Users/admin/AppData/Roaming/Sublime Text/Packages/User/bbcode-italics.sublime-snippet",
+		"/C/Users/admin/AppData/Roaming/Sublime Text/Packages/User/bbcode-h1.sublime-snippet",
+		"/C/Users/admin/AppData/Roaming/Sublime Text/Packages/User/bbcode-h2.sublime-snippet",
+		"/C/Users/admin/AppData/Roaming/Sublime Text/Packages/User/bbcode-section.sublime-snippet",
+		"/C/Users/admin/AppData/Roaming/Sublime Text/Packages/User/bbcode-h4.sublime-snippet",
+		"/C/Users/admin/AppData/Roaming/Sublime Text/Packages/User/bbcode-h3.sublime-snippet",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/ttrpg_srd_starter_mk_docs_material.md",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/_starter/.github/workflows/deploy.yml",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/_starter/docs/bestiary/index.md",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/_starter/docs/bestiary/goblin.md",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/_starter/docs/index.md",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/_starter/main.py",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/_starter/docs/rules/wa_sample.md",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/_starter/docs/rules/wa_definitions.md",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/_starter/docs/wa/sample.bb",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/_starter/docs/rules/magic.md",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/_starter/docs/data/creatures/goblin.yaml",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/_starter/docs/rules/combat.md",
+		"/C/Users/admin/Desktop/p&p/__Generia Homepage/_starter/docs/rules/_index.md",
+		"/C/Users/admin/Desktop/p&p/__Kampfnotizen/Marvin/251102 Dungeon Level 3.txt",
+		"/C/Users/admin/Desktop/p&p/_Generia/__rechnen.txt",
+		"/C/Users/admin/Desktop/p&p/__Kampfnotizen/Marvin/251030 Dungeon Level 2.txt",
+		"/C/Users/admin/Desktop/p&p/__Kampfnotizen/Marvin/251030 Dungeon Level 1.txt",
+		"/C/Users/admin/Desktop/p&p/_Generia/dev/helper design",
+		"/C/Users/admin/Desktop/p&p/_Generia/sorcerer spells old.txt",
+		"/C/Users/admin/Desktop/p&p/_Generia/tech/Kreatur HTML.txt",
+		"/C/Users/admin/Desktop/p&p/_Generia/tech/Kreatur CSS - Kopie.txt",
+		"/C/Users/admin/Desktop/p&p/_Generia/tech/Kreatur HTML - Kopie.txt",
+		"/C/Users/admin/Desktop/p&p/_foundry/FoundryVTT/Data/modules/BirdiesArchitectualExperience/InstallGuide.txt",
+		"/C/Users/admin/Desktop/p&p/BattleMaps online/BirdiesNatureMaps/InstallGuide.txt",
+		"/C/Users/admin/Desktop/p&p/_Generia/tech/foundry macros/Perception.txt",
+		"/C/Users/admin/Desktop/p&p/_Generia/tech/foundry macros/Stealth.txt",
+		"/C/Users/admin/Desktop/p&p/_Generia/tech/foundry macros/Stealth and Stuff.txt",
+		"/C/Users/admin/Desktop/p&p/_Generia/Fauna Brainstorm.txt",
+		"/C/Users/admin/Desktop/p&p/_Generia/tech/aura jsons/Barde.txt",
+		"/C/Users/admin/Desktop/p&p/_Generia/Tier 3 Classes.txt",
+		"/C/Users/admin/Desktop/p&p/__Kampfnotizen/Luis/251017 Horde 1.txt",
+		"/C/Users/admin/Desktop/p&p/_Generia/_Nox Brainstorm.txt",
+		"/C/Users/admin/Desktop/p&p/_Generia/tech/Charakter HTML.txt",
+		"/E/SteamLibrary/steamapps/common/X4 Foundations/extensions/Crew teleport collector/md/DH_Capture_Crew_configuration.xml",
+		"/C/Users/admin/Desktop/p&p/auktion.txt",
+		"/C/Users/admin/Desktop/p&p/_Generia/tech/Charakter HTML - Kopie.txt",
+		"/C/Users/admin/Desktop/p&p/_Generia/translation/upload/General Advice.txt",
+		"/C/Users/admin/Desktop/p&p/_Generia/translation/What is a Sorcerer.txt",
+		"/C/Users/admin/Desktop/p&p/_Generia/__Chaotic Magic.txt",
+		"/C/dl/dlp/__dl.bat",
+		"/E/SteamLibrary/steamapps/common/X4 Foundations/extensions/da_ku_ai_tweaks/t/0001.xml",
+		"/E/SteamLibrary/steamapps/common/X4 Foundations/extensions/x4-mod-ui-extensions/kuertee-ui-extensions-readme.txt",
+		"/E/SteamLibrary/steamapps/common/X4 Foundations/extensions/ws_1696862840/content.xml",
+		"/E/SteamLibrary/steamapps/common/X4 Foundations/extensions/ship_names/t/0001-l044.xml",
+		"/E/SteamLibrary/steamapps/common/X4 Foundations/extensions/otas_shippack/t/0001.xml",
+		"/E/SteamLibrary/steamapps/common/X4 Foundations/extensions/mycu_custom_tabs/t/0001.xml",
+		"/E/SteamLibrary/steamapps/common/X4 Foundations/extensions/kuertee_ui_trade_analytics/t/0001.xml",
+		"/E/SteamLibrary/steamapps/common/X4 Foundations/extensions/kuertee_surface_element_targeting/t/0001.xml",
+		"/E/SteamLibrary/steamapps/common/X4 Foundations/extensions/kuertee_npc_reactions/t/0001.xml",
+		"/E/SteamLibrary/steamapps/common/X4 Foundations/extensions/gettingpaid/t/0001.xml",
+		"/E/SteamLibrary/steamapps/common/X4 Foundations/extensions/kuertee_friendly_fire_tweaks/t/0001-l049.xml",
+		"/E/SteamLibrary/steamapps/common/X4 Foundations/extensions/kuertee_friendly_fire_tweaks/t/0001.xml",
+		"/E/SteamLibrary/steamapps/common/X4 Foundations/extensions/deadair_scripts/t/0001.xml",
+		"/E/SteamLibrary/steamapps/common/X4 Foundations/extensions/deadair_eco/t/0001.xml",
+		"/E/SteamLibrary/steamapps/common/X4 Foundations/extensions/chillheadhunter/ch.txt",
+		"/E/SteamLibrary/steamapps/common/X4 Foundations/extensions/Immersive Ship Names/t/0001.xml",
+		"/E/SteamLibrary/steamapps/common/X4 Foundations/extensions/kuertee_ui_trade_analytics/t/0001-l049.xml",
+		"/E/SteamLibrary/steamapps/common/X4 Foundations/extensions/kuertee_ui_trade_analytics/t/0001-l086.xml",
+		"/E/SteamLibrary/steamapps/common/X4 Foundations/extensions/kuertee_ui_trade_analytics/t/0001-l033.xml",
+		"/E/SteamLibrary/steamapps/common/X4 Foundations/extensions/kuertee_ui_trade_analytics/t/0001-l007.xml",
+		"/E/SteamLibrary/steamapps/common/X4 Foundations/extensions/kuertee_ui_trade_analytics/content.xml",
+		"/E/SteamLibrary/steamapps/common/X4 Foundations/extensions/kuertee_ui_trade_analytics/ui.xml",
+		"/E/SteamLibrary/steamapps/common/X4 Foundations/extensions/deadair_eco/content.xml"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 118.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"pinned_build_system": "",
+	"project": "main.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 224.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

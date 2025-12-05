@@ -1,0 +1,80 @@
+.clr-roll {
+	color:deepskyblue;}
+.clr-roll-noex {
+	color:orchid;}
+.clr-value {
+	color:deepskyblue;}
+.clr-attr {
+	color:#008e02;}
+.clr-sa {
+	color:#27827f;}
+.clr-pa {
+	color:#b3374e;}
+.clr-dc {
+	color:mediumvioletred;}
+.clr-save {}
+.clr-upcast {}
+.clr-quali {}
+.clr-field {}
+.clr-zone {}
+.clr-exper {
+	color:darkblue;}
+
+.clr-bonus {
+	color:lawngreen;}
+.clr-malus {
+	color:red;}
+
+.clr-mpcost {
+	font-weight: bold;
+	color:#419dc1;}
+.clr-encost {
+	font-weight: bold;
+	color:#c14700;}
+
+.clr-mp {
+	color:#419dc1;}
+.clr-en {
+	color:#c14700;}
+
+.clr-chaos {}
+.clr-sorc {}
+
+.clr-conc {}
+.clr-ritual {}
+.clr-reaction {}
+.clr-alchi {}
+.clr-alchitype {}
+.clr-support {
+	color:green;}
+.clr-heal {
+	color:darkred;}
+.clr-affliction {
+	color:#6b7529;}
+.clr-control {
+	color:#00369b;}
+.clr-sd {
+	color:#9a00b2;}
+.clr-def {
+	color:#9a00b2;}
+.clr-movement {
+	color:#c19e00;}
+.clr-meta {
+	color:#00369b;}
+.clr-counter {
+	color:#b20080;}
+.clr-summon {}
+.clr-terrain {
+	color:brown;}
+.clr-necro {
+	color:black;}
+
+.hide {
+	display:none;
+}
+
+
+.clr-sunlight {
+	color:#c99400;}
+.clr-moonlight {
+	color:#689cb3;}

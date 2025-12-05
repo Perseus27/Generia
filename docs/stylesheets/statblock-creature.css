@@ -1,0 +1,138 @@
+.creature-block {
+	background: rgba(180,180,180,0.1);
+    padding: 8px;
+    margin-top: 2em;
+    border: 2px solid var(--md-default-fg-color--lighter);
+	border-radius: 5px;
+}
+.creature-toprow {
+    padding: 0px;}
+
+.creature-content-head {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;}
+.creature-general {
+    border: 1px solid rgb(64, 64, 64);
+    margin: 1px;
+    width: 49.75%;}
+@media screen and (max-width: 1200px) {
+  .creature-general {
+    width: 100%;
+  }
+}
+.creature-value-table {
+    float: left;
+    padding: 1px;
+    margin: 1px;
+    width: 32%;
+    font-size: 0.6rem;}
+.creature-info {
+    font-size: 0.6rem;
+    line-height: 1em;
+    float: left;
+    width: 30%;}
+.creature-info-container {
+    margin-left: 0.5em;
+}
+.creature-notes {
+    font-size: 0.5rem;
+    float: left;
+    width: 70%;}
+
+.creature-content-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;}
+.creature-content-tile {
+    font-size: 0.5rem;
+    border: 1px solid rgb(64, 64, 64);
+    margin: 1px;
+    width: 40%;}
+@media screen and (max-width: 1200px) {
+  .creature-content-tile {
+    width: 100%;
+  }
+}
+.creature-content-loot {
+    font-size: 0.5rem;
+    border: 1px solid rgb(64, 64, 64);
+    margin: 1px;
+    width: 19.3%;}
+@media screen and (max-width: 1200px) {
+  .creature-content-loot {
+    width: 100%;
+  }
+}
+
+
+.creature-block ul {
+    margin: 1px 0 1px;
+}
+.creature-block li {
+    line-height: 1em;
+    padding: 0;
+    margin: 0 0 2px 2px !important;}
+.creature-block li::marker {
+    content: "• ";}
+.creature-block h3 {
+    margin: 0px;}
+.creature-block h6 {
+    font-size: 0.7rem;
+    color: lightslategrey;
+    margin: 0 0 0 0.2rem;}
+
+
+.creature-action-container {
+    border: 1px solid rgb(42, 42, 42);
+    line-height: 0.55rem;
+    margin: 0.2rem 0;
+}
+
+.creature-action-name {
+    font-weight: bold;
+}
+.creature-action-type {
+    font-style: italic;
+    font-size: 0.4rem;
+}
+
+
+
+
+.creature-block .table {
+    margin: 0;
+	background: 0;
+    border-spacing: 0.5em 0em;
+}
+.creature-block .table tr td {
+	background: 0;
+    width: auto;
+    border: none;
+}
+.creature-block .creature-value-table .table {
+    border-spacing: 0em 0em;
+}
+.creature-block .creature-value-table .table td {
+    border-collapse: collapse;
+    padding: 0 0.8em 0;
+}
+.creature-block .creature-value-table .table tr:nth-of-type(odd) {
+	background: rgba(255, 255, 255, 0.05);
+}
+
+.creature-table-title {
+    font-size: 0.6rem;
+    font-weight: bold;
+    margin-left: 4px;
+    color: slategrey;
+}
+.creature-subtile-title {
+    font-size: 0.6rem;
+    font-weight: bold;
+    margin-left: 4px;
+    color: slategrey;
+}
+.creature-info-text {
+    font-size: 1rem;
+}

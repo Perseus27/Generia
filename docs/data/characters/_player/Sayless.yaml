@@ -1,0 +1,105 @@
+name: Sayless
+id: Sayless
+info:
+  species: Alb
+  level: 12
+  size: Medium
+  classes: "Nox, Archer"
+  tags: "–"
+notes: >
+  635 XP
+  [br]
+  [br]85 SP Base
+  [br]+10 Bonus
+  [br]+5 Challenge
+  [br]+5 Lv5 Boss
+  [br]== 105 Total
+  [br]REST 1
+
+attributes:
+  CON: ["5", "2"]
+  STR: ["6", "3"]
+  DEX: ["8", "[section:clr-bonus]5[/section]"]
+  INT: ["5", "2"]
+  WIL: ["4", "2"]
+  PER: ["6", "3"]
+values:
+  EN: 15
+  MP: 10
+  MPR: 1
+  WL: 4
+  WT: 6
+  TN: 3
+  MS: 6
+armor:
+  head: 3
+  torso: 7
+  arms: 5
+  legs: 3
+  md: 3
+  enc: 0
+inventory:
+  weapons:
+    - name: "Hunting Bow+1"
+      damage: "[section:clr-roll]1d6+4[/section]"
+      hit: "Hit+10"
+    - name: "20× Arrows, light"
+      damage: "[section:clr-roll]1d6[/section]"
+    - name: "Smallsword+1"
+      enchantment: "[section:clr-bonus]Sharp I[/section]"
+      damage: "[section:clr-roll]2d6+2[/section]"
+      hit: "Hit+10, Block+7|4"
+    - name: "Dagger"
+      damage: "[section:clr-roll]2d6[/section]"
+  armor:
+    - name: "Leather Helmet+1"
+    - name: "Leather Armor+1"
+    - name: "Leather Gauntlets+2"
+    - name: "Padded Greaves+1"
+      enchantment: "[section:clr-bonus]DEX+1[/section]"
+    - name: "Nox Amulet+3"
+  misc:
+    - ""
+actions:
+  skills:
+    - "[url:skills2#Multishot]Multishot[/url]"
+    - "[url:skills1#AimedShot]Unpredictable Shot[/url]"
+    - "[url:skills2#HoldBreath]Hold Breath[/url]"
+    - "[url:skills2#Overwatch]Overwatch[/url]"
+    - "[url:skills1#AimedShot]Aimed Shot[/url]"
+    - "[url:skills1#AimedStrike]Aimed Strike[/url]"
+    - "[url:skills1#Counter]Counter[/url]"
+  spells:
+    - "[url:noxS#ShadowStrike]Shadow Strike[/url]"
+    - "[url:noxS#ShadowCloak]Shadow Cloak[/url]"
+    - "[url:noxS#ShadowSummoning]Shadow Summoning[/url]"
+    - "[url:noxS#ShadowRun]Shadow Run[/url]"
+    - "[url:noxS#Terror]Terror [section:clr-dc]13[/section][/url]"
+    - "[url:noxS#Blur]Blur[/url]"
+  rituals: 
+    - ""
+proficiencies:
+  magic:
+    - "Nox: Beginner"
+    - "[i]Night 2[/i]"
+  weapons:
+    - "Ranged: Beginner"
+    - "[i]Shortbows 5[/i]"
+    - "Stabbing: Beginner"
+    - "[i]Swords 3[/i]"
+  civilian:
+    - "[i]Hunting 2[/i]"
+    - "[i]Rites 1[/i]"
+    - "[i]Stealth 2[/i]"
+    - "[i]Stealing 2[/i]"
+    - "[i]Survival 1[/i]"
+perks:
+  special:
+    - "[url:species#Alb]Dark Heritage[/url]"
+    - "[url:species#Alb]Dissonance[/url]"
+  
+  combat:
+    - "[url:perksC#Opportunist]Opportunist[/url]"
+  
+  magic:
+    - ""

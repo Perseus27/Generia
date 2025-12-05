@@ -1,0 +1,193 @@
+site_name: Generia
+site_url: https://perseus27.github.io/generia/
+repo_url: https://github.com/perseus27/generia
+repo_name: perseus27/generia
+
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: slate
+      primary: blue grey
+      accent: blue grey
+  features:
+    - navigation.sections
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      toc_depth: 0
+
+
+plugins:
+  - search
+  - awesome-pages
+  - macros
+
+
+extra:
+  generator: false
+
+
+extra_css:
+  - stylesheets/typography.css
+  - stylesheets/sections.css
+  - stylesheets/containers.css
+  - stylesheets/tables.css
+  - stylesheets/statblock-character.css
+  - stylesheets/statblock-creature.css
+  - stylesheets/sidebar-extra.css
+
+extra_javascript:
+  - javascripts/sidebar-extra.js
+
+
+nav:
+  - Home: index.md
+  - Rules:
+    - Basic:
+      - rules/basic/definitions.md
+      - rules/basic/core-mechanics.md
+      - rules/basic/attributes.md
+      - rules/basic/skill-points.md
+      - rules/basic/values.md
+      - rules/basic/charisma.md
+      - rules/basic/universal-actions.md
+    - Combat:
+      - rules/combat/status-effects.md
+      - rules/combat/damage-types.md
+      - rules/combat/wounds.md
+    - Magic:
+      - rules/magic/freecasting.md
+      - rules/magic/chaotic-magic.md
+    - Equipment:
+      - rules/equipment/equipment-tags.md
+      - rules/equipment/weapon-skills.md
+    - Miscellaneous:
+      - rules/misc/creature-sizes.md
+      - rules/misc/creature-tags.md
+      - rules/misc/species.md
+      - rules/misc/traveling.md
+  - Character Building:
+    - Classes:
+      - character/classes/class-overview.md
+      - Tier I:
+        - character/classes/tier-i/class-acolyte.md
+        - character/classes/tier-i/class-alchemist.md
+        - character/classes/tier-i/class-archer.md
+        - character/classes/tier-i/class-bard.md
+        - character/classes/tier-i/class-druid.md
+        - character/classes/tier-i/class-fighter.md
+        - character/classes/tier-i/class-marauder.md
+        - character/classes/tier-i/class-nox.md
+        - character/classes/tier-i/class-shaman.md
+        - character/classes/tier-i/class-sorcerer.md
+        - character/classes/tier-i/class-wizard.md
+      - Tier II:
+        - character/classes/tier-ii/class-arsenalist.md
+        - character/classes/tier-ii/class-assassin.md
+        - character/classes/tier-ii/class-berserker.md
+        - character/classes/tier-ii/class-binder.md
+        - character/classes/tier-ii/class-breaker.md
+        - character/classes/tier-ii/class-charlatan.md
+        - character/classes/tier-ii/class-duelist.md
+        - character/classes/tier-ii/class-engineer.md
+        - character/classes/tier-ii/class-field-archer.md
+        - character/classes/tier-ii/class-hermetician.md
+        - character/classes/tier-ii/class-hunter.md
+        - character/classes/tier-ii/class-kinetician.md
+        - character/classes/tier-ii/class-medic.md
+        - character/classes/tier-ii/class-meteorician.md
+        - character/classes/tier-ii/class-monk.md
+        - character/classes/tier-ii/class-moon-priest.md
+        - character/classes/tier-ii/class-moon-warden.md
+        - character/classes/tier-ii/class-shieldbearer.md
+        - character/classes/tier-ii/class-siren.md
+        - character/classes/tier-ii/class-skald.md
+        - character/classes/tier-ii/class-slasher.md
+        - character/classes/tier-ii/class-sorcerer-ii.md
+        - character/classes/tier-ii/class-spellblade.md
+        - character/classes/tier-ii/class-spellbow.md
+        - character/classes/tier-ii/class-stabber.md
+        - character/classes/tier-ii/class-summoner.md
+        - character/classes/tier-ii/class-sun-envoy.md
+        - character/classes/tier-ii/class-sun-cleric.md
+        - character/classes/tier-ii/class-therianthrope.md
+        - character/classes/tier-ii/class-thermician.md
+        - character/classes/tier-ii/class-treewarden.md
+        - character/classes/tier-ii/class-troubadour.md
+        - character/classes/tier-ii/class-war-dancer.md
+        - character/classes/tier-ii/class-wildkeeper.md
+      - Tier III:
+        - character/classes/tier-iii/class-alchimetician.md
+        - character/classes/tier-iii/class-banshee.md
+        - character/classes/tier-iii/class-champion.md
+        - character/classes/tier-iii/class-elementalist.md
+        - character/classes/tier-iii/class-magister.md
+        - character/classes/tier-iii/class-magus.md
+        - character/classes/tier-iii/class-moon-dancer.md
+        - character/classes/tier-iii/class-ranger.md
+        - character/classes/tier-iii/class-templar.md
+        - character/classes/tier-iii/class-virtuoso.md
+        - character/classes/tier-iii/class-wayfarer.md
+    - Perks:
+      - character/perks/perks-combat.md
+      - character/perks/perks-combat-exclusive.md
+      - character/perks/perks-magic.md
+      - character/perks/perks-magic-exclusive.md
+      - character/perks/perks-divine.md
+    - Proficiencies:
+      - character/proficiencies/proficiencies-weapons.md
+      - character/proficiencies/proficiencies-spellcasting.md
+      - character/proficiencies/proficiencies-civilian.md
+    - Skills:
+      - character/skills/skills-tier-i.md
+      - character/skills/skills-tier-ii.md
+      - character/skills/skills-tier-iii.md
+      - character/skills/skills-exclusive.md
+    - Spellcasting Traditions:
+      - Acolyte:
+        - character/spellcasting-traditions/acolyte/what-is-an-acolyte.md
+        - character/spellcasting-traditions/acolyte/acolyte-spells.md
+      - Alchemist:
+        - character/spellcasting-traditions/alchemist/what-is-an-alchemist.md
+        - character/spellcasting-traditions/alchemist/alchemist-spells.md
+      - Bard:
+        - character/spellcasting-traditions/bard/what-is-a-bard.md
+        - character/spellcasting-traditions/bard/bard-spells.md
+      - Druid:
+        - character/spellcasting-traditions/druid/what-is-a-druid.md
+        - character/spellcasting-traditions/druid/druid-spells.md
+      - Nox:
+        - character/spellcasting-traditions/nox/what-is-a-nox.md
+        - character/spellcasting-traditions/nox/nox-spells.md
+      - Shaman:
+        - character/spellcasting-traditions/shaman/what-is-a-shaman.md
+        - character/spellcasting-traditions/shaman/shaman-spells.md
+      - Sorcerer:
+        - character/spellcasting-traditions/sorcerer/what-is-a-sorcerer.md
+        - character/spellcasting-traditions/sorcerer/sorcerer-spells.md
+      - Tempering:
+        - character/spellcasting-traditions/tempering/what-is-a-tempered.md
+        - character/spellcasting-traditions/tempering/tempering-spells.md      
+      - Wizard:
+        - character/spellcasting-traditions/wizard/what-is-a-wizard.md
+        - character/spellcasting-traditions/wizard/wizard-spells-hermetics.md
+        - character/spellcasting-traditions/wizard/wizard-spells-kinetics.md
+        - character/spellcasting-traditions/wizard/wizard-spells-meteorics.md
+        - character/spellcasting-traditions/wizard/wizard-spells-thermics.md
+        - character/spellcasting-traditions/wizard/wizard-spells-exclusive.md
+  - Equipment:
+    - equipment/armor.md
+    - equipment/weapons.md
+    
+  - Bestiary: bestiary/index.md

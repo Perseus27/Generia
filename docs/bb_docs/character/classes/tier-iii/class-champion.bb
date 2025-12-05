@@ -1,0 +1,28 @@
+[h2]Description[/h2]
+Champions form the backbone of armies and high-tier adventuring guilds. Their masterful use of martial weapons and excellent tactical training make them highly effective in specialized groups.
+[h4]Prerequisites[/h4]
+Any [section:clr-value]two[/section] [url:class1/class-fighter]Fighter[/url] subclasses
+[h4]Subclasses[/h4]
+
+
+[h2]Abilities[/h2]
+[h4]Perks – Combat[/h4]
+[ul]
+[li][/li]
+[/ul]
+[h4]Perks – Magic[/h4]
+[ul]
+[li][/li]
+[/ul]
+[h4]Weapons[/h4]
+[ul]
+[li][/li]
+[/ul]
+[h4]Skills[/h4]
+[ul]
+[li][/li]
+[/ul]
+[h4]Spells[/h4]
+[ul]
+[li][/li]
+[/ul]
