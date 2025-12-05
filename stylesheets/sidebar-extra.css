@@ -1,0 +1,21 @@
+/* Styling for custom boxes in the right sidebar */
+.sidebar-extra {
+  margin-top: 1rem;
+  padding: .75rem .9rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 8px;
+  background: var(--md-default-bg-color);
+}
+.sidebar-extra h3 { margin: 0 0 .5rem; font-size: 1.2rem; text-transform: uppercase; opacity: .8; }
+.sidebar-extra h4 { margin: 0 0 .1rem; font-size: .9rem; text-transform: uppercase; opacity: .8; }
+.sidebar-extra ul { margin: 0 0; }
+.sidebar-extra li { margin: .1rem 0; }
+
+.sidebar-extra h5 {
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+.sidebar-extra hr {
+  border: 1px solid;
+}

@@ -1,0 +1,3992 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://perseus27.github.io/generia/rules/combat/status-effects/">
+      
+      
+        <link rel="prev" href="../../basic/universal-actions/">
+      
+      
+        <link rel="next" href="../damage-types/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.34">
+    
+    
+      
+        <title>Status Effects - Generia</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.35f28582.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/typography.css">
+    
+      <link rel="stylesheet" href="../../../stylesheets/sections.css">
+    
+      <link rel="stylesheet" href="../../../stylesheets/containers.css">
+    
+      <link rel="stylesheet" href="../../../stylesheets/tables.css">
+    
+      <link rel="stylesheet" href="../../../stylesheets/statblock-character.css">
+    
+      <link rel="stylesheet" href="../../../stylesheets/statblock-creature.css">
+    
+      <link rel="stylesheet" href="../../../stylesheets/sidebar-extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="blue-grey">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Generia" class="md-header__button md-logo" aria-label="Generia" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Generia
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Status Effects
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="blue-grey"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/perseus27/generia" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    perseus27/generia
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Generia" class="md-nav__button md-logo" aria-label="Generia" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Generia
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/perseus27/generia" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    perseus27/generia
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Rules
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Rules
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Basic
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            Basic
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../basic/definitions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Definitions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../basic/core-mechanics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Core Mechanics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../basic/attributes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Attributes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../basic/skill-points/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Skill Points
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../basic/values/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Values
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../basic/charisma/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Charisma
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../basic/universal-actions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Universal Actions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Combat
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Combat
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Status Effects
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../damage-types/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Damage Types
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wounds/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Wounds
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Magic
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Magic
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magic/freecasting/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Freecasting
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magic/chaotic-magic/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Chaotic Magic
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Equipment
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            Equipment
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipment/equipment-tags/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Equipment Tags
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipment/weapon-skills/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Weapon Skills
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Miscellaneous
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            Miscellaneous
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../misc/creature-sizes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creature Sizes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../misc/creature-tags/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creature Tags
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../misc/species/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Species
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../misc/traveling/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Traveling
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Character Building
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Character Building
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Classes
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            Classes
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/class-overview/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Classes – Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1_2" id="__nav_3_1_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Tier I
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_1_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1_2">
+            <span class="md-nav__icon md-icon"></span>
+            Tier I
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-i/class-acolyte/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Acolyte
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-i/class-alchemist/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Alchemist
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-i/class-archer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Archer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-i/class-bard/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Bard
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-i/class-druid/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Druid
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-i/class-fighter/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Fighter
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-i/class-marauder/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Marauder
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-i/class-nox/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Nox
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-i/class-shaman/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Shaman
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-i/class-sorcerer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Sorcerer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-i/class-wizard/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Wizard
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1_3" id="__nav_3_1_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Tier II
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_1_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1_3">
+            <span class="md-nav__icon md-icon"></span>
+            Tier II
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-ii/class-arsenalist/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Arsenalist
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-ii/class-assassin/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Assassin
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-ii/class-berserker/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Berserker
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-ii/class-binder/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Binder
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-ii/class-breaker/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Breaker
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-ii/class-charlatan/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Charlatan
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-ii/class-duelist/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Duelist
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-ii/class-engineer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Engineer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-ii/class-field-archer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Field Archer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-ii/class-hermetician/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Hermetician
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-ii/class-hunter/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Hunter
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-ii/class-kinetician/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Kinetician
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-ii/class-medic/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Medic
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-ii/class-meteorician/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Meteorician
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-ii/class-monk/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Monk
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-ii/class-moon-priest/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Moon Priest
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-ii/class-moon-warden/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Moon Warden
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-ii/class-shieldbearer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Shieldbearer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-ii/class-siren/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Siren
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-ii/class-skald/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Skald
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-ii/class-slasher/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Slasher
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-ii/class-sorcerer-ii/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Sorcerer II
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-ii/class-spellblade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Spellblade
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-ii/class-spellbow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Spellbow
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-ii/class-stabber/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Stabber
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-ii/class-summoner/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Summoner
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-ii/class-sun-envoy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Sun Envoy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-ii/class-sun-cleric/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Sun Cleric
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-ii/class-therianthrope/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Therianthrope
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-ii/class-thermician/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Thermician
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-ii/class-treewarden/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Treewarden
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-ii/class-troubadour/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Troubadour
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-ii/class-war-dancer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – War Dancer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-ii/class-wildkeeper/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Wildkeeper
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1_4" id="__nav_3_1_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Tier III
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_1_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1_4">
+            <span class="md-nav__icon md-icon"></span>
+            Tier III
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-iii/class-alchimetician/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Alchimetician
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-iii/class-banshee/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Banshee
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-iii/class-champion/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Champion
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-iii/class-elementalist/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Elementalist
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-iii/class-magister/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Magister
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-iii/class-magus/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Magus
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-iii/class-moon-dancer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Moon Dancer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-iii/class-ranger/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Ranger
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-iii/class-templar/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Templar
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-iii/class-virtuoso/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Virtuoso
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/classes/tier-iii/class-wayfarer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Class – Wayfarer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Perks
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Perks
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/perks/perks-combat/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Perks – Combat
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/perks/perks-combat-exclusive/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Perks – Combat – Exclusive
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/perks/perks-magic/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Perks – Magic
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/perks/perks-magic-exclusive/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Perks – Magic – Exclusive
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/perks/perks-divine/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Perks – Divine
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Proficiencies
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Proficiencies
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/proficiencies/proficiencies-weapons/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Proficiencies – Weapons
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/proficiencies/proficiencies-spellcasting/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Proficiencies – Spellcasting
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/proficiencies/proficiencies-civilian/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Proficiencies – Civilian
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Skills
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            Skills
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/skills/skills-tier-i/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Skills – Tier I
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/skills/skills-tier-ii/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Skills – Tier II
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/skills/skills-tier-iii/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Skills – Tier III
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/skills/skills-exclusive/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Skills – Exclusive
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Spellcasting Traditions
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            Spellcasting Traditions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5_1" id="__nav_3_5_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Acolyte
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            Acolyte
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/spellcasting-traditions/acolyte/what-is-an-acolyte/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    What is an Acolyte?
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/spellcasting-traditions/acolyte/acolyte-spells/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Acolyte Spells
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5_2" id="__nav_3_5_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Alchemist
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            Alchemist
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/spellcasting-traditions/alchemist/what-is-an-alchemist/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    What is an Alchemist?
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/spellcasting-traditions/alchemist/alchemist-spells/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Alchemist Spells
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5_3" id="__nav_3_5_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Bard
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            Bard
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/spellcasting-traditions/bard/what-is-a-bard/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    What is a Bard?
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/spellcasting-traditions/bard/bard-spells/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bard Spells
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5_4" id="__nav_3_5_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Druid
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_5_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5_4">
+            <span class="md-nav__icon md-icon"></span>
+            Druid
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/spellcasting-traditions/druid/what-is-a-druid/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    What is a Druid?
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/spellcasting-traditions/druid/druid-spells/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Druid Spells
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5_5" id="__nav_3_5_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Nox
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_5_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5_5">
+            <span class="md-nav__icon md-icon"></span>
+            Nox
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/spellcasting-traditions/nox/what-is-a-nox/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    What is a Nox?
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/spellcasting-traditions/nox/nox-spells/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Nox Spells
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5_6" id="__nav_3_5_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Shaman
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_5_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5_6">
+            <span class="md-nav__icon md-icon"></span>
+            Shaman
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/spellcasting-traditions/shaman/what-is-a-shaman/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    What is a Shaman?
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/spellcasting-traditions/shaman/shaman-spells/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Shaman Spells
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5_7" id="__nav_3_5_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sorcerer
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_5_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5_7">
+            <span class="md-nav__icon md-icon"></span>
+            Sorcerer
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/spellcasting-traditions/sorcerer/what-is-a-sorcerer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    What is a Sorcerer?
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/spellcasting-traditions/sorcerer/sorcerer-spells/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sorcerer Spells
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5_8" id="__nav_3_5_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Tempering
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_5_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5_8">
+            <span class="md-nav__icon md-icon"></span>
+            Tempering
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/spellcasting-traditions/tempering/what-is-a-tempered/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    What is a Tempered?
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/spellcasting-traditions/tempering/tempering-spells/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tempering Spells
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5_9" id="__nav_3_5_9_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Wizard
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_5_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5_9">
+            <span class="md-nav__icon md-icon"></span>
+            Wizard
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/spellcasting-traditions/wizard/what-is-a-wizard/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    What is a Wizard?
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/spellcasting-traditions/wizard/wizard-spells-hermetics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Wizard Spells - Hermetics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/spellcasting-traditions/wizard/wizard-spells-kinetics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Wizard Spells - Kinetics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/spellcasting-traditions/wizard/wizard-spells-meteorics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Wizard Spells - Meteorics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/spellcasting-traditions/wizard/wizard-spells-thermics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Wizard Spells - Thermics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../character/spellcasting-traditions/wizard/wizard-spells-exclusive/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Wizard Spells - Exclusive
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Equipment
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Equipment
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../equipment/armor/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Armor
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../equipment/weapons/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Weapons
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../bestiary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bestiary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<p><template id="sidebar-extra">
+<br />
+<div class="sidebar-extra">
+    <h3>Navigation</h3>
+    <h5><a href="#Definitions">Definitions</a></h5>
+    <br>
+    <h5><a href="#DoTHoT">DoT / HoT</a></h5>
+    <ul>
+        <li><a href="#Bleeding">Bleeding</a></li>
+        <li><a href="#Burning">Burning</a></li>
+        <li><a href="#Decay">Decay</a></li>
+        <li><a href="#Lightburn">Lightburn</a></li>
+        <li><a href="#Poisoned">Poisoned</a></li>
+        <li><a href="#Regeneration">Regeneration</a></li>
+        <li><a href="#Spellburn">Spellburn</a></li>
+    </ul>
+    <br>
+    <h5><a href="#AfflictionAndControl">Affliction and Control</a></h5>
+    <ul>
+        <li><a href="#Blinded">Blinded</a></li>
+        <li><a href="#Brittle">Brittle</a></li>
+        <li><a href="#Charmed">Charmed</a></li>
+        <li><a href="#Chilled">Chilled</a></li>
+        <li><a href="#Confused">Confused</a></li>
+        <li><a href="#Corrupted">Corrupted</a></li>
+        <li><a href="#Disarmed">Disarmed</a></li>
+        <li><a href="#Frail">Frail</a></li>
+        <li><a href="#Frightened">Frightened</a></li>
+        <li><a href="#Frozen">Frozen</a></li>
+        <li><a href="#GhoulPlague">Ghoul Plague</a></li>
+        <li><a href="#Grappled">Grappled</a></li>
+        <li><a href="#Hyperpathia">Hyperpathia</a></li>
+        <li><a href="#Knockback">Knockback</a></li>
+        <li><a href="#OffBalance">Off-Balance</a></li>
+        <li><a href="#Panicked">Panicked</a></li>
+        <li><a href="#Prone">Prone</a></li>
+        <li><a href="#Restrained">Restrained</a></li>
+        <li><a href="#Shocked">Shocked</a></li>
+        <li><a href="#Silenced">Silenced</a></li>
+        <li><a href="#Slowed">Slowed</a></li>
+        <li><a href="#Stunned">Stunned</a></li>
+        <li><a href="#Vulnerable">Vulnerable</a></li>
+        <li><a href="#Weakened">Weakened</a></li>
+    </ul>
+    <br>
+    <h5><a href="#Support">Support</a></h5>
+    <ul>
+        <li><a href="#Hidden">Hidden</a></li>
+        <li><a href="#Immune">Immune</a></li>
+        <li><a href="#Levitating">Levitating</a></li>
+        <li><a href="#Resitant">Resistant</a></li>
+    </ul>
+    <br>
+    <h5><a href="#Misc">Miscellaneous</a></h5>
+    <ul>
+        <li><a href="#Confined">Confined</a></li>
+        <li><a href="#Isolated">Isolated</a></li>
+        <li><a href="#Unconscious">Unconscious</a></li>
+    </ul>
+    <br>
+    <h5><a href="#BonusesAndPenalties">Bonuses & Penalties</a></h5>
+    <ul>
+        <li><a href="#AttackBonus">Attack Bonus</a></li>
+        <li><a href="#AttackMalus">Attack Malus</a></li>
+        <li><a href="#DamageBonus">Damage Bonus</a></li>
+        <li><a href="#DamageMalus">Damage Malus</a></li>
+        <li><a href="#DefenseBonus">Defense Bonus</a></li>
+        <li><a href="#DefenseMalus">Defense Malus</a></li>
+        <li><a href="#HealingBonus">Healing Bonus</a></li>
+        <li><a href="#HealingMalus">Healing Malus</a></li>
+        <li><a href="#MovementBonus">Movement Bonus</a></li>
+        <li><a href="#MovementMalus">Movement Malus</a></li>
+        <li><a href="#SaveBonus">Save Bonus</a></li>
+        <li><a href="#SaveMalus">Save Malus</a></li>
+    </ul>    
+  </div></p>
+<p></template></p>
+<h1 id="status-effects">Status Effects</h1>
+<h1 id='Definitions'>Definitions</h1>
+<h2>Stacking Effects</h2>
+<h4>Damage Tiers</h4>
+<p>Status effects that deal damage against <a href='/generia/rules/basic/values#TN'>Toughness (TN)</a> or heal over time (e.g., <a href='#Bleeding'>Bleeding</a>, <a href='#Burning'>Burning</a>, <a href='#Poisoned'>Poisoned</a>, <a href='#Regeneration'>Regeneration</a>) can stack with repeated application. The maximum tier is <span class='clr-value section'><strong>5</strong></span>.<br><strong>Example:</strong> A creature has <a href='#Bleeding'>Bleeding 1</a>. If it receives Bleeding 1 (or 2) again, the effect increases to Bleeding 2 (or 3).<br>At the start of each round, the creature may make a <span class='clr-attr section'>CON</span> <span class='clr-save section'>Save</span> against <strong>[ <span class='clr-zahl section'>10 + tier</span> ]</strong>. On a success, reduce the tier by <span class='clr-zahl section'>1</span>.
+<h2>Determined Check (Origin Value)</h2></p>
+<p>The status effect’s <span class='clr-dc section'>Determined Check (DC)</span> equals:</p>
+<ul><li>for magical origin: <strong>10 + <span class='clr-attr section'>spell attack attribute MOD</span></strong></li><li>for physical origin (e.g., <em><a href='#Stunned'>stunned</a></em> by a blunt weapon): <strong>10 + <span class='clr-attr section'>STR-MOD</span></strong></li><li>or another value, if specified in the effect description.</li></ul>
+<h4>Removal</h4>
+<p>When an effect is actively dispelled/removed (e.g., by a spell), use the above <strong><span class='clr-dc section'>DC</span></strong> as the check difficulty.
+<hr /><h1 id='DoTHoT'>DoT / HoT</h1></p>
+<div class='statusblock container'><h4 id='Bleeding'>Bleeding</h4><span class='clr-affliction section'>AFFLICTION</span><br>Takes physical damage against <a href='/generia/rules/basic/values#TN'>TN</a> at the start of the turn.<br><strong>Tier 1:</strong> <strong><span class='clr-roll-noex section'>1d4</span></strong><br><strong>Tier 2:</strong> <strong><span class='clr-roll-noex section'>1d6</span></strong><br><strong>Tier 3:</strong> <strong><span class='clr-roll-noex section'>1d8</span></strong><br><strong>Tier 4:</strong> <strong><span class='clr-roll-noex section'>1d10</span></strong><br><strong>Tier 5:</strong> <strong><span class='clr-roll-noex section'>1d12</span></strong><br><em>(Removed by healing magic or healing potions.)</em></div>
+<div class='statusblock container'><h4 id='Burning'>Burning</h4><span class='clr-affliction section'>AFFLICTION</span><br>Takes fire damage against <a href='/generia/rules/basic/values#TN'>TN</a> at the start of the turn.<br><strong>Tier 1:</strong> <strong><span class='clr-roll-noex section'>1d4</span></strong><br><strong>Tier 2:</strong> <strong><span class='clr-roll-noex section'>1d6</span></strong><br><strong>Tier 3:</strong> <strong><span class='clr-roll-noex section'>1d8</span></strong><br><strong>Tier 4:</strong> <strong><span class='clr-roll-noex section'>1d10</span></strong><br><strong>Tier 5:</strong> <strong><span class='clr-roll-noex section'>1d12</span></strong></div>
+<div class='statusblock container'><h4 id='Decay'>Decay</h4><span class='clr-affliction section'>AFFLICTION</span><br>Takes Void damage at the start of the turn against <a href='/generia/rules/basic/values#TN'>Toughness (TN)</a>.<br><strong>Tier 1:</strong> <strong><span class='clr-roll-noex section'>1d4</span></strong><br><strong>Tier 2:</strong> <strong><span class='clr-roll-noex section'>1d6</span></strong><br><strong>Tier 3:</strong> <strong><span class='clr-roll-noex section'>1d8</span></strong><br><strong>Tier 4:</strong> <strong><span class='clr-roll-noex section'>1d10</span></strong><br><strong>Tier 5:</strong> <strong><span class='clr-roll-noex section'>1d12</span></strong></div>
+<div class='statusblock container'><h4 id='Lightburn'>Lightburn</h4><span class='clr-affliction section'>AFFLICTION</span><br>Takes light damage at the start of the turn against <a href='/generia/rules/basic/values#TN'>Toughness (TN)</a>.<br><strong>Tier 1:</strong> <strong><span class='clr-roll-noex section'>1d4</span></strong><br><strong>Tier 2:</strong> <strong><span class='clr-roll-noex section'>1d6</span></strong><br><strong>Tier 3:</strong> <strong><span class='clr-roll-noex section'>1d8</span></strong><br><strong>Tier 4:</strong> <strong><span class='clr-roll-noex section'>1d10</span></strong><br><strong>Tier 5:</strong> <strong><span class='clr-roll-noex section'>1d12</span></strong></div>
+<div class='statusblock container'><h4 id='Poisoned'>Poisoned</h4><span class='clr-affliction section'>AFFLICTION</span><br>Takes poison damage against <a href='/generia/rules/basic/values#TN'>TN</a> at the start of the turn.<br><strong>Tier 1:</strong> <strong><span class='clr-roll-noex section'>1d4</span></strong><br><strong>Tier 2:</strong> <strong><span class='clr-roll-noex section'>1d6</span></strong><br><strong>Tier 3:</strong> <strong><span class='clr-roll-noex section'>1d8</span></strong><br><strong>Tier 4:</strong> <strong><span class='clr-roll-noex section'>1d10</span></strong><br><strong>Tier 5:</strong> <strong><span class='clr-roll-noex section'>1d12</span></strong></div>
+<div class='statusblock container'><h4 id='Regeneration'>Regeneration</h4><span class='clr-support section'>SUPPORT</span><br>Gains healing points at the start of the turn; these accumulate across rounds.<br><strong>Tier 1:</strong> <strong><span class='clr-roll-noex section'>1d4</span></strong><br><strong>Tier 2:</strong> <strong><span class='clr-roll-noex section'>1d6</span></strong><br><strong>Tier 3:</strong> <strong><span class='clr-roll-noex section'>1d8</span></strong><br><strong>Tier 4:</strong> <strong><span class='clr-roll-noex section'>1d10</span></strong><br><strong>Tier 5:</strong> <strong><span class='clr-roll-noex section'>1d12</span></strong><br><em>The effect loses one tier (and any excess points) as soon as a wound is successfully healed (or inflicted).</em><br><em>Ineffective on <a href='/w/generia-perseus27/a/wounds-article#SchwereWunden'>severe wounds</a>.</em><br><em>The effect ends if the creature has no light wounds or the tier drops below 1.</em></div>
+<div class='statusblock container'><h4 id='Spellburn'>Spellburn</h4><span class='clr-affliction section'>AFFLICTION</span><br>Takes arcane damage at the start of the turn against <a href='/generia/rules/basic/values#TN'>Toughness (TN)</a>.<br><strong>Tier 1:</strong> <strong><span class='clr-roll-noex section'>1d4</span></strong><br><strong>Tier 2:</strong> <strong><span class='clr-roll-noex section'>1d6</span></strong><br><strong>Tier 3:</strong> <strong><span class='clr-roll-noex section'>1d8</span></strong><br><strong>Tier 4:</strong> <strong><span class='clr-roll-noex section'>1d10</span></strong><br><strong>Tier 5:</strong> <strong><span class='clr-roll-noex section'>1d12</span></strong></div>
+<h1 id='AfflictionAndControl'>Affliction and Control</h1>
+<div class='statusblock container'><h4 id='Blinded'>Blinded X</h4><span class='clr-affliction section'>AFFLICTION</span><br><a href='/generia/rules/basic/core-mechanics#Disadvantage'>Disadvantage 1</a> on <a href='/generia/rules/basic/definitions#RangedAttack'>ranged attacks</a> and <span class='clr-pa section'>projectile attacks</span>, and on defense rolls against ranged and spell projectiles.<br><em>At the end of each of the creature’s turns, reduce <span class='clr-zahl section'>X</span> by <span class='clr-zahl section'>1</span>.</em></div>
+<div class='statusblock container'><h4 id='Brittle'>Brittle X</h4><span class='clr-affliction section'>AFFLICTION</span><br>The affected <a href='/generia/rules/basic/definitions#HitZone'>hit zone</a> loses <a href='/generia/rules/basic/values#AV'>Armor Value (AV)</a> equal to <span class='clr-value section'>X</span>.<br>If a shield is affected, it loses <a href='/generia/rules/basic/values#BlockStrength'>Block Strength</a> equal to <span class='clr-value section'>X</span>.<br><em>Permanent.</em></div>
+<div class='statusblock container'><h4 id='Charmed'>Charmed</h4><span class='clr-affliction section'>AFFLICTION</span>, <span class='clr-control section'>CONTROL</span><br>Cannot attack the caster’s faction.<br><strong><span class='clr-save section'>Save</span>:</strong> <strong><span class='clr-attr section'>WIL</span></strong> vs <strong><span class='clr-dc section'>DC</span></strong> at the start of the turn or when taking damage.</div>
+<div class='statusblock container'><h4 id='Chilled'>Chilled</h4><span class='clr-affliction section'>AFFLICTION</span>, <span class='clr-control section'>CONTROL</span><br>Counts as <a href='#Slowed'>Slowed</a> and <a href='#Drowsy'>Drowsy</a>.<br><strong><span class='clr-save section'>Save</span>:</strong> <strong><span class='clr-attr section'>CON</span></strong> vs <strong><span class='clr-dc section'>DC</span></strong> at the end of the turn.</div>
+<div class='statusblock container'><h4 id='Confused'>Confused</h4><span class='clr-affliction section'>AFFLICTION</span>, <span class='clr-control section'>CONTROL</span><br><a href='/generia/rules/basic/core-mechanics#Disadvantage'>Disadvantage 1</a> on attack rolls. Cannot communicate with allies.<br><strong><span class='clr-save section'>Save</span>:</strong> <strong><span class='clr-attr section'>INT</span></strong> vs <strong><span class='clr-dc section'>DC</span></strong> at the end of the turn or when taking damage.</div>
+<div class='statusblock container'><h4 id='Corrupted'>Corrupted</h4><span class='clr-affliction section'>AFFLICTION</span><br>Under the destructive influence of the Void.<br><strong>Tier 1:</strong> Healing received is halved.<br><strong>Tier 2:</strong> Healing received is negated. Each severe wound suffered imposes <a href='/generia/rules/basic/core-mechanics#Disadvantage'>Disadvantage 1</a> on attack and defense rolls.<br><strong>Tier 3:</strong> Healing received causes <a href='/generia/rules/combat/damage-types#Absolute'>absolute damage</a>.<br>The wound limit is increased by <span class='clr-value section'>1</span> per tier.<br>Corruption decreases by one tier every <span class='clr-value section'>24 hours</span>. Direct sunlight dramatically accelerates the process (<span class='clr-value section'>2 hours</span>/tier).<br>Corruption always has a <strong><span class='clr-dc section'>DC</span></strong> of <span class='clr-value section'>10 + 2 per tier</span>.</div>
+<div class='statusblock container'><h4 id='Disarmed'>Disarmed</h4><span class='clr-control section'>CONTROL</span><br>An equipped weapon is unavailable until the creature spends any <a href='/generia/rules/basic/definitions#Actions'>action</a> to pick it up/equip it again.</div>
+<div class='statusblock container'><h4 id='Drowsy'>Drowsy</h4><span class='clr-affliction section'>AFFLICTION</span><br><a href='/generia/rules/basic/core-mechanics#Disadvantage'>Disadvantage 1</a> on <span class='clr-attr section'>DEX</span> and <span class='clr-attr section'>PER</span> checks as well as <a href='/w/generia-perseus27/a/keywords-article#Concentration'>concentration</a> saves.<br><strong><span class='clr-save section'>Save</span>:</strong> <strong><span class='clr-attr section'>PER</span></strong> vs <strong><span class='clr-dc section'>DC</span></strong> at the end of the turn.<br>Can be removed by a <a href='/generia/rules/basic/definitions#AttackAction'>melee Attack Action</a> from an ally.</div>
+<div class='statusblock container'><h4 id='Frail'>Frail</h4><span class='clr-affliction section'>AFFLICTION</span><br>Incoming <span class='clr-heal section'>healing points</span> are halved.<br><strong><span class='clr-save section'>Save</span>:</strong> <strong><span class='clr-attr section'>CON</span></strong> vs <strong><span class='clr-value section'>20</span></strong> at the start of the turn.<br>Automatically removed after a wound is healed.</div>
+<div class='statusblock container'><h4 id='Frozen'>Frozen</h4><span class='clr-affliction section'>AFFLICTION</span>, <span class='clr-control section'>CONTROL</span><br>Cannot take actions or reactions.<br><strong><span class='clr-save section'>Save</span>:</strong> <strong><span class='clr-attr section'>STR</span></strong> vs <strong><span class='clr-dc section'>DC</span></strong> at the start of the turn or upon exposure to heat.</div>
+<div class='statusblock container'><h4 id='Frightened'>Frightened</h4><span class='clr-affliction section'>AFFLICTION</span>, <span class='clr-control section'>CONTROL</span><br><a href='/generia/rules/basic/core-mechanics#Disadvantage'>Disadvantage 1</a> on attack rolls. Movement toward an enemy counts as <a href='#Slowed'>Slowed</a>.<br><strong><span class='clr-save section'>Save</span>:</strong> <strong><span class='clr-attr section'>WIL</span></strong> vs <strong><span class='clr-dc section'>DC</span></strong> at the start of the turn or when taking damage.</div>
+<div class='statusblock container'><h4 id='GhoulPlague'>Ghoul Plague</h4><span class='clr-affliction section'>AFFLICTION</span>, <span class='clr-control section'>CONTROL</span><br>Counts as <a href='/generia/rules/combat/status-effects#Weakened'>Weakened</a> and <a href='/generia/rules/combat/status-effects#Slowed'>Slowed</a>.Ghoul plague always has a <strong><span class='clr-dc section'>DC</span></strong> of <span class='clr-value section'>12</span>.<br><em>Can be removed by a successful Medicine check or certain spells.</em></div>
+<div class='statusblock container'><h4 id='Grappled'>Grappled</h4><span class='clr-control section'>CONTROL</span><br>May not perform Movement Actions. <a href='/generia/rules/basic/core-mechanics#Disadvantage'>Disadvantage 2</a> on Dodge, Parry, and Block rolls.<br>The grappler must spend an Attack or Utility Action each turn to maintain the grapple and has <a href='/generia/rules/basic/core-mechanics#Advantage'>Advantage 1</a> on unarmed or short-weapon attacks against the grappled creature.<br>The grappled creature may, as any action, initiate a <strong><span class='clr-attr section'>STR</span></strong> <a href='/generia/rules/basic/core-mechanics#OpposedCheck'>Opposed Check</a> against the grappler.<br>On success, the effect ends and the creature is free.<br>On failure, it remains grappled.</div>
+<div class='statusblock container'><h4 id='Hyperpathia'>Hyperpathia</h4><span class='clr-affliction section'>AFFLICTION</span><br>When the creature suffers a wound, it must succeed on a <strong><span class='clr-attr section'>CON</span></strong> or <strong><span class='clr-attr section'>WIL</span></strong> save against the effect’s <span class='clr-dc section'>DC</span>. On a failure, the status changes to <a href='#Stunned'>Stunned</a>.</div>
+<div class='statusblock container'><h4 id='Knockback'>Knockback X</h4><span class='clr-control section'>CONTROL</span><br>The affected creature is knocked <span class='clr-value section'>X meters</span> away from the effect source, unless another direction is specified. If the effect source is a larger creature, <span class='clr-value section'>X</span> is doubled for each tier of difference. If the effect source is a smaller creature, <span class='clr-value section'>X</span> is halved instead.<br>If the affected creature collides with another creature or environment, certain other status effects (or any combinations thereof) may be triggered, depending on the severity of the collision:<br><strong>Harmless:</strong> No effect<br><strong>Bump:</strong> <a href='#OffBalance'>Off-Balance</a><br><strong>Impact:</strong> <a href='#Prone'>Prone</a><br><strong>Crash:</strong> <a href='#Stunned'>Stunned</a> + <a href='#OffBalance'>Off-Balance</a>/<a href='#Prone'>Prone</a><br>A creature may attempt a <span class='clr-attr section'>CON</span>, <span class='clr-attr section'>STR</span>, or <span class='clr-attr section'>DEX</span> <span class='clr-save section'>save</span> against the knockback&#39;s <span class='clr-dc section'>DC</span> to reduce the effect by one stage.<br><em>The collision severity is determined by the players&#39; and GM&#39;s common sense.</em></div>
+<div class='statusblock container'><h4 id='OffBalance'>Off-Balance</h4><span class='clr-control section'>CONTROL</span><br><a href='/generia/rules/basic/core-mechanics#Disadvantage'>Disadvantage 1</a> on Dodge, Parry, and Block rolls as well as <span class='clr-attr section'>DEX</span> checks.<br>The creature may spend any <a href='/generia/rules/basic/definitions#Actions'>action</a> to end the effect. If it receives the effect a second time, it becomes <a href='#Prone'>Prone</a>.<br>It also becomes <a href='#Prone'>Prone</a> if it is still off-balance at the end of its next turn.<br><em>An ally may spend 2 meters of movement to stabilize the creature and end the effect.</em></div>
+<div class='statusblock container'><h4 id='Panicked'>Panicked</h4><span class='clr-affliction section'>AFFLICTION</span>, <span class='clr-control section'>CONTROL</span><br><a href='/generia/rules/basic/core-mechanics#Disadvantage'>Disadvantage 1</a> on attack rolls. Must use <a href='/generia/rules/basic/definitions#Actions'>all available actions</a> to move as far as possible away from the effect’s originator.<br><strong><span class='clr-save section'>Save</span>:</strong> <strong><span class='clr-attr section'>WIL</span></strong> vs <strong><span class='clr-dc section'>DC</span></strong> at the start of the turn or when taking damage.</div>
+<div class='statusblock container'><h4 id='Prone'>Prone</h4><span class='clr-control section'>CONTROL</span><br>May not perform Movement Actions. <a href='/generia/rules/basic/core-mechanics#Disadvantage'>Disadvantage 2</a> on Dodge, Parry, and Block rolls.<br>At the start of its turn, the creature may spend any <a href='/generia/rules/basic/definitions#Actions'>action</a> to end the effect.<br><em>An ally may spend 4 meters of movement to help the creature up and end the effect.</em></div>
+<div class='statusblock container'><h4 id='Restrained'>Restrained</h4><span class='clr-control section'>CONTROL</span><br>May not perform Movement Actions. <a href='/generia/rules/basic/core-mechanics#Disadvantage'>Disadvantage 2</a> on Dodge, Parry, and Block rolls.<br><strong><span class='clr-save section'>Save</span>:</strong> <strong><span class='clr-attr section'>STR</span></strong> vs <strong><span class='clr-dc section'>DC</span></strong> at the start of the turn.</div>
+<div class='statusblock container'><h4 id='Shocked'>Shocked X</h4><span class='clr-affliction section'>AFFLICTION</span><br>Dodge, Parry, and attack rolls are <a href='/generia/rules/basic/core-mechanics#Hindered'>hindered</a> by <span class='clr-value section'>X</span> until the end of the creature&#39;s next turn.</div>
+<div class='statusblock container'><h4 id='Silenced'>Silenced</h4><span class='clr-affliction section'>AFFLICTION</span><br>Cannot communicate audibly and cannot speak <a href='/w/generia-perseus27/a/magical-definitions-article#Formeln'>spell incantations</a>.</div>
+<div class='statusblock container'><h4 id='Slowed'>Slowed X</h4><span class='clr-affliction section'>AFFLICTION</span>, <span class='clr-control section'>CONTROL</span><br>Movement Speed is halved.<br><em>(Meaning: each meter of movement costs <span class='clr-zahl section'>2</span> MS.)</em><br><em>At the end of each of the creature’s turns, reduce <span class='clr-zahl section'>X</span> by <span class='clr-zahl section'>1</span>.</em></div>
+<div class='statusblock container'><h4 id='Stunned'>Stunned</h4><span class='clr-affliction section'>AFFLICTION</span>, <span class='clr-control section'>CONTROL</span><br><a href='/generia/rules/basic/core-mechanics#Disadvantage'>Disadvantage 1</a> on all rolls (except the <span class='clr-save section'>Save</span> against this effect). Also counts as <a href='#Slowed'>Slowed</a>.<br><strong><span class='clr-save section'>Save</span>:</strong> <strong><span class='clr-attr section'>WIL</span> or <span class='clr-attr section'>CON</span></strong> vs <strong><span class='clr-dc section'>DC</span></strong> at the start of the turn or when taking damage.</div>
+<div class='statusblock container'><h4 id='Vulnerable'>Vulnerable X Y</h4><span class='clr-affliction section'>AFFLICTION</span><br>Incoming damage type <em><strong>X</strong></em> is increased by <span class='clr-zahl section'>50%</span> for <em><strong>Y</strong></em> rounds.<br><em><strong>Example vulnerabilities:</strong> Fire, Ice, Magical, Sharp, Blunt, Physical</em></div>
+<div class='statusblock container'><h4 id='Weakened'>Weakened X</h4><span class='clr-affliction section'>AFFLICTION</span><br><a href='/generia/rules/basic/core-mechanics#Disadvantage'>Disadvantage 1</a> on <a href='/generia/rules/basic/definitions#BasicAttack'>basic attacks</a> for <span class='clr-value section'>X</span> turns.<br><em>At the end of each of the creature’s turns, reduce <span class='clr-zahl section'>X</span> by <span class='clr-zahl section'>1</span>.</em></div>
+<hr /><h1 id='Support'>Support</h1>
+<div class='statusblock container'><h4 id='Hidden'>Hidden X</h4><span class='clr-support section'>SUPPORT</span><br>Gains <a href='/generia/rules/basic/core-mechanics#Advantage'>Advantage X</a> on <a href='/generia/rules/basic/definitions#Sneaking'>Sneaking</a> checks.</div>
+<div class='statusblock container'><h4 id='Immune'>Immune X Y</h4><span class='clr-support section'>SUPPORT</span><br>Incoming damage type <em><strong>X</strong></em> is negated for <em><strong>Y</strong></em> rounds.<br><em><strong>Example immunities:</strong> Fire, Ice, Magical, Sharp, Blunt, Physical</em></div>
+<div class='statusblock container'><h4 id='Levitating'>Levitating</h4><span class='clr-support section'>SUPPORT</span><br>Levitates a certain height above the ground. Levitating MS is effect-dependent.<br><strong>Tier 1:</strong> <strong>2 meters</strong><br><strong>Tier 2:</strong> <strong>4 meters</strong><br><strong>Tier 3:</strong> <strong>6 meters</strong></div>
+<div class='statusblock container'><h4 id='Resistant'>Resistant X Y</h4><span class='clr-support section'>SUPPORT</span><br>Incoming damage type <em><strong>X</strong></em> is halved for <em><strong>Y</strong></em> rounds.<br><em><strong>Example resistances:</strong> Fire, Ice, Magical, Sharp, Blunt, Physical</em></div>
+<hr /><h1 id='Misc'>Miscellaneous</h1>
+<div class='statusblock container'><h4 id='Confined'>Confined</h4>The creature cannot use its full range of movement. Primarily affects <a href='/w/generia-perseus27/a/tags-E28093-equipment-article#Long'>long</a> and <a href='/w/generia-perseus27/a/tags-E28093-equipment-article#Short'>short</a> weapons.<br>A creature counts as <em>confined</em> if:<br><strong>a)</strong> it is positioned directly adjacent to terrain in two or more directions, or<br><strong>b)</strong> it is directly surrounded by three or more creatures of the same (or bigger) size, or<br><strong>c)</strong> common sense dictates that it should be.</div>
+<div class='statusblock container'><h4 id='Isolated'>Isolated</h4>A creature is isolated if its nearest ally is more than 4 meters away.<br>Creatures with the tag <em>Colossus</em> are immune.</div>
+<div class='statusblock container'><h4 id='Unconscious'>Unconscious</h4><em>See also: <a href='/w/generia-perseus27/a/wounds-article#Unconsciousness'>Wounds</a></em><br>Cannot take actions or reactions and counts as <a href='#Prone'>Prone</a>. <a href='/generia/rules/basic/definitions#AttackAction'>Attack Actions</a> against an unconscious creature automatically hit. All <span class='clr-save section'>Saves</span> (except <span class='clr-attr section'>CON</span> saves) automatically fail.<br><strong><span class='clr-save section'>Save</span>:</strong> <strong><span class='clr-attr section'>CON</span></strong> vs <span class='clr-zahl section'>10</span> <a href='/generia/rules/basic/core-mechanics#Hindered'>hindered</a> by <span class='clr-zahl section'>[total wounds * 2]</span> at the start of the turn and when taking damage or receiving healing.<br><em>This save is only possible if the <a href='/generia/rules/basic/values#Wounds'>Wound Limit (WL)</a> has not been reached.</em></div>
+<hr /><h1 id='BonusesAndPenalties'>Bonuses &amp; Penalties</h1>
+<h2>Info</h2>
+<p>If not specified otherwise or upheld by <span class='clr-conc section'>Concentration</span>, bonuses and penalties end after <span class='clr-value section'>one application</span>, or after <span class='clr-value section'>one Phase</span> if they are not applied.<br>Bonuses and penalties can be <em>cleansed</em> by specific spells or items. Their <span class='clr-dc section'>DC</span> equals <span class='clr-value section'>10 + X</span>.</p>
+<div class='statusblock container'><h4 id='AttackBonus'>Attack Bonus X</h4><span class='clr-support section'>SUPPORT</span><br>The next basic attack roll is  <a href='/generia/rules/basic/core-mechanics#Eased'>eased</a> by <strong><span class='clr-value section'>X</span></strong>.<br><em>If not upheld with Concentration:</em></div>
+<div class='statusblock container'><h4 id='AttackPenalty'>Attack Penalty X</h4><span class='clr-affliction section'>AFFLICTION</span><br>The next basic attack roll is <a href='/generia/rules/basic/core-mechanics#Hindered'>hindered</a> by <strong><span class='clr-value section'>X</span></strong>.</div>
+<div class='statusblock container'><h4 id='DamageBonus'>Damage Bonus X</h4><span class='clr-support section'>SUPPORT</span><br>The damage roll of the next basic attack is increased by <strong><span class='clr-value section'>X</span></strong>.<br><em>Ends after the next basic attack, regardless of its success.</em></div>
+<div class='statusblock container'><h4 id='DamagePenalty'>Damage Penalty X</h4><span class='clr-affliction section'>AFFLICTION</span><br>The damage roll of the next basic attack is decreased by <strong><span class='clr-value section'>X</span></strong>.<br><em>Ends after the next basic attack, regardless of its success.</em></div>
+<div class='statusblock container'><h4 id='DefenseBonus'>Defense Bonus X</h4><span class='clr-support section'>SUPPORT</span><br>The next block, dodge, or parry roll is <a href='/generia/rules/basic/core-mechanics#Eased'>eased</a> by <strong><span class='clr-value section'>X</span></strong>.</div>
+<div class='statusblock container'><h4 id='DefensePenalty'>Defense Penalty X</h4><span class='clr-affliction section'>AFFLICTION</span><br>The next block, dodge, or parry roll is <a href='/generia/rules/basic/core-mechanics#Hindered'>hindered</a> by <strong><span class='clr-value section'>X</span></strong>.</div>
+<div class='statusblock container'><h4 id='HealingBonus'>Healing Bonus X</h4><span class='clr-support section'>SUPPORT</span><br>One instance of incoming <span class='clr-healing section'>Healing</span> is increased by <strong><span class='clr-value section'>X</span></strong>.<br><em>HoT effects like <a href='#Regeneration'>Regeneration</a> are not affected.</em></div>
+<div class='statusblock container'><h4 id='HealingPenalty'>Healing Penalty X</h4><span class='clr-affliction section'>AFFLICTION</span><br>One instance of incoming <span class='clr-healing section'>Healing</span> is decreased by <strong><span class='clr-value section'>X</span></strong>.<br><em>HoT effects like <a href='#Regeneration'>Regeneration</a> are not affected.</em></div>
+<div class='statusblock container'><h4 id='MovementBonus'>Movement Bonus X</h4><span class='clr-support section'>SUPPORT</span><br>MS is increased by <strong><span class='clr-value section'>X</span></strong> for the next Movement Action.</div>
+<div class='statusblock container'><h4 id='MovementPenalty'>Movement Penalty X</h4><span class='clr-affliction section'>AFFLICTION</span><br>MS is decreased by <strong><span class='clr-value section'>X</span></strong> for the next Movement Action.</div>
+<div class='statusblock container'><h4 id='SaveBonus'>Save Bonus X</h4><span class='clr-support section'>SUPPORT</span><br>The next save is <a href='/generia/rules/basic/core-mechanics#Eased'>eased</a> by <strong><span class='clr-value section'>X</span></strong>.<br><em>Only applies to non-status effect saves.</em></div>
+<div class='statusblock container'><h4 id='SavePenalty'>Save Penalty X</h4><span class='clr-affliction section'>AFFLICTION</span><br>The next save is <a href='/generia/rules/basic/core-mechanics#Hindered'>hindered</a> by <strong><span class='clr-value section'>X</span></strong>.<br><em>Only applies to non-status effect saves.</em></div>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.sections", "navigation.tracking", "search.suggest", "search.highlight"], "search": "../../../assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.56dfad97.min.js"></script>
+      
+        <script src="../../../javascripts/sidebar-extra.js"></script>
+      
+    
+  </body>
+</html>

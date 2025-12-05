@@ -1,0 +1,58 @@
+.rendered-table {
+    font-size: 0.7rem;
+    width: 100%;
+    overflow-x: auto;
+}
+.rendered-table table, th, td {
+    border: 1px solid var(--md-default-fg-color--lighter);
+    border-collapse: collapse;
+}
+
+.rendered-table table {
+    border: 2px solid var(--md-default-fg-color--lighter);
+    min-width: 100%
+}
+
+.rendered-table th {
+    border: 2px solid var(--md-default-fg-color--lighter);
+    padding: 0 0.5rem 0;
+    font-weight: bold;
+    background-color: var(--md-primary-fg-color);
+}
+.rendered-table td {
+    padding: 0.1rem 0.25rem;
+}
+
+.rendered-table tr:nth-of-type(even) {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.rendered-table tr:hover {
+    background: rgba(200, 79, 79, 0.05);
+}
+
+.rendered-table-inner {
+    margin: 0 0 !important;
+}
+
+.rendered-table h3 {
+    margin: 1rem 0 0 0.2rem;
+}
+
+.armor-table th:nth-child(1) {
+    width: 40%;
+}
+
+
+.weapon-table th:nth-child(1) {
+    width: 15%;
+}
+.weapon-table-melee th:nth-child(9) {
+    width: 36%;
+}
+.weapon-table-ranged th:nth-child(7) {
+    width: 12%;
+}
+.weapon-table-ranged th:nth-child(10) {
+    width: 24%;
+}
