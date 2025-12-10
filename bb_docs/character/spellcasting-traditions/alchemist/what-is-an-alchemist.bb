@@ -5,7 +5,8 @@ Alchemists create tools and substances from magical materials. Their craft serve
 [h2]Transmutation[/h2]
 An alchemist’s creations are called [i]transmutations[/i] and come in two broad types.
 [h4]Permanent[/h4]
-Permanent transmutations require ample preparation and execution time. The resulting item is durable and behaves like a regular piece of equipment. [h3]Volatile[/h3]
+Permanent transmutations require ample preparation and execution time. The resulting item is durable and behaves like a regular piece of equipment.
+[h4]Volatile[/h4]
 Fast, combat‑ready workings cast on the fly. Their effects fade quickly (usually after one Phase) and the product crumbles to dust afterward.
 
 [h2]Focus Gloves[/h2]
