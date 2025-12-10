@@ -55,7 +55,9 @@ TIER I
 
 
 [h2|UtilityI]Utility[/h2]
+
 [h3]Ammunition[/h3]
+
 [container:spell][h2|ElementalAmmunitionI]Elemental Ammunition I[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Mechanics
@@ -98,8 +100,7 @@ TIER I
 [br][b]Lightning:[/b] Shocked [[section:clr-value]Pharmacy[/section]]
 [/container][/container][/container][/container]
 
-
-
+[h3]Other[/h3]
 
 [container:spell][h2|ImprovisedRemedyI]Improvised Remedy I[/h2][container:spell-content][container:spell-columnleft]
 TIER I

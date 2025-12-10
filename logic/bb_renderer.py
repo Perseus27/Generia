@@ -55,8 +55,9 @@ class BB_Renderer:
             'weapons'   :   '/generia/equipment/weapons',
         }
         
-        self.bb_parser = bb.Parser(replace_links=False, newline='', url_template="<a href='{href}'>{text}</a>")
+        self.bb_parser = bb.Parser(replace_links=False, newline='', url_template="<a href='{href}'>{text}</a>", escape_html=False)
         self.bb_parser.add_simple_formatter('br', '<br>', standalone=True)
+        #self.bb_parser.add_simple_formatter('\'', '`', standalone=True)
 
     def process(self, text: str) -> str:
         text = self.process_urls(text)

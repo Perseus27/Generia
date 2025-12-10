@@ -327,6 +327,35 @@ Ghoul plague always has a [b][section:clr-dc]DC[/section][/b] of [section:clr-va
 
 [hr]
 
+[h1|Curses]Curses[/h1]
+[h2]Info[/h2]
+Curses are rare and particularly insidious status effects that cannot be regularly saved against. The must instead be removed through cleansing spells, rituals, or items.
+[h2]Curse Severity[/h2]
+Curses have different level of severity. These are specified in the curse description.
+[h2]Curse DC[/h2]
+The [section:clr-dc]DC[/section] of a curse depends on its severity. The default DC of [section:clr-value]10[/section] is increased by [section:clr-value]5[/section] for each severity level.
+[br][b]Severity 1:[/b] [section:clr-value]15[/section]
+[br][b]Severity 2:[/b] [section:clr-value]20[/section]
+[br][b]Severity 3:[/b] [section:clr-value]25[/section]
+[br][b]etc.[/b]
+
+[container:statusblock]
+[h4|AttributeCurse]Attribute Curse[/h4]
+All rolls involving the specified attribute are [url:core#Hindered]hindered[/url] by [[section:clr-value]Severity[/section]].
+[/container]
+
+[container:statusblock]
+[h4|StatusCurse]Status Curse[/h4]
+Permanently applies a specified [url:status]status effect[/url]. This status effect remains active until the curse is broken.
+[/container]
+
+[container:statusblock]
+[h4|ValueCurse]Value Curse[/h4]
+Directly reduces the specified [url:values]value[/url] by [[section:clr-value]Severity[/section]].
+[/container]
+
+[hr]
+
 [h1|Misc]Miscellaneous[/h1]
 [container:statusblock]
 [h4|Confined]Confined[/h4]

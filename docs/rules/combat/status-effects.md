@@ -53,6 +53,13 @@ title: Status Effects
         <li><a href="#Resitant">Resistant</a></li>
     </ul>
     <br>
+    <h5><a href="#Curses">Curses</a></h5>
+    <ul>
+        <li><a href="#AttributeCurse">Attribute Curse</a></li>
+        <li><a href="#StatusCurse">Status Curse</a></li>
+        <li><a href="#ValueCurse">Value Curse</a></li>
+    </ul>
+    <br>
     <h5><a href="#Misc">Miscellaneous</a></h5>
     <ul>
         <li><a href="#Confined">Confined</a></li>
