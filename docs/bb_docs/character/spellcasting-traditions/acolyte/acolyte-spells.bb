@@ -113,7 +113,7 @@ TIER I
 [container:spell][h2|PrayerToLuna]Prayer to Luna[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Luna
-[br]Out of Combat / Ritual
+[br]Out of Combat
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-ritual]RITUAL[/section][/section]
 [br][b]Material:[/b] —
@@ -130,7 +130,7 @@ TIER I
 [container:spell][h2|PrayerToSol]Prayer to Sol[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Sol
-[br]Out of Combat / Ritual
+[br]Out of Combat
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-ritual]RITUAL[/section][/section]
 [br][b]Material:[/b] —
@@ -147,7 +147,7 @@ TIER I
 [container:spell][h2|Mederi]Mederi[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Luna
-[br]Out of Combat / Ritual
+[br]Out of Combat
 [br][section:clr-support]SUPPORT[/section]
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-ritual]RITUAL[/section][/section]
@@ -161,7 +161,7 @@ TIER I
 [container:spell][h2|Consecration]Consecration[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Sol
-[br]Out of Combat / Ritual
+[br]Out of Combat
 [br][section:clr-support]SUPPORT[/section]
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-ritual]RITUAL[/section][/section]
@@ -342,7 +342,7 @@ TIER II
 [container:spell][h2|HospitiumLunae]Hospitium Lunae[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Luna
-[br]Out of Combat / Ritual
+[br]Out of Combat
 [br][section:clr-support]SUPPORT[/section]
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-ritual]RITUAL[/section][/section]
@@ -357,7 +357,7 @@ TIER II
 [container:spell][h2|HospitiumSolis]Hospitium Solis[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Sol
-[br]Out of Combat / Ritual
+[br]Out of Combat
 [br][section:clr-support]PROTECTION[/section]
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-ritual]RITUAL[/section][/section]
@@ -372,7 +372,7 @@ TIER II
 [container:spell][h2|FountainOfYouth]Fountain of Youth[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Luna
-[br]Out of Combat / Ritual
+[br]Out of Combat
 [br][section:clr-heal]HEAL[/section]
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-ritual]RITUAL[/section][/section]
@@ -387,7 +387,7 @@ TIER II
 [container:spell][h2|Sanare]Sanare[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Luna
-[br]Out of Combat / Ritual
+[br]Out of Combat
 [br][section:clr-support]SUPPORT[/section]
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-ritual]RITUAL[/section][/section]
@@ -401,7 +401,7 @@ TIER II
 [container:spell][h2|Videre]Videre[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Sol
-[br]Out of Combat / Ritual
+[br]Out of Combat
 [br][section:clr-support]SUPPORT[/section]
 [br][section:clr-conc]CONCENTRATION[/section]
 [/container][container:spell-columncenter]
@@ -532,7 +532,7 @@ TIER III
 [container:spell][h2|Prophecy]Prophecy[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Luna
-[br]Out of Combat / Ritual
+[br]Out of Combat
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-ritual]RITUAL[/section][/section]
 [br][b]Material:[/b] Moonstone, reflective surface

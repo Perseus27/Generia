@@ -112,7 +112,7 @@ TIER I
 [container:spell][h2|ThermalManipulation]Thermal Manipulation[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Ice / Fire
-[br]Out of Combat / Ritual
+[br]Out of Combat
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-ritual]RITUAL[/section][/section]
 [br][b]Material:[/b] —

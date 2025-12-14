@@ -108,7 +108,7 @@ TIER I
 [container:spell][h2|PrayerToNox]Prayer to Nox[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Nox
-[br]Out of Combat / Ritual
+[br]Out of Combat
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-ritual]RITUAL[/section][/section]
 [br][section:clr-mpcost]—[/section]

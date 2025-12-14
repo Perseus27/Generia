@@ -159,7 +159,7 @@ TIER I
 [container:spell][h2|MeteoricManipulation]Meteoric Manipulation[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Lightning / Air
-[br]Out of Combat / Ritual
+[br]Out of Combat
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-ritual]RITUAL[/section][/section]
 [br][b]Material:[/b] —

@@ -17,3 +17,5 @@ title: What is an Alchemist?
 
 
 {{ bb_from_file('bb_docs/character/spellcasting-traditions/alchemist/what-is-an-alchemist.bb') }}
+
+{{ table('data/tables/weapons/AlchemistWeapons.yaml') }}

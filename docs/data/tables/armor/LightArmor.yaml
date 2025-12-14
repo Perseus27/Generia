@@ -43,9 +43,9 @@ items:
     slots: –
   - name: "Padded Gauntlets"
     type: "Arms"
-    av: 1
+    av: 2
     enc: 0
-    weight: 0.25
+    weight: 0.5
     slots: –    
   - name: "Cloth Greaves"
     type: "Legs"
@@ -55,7 +55,7 @@ items:
     slots: –
   - name: "Padded Greaves"
     type: "Legs"
-    av: 1
+    av: 2
     enc: 0
-    weight: 0.25
+    weight: 0.5
     slots: –

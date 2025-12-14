@@ -1,0 +1,63 @@
+name: Medium Golem, Mk. I
+id: golem-mk1-medium
+info:
+  species: Construct
+  level: 10
+  size: Medium
+  tags: "Construct, Mindless"
+notes: >
+  [b]See:[/b] [url:/generia/character/spellcasting-traditions/alchemist/what-is-an-alchemist#Golems]Golems[/url]
+  [br][b]Required Material Volume:[/b]
+  [br]Stone: Large barrel
+  [br]Metal: Treasure Chest
+  [br][b]Weight:[/b] 400
+
+attributes:
+  CON: ["7", "3"]
+  STR: ["9", "4"]
+  DEX: ["6", "3"]
+  INT: ["0", "0"]
+  WIL: ["0", "0"]
+  PER: ["3", "1"]
+values:
+  EN: 20
+  MP: 0
+  MPR: 0
+  WL: 3
+  WT: 7
+  TN: 3
+  MS: 4
+armor:
+  head: 1
+  torso: 3
+  arms: 2
+  legs: 2
+  md: 3
+  enc: 0
+custom-hitzones: ["Core", "Torso", "Arms", "Legs"]
+loot:
+  - "Golem Core Mk. I"
+actions:
+  active:
+    - name: "Golem Fist"
+      type: "Melee Attack"
+      hit: "Hit+3, Block+7|3"
+      damage: "[section:clr-roll]1d8+4[/section] Blunt"
+
+    - name: "OPTIONAL EQUIPMENT"
+
+    - name: "Mace & Shield"
+      type: "Melee Attack"
+      hit: "Hit+3, Block+7|9"
+      damage: "[section:clr-roll]2d6+4[/section] Blunt"
+
+    - name: "Spear"
+      type: "Melee Attack, long"
+      hit: "Hit+3, Block+7|7"
+      damage: "[section:clr-roll]2d6+6[/section] Sharp"
+
+  passive:
+    - name: "Proficiencies"
+      type: "Passive"
+      effect: >
+        [url:values#AttackValue]Hit[/url] and [url:values#BlockValue]Block[/url] are increased by [[section:clr-value]Mechanics[/section]].

@@ -147,7 +147,7 @@ TIER I
 [container:spell][h2|KineticManipulation]Kinetic Manipulation[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Stone / Water
-[br]Out of Combat / Ritual
+[br]Out of Combat
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-ritual]RITUAL[/section][/section]
 [br][b]Material:[/b] —
@@ -388,7 +388,7 @@ TIER II
 [container:spell][h2|Well]Well[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Stone / Water
-[br]Out of Combat / Ritual
+[br]Out of Combat
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-ritual]RITUAL[/section][/section]
 [br][b]Material:[/b] Matrix Crystal

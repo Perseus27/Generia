@@ -20,7 +20,7 @@ Active / Offensive
 [br][section:clr-encost]1 EN[/section]
 [/container]
 [container:skill-columnright]
-Executes a [url:def#MeleeAttack]melee attack[/url] that causes [url:status#Brittle]Brittle[/url] on [url:def#Hit]hit[/url] depending on the type of armor worn by the target:
+Executes a [url:def#BasicAttack]basic attack[/url] that causes [url:status#Brittle]Brittle[/url] on [url:def#Hit]hit[/url] depending on the type of armor worn by the target:
 [ul]
 [li][b]None:[/b] –[/li]
 [li][b]Light:[/b] [url:status#Brittle]Brittle 1[/url][/li]
@@ -39,7 +39,7 @@ Active / Offensive
 [br][section:clr-encost]1 EN[/section]
 [/container]
 [container:skill-columnright]
-Executes a [url:def#MeleeAttack]melee attack[/url] that causes [url:status#Bleeding]Bleeding[/url] on [url:def#Hit]hit[/url] depending on the type of armor worn by the target:
+Executes a [url:def#BasicAttack]basic attack[/url] that causes [url:status#Bleeding]Bleeding[/url] on [url:def#Hit]hit[/url] depending on the type of armor worn by the target:
 [ul]
 [li][b]None:[/b] [url:status#Bleeding]Bleeding 3[/url][/li]
 [li][b]Light:[/b] [url:status#Bleeding]Bleeding 2[/url][/li]
@@ -126,6 +126,19 @@ Active / Offensive
 [/container]
 [container:skill-columnright]
 Executes a [url:def#MeleeAttack]melee attack[/url]. On a [url:def#Hit]hit[/url], either attacker or defender is [url:status#Knockback]knocked back[/url] [section:clr-value]one field[/section], depending on who has the higher raw [section:clr-attr]STR[/section]. In a tie, the higher weapon proficiency decides.
+[/container]
+[/container]
+[/container]
+
+[container:skill]
+[h2|Recoil]Recoil[/h2]
+[container:skill-content]
+[container:skill-columnleft]
+Active / Offensive
+[br][section:clr-encost]1 EN[/section]
+[/container]
+[container:skill-columnright]
+Executes a [url:def#RangedAttack]ranged attack[/url]. The attacker is [url:status#Knockback]knocked back[/url] [section:clr-value]one field[/section]. On a [url:def#Hit]hit[/url], the defender is also [url:status#Knockback]knocked back[/url] [section:clr-value]one field[/section].
 [/container]
 [/container]
 [/container]

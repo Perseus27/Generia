@@ -244,7 +244,7 @@ TIER I
 [container:spell][h2|Improvisation]Improvisation[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Euphony / Cacophony
-[br]Out of Combat / Ritual
+[br]Out of Combat
 [br]Performance
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-ritual]RITUAL[/section][/section]
@@ -258,7 +258,7 @@ TIER I
 [container:spell][h2|EverymansTune]Everyman’s Tune[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Euphony
-[br]Out of Combat / Ritual
+[br]Out of Combat
 [br]Performance
 [br][section:clr-support]SUPPORT[/section]
 [/container][container:spell-columncenter]
@@ -272,7 +272,7 @@ TIER I
 [container:spell][h2|HymnOfWisdom]Hymn of Wisdom[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Euphony
-[br]Out of Combat / Ritual
+[br]Out of Combat
 [br]Radius: 8m
 [br][section:clr-support]SUPPORT[/section]
 [br]Performance
@@ -287,7 +287,7 @@ TIER I
 [container:spell][h2|HymnOfCuriosity]Hymn of Curiosity[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Euphony
-[br]Out of Combat / Ritual
+[br]Out of Combat
 [br]Radius: 8m
 [br][section:clr-support]SUPPORT[/section]
 [br]Performance
@@ -302,7 +302,7 @@ TIER I
 [container:spell][h2|HymnOfCreation]Hymn of Creation[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Euphony
-[br]Out of Combat / Ritual
+[br]Out of Combat
 [br]Radius: 8m
 [br][section:clr-support]SUPPORT[/section]
 [br]Performance

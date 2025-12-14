@@ -5,6 +5,7 @@ class Creature_Renderer:
     ATTRIBUTE_ORDER = ["CON", "STR", "DEX", "INT", "WIL", "PER"]
     VALUE_ORDER = ["EN", "MP", "MPR", "WL", "WT", "TN", "MS"]
     ARMOR_ORDER = ["head", "torso", "arms", "legs", "md", "enc"]
+    DEFAULT_HITZONES = ["Head", "Torso", "Arms", "Legs"]
 
     BB_HELPER = BB_Renderer()
     
@@ -68,19 +69,20 @@ class Creature_Renderer:
         return self.BB_HELPER.process(values_bb)
     
     def format_armor(self):
+        hit_zones = self.yaml_input.get("custom-hitzones", self.DEFAULT_HITZONES)
         all_armor = self.yaml_input.get("armor", {})
         a = [all_armor.get(x) for x in self.ARMOR_ORDER]
         armor_bb = f"""
-[table][tr][td][b]Head[/b][/td]
+[table][tr][td][b]{hit_zones[0]}[/b][/td]
 [td]{a[0]}[/td]
 [/tr]
-[tr][td][b]Torso[/b][/td]
+[tr][td][b]{hit_zones[1]}[/b][/td]
 [td]{a[1]}[/td]
 [/tr]
-[tr][td][b]Arms[/b][/td]
+[tr][td][b]{hit_zones[2]}[/b][/td]
 [td]{a[2]}[/td]
 [/tr]
-[tr][td][b]Legs[/b][/td]
+[tr][td][b]{hit_zones[3]}[/b][/td]
 [td]{a[3]}[/td]
 [/tr]
 [tr][td][b]MD[/b][/td]

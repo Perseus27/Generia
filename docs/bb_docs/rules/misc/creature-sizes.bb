@@ -1,0 +1,65 @@
+[h1]What are Creature Sizes?[/h1]
+Using identical rules for a sparrow and a bison would make little sense, so this system differentiates between creatures of different sizes. This is mostly based on vibes – there are no hard thresholds since it would be impossible to take everything from height to density into consideration.
+[br]Just go with what feels right when creating new creatures and characters. [url:../species]Playable species[/url] are generally [url:#Medium]Medium[/url] sized, unless you really want to play something like a colossal Elephant Felis or a diminutive Forest Fairy.
+
+[container:orgblock]
+[h2|Tiny]Tiny[/h2]
+[h4]Examples[/h4]
+Lizards, Mouses, Sparrows
+[h4]Effects[/h4]
+[ul]
+[li][url:core#Advantage]Advantage 2[/url] on [url:def#Dodge]dodge[/url] 
+rolls[/li]
+[li][url:core#Disadvantage]Disadvantage 2[/url] on [section:clr-attr]STR[/section] checks[/li]
+[li][url:values#WL]Wound Limit[/url] (WL) is reduced by [section:clr-value]2[/section].[/li]
+[/ul]
+[/container]
+
+[container:orgblock]
+[h2|Small]Small[/h2]
+[h4]Examples[/h4]
+Dogs, Goats, Goblins
+[h4]Effects[/h4]
+[ul]
+[li][url:core#Advantage]Advantage 1[/url] on [url:def#Dodge]dodge[/url] 
+rolls[/li]
+[li][url:core#Disadvantage]Disadvantage 1[/url] on [section:clr-attr]STR[/section] checks[/li]
+[li][url:values#WL]Wound Limit[/url] (WL) is reduced by [section:clr-value]1[/section].[/li]
+[/ul]
+[/container]
+
+[container:orgblock]
+[h2|Medium]Medium[/h2]
+[h4]Examples[/h4]
+Playable Species, Large Wolves, Gnolls
+[h4]Effects[/h4]
+[ul]
+[li]None[/li]
+[/ul]
+[/container]
+
+[container:orgblock]
+[h2|Large]Large[/h2]
+[h4]Examples[/h4]
+Bears, Elks, Stone Elementals
+[h4]Effects[/h4]
+[ul]
+[li][url:core#Disadvantage]Disadvantage 1[/url] on [url:def#Dodge]dodge[/url] 
+rolls[/li]
+[li][url:core#Advantage]Advantage 1[/url] on [section:clr-attr]STR[/section] checks[/li]
+[li][url:values#WL]Wound Limit[/url] (WL) is increased by [section:clr-value]2[/section].[/li]
+[/ul]
+[/container]
+
+[container:orgblock]
+[h2|Huge]Huge[/h2]
+[h4]Examples[/h4]
+Dragons, Mammoths, Whales
+[h4]Effects[/h4]
+[ul]
+[li][url:core#Disadvantage]Disadvantage 2[/url] on [url:def#Dodge]dodge[/url] 
+rolls[/li]
+[li][url:core#Advantage]Advantage 2[/url] on [section:clr-attr]STR[/section] checks[/li]
+[li][url:values#WL]Wound Limit[/url] (WL) is increased by [section:clr-value]4[/section].[/li]
+[/ul]
+[/container]

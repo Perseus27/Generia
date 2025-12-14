@@ -219,7 +219,7 @@ TIER I
 [container:spell][h2|ElementalManipulation]Elemental Manipulation[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Summoning
-[br]Out of Combat / Ritual
+[br]Out of Combat
 [br][section:clr-ritual]RITUAL[/section]
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]SURECAST[/section][/section]

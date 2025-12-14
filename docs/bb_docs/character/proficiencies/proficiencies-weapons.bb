@@ -6,21 +6,21 @@ Characters need to be proficient with a type of weapon to use it efficiently. Wh
 [h2]Primary Weapon Types[/h2]
 There are six primary weapon types a character can be proficient with. Each weapon type has subtypes, each of which can be raised as a [url:#ProficiencyValue]proficiency value[/url].
 [h4]Blunt Weapons[/h4]
-[b]Subtypes:[/b] Hammers, Clubs, Greathammers, Greatclubs, Staffs
+[b]Subtypes:[/b] Clubs, Hammers, Staffs
 [h4]Slashing Weapons[/h4]
-[b]Subtypes:[/b] Axes, Swords, Greataxes, Greatswords, Halberds
+[b]Subtypes:[/b] Axes, Polearms, Swords
 [h4]Stabbing Weapons[/h4]
-[b]Subtypes:[/b] Daggers, Spears, Swords, Lances, Halberds
+[b]Subtypes:[/b] Daggers, Polearms, Swords
 [h4]Ranged Weapons[/h4]
-[b]Subtypes:[/b] Crossbows, Longbows, Shortbows, Slings
+[b]Subtypes:[/b] Bows, Crossbows, Slings, Thrown
 [h4]Defensive Weapons[/h4]
-[b]Subtypes:[/b] Roundshields, Towershields, Bucklers
+[b]Subtypes:[/b] Shields
 [h2]Secondary Weapon Types[/h2]
 Additionally, there are two more weapon types meant as catch-all categories for anything that does not fit into the above types.
 [h4]Natural Weapons[/h4]
-[b]Subtype examples:[/b] Fists, Legs, Teeth...
+[b]Subtype examples:[/b] Fists, Teeth, Tentacles...
 [h4]Exotic Weapons[/h4]
-[b]Subtype examples:[/b] Needles, Nunchucks, Whips...
+[b]Subtype examples:[/b] Needles, Sickles, Whips...
 
 [h1|ProficiencyTiers]Proficiency Tiers[/h1]
 There are multiple tiers to each proficiency, each with an increasing SP cost.
@@ -35,15 +35,15 @@ There are multiple tiers to each proficiency, each with an increasing SP cost.
 [br][i]Cost: [section:clr-value]20 SP[/section][/i]
 [/li]
 [li][b]Adept:[/b]
-[br][i]After using an attack action to execute a [url:def#BasicAttack]basic attack[/url], can use [section:clr-value]one[/section] additional unmodified basic attack.[/i]
+[br][i]After using an attack action to execute a [url:def#BasicAttack]basic attack[/url], can use [section:clr-value]one[/section] additional unmodified basic attack as a [url:def#FreeAction]Free Action[/url].[/i]
 [br][i]Cost: [section:clr-value]30 SP[/section][/i]
 [/li]
 [li][b]Expert:[/b]
-[br][i]???[/i]
+[br][i]Total [section:clr-en]EN[/section] cost of [url:skillsW]Weapon Skills[/url] is reduced by [section:clr-value]1[/section].[/i]
 [br][i]Cost: [section:clr-value]40 SP[/section][/i]
 [/li]
 [li][b]Master:[/b]
-[br][i]After using an attack action to execute a [url:def#BasicAttack]basic attack[/url], can use [section:clr-value]two[/section] additional unmodified basic attacks.[/i]
+[br][i]After using an attack action to execute a [url:def#BasicAttack]basic attack[/url], can use [section:clr-value]two[/section] additional unmodified basic attacks as [url:def#FreeAction]Free Actions[/url].[/i]
 [br][i]Cost: [section:clr-value]50 SP[/section][/i]
 [/li]
 [/ul]

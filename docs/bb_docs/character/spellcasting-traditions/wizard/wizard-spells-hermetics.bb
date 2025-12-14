@@ -167,7 +167,7 @@ TIER II
 [container:spell][h2|CreateMatrixCrystal]Create Matrix Crystal[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Arcane
-[br]Out of Combat / Ritual
+[br]Out of Combat
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-ritual]RITUAL[/section][/section]
 [br][b]Material:[/b] Crystal
@@ -181,7 +181,7 @@ TIER I
 [container:spell][h2|HermeticManipulation]Hermetic Manipulation[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Arcane / Light
-[br]Out of Combat / Ritual
+[br]Out of Combat
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-ritual]RITUAL[/section][/section]
 [br][b]Material:[/b] —
@@ -428,7 +428,7 @@ TIER II
 [container:spell][h2|AlarmCircle]Alarm Circle[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Arcane
-[br]Out of Combat / Ritual
+[br]Out of Combat
 [br]Radius: 6m
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-ritual]RITUAL[/section][/section]
@@ -443,7 +443,7 @@ TIER II
 [container:spell][h2|Mirage]Mirage[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Light
-[br]Out of Combat / Ritual
+[br]Out of Combat
 [br]Radius: 4m
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-ritual]RITUAL[/section][/section]

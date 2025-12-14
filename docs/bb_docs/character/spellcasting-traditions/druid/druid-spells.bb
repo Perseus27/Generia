@@ -131,7 +131,7 @@ TIER I
 [container:spell][h2|Rooting]Rooting[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Flora
-[br]Out of Combat / Ritual
+[br]Out of Combat
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-ritual]RITUAL[/section][/section]
 [br][b]Material:[/b] ???
@@ -145,7 +145,7 @@ TIER I
 [container:spell][h2|AnchorReleaseBeastSoul]Anchor/Release Beast Soul[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Fauna
-[br]Out of Combat / Ritual
+[br]Out of Combat
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-ritual]RITUAL[/section][/section]
 [br][b]Material:[/b] Trophy
@@ -476,7 +476,7 @@ TIER II
 [container:spell][h2|Soulbond]Soulbond[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Fauna
-[br]Out of Combat / Ritual
+[br]Out of Combat
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-ritual]RITUAL[/section][/section]
 [br][b]Material:[/b] Soul Anchor
@@ -613,7 +613,7 @@ TIER IV
 [container:spell][h2|LivingArrows]Living Arrows[/h2][container:spell-content][container:spell-columnleft]
 TIER X – [i]Ranger[/i]
 [br]Fauna / Flora
-[br]Out of Combat / Ritual
+[br]Out of Combat
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-ritual]RITUAL[/section][/section]
 [br][section:clr-mpcost]1 MP[/section]
