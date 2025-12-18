@@ -1,0 +1,78 @@
+name: "Wizard Kinetics Spells III"
+id: "wizard-kinetics-spells-iii"
+id_appendix: "III"
+
+offensive:
+  - name: "Geyser Field"
+    id: "GeyserField"
+    tags: ["TIER III", "Fire / Water", "Offensive", "Range: 20m", "Radius: 6m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]"]
+    type:
+      - "[section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]6 MP[/section]"
+    description: >
+      Creates a geothermally active field of scalding steam; creatures save at the start of their turns and on every Movement Action; the caster may “deactivate” any spots while maintaining.
+    effect: >
+      [section:clr-roll]4d6[/section] Fire
+    saved: "Saved: Damage halved. Saved+10: No effect."
+  - name: "Kinetic Bolt III"
+    id: "KineticBoltIII"
+    tags: ["TIER III", "Stone / Water", "Offensive", "Range: 20m", "UPCAST 3"]
+    type:
+      - "[section:spell-casttype][section:clr-pa]PA[/section] [section:clr-attr]INT[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]3/6/9 MP[/section]"
+    description: >
+      A bolt of stone or water mana.
+    effect: >
+      [section:clr-roll]2d10[/section] Blunt / Sharp
+  - name: "Stone Spears"
+    id: "StoneSpears"
+    tags: ["TIER III", "Stone", "Offensive", "Range: 20m", "Radius: 2m", "UPCAST 3"]
+    type:
+      - "[section:spell-casttype][section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]3/6/9 MP[/section]"
+    description: >
+      Jagged stone spears erupt from the ground in the target area.
+    effect: >
+      [section:clr-roll]2d8[/section] Sharp to each target. Hit zone: Legs
+    saved: "Saved: Damage halved. Saved+10: No effect."
+
+defensive:
+  - name: "Kinetic Barrier III"
+    id: "KineticBarrierIII"
+    tags: ["TIER III", "Stone / Water", "Reaction", "UPCAST 3"]
+    type:
+      - "[section:spell-casttype][section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]3/6/9 MP[/section]"
+    description: >
+      Erects a barrier around the wizard that neutralizes incoming damage. Breaks at its maximum; excess damage carries over.
+    effect: >
+      [section:clr-roll]1d12[/section] Protection Barrier is [url:status#resistant]resistant[/url] against Blunt / Sharp
+  - name: "Tensile Shield III"
+    id: "TensileShieldIII"
+    tags: ["TIER III", "Water", "Defensive", "Range: 20m", "UPCAST 3", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+    type:
+      - "[section:spell-casttype][section:clr-surecast]SURECAST[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]3/6/9 MP[/section]"
+    description: >
+      Grant an ally a liquid, tensioned shield that absorbs incoming damage.
+    effect: >
+      [section:clr-roll]1d10[/section] Protection Shield is [url:status#resistant]resistant[/url] against Physical
+
+utility:
+  - name: "Spiked Pit"
+    id: "SpikedPit"
+    tags: ["TIER III", "Stone", "Utility", "Range: 20m", "Radius: 2m", "[section:clr-control]CONTROL[/section]", "[section:clr-terrain]TERRAIN[/section]", "MATERIAL:", "Matrix Crystal"]
+    type:
+      - "[section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]4 MP[/section]"
+    description: >
+      Drops the ground by [section:clr-value][Stone] meters[/section] and lines it with stone spikes.
+    effect: >
+      Lowers terrain. Creatures that fall in (or were in the area on cast) take [section:clr-roll]3d6[/section] Sharp in addition to fall damage.
+    saved: "Saved: May jump out of the area, but becomes [url:status#OffBalance]Off-Balance[/url]. Saved+10: No effect."
