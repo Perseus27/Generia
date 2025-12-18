@@ -1,0 +1,65 @@
+name: "Acolyte Spells X"
+id: "acolyte-spells-x"
+id_appendix: "X"
+is_exclusive: True
+
+exclusive:
+  - subheader:
+    is_subheader: True
+    name: "Moon Dancer"
+    id: "MoonDancer"
+
+  - name: "Intercede"
+    id: "Intercede"
+    tags: ["TIER X", "Moon Dancer", "Luna", "Reaction", "SP Cost: 20"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-en]1 EN[/section]"
+    description: >
+      Luna grants the Moondancer the presence of mind to parry attacks against allies within their own [i][url:#Sanctuary]Sanctuary[/url][/i]. Before the parry, you may freely move up to [i]Luna[/i] meters toward the ally. If the parry fails, the ally may still defend as normal.
+    effect: >
+      Attempt to [url:def#Parry]parry[/url] an attack targeting an ally within range of your [i]Sanctuary[/i].
+
+  - subheader:
+    is_subheader: True
+    name: "Sun Cleric"
+    id: "SunCleric"
+
+  - name: "Smite"
+    id: "Smite"
+    tags: ["TIER X", "Sun Cleric", "Sol", "Offensive", "SP Cost: 20"]
+    type:
+      - "[section:clr-attack]BASIC ATTACK[/section]"
+    material:
+      - "Sunstone (optional)"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      Sol fills the cleric’s weapon with holy light for one [url:def#BasicAttack]basic attack[/url].
+      [br][i]You may expend a Sunstone to scale the bonus damage with your [[section:clr-value]Sol[/section]] value.[/i]
+    effect: >
+      [i]Without Sunstone:[/i] [section:clr-roll]2d6[/section] bonus Light
+      [br][i]With Sunstone:[/i] [section:clr-value][Sol][/section] × [section:clr-roll]1d6[/section] bonus Light
+
+  - subheader:
+    is_subheader: True
+    name: "Templar"
+    id: "Templar"
+
+  - name: "Impulse"
+    id: "Impulse"
+    tags: ["TIER X", "Templar", "Sol", "Utility", "SP Cost: 20"]
+    type:
+      - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]CON[/section]"
+    material:
+      - "Sunstone (optional)"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      The Templar radiates a scorching light that immediately triggers all active [url:status#Lightburn]Lightburn[/url] on enemies within the radius.
+      [br][b]Sunstone:[/b] The save is [url:core#Hindered]hindered[/url] by [section:clr-value]10[/section].
+    effect: >
+      All instances of [url:status#Lightburn]Lightburn[/url] on affected enemies trigger immediately.
+    saved: "Lightburn damage halved."
+    saved10: "No effect."
