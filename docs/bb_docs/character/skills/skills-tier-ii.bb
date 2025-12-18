@@ -4,7 +4,7 @@
 [container:skill-content]
 [container:skill-columnleft]
 TIER II
-[br]Active / Offensive
+[br]Offensive
 [br]Range: Weapon
 [br][section:clr-encost]1/2/3/4/5 EN[/section]
 [/container]
@@ -19,7 +19,7 @@ Executes a powerful [url:def#MeleeAttack]melee attack[/url], [url:core#Hindered]
 [container:skill-content]
 [container:skill-columnleft]
 TIER II
-[br]Active / Offensive
+[br]Offensive
 [br]Range: Weapon
 [br][section:clr-encost]2 EN[/section]
 [/container]
@@ -39,7 +39,7 @@ Executes a [url:def#MeleeAttack]melee attack[/url] with the following features:
 [container:skill-content]
 [container:skill-columnleft]
 TIER II
-[br]Active / Offensive
+[br]Offensive
 [br]Range: Weapon
 [br][section:clr-encost]2 EN per attack[/section]
 [/container]
@@ -56,7 +56,7 @@ Executes up to [[section:clr-attr]DEX-MOD[/section]/2] successive [url:def#Range
 [container:skill-content]
 [container:skill-columnleft]
 TIER II
-[br]Active / Offensive
+[br]Offensive
 [br]Range: Weapon
 [br][section:clr-encost]2 EN per attack[/section]
 [/container]
@@ -73,7 +73,7 @@ Executes up to [[section:clr-attr]DEX-MOD[/section]/2] successive [url:def#Melee
 [container:skill-content]
 [container:skill-columnleft]
 TIER II
-[br]Active / Offensive
+[br]Offensive
 [br]Range: Weapon
 [br][section:clr-encost]2 EN[/section]
 [/container]
@@ -89,7 +89,7 @@ Executes a [url:def#RangedAttack]ranged attack[/url] that always targets the arm
 [container:skill-content]
 [container:skill-columnleft]
 TIER II
-[br]Active / Offensive
+[br]Offensive
 [br]Range: Weapon
 [br][section:clr-encost]2 EN[/section]
 [/container]
@@ -105,7 +105,7 @@ Executes a [url:def#RangedAttack]ranged attack[/url] that always targets the hea
 [container:skill-content]
 [container:skill-columnleft]
 TIER II
-[br]Active / Offensive
+[br]Offensive
 [br]Range: Weapon
 [br][section:clr-encost]2 EN[/section]
 [/container]
@@ -125,7 +125,7 @@ Executes a [url:def#RangedAttack]ranged attack[/url] that always targets the leg
 [container:skill-content]
 [container:skill-columnleft]
 TIER II
-[br]Active / Utility
+[br]Utility
 [br]Range: [url:values#MS]MS[/url]
 [br][section:clr-encost]2 EN[/section]
 [/container]
@@ -143,7 +143,7 @@ Charges the target in a straight line to knock it [url:status#Prone]prone[/url].
 [container:skill-content]
 [container:skill-columnleft]
 TIER II
-[br]Active / Utility
+[br]Utility
 [br][url:def#Concentration]Concentration[/url]
 [br][section:clr-encost]1/2/3 EN[/section]
 [/container]
@@ -157,7 +157,7 @@ Gains [url:status#Hidden]Hidden 1/2/3[/url].
 [container:skill-content]
 [container:skill-columnleft]
 TIER II
-[br]Active / Utility
+[br]Utility
 [br]Range: Weapon
 [br][section:clr-encost]1 EN[/section]
 [/container]
@@ -175,7 +175,7 @@ Knocks an equipped weapon out of the target's hand. It falls on the ground and r
 [container:skill-content]
 [container:skill-columnleft]
 TIER II
-[br]Active / Utility
+[br]Utility
 [br][section:clr-encost]2 EN[/section]
 [/container]
 [container:skill-columnright]
@@ -192,7 +192,7 @@ Confuses opponents in a [section:clr-value]2m[/section] radius with erratic move
 [container:skill-content]
 [container:skill-columnleft]
 TIER II
-[br]Active / Utility
+[br]Utility
 [br][section:clr-encost]1 EN[/section]
 [/container]
 [container:skill-columnright]
@@ -208,7 +208,7 @@ Attempts to find a weakness in an opponent's armor.
 [container:skill-content]
 [container:skill-columnleft]
 TIER II
-[br]Active / Utility
+[br]Utility
 [br]Range: Weapon
 [br][section:clr-encost]1 EN (Utility)[/section]
 [br]Hidden Action: [section:clr-attr]DEX[/section]
@@ -225,7 +225,7 @@ Choose an area with a [section:clr-value]3m[/section] radius. Targets entering o
 [container:skill-content]
 [container:skill-columnleft]
 TIER II
-[br]Active / Utility
+[br]Utility
 [br][url:def#Concentration]Concentration[/url]
 [br][section:clr-encost]–[/section]
 [/container]
@@ -239,7 +239,7 @@ The user may strike any target entering weapon range with a [url:def#MeleeAttack
 [container:skill-content]
 [container:skill-columnleft]
 TIER II
-[br]Active / Utility
+[br]Utility
 [br][url:def#Concentration]Concentration[/url]
 [br][section:clr-encost]1 EN[/section]
 [/container]
@@ -253,7 +253,7 @@ Gains [url:core#Advantage]Advantage 1[/url] on [section:clr-attr]CON[/section] c
 [container:skill-content]
 [container:skill-columnleft]
 TIER II
-[br]Active / Utility
+[br]Utility
 [br][url:def#Concentration]Concentration[/url]
 [br][section:clr-encost]1 EN[/section]
 [/container]
@@ -267,7 +267,7 @@ Gains [url:core#Advantage]Advantage 1[/url] on [section:clr-attr]STR[/section] c
 [container:skill-content]
 [container:skill-columnleft]
 TIER II
-[br]Active / Utility
+[br]Utility
 [br][url:def#Concentration]Concentration[/url]
 [br][section:clr-encost]1 EN[/section]
 [/container]
@@ -281,7 +281,7 @@ Gains [url:core#Advantage]Advantage 1[/url] on [section:clr-attr]DEX[/section] c
 [container:skill-content]
 [container:skill-columnleft]
 TIER II
-[br]Active / Utility
+[br]Utility
 [br][url:def#Concentration]Concentration[/url]
 [br][section:clr-encost]1 EN[/section]
 [/container]
@@ -316,7 +316,7 @@ Prepares to shoot down hostile projectiles as a reaction (attack roll vs. attack
 [container:skill-content]
 [container:skill-columnleft]
 TIER II
-[br]Reactive / Utility
+[br]Reaction
 [br]Range: Weapon
 [br][section:clr-encost]2 EN[/section]
 [/container]
@@ -330,7 +330,7 @@ Immediately executes a [url:def#BasicAttack]basic attack[/url] in exchange for l
 [container:skill-content]
 [container:skill-columnleft]
 TIER II
-[br]Reactive / Offensive
+[br]Reaction
 [br]Range: Weapon
 [br][section:clr-encost]1 EN[/section]
 [/container]
@@ -345,7 +345,7 @@ The next basic attack within this turn gains [url:core#Advantage]Advantage 2[/ur
 [container:skill-content]
 [container:skill-columnleft]
 TIER II
-[br]Reactive / Offensive
+[br]Reaction
 [br]Range: Weapon
 [br][section:clr-encost]1 EN[/section]
 [/container]
@@ -359,7 +359,7 @@ The next [url:def#RangedAttack]ranged attack[/url] within this turn gains [url:c
 [container:skill-content]
 [container:skill-columnleft]
 TIER II
-[br]Reactive / Utility
+[br]Reaction
 [br]Range: Weapon
 [br][section:clr-encost]2 EN[/section]
 [/container]

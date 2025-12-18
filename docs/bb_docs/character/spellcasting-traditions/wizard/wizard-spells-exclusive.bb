@@ -4,7 +4,7 @@
 [container:spell][h2|BladeInfusion]Blade Infusion[/h2][container:spell-content][container:spell-columnleft]
 TIER X
 [br][url:class2/class-spellblade]Spellblade[/url]
-[br]Active / Utility
+[br]Utility
 [br][b]SP Cost:[/b] 20
 [br][b]Duration:[/b] 1 Phase
 [/container][container:spell-columncenter]
@@ -22,7 +22,7 @@ TIER X
 [container:spell][h2|BowInfusion]Bow Infusion[/h2][container:spell-content][container:spell-columnleft]
 TIER X
 [br][url:class2/class-spellbow]Spellbow[/url]
-[br]Active / Utility
+[br]Utility
 [br][b]SP Cost:[/b] 20
 [br][b]Duration:[/b] 1 Phase
 [/container][container:spell-columncenter]
@@ -44,7 +44,7 @@ TIER X
 TIER X
 [br][url:class3/class-magister]Magister[/url]
 [br]Any Element
-[br]Active / Utility
+[br]Utility
 [br][b]SP Cost:[/b] 20
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-dc]DC+[/section] [section:clr-attr]INT[/section] vs [section:clr-dc]DC[/section][/section]
@@ -64,7 +64,7 @@ TIER X
 TIER X
 [br][url:class3/class-magus]Magus[/url]
 [br]Arcane
-[br]Active / Utility
+[br]Utility
 [br][b]SP Cost:[/b] 20
 [br][b]Duration:[/b] 1 Phase
 [br][b]Radius:[/b] 1m

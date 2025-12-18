@@ -17,7 +17,7 @@ Sorcery templates are deliberately kept generic and open-ended. Their effects ar
 [container:spell][h2|TemplatePA]Template: Projectile Attack[/h2][container:spell-content][container:spell-columnleft]
 TIER I-III
 [br][section:clr-sorc]SORCERY[/section]
-[br]Active / Offensive
+[br]Offensive
 [br]Range: ~20m
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-pa]PA[/section] [section:clr-attr]PER[/section][/section]
@@ -35,7 +35,7 @@ TIER I-III
 [container:spell][h2|TemplateSA]Template: Spell Attack[/h2][container:spell-content][container:spell-columnleft]
 TIER I-III
 [br][section:clr-sorc]SORCERY[/section]
-[br]Active / Offensive
+[br]Offensive
 [br]Range: ~20m
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-sa]SA[/section] [section:clr-attr]PER[/section] vs [section:clr-attr]?[/section][/section]
@@ -53,7 +53,7 @@ TIER I-III
 [container:spell][h2|TemplateSAoE]Template: Spell Attack AoE[/h2][container:spell-content][container:spell-columnleft]
 TIER II-III
 [br][section:clr-sorc]SORCERY[/section]
-[br]Active / Offensive
+[br]Offensive
 [br]Range: ~20m
 [br]Radius: ~2-3m
 [/container][container:spell-columncenter]
@@ -71,7 +71,7 @@ TIER II-III
 [container:spell][h2|TemplateSD]Template: Spell Defense[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br][section:clr-sorc]SORCERY[/section]
-[br]Reactive / Defensive
+[br]Reaction
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-sd]SD[/section] [section:clr-attr]PER[/section]+[section:clr-attr]INT[/section][/section]
 [br][b]I:[/b] [section:clr-mpcost]~2 MP[/section]
@@ -91,7 +91,7 @@ TIER I
 [br][section:clr-sorc]SORCERY[/section]
 [br][section:clr-affliction]AFFLICTION[/section]
 [br]([section:clr-conc]CONCENTRATION[/section])
-[br]Active / Utility
+[br]Utility
 [br]Range: ~20m
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]PER[/section] vs [section:clr-attr]?[/section][/section]
@@ -109,7 +109,7 @@ TIER I
 [br][section:clr-sorc]SORCERY[/section]
 [br][section:clr-control]CONTROL[/section]
 [br]([section:clr-conc]CONCENTRATION[/section])
-[br]Active / Utility
+[br]Utility
 [br]Range: ~20m
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]PER[/section] vs [section:clr-attr]?[/section][/section]
@@ -127,7 +127,7 @@ TIER I
 [br][section:clr-sorc]SORCERY[/section]
 [br][section:clr-support]SUPPORT[/section]
 [br]([section:clr-conc]CONCENTRATION[/section])
-[br]Active / Utility
+[br]Utility
 [br]Range: ~20m
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]SURECAST[/section][/section]

@@ -97,22 +97,22 @@ class Creature_Renderer:
     def format_info(self):
         i = self.yaml_input.get("info", {})
         info_bb = f"""
-[table][tr][td][b]Species:[/b][/td]
+[table][tr][td][b][url:/generia/rules/misc/species]Species[/url]:[/b][/td]
 [td]{i.get("species")}[/td]
 [/tr]
 [tr][td][b]Level:[/b][/td]
 [td]{i.get("level")}[/td]
 [/tr]
-[tr][td][b]Size:[/b][/td]
+[tr][td][b][url:/generia/rules/misc/creature-sizes]Size[/url]:[/b][/td]
 [td]{i.get("size")}[/td]
 [/tr]
 [/table]
 [container:creature-info-container]
 [br]
-[b]Classes:[/b]
+[b][url:/generia/character/classes/class-overview/]Classes[/url]:[/b]
 [br]{i.get("classes")}
 [br]
-[br][b]Tags:[/b]
+[br][b][url:/generia/rules/misc/creature-tags]Tags[/url]:[/b]
 [br]{i.get("tags")}
 [/container]
         """

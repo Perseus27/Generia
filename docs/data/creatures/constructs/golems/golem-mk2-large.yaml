@@ -1,8 +1,8 @@
-name: Large Golem, Mk. I
-id: golem-mk1-large
+name: Large Golem, Mk. II
+id: golem-mk2-large
 info:
   species: Construct
-  level: 10
+  level: 20
   size: Large
   tags: "Construct, Mindless"
 notes: >
@@ -13,48 +13,48 @@ notes: >
   [br][b]Weight:[/b] 3000
 
 attributes:
-  CON: ["9", "4"]
-  STR: ["9", "4"]
-  DEX: ["4", "2"]
+  CON: ["14", "7"]
+  STR: ["12", "6"]
+  DEX: ["5", "2"]
   INT: ["0", "0"]
   WIL: ["0", "0"]
-  PER: ["0", "0"]
+  PER: ["1", "0"]
 values:
   EN: 20
   MP: 0
   MPR: 0
-  WL: 5
-  WT: 8
-  TN: 3
+  WL: 9
+  WT: 10
+  TN: 4
   MS: 4
 armor:
-  head: 2
-  torso: 4
-  arms: 3
-  legs: 3
-  md: 4
+  head: 5
+  torso: 7
+  arms: 6
+  legs: 6
+  md: 7
   enc: 0
 custom-hitzones: ["Core", "Torso", "Arms", "Legs"]
 loot:
-  - "Golem Core Mk. I"
+  - "Golem Core Mk. II"
 actions:
   active:
     - name: "Golem Fist, large"
       type: "Melee Attack"
-      hit: "Hit+2, Block+8|4"
-      damage: "[section:clr-roll]1d10+4[/section] Blunt"
+      hit: "Hit+2, Block+13|6"
+      damage: "[section:clr-roll]1d10+6[/section] Blunt"
 
     - name: "OPTIONAL EQUIPMENT"
 
     - name: "Mace & Shield"
       type: "Melee Attack"
-      hit: "Hit+2, Block+8|10"
-      damage: "[section:clr-roll]2d6+4[/section] Blunt"
+      hit: "Hit+2, Block+13|15"
+      damage: "[section:clr-roll]2d6+6[/section] Blunt"
 
     - name: "Spear"
       type: "Melee Attack, long"
-      hit: "Hit+2, Block+8|8"
-      damage: "[section:clr-roll]2d6+6[/section] Sharp"
+      hit: "Hit+2, Block+13|13"
+      damage: "[section:clr-roll]2d6+9[/section] Sharp"
 
   passive:
     - name: "Proficiencies"

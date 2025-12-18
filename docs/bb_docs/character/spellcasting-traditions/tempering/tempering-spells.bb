@@ -62,7 +62,7 @@ TIER I
 [container:spell][h2|GreatLeap]Great Leap[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Body
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br][section:clr-movement]MOVEMENT[/section]
 [br][section:clr-exper]EXPERTISE 1/2/3[/section]
@@ -81,7 +81,7 @@ TIER I
 [container:spell][h2|HeightenedSenses]Heightened Senses[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Soul
-[br]Active / Utility
+[br]Utility
 [br]Duration: 1 Phase
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]Surecast[/section][/section]
@@ -96,7 +96,7 @@ TIER I
 [container:spell][h2|KillingIntent]Killing Intent[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Soul
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br][section:clr-exper]EXPERTISE 1/2[/section]
 [/container][container:spell-columncenter]
@@ -116,7 +116,7 @@ TIER I
 [container:spell][h2|LoomingPresence]Looming Presence[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Soul
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br][section:clr-conc]CONCENTRATION[/section]
 [/container][container:spell-columncenter]
@@ -135,7 +135,7 @@ TIER I
 [container:spell][h2|Stomp]Stomp[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Soul
-[br]Active / Utility
+[br]Utility
 [br]Radius: 1/2/3m
 [br][section:clr-exper]EXPERTISE 1/2/3[/section]
 [br][section:clr-combo]COMBO[/section]
@@ -157,7 +157,7 @@ TIER I
 [container:spell][h2|ToxinPurge]Toxin Purge[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Body
-[br]Active / Utility
+[br]Utility
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-dc]DC+[/section] [section:clr-attr]CON[/section] vs [section:clr-dc]DC[/section][/section]
 [br][b]Strain 1[/b]
@@ -197,7 +197,7 @@ TIER I
 [container:spell][h2|Crush]Crush[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Body
-[br]Active / Offensive
+[br]Offensive
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]CON[/section] vs [section:clr-attr]CON[/section][/section]
 [br][b]Strain 1[/b]
@@ -218,7 +218,7 @@ TIER II
 [container:spell][h2|Steady]Steady[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Body
-[br]Reactive / Defensive
+[br]Reaction
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]Surecast[/section][/section]
 [br][b]Strain 1[/b]
@@ -236,7 +236,7 @@ TIER II
 [container:spell][h2|Fleshmending]Fleshmending[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Body
-[br]Active / Utility
+[br]Utility
 [br][section:clr-exper]EXPERTISE 2/3[/section]
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]Surecast[/section][/section]
@@ -252,7 +252,7 @@ TIER II
 [container:spell][h2|IndomitableBody]Indomitable Body[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Body
-[br]Active / Utility
+[br]Utility
 [br]Duration: 1 Phase
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]Surecast[/section][/section]
@@ -268,7 +268,7 @@ TIER II
 [container:spell][h2|IndomitableSoul]Indomitable Soul[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Soul
-[br]Active / Utility
+[br]Utility
 [br]Duration: 1 Phase
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]Surecast[/section][/section]
@@ -284,7 +284,7 @@ TIER II
 [container:spell][h2|LoomingAura]Looming Aura[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Soul
-[br]Active / Utility
+[br]Utility
 [br]Radius: [[section:clr-value]Soul[/section]] m
 [br][section:clr-ZONE]ZONE[/section]
 [/container][container:spell-columncenter]

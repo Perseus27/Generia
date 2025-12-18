@@ -3,7 +3,7 @@
 [container:spell][h2|LightOfSol]Light of Sol[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Sol
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br]Radius: 2m
 [br][section:clr-exper]EXPERTISE 1/2/3[/section]
@@ -24,7 +24,7 @@ TIER I
 [container:spell][h2|SunlightSpear]Sunlight Spear[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Sol
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br][section:clr-exper]EXPERTISE 1/2/3[/section]
 [/container][container:spell-columncenter]
@@ -40,7 +40,7 @@ TIER I
 [container:spell][h2|BlessingOfFortitude]Blessing of Fortitude[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Luna
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br][section:clr-support]SUPPORT[/section]
 [br][section:clr-conc]CONCENTRATION[/section]
@@ -79,7 +79,7 @@ TIER I
 [container:spell][h2|Healing]Healing[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Luna
-[br]Active / Utility
+[br]Utility
 [br]Range: 16m
 [br][section:clr-heal]HEAL[/section]
 [br][section:clr-exper]EXPERTISE 1/2/3[/section]
@@ -95,7 +95,7 @@ TIER I
 [container:spell][h2|Purify]Purify[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Luna
-[br]Active / Utility
+[br]Utility
 [br]Range: 10m
 [br][section:clr-support]SUPPORT[/section]
 [br][section:clr-exper]EXPERTISE 1/2/3[/section] 
@@ -179,7 +179,7 @@ TIER I
 [container:spell][h2|SunlightArrows]Sunlight Arrows[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Sol
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br][section:clr-exper]EXPERTISE 2/3[/section]
 [/container][container:spell-columncenter]
@@ -194,7 +194,7 @@ TIER II
 [container:spell][h2|Prominence]Prominence[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Sol
-[br]Active / Offensive
+[br]Offensive
 [br]Radius: 4m
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section][/section]
@@ -228,7 +228,7 @@ TIER II
 [container:spell][h2|PrayerOfHealing]Prayer of Healing[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Luna
-[br]Active / Utility
+[br]Utility
 [br]Radius: 8m
 [br][section:clr-heal]HEAL[/section]
 [br][section:clr-exper]EXPERTISE 2/3[/section]
@@ -245,7 +245,7 @@ TIER II
 [container:spell][h2|PrayerOfPurification]Prayer of Purification[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Luna
-[br]Active / Utility
+[br]Utility
 [br]Radius: 8m
 [br][section:clr-support]SUPPORT[/section]
 [/container][container:spell-columncenter]
@@ -262,7 +262,7 @@ TIER II
 [container:spell][h2|GleamingWeapon]Gleaming Weapon[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Sol
-[br]Active / Utility
+[br]Utility
 [br][section:clr-conc]CONCENTRATION[/section]
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]SURECAST[/section][/section]
@@ -286,7 +286,7 @@ TIER II
 [container:spell][h2|Photosensitivity]Photosensitivity[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Sol
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br]Radius: 2m
 [/container][container:spell-columncenter]
@@ -305,7 +305,7 @@ TIER II
 [container:spell][h2|Sanctuary]Sanctuary[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Luna
-[br]Active / Utility
+[br]Utility
 [br]Radius: 2m
 [br][section:clr-support]SUPPORT[/section]
 [br][section:clr-conc]CONCENTRATION[/section]
@@ -324,7 +324,7 @@ TIER II
 [container:spell][h2|BlessingOfResilience]Blessing of Resilience[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Luna
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br][section:clr-support]SUPPORT[/section]
 [br][section:clr-conc]CONCENTRATION[/section]
@@ -419,7 +419,7 @@ TIER II
 [container:spell][h2|Purge]Purge[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Sol
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]CON[/section][/section]
@@ -443,7 +443,7 @@ TIER III
 [container:spell][h2|Providence]Providence[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Luna
-[br]Reactive / Defensive
+[br]Reaction
 [br]Range: 20m
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]SURECAST[/section][/section]
@@ -460,7 +460,7 @@ TIER III
 [container:spell][h2|Expunge]Expunge[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Sol
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-dc]DC+[/section] [section:clr-attr]WIL[/section] vs [section:clr-dc]DC[/section][/section]
@@ -475,7 +475,7 @@ TIER III
 [container:spell][h2|Lunacy]Lunacy[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Luna
-[br]Active / Utility
+[br]Utility
 [br]Radius: 4m
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section][/section]
@@ -498,7 +498,7 @@ TIER III
 [container:spell][h2|Sunrise]Sunrise[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Sol
-[br]Active / Utility
+[br]Utility
 [br]Radius: 20m
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]SURECAST[/section][/section]
@@ -514,7 +514,7 @@ TIER III
 [container:spell][h2|Moonrise]Moonrise[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Luna
-[br]Active / Utility
+[br]Utility
 [br]Radius: 20m
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]SURECAST[/section][/section]
@@ -552,7 +552,7 @@ TIER III
 [container:spell][h2|Intercede]Intercede[/h2][container:spell-content][container:spell-columnleft]
 TIER X – [i]Moondancer[/i]
 [br]Luna
-[br]Reactive / Defensive
+[br]Reaction
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]SURECAST[/section][/section]
 [br][section:clr-en]Cost: 1 EN[/section]
@@ -566,7 +566,7 @@ TIER X – [i]Moondancer[/i]
 [container:spell][h2|Smite]Smite[/h2][container:spell-content][container:spell-columnleft]
 TIER X – [i]Sun Cleric[/i]
 [br]Sol
-[br]Active / Offensive
+[br]Offensive
 [br][b]SP Cost:[/b] 20
 [br][b]Material:[/b] Sunstone (optional)
 [/container][container:spell-columncenter]
@@ -584,7 +584,7 @@ TIER X – [i]Sun Cleric[/i]
 [container:spell][h2|Impulse]Impulse[/h2][container:spell-content][container:spell-columnleft]
 TIER X – [i]Templar[/i]
 [br]Sol
-[br]Active / Utility
+[br]Utility
 [br]Range: Self
 [br]Radius: [[section:clr-value]Sol[/section]]m
 [br][b]SP Cost:[/b] 20

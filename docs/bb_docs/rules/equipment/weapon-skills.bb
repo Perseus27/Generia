@@ -2,7 +2,7 @@
 [h2|Butcher]Butcher[/h2]
 [container:skill-content]
 [container:skill-columnleft]
-Active / Offensive
+Offensive
 [br][section:clr-encost]1 EN per attack[/section]
 [/container]
 [container:skill-columnright]
@@ -16,7 +16,7 @@ Executes a [url:def#MeleeAttack]melee attack[/url] against a [url:status#Confine
 [h2|Break]Break[/h2]
 [container:skill-content]
 [container:skill-columnleft]
-Active / Offensive
+Offensive
 [br][section:clr-encost]1 EN[/section]
 [/container]
 [container:skill-columnright]
@@ -35,7 +35,7 @@ Executes a [url:def#BasicAttack]basic attack[/url] that causes [url:status#Britt
 [h2|Cut]Cut[/h2]
 [container:skill-content]
 [container:skill-columnleft]
-Active / Offensive
+Offensive
 [br][section:clr-encost]1 EN[/section]
 [/container]
 [container:skill-columnright]
@@ -54,7 +54,7 @@ Executes a [url:def#BasicAttack]basic attack[/url] that causes [url:status#Bleed
 [h2|Draw]Draw[/h2]
 [container:skill-content]
 [container:skill-columnleft]
-Active / Offensive
+Offensive
 [br][section:clr-encost]1 EN[/section]
 [/container]
 [container:skill-columnright]
@@ -67,7 +67,7 @@ Executes a [url:def#RangedAttack]ranged attack[/url]. Damage dealt is increased 
 [h2|Kite]Kite[/h2]
 [container:skill-content]
 [container:skill-columnleft]
-Active / Offensive
+Offensive
 [br][section:clr-encost]1 EN[/section]
 [/container]
 [container:skill-columnright]
@@ -81,7 +81,7 @@ Executes a [url:def#RangedAttack]ranged attack[/url] while moving up to [[sectio
 [h2|Lunge]Lunge[/h2]
 [container:skill-content]
 [container:skill-columnleft]
-Active / Offensive
+Offensive
 [br][section:clr-encost]1 EN[/section]
 [/container]
 [container:skill-columnright]
@@ -95,7 +95,7 @@ Moves [section:clr-value]one field[/section] towards an enemy, executes a [url:d
 [h2|Maim]Maim[/h2]
 [container:skill-content]
 [container:skill-columnleft]
-Active / Offensive
+Offensive
 [br][section:clr-encost]1 EN[/section]
 [/container]
 [container:skill-columnright]
@@ -108,7 +108,7 @@ Executes a [url:def#MeleeAttack]melee attack[/url]. Every wound caused by this a
 [h2|Pierce]Pierce[/h2]
 [container:skill-content]
 [container:skill-columnleft]
-Active / Offensive
+Offensive
 [br][section:clr-encost]1 EN[/section]
 [/container]
 [container:skill-columnright]
@@ -121,7 +121,7 @@ Executes a [url:def#BasicAttack]basic attack[/url] that ignores up to [[section:
 [h2|Push]Push[/h2]
 [container:skill-content]
 [container:skill-columnleft]
-Active / Offensive
+Offensive
 [br][section:clr-encost]1 EN[/section]
 [/container]
 [container:skill-columnright]
@@ -134,7 +134,7 @@ Executes a [url:def#MeleeAttack]melee attack[/url]. On a [url:def#Hit]hit[/url],
 [h2|Recoil]Recoil[/h2]
 [container:skill-content]
 [container:skill-columnleft]
-Active / Offensive
+Offensive
 [br][section:clr-encost]1 EN[/section]
 [/container]
 [container:skill-columnright]
@@ -147,7 +147,7 @@ Executes a [url:def#RangedAttack]ranged attack[/url]. The attacker is [url:statu
 [h2|Smash]Smash[/h2]
 [container:skill-content]
 [container:skill-columnleft]
-Active / Offensive
+Offensive
 [br][section:clr-encost]1 EN[/section]
 [/container]
 [container:skill-columnright]

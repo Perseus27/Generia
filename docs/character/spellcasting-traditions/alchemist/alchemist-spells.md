@@ -35,6 +35,6 @@ title: Alchemist Spells
   </div>
 </template>
 
+# Alchemist Spells
 
-
-{{ bb_from_file('bb_docs/character/spellcasting-traditions/alchemist/alchemist-spells.bb') }}
+{{ spells('data/spells/alchemist/alchemist-spells-i.yaml') }}

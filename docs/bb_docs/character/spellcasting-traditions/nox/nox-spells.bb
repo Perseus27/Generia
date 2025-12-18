@@ -3,7 +3,7 @@
 [container:spell][h2|ShadowStrike]Shadow Strike[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Nox
-[br]Active / Offensive
+[br]Offensive
 [br]Range: Weapon
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-attack]BASIC ATTACK[/section][/section]
@@ -18,7 +18,7 @@ TIER I
 [container:spell][h2|Blur]Blur[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Nox
-[br]Reactive / Defensive
+[br]Reaction
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]SURECAST[/section][/section]
 [br][section:clr-mpcost]1 MP[/section]
@@ -32,7 +32,7 @@ TIER I
 [container:spell][h2|ShadowSummoning]Shadow Summoning[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Nox
-[br]Active / Utility
+[br]Utility
 [br][section:clr-conc]CONCENTRATION[/section]
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]SURECAST[/section][/section]
@@ -47,7 +47,7 @@ TIER I
 [container:spell][h2|ShadowRun]Shadow Run[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Nox
-[br]Active / Utility
+[br]Utility
 [br][section:clr-movement]MOVEMENT[/section]
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]SURECAST[/section][/section]
@@ -61,7 +61,7 @@ TIER I
 [container:spell][h2|ShadowCloak]Shadow Cloak[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Nox
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][section:clr-support]SUPPORT[/section]
@@ -77,7 +77,7 @@ TIER I
 [container:spell][h2|ShadowKnives]Shadow Knives[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Nox
-[br]Active / Utility
+[br]Utility
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]SURECAST[/section][/section]
 [br][section:clr-mpcost]1 MP[/section]
@@ -91,7 +91,7 @@ TIER I
 [container:spell][h2|Terror]Terror[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Nox
-[br]Active / Utility
+[br]Utility
 [br]Range: 12m
 [br][section:clr-control]CONTROL[/section]
 [/container][container:spell-columncenter]
@@ -144,7 +144,7 @@ TIER I
 [container:spell][h2|ShadowCoating]Shadow Coating[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Nox
-[br]Reactive / Offensive
+[br]Reaction
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]SURECAST[/section][/section]
 [br][section:clr-mpcost]1 MP[/section]
@@ -158,7 +158,7 @@ TIER II
 [container:spell][h2|NightMist]Night Mist[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Nox
-[br]Reactive / Defensive
+[br]Reaction
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]SURECAST[/section][/section]
 [br][section:clr-mpcost]2 MP[/section]
@@ -172,7 +172,7 @@ TIER II
 [container:spell][h2|Darkness]Darkness[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Nox
-[br]Active / Utility
+[br]Utility
 [br]Range: 12m
 [br]Radius: 2m
 [br][section:clr-control]CONTROL[/section]
@@ -190,7 +190,7 @@ TIER II
 [container:spell][h2|NoxianBargain]Noxian Bargain[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Nox
-[br]Active / Utility
+[br]Utility
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]SURECAST[/section][/section]
 [br][section:clr-value][b]1d4[/b][/section] [section:clr-mpcost]MP[/section]
@@ -203,7 +203,7 @@ TIER II
 [container:spell][h2|ShadowStep]Shadow Step[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Shadow
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br][section:clr-movement]MOVEMENT[/section]
 [/container][container:spell-columncenter]
@@ -218,7 +218,7 @@ TIER II
 [container:spell][h2|Substitution]Substitution[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Nox
-[br]Reactive / Utility
+[br]Reaction
 [br]Range: 20m
 [br][section:clr-movement]MOVEMENT[/section]
 [/container][container:spell-columncenter]
@@ -233,7 +233,7 @@ TIER II
 [container:spell][h2|WingsOfNight]Wings of Night[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Nox
-[br]Active / Utility
+[br]Utility
 [br][section:clr-conc]CONCENTRATION[/section]
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]SURECAST[/section][/section]
@@ -247,7 +247,7 @@ TIER II
 [container:spell][h2|FormOfDread]Form of Dread[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Nox
-[br]Active / Utility
+[br]Utility
 [br]Radius: 4m
 [br][section:clr-control]CONTROL[/section]
 [br][section:clr-conc]CONCENTRATION[/section]

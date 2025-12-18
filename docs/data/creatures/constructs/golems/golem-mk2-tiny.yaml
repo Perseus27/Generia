@@ -1,0 +1,64 @@
+name: Tiny Golem, Mk. II
+id: golem-mk2-tiny
+info:
+  species: Construct
+  level: 20
+  size: Tiny
+  tags: "Construct, Mindless"
+notes: >
+  [b]See:[/b] [url:/generia/character/spellcasting-traditions/alchemist/what-is-an-alchemist#Golems]Golems[/url]
+  [br][b]Required Material Volume:[/b]
+  [br]Stone: Human fist
+  [br]Metal: Walnut
+  [br][b]Weight:[/b] 0.25
+
+attributes:
+  CON: ["2", "1"]
+  STR: ["3", "1"]
+  DEX: ["16", "8"]
+  INT: ["0", "0"]
+  WIL: ["0", "0"]
+  PER: ["10", "5"]
+values:
+  EN: 10
+  MP: 0
+  MPR: 0
+  WL: 1
+  WT: 3
+  TN: 3
+  MS: 10
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  enc: 0
+custom-hitzones: ["Core", "Torso", "Arms", "Legs"]
+loot:
+  - "Golem Core Mk. II"
+actions:
+  active:
+    - name: "Needle"
+      type: "Melee Attack, short"
+      hit: "Hit+12"
+      damage: "[section:clr-roll]2d4[/section] Sharp"
+    - name: "OPTIONAL EQUIPMENT"
+    - name: "None"
+  passive:
+    - name: "Proficiencies"
+      type: "Passive"
+      effect: >
+        [url:values#AttackValue]Hit[/url] and [url:values#BlockValue]Block[/url] are increased by [[section:clr-value]Mechanics[/section]].
+    - name: "Climber"
+      type: "Passive"
+      effect: >
+        Can move on walls and ceilings as if they were flat ground.
+    - name: "Diminutive"
+      type: "Passive"
+      effect: >
+        Can not benefit from Golem Kits.
+    - name: "Hollow Needle"
+      type: "Passive"
+      effect: >
+        The needle appendage can be filled with poison.

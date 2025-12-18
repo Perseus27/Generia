@@ -4,7 +4,7 @@
 [container:skill-content]
 [container:skill-columnleft]
 TIER I
-[br]Active / Offensive
+[br]Offensive
 [br]Range: Weapon
 [br][section:clr-encost]1 EN[/section]
 [/container]
@@ -18,7 +18,7 @@ Executes a [url:def#RangedAttack]ranged attack[/url], [url:core#Eased]eased[/url
 [container:skill-content]
 [container:skill-columnleft]
 TIER I
-[br]Active / Offensive
+[br]Offensive
 [br]Range: Weapon
 [br][section:clr-encost]1 EN[/section]
 [/container]
@@ -32,7 +32,7 @@ Executes a [url:def#MeleeAttack]melee attack[/url], [url:core#Eased]eased[/url] 
 [container:skill-content]
 [container:skill-columnleft]
 TIER I
-[br]Active / Offensive
+[br]Offensive
 [br]Range: [url:values#MS]MS[/url]
 [br][section:clr-encost]2 EN[/section]
 [/container]
@@ -47,7 +47,7 @@ Charges a target in a straight line and executes a [url:def#MeleeAttack]melee at
 [container:skill-content]
 [container:skill-columnleft]
 TIER I
-[br]Active / Offensive
+[br]Offensive
 [br]Range: Weapon
 [br][section:clr-encost]1 EN[/section]
 [/container]
@@ -65,7 +65,7 @@ Executes a [url:def#RangedAttack]ranged attack[/url]. Target has [url:core#Disad
 [container:skill-content]
 [container:skill-columnleft]
 TIER I
-[br]Active / Utility
+[br]Utility
 [br]Range: Weapon
 [br][section:clr-encost]1 EN[/section]
 [/container]
@@ -81,7 +81,7 @@ Baits the target into a hasty defense, giving it [url:status#DefensePenalty]defe
 [container:skill-content]
 [container:skill-columnleft]
 TIER I
-[br]Active / Utility
+[br]Utility
 [br]Range: Adjacent
 [br][section:clr-encost]1 EN[/section]
 [/container]
@@ -98,7 +98,7 @@ Target becomes [url:status#OffBalance]off-balance[/url] if it fails the check.
 [container:skill-content]
 [container:skill-columnleft]
 TIER I
-[br]Active / Utility
+[br]Utility
 [br]Range: 2m
 [br][section:clr-encost]1 EN[/section]
 [/container]
@@ -115,7 +115,7 @@ Throws a handful of dirt into the target's eyes to cause [url:status#Blinded]bli
 [container:skill-content]
 [container:skill-columnleft]
 TIER I
-[br]Active / Utility
+[br]Utility
 [br]Range: Adjacent
 [br][section:clr-encost]1 EN[/section]
 [/container]
@@ -131,7 +131,7 @@ Shoves the target, causing [url:status#Knockback]Knockback[/url] [[section:clr-a
 [container:skill-content]
 [container:skill-columnleft]
 TIER I
-[br]Active / Utility
+[br]Utility
 [br]Range: Weapon
 [br][section:clr-encost]1 EN[/section]
 [/container]
@@ -153,7 +153,7 @@ The next [url:def#MeleeAttack]melee attack[/url] within this turn gains the foll
 [container:skill-content]
 [container:skill-columnleft]
 TIER I
-[br]Reactive / Offensive
+[br]Reaction
 [br][section:clr-encost]1 EN[/section]
 [/container]
 [container:skill-columnright]
@@ -166,7 +166,7 @@ The next [url:def#RangedAttack]ranged attack[/url] within this turn targets a sp
 [container:skill-content]
 [container:skill-columnleft]
 TIER I
-[br]Reactive / Offensive
+[br]Reaction
 [br][section:clr-encost]1 EN[/section]
 [/container]
 [container:skill-columnright]
@@ -179,7 +179,7 @@ The next [url:def#MeleeAttack]melee attack[/url] within this turn targets a spec
 [container:skill-content]
 [container:skill-columnleft]
 TIER I
-[br]Reactive / Offensive
+[br]Reaction
 [br]Range: Weapon
 [br][section:clr-encost]1 EN[/section]
 [/container]
@@ -194,7 +194,7 @@ Executes a [url:def#MeleeAttack]melee attack[/url] or [url:def#Grapple]grapple[/
 [container:skill-content]
 [container:skill-columnleft]
 TIER I
-[br]Reactive / Defensive
+[br]Reaction
 [br][section:clr-encost]1 EN[/section]
 [/container]
 [container:skill-columnright]
@@ -207,7 +207,7 @@ Gain [url:core#Advantage]Advantage 1[/url] on the next [url:def#Dodge]dodge[/url
 [container:skill-content]
 [container:skill-columnleft]
 TIER I
-[br]Reactive / Offensive
+[br]Reaction
 [br]Range: Weapon
 [br][section:clr-encost]1 EN[/section]
 [/container]
@@ -222,7 +222,7 @@ Executes a non-parriable [url:def#MeleeAttack]melee attack[/url] with an equippe
 [container:skill-content]
 [container:skill-columnleft]
 TIER I
-[br]Reactive / Defensive
+[br]Reaction
 [br][section:clr-encost]1 EN[/section]
 [/container]
 [container:skill-columnright]
@@ -235,7 +235,7 @@ Gain [url:core#Advantage]Advantage 1[/url] on the next [url:def#Block]block[/url
 [container:skill-content]
 [container:skill-columnleft]
 TIER I
-[br]Reactive / Defensive
+[br]Reaction
 [br][section:clr-encost]1 EN[/section]
 [/container]
 [container:skill-columnright]
@@ -248,7 +248,7 @@ Gain [url:core#Advantage]Advantage 1[/url] on the next [url:def#Parry]parry[/url
 [container:skill-content]
 [container:skill-columnleft]
 TIER I
-[br]Reactive / Utility
+[br]Reaction
 [br][section:clr-encost]1 EN[/section]
 [/container]
 [container:skill-columnright]

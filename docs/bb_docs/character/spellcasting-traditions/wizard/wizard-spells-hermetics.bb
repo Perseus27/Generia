@@ -3,7 +3,7 @@
 [container:spell][h2|ManaBeamI]Mana Beam I[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Arcane
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br]UPCAST 3
 [/container][container:spell-columncenter]
@@ -24,7 +24,7 @@ TIER I
 [container:spell][h2|ManaBoltI]Mana Bolt I[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Arcane
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br]UPCAST 3
 [/container][container:spell-columncenter]
@@ -40,7 +40,7 @@ TIER I
 [container:spell][h2|ArcaneBarrierI]Arcane Barrier I[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Arcane
-[br]Reactive / Defensive
+[br]Reaction
 [br]UPCAST 5
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section][/section]
@@ -86,7 +86,7 @@ TIER I
 [container:spell][h2|ArcaneLeap]Arcane Leap[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Arcane
-[br]Active / Utility
+[br]Utility
 [br]Range: 12m
 [br][section:clr-movement]MOVEMENT[/section]
 [/container][container:spell-columncenter]
@@ -101,7 +101,7 @@ TIER I
 [container:spell][h2|Dim]Dim[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Light
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][section:clr-support]SUPPORT[/section]
@@ -117,7 +117,7 @@ TIER I
 [container:spell][h2|FlashOfLight]Flash of Light[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Light
-[br]Active / Utility
+[br]Utility
 [br]Radius: 4m
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]PER[/section][/section]
@@ -135,7 +135,7 @@ TIER I
 [container:spell][h2|Flicker]Flicker[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Light
-[br]Reactive / Utility
+[br]Reaction
 [br]Range: 20m
 [br][section:clr-meta]META[/section]
 [br][section:clr-support]SUPPORT[/section]
@@ -151,7 +151,7 @@ TIER I
 [container:spell][h2|ThermalVision]Thermal Vision[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Arcane
-[br]Active / Utility
+[br]Utility
 [br]Radius: 20m
 [br][section:clr-conc]CONCENTRATION[/section]
 [/container][container:spell-columncenter]
@@ -198,7 +198,7 @@ TIER I
 [container:spell][h2|ManaBeamII]Mana Beam II[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Arcane
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br]UPCAST 3
 [/container][container:spell-columncenter]
@@ -219,7 +219,7 @@ TIER I
 [container:spell][h2|ManaBoltII]Mana Bolt II[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Arcane
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br]UPCAST 3
 [/container][container:spell-columncenter]
@@ -235,7 +235,7 @@ TIER II
 [container:spell][h2|ArcaneBarrierII]Arcane Barrier II[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Arcane
-[br]Reactive / Defensive
+[br]Reaction
 [br]UPCAST 5
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section][/section]
@@ -265,7 +265,7 @@ TIER II
 [container:spell][h2|Blink]Blink[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Arcane
-[br]Reactive / Defensive
+[br]Reaction
 [br]Range: [[section:clr-value]Arcane[/section]] m
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section][/section]
@@ -279,7 +279,7 @@ TIER II
 [container:spell][h2|Counterspell]Counterspell[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Arcane
-[br]Reactive / Defensive
+[br]Reaction
 [br]Range: 20m
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]SURECAST[/section][/section]
@@ -314,7 +314,7 @@ TIER II
 [container:spell][h2|Chameleon]Chameleon[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Light
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][section:clr-support]SUPPORT[/section]
@@ -330,7 +330,7 @@ TIER II
 [container:spell][h2|ChameleonField]Chameleon Field[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Light
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br]Radius: 4m
 [br][section:clr-conc]CONCENTRATION[/section]
@@ -349,7 +349,7 @@ TIER II
 [container:spell][h2|DampeningField]Dampening Field[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Arcane
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br]Radius: 4m
 [br]META
@@ -372,7 +372,7 @@ TIER II
 [container:spell][h2|DimensionStep]Dimension Step[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Arcane
-[br]Active / Utility
+[br]Utility
 [br][section:clr-movement]MOVEMENT[/section]
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]SURECAST[/section][/section]
@@ -386,7 +386,7 @@ TIER II
 [container:spell][h2|IllusoryDouble]Illusory Double[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Light
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br][section:clr-support]SUPPORT[/section]
 [br][section:clr-conc]CONCENTRATION[/section]
@@ -404,7 +404,7 @@ TIER II
 [container:spell][h2|SaturationField]Saturation Field[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Arcane
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br]Radius: 4m
 [br]UPCAST 3
@@ -460,7 +460,7 @@ TIER II
 [container:spell][h2|ArcaneNova]Arcane Nova[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Arcane
-[br]Active / Offensive
+[br]Offensive
 [br]Radius: 4m
 [br]UPCAST 3
 [/container][container:spell-columncenter]
@@ -479,7 +479,7 @@ TIER III
 [container:spell][h2|ManaBeamIII]Mana Beam III[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Arcane
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br]UPCAST 3
 [/container][container:spell-columncenter]
@@ -500,7 +500,7 @@ TIER III
 [container:spell][h2|ManaBoltIII]Mana Bolt III[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Arcane
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br]UPCAST 3
 [/container][container:spell-columncenter]
@@ -516,7 +516,7 @@ TIER III
 [container:spell][h2|ArcaneBarrierIII]Arcane Barrier III[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Arcane
-[br]Reactive / Defensive
+[br]Reaction
 [br]UPCAST 5
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section][/section]
@@ -546,7 +546,7 @@ TIER III
 [container:spell][h2|ReturnToSender]Return to Sender[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Arcane
-[br]Reactive / Defensive
+[br]Reaction
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section][/section]
 [br][section:clr-mpcost]4 MP[/section]
@@ -560,7 +560,7 @@ TIER III
 [container:spell][h2|Displace]Displace[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Arcane
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br][section:clr-control]CONTROL[/section]
 [br]MATERIAL:
@@ -583,7 +583,7 @@ TIER III
 [container:spell][h2|InvisibilityField]Invisibility Field[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Light
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br]Radius: 4m
 [br][section:clr-support]SUPPORT[/section]
@@ -602,7 +602,7 @@ TIER III
 [container:spell][h2|MicroRift]Micro Rift[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Arcane
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br][section:clr-support]SUPPORT[/section]
 [br][section:clr-movement]MOVEMENT[/section]

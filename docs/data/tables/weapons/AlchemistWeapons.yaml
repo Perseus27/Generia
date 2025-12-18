@@ -25,6 +25,13 @@ items:
     size: "6x2"
     tags: "[url:eqtags#Short]Short[/url]"
 
+  - name: "Grenade Launcher"
+    tier: "Tier II"
+    skill: "–"
+    range: "24m (grenades only)"
+    size: "6x3"
+    tags: "–"
+
   - name: "Rifle"
     tier: "Tier III"
     skill: "[url:skillsW#Pierce]Pierce[/url]"

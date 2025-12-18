@@ -3,7 +3,7 @@
 [container:spell][h2|VerseOfFolly]Verse of Folly[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Cacophony
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br][section:clr-affliction]AFFLICTION[/section]
 [br]Varieté
@@ -21,7 +21,7 @@ TIER I
 [container:spell][h2|VerseOfInnocence]Verse of Innocence[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Cacophony
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br][section:clr-affliction]AFFLICTION[/section]
 [br]Varieté
@@ -96,7 +96,7 @@ TIER I
 [container:spell][h2|VerseOfBoldness]Verse of Boldness[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Euphony
-[br]Active / Utility
+[br]Utility
 [br]Radius: 8m
 [br][section:clr-support]SUPPORT[/section]
 [br]Varieté
@@ -114,7 +114,7 @@ TIER I
 [container:spell][h2|VerseOfCarelessness]Verse of Carelessness[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Euphony
-[br]Active / Utility
+[br]Utility
 [br]Radius: 8m
 [br][section:clr-affliction]AFFLICTION[/section]
 [br]Varieté
@@ -132,7 +132,7 @@ TIER I
 [container:spell][h2|VerseOfCowardice]Verse of Cowardice[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Euphony
-[br]Active / Utility
+[br]Utility
 [br]Radius: 8m
 [br][section:clr-affliction]AFFLICTION[/section]
 [br]Varieté
@@ -150,7 +150,7 @@ TIER I
 [container:spell][h2|VerseOfHealing]Verse of Healing[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Euphony
-[br]Active / Utility
+[br]Utility
 [br]Radius: 8m
 [br][section:clr-heal]HEAL[/section]
 [br]Varieté
@@ -168,7 +168,7 @@ TIER I
 [container:spell][h2|MelodyOfHeroism]Melody of Heroism[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Euphony
-[br]Active / Utility
+[br]Utility
 [br]Radius: 12m
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][section:clr-support]SUPPORT[/section]
@@ -187,7 +187,7 @@ TIER I
 [container:spell][h2|MelodyOfMagic]Melody of Magic[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Euphony
-[br]Active / Utility
+[br]Utility
 [br]Radius: 12m
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][section:clr-support]SUPPORT[/section]
@@ -206,7 +206,7 @@ TIER I
 [container:spell][h2|VerseOfRebellion]Verse of Rebellion[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Euphony
-[br]Active / Utility
+[br]Utility
 [br]Radius: 12m
 [br][section:clr-support]SUPPORT[/section]
 [br]Varieté
@@ -320,7 +320,7 @@ TIER I
 [container:spell][h2|StanzaOfFolly]Stanza of Folly[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Cacophony
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br][section:clr-affliction]AFFLICTION[/section]
 [br]Varieté
@@ -338,7 +338,7 @@ TIER II
 [container:spell][h2|StanzaOfInnocence]Stanza of Innocence[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Cacophony
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br][section:clr-affliction]AFFLICTION[/section]
 [br]Varieté
@@ -419,7 +419,7 @@ TIER II
 [container:spell][h2|StanzaOfBoldness]Stanza of Boldness[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Euphony
-[br]Active / Utility
+[br]Utility
 [br]Radius: 8m
 [br][section:clr-support]SUPPORT[/section]
 [br]Varieté
@@ -439,7 +439,7 @@ TIER II
 [container:spell][h2|StanzaOfCarelessness]Stanza of Carelessness[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Euphony
-[br]Active / Utility
+[br]Utility
 [br]Radius: 8m
 [br][section:clr-affliction]AFFLICTION[/section]
 [br]Varieté
@@ -459,7 +459,7 @@ TIER II
 [container:spell][h2|StanzaOfCowardice]Stanza of Cowardice[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Euphony
-[br]Active / Utility
+[br]Utility
 [br]Radius: 8m
 [br][section:clr-affliction]AFFLICTION[/section]
 [br]Varieté
@@ -479,7 +479,7 @@ TIER II
 [container:spell][h2|StanzaOfHealing]Stanza of Healing[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Euphony
-[br]Active / Utility
+[br]Utility
 [br]Radius: 8m
 [br][section:clr-heal]HEAL[/section]
 [br]Varieté
@@ -499,7 +499,7 @@ TIER II
 [container:spell][h2|SongOfHeroism]Song of Heroism[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Euphony
-[br]Active / Utility
+[br]Utility
 [br]Radius: 12m
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][section:clr-support]SUPPORT[/section]
@@ -518,7 +518,7 @@ TIER II
 [container:spell][h2|SongOfMagic]Song of Magic[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Euphony
-[br]Active / Utility
+[br]Utility
 [br]Radius: 12m
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][section:clr-support]SUPPORT[/section]
@@ -537,7 +537,7 @@ TIER II
 [container:spell][h2|StanzaOfRebellion]Stanza of Rebellion[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Euphony
-[br]Active / Utility
+[br]Utility
 [br]Radius: 12m
 [br][section:clr-support]SUPPORT[/section]
 [br]Varieté
@@ -580,7 +580,7 @@ TIER II
 [container:spell][h2|PoemOfFolly]Poem of Folly[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Cacophony
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br][section:clr-affliction]AFFLICTION[/section]
 [br]Varieté
@@ -598,7 +598,7 @@ TIER III
 [container:spell][h2|PoemOfInnocence]Poem of Innocence[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Cacophony
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br][section:clr-affliction]AFFLICTION[/section]
 [br]Varieté
@@ -679,7 +679,7 @@ TIER III
 [container:spell][h2|PoemOfBoldness]Poem of Boldness[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Euphony
-[br]Active / Utility
+[br]Utility
 [br]Radius: 8m
 [br][section:clr-support]SUPPORT[/section]
 [br]Varieté
@@ -699,7 +699,7 @@ TIER III
 [container:spell][h2|PoemOfCarelessness]Poem of Carelessness[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Euphony
-[br]Active / Utility
+[br]Utility
 [br]Radius: 8m
 [br][section:clr-affliction]AFFLICTION[/section]
 [br]Varieté
@@ -719,7 +719,7 @@ TIER III
 [container:spell][h2|PoemOfCowardice]Poem of Cowardice[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Euphony
-[br]Active / Utility
+[br]Utility
 [br]Radius: 8m
 [br][section:clr-affliction]AFFLICTION[/section]
 [br]Varieté
@@ -739,7 +739,7 @@ TIER III
 [container:spell][h2|PoemOfHealing]Poem of Healing[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Euphony
-[br]Active / Utility
+[br]Utility
 [br]Radius: 8m
 [br][section:clr-heal]HEAL[/section]
 [br]Varieté
@@ -759,7 +759,7 @@ TIER III
 [container:spell][h2|SonataOfHeroism]Sonata of Heroism[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Euphony
-[br]Active / Utility
+[br]Utility
 [br]Radius: 12m
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][section:clr-support]SUPPORT[/section]
@@ -778,7 +778,7 @@ TIER III
 [container:spell][h2|SonataOfMagic]Sonata of Magic[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Euphony
-[br]Active / Utility
+[br]Utility
 [br]Radius: 12m
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][section:clr-support]SUPPORT[/section]
@@ -797,7 +797,7 @@ TIER III
 [container:spell][h2|PoemOfRebellion]Poem of Rebellion[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Euphony
-[br]Active / Utility
+[br]Utility
 [br]Radius: 12m
 [br][section:clr-support]SUPPORT[/section]
 [br]Varieté
@@ -859,7 +859,7 @@ TIER X – [i]Charlatan[/i]
 [container:spell][h2|EighthRest]Eighth Rest[/h2][container:spell-content][container:spell-columnleft]
 TIER X – [i]Troubadour[/i]
 [br]Cacophony
-[br]Reactive / Utility
+[br]Reaction
 [br][section:clr-affliction]AFFLICTION[/section]
 [br][section:clr-control]CONTROL[/section]
 [/container][container:spell-columncenter]

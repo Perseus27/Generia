@@ -1,60 +1,60 @@
-name: Large Golem, Mk. I
-id: golem-mk1-large
+name: Medium Golem, Mk. II
+id: golem-mk2-medium
 info:
   species: Construct
-  level: 10
-  size: Large
+  level: 20
+  size: Medium
   tags: "Construct, Mindless"
 notes: >
   [b]See:[/b] [url:/generia/character/spellcasting-traditions/alchemist/what-is-an-alchemist#Golems]Golems[/url]
   [br][b]Required Material Volume:[/b]
-  [br]Stone: Large boulder
-  [br]Metal: Full bathtub
-  [br][b]Weight:[/b] 3000
+  [br]Stone: Large barrel
+  [br]Metal: Treasure Chest
+  [br][b]Weight:[/b] 400
 
 attributes:
-  CON: ["9", "4"]
-  STR: ["9", "4"]
-  DEX: ["4", "2"]
+  CON: ["11", "5"]
+  STR: ["12", "6"]
+  DEX: ["9", "4"]
   INT: ["0", "0"]
   WIL: ["0", "0"]
-  PER: ["0", "0"]
+  PER: ["4", "2"]
 values:
   EN: 20
   MP: 0
   MPR: 0
   WL: 5
-  WT: 8
-  TN: 3
+  WT: 9
+  TN: 4
   MS: 4
 armor:
-  head: 2
-  torso: 4
-  arms: 3
-  legs: 3
-  md: 4
+  head: 3
+  torso: 5
+  arms: 4
+  legs: 4
+  md: 5
   enc: 0
 custom-hitzones: ["Core", "Torso", "Arms", "Legs"]
 loot:
-  - "Golem Core Mk. I"
+  - "Golem Core Mk. II"
 actions:
   active:
-    - name: "Golem Fist, large"
+    - name: "Golem Fist"
       type: "Melee Attack"
-      hit: "Hit+2, Block+8|4"
-      damage: "[section:clr-roll]1d10+4[/section] Blunt"
+      hit: "Hit+4, Block+11|5"
+      damage: "[section:clr-roll]1d8+6[/section] Blunt"
 
     - name: "OPTIONAL EQUIPMENT"
 
     - name: "Mace & Shield"
       type: "Melee Attack"
-      hit: "Hit+2, Block+8|10"
-      damage: "[section:clr-roll]2d6+4[/section] Blunt"
+      hit: "Hit+4, Block+11|13"
+      damage: "[section:clr-roll]2d6+6[/section] Blunt"
 
     - name: "Spear"
       type: "Melee Attack, long"
-      hit: "Hit+2, Block+8|8"
-      damage: "[section:clr-roll]2d6+6[/section] Sharp"
+      hit: "Hit+4, Block+11|11"
+      damage: "[section:clr-roll]2d6+9[/section] Sharp"
 
   passive:
     - name: "Proficiencies"

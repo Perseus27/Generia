@@ -1,0 +1,402 @@
+name: "Alchemist Spells"
+id: "alchemist-spells-i"
+id_appendix: "I"
+
+offensive:
+  - name: "Flame Throw I"
+    id: "FlameThrowI"
+    tags: ["TIER I", "Pharmacy", "Offensive", "Volatile", "Range: 4m", "Width: 1m"]
+    type:
+      - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
+    material:
+      - "1× Air Dust"
+      - "3× Fire Dust"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      A jet of flame bursts forth from the Alchemist's gloves, damaging all creatures in a straight line.
+    effect: >
+      [section:clr-roll]2d4[/section] Fire
+      [br]On [url:def#Hit]hit[/url]: [url:status#Burning]Burning 1[/url]
+    saved: "Damage halved."
+    saved10: "No effect."
+
+  - name: "Shard Throw I"
+    id: "ShardThrowI"
+    tags: ["TIER I", "Mechanics", "Offensive", "Volatile", "Range: 4m", "Width: 1m"]
+    type:
+      - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
+    material:
+      - "2× Air Dust"
+      - "2× Stone Dust"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      A swarm of sharp stone shards bursts forth from the Alchemist's gloves, damaging all creatures in a straight line.
+      [br][i]Always targets the worst-armored hit zone.[/i]
+    effect: >
+      [section:clr-roll]2d4[/section] Sharp
+      [br]On [url:def#Hit]hit[/url]: [url:status#Bleeding]Bleeding 1[/url]
+    saved: "Damage halved."
+    saved10: "No effect."
+
+
+defensive:
+  - name: "Emergency Shield I"
+    id: "EmergencyShieldI"
+    tags: ["TIER I", "Mechanics", "Reaction", "Volatile"]
+    type:
+      - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
+    material:
+      - "2× Stone Dust"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      Rapidly creates a barrier of elemental stone to absorb damage from incoming attacks.
+      [br]The barrier breaks once its maximum is reached; excess damage carries over.
+    effect: >
+      [section:clr-roll]1d4[/section]+[section:clr-value]Mechanics[/section] Protection
+
+
+utility:
+  - subheader:
+    is_subheader: True
+    name: "Ammunition"
+    id: "AmmunitionI"
+
+  - name: "Basic Ammunition I"
+    id: "BasicAmmunitionI"
+    tags: ["TIER I", "Mechanics", "Utility", "Permanent"]
+    type:
+      - "[section:clr-surecast]Surecast[/section]"
+    material:
+      - "2× Stone Dust"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      Creates up to [[section:clr-value]Mechanics[/section]] units of basic stone ammunition for a [url:../what-is-an-alchemist#TransmutedWeapons]Transmuted Weapon[/url].
+    effect: >
+      [section:clr-roll]2d6[/section] Blunt
+
+  - name: "Elemental Ammunition I"
+    id: "ElementalAmmunitionI"
+    tags: ["TIER I", "Mechanics", "Utility", "Volatile"]
+    type:
+      - "[section:clr-surecast]Surecast[/section]"
+    material:
+      - "2× Elemental Dust"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      Creates up to [[section:clr-value]Mechanics[/section]] units of elemental ammunition for a [url:../what-is-an-alchemist#TransmutedWeapons]Transmuted Weapon[/url].
+      [br][i]For [url:../what-is-an-alchemist#Elements]derivative elements[/url]: Use [section:clr-value]1 dust[/section] of each basic element.[/i]
+    effect: >
+      [section:clr-roll]2d6[/section] Element
+
+  - name: "Status Ammunition I"
+    id: "StatusAmmunitionI"
+    tags: ["TIER I", "Pharmacy", "Utility", "Volatile"]
+    type:
+      - "[section:clr-surecast]Surecast[/section]"
+    material:
+      - "2× Elemental Dust"
+      - "Basic or Elemental Ammunition I"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      Coats up to [[section:clr-value]Mechanics[/section]] units of [url:#BasicAmmunitionI]Basic[/url] or [url:#ElementalAmmunitionI]Elemental Ammunition[/url] in elemental energy to give it additional properties that are applied on [url:def#Hit]hit[/url].
+      [br][i]For [url:../what-is-an-alchemist#Elements]derivative elements[/url]: Use [section:clr-value]1 dust[/section] of each basic element.[/i]
+    effect: >
+      [b]Water:[/b] [url:status#Bleeding]Bleeding 1[/url]
+      [br][b]Stone:[/b] [url:status#Brittle]Brittle 1[/url]
+      [br][b]Fire:[/b] [url:status#Burning]Burning 1[/url]
+      [br][b]Air:[/b] [url:status#Knockback]Knockback[/url] [[section:clr-value]Pharmacy[/section]]
+      [br][b]Ice:[/b] [url:status#Chilled]Chilled[/url]
+      [br][b]Lightning:[/b] [url:status#Shocked]Shocked[/url] [[section:clr-value]Pharmacy[/section]]
+
+  - name: "Therapeutic Ammunition I"
+    id: "TherapeuticAmmunitionI"
+    tags: ["TIER I", "Pharmacy", "Utility", "Volatile"]
+    type:
+      - "[section:clr-surecast]Surecast[/section]"
+    material:
+      - "1× Water Dust"
+      - "1× Small Healing Potion"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      Creates up to [[section:clr-value]Pharmacy[/section]] units of therapeutic ammunition for a [url:#../what-is-an-alchemist#TransmutedWeapons]Transmuted Weapon[/url].
+      [br][i]This ammunition does not require an attack roll against willing targets and may be fired as a [url:def#UtilityAction]Utility Action[/url].[/i]
+    effect: >
+      [section:clr-roll-noex]3d4[/section]+[section:clr-value]Quality[/section] Healing
+
+  - subheader:
+    is_subheader: True
+    name: "Grenades"
+    id: "GrenadesI"
+
+  - name: "Corrosion Grenade I"
+    id: "CorrosionGrenadeI"
+    tags: ["TIER I", "Pharmacy", "Utility", "Volatile"]
+    type:
+      - "[section:clr-surecast]Surecast[/section]"
+      - "[section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
+    material:
+      - "1× Fire Dust"
+      - "1× Air Dust"
+      - "2× Water Dust"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      Creates a throwable grenade that detonates on impact.
+      [br]Its explosion radius equals [[section:clr-value]Pharmacy[/section]] meters.
+    effect: >
+      All zones become [url:status#Brittle]Brittle 2[/url].
+    saved: "Roll one affected zone instead."
+    saved10: "No effect."
+
+  - name: "Fire Grenade I"
+    id: "FireGrenadeI"
+    tags: ["TIER I", "Pharmacy", "Utility", "Volatile"]
+    type:
+      - "[section:clr-surecast]Surecast[/section]"
+      - "[section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
+    material:
+      - "3× Fire Dust"
+      - "1× Air Dust"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      Creates a throwable grenade that detonates on impact.
+      [br]Its explosion radius equals [[section:clr-value]Pharmacy[/section]] meters.
+    effect: >
+      [section:clr-roll]2d4[/section] Fire
+      [br]On [url:def#Hit]hit[/url]: [url:status#Burning]Burning 1[/url]
+    saved: "Damage halved."
+    saved10: "No effect."
+
+  - name: "Fragmentation Grenade I"
+    id: "FragmentationGrenadeI"
+    tags: ["TIER I", "Mechanics", "Utility", "Volatile"]
+    type:
+      - "[section:clr-surecast]Surecast[/section]"
+      - "[section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
+    material:
+      - "1× Fire Dust"
+      - "1× Air Dust"
+      - "2× Stone Dust"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      Creates a throwable grenade that detonates on impact.
+      [br]Its explosion radius equals [[section:clr-value]Mechanics[/section]] meters.
+    effect: >
+      [section:clr-roll]2d4[/section] Sharp
+      [br]On [url:def#Hit]hit[/url]: [url:status#Bleeding]Bleeding 1[/url]
+    saved: "Damage halved."
+    saved10: "No effect."
+
+  - name: "Shock Grenade I"
+    id: "ShockGrenadeI"
+    tags: ["TIER I", "Pharmacy", "Utility", "Volatile"]
+    type:
+      - "[section:clr-surecast]Surecast[/section]"
+      - "[section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
+    material:
+      - "2× Fire Dust"
+      - "2× Air Dust"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      Creates a throwable grenade that detonates on impact.
+      [br]Its explosion radius equals [[section:clr-value]Pharmacy[/section]] meters.
+    effect: >
+      [url:status#Shocked]Shocked[/url] [[section:clr-value]Pharmacy[/section]]
+    saved: "[url:status#Shocked]Shocked[/url] [[section:clr-value]Pharmacy/2[/section]]"
+    saved10: "No effect."
+
+  - subheader:
+    is_subheader: True
+    name: "Other Consumables"
+    id: "OtherConsumablesI"
+
+  - name: "Improvised Remedy I"
+    id: "ImprovisedRemedyI"
+    tags: ["TIER I", "Pharmacy", "Utility", "Volatile"]
+    type:
+      - "[section:clr-surecast]Surecast[/section]"
+      - "[section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
+    material:
+      - "2× Water Dust"
+      - "1× Medicinal Ingredients"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      Creates up to [[section:clr-value]Pharmacy[/section]] units of ephemeral medicine, equivalent to a Small Healing Potion. May be directly consumed like a potion, or used as a base for [url:#TherapeuticAmmunitionI]Therapeutic Ammunition I[/url].
+      [br][i]Medicinal ingredients can be any reagent with healing properties, from medicinal herbs to certain chemical compounds. Improvise within the bounds of reason.[/i]
+    effect: >
+      [section:clr-roll-noex]3d4[/section]+[[section:clr-value]Pharmacy[/section]] Healing
+
+  - subheader:
+    is_subheader: True
+    name: "Golem Equipment"
+    id: "GolemEquipmentI"
+
+  - name: "Golem Kit: Frontliner"
+    id: "GolemKitFrontliner"
+    tags: ["TIER I", "Mechanics", "Free Action", "Construction"]
+    type:
+      - "[section:clr-surecast]Surecast[/section]"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      Configures a controlled golem as a heavy frontliner, equipped with mace and shield.
+      [br][i]Only one Golem Kit can be active at once.[/i]
+    effect: >
+      [b]Weapons:[/b] Mace, Roundshield
+      [br][b]Perks:[/b] [url:perksC#Opportunist]Opportunist[/url]
+      [br][b]Skills:[/b] [url:skills1#Shove]Shove[/url]
+
+  - name: "Golem Kit: Skirmisher"
+    id: "GolemKitFrontliner"
+    tags: ["TIER I", "Mechanics", "Free Action", "Construction"]
+    type:
+      - "[section:clr-surecast]Surecast[/section]"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      Configures a controlled golem as a light skirmisher, equipped with a spear.
+      [br][i]Only one Golem Kit can be active at once.[/i]
+    effect: >
+      [b]Weapons:[/b] Spear
+      [br][b]Perks:[/b] [url:perksC#Opportunist]Opportunist[/url]
+      [br][b]Skills:[/b] [url:skills1#Counter]Counter[/url]
+
+
+ritual:
+  - subheader:
+    is_subheader: True
+    name: "General"
+    id: "GeneralI"
+
+  - name: "Accumulation"
+    id: "Accumulation"
+    tags: ["TIER I", "Pharmacy", "Out of Combat"]
+    type:
+      - "[section:clr-ritual]Ritual[/section]"
+    material:
+      - "Element Source"
+    cast_time: "4 Phases"
+    description: >
+      The Alchemist carefully accumulates ambient mana to create a weak elemental core.
+      [br]The cast time is halved for each elemental presence level above weak.
+    effect: >
+      Product:
+      [br]1× Elemental Core, weak
+
+  - name: "Desintegration"
+    id: "Desintegration"
+    tags: ["TIER I", "Pharmacy", "Out of Combat"]
+    type:
+      - "[section:clr-ritual]Ritual[/section]"
+    material:
+      - "1× Elemental Core, any"
+    cast_time: "½ Phase"
+    description: >
+      The Alchemist breaks down an elemental core into elemental dust.
+    effect: >
+      Product:
+      [br][b]Core, weak:[/b] 10 Dust
+      [br][b]Core, normal:[/b] 20 Dust
+      [br][b]Core, strong:[/b] 40 Dust
+
+  - name: "Transmutation"
+    id: "Transmutation"
+    tags: ["TIER I", "Mechanics / Pharmacy", "Out of Combat"]
+    type:
+      - "[section:clr-ritual]Ritual[/section]"
+    material:
+      - "???"
+    cast_time: "???"
+    description: >
+      The Alchemist manipulates or transforms matter to create a mechanical object (e.g., dice, a sword, a cuckoo clock) or a pharmaceutical substance (e.g., medicine, poison, chewing gum...)
+    effect: >
+      Effect, duration, and any costs are negotiable.
+      [br]Enables [i][url:/generia/rules/magic/freecasting]Freecasting[/url].[/i]
+
+  - subheader:
+    is_subheader: True
+    name: "Weapon Construction"
+    id: "WeaponConstructionI"
+
+  - name: "Construction: Handgun"
+    id: "ConstructionHandgun"
+    tags: ["TIER I", "Mechanics", "Out of Combat", "Construction"]
+    type:
+      - "[section:clr-ritual]Ritual[/section]"
+    material:
+      - "1× Stone Core, weak"
+      - "1× Fire Core, weak"
+    cast_time: "2 Phases"
+    description: >
+      The Alchemist constructs a transmuted [url:../what-is-an-alchemist#TransmutedWeapons]handgun[/url].
+    effect: >
+      Product:
+      [br][url:../what-is-an-alchemist#TransmutedWeapons]Transmuted Handgun[/url]
+
+  - subheader:
+    is_subheader: True
+    name: "Golem Construction"
+    id: "GolemConstructionI"
+
+  - name: "Construction: Golem Core Mk. I"
+    id: "ConstructionGolemCoreMkI"
+    tags: ["TIER I", "Mechanics", "Out of Combat", "Construction"]
+    type:
+      - "[section:clr-ritual]Ritual[/section]"
+    material:
+      - "0.05 Steel, 0.04 pure Silver, 0.01 pure Gold"
+      - "1× Diamond, small"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    cast_time: "4 Phases"
+    description: >
+      Constructs a Golem Core Mk. I.
+    effect: >
+      [b]Size:[/b] 1x1
+      [br][b]Weight:[/b] 0.1
+
+  - name: "Golem Activation"
+    id: "GolemActivation"
+    tags: ["TIER I", "Mechanics", "Out of Combat", "Construction"]
+    type:
+      - "[section:clr-ritual]Ritual[/section]"
+    cast_time: "1 Phase"
+    material:
+      - "Golem Core"
+    description: >
+      Activates a [url:../what-is-an-alchemist#Golems]Golem Core[/url].
+      [br]Requires a suffient amount of raw material within [section:clr-value]4m[/section] radius.
+      [br]Cast time is doubled per golem size class above [i]tiny[/i].
+    effect: >
+      Golem is constructed and activated.
+
+  - name: "Golem Armor I"
+    id: "GolemArmorI"
+    tags: ["TIER I", "Mechanics", "Out of Combat", "Construction"]
+    type:
+      - "[section:clr-ritual]Ritual[/section]"
+    material:
+      - "1× Stone Core, small"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    cast_time: "1 Phase"
+    description: >
+      Constructs armor plating for a [url:../what-is-an-alchemist#Golems]Golem[/url] larger than [i]tiny[/i].
+    effect: >
+      Golem armor is increased by:
+      [br][b]Core:[/b] 1
+      [br][b]Torso:[/b] 4
+      [br][b]Arms:[/b] 2
+      [br][b]Legs:[/b] 2
+      [br][b]MD:[/b] 1

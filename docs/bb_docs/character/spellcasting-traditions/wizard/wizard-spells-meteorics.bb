@@ -3,7 +3,7 @@
 [container:spell][h2|MeteoricBoltI]Meteoric Bolt I[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Air / Lightning
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br]UPCAST 3
 [/container][container:spell-columncenter]
@@ -18,7 +18,7 @@ TIER I
 [container:spell][h2|ShockingTouch]Shocking Touch[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Lightning
-[br]Active / Offensive
+[br]Offensive
 [br]UPCAST 3
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section][/section]
@@ -37,7 +37,7 @@ TIER I
 [container:spell][h2|ZapI]Zap I[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Lightning
-[br]Active / Offensive
+[br]Offensive
 [br]UPCAST 3
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section][/section]
@@ -58,7 +58,7 @@ TIER I
 [container:spell][h2|MeteoricBarrierI]Meteoric Barrier I[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Air / Lightning
-[br]Reactive / Defensive
+[br]Reaction
 [br]UPCAST 3
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section][/section]
@@ -74,7 +74,7 @@ TIER I
 [container:spell][h2|AirBurst]Air Burst[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Air
-[br]Active / Utility
+[br]Utility
 [br]UPCAST 3
 [br][section:clr-control]CONTROL[/section]
 [/container][container:spell-columncenter]
@@ -93,7 +93,7 @@ TIER I
 [container:spell][h2|AirCushion]Air Cushion[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Air
-[br]Reactive / Utility
+[br]Reaction
 [br]Range: 20m
 [br]Radius: 6m
 [br][section:clr-control]CONTROL[/section]
@@ -111,7 +111,7 @@ TIER I
 [container:spell][h2|Discharge]Discharge[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Lightning
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br][section:clr-affliction]AFFLICTION[/section]
 [/container][container:spell-columncenter]
@@ -128,7 +128,7 @@ TIER I
 [container:spell][h2|LightningStep]Lightning Step[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Lightning
-[br]Active / Utility
+[br]Utility
 [br][section:clr-movement]MOVEMENT[/section]
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]SURECAST[/section][/section]
@@ -142,7 +142,7 @@ TIER I
 [container:spell][h2|Neuroshock]Neuroshock[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Lightning
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]INT[/section][/section]
@@ -176,7 +176,7 @@ TIER I
 [container:spell][h2|LightningBlastI]Lightning Blast I[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Lightning
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br]UPCAST 3
 [/container][container:spell-columncenter]
@@ -196,7 +196,7 @@ TIER II
 [container:spell][h2|MeteoricBoltII]Meteoric Bolt II[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Air / Lightning
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br]UPCAST 3
 [/container][container:spell-columncenter]
@@ -211,7 +211,7 @@ TIER II
 [container:spell][h2|ThunderboltI]Thunderbolt I[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Air / Lightning
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br]UPCAST 3
 [/container][container:spell-columncenter]
@@ -230,7 +230,7 @@ TIER II
 [container:spell][h2|ZapII]Zap II[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Lightning
-[br]Active / Offensive
+[br]Offensive
 [br]UPCAST 3
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section][/section]
@@ -251,7 +251,7 @@ TIER II
 [container:spell][h2|MeteoricBarrierII]Meteoric Barrier II[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Air / Lightning
-[br]Reactive / Defensive
+[br]Reaction
 [br]UPCAST 3
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section][/section]
@@ -287,7 +287,7 @@ TIER II
 [container:spell][h2|BallLightning]Ball Lightning[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Lightning
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br]Radius: 2m
 [br][section:clr-affliction]AFFLICTION[/section]
@@ -309,7 +309,7 @@ TIER II
 [container:spell][h2|FieldOfSilence]Field of Silence[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Air
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br]Radius: 2m
 [br][section:clr-affliction]AFFLICTION[/section]
@@ -328,7 +328,7 @@ TIER II
 [container:spell][h2|FogCloud]Fog Cloud[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Air / Water
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br]UPCAST 3
 [br][section:clr-control]CONTROL[/section]
@@ -347,7 +347,7 @@ TIER II
 [container:spell][h2|Gust]Gust[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Air
-[br]Active / Utility
+[br]Utility
 [br]Radius: 4m
 [br]UPCAST 3
 [br][section:clr-control]CONTROL[/section]
@@ -367,7 +367,7 @@ TIER II
 [container:spell][h2|Levitation]Levitation[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Air
-[br]Active / Utility
+[br]Utility
 [br][section:clr-movement]MOVEMENT[/section]
 [br][section:clr-conc]CONCENTRATION[/section]
 [/container][container:spell-columncenter]
@@ -387,7 +387,7 @@ TIER II
 [container:spell][h2|ChainLightningI]Chain Lightning I[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Lightning
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br]UPCAST 3
 [/container][container:spell-columncenter]
@@ -406,7 +406,7 @@ TIER III
 [container:spell][h2|Firestorm]Firestorm[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Air / Fire
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 4m
 [br]Radius: 2m
 [br][section:clr-conc]CONCENTRATION[/section]
@@ -428,7 +428,7 @@ TIER III
 [container:spell][h2|Hailstorm]Hailstorm[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Air / Ice
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br]Radius: 4m
 [br][section:clr-control]CONTROL[/section]
@@ -450,7 +450,7 @@ TIER III
 [container:spell][h2|LightningBlastII]Lightning Blast II[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Lightning
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br]UPCAST 3
 [/container][container:spell-columncenter]
@@ -470,7 +470,7 @@ TIER III
 [container:spell][h2|MeteoricBoltIII]Meteoric Bolt III[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Air / Lightning
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br]UPCAST 3
 [/container][container:spell-columncenter]
@@ -485,7 +485,7 @@ TIER III
 [container:spell][h2|Shockwave]Shockwave[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Lightning / Air
-[br]Active / Offensive
+[br]Offensive
 [br]Radius: 4m
 [br]UPCAST 3
 [/container][container:spell-columncenter]
@@ -504,7 +504,7 @@ TIER III
 [container:spell][h2|ThunderboltII]Thunderbolt II[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Air / Lightning
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br]UPCAST 3
 [/container][container:spell-columncenter]
@@ -523,7 +523,7 @@ TIER II
 [container:spell][h2|ZapIII]Zap III[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Lightning
-[br]Active / Offensive
+[br]Offensive
 [br]UPCAST 3
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section][/section]
@@ -544,7 +544,7 @@ TIER III
 [container:spell][h2|MeteoricBarrierIII]Meteoric Barrier III[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Air / Lightning
-[br]Reactive / Defensive
+[br]Reaction
 [br]UPCAST 3
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section][/section]
@@ -560,7 +560,7 @@ TIER III
 [container:spell][h2|Blizzard]Blizzard[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Air / Ice
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br]Radius: 6m
 [br][section:clr-affliction]AFFLICTION[/section]
@@ -583,7 +583,7 @@ TIER III
 [container:spell][h2|Flight]Flight[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Air
-[br]Active / Utility|Move
+[br]Utility|Move
 [br][section:clr-movement]MOVEMENT[/section]
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]SURECAST[/section][/section]
@@ -597,7 +597,7 @@ TIER III
 [container:spell][h2|StaticField]Static Field[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Lightning
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br]Radius: 2m
 [br][section:clr-affliction]AFFLICTION[/section]
@@ -621,7 +621,7 @@ TIER III
 [container:spell][h2|Vacuum]Vacuum[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Air
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br]Radius: 2m
 [br][section:clr-affliction]AFFLICTION[/section]

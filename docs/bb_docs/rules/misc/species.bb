@@ -24,14 +24,14 @@ Gains [section:clr-mp]1 MP[/section] per spell tier from allied spell effects.
 [h2|Alb]Alb[/h2]
 Albs are the offspring of an elven tribe who became corrupted by the void millennia ago. Today, the remnants of this curse can no longer be called true corruption, but they are still regarded with suspicion wherever they go – particularly by their ancient cousins.
 [h4|DarkHeritage]Dark Heritage[/h4]
-The effects of [url:status#Corruption]Corruption[/url] count as one stage lower. Gains permanent [url:status#Resistant]Resistance: Void[/url].
+The effects of [url:status#Corrupted]Corruption[/url] count as one stage lower. Gains permanent [url:status#Resistant]Resistance: Void[/url].
 [h4|Dissonance]Dissonance[/h4]
 Gains [section:clr-mp]1 MP[/section] per spell tier from hostile spell [url:def#Hit]hits[/url].
 [/container]
 
 [container:orgblock]
 [h2|Felis]Felis[/h2]
-"Felis" is a broad term for a wide variety of peoples; descendants from sentient magical beasts of all shapes and sizes. They are as diverse as their bestial ancestors, but for some unknowable reason, a disproportional amount of them seems to have feline blood.
+"Felis" is a broad term for a wide variety of peoples; descendants from sapient magical beasts of all shapes and sizes. They are as diverse as their bestial ancestors, but for some unknowable reason, a disproportional amount of them seems to have feline blood.
 [h4]Bloodline[/h4]
 At character creation, choose one [url:/generia/rules/basic/attributes]Attribute[/url] reflecting [i]ancestry[/i].
 [br]Its [section:clr-attr]MOD[/section] is permanently increased by [section:clr-value]1[/section].

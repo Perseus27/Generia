@@ -14,6 +14,8 @@ Creature tags are passive features that are usually inherent to a species (or, m
 [url:values#MS]Movement Speed[/url] ([b]MS[/b]) is increased by [section:clr-value]X[/section].
 [h4|Slow]Slow X[/h4]
 [url:values#MS]Movement Speed[/url] ([b]MS[/b]) is reduced by [section:clr-value]X[/section].
+[h4|Sluggish]Sluggish[/h4]
+Universal Action [url:actions#Sprint]Sprint[/url] is unavailable.
 [/container]
 
 [container:orgblock]
@@ -30,7 +32,7 @@ Permanent [url:status#Vulnerable]Vulnerable X[/url].
 The creature is immune to [url:status]mental status effects[/url] and [url:wounds#Unconsciousness]Unconsciousness[/url].
 [br]Prerequisite: [section:clr-attr]WIL 0[/section].
 [h4]Construct[/h4]
-[url:values#WL]Wound Limit[/url] ([b]WL[/b]) is set to [section:clr-attr]CON-MOD[/section] or [section:clr-value]3[/section], whichever is higher.
+[url:values#WL]Wound Limit[/url] ([b]WL[/b]) is set to [section:clr-attr]CON-MOD[/section] or [section:clr-value]3[/section], whichever is higher. [url:../creature-sizes]Creature Size[/url] rules are applied afterward.
 [br]Prerequisite tag: [url:#Mindless]Mindless[/url].
 [br][i]This tag is meant for artificial beings with no will of their own.[/i]
 [/container]

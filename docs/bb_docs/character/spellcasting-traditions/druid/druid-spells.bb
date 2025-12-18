@@ -3,7 +3,7 @@
 [container:spell][h2|ThornWhip]Thorn Whip[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Flora
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 4m
 [br][section:clr-exper]EXPERTISE 1/2/3[/section]
 [br]Vegetation / Staff Spell
@@ -38,7 +38,7 @@ TIER I
 [container:spell][h2|Regrowth]Regrowth[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Flora
-[br]Active / Utility
+[br]Utility
 [br]Range: 8m
 [br][section:clr-heal]HEAL[/section]
 [br][section:clr-exper]EXPERTISE 1/2/3[/section]
@@ -55,7 +55,7 @@ TIER I
 [container:spell][h2|GraspingTendrils]Grasping Tendrils[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Flora
-[br]Active / Utility
+[br]Utility
 [br]Range: 16m
 [br]Radius: 2m
 [br][section:clr-control]CONTROL[/section]
@@ -74,7 +74,7 @@ TIER I
 [container:spell][h2|TheriomorphAspect]Theriomorph: Aspect[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Fauna
-[br]Active / Utility
+[br]Utility
 [br][section:clr-conc]CONCENTRATION[/section]
 [br]Soul Anchor
 [/container][container:spell-columncenter]
@@ -89,7 +89,7 @@ TIER I
 [container:spell][h2|Wildgrowth]Wildgrowth[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Flora
-[br]Active / Utility
+[br]Utility
 [br]Range: 16m
 [br]Radius: 2m
 [br][section:clr-control]CONTROL[/section]
@@ -112,7 +112,7 @@ TIER I
 [container:spell][h2|RootGrip]Root Grip[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Flora
-[br]Active / Utility
+[br]Utility
 [br]Range: 8m
 [br][section:clr-control]CONTROL[/section]
 [br][section:clr-conc]CONCENTRATION[/section]
@@ -163,7 +163,7 @@ TIER I
 [container:spell][h2|LocustSwarm]Locust Swarm[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Fauna
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 16m
 [br]Radius: 3m
 [br][section:clr-affliction]AFFLICTION[/section]
@@ -192,7 +192,7 @@ TIER II
 [container:spell][h2|Stranglevine]Stranglevine[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Flora
-[br]Active / Offensive
+[br]Offensive
 [br]Vegetation / Staff Spell
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]CON[/section][/section]
@@ -211,7 +211,7 @@ TIER II
 [container:spell][h2|WhirlOfThorns]Whirl of Thorns[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Flora
-[br]Active / Offensive
+[br]Offensive
 [br]Radius: 4m
 [br][section:clr-exper]EXPERTISE 2/3[/section]
 [br]Vegetation / Staff Spell
@@ -269,7 +269,7 @@ TIER II
 [container:spell][h2|AntHill]Ant Hill[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Fauna
-[br]Active / Utility
+[br]Utility
 [br]Range: 16m
 [br][section:clr-affliction]AFFLICTION[/section]
 [br][section:clr-field]FIELD[/section]
@@ -297,7 +297,7 @@ TIER II
 [container:spell][h2|BreakingVine]Breaking Vine[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Flora
-[br]Active / Utility
+[br]Utility
 [br]Vegetation / Staff Spell
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section][/section]
@@ -316,7 +316,7 @@ TIER II
 [container:spell][h2|CrawlingInfestation]Crawling Infestation[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Fauna
-[br]Active / Utility
+[br]Utility
 [br]Range: 16m
 [br][section:clr-affliction]AFFLICTION[/section]
 [br][section:clr-exper]EXPERTISE 2/3[/section]
@@ -342,7 +342,7 @@ TIER II
 [container:spell][h2|FieldOfFlowers]Field of Flowers[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Flora
-[br]Active / Utility
+[br]Utility
 [br]Range: 16m
 [br]Radius: 2m
 [br][section:clr-heal]HEAL[/section]
@@ -363,7 +363,7 @@ TIER II
 [container:spell][h2|FieldOfThorns]Field of Thorns[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Flora
-[br]Active / Utility
+[br]Utility
 [br]Range: 8m
 [br]Radius: 2m
 [br][section:clr-control]CONTROL[/section]
@@ -388,7 +388,7 @@ TIER II
 [container:spell][h2|Panic]Panic[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Fauna
-[br]Active / Utility
+[br]Utility
 [br]Radius: 4m
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section][/section]
@@ -404,7 +404,7 @@ TIER II
 [container:spell][h2|PoisonVine]Poison Vine[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Flora
-[br]Active / Utility
+[br]Utility
 [br]Vegetation / Staff Spell
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]CON[/section][/section]
@@ -422,7 +422,7 @@ TIER II
 [container:spell][h2|TheriomorphHybrid]Theriomorph: Hybrid[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Fauna
-[br]Active / Utility
+[br]Utility
 [br][section:clr-conc]CONCENTRATION[/section]
 [br]Soul Anchor
 [/container][container:spell-columncenter]
@@ -437,7 +437,7 @@ TIER II
 [container:spell][h2|Toxidermis]Toxidermis[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Flora
-[br]Active / Utility
+[br]Utility
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][section:clr-support]SUPPORT[/section]
 [/container][container:spell-columncenter]
@@ -453,7 +453,7 @@ TIER II
 [container:spell][h2|RootField]Root Field[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Flora
-[br]Active / Utility
+[br]Utility
 [br]Range: 8m
 [br]Radius: 2m
 [br][section:clr-control]CONTROL[/section]
@@ -493,7 +493,7 @@ TIER II
 [container:spell][h2|ThornFury]Thorn Fury[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Flora
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 16m
 [br]Radius: 4m
 [br][section:clr-control]CONTROL[/section]
@@ -534,7 +534,7 @@ TIER III
 [container:spell][h2|TheriomorphTotal]Theriomorph: Total[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Fauna
-[br]Active / Utility
+[br]Utility
 [br][section:clr-conc]CONCENTRATION[/section]
 [br]Soul Anchor
 [/container][container:spell-columncenter]
@@ -553,7 +553,7 @@ TIER III
 [container:spell][h2|WhippingWillow]Whipping Willow[/h2][container:spell-content][container:spell-columnleft]
 TIER IV
 [br]Flora
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 16m
 [br]Radius: 8m
 [br][section:clr-control]CONTROL[/section]
@@ -576,7 +576,7 @@ TIER IV
 [container:spell][h2|TheriomorphChimera]Theriomorph: Chimera[/h2][container:spell-content][container:spell-columnleft]
 TIER IV
 [br]Fauna
-[br]Active / Utility
+[br]Utility
 [br][section:clr-conc]CONCENTRATION[/section]
 [br]Soul Anchor
 [/container][container:spell-columncenter]
@@ -591,7 +591,7 @@ TIER IV
 [container:spell][h2|WildgrowthGrove]Wildgrowth: Grove[/h2][container:spell-content][container:spell-columnleft]
 TIER IV
 [br]Flora
-[br]Active / Utility
+[br]Utility
 [br]Range: 16m
 [br]Radius: 6m
 [br][section:clr-control]CONTROL[/section]
@@ -640,7 +640,7 @@ TIER X – [i]Ranger[/i]
 [container:spell][h2|SummonBeast]Summon Beast[/h2][container:spell-content][container:spell-columnleft]
 TIER X – [i]Wildkeeper[/i]
 [br]Fauna
-[br]Active / Utility
+[br]Utility
 [br]Soul Anchor
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]SURECAST[/section][/section]

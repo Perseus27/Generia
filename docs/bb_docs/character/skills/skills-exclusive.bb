@@ -4,7 +4,7 @@
 [container:skill-columnleft]
 TIER X
 [br][url:class2/class-field-archer]Field Archer[/url]
-[br]Active / Offensive
+[br]Offensive
 [br]Range: Weapon
 [br][section:clr-encost]1/2/3/4/5 EN[/section] + Movement
 [/container]
@@ -22,7 +22,7 @@ Uses both the attack and movement actions to execute a [url:def#RangedAttack]ran
 [container:skill-columnleft]
 TIER X
 [br][url:class2/class-shieldbearer]Shieldbearer[/url]
-[br]Reactive / Defensive
+[br]Reaction
 [br]Range: Weapon
 [br][section:clr-encost]1 EN[/section]
 [/container]

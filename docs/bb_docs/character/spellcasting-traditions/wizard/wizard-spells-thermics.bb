@@ -3,7 +3,7 @@
 [container:spell][h2|ThermalBeamI]Thermal Beam I[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Fire / Ice
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br]UPCAST 5
 [/container][container:spell-columncenter]
@@ -24,7 +24,7 @@ TIER I
 [container:spell][h2|IceShrapnel]Ice Shrapnel[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Ice
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 6m
 [br]UPCAST 3
 [/container][container:spell-columncenter]
@@ -43,7 +43,7 @@ TIER I
 [container:spell][h2|ThermalBoltI]Thermal Bolt I[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Fire / Ice
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br]UPCAST 3
 [/container][container:spell-columncenter]
@@ -59,7 +59,7 @@ TIER I
 [container:spell][h2|ThermalBarrierI]Thermal Barrier I[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Fire / Ice
-[br]Reactive / Defensive
+[br]Reaction
 [br]UPCAST 3
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section][/section]
@@ -75,7 +75,7 @@ TIER I
 [container:spell][h2|FrostBreath]Frost Breath[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Ice
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br][section:clr-affliction]AFFLICTION[/section]
 [br][section:clr-conc]CONCENTRATION[/section]
@@ -93,7 +93,7 @@ TIER I
 [container:spell][h2|SparkstreamI]Sparkstream I[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Fire
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br][section:clr-affliction]AFFLICTION[/section]
 [br][section:clr-conc]CONCENTRATION[/section]
@@ -129,7 +129,7 @@ TIER I
 [container:spell][h2|FireballI]Fireball I[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Fire
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br]Radius: 2m
 [br]UPCAST 3
@@ -151,7 +151,7 @@ TIER II
 [container:spell][h2|FrostLanceI]Frost Lance I[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Ice
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br]UPCAST 3
 [/container][container:spell-columncenter]
@@ -167,7 +167,7 @@ TIER II
 [container:spell][h2|ThermalBeamII]Thermal Beam II[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Fire / Ice
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 30m
 [br]UPCAST 5
 [/container][container:spell-columncenter]
@@ -188,7 +188,7 @@ TIER II
 [container:spell][h2|ThermalBoltII]Thermal Bolt II[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Fire / Ice
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br]UPCAST 3
 [/container][container:spell-columncenter]
@@ -204,7 +204,7 @@ TIER II
 [container:spell][h2|FlameMantle]Flame Mantle[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Fire
-[br]Active / Utility
+[br]Utility
 [br]Radius: 2m
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][section:clr-zone]ZONE[/section]
@@ -224,7 +224,7 @@ TIER II
 [container:spell][h2|FrostMantle]Frost Mantle[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Ice
-[br]Active / Utility
+[br]Utility
 [br]Radius: 2m
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][section:clr-zone]ZONE[/section]
@@ -244,7 +244,7 @@ TIER II
 [container:spell][h2|ThermalBarrierII]Thermal Barrier II[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Fire / Ice
-[br]Reactive / Defensive
+[br]Reaction
 [br]UPCAST 3
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section][/section]
@@ -260,7 +260,7 @@ TIER II
 [container:spell][h2|SparkstreamII]Sparkstream II[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Fire
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br][section:clr-affliction]AFFLICTION[/section]
 [br][section:clr-conc]CONCENTRATION[/section]
@@ -280,7 +280,7 @@ TIER II
 [container:spell][h2|WallOfFire]Wall of Fire[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Fire
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br][section:clr-control]CONTROL[/section]
 [br][section:clr-conc]CONCENTRATION[/section]
@@ -305,7 +305,7 @@ TIER II
 [container:spell][h2|Explosion]Explosion[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Fire
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br]Radius: 4m
 [br]UPCAST 3
@@ -327,7 +327,7 @@ TIER III
 [container:spell][h2|FireballI]Fireball II[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Fire
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br]Radius: 4m
 [br]UPCAST 3
@@ -349,7 +349,7 @@ TIER III
 [container:spell][h2|Firestorm]Firestorm[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Air / Fire
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 4m
 [br]Radius: 2m
 [br][section:clr-conc]CONCENTRATION[/section]
@@ -371,7 +371,7 @@ TIER III
 [container:spell][h2|FrostLanceII]Frost Lance II[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Ice
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br]UPCAST 3
 [/container][container:spell-columncenter]
@@ -387,7 +387,7 @@ TIER II
 [container:spell][h2|GeyserField]Geyser Field[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Fire / Water
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br]Radius: 6m
 [br][section:clr-conc]CONCENTRATION[/section]
@@ -409,7 +409,7 @@ TIER III
 [container:spell][h2|Hailstorm]Hailstorm[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Air / Ice
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br]Radius: 4m
 [br][section:clr-control]CONTROL[/section]
@@ -431,7 +431,7 @@ TIER III
 [container:spell][h2|ThermalBeamIII]Thermal Beam III[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Fire / Ice
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 30m
 [br]UPCAST 3
 [/container][container:spell-columncenter]
@@ -452,7 +452,7 @@ TIER III
 [container:spell][h2|ThermalBoltIII]Thermal Bolt III[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Fire / Ice
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br]UPCAST 3
 [/container][container:spell-columncenter]
@@ -468,7 +468,7 @@ TIER III
 [container:spell][h2|ThermalBarrierIII]Thermal Barrier III[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Fire / Ice
-[br]Reactive / Defensive
+[br]Reaction
 [br]UPCAST 3
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section][/section]
@@ -484,7 +484,7 @@ TIER II
 [container:spell][h2|Blizzard]Blizzard[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Air / Ice
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br]Radius: 6m
 [br][section:clr-affliction]AFFLICTION[/section]
@@ -507,7 +507,7 @@ TIER III
 [container:spell][h2|SparkstreamIII]Sparkstream III[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Fire
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br][section:clr-affliction]AFFLICTION[/section]
 [br][section:clr-conc]CONCENTRATION[/section]

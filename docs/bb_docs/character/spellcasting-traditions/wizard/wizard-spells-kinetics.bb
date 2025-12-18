@@ -3,7 +3,7 @@
 [container:spell][h2|KineticBoltI]Kinetic Bolt I[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Stone / Water
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br]UPCAST 3
 [/container][container:spell-columncenter]
@@ -18,7 +18,7 @@ TIER I
 [container:spell][h2|PebbleShot]Pebble Shot[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Stone
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br]UPCAST 3
 [/container][container:spell-columncenter]
@@ -35,7 +35,7 @@ TIER I
 [container:spell][h2|KineticBarrierI]Kinetic Barrier I[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Stone / Water
-[br]Reactive / Defensive
+[br]Reaction
 [br]UPCAST 3
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section][/section]
@@ -89,7 +89,7 @@ TIER I
 [container:spell][h2|StoneShackles]Stone Shackles[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Stone
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br][section:clr-affliction]AFFLICTION[/section]
 [br][section:clr-conc]CONCENTRATION[/section]
@@ -110,7 +110,7 @@ TIER I
 [container:spell][h2|WaterJetI]Water Jet I[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Water
-[br]Active / Utility
+[br]Utility
 [br]Range: 12m
 [br]UPCAST 3
 [br][section:clr-control]CONTROL[/section]
@@ -130,7 +130,7 @@ TIER I
 [container:spell][h2|WaterWalk]Water Walk[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Water
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][section:clr-support]SUPPORT[/section]
@@ -164,7 +164,7 @@ TIER I
 [container:spell][h2|KineticBoltII]Kinetic Bolt II[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Stone / Water
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br]UPCAST 3
 [/container][container:spell-columncenter]
@@ -179,7 +179,7 @@ TIER II
 [container:spell][h2|Satellites]Satellites[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Stone
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br][section:clr-conc]CONCENTRATION[/section]
 [/container][container:spell-columncenter]
@@ -196,7 +196,7 @@ TIER II
 [container:spell][h2|StoneHail]Stone Hail[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Stone
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-pa]PA[/section] [section:clr-attr]INT[/section][/section]
@@ -213,7 +213,7 @@ TIER II
 [container:spell][h2|KineticBarrierII]Kinetic Barrier II[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Stone / Water
-[br]Reactive / Defensive
+[br]Reaction
 [br]UPCAST 3
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section][/section]
@@ -246,7 +246,7 @@ TIER II
 [container:spell][h2|WaveDome]Wave Dome[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Water
-[br]Active / Utility
+[br]Utility
 [br]Radius: 4m
 [br]UPCAST 3
 [br][section:clr-conc]CONCENTRATION[/section]
@@ -266,7 +266,7 @@ TIER II
 [container:spell][h2|Earthquake]Earthquake[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Stone
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br]Radius: 2m
 [br][section:clr-affliction]AFFLICTION[/section]
@@ -287,7 +287,7 @@ TIER II
 [container:spell][h2|FogCloud]Fog Cloud[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Air / Water
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br]UPCAST 3
 [br][section:clr-control]CONTROL[/section]
@@ -306,7 +306,7 @@ TIER II
 [container:spell][h2|LowerRaise]Lower/Raise[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Stone
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br][section:clr-control]CONTROL[/section]
 [br][section:clr-terrain]TERRAIN[/section]
@@ -325,7 +325,7 @@ TIER II
 [container:spell][h2|Quagmire]Quagmire[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Stone / Water
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br]Radius: 4m
 [br][section:clr-affliction]AFFLICTION[/section]
@@ -347,7 +347,7 @@ TIER II
 [container:spell][h2|Sinkhole]Sinkhole[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Stone
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br]Radius: 2m
 [br][section:clr-control]CONTROL[/section]
@@ -367,7 +367,7 @@ TIER II
 [container:spell][h2|WaterJetII]Water Jet II[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Water
-[br]Active / Utility
+[br]Utility
 [br]Range: 12m
 [br]UPCAST 3
 [br][section:clr-control]CONTROL[/section]
@@ -404,7 +404,7 @@ TIER II
 [container:spell][h2|GeyserField]Geyser Field[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Fire / Water
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br]Radius: 6m
 [br][section:clr-conc]CONCENTRATION[/section]
@@ -425,7 +425,7 @@ TIER III
 [container:spell][h2|KineticBoltIII]Kinetic Bolt III[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Stone / Water
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br]UPCAST 3
 [/container][container:spell-columncenter]
@@ -440,7 +440,7 @@ TIER III
 [container:spell][h2|StoneSpears]Stone Spears[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Stone
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 20m
 [br]Radius: 2m
 [br]UPCAST 3
@@ -462,7 +462,7 @@ TIER III
 [container:spell][h2|KineticBarrierIII]Kinetic Barrier III[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Stone / Water
-[br]Reactive / Defensive
+[br]Reaction
 [br]UPCAST 3
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section][/section]
@@ -496,7 +496,7 @@ TIER III
 [container:spell][h2|SpikedPit]Spiked Pit[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Stone
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br]Radius: 2m
 [br][section:clr-control]CONTROL[/section]

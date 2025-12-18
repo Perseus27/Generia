@@ -1,9 +1,11 @@
 [h1|TierI]Tier I[/h1]
+
 [h2|OffensiveI]Offensive[/h2]
+
 [container:spell][h2|FlameThrowI]Flame Throw I[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Pharmacy
-[br]Active / Offensive
+[br]Offensive
 [br][section:clr-alchitype]Volatile[/section]
 [br]Range: 4m
 [br]Width: 1m
@@ -27,7 +29,7 @@ TIER I
 [container:spell][h2|ShardThrowI]Shard Throw I[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Mechanics
-[br]Active / Offensive
+[br]Offensive
 [br][section:clr-alchitype]Volatile[/section]
 [br]Range: 4m
 [br]Width: 1m
@@ -55,7 +57,7 @@ TIER I
 [container:spell][h2|EmergencyShieldI]Emergency Shield I[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Mechanics
-[br]Reactive / Defensive
+[br]Reaction
 [br][section:clr-alchitype]Volatile[/section]
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section][/section]
@@ -77,14 +79,14 @@ TIER I
 [container:spell][h2|BasicAmmunitionI]Basic Ammunition I[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Mechanics
-[br]Active / Utility
+[br]Utility
 [br][section:clr-alchitype]Permanent[/section]
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]Surecast[/section][/section]
 [br][b]Material:[/b]
 [br]2× Stone Dust
 [br][section:clr-mpcost]1 MP[/section]
-[br]Creates up to [[section:clr-value]Mechanics[/section]] units of basic stone-based ammunition for a [url:#../what-is-an-alchemist#TransmutedWeapons]Transmuted Weapon[/url].
+[br]Creates up to [[section:clr-value]Mechanics[/section]] units of basic stone-based ammunition for a [url:../what-is-an-alchemist#TransmutedWeapons]Transmuted Weapon[/url].
 [/container][container:spell-columnright][container:spell-effect]
 [b]EFFECT:[/b]
 [br][section:clr-roll]2d6[/section] Blunt
@@ -93,14 +95,14 @@ TIER I
 [container:spell][h2|ElementalAmmunitionI]Elemental Ammunition I[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Mechanics
-[br]Active / Utility
+[br]Utility
 [br][section:clr-alchitype]Volatile[/section]
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]Surecast[/section][/section]
 [br][b]Material:[/b]
 [br]2× Elemental Dust
 [br][section:clr-mpcost]1 MP[/section]
-[br]Creates up to [[section:clr-value]Mechanics[/section]] units of elemental ammunition for a [url:#../what-is-an-alchemist#TransmutedWeapons]Transmuted Weapon[/url].
+[br]Creates up to [[section:clr-value]Mechanics[/section]] units of elemental ammunition for a [url:../what-is-an-alchemist#TransmutedWeapons]Transmuted Weapon[/url].
 [br][i]For [url:../what-is-an-alchemist#Elements]derivative elements[/url]: Use [section:clr-value]1 dust[/section] of each basic element.[/i]
 [/container][container:spell-columnright][container:spell-effect]
 [b]EFFECT:[/b]
@@ -110,7 +112,7 @@ TIER I
 [container:spell][h2|StatusAmmunitionI]Status Ammunition I[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Pharmacy
-[br]Active / Utility
+[br]Utility
 [br][section:clr-alchitype]Volatile[/section]
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]Surecast[/section][/section]
@@ -133,7 +135,7 @@ TIER I
 [container:spell][h2|TherapeuticAmmunitionI]Therapeutic Ammunition I[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Pharmacy
-[br]Active / Utility
+[br]Utility
 [br][section:clr-alchitype]Volatile[/section]
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]Surecast[/section][/section]
@@ -148,12 +150,36 @@ TIER I
 [br][section:clr-roll-noex]3d4[/section]+[section:clr-value]Quality[/section] Healing
 [/container][/container][/container][/container]
 
-[h3]Other Consumables[/h3]
+[h3]Grenades[/h3]
+
+[container:spell][h2|CorrosionGrenadeI]Corrosion Grenade I[/h2][container:spell-content][container:spell-columnleft]
+TIER I
+[br]Pharmacy
+[br]Utility
+[br][section:clr-alchitype]Volatile[/section]
+[/container][container:spell-columncenter]
+[section:spell-casttype][section:clr-surecast]Surecast[/section][/section]
+[br][section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section][/section]
+[br][b]Material:[/b]
+[br]1× Fire Dust
+[br]1× Air Dust
+[br]2x Water Dust
+[br][section:clr-mpcost]2 MP[/section]
+[br]Creates a throwable grenade that detonates on impact.
+[br]Its explosion radius equals [[section:clr-value]Pharmacy[/section]] meters.
+[/container][container:spell-columnright][container:spell-effect]
+[b]EFFECT:[/b]
+[br]All zones become [url:status#Brittle]Brittle 2[/url].
+[br][b]SAVED:[/b]
+[br]Roll one affected zone instead.
+[br][b]SAVED+10:[/b]
+[br]No effect.
+[/container][/container][/container][/container]
 
 [container:spell][h2|FireGrenadeI]Fire Grenade I[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Pharmacy
-[br]Active / Utility
+[br]Utility
 [br][section:clr-alchitype]Volatile[/section]
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]Surecast[/section][/section]
@@ -167,7 +193,7 @@ TIER I
 [/container][container:spell-columnright][container:spell-effect]
 [b]EFFECT:[/b]
 [br][section:clr-roll]2d4[/section] Fire
-[br][url:status#Burning]Burning 1[/url] on [url:def#Hit]hit[/url]
+[br]On [url:def#Hit]hit[/url]: [url:status#Burning]Burning 1[/url]
 [br][b]SAVED:[/b]
 [br]Damage halved.
 [br][b]SAVED+10:[/b]
@@ -177,7 +203,7 @@ TIER I
 [container:spell][h2|FragmentationGrenadeI]Fragmentation Grenade I[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Mechanics
-[br]Active / Utility
+[br]Utility
 [br][section:clr-alchitype]Volatile[/section]
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]Surecast[/section][/section]
@@ -199,10 +225,35 @@ TIER I
 [br]No effect.
 [/container][/container][/container][/container]
 
+[container:spell][h2|ShockGrenadeI]Shock Grenade I[/h2][container:spell-content][container:spell-columnleft]
+TIER I
+[br]Pharmacy
+[br]Utility
+[br][section:clr-alchitype]Volatile[/section]
+[/container][container:spell-columncenter]
+[section:spell-casttype][section:clr-surecast]Surecast[/section][/section]
+[br][section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section][/section]
+[br][b]Material:[/b]
+[br]2× Fire Dust
+[br]2× Air Dust
+[br][section:clr-mpcost]2 MP[/section]
+[br]Creates a throwable grenade that detonates on impact.
+[br]Its explosion radius equals [[section:clr-value]Pharmacy[/section]] meters.
+[/container][container:spell-columnright][container:spell-effect]
+[b]EFFECT:[/b]
+[br][url:status#Shocked]Shocked[/url] [[section:clr-value]Pharmacy[/section]].
+[br][b]SAVED:[/b]
+[br][url:status#Shocked]Shocked[/url] [[section:clr-value]Pharmacy/2[/section]]
+[br][b]SAVED+10:[/b]
+[br]No effect.
+[/container][/container][/container][/container]
+
+[h3]Other Consumables[/h3]
+
 [container:spell][h2|ImprovisedRemedyI]Improvised Remedy I[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Pharmacy
-[br]Active / Utility
+[br]Utility
 [br][section:clr-alchitype]Volatile[/section]
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]Surecast[/section][/section]
@@ -219,10 +270,10 @@ TIER I
 
 [h3]Golem Equipment[/h3]
 
-[container:spell][h2|GolemActivation]Golem Kit: Frontliner[/h2][container:spell-content][container:spell-columnleft]
+[container:spell][h2|GolemKitFrontliner]Golem Kit: Frontliner[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Mechanics
-[br]Active / Free Action
+[br]Free Action
 [br][section:clr-alchitype]Construction[/section]
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]Surecast[/section][/section]
@@ -231,15 +282,15 @@ TIER I
 [br][i]Only one Golem Kit can be active at once.[/i]
 [/container][container:spell-columnright][container:spell-effect]
 [b]EFFECT:[/b]
-[br][b]Weapons:[/b] Flanged Mace, Roundshield
+[br][b]Weapons:[/b] Mace, Roundshield
 [br][b]Perks:[/b] [url:perksC#Opportunist]Opportunist[/url]
 [br][b]Skills:[/b] [url:skills1#Shove]Shove[/url]
 [/container][/container][/container][/container]
 
-[container:spell][h2|GolemActivation]Golem Kit: Skirmisher[/h2][container:spell-content][container:spell-columnleft]
+[container:spell][h2|GolemKitSkirmisher]Golem Kit: Skirmisher[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Mechanics
-[br]Active / Free Action
+[br]Free Action
 [br][section:clr-alchitype]Construction[/section]
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]Surecast[/section][/section]
@@ -260,7 +311,7 @@ TIER I
 
 [container:spell][h2|Accumulation]Accumulation[/h2][container:spell-content][container:spell-columnleft]
 TIER I
-[br] Pharmacy
+[br]Pharmacy
 [br]Out of Combat
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-ritual]RITUAL[/section][/section]
@@ -325,9 +376,7 @@ TIER I
 [/container][container:spell-columnright][container:spell-effect]
 [b]EFFECT:[/b]
 [br]Product:
-[br][b]Core, weak:[/b] 10 Dust
-[br][b]Core, normal:[/b] 20 Dust
-[br][b]Core, strong:[/b] 40 Dust
+[br][url:../what-is-an-alchemist#TransmutedWeapons]Transmuted Handgun[/url]
 [/container][/container][/container][/container]
 
 [h3]Golem Construction[/h3]

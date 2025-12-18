@@ -12,6 +12,7 @@ Lizards, Mouses, Sparrows
 rolls[/li]
 [li][url:core#Disadvantage]Disadvantage 2[/url] on [section:clr-attr]STR[/section] checks[/li]
 [li][url:values#WL]Wound Limit[/url] (WL) is reduced by [section:clr-value]2[/section].[/li]
+[li][url:core#Advantage]Advantage 2[/url] on [i]Stealth[/i] rolls[/li]
 [/ul]
 [/container]
 
@@ -25,6 +26,7 @@ Dogs, Goats, Goblins
 rolls[/li]
 [li][url:core#Disadvantage]Disadvantage 1[/url] on [section:clr-attr]STR[/section] checks[/li]
 [li][url:values#WL]Wound Limit[/url] (WL) is reduced by [section:clr-value]1[/section].[/li]
+[li][url:core#Advantage]Advantage 1[/url] on [i]Stealth[/i] rolls[/li]
 [/ul]
 [/container]
 
@@ -48,6 +50,8 @@ Bears, Elks, Stone Elementals
 rolls[/li]
 [li][url:core#Advantage]Advantage 1[/url] on [section:clr-attr]STR[/section] checks[/li]
 [li][url:values#WL]Wound Limit[/url] (WL) is increased by [section:clr-value]2[/section].[/li]
+[li][url:core#Disadvantage]Disadvantage 1[/url] on [i]Stealth[/i] rolls[/li]
+[li][section:clr-en]EN[/section] cost of the Universal Action [url:actions#Sprint]Sprint[/url] is [section:clr-value]doubled[/section].[/li]
 [/ul]
 [/container]
 
@@ -61,5 +65,7 @@ Dragons, Mammoths, Whales
 rolls[/li]
 [li][url:core#Advantage]Advantage 2[/url] on [section:clr-attr]STR[/section] checks[/li]
 [li][url:values#WL]Wound Limit[/url] (WL) is increased by [section:clr-value]4[/section].[/li]
+[li][url:core#Disadvantage]Disadvantage 2[/url] on [i]Stealth[/i] rolls[/li]
+[li][section:clr-en]EN[/section] cost of the Universal Action [url:actions#Sprint]Sprint[/url] is [section:clr-value]quadrupled[/section].[/li]
 [/ul]
 [/container]

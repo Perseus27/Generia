@@ -85,7 +85,7 @@ Golems can be made from either [b]Stone[/b] or [b]Metal[/b]. Stone is much easie
 [h4]Efficiency[/h4]
 When refueling metal golems, they regain twice the [section:clr-en]EN[/section].
 [h4]Resilience[/h4]
-Metal golems have [url:status#Resistant]Resistance [i]Physical[/i][/url].
+Metal golems have [url:status#Resistant]Resistance [i]Sharp[/i][/url].
 
 [h1|TransmutedWeapons]Transmuted Weapons[/h1]
 Alchemist spells can create various ranged weapons. These weapons count as regular weapons, meaning they can be used in conjunction with combat [url:skills1]skills[/url] and [url:perksC]perks[/url].

@@ -4,7 +4,7 @@
 [container:skill-content]
 [container:skill-columnleft]
 TIER III
-[br]Active / Offensive
+[br]Offensive
 [br]Range: [url:values#MS]MS[/url]
 [br][section:clr-encost]2 EN[/section]
 [/container]
@@ -21,7 +21,7 @@ Executes consecutive [url:def#MeleeAttack]melee attacks[/url] against up to [[se
 [container:skill-content]
 [container:skill-columnleft]
 TIER III
-[br]Active / Offensive
+[br]Offensive
 [br]Range: Weapon
 [br][section:clr-encost]2 EN[/section]
 [/container]
@@ -41,7 +41,7 @@ Executes a [url:def#MeleeAttack]melee attack[/url] with the following features:
 [container:skill-content]
 [container:skill-columnleft]
 TIER III
-[br]Active / Offensive
+[br]Offensive
 [br]Range: Weapon
 [br][section:clr-encost]3 EN[/section]
 [/container]
@@ -59,7 +59,7 @@ Executes a wide [url:def#MeleeAttack]melee attack[/url] targeting all enemies in
 [container:skill-content]
 [container:skill-columnleft]
 TIER III
-[br]Active / Utility
+[br]Utility
 [br][url:def#Concentration]Concentration[/url]
 [br][section:clr-encost]2 EN[/section]
 [/container]
@@ -73,7 +73,7 @@ TIER III
 [container:skill-content]
 [container:skill-columnleft]
 TIER III
-[br]Active / Utility
+[br]Utility
 [br][url:def#Concentration]Concentration[/url]
 [br][section:clr-encost]2 EN[/section]
 [/container]
@@ -87,7 +87,7 @@ TIER III
 [container:skill-content]
 [container:skill-columnleft]
 TIER III
-[br]Active / Utility
+[br]Utility
 [br][url:def#Concentration]Concentration[/url]
 [br][section:clr-encost]2 EN[/section]
 [/container]
@@ -101,7 +101,7 @@ TIER III
 [container:skill-content]
 [container:skill-columnleft]
 TIER III
-[br]Active / Utility
+[br]Utility
 [br][url:def#Concentration]Concentration[/url]
 [br][section:clr-encost]2 EN[/section]
 [/container]
@@ -119,7 +119,7 @@ TIER III
 [container:skill-content]
 [container:skill-columnleft]
 TIER III
-[br]Reactive / Offensive
+[br]Reaction
 [br][section:clr-encost]1 EN[/section]
 [/container]
 [container:skill-columnright]

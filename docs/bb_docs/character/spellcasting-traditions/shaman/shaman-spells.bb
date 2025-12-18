@@ -3,7 +3,7 @@
 [container:spell][h2|SummonLesserElemental]Summon: Lesser Elemental[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Summoning
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 12m
 [br][section:clr-conc]CONCENTRATION[/section]
 [/container][container:spell-columncenter]
@@ -18,7 +18,7 @@ TIER I
 [container:spell][h2|ElementalWrath]Elemental Wrath[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Summoning
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 16m
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section][/section]
@@ -67,7 +67,7 @@ TIER I
 [container:spell][h2|LesserCleansingFlame]Lesser Cleansing Flame[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Binding (Fire)
-[br]Active / Utility
+[br]Utility
 [br]Range: 12m
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][section:clr-support]SUPPORT[/section]
@@ -83,7 +83,7 @@ TIER I
 [container:spell][h2|LesserElementalFavor]Lesser Elemental Favor[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Binding
-[br]Active / Utility
+[br]Utility
 [br]Range: 12m
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][section:clr-support]SUPPORT[/section]
@@ -102,7 +102,7 @@ TIER I
 [container:spell][h2|LesserElementalGuidance]Lesser Elemental Guidance[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Binding
-[br]Reactive / Utility
+[br]Reaction
 [br]Range: 12m
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]SURECAST[/section][/section]
@@ -120,7 +120,7 @@ TIER I
 [container:spell][h2|LesserElementalMana]Lesser Elemental Mana[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Binding
-[br]Active / Utility
+[br]Utility
 [br]Range: 12m
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][section:clr-support]SUPPORT[/section]
@@ -136,7 +136,7 @@ TIER I
 [container:spell][h2|LesserElementalCall]Lesser Elemental Call[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Summoning
-[br]Active / Utility
+[br]Utility
 [br]Radius: 12m
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][section:clr-support]SUPPORT[/section]
@@ -152,7 +152,7 @@ TIER I
 [container:spell][h2|LesserFlameOfDefiance]Lesser Flame of Defiance[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Binding (Fire)
-[br]Active / Utility
+[br]Utility
 [br]Radius: 12m
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][section:clr-support]SUPPORT[/section]
@@ -168,7 +168,7 @@ TIER I
 [container:spell][h2|LesserTailwind]Lesser Tailwind[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Binding (Air)
-[br]Active / Utility
+[br]Utility
 [br]Radius: 12m
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][section:clr-support]SUPPORT[/section]
@@ -184,7 +184,7 @@ TIER I
 [container:spell][h2|LesserWaveOfHealing]Lesser Wave of Healing[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Binding (Water)
-[br]Active / Utility
+[br]Utility
 [br]Range: 12m
 [br][section:clr-heal]HEAL[/section]
 [/container][container:spell-columncenter]
@@ -200,7 +200,7 @@ TIER I
 [container:spell][h2|LesserWindTunnel]Lesser Wind Tunnel[/h2][container:spell-content][container:spell-columnleft]
 TIER I
 [br]Summoning (Air)
-[br]Active / Utility
+[br]Utility
 [br]Range: 8m
 [br]Radius: 4m
 [br][section:clr-field]FIELD[/section]
@@ -236,7 +236,7 @@ TIER I
 [container:spell][h2|SummonElemental]Summon: Elemental[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Summoning
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 12m
 [br][section:clr-conc]CONCENTRATION[/section]
 [/container][container:spell-columncenter]
@@ -251,7 +251,7 @@ TIER II
 [container:spell][h2|ElementalRage]Elemental Rage[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Summoning
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 16m
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section][/section]
@@ -300,7 +300,7 @@ TIER II
 [container:spell][h2|CleansingFlame]Cleansing Flame[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Binding (Fire)
-[br]Active / Utility
+[br]Utility
 [br]Range: 12m
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][section:clr-support]SUPPORT[/section]
@@ -316,7 +316,7 @@ TIER II
 [container:spell][h2|ElementalFavor]Elemental Favor[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Binding
-[br]Active / Utility
+[br]Utility
 [br]Radius: 12m
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][section:clr-support]SUPPORT[/section]
@@ -335,7 +335,7 @@ TIER II
 [container:spell][h2|ElementalGuidance]Elemental Guidance[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Binding
-[br]Reactive / Utility
+[br]Reaction
 [br]Range: 12m
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]SURECAST[/section][/section]
@@ -353,7 +353,7 @@ TIER II
 [container:spell][h2|ElementalMana]Elemental Mana[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Binding
-[br]Active / Utility
+[br]Utility
 [br]Range: 12m
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][section:clr-support]SUPPORT[/section]
@@ -369,7 +369,7 @@ TIER II
 [container:spell][h2|ElementalCall]Elemental Call[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Summoning
-[br]Active / Utility
+[br]Utility
 [br]Radius: 12m
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][section:clr-support]SUPPORT[/section]
@@ -385,7 +385,7 @@ TIER II
 [container:spell][h2|FlameOfDefiance]Flame of Defiance[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Binding (Fire)
-[br]Active / Utility
+[br]Utility
 [br]Radius: 12m
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][section:clr-support]SUPPORT[/section]
@@ -401,7 +401,7 @@ TIER II
 [container:spell][h2|Tailwind]Tailwind[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Binding (Air)
-[br]Active / Utility
+[br]Utility
 [br]Radius: 16m
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][section:clr-support]SUPPORT[/section]
@@ -417,7 +417,7 @@ TIER II
 [container:spell][h2|WaveOfHealing]Wave of Healing[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Binding (Water)
-[br]Active / Utility
+[br]Utility
 [br]Range: 12m
 [br][section:clr-heal]HEAL[/section]
 [/container][container:spell-columncenter]
@@ -433,7 +433,7 @@ TIER II
 [container:spell][h2|WindTunnel]Wind Tunnel[/h2][container:spell-content][container:spell-columnleft]
 TIER II
 [br]Summoning (Air)
-[br]Active / Utility
+[br]Utility
 [br]Range: 8m
 [br]Radius: 4m
 [br][section:clr-field]FIELD[/section]
@@ -454,7 +454,7 @@ TIER II
 [container:spell][h2|SummonGreaterElemental]Summon: Greater Elemental[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Summoning
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 12m
 [br][section:clr-conc]CONCENTRATION[/section]
 [/container][container:spell-columncenter]
@@ -469,7 +469,7 @@ TIER III
 [container:spell][h2|ElementalFury]Elemental Fury[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Summoning
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 16m
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section][/section]
@@ -518,7 +518,7 @@ TIER III
 [container:spell][h2|GreaterCleansingFlame]Greater Cleansing Flame[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Binding (Fire)
-[br]Active / Utility
+[br]Utility
 [br]Range: 12m
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][section:clr-support]SUPPORT[/section]
@@ -534,7 +534,7 @@ TIER III
 [container:spell][h2|GreaterElementalFavor]Greater Elemental Favor[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Binding
-[br]Active / Utility
+[br]Utility
 [br]Radius: 12m
 [br][section:clr-support]SUPPORT[/section]
 [br][section:clr-conc]CONCENTRATION[/section]
@@ -553,7 +553,7 @@ TIER III
 [container:spell][h2|GreaterElementalGuidance]Greater Elemental Guidance[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Binding
-[br]Reactive / Utility
+[br]Reaction
 [br]Range: 12m
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-surecast]SURECAST[/section][/section]
@@ -571,7 +571,7 @@ TIER III
 [container:spell][h2|GreaterElementalMana]Greater Elemental Mana[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Binding
-[br]Active / Utility
+[br]Utility
 [br]Range: 12m
 [br][section:clr-support]SUPPORT[/section]
 [br][section:clr-conc]CONCENTRATION[/section]
@@ -587,7 +587,7 @@ TIER III
 [container:spell][h2|GreaterElementalCall]Greater Elemental Call[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Summoning
-[br]Active / Utility
+[br]Utility
 [br]Radius: 12m
 [br][section:clr-support]SUPPORT[/section]
 [br][section:clr-conc]CONCENTRATION[/section]
@@ -603,7 +603,7 @@ TIER III
 [container:spell][h2|GreaterFlameOfDefiance]Greater Flame of Defiance[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Binding (Fire)
-[br]Active / Utility
+[br]Utility
 [br]Radius: 12m
 [br][section:clr-support]SUPPORT[/section]
 [br][section:clr-conc]CONCENTRATION[/section]
@@ -619,7 +619,7 @@ TIER III
 [container:spell][h2|GreaterTailwind]Greater Tailwind[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Binding (Air)
-[br]Active / Utility
+[br]Utility
 [br]Radius: 20m
 [br][section:clr-support]SUPPORT[/section]
 [br][section:clr-conc]CONCENTRATION[/section]
@@ -635,7 +635,7 @@ TIER III
 [container:spell][h2|GreaterWaveOfHealing]Greater Wave of Healing[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Binding (Water)
-[br]Active / Utility
+[br]Utility
 [br]Range: 12m
 [br][section:clr-heal]HEAL[/section]
 [/container][container:spell-columncenter]
@@ -651,7 +651,7 @@ TIER III
 [container:spell][h2|GreaterWindTunnel]Greater Wind Tunnel[/h2][container:spell-content][container:spell-columnleft]
 TIER III
 [br]Summoning (Air)
-[br]Active / Utility
+[br]Utility
 [br]Range: 8m
 [br]Radius: 4m
 [br][section:clr-support]SUPPORT[/section]
@@ -672,7 +672,7 @@ TIER III
 [container:spell][h2|SummonMightyElemental]Summon: Mighty Elemental[/h2][container:spell-content][container:spell-columnleft]
 TIER IV
 [br]Summoning
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 12m
 [br][section:clr-conc]CONCENTRATION[/section]
 [/container][container:spell-columncenter]
@@ -687,7 +687,7 @@ TIER IV
 [container:spell][h2|ElementalIre]Elemental Ire[/h2][container:spell-content][container:spell-columnleft]
 TIER IV
 [br]Summoning
-[br]Active / Offensive
+[br]Offensive
 [br]Range: 16m
 [/container][container:spell-columncenter]
 [section:spell-casttype][section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section][/section]
@@ -737,7 +737,7 @@ TIER IV
 [container:spell][h2|MightyElementalFavor]Mighty Elemental Favor[/h2][container:spell-content][container:spell-columnleft]
 TIER IV
 [br]Binding
-[br]Active / Utility
+[br]Utility
 [br]Radius: 12m
 [br][section:clr-support]SUPPORT[/section]
 [br][section:clr-conc]CONCENTRATION[/section]
@@ -756,7 +756,7 @@ TIER IV
 [container:spell][h2|MightyElementalMana]Mighty Elemental Mana[/h2][container:spell-content][container:spell-columnleft]
 TIER IV
 [br]Binding
-[br]Active / Utility
+[br]Utility
 [br]Range: 12m
 [br][section:clr-support]SUPPORT[/section]
 [br][section:clr-conc]CONCENTRATION[/section]
@@ -772,7 +772,7 @@ TIER IV
 [container:spell][h2|MightyElementalCall]Mighty Elemental Call[/h2][container:spell-content][container:spell-columnleft]
 TIER IV
 [br]Summoning
-[br]Active / Utility
+[br]Utility
 [br]Radius: 12m
 [br][section:clr-support]SUPPORT[/section]
 [br][section:clr-conc]CONCENTRATION[/section]
@@ -788,7 +788,7 @@ TIER IV
 [container:spell][h2|MightyFlameOfDefiance]Mighty Flame of Defiance[/h2][container:spell-content][container:spell-columnleft]
 TIER IV
 [br]Binding (Fire)
-[br]Active / Utility
+[br]Utility
 [br]Radius: 12m
 [br][section:clr-support]SUPPORT[/section]
 [br][section:clr-conc]CONCENTRATION[/section]
@@ -804,7 +804,7 @@ TIER IV
 [container:spell][h2|MightyTailwind]Mighty Tailwind[/h2][container:spell-content][container:spell-columnleft]
 TIER IV
 [br]Binding (Air)
-[br]Active / Utility
+[br]Utility
 [br]Radius: 24m
 [br][section:clr-support]SUPPORT[/section]
 [br][section:clr-conc]CONCENTRATION[/section]
@@ -820,7 +820,7 @@ TIER IV
 [container:spell][h2|MightyWaveOfHealing]Mighty Wave of Healing[/h2][container:spell-content][container:spell-columnleft]
 TIER IV
 [br]Binding (Water)
-[br]Active / Utility
+[br]Utility
 [br]Range: 12m
 [br][section:clr-heal]HEAL[/section]
 [/container][container:spell-columncenter]
@@ -836,7 +836,7 @@ TIER IV
 [container:spell][h2|MightyWindTunnel]Mighty Wind Tunnel[/h2][container:spell-content][container:spell-columnleft]
 TIER IV
 [br]Summoning (Air)
-[br]Active / Utility
+[br]Utility
 [br]Range: 8m
 [br]Radius: 4m
 [br][section:clr-support]SUPPORT[/section]
@@ -857,7 +857,7 @@ TIER IV
 [container:spell][h2|ElementalField]Elemental Field[/h2][container:spell-content][container:spell-columnleft]
 TIER X – [i]Elementarist[/i]
 [br]Summoning
-[br]Active / Utility
+[br]Utility
 [br]Range: 20m
 [br]Radius: 2m
 [br][section:clr-field]FIELD[/section]
@@ -883,7 +883,7 @@ TIER X – [i]Elementarist[/i]
 [container:spell][h2|InnerWorld]Inner World[/h2][container:spell-content][container:spell-columnleft]
 TIER X – [i]Monk[/i]
 [br]Binding
-[br]Active / Utility
+[br]Utility
 [br][section:clr-conc]CONCENTRATION[/section]
 [br][b]SP Cost:[/b] 10
 [/container][container:spell-columncenter]
