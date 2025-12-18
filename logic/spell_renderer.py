@@ -45,7 +45,7 @@ class Spell_Renderer:
         return result
 
     def format_subheader(self, subheader):
-        return f"[h3|{subheader.get("id")}]{subheader.get("name")}[/h3]"
+        return f"[h3|{subheader.get('id')}]{subheader.get('name')}[/h3]"
 
     def format_spell(self, spell):
         ###
