@@ -1,0 +1,208 @@
+name: "Acolyte Spells II"
+id: "acolyte-spells-ii"
+id_appendix: "II"
+
+offensive:
+  - name: "Sunlight Arrows"
+    id: "SunlightArrows"
+    tags: ["TIER II", "Sol", "Offensive", "[section:clr-exper]EXPERTISE 2/3[/section]", "Range: 20m"]
+    type:
+      - "[section:clr-pa]PA[/section] [section:clr-attr]WIL[/section]"
+    cost:
+      - "[section:clr-mp]2/3 MP[/section]"
+    description: >
+      Hurls up to [[section:clr-value]Sol[/section]] arrows of pure light at targets in range. All arrows count as separate projectiles.
+    effect: >
+      [section:clr-roll]2/3d4[/section] Light per arrow
+
+  - name: "Prominence"
+    id: "Prominence"
+    tags: ["TIER II", "Sol", "Offensive", "Radius: 4m"]
+    type:
+      - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section]"
+    cost:
+      - "[section:clr-mp]3 MP[/section]"
+    description: >
+      Sends out a ring of holy light that burns nearby enemies but spares allies.
+    effect: >
+      [section:clr-roll]3d4[/section] Light
+    saved: "Damage halved."
+    saved10: "No effect."
+
+
+defensive:
+  - name: "Armor of Sol"
+    id: "ArmorOfSol"
+    tags: ["TIER II", "Sol", "Defensive", "[section:clr-conc]CONCENTRATION[/section]"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      Sol grants the Acolyte an afterimage of His holy armor.
+    effect: >
+      Armor is reinforced by by [[section:clr-value]2/5/4/3[/section]].
+
+
+utility:
+  - name: "Prayer of Healing"
+    id: "PrayerOfHealing"
+    tags: ["TIER II", "Luna", "Utility", "[section:clr-heal]HEAL[/section]", "[section:clr-exper]EXPERTISE 2/3[/section]", "Radius: 8m"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    material:
+      - "Moonstone"
+    cost:
+      - "[section:clr-mp]4/6 MP[/section]"
+    description: >
+      Prays to the Eternal Light to heal all allied targets in the area.
+    effect: >
+      Targets regain [section:clr-roll]3/4d6[/section] HP.
+
+  - name: "Prayer of Purification"
+    id: "PrayerOfPurification"
+    tags: ["TIER II", "Luna", "Utility", "[section:clr-support]SUPPORT[/section]", "Radius: 8m"]
+    type:
+      - "[section:spell-casttype][section:clr-dc]DC+[/section] [section:clr-attr]WIL[/section] vs [section:clr-dc]DC[/section]"
+    material:
+      - "Moonstone"
+    cost:
+      - "[section:clr-mp]4 MP[/section]"
+    description: >
+      Asks Luna to cleanse nearby allies.
+      [br][i][url:core#Advantage]Advantage 1[/url] on [section:clr-dc]DC+[/section] in [section:clr-moonlight]True Moonlight[/section].[/i]
+    effect: >
+      Attempts to remove one negative status effect from each target.
+
+  - name: "Gleaming Weapon"
+    id: "GleamingWeapon"
+    tags: ["TIER II", "Sol", "Utility", "[section:clr-conc]CONCENTRATION[/section]"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      Summons one of Sol’s three holy weapons: [i]Duty[/i], [i]Pride[/i], or [i]Strength[/i]. These weapons deal Light instead of Physical damage and, per [url:core#Explosion]Explosion[/url], inflict [url:status#Lightburn]Lightburn 1[/url].
+      [br]If dropped, handed off, or otherwise leaving the acolyte’s possession, the weapon dissolves. If used heretically or traded for profit, it explodes for [section:clr-roll]12d12[/section] Light in a 12 m radius.
+      [br][i]Hit Rate is inherited from the base weapon (see Effect).[/i]
+    effect: >
+      [b]Duty[/b]
+      [br]Bastard Sword
+      [br][section:clr-roll]2d6[/section] + [i]Sol[/i]
+      [br][b]Pride[/b]
+      [br]War Spear
+      [br][section:clr-roll]2d6[/section] + [i]Sol[/i]
+      [br][b]Strength[/b]
+      [br]Mace
+      [br][section:clr-roll]2d6[/section] + [i]Sol[/i]
+
+  - name: "Photosensitivity"
+    id: "Photosensitivity"
+    tags: ["TIER II", "Sol", "Utility", "Range: 20m", "Radius: 2m"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]PER[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      Overwhelms the senses with a blinding flash.
+    effect: >
+      [url:status#Blinded]Blinded 1[/url] and [url:status#Hyperpathia]Hyperpathia[/url].
+    saved: "Prevents [i]Hyperpathia[/i]."
+    saved10: "No effect."
+
+  - name: "Sanctuary"
+    id: "Sanctuary"
+    tags: ["TIER II", "Luna", "Utility", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Radius: 2m"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    material:
+      - "Moonstone (optional)"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      Creates a zone around the caster that [url:core#Eased]eases[/url] saves.
+      [br][i]Moonstone:[/i] Radius is doubled.
+    effect: >
+      All saves are [url:core#Eased]eased[/url] by [[section:clr-value]Luna[/section]]. Allies in the radius gain half that value or their own [[section:clr-value]Luna[/section]] value (whichever is higher).
+      [br][i]Does not apply to status effect saves.[/i]
+
+  - name: "Blessing of Resilience"
+    id: "BlessingOfResilience"
+    tags: ["TIER II", "Luna", "Utility", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Range: 20m"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    material:
+      - "Moonstone (optional)"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      Asks Luna to bless an ally against harmful effects.
+    effect: >
+      Saves against status effects have [url:core#Advantage]Advantage 1[/url].
+
+
+ritual:
+  - name: "Hospitium Lunae"
+    id: "HospitiumLunae"
+    tags: ["TIER II", "Luna", "Out of Combat", "[section:clr-support]SUPPORT[/section]"]
+    type:
+      - "[section:clr-ritual]RITUAL[/section]"
+    material:
+      - "Moonstone"
+    cost:
+      - "Cast: 1 hour"
+    description: >
+      Blesses a room as a sacred refuge for the sick and wounded; must be renewed at sunset. Room max: 40 m², 6 m high, clearly bounded on all sides.
+    effect: >
+      Healing received inside is doubled; creatures have [url:core#Advantage]Advantage 1[/url] on all status effect saves and medicine checks.
+
+  - name: "Hospitium Solis"
+    id: "HospitiumSolis"
+    tags: ["TIER II", "Sol", "Out of Combat", "[section:clr-support]SUPPORT[/section]"]
+    type:
+      - "[section:clr-ritual]RITUAL[/section]"
+    material:
+      - "Sunstone"
+    cost:
+      - "Cast: 1 Phase"
+    description: >
+      Blesses a room as a sacred fortress; must be renewed at sunrise and sunset or it ends. Room max: 40 m², 6 m high, clearly bounded on all sides.
+    effect: >
+      Physical attacks against the room’s walls, doors, and windows have no effect. Spells/rituals cast from outside with hostile intent upon or into the room have no effect.
+
+  - name: "Fountain of Youth"
+    id: "FountainOfYouth"
+    tags: ["TIER II", "Luna", "Out of Combat", "[section:clr-heal]HEAL[/section]"]
+    type:
+      - "[section:clr-ritual]RITUAL[/section]"
+    cost:
+      - "Cast: 1 Phase"
+    description: >
+      Conjures a holy well containing [i]Luna[/i] portions of moonwater. Upon polite request, Luna may also provide phials of light that can carry the water. The well, moonwater, and phials dissolve at sunrise; likewise if polluted or traded for profit.
+    effect: >
+      Each portion grants [url:status#Regeneration]Regeneration 2[/url] to the drinker.
+      [br][i]Size 1×1, Weight 0[/i]
+
+  - name: "Sanare"
+    id: "Sanare"
+    tags: ["TIER II", "Luna", "Out of Combat", "[section:clr-support]SUPPORT[/section]"]
+    type:
+      - "[section:clr-ritual]RITUAL[/section]"
+    cost:
+      - "Cast: 1 Phase"
+    description: >
+      Summons holy scalpels as material for Medicine checks; the check is [url:core#Eased]eased[/url] by [i]Luna[/i]. Dissolve at sunrise or if traded for profit or used as weapons.
+    effect: >
+      Conjures [i]Luna[/i] holy scalpels. [i]Size 1×2, Weight 0, Stack 4[/i]
+
+  - name: "Videre"
+    id: "Videre"
+    tags: ["TIER II", "Sol", "Out of Combat", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+    type:
+      - "[section:clr-ritual]RITUAL[/section]"
+    cost:
+      - "Cast: ½ Phase"
+    description: >
+      Grants the caster and up to [i]Sol[/i] additional targets the ability to see in darkness up to [i]Sol×2[/i] meters.
+    effect: >
+      [i]Sol×2[/i] meters darkvision; targets’ PER-related origin value increased by [i]Sol[/i].

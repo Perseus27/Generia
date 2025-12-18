@@ -68,7 +68,7 @@ utility:
     id: "BasicAmmunitionI"
     tags: ["TIER I", "Mechanics", "Utility", "Permanent"]
     type:
-      - "[section:clr-surecast]Surecast[/section]"
+      - "[section:clr-surecast]SURECAST[/section]"
     material:
       - "2× Stone Dust"
     cost:
@@ -82,7 +82,7 @@ utility:
     id: "ElementalAmmunitionI"
     tags: ["TIER I", "Mechanics", "Utility", "Volatile"]
     type:
-      - "[section:clr-surecast]Surecast[/section]"
+      - "[section:clr-surecast]SURECAST[/section]"
     material:
       - "2× Elemental Dust"
     cost:
@@ -97,7 +97,7 @@ utility:
     id: "StatusAmmunitionI"
     tags: ["TIER I", "Pharmacy", "Utility", "Volatile"]
     type:
-      - "[section:clr-surecast]Surecast[/section]"
+      - "[section:clr-surecast]SURECAST[/section]"
     material:
       - "2× Elemental Dust"
       - "Basic or Elemental Ammunition I"
@@ -118,7 +118,7 @@ utility:
     id: "TherapeuticAmmunitionI"
     tags: ["TIER I", "Pharmacy", "Utility", "Volatile"]
     type:
-      - "[section:clr-surecast]Surecast[/section]"
+      - "[section:clr-surecast]SURECAST[/section]"
     material:
       - "1× Water Dust"
       - "1× Small Healing Potion"
@@ -139,7 +139,7 @@ utility:
     id: "CorrosionGrenadeI"
     tags: ["TIER I", "Pharmacy", "Utility", "Volatile"]
     type:
-      - "[section:clr-surecast]Surecast[/section]"
+      - "[section:clr-surecast]SURECAST[/section]"
       - "[section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     material:
       - "1× Fire Dust"
@@ -159,7 +159,7 @@ utility:
     id: "FireGrenadeI"
     tags: ["TIER I", "Pharmacy", "Utility", "Volatile"]
     type:
-      - "[section:clr-surecast]Surecast[/section]"
+      - "[section:clr-surecast]SURECAST[/section]"
       - "[section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     material:
       - "3× Fire Dust"
@@ -179,7 +179,7 @@ utility:
     id: "FragmentationGrenadeI"
     tags: ["TIER I", "Mechanics", "Utility", "Volatile"]
     type:
-      - "[section:clr-surecast]Surecast[/section]"
+      - "[section:clr-surecast]SURECAST[/section]"
       - "[section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     material:
       - "1× Fire Dust"
@@ -200,7 +200,7 @@ utility:
     id: "ShockGrenadeI"
     tags: ["TIER I", "Pharmacy", "Utility", "Volatile"]
     type:
-      - "[section:clr-surecast]Surecast[/section]"
+      - "[section:clr-surecast]SURECAST[/section]"
       - "[section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
     material:
       - "2× Fire Dust"
@@ -224,7 +224,7 @@ utility:
     id: "ImprovisedRemedyI"
     tags: ["TIER I", "Pharmacy", "Utility", "Volatile"]
     type:
-      - "[section:clr-surecast]Surecast[/section]"
+      - "[section:clr-surecast]SURECAST[/section]"
       - "[section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
     material:
       - "2× Water Dust"
@@ -246,7 +246,7 @@ utility:
     id: "GolemKitFrontliner"
     tags: ["TIER I", "Mechanics", "Free Action", "Construction"]
     type:
-      - "[section:clr-surecast]Surecast[/section]"
+      - "[section:clr-surecast]SURECAST[/section]"
     cost:
       - "[section:clr-mp]1 MP[/section]"
     description: >
@@ -261,7 +261,7 @@ utility:
     id: "GolemKitFrontliner"
     tags: ["TIER I", "Mechanics", "Free Action", "Construction"]
     type:
-      - "[section:clr-surecast]Surecast[/section]"
+      - "[section:clr-surecast]SURECAST[/section]"
     cost:
       - "[section:clr-mp]1 MP[/section]"
     description: >
@@ -283,7 +283,7 @@ ritual:
     id: "Accumulation"
     tags: ["TIER I", "Pharmacy", "Out of Combat"]
     type:
-      - "[section:clr-ritual]Ritual[/section]"
+      - "[section:clr-ritual]RITUAL[/section]"
     material:
       - "Element Source"
     cast_time: "4 Phases"
@@ -298,7 +298,7 @@ ritual:
     id: "Desintegration"
     tags: ["TIER I", "Pharmacy", "Out of Combat"]
     type:
-      - "[section:clr-ritual]Ritual[/section]"
+      - "[section:clr-ritual]RITUAL[/section]"
     material:
       - "1× Elemental Core, any"
     cast_time: "½ Phase"
@@ -314,7 +314,7 @@ ritual:
     id: "Transmutation"
     tags: ["TIER I", "Mechanics / Pharmacy", "Out of Combat"]
     type:
-      - "[section:clr-ritual]Ritual[/section]"
+      - "[section:clr-ritual]RITUAL[/section]"
     material:
       - "???"
     cast_time: "???"
@@ -333,7 +333,7 @@ ritual:
     id: "ConstructionHandgun"
     tags: ["TIER I", "Mechanics", "Out of Combat", "Construction"]
     type:
-      - "[section:clr-ritual]Ritual[/section]"
+      - "[section:clr-ritual]RITUAL[/section]"
     material:
       - "1× Stone Core, weak"
       - "1× Fire Core, weak"
@@ -353,7 +353,7 @@ ritual:
     id: "ConstructionGolemCoreMkI"
     tags: ["TIER I", "Mechanics", "Out of Combat", "Construction"]
     type:
-      - "[section:clr-ritual]Ritual[/section]"
+      - "[section:clr-ritual]RITUAL[/section]"
     material:
       - "0.05 Steel, 0.04 pure Silver, 0.01 pure Gold"
       - "1× Diamond, small"
@@ -370,7 +370,7 @@ ritual:
     id: "GolemActivation"
     tags: ["TIER I", "Mechanics", "Out of Combat", "Construction"]
     type:
-      - "[section:clr-ritual]Ritual[/section]"
+      - "[section:clr-ritual]RITUAL[/section]"
     cast_time: "1 Phase"
     material:
       - "Golem Core"
@@ -385,7 +385,7 @@ ritual:
     id: "GolemArmorI"
     tags: ["TIER I", "Mechanics", "Out of Combat", "Construction"]
     type:
-      - "[section:clr-ritual]Ritual[/section]"
+      - "[section:clr-ritual]RITUAL[/section]"
     material:
       - "1× Stone Core, small"
     cost:

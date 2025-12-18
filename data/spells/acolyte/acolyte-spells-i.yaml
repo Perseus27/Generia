@@ -5,7 +5,7 @@ id_appendix: "I"
 offensive:
   - name: "Light of Sol"
     id: "LightOfSol"
-    tags: ["TIER I", "Sol", "Offensive", "Range: 20m", "Radius: 2m", "[section:clr-exper]EXPERTISE 1/2/3[/section]"]
+    tags: ["TIER I", "Sol", "Offensive", "[section:clr-exper]EXPERTISE 1/2/3[/section]", "Range: 20m", "Radius: 2m"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]CON[/section]"
     material:
@@ -21,7 +21,7 @@ offensive:
 
   - name: "Sunlight Spear"
     id: "SunlightSpear"
-    tags: ["TIER I", "Sol", "Offensive", "Range: 20m", "[section:clr-exper]EXPERTISE 1/2/3[/section]"]
+    tags: ["TIER I", "Sol", "Offensive", "[section:clr-exper]EXPERTISE 1/2/3[/section]", "Range: 20m"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]WIL[/section]"
     cost:
@@ -35,7 +35,7 @@ offensive:
 defensive:
   - name: "Blessing of Fortitude"
     id: "BlessingOfFortitude"
-    tags: ["TIER I", "Luna", "Utility", "[section:clr-support]SUPPORT[/section]", "Concentration", "Range: 20m", "[section:clr-exper]EXPERTISE 1/2/3[/section]"]
+    tags: ["TIER I", "Luna", "Utility", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-exper]EXPERTISE 1/2/3[/section]", "Range: 20m"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     material:
@@ -50,7 +50,7 @@ defensive:
 
   - name: "Radiant Shield"
     id: "RadiantShield"
-    tags: ["TIER I", "Sol", "Defensive", "[section:clr-support]SUPPORT[/section]", "Concentration", "Range: 20m", "[section:clr-exper]EXPERTISE 1/2/3[/section]"]
+    tags: ["TIER I", "Sol", "Defensive", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-exper]EXPERTISE 1/2/3[/section]", "Range: 20m"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     material:
@@ -67,7 +67,7 @@ defensive:
 utility:
   - name: "Healing"
     id: "Healing"
-    tags: ["TIER I", "Luna", "Utility", "HEAL", "Range: 16m", "[section:clr-exper]EXPERTISE 1/2/3[/section]"]
+    tags: ["TIER I", "Luna", "Utility", "HEAL", "[section:clr-exper]EXPERTISE 1/2/3[/section]", "Range: 16m"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
@@ -79,7 +79,7 @@ utility:
 
   - name: "Purify"
     id: "Purify"
-    tags: ["TIER I", "Luna", "Utility", "[section:clr-support]SUPPORT[/section]", "Range: 10m", "[section:clr-exper]EXPERTISE 1/2/3[/section]"]
+    tags: ["TIER I", "Luna", "Utility", "[section:clr-support]SUPPORT[/section]", "[section:clr-exper]EXPERTISE 1/2/3[/section]", "Range: 10m"]
     type:
       - "[section:spell-casttype][section:clr-dc]DC+[/section] [section:clr-attr]WIL[/section] vs [section:clr-dc]DC[/section]"
     cost:
