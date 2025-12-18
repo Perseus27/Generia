@@ -1,0 +1,111 @@
+name: "Wizard Hermetics Spells III"
+id: "wizard-hermetics-spells-iii"
+id_appendix: "III"
+
+offensive:
+  - name: "Arcane Nova"
+    id: "ArcaneNova"
+    tags: ["TIER III", "Arcane", "Offensive", "Radius: 4m", "UPCAST 3"]
+    type:
+      - "[section:spell-casttype][section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]4/8/12 MP[/section]"
+    description: >
+      The wizard vents highly concentrated mana, damaging nearby creatures.
+    effect: >
+      [section:clr-roll]2d6[/section] Arcane
+    saved: "Saved: Damage halved. Saved+10: No effect."
+  - name: "Mana Beam III"
+    id: "ManaBeamIII"
+    tags: ["TIER III", "Arcane", "Offensive", "Range: 20m", "UPCAST 3"]
+    type:
+      - "[section:spell-casttype][section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]3/6/9 MP[/section]"
+    description: >
+      Material: Matrix Crystal (optional) Fires a beam of pure mana. Matrix Crystal: May target up to [[section:clr-value]Arcane[/section]] different creatures. The total MP cost is multiplied by the number of targets.
+    effect: >
+      [section:clr-roll]2d8[/section] Arcane
+    saved: "Saved: Damage halved. Saved+10: No effect."
+  - name: "Mana Bolt III"
+    id: "ManaBoltIII"
+    tags: ["TIER III", "Arcane", "Offensive", "Range: 20m", "UPCAST 3"]
+    type:
+      - "[section:spell-casttype][section:clr-pa]PA[/section] [section:clr-attr]INT[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]3/6/9 MP[/section]"
+    description: >
+      Shoots a projectile of pure mana.
+    effect: >
+      [section:clr-roll]2d10[/section] Arcane
+
+defensive:
+  - name: "Arcane Barrier III"
+    id: "ArcaneBarrierIII"
+    tags: ["TIER III", "Arcane", "Reaction", "UPCAST 5"]
+    type:
+      - "[section:spell-casttype][section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]3/6/9/15/24 MP[/section]"
+    description: >
+      Creates a magical barrier around the wizard that neutralizes incoming damage of a single attack if [section:clr-sd]SD[/section] meets or exceeds the attack roll. The barrier breaks at its maximum; excess damage carries over.
+    effect: >
+      [section:clr-roll]1d12[/section] Protection
+  - name: "Arcane Shield III"
+    id: "ArcaneShieldIII"
+    tags: ["TIER III", "Arcane", "Defensive", "UPCAST 5", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+    type:
+      - "[section:spell-casttype][section:clr-surecast]SURECAST[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]3/6/9/15/24 MP[/section]"
+    description: >
+      Erects a magical shield around the wizard that neutralizes incoming damage. It breaks at its maximum; excess damage carries over. Persists until destroyed, replaced, or combat ends.
+    effect: >
+      [section:clr-roll]1d8[/section] Protection
+  - name: "Return to Sender"
+    id: "ReturnToSender"
+    tags: ["TIER III", "Arcane", "Reaction"]
+    type:
+      - "[section:spell-casttype][section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]4 MP[/section]"
+    description: >
+      Opens a portal that swallows a projectile (or projectile spell) and hurls it back at the attacker—or another target of your choice. Your [section:clr-sd]SD[/section] roll becomes the new attack roll for the projectile.
+    effect: >
+      Reflects a projectile.
+
+utility:
+  - name: "Displace"
+    id: "Displace"
+    tags: ["TIER III", "Arcane", "Utility", "Range: 20m", "[section:clr-control]CONTROL[/section]", "MATERIAL:", "Matrix Crystal"]
+    type:
+      - "[section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]4 MP[/section]"
+    description: >
+      Attempts to teleport any target creature or creature-sized object to a free location in range and line of sight (or recent memory). Creatures may choose to fail the save intentionally. The maximum teleport distance is [section:clr-attr]INT[/section] + [[section:clr-value]Arcane[/section]] meters.
+    effect: >
+      Creature or object is teleported.
+    saved: "Saved: Target [url:status#OffBalance]loses balance[/url]. Saved+10: No effect."
+  - name: "Invisibility Field"
+    id: "InvisibilityField"
+    tags: ["TIER III", "Light", "Utility", "Range: 20m", "Radius: 4m", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]", "MATERIAL:", "Matrix Crystal"]
+    type:
+      - "[section:spell-casttype][section:clr-surecast]SURECAST[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]6 MP[/section]"
+    description: >
+      Bends light around creatures/objects in the area, rendering them effectively invisible while maintained.
+    effect: >
+      Creatures and objects in the area gain [url:status#Hidden]Hidden 3[/url]; the effect continually refreshes while inside.
+  - name: "Micro Rift"
+    id: "MicroRift"
+    tags: ["TIER III", "Arcane", "Utility", "Range: 20m", "[section:clr-support]SUPPORT[/section]", "[section:clr-movement]MOVEMENT[/section]", "[section:clr-conc]CONCENTRATION[/section]", "MATERIAL:", "Matrix Crystal"]
+    type:
+      - "[section:spell-casttype][section:clr-surecast]SURECAST[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]4 MP[/section]"
+    description: >
+      Creates two connected portals on free squares within range and line of sight (or recent memory). Any creature or object entering either square is instantly teleported to the other portal, keeping momentum. The maximum distance between the portals is [section:clr-attr]INT[/section] + [[section:clr-value]Arcane[/section]] meters.
+    effect: >
+      Creatures and objects are teleported. Effect does not occur if either square is currently occupied.

@@ -1,0 +1,136 @@
+name: "Wizard Thermics Spells II"
+id: "wizard-thermics-spells-ii"
+id_appendix: "II"
+
+offensive:
+  - name: "Fireball I"
+    id: "FireballI"
+    tags: ["TIER II", "Fire", "Offensive", "Range: 20m", "Radius: 2m", "UPCAST 3"]
+    type:
+      - "[section:spell-casttype][section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]3/6/9 MP[/section]"
+    description: >
+      Material: Matrix Crystal (optional) An exploding ball of fire that damages all creatures in the radius. Matrix Crystal: The radius is increased by [section:clr-value]1[/section].
+    effect: >
+      [section:clr-roll]2d6[/section] Fire
+    saved: "Saved: Damage halved. Saved+10: No effect."
+  - name: "Frost Lance I"
+    id: "FrostLanceI"
+    tags: ["TIER II", "Ice", "Offensive", "Range: 20m", "UPCAST 3"]
+    type:
+      - "[section:spell-casttype][section:clr-pa]PA[/section] [section:clr-attr]INT[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]2/4/6 MP[/section]"
+    description: >
+      The wizard hurls an icy lance at the target. If the target is [url:status#Chilled]chilled[/url] or [url:status#Frozen]frozen[/url], the spell deals bonus ice damage (not affected by upcast).
+    effect: >
+      [section:clr-roll]2d8[/section] Ice [section:clr-roll]+1d8[/section] if chilled/frozen.
+  - name: "Thermal Beam II"
+    id: "ThermalBeamII"
+    tags: ["TIER II", "Fire / Ice", "Offensive", "Range: 30m", "UPCAST 5"]
+    type:
+      - "[section:spell-casttype][section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]2/4/6 MP[/section]"
+    description: >
+      Material: Matrix Crystal (optional) The wizard lashes the target with a beam of fire or ice. Matrix Crystal: May target up to [[section:clr-value]Fire / Ice[/section]] different creatures. The total MP cost is multiplied by the number of targets.
+    effect: >
+      [section:clr-roll]2d6[/section] Fire / Ice
+    saved: "Saved: Damage halved. Saved+10: No effect."
+  - name: "Thermal Bolt II"
+    id: "ThermalBoltII"
+    tags: ["TIER II", "Fire / Ice", "Offensive", "Range: 20m", "UPCAST 3"]
+    type:
+      - "[section:spell-casttype][section:clr-pa]PA[/section] [section:clr-attr]INT[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]2/4/6 MP[/section]"
+    description: >
+      A bolt of fire or ice mana.
+    effect: >
+      [section:clr-roll]2d8[/section] Fire / Ice
+  - name: "Frost Lance II"
+    id: "FrostLanceII"
+    tags: ["TIER II", "Ice", "Offensive", "Range: 20m", "UPCAST 3"]
+    type:
+      - "[section:spell-casttype][section:clr-pa]PA[/section] [section:clr-attr]INT[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]3/6/9 MP[/section]"
+    description: >
+      The wizard hurls an icy lance at the target. If the target is [url:status#Chilled]chilled[/url] or [url:status#Frozen]frozen[/url], the spell deals bonus ice damage (not affected by upcast).
+    effect: >
+      [section:clr-roll]2d10[/section] Ice [section:clr-roll]+1d10[/section] if chilled/frozen.
+
+defensive:
+  - name: "Flame Mantle"
+    id: "FlameMantle"
+    tags: ["TIER II", "Fire", "Utility", "Radius: 2m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
+    type:
+      - "[section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]2 MP[/section]"
+    description: >
+      A heat aura around the caster that sets fire to nearby creatures.
+    effect: >
+      [url:status#Burning]Burning 2[/url].
+    saved: "Saved: [url:status#Burning]Burning 1[/url]. Saved+10: No effect."
+  - name: "Frost Mantle"
+    id: "FrostMantle"
+    tags: ["TIER II", "Ice", "Utility", "Radius: 2m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
+    type:
+      - "[section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]2 MP[/section]"
+    description: >
+      Saps heat from creatures in the caster’s vicinity.
+    effect: >
+      Nearby creatures are [url:status#Chilled]Chilled[/url].
+    saved: "Saved: [url:status#Slowed]Slowed[/url]. Saved+10: No effect."
+  - name: "Thermal Barrier II"
+    id: "ThermalBarrierII"
+    tags: ["TIER II", "Fire / Ice", "Reaction", "UPCAST 3"]
+    type:
+      - "[section:spell-casttype][section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]2/4/6 MP[/section]"
+    description: >
+      Erects a barrier around the wizard that neutralizes incoming damage. Breaks at its maximum; excess damage carries over.
+    effect: >
+      [section:clr-roll]1d8[/section] Protection Barrier is [url:status#resistant]resistant[/url] against Fire / Ice
+  - name: "Thermal Barrier III"
+    id: "ThermalBarrierIII"
+    tags: ["TIER II", "Fire / Ice", "Reaction", "UPCAST 3"]
+    type:
+      - "[section:spell-casttype][section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]3/6/9 MP[/section]"
+    description: >
+      Erects a barrier around the wizard that neutralizes incoming damage. Breaks at its maximum; excess damage carries over.
+    effect: >
+      [section:clr-roll]1d12[/section] Protection Barrier is [url:status#resistant]resistant[/url] against Fire / Ice
+
+utility:
+  - name: "Sparkstream II"
+    id: "SparkstreamII"
+    tags: ["TIER II", "Fire", "Utility", "Range: 20m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+    type:
+      - "[section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]2 MP[/section]"
+    description: >
+      The wizard sends an unrelenting stream of sparks at a target, causing burns at the end of the target's turn while maintained. Requires line of sight.
+    effect: >
+      [url:status#Burning]Burning 2[/url].
+    saved: "Saved: [url:status#Burning]Burning 1[/url]. Saved+10: No effect."
+  - name: "Wall of Fire"
+    id: "WallOfFire"
+    tags: ["TIER II", "Fire", "Utility", "Range: 20m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+    type:
+      - "[section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]4 MP[/section]"
+    description: >
+      Create a wall of fire up to 6 m long, 1 m wide, 2 m high that harms creatures touching it. The wall can be freely shaped as long as any wall square touches no more than two other wall squares.
+    effect: >
+      [section:clr-roll]3d4[/section] Fire Per explosion: [url:status#Burning]Burning 1[/url]. Creatures standing in the area when cast may leave it as a reaction.
+    saved: "Saved: Prevents damage."

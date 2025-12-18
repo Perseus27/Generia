@@ -1,0 +1,144 @@
+name: "Wizard Hermetics Spells I"
+id: "wizard-hermetics-spells-i"
+id_appendix: "I"
+
+offensive:
+  - name: "Mana Beam I"
+    id: "ManaBeamI"
+    tags: ["TIER I", "Arcane", "Offensive", "Range: 20m", "UPCAST 3"]
+    type:
+      - "[section:spell-casttype][section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]1/2/3 MP[/section]"
+    description: >
+      Material: Matrix Crystal (optional) Fires a beam of pure mana. Matrix Crystal: May target up to [[section:clr-value]Arcane[/section]] different creatures. The total MP cost is multiplied by the number of targets.
+    effect: >
+      [section:clr-roll]1d6[/section] Arcane
+    saved: "Saved: Damage halved. Saved+10: No effect."
+  - name: "Mana Bolt I"
+    id: "ManaBoltI"
+    tags: ["TIER I", "Arcane", "Offensive", "Range: 20m", "UPCAST 3"]
+    type:
+      - "[section:spell-casttype][section:clr-pa]PA[/section] [section:clr-attr]INT[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]1/2/3 MP[/section]"
+    description: >
+      Shoots a projectile of pure mana.
+    effect: >
+      [section:clr-roll]1d8[/section] Arcane
+  - name: "Mana Beam II"
+    id: "ManaBeamII"
+    tags: ["TIER I", "Arcane", "Offensive", "Range: 20m", "UPCAST 3"]
+    type:
+      - "[section:spell-casttype][section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]2/4/6 MP[/section]"
+    description: >
+      Material: Matrix Crystal (optional) Fires a beam of pure mana. Matrix Crystal: May target up to [[section:clr-value]Arcane[/section]] different creatures. The total MP cost is multiplied by the number of targets.
+    effect: >
+      [section:clr-roll]2d6[/section] Arcane
+    saved: "Saved: Damage halved. Saved+10: No effect."
+
+defensive:
+  - name: "Arcane Barrier I"
+    id: "ArcaneBarrierI"
+    tags: ["TIER I", "Arcane", "Reaction", "UPCAST 5"]
+    type:
+      - "[section:spell-casttype][section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]1/2/3/5/8 MP[/section]"
+    description: >
+      Creates a magical barrier around the wizard that neutralizes incoming damage of a single attack if [section:clr-sd]SD[/section] meets or exceeds the attack roll. The barrier breaks at its maximum; excess damage carries over.
+    effect: >
+      [section:clr-roll]1d4[/section] Protection
+  - name: "Arcane Shield I"
+    id: "ArcaneShieldI"
+    tags: ["TIER I", "Arcane", "Defensive", "UPCAST 5", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+    type:
+      - "[section:spell-casttype][section:clr-surecast]SURECAST[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]1/2/3/5/8 MP[/section]"
+    description: >
+      Erects a magical shield around the wizard that neutralizes incoming damage. It breaks at its maximum; excess damage carries over. Persists until destroyed, replaced, or combat ends.
+    effect: >
+      [section:clr-roll]1d4[/section] Protection
+  - name: "Counter Shot"
+    id: "CounterShot"
+    tags: ["TIER I", "Arcane", "Defensive", "Range: 12m", "[section:clr-conc]CONCENTRATION[/section]"]
+    type:
+      - "[section:spell-casttype][section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]1 MP[/section]"
+    description: >
+      Conjures [section:clr-attr]INT-MOD[/section] arcane projectiles that can intercept hostile projectiles as reactions.
+    effect: >
+      A hostile projectile is destroyed if your roll meets or exceeds its [url:values#AttackValue]attack value[/url].
+
+utility:
+  - name: "Arcane Leap"
+    id: "ArcaneLeap"
+    tags: ["TIER I", "Arcane", "Utility", "Range: 12m", "[section:clr-movement]MOVEMENT[/section]"]
+    type:
+      - "[section:spell-casttype][section:clr-surecast]SURECAST[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]1 MP[/section]"
+    description: >
+      Performs a [url:def#Jumping]jump[/url], using a tiny mana burst for extra momentum.
+    effect: >
+      The jump is [url:core#Eased]eased[/url] by [section:clr-attr]INT[/section]+[[section:clr-value]Arcane[/section]].
+  - name: "Dim"
+    id: "Dim"
+    tags: ["TIER I", "Light", "Utility", "Range: 20m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+    type:
+      - "[section:spell-casttype][section:clr-surecast]SURECAST[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]2 MP[/section]"
+    description: >
+      The wizard makes a creature (or object) darker and less conspicuous.
+    effect: >
+      Target gains [url:status#Hidden]Hidden 1[/url]. The effect refreshes while concentration is maintained.
+  - name: "Flash of Light"
+    id: "FlashOfLight"
+    tags: ["TIER I", "Light", "Utility", "Radius: 4m"]
+    type:
+      - "[section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]PER[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]1 MP[/section]"
+    description: >
+      The wizard flares their focus, dazzling all creatures facing them.
+    effect: >
+      [url:status#Blinded]Blinded 1[/url] and [url:status#Confused]Confused[/url].
+    saved: "Saved: Prevents Confused. Saved+10: No effect."
+  - name: "Flicker"
+    id: "Flicker"
+    tags: ["TIER I", "Light", "Reaction", "Range: 20m", "[section:clr-meta]META[/section]", "[section:clr-support]SUPPORT[/section]"]
+    type:
+      - "[section:spell-casttype][section:clr-surecast]SURECAST[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]1 MP[/section]"
+    description: >
+      Apply a flickering visual distortion to an ally’s projectile or projectile spell.
+    effect: >
+      The projectile’s target has [url:status#DefensePenalty]Defense Penalty[/url] [[section:clr-value]Light[/section]] on any defense roll against the projectile.
+
+ritual:
+  - name: "Create Matrix Crystal"
+    id: "CreateMatrixCrystal"
+    tags: ["TIER I", "Arcane", "Out of Combat"]
+    type:
+      - "[section:spell-casttype][section:clr-ritual]RITUAL[/section][/section]"
+    cost: []
+    description: >
+      Material: Crystal Cast: 1 hour The wizard etches a generic spell matrix into a crystal at least chestnut-sized.
+    effect: >
+      Creates a matrix crystal.
+  - name: "Hermetic Manipulation"
+    id: "HermeticManipulation"
+    tags: ["TIER I", "Arcane / Light", "Out of Combat"]
+    type:
+      - "[section:spell-casttype][section:clr-ritual]RITUAL[/section][/section]"
+    cost: []
+    description: >
+      Material: — Cast: Variable Manipulate hermetic mana (e.g., create a small illusion, conjure a floating light, make a spell matrix visible…).
+    effect: >
+      Effect, duration, and any costs are negotiable. Enables [url:/generia/rules/magic/freecasting]Freecasting[/url].

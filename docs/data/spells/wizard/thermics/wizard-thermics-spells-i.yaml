@@ -1,0 +1,91 @@
+name: "Wizard Thermics Spells I"
+id: "wizard-thermics-spells-i"
+id_appendix: "I"
+
+offensive:
+  - name: "Thermal Beam I"
+    id: "ThermalBeamI"
+    tags: ["TIER I", "Fire / Ice", "Offensive", "Range: 20m", "UPCAST 5"]
+    type:
+      - "[section:spell-casttype][section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]1/2/3 MP[/section]"
+    description: >
+      Material: Matrix Crystal (optional) The wizard lashes the target with a beam of fire or ice. Matrix Crystal: May target up to [[section:clr-value]Fire / Ice[/section]] different creatures. The total MP cost is multiplied by the number of targets.
+    effect: >
+      [section:clr-roll]1d6[/section] Fire / Ice
+    saved: "Saved: Damage halved. Saved+10: No effect."
+  - name: "Ice Shrapnel"
+    id: "IceShrapnel"
+    tags: ["TIER I", "Ice", "Offensive", "Range: 6m", "UPCAST 3"]
+    type:
+      - "[section:spell-casttype][section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]1/2/3 MP[/section]"
+    description: >
+      The wizard hurls shards of ice at the target. Targets further than [section:clr-value]2m[/section] away have [url:core#Advantage]Advantage 1[/url] on the save.
+    effect: >
+      [section:clr-roll]2d4[/section] Ice
+    saved: "Saved: Damage halved. Saved+10: No effect."
+  - name: "Thermal Bolt I"
+    id: "ThermalBoltI"
+    tags: ["TIER I", "Fire / Ice", "Offensive", "Range: 20m", "UPCAST 3"]
+    type:
+      - "[section:spell-casttype][section:clr-pa]PA[/section] [section:clr-attr]INT[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]1/2/3 MP[/section]"
+    description: >
+      A bolt of fire or ice mana.
+    effect: >
+      [section:clr-roll]1d8[/section] Fire / Ice
+
+defensive:
+  - name: "Thermal Barrier I"
+    id: "ThermalBarrierI"
+    tags: ["TIER I", "Fire / Ice", "Reaction", "UPCAST 3"]
+    type:
+      - "[section:spell-casttype][section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]1/2/3 MP[/section]"
+    description: >
+      Erects a barrier around the wizard that neutralizes incoming damage. Breaks at its maximum; excess damage carries over.
+    effect: >
+      [section:clr-roll]1d4[/section] Protection Barrier is [url:status#resistant]resistant[/url] against Fire / Ice
+
+utility:
+  - name: "Frost Breath"
+    id: "FrostBreath"
+    tags: ["TIER I", "Ice", "Utility", "Range: 20m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+    type:
+      - "[section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]1 MP[/section]"
+    description: >
+      The wizard lowers the target’s body temperature to slow it.
+    effect: >
+      [url:status#Slowed]Slowed[/url].
+    saved: "Saved: No effect."
+  - name: "Sparkstream I"
+    id: "SparkstreamI"
+    tags: ["TIER I", "Fire", "Utility", "Range: 20m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+    type:
+      - "[section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]1 MP[/section]"
+    description: >
+      The wizard sends an unrelenting stream of sparks at a target, causing burns at the end of the target's turn while maintained. Requires line of sight.
+    effect: >
+      [url:status#Burning]Burning 1[/url].
+    saved: "Saved: No effect."
+
+ritual:
+  - name: "Thermal Manipulation"
+    id: "ThermalManipulation"
+    tags: ["TIER I", "Ice / Fire", "Out of Combat"]
+    type:
+      - "[section:spell-casttype][section:clr-ritual]RITUAL[/section][/section]"
+    cost: []
+    description: >
+      Material: — Cast: Variable Manipulate thermal mana (e.g., create a flame, chill a drink, heat a room…).
+    effect: >
+      Effect, duration, and any costs are negotiable. Enables [url:/generia/rules/magic/freecasting]Freecasting[/url].

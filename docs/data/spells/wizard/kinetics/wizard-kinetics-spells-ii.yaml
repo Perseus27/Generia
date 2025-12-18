@@ -1,0 +1,158 @@
+name: "Wizard Kinetics Spells II"
+id: "wizard-kinetics-spells-ii"
+id_appendix: "II"
+
+offensive:
+  - name: "Kinetic Bolt II"
+    id: "KineticBoltII"
+    tags: ["TIER II", "Stone / Water", "Offensive", "Range: 20m", "UPCAST 3"]
+    type:
+      - "[section:spell-casttype][section:clr-pa]PA[/section] [section:clr-attr]INT[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]2/4/6 MP[/section]"
+    description: >
+      A bolt of stone or water mana.
+    effect: >
+      [section:clr-roll]2d8[/section] Blunt / Sharp
+  - name: "Satellites"
+    id: "Satellites"
+    tags: ["TIER II", "Stone", "Offensive", "Range: 20m", "[section:clr-conc]CONCENTRATION[/section]"]
+    type:
+      - "[section:spell-casttype][section:clr-pa]PA[/section] [section:clr-attr]INT[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]4 MP[/section]"
+    description: >
+      Up to [section:clr-attr]INT-MOD[/section] stones (or similar objects) orbit the caster. Each can be flung as a reaction at any time. If the object in question is not [url:def#EtherealEffects]ethereal[/url], the projectile damage is added to the base damage.
+    effect: >
+      [section:clr-roll]1d8[/section] Blunt per stone ([section:clr-value]+ projectile damage[/section])
+  - name: "Stone Hail"
+    id: "StoneHail"
+    tags: ["TIER II", "Stone", "Offensive", "Range: 20m"]
+    type:
+      - "[section:spell-casttype][section:clr-pa]PA[/section] [section:clr-attr]INT[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]2 MP per stone[/section]"
+    description: >
+      Hurl a stone at the target. For every additional [section:clr-mp]2 MP[/section], fire up to [section:clr-attr]INT-MOD[/section] more projectiles at any targets. If the object in question is not [url:def#EtherealEffects]ethereal[/url], the projectile damage is added to the base damage.
+    effect: >
+      [section:clr-roll]2d8[/section] Blunt per stone ([section:clr-value]+ projectile damage[/section])
+
+defensive:
+  - name: "Kinetic Barrier II"
+    id: "KineticBarrierII"
+    tags: ["TIER II", "Stone / Water", "Reaction", "UPCAST 3"]
+    type:
+      - "[section:spell-casttype][section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]2/4/6 MP[/section]"
+    description: >
+      Erects a barrier around the wizard that neutralizes incoming damage. Breaks at its maximum; excess damage carries over.
+    effect: >
+      [section:clr-roll]1d8[/section] Protection Barrier is [url:status#resistant]resistant[/url] against Blunt / Sharp
+  - name: "Tensile Shield II"
+    id: "TensileShieldII"
+    tags: ["TIER II", "Water", "Defensive", "Range: 20m", "UPCAST 3", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+    type:
+      - "[section:spell-casttype][section:clr-surecast]SURECAST[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]2/4/6 MP[/section]"
+    description: >
+      Grant an ally a liquid, tensioned shield that absorbs incoming damage.
+    effect: >
+      [section:clr-roll]1d8[/section] Protection Shield is [url:status#resistant]resistant[/url] against Physical
+  - name: "Wave Dome"
+    id: "WaveDome"
+    tags: ["TIER II", "Water", "Utility", "Radius: 4m", "UPCAST 3", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]", "[section:clr-zone]ZONE[/section]", "MATERIAL: Matrix Crystal"]
+    type:
+      - "[section:spell-casttype][section:clr-surecast]SURECAST[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]2/4/6 MP[/section]"
+    description: >
+      A hemispherical dome of water mana that intercepts projectiles. Spells cast into the dome have [url:core#Disadvantage]Disadvantage 1[/url]. A creature must spend any [url:def#Actions]action[/url] to pass through against the wizard’s will. The wizard may, as a reaction, freely let projectiles and creatures pass for the rest of this turn. The dome moves with the wizard at its center.
+    effect: >
+      [section:clr-roll]2d6[/section] Protection
+
+utility:
+  - name: "Earthquake"
+    id: "Earthquake"
+    tags: ["TIER II", "Stone", "Utility", "Range: 20m", "Radius: 2m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]"]
+    type:
+      - "[section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]4 MP[/section]"
+    description: >
+      Creates a localized tremor in the target area.
+    effect: >
+      Creatures in the area [url:status#Prone]fall prone[/url].
+    saved: "Saved: Creature [url:status#OffBalance]loses balance[/url]. Saved+10: No effect."
+  - name: "Fog Cloud"
+    id: "FogCloud"
+    tags: ["TIER II", "Air / Water", "Utility", "Range: 20m", "UPCAST 3", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
+    type:
+      - "[section:spell-casttype][section:clr-surecast]SURECAST[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]2/4/6 MP[/section]"
+    description: >
+      Create fog at the target position; it spreads [section:clr-value]2/4/6m[/section] in all directions.
+    effect: >
+      Creatures in the fog are [url:status#Blinded]Blinded[/url]. To attack a target inside the cloud from outside (or the other way around) with [url:def#RangedAttack]ranged attacks[/url] or [section:clr-pa]projectile spells[/section], first pass a [section:clr-attr]PER[/section] check against the caster’s [section:clr-dc]DC INT[/section].
+  - name: "Lower/Raise"
+    id: "LowerRaise"
+    tags: ["TIER II", "Stone", "Utility", "Range: 20m", "[section:clr-control]CONTROL[/section]", "[section:clr-terrain]TERRAIN[/section]", "MATERIAL: Matrix Crystal"]
+    type:
+      - "[section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]1 MP per tile[/section]"
+    description: >
+      Raise or lower up to [section:clr-attr]INT-MOD[/section] tiles (1 m² each) by 2 meters. Requires earth/stone ground or similar substrate.
+    effect: >
+      Alters terrain.
+    saved: "Saved: Affected creatures may leave the area as a reaction."
+  - name: "Quagmire"
+    id: "Quagmire"
+    tags: ["TIER II", "Stone / Water", "Utility", "Range: 20m", "Radius: 4m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]", "[section:clr-terrain]TERRAIN[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+    type:
+      - "[section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]3 MP[/section]"
+    description: >
+      Pull groundwater to the surface to create a localized bog.
+    effect: >
+      Creatures in the area are [url:status#Slowed]Slowed[/url]. Disadvantage 1 on dodge, parry, and block for all creatures in the area.
+    saved: "Saved: Target may perform a jump as a reaction."
+  - name: "Sinkhole"
+    id: "Sinkhole"
+    tags: ["TIER II", "Stone", "Utility", "Range: 20m", "Radius: 2m", "[section:clr-control]CONTROL[/section]", "[section:clr-terrain]TERRAIN[/section]", "MATERIAL: Matrix Crystal"]
+    type:
+      - "[section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]4 MP[/section]"
+    description: >
+      The ground suddenly drops by 2 meters within the area. Requires earth/stone ground or similar substrate.
+    effect: >
+      Lowers terrain. Creatures in the radius become [url:status#OffBalance]Off-Balance[/url].
+    saved: "Saved: Off-Balance prevented."
+  - name: "Water Jet II"
+    id: "WaterJetII"
+    tags: ["TIER II", "Water", "Utility", "Range: 12m", "UPCAST 3", "[section:clr-control]CONTROL[/section]"]
+    type:
+      - "[section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]STR[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]2/4/6 MP[/section]"
+    description: >
+      Shoot a jet of water to shove a target away.
+    effect: >
+      [url:status#Knockback]Knockback[/url] [section:clr-value]2/4/6[/section].
+    saved: "Saved: [url:status#OffBalance]Off-Balance[/url]. Saved+10: No effect."
+
+ritual:
+  - name: "Well"
+    id: "Well"
+    tags: ["TIER II", "Stone / Water", "Out of Combat"]
+    type:
+      - "[section:spell-casttype][section:clr-ritual]RITUAL[/section][/section]"
+    cost: []
+    description: >
+      Material: Matrix Crystal Cast: 1 Phase Create a shaft up to 20 m deep and bring groundwater up, if present. Requires stone/earth ground.
+    effect: >
+      A vertical well shaft is formed.

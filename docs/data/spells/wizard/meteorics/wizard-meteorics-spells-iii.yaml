@@ -1,0 +1,150 @@
+name: "Wizard Meteorics Spells III"
+id: "wizard-meteorics-spells-iii"
+id_appendix: "III"
+
+offensive:
+  - name: "Chain Lightning I"
+    id: "ChainLightningI"
+    tags: ["TIER III", "Lightning", "Offensive", "Range: 20m", "UPCAST 3"]
+    type:
+      - "[section:spell-casttype][section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]3/6/9 MP[/section]"
+    description: >
+      Hurls a bolt that leaps to the nearest new target within [[section:clr-value]Lightning[/section]] m until no new targets remain (caster chooses if equally distant).
+    effect: >
+      [section:clr-roll]2d6[/section] Lightning.
+    saved: "Saved: Damage halved. Saved+10: No effect."
+  - name: "Firestorm"
+    id: "Firestorm"
+    tags: ["TIER III", "Air / Fire", "Offensive", "Range: 4m", "Radius: 2m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]"]
+    type:
+      - "[section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]6 MP[/section]"
+    description: >
+      Conjures a fiery tornado that damages all creatures touching it. The wizard may move it up to [[section:clr-value]Air[/section]]+[[section:clr-value]Fire[/section]] meters as a free action each turn.
+    effect: >
+      [section:clr-roll]2d6[/section] Air, [section:clr-roll]2d6[/section]Fire
+    saved: "Saved: Damage halved. Saved+10: No effect."
+  - name: "Hailstorm"
+    id: "Hailstorm"
+    tags: ["TIER III", "Air / Ice", "Offensive", "Range: 20m", "Radius: 4m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
+    type:
+      - "[section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]6 MP[/section]"
+    description: >
+      Summons a localized magical hailstorm.
+    effect: >
+      [section:clr-roll]2d6[/section] Air, [section:clr-roll]2d6[/section] Ice
+    saved: "Saved: Damage halved. Saved+10: No effect."
+  - name: "Lightning Blast II"
+    id: "LightningBlastII"
+    tags: ["TIER III", "Lightning", "Offensive", "Range: 20m", "UPCAST 3"]
+    type:
+      - "[section:spell-casttype][section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]4/8/12 MP[/section]"
+    description: >
+      A bright lightning that hits all targets in a straight line from the caster. Width: [section:clr-value]3m[/section]
+    effect: >
+      [section:clr-roll]3d6[/section] Lightning
+    saved: "Saved: Damage halved. Saved+10: No effect."
+  - name: "Meteoric Bolt III"
+    id: "MeteoricBoltIII"
+    tags: ["TIER III", "Air / Lightning", "Offensive", "Range: 20m", "UPCAST 3"]
+    type:
+      - "[section:spell-casttype][section:clr-pa]PA[/section] [section:clr-attr]INT[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]3/6/9 MP[/section]"
+    description: >
+      A bolt of air or lightning mana.
+    effect: >
+      [section:clr-roll]2d10[/section] Air / Lightning
+  - name: "Shockwave"
+    id: "Shockwave"
+    tags: ["TIER III", "Lightning / Air", "Offensive", "Radius: 4m", "UPCAST 3"]
+    type:
+      - "[section:spell-casttype][section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]3/6/9 MP[/section]"
+    description: >
+      The caster becomes the epicenter of a thunderous pressure wave.
+    effect: >
+      [section:clr-roll]1d6[/section] [url:dmgtype#Absolute]Absolute[/url] damage.
+    saved: "Saved: Damage halved. Saved+10: No effect."
+  - name: "Zap III"
+    id: "ZapIII"
+    tags: ["TIER III", "Lightning", "Offensive", "UPCAST 3"]
+    type:
+      - "[section:spell-casttype][section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]3/6/9 MP[/section]"
+    description: >
+      Material: Matrix Crystal (optional) The wizard shoots an arc of electricity out of their fingertip. Matrix Crystal: May target up to [[section:clr-value]Lightning[/section]] different creatures. The total MP cost is multiplied by the number of targets.
+    effect: >
+      [section:clr-roll]2d8[/section] Lightning
+    saved: "Saved: Damage halved. Saved+10: No effect."
+
+defensive:
+  - name: "Meteoric Barrier III"
+    id: "MeteoricBarrierIII"
+    tags: ["TIER III", "Air / Lightning", "Reaction", "UPCAST 3"]
+    type:
+      - "[section:spell-casttype][section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]3/6/9 MP[/section]"
+    description: >
+      Erects a barrier around the wizard that neutralizes incoming damage. Breaks at its maximum; excess damage carries over.
+    effect: >
+      [section:clr-roll]1d12[/section] Protection Barrier is [url:status#resistant]resistant[/url] against Air/Lightning
+
+utility:
+  - name: "Blizzard"
+    id: "Blizzard"
+    tags: ["TIER III", "Air / Ice", "Utility", "Range: 20m", "Radius: 6m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]", "[section:clr-zone]ZONE[/section]"]
+    type:
+      - "[section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]4 MP[/section]"
+    description: >
+      The wizard creates a localized magical blizzard.
+    effect: >
+      Creatures in the zone are [url:status#Chilled]Chilled[/url].
+    saved: "Saved: [url:status#Slowed]Slowed[/url]. Saved+10: No effect."
+  - name: "Flight"
+    id: "Flight"
+    tags: ["TIER III", "Air", "Utility|Move", "[section:clr-movement]MOVEMENT[/section]"]
+    type:
+      - "[section:spell-casttype][section:clr-surecast]SURECAST[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]2 MP[/section]"
+    description: >
+      While the spell [url:#Levitation]Levitation[/url] is active, accelerate horizontally with a burst of air mana.
+    effect: >
+      Movement from Levitation is doubled for this action.
+  - name: "Static Field"
+    id: "StaticField"
+    tags: ["TIER III", "Lightning", "Utility", "Range: 20m", "Radius: 2m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
+    type:
+      - "[section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]6 MP[/section]"
+    description: >
+      A field of static electricity overwhelms the nervous systems of creatures in the area.
+    effect: >
+      Creatures in the area are [url:status#Stunned]Stunned[/url] and Shocked [[section:clr-value]Lightning[/section]]. [url:status#Stunned]Stunned[/url] ends immediately upon leaving the zone.
+    saved: "Saved: Prevents Stun. Saved+10: No effect."
+  - name: "Vacuum"
+    id: "Vacuum"
+    tags: ["TIER III", "Air", "Utility", "Range: 20m", "Radius: 2m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
+    type:
+      - "[section:spell-casttype][section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section][/section]"
+    cost:
+      - "[section:clr-mpcost]4 MP[/section]"
+    description: >
+      Creates a vacuum that makes breathing impossible.
+    effect: >
+      Creatures in the area are [url:status#Silenced]Silenced[/url] and become [url:status#Unconscious]Unconscious[/url].
+    saved: "Saved: Prevents Unconsciousness."
