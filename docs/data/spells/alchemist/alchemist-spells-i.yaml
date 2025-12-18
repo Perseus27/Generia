@@ -9,8 +9,8 @@ offensive:
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
     material:
-      - "1× Air Dust"
-      - "3× Fire Dust"
+      - "2× Air Dust"
+      - "2× Fire Dust"
     cost:
       - "[section:clr-mp]1 MP[/section]"
     description: >
