@@ -22,13 +22,13 @@ class Spell_Renderer:
         result = f"""
 [h1|Tier{id_ap}]Tier {id_ap}[/h1]
 [h2|Offensive{id_ap}]Offensive[/h2]
-{self.format_spells_from_category(y.get("offensive", False))}
+{self.format_spells_from_category(y.get('offensive', False))}
 [h2|Defensive{id_ap}]Defensive[/h2]
-{self.format_spells_from_category(y.get("defensive", False))}
+{self.format_spells_from_category(y.get('defensive', False))}
 [h2|Utility{id_ap}]Utility[/h2]
-{self.format_spells_from_category(y.get("utility", False))}
+{self.format_spells_from_category(y.get('utility', False))}
 [h2|Ritual{id_ap}]Ritual[/h2]
-{self.format_spells_from_category(y.get("ritual", False))}
+{self.format_spells_from_category(y.get('ritual', False))}
         """
         return result
     
@@ -49,11 +49,11 @@ class Spell_Renderer:
 
     def format_spell(self, spell):
         ###
-        header = f"[container:spell][h2|{spell.get("id")}]{spell.get("name")}[/h2][container:spell-content]"
+        header = f"[container:spell][h2|{spell.get('id')}]{spell.get('name')}[/h2][container:spell-content]"
         ### left column
-        columnleft = f"[container:spell-columnleft]{self.format_list_br(spell.get("tags"))}[/container]"
+        columnleft = f"[container:spell-columnleft]{self.format_list_br(spell.get('tags'))}[/container]"
         ### center column
-        columncenter = f"[container:spell-columncenter][section:spell-casttype]{self.format_list_br(spell.get("type"))}[/section]"
+        columncenter = f"[container:spell-columncenter][section:spell-casttype]{self.format_list_br(spell.get('type'))}[/section]"
         # check for material
         material = spell.get("material", False)
         if material:
@@ -66,11 +66,11 @@ class Spell_Renderer:
         cast_time = spell.get("cast_time", False)
         if cast_time:
             columncenter += f"[br][b]Cast:[/b] {cast_time}"
-        columncenter +=  f"[br]{spell.get("description", "DESCRIPTION ERROR")}"
+        columncenter +=  f"[br]{spell.get('description', 'DESCRIPTION ERROR')}"
         columncenter += f"[/container]"
         ### right column
         columnright = f"[container:spell-columnright][container:spell-effect]"
-        columnright += f"[b]EFFECT:[/b][br]{spell.get("effect", "EFFECT ERROR")}"
+        columnright += f"[b]EFFECT:[/b][br]{spell.get('effect', 'EFFECT ERROR')}"
         effect10 = spell.get("effect10", False)
         if effect10:
             columnright += f"[br][b]EFFECT+10:[/b][br]{effect10}"
