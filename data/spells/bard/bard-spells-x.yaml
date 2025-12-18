@@ -1,0 +1,41 @@
+name: "Bard Spells X"
+id: "bard-spells-x"
+id_appendix: "X"
+is_exclusive: True
+
+exclusive:
+  - subheader:
+    is_subheader: True
+    name: "Charlatan"
+    id: "Charlatan"
+
+  - name: "Mostly Harmless"
+    id: "MostlyHarmless"
+    tags: ["TIER X", "Charlatan", "Cacophony", "Defensive", "Radius: 12m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]", "SP Cost: 20"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      Radiates guileless harmlessness to draw attention away from oneself.
+    effect: >
+      You cannot be attacked. Ineffective while [url:status#Isolated]Isolated[/url].
+    saved: "No effect."
+
+  - subheader:
+    is_subheader: True
+    name: "Troubadour"
+    id: "Troubadour"
+
+  - name: "Eigth Rest"
+    id: "EigthRest"
+    tags: ["TIER X", "Troubadour", "Cacophony", "Reaction", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]", "SP Cost: 10"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      Abruptly pauses amid an active [i]Da Capo[/i] spell, interrupting the thoughts of all hostile creatures within its radius.
+      [br][i]Requires an active [i]Da Capo[/i] spell. The spell does not end, but its variable effect is reduced by [section:clr-value]1[/section].[/i]
+    effect: >
+      Forces [section:clr-conc]Concentration[/section] checks against [[section:clr-value]10 + Cacophony[/section]].
