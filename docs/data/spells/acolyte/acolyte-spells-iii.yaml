@@ -1,0 +1,120 @@
+name: "Acolyte Spells III"
+id: "acolyte-spells-iii"
+id_appendix: "III"
+
+offensive:
+  - name: "Purge"
+    id: "Purge"
+    tags: ["TIER III", "Sol", "Offensive", "Range: 20m"]
+    type:
+      - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]CON[/section]"
+    material:
+      - "Sunstone (optional)"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      The acolyte calls down a scorching ray of bundled sunlight to deal significant damage to a hostile target.
+      [br][b]Sunstone:[/b]
+      [br]The spell deals additional damage per stack of [url:status#Lightburn]Lightburn[/url] on the target.
+    effect: >
+      [section:clr-roll]2d8[/section] Light
+      [br](+[section:clr-roll]1d8[/section] per Lightburn stack)
+    saved: "Damage halved."
+    saved10: "No effect."
+
+
+defensive:
+  - name: "Providence"
+    id: "Providence"
+    tags: ["TIER III", "Luna", "Reaction", "Range: 20m"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      The acolyte channels Luna's divine intuition to provide themselves or an ally with a helpful vision of the next incoming attack.
+      [br][i]Effect only lasts for a single turn.[/i]
+    effect: >
+      Target gains [url:status#DefenseBonus]Defense Bonus[/url] [[section:clr-value]Luna[/section]].
+
+
+utility:
+  - name: "Expunge"
+    id: "Expunge"
+    tags: ["TIER III", "Sol", "Utility", "Range: 20m"]
+    type:
+      - "[section:clr-dc]DC+[/section] [section:clr-attr]WIL[/section] vs [section:clr-dc]DC[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      The acolyte attempts to remove a lingering magical structure by simply burning it away with holy light.
+      [br][i][url:core#Advantage]Advantage 1[/url] on [section:clr-dc]DC+[/section] if the target [section:clr-field]FIELD[/section] or [section:clr-zone]ZONE[/section] is illuminated by [section:clr-sunlight]True Sunlight[/section].[/i]
+    effect: >
+      Forcibly ends a [section:clr-field][b]FIELD[/b][/section] or [section:clr-zone][b]ZONE[/b][/section] spell.
+
+  - name: "Lunacy"
+    id: "Lunacy"
+    tags: ["TIER III", "Luna", "Utility", "Radius: 4m"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      Luna's prophetic powers fill the minds of nearby enemies with the worst possible outcomes of their next actions.
+      [br][i]The spell's radius is doubled in [section:clr-moonlight]True Moonlight[/section].[/i]
+    effect: >
+      [url:status#Frightened]Frightened[/url].
+    effect10: >
+      [url:status#Panicked]Panicked[/url].
+    saved: >
+      [url:status#Confused]Confused[/url].
+    saved10: "No effect."
+
+  - name: "Sunrise"
+    id: "Sunrise"
+    tags: ["TIER III", "Sol", "Utility", "Radius: 20m"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    material:
+      - "Sunstone"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      The acolyte channels mana into a sunstone, turning it into a miniature sun that emits [section:clr-sunlight][b]True Sunlight[/b][/section] after floating several meters up in the air.
+      [br]The miniature sun cannot be destroyed save for divine intervention.
+    effect: >
+      Provides [section:clr-sunlight]True Sunlight[/section] within the radius for one Phase.
+
+  - name: "Moonrise"
+    id: "Moonrise"
+    tags: ["TIER III", "Luna", "Utility", "Radius: 20m"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    material:
+      - "Moonstone"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      The acolyte channels mana into a moonstone, turning it into a miniature moon that emits [section:clr-moonlight][b]True Moonlight[/b][/section] after floating several meters up in the air.
+      [br]The miniature moon cannot be destroyed save for divine intervention.
+    effect: >
+      Provides [section:clr-moonlight]True Moonlight[/section] within the radius for one Phase.
+
+
+ritual:
+  - name: "Prophecy"
+    id: "Prophecy"
+    tags: ["TIER III", "Luna", "Out of Combat"]
+    type:
+      - "[section:clr-ritual]RITUAL[/section]"
+    material:
+      - "Moonstone"
+      - "Reflective surface"
+    cost:
+      - "Cast: 1 Phase"
+    description: >
+      The acolyte receives impressions of possible futures from Luna, represented by [i]Prophecy Dice[/i]. These may be used to replace [b]any of their own rolls[/b] at [b]any time[/b].
+      [br]At midnight, any unused Prophecy Dice become invalid.
+      [br][i]This ritual may only be used once per day, resetting at midnight. It requires a reflective surface, e.g. a mirror, clear water, polished metal...[/i]
+    effect: >
+      Roll and keep [[section:clr-value]Luna[/section]] Prophecy Dice.

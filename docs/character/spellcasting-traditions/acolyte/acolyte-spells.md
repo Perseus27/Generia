@@ -40,4 +40,7 @@ title: Acolyte Spells
 
 # Acolyte Spells
 
-{{ bb_from_file('bb_docs/character/spellcasting-traditions/acolyte/acolyte-spells.bb') }}
+{{ spells('data/spells/acolyte/acolyte-spells-i.yaml') }}
+{{ spells('data/spells/acolyte/acolyte-spells-ii.yaml') }}
+{{ spells('data/spells/acolyte/acolyte-spells-iii.yaml') }}
+{{ spells('data/spells/acolyte/acolyte-spells-x.yaml') }}

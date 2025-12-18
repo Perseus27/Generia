@@ -19,6 +19,12 @@ class Spell_Renderer:
     def format_all(self):
         y = self.yaml_input
         id_ap = y.get("id_appendix")
+        x = y.get("is_exclusive", False)
+        if x:
+            return f"""
+[h1|Tier{id_ap}]Tier {id_ap}[/h1]
+{self.format_spells_from_category(y.get('exclusive', False))}
+            """        
         result = f"""
 [h1|Tier{id_ap}]Tier {id_ap}[/h1]
 [h2|Offensive{id_ap}]Offensive[/h2]
