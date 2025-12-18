@@ -56,7 +56,7 @@ Some skills and spells can be used as a [i]hidden action[/i]; the action specifi
 [h2|BasicAttack]Basic Attack[/h2]
 [h3|MeleeAttack]Melee Attack[/h3]
 A melee attack is a simple attack with a combatantâ€™s melee weapon against a target in reach.
-[b]Procedure:[/b]
+[br][b]Procedure:[/b]
 [ol]
 [li]Attacker rolls [b][section:clr-roll]1d20[/section][/b] + [url:values#AttackValue]Attack Value[/url][/li]
 [li]Defender may [url:#Dodge]dodge[/url], [url:#Parry]parry[/url], or [url:#Block]block[/url] the rolled value[/li]
@@ -66,7 +66,7 @@ If the defender fails to dodge or parry, they take damage equal to the attackerâ
 [h3|RangedAttack]Ranged Attack[/h3]
 [b]See [url:/generia/rules/combat/ranged-combat]Ranged Combat[/url] for details.[/b]
 [br]A ranged attack, like a [url:#MeleeAttack]melee attack[/url], is a simple attack with a ranged weapon against a target within range.
-[b]Procedure:[/b]
+[br][b]Procedure:[/b]
 [ol]
 [li]Attacker rolls [b][section:clr-roll]1d20[/section][/b] + [url:values#AttackValue]Attack Value[/url] (see [url:/generia/rules/combat/ranged-combat]Ranged Combat[/url] for Advantage, etc.)[/li]
 [li]Defender may [url:#Dodge]dodge[/url] the rolled value (see [url:/generia/rules/combat/ranged-combat]Ranged Combat[/url] for Advantage, etc.)[/li]

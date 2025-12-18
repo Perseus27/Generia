@@ -1,0 +1,149 @@
+name: "Acolyte Spells I"
+id: "acolyte-spells-i"
+id_appendix: "I"
+
+offensive:
+  - name: "Light of Sol"
+    id: "LightOfSol"
+    tags: ["TIER I", "Sol", "Offensive", "Range: 20m", "Radius: 2m", "[section:clr-exper]EXPERTISE 1/2/3[/section]"]
+    type:
+      - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]CON[/section]"
+    material:
+      - "Sunstone"
+    cost:
+      - "[section:clr-mp]2/3/4 MP[/section]"
+    description: >
+      Calls down a beam of holy light in the target area.
+    effect: >
+      [section:clr-roll]2/3/4d4[/section] Light
+    saved: "Damage halved."
+    saved10: "No effect."
+
+  - name: "Sunlight Spear"
+    id: "SunlightSpear"
+    tags: ["TIER I", "Sol", "Offensive", "Range: 20m", "[section:clr-exper]EXPERTISE 1/2/3[/section]"]
+    type:
+      - "[section:clr-pa]PA[/section] [section:clr-attr]WIL[/section]"
+    cost:
+      - "[section:clr-mp]1/2/3 MP[/section]"
+    description: >
+      Hurls a conjured spear of pure sunlight at the target.
+    effect: >
+      [section:clr-roll]1/2/3d8[/section] Light
+
+
+defensive:
+  - name: "Blessing of Fortitude"
+    id: "BlessingOfFortitude"
+    tags: ["TIER I", "Luna", "Utility", "[section:clr-support]SUPPORT[/section]", "Concentration", "Range: 20m", "[section:clr-exper]EXPERTISE 1/2/3[/section]"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    material:
+      - "Moonstone (optional)"
+    cost:
+      - "[section:clr-mp]1/2/3 MP[/section]"
+    description: >
+      Asks Luna to bless an allied target.
+      [br][i]Moonstone:[/i] For an additional [section:clr-mp]1/2/3 MP[/section], you may affect up to [section:clr-attr]WIL-MOD[/section]  [[section:clr-value]Luna[/section]] targets.
+    effect: >
+      [url:values#WT]WT[/url][section:clr-value]+1/+2/+3[/section].
+
+  - name: "Radiant Shield"
+    id: "RadiantShield"
+    tags: ["TIER I", "Sol", "Defensive", "[section:clr-support]SUPPORT[/section]", "Concentration", "Range: 20m", "[section:clr-exper]EXPERTISE 1/2/3[/section]"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    material:
+      - "Sunstone (optional)"
+    cost:
+      - "[section:clr-mp]1/2/3 MP[/section]"
+    description: >
+      Asks Sol to shield an allied target.
+      [br][i]Sunstone:[/i] For an additional [section:clr-mp]1/2/3 MP[/section], you may affect up to [section:clr-attr]WIL-MOD[/section]  [[section:clr-value]Sol[/section]] targets.
+    effect: >
+      Incoming damage [section:clr-value]-2/-4/-6[/section].
+
+
+utility:
+  - name: "Healing"
+    id: "Healing"
+    tags: ["TIER I", "Luna", "Utility", "HEAL", "Range: 16m", "[section:clr-exper]EXPERTISE 1/2/3[/section]"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]2/3/4 MP[/section]"
+    description: >
+      Prays to Luna to heal an allied target within range.
+    effect: >
+      Target regains [section:clr-roll]2/3/4d6[/section] HP.
+
+  - name: "Purify"
+    id: "Purify"
+    tags: ["TIER I", "Luna", "Utility", "[section:clr-support]SUPPORT[/section]", "Range: 10m", "[section:clr-exper]EXPERTISE 1/2/3[/section]"]
+    type:
+      - "[section:spell-casttype][section:clr-dc]DC+[/section] [section:clr-attr]WIL[/section] vs [section:clr-dc]DC[/section]"
+    cost:
+      - "[section:clr-mp]1/2/3 MP[/section]"
+    description: >
+      Asks Luna to cleanse the target.
+      [br][i][url:core#Advantage]Advantage 1[/url] on [section:clr-dc]DC+[/section] in [section:clr-moonlight]True Moonlight[/section].[/i]
+    effect: >
+      Attempts to remove [section:clr-value]1/2/3[/section] negative status effects from the target.
+
+
+ritual:
+  - name: "Prayer to Luna"
+    id: "PrayerToLuna"
+    tags: ["TIER I", "Luna", "Out of Combat"]
+    type:
+      - "[section:clr-ritual]RITUAL[/section]"
+    cost:
+      - "Cast: Variable"
+    description: >
+      Petitions Luna for an effect related to her [b]domains[/b]:
+      [br]Elemental: [i]Light, Water, Arcane[/i]
+      [br]Conceptual: [i]Moon, Night, Healing, Protection, Purification, Empowerment, Divination, Wisdom, Grace, Peace, Secrets[/i]
+    effect: >
+      Effect, duration, and any costs are negotiable.
+      [br]Enables [i][url:/generia/rules/magic/freecasting]Freecasting[/url][/i].
+
+  - name: "Prayer to Sol"
+    id: "PrayerToSol"
+    tags: ["TIER I", "Sol", "Out of Combat"]
+    type:
+      - "[section:clr-ritual]RITUAL[/section]"
+    cost:
+      - "Cast: Variable"
+    description: >
+      Petitions Sol for an effect related to his [b]domains[/b]:
+      [br]Elemental: [i]Light, Fire[/i]
+      [br]Conceptual: [i]Sun, Day, War, Dominance, Righteousness, Pride, Duty, Protection, Wrath, Truth[/i]
+    effect: >
+      Effect, duration, and any costs are negotiable.
+      [br]Enables [i][url:/generia/rules/magic/freecasting]Freecasting[/url][/i].
+
+  - name: "Mederi"
+    id: "Mederi"
+    tags: ["TIER I", "Luna", "Out of Combat", "[section:clr-support]SUPPORT[/section]"]
+    type:
+      - "[section:clr-ritual]RITUAL[/section]"
+    cost:
+      - "Cast: ½ Phase"
+    description: >
+      Asks Luna’s aid for a Medicine check.
+    effect: >
+      Your next [i]Medicine[/i] check has [url:core#Advantage]Advantage 1[/url].
+
+  - name: "Consecration"
+    id: "Consecration"
+    tags: ["TIER I", "Sol", "Out of Combat", "[section:clr-support]SUPPORT[/section]"]
+    type:
+      - "[section:clr-ritual]RITUAL[/section]"
+    material:
+      - "Sunstone"
+    cost:
+      - "Cast: ½ Phase"
+    description: >
+      Consecrates up to [[section:clr-value]Sol[/section]] weapons in the sun god’s name until sunset.
+    effect: >
+      Consecrated weapons inflict [url:status#Lightburn]Lightburn 1[/url] on [url:def#Hit]hit[/url].

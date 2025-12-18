@@ -24,6 +24,10 @@
   color: lightsteelblue;
 }
 
+.md-typeset pre {
+  display: none;
+}
+
 .toc-box {
   float: right;
   width: 18rem;
@@ -47,6 +51,12 @@
 
 .md-typeset {
   line-height: 1.4;
+}
+.md-typeset p {
+  font-size: 0.75rem;
+}
+.md-typeset li {
+  font-size: 0.75rem;
 }
 
 
