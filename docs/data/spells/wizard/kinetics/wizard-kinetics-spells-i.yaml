@@ -1,0 +1,136 @@
+name: "Kinetics Spells I"
+id: "wizard-kinetics-spells-i"
+id_appendix: "I"
+
+offensive:
+  - name: "Kinetic Bolt I"
+    id: "KineticBoltI"
+    tags: ["TIER I", "Stone / Water", "Offensive", "Range: 20m", "UPCAST 3"]
+    type:
+      - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
+    cost:
+      - "[section:clr-mpcost]1/2/3 MP[/section]"
+    description: >
+      A bolt of stone or water mana.
+    effect: >
+      [section:clr-roll]1d8[/section] Blunt / Sharp
+
+  - name: "Pebble Shot"
+    id: "PebbleShot"
+    tags: ["TIER I", "Stone", "Offensive", "Range: 20m", "UPCAST 3"]
+    type:
+      - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
+    cost:
+      - "[section:clr-mpcost]1/2/3 MP[/section]"
+    description: >
+      Hurls a small stone (or similar projectile) at the target. If the object in question is not [url:def#EtherealEffects]ethereal[/url],
+      the projectile damage is added to the base damage.
+    effect: >
+      [section:clr-roll]1d8[/section] Blunt
+      [br]([section:clr-value]+projectile damage[/section])
+
+defensive:
+  - name: "Kinetic Barrier I"
+    id: "KineticBarrierI"
+    tags: ["TIER I", "Stone / Water", "Reaction", "UPCAST 3"]
+    type:
+      - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
+    cost:
+      - "[section:clr-mpcost]1/2/3 MP[/section]"
+    description: >
+      Erects a barrier around the wizard that neutralizes incoming damage. Breaks at its maximum; excess damage carries over.
+    effect: >
+      [section:clr-roll]1d4[/section] Protection
+      [br][i]Barrier is [url:status#resistant]resistant[/url] against Blunt / Sharp[/i]
+
+  - name: "Tensile Shield I"
+    id: "TensileShieldI"
+    tags: ["TIER I", "Water", "Defensive", "Range: 20m", "UPCAST 3", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    material:
+      - "Matrix Crystal (optional)"
+    cost:
+      - "[section:clr-mpcost]1/2/3 MP[/section]"
+    description: >
+      Grants a liquid, tensioned shield that absorbs incoming damage.
+      [br][b]Matrix Crystal:[/b] May target up to [[section:clr-value]Water[/section]] creatures at a fixed cost of [section:clr-mp]1 MP[/section] per additional creature.
+    effect: >
+      [section:clr-roll]1d6[/section] Protection
+      [br][i]Shield is [url:status#resistant]resistant[/url] against Physical[/i]
+
+  - name: "Water Veil"
+    id: "WaterVeil"
+    tags: ["TIER I", "Water", "Defensive", "Range: 20m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    material:
+      - "Matrix Crystal (optional)"
+    cost:
+      - "[section:clr-mpcost]2 MP[/section]"
+    description: >
+      A veil of sluggish water absorbs the force of incoming blows.
+      [br][b]Matrix Crystal:[/b] May target up to [[section:clr-value]Water[/section]] creatures at a fixed cost of [section:clr-mp]1 MP[/section] per additional creature.
+    effect: >
+      Incoming Physical damage is reduced by [[section:clr-value]Water[/section]].
+
+utility:
+  - name: "Stone Shackles"
+    id: "StoneShackles"
+    tags: ["TIER I", "Stone", "Utility", "Range: 20m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
+    cost:
+      - "[section:clr-mpcost]2 MP[/section]"
+    description: >
+      Stone fetters close around the target’s legs.
+    effect: >
+      Target is [url:status#Restrained]restrained[/url].
+    saved: >
+      [url:status#Slowed]Slowed[/url].
+    saved10: >
+      No effect.
+
+  - name: "Water Jet I"
+    id: "WaterJetI"
+    tags: ["TIER I", "Water", "Utility", "Range: 12m", "UPCAST 3", "[section:clr-control]CONTROL[/section]"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]STR[/section]"
+    cost:
+      - "[section:clr-mpcost]1/2/3 MP[/section]"
+    description: >
+      Shoot a jet of water to shove a target away.
+    effect: >
+      [url:status#Knockback]Knockback[/url] [section:clr-value]1/2/3[/section].
+    saved: >
+      [url:status#OffBalance]Off-Balance[/url].
+    saved10: >
+      No effect.
+
+  - name: "Water Walk"
+    id: "WaterWalk"
+    tags: ["TIER I", "Water", "Utility", "Range: 20m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mpcost]1 MP per target[/section]"
+    description: >
+      Allows walking atop water.
+    effect: >
+      Up to [section:clr-attr]INT-MOD[/section] targets can move on water surfaces as if on solid ground while concentration is kept.
+
+ritual:
+  - name: "Kinetic Manipulation"
+    id: "KineticManipulation"
+    tags: ["TIER I", "Stone / Water", "Out of Combat"]
+    type:
+      - "[section:clr-ritual]RITUAL[/section]"
+    material:
+      - "—"
+    cost:
+      - "Cast: Variable"
+    description: >
+      Manipulate kinetic mana (e.g., shape a stone object, purify liquids, create ethereal water…).
+    effect: >
+      Effect, duration, and any costs are negotiable.
+      [br]Enables [i][url:/generia/rules/magic/freecasting]Freecasting[/url][/i].
