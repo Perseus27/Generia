@@ -1,0 +1,54 @@
+name: "Shaman Spells X"
+id: "shaman-spells-x"
+id_appendix: "X"
+is_exclusive: True
+
+exclusive:
+  - subheader:
+    is_subheader: True
+    name: "Elementarist"
+    id: "Elementarist"
+
+  - name: "Elemental Field"
+    id: "ElementalField"
+    tags: ["TIER X", "Elementarist", "Summoning", "Utility", "Range: 20m", "Radius: 2m", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]", "SP Cost: 20"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]6/4/2 MP[/section]"
+    description: >
+      Place a field of elemental energy; the effect depends on the chosen element and applies to all creatures in the area.
+    effect: >
+      [b]Water:[/b]
+      [br][url:status#Regeneration]Regeneration 1[/url] at turn start.
+      [br][b]Stone:[/b]
+      [br][url:status#OffBalance]Off-Balance[/url].
+      [br][b]Fire:[/b]
+      [br][url:status#Burning]Burning 2[/url] at turn start.
+      [br][b]Air:[/b]
+      [br]Dodge rolls are [url:core#Eased]eased[/url] by [[section:clr-value]Summoning[/section]].
+
+  - subheader:
+    is_subheader: True
+    name: "Monk"
+    id: "Monk"
+
+  - name: "Inner World"
+    id: "InnerWorld"
+    tags: ["TIER X", "Monk", "Binding", "Utility", "[section:clr-conc]CONCENTRATION[/section]", "SP Cost: 10"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]3/2/1 MP[/section]"
+    description: >
+      The monk channels an elemental’s energy into their own body. The effect depends on the chosen element.
+      [br][i]Bonus damage applies only to unarmed attacks. Bonus Fire damage is resolved separately against Magic Defense.[/i]
+    effect: >
+      [b]Water:[/b]
+      [br][url:core#Advantage]Advantage 1[/url] on Parry rolls.
+      [br][b]Fire:[/b]
+      [br][[section:clr-value]Binding[/section]] × [section:clr-roll]1d4[/section] bonus Fire damage.
+      [br][b]Air:[/b]
+      [br][url:core#Advantage]Advantage 1[/url] on Dodge rolls.
+      [br][b]Stone:[/b]
+      [br][[section:clr-value]Binding[/section]] bonus damage.

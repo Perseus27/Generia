@@ -1,0 +1,146 @@
+name: "Shaman Spells IV"
+id: "shaman-spells-iv"
+id_appendix: "IV"
+
+offensive:
+  - name: "Summon: Mighty Elemental"
+    id: "SummonMightyElemental"
+    tags: ["TIER IV", "Summoning", "Offensive", "Range: 12m", "[section:clr-conc]CONCENTRATION[/section]"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]15/10/5 MP[/section]"
+    description: >
+      Summon a mighty elemental under your direct control.
+    effect: >
+      A [i][url:/w/generia-perseus27/a/elementals-E28093-mighty-article]Mighty Elemental[/url][/i] manifests at the elemental source.
+
+  - name: "Elemental Ire"
+    id: "ElementalIre"
+    tags: ["TIER IV", "Summoning", "Offensive", "Range: 16m"]
+    type:
+      - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section]"
+    cost:
+      - "[section:clr-mp]12/8/4 MP[/section]"
+    description: >
+      Call forth a mighty fragment of a local elemental to smite a foe.
+    effect: >
+      [section:clr-roll]8d6[/section] Fire/Air/Physical.
+      [br][b]SAVED:[/b] Damage halved.
+      [br][b]SAVED+10:[/b] No effect.
+
+
+defensive:
+  - name: "Mighty Stonewall"
+    id: "MightyStonewall"
+    tags: ["TIER IV", "Summoning (Stone)", "Active / Defensive", "Range: 12m", "[section:clr-control]CONTROL[/section]"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]12/8/4 MP[/section]"
+    description: >
+      Summon a stone elemental to raise a massive wall from the ground. Only on soil/stone. May be placed along hex edges.
+    effect: >
+      Stone wall rises (Length 10m, Height 4m, Width 0.2m); provides full cover; permanent.
+
+  - name: "Mighty Wind Ward"
+    id: "MightyWindWard"
+    tags: ["TIER IV", "Summoning (Air)", "Active / Defensive", "Range: 8m", "Radius: 4m", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]12/8/4 MP[/section]"
+    description: >
+      Summon a powerful air elemental to deflect incoming projectiles from outside the area.
+    effect: >
+      Projectile attack rolls from outside the area: −[section:clr-value]8[/section].
+
+
+utility:
+  - name: "Mighty Elemental Favor"
+    id: "MightyElementalFavor"
+    tags: ["TIER IV", "Binding", "Utility", "Radius: 12m", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]12/8/4 MP[/section]"
+    description: >
+      Channel the essence of a mighty elemental into allies; effect depends on element.
+    effect: >
+      Fire: [section:clr-attr]STR-MOD[/section] +4
+      [br]Air: [section:clr-attr]DEX-MOD[/section] +4
+      [br]Stone: [section:clr-attr]CON-MOD[/section] +4
+      [br]Water: [section:clr-attr]DEX-MOD[/section] +4
+
+  - name: "Mighty Elemental Mana"
+    id: "MightyElementalMana"
+    tags: ["TIER IV", "Binding", "Utility", "Range: 12m", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]12/8/4 MP[/section]"
+    description: >
+      Infuse an ally with an elemental’s mana to ease casting costs of that element.
+    effect: >
+      Reduces MP costs by [section:clr-value]4[/section].
+
+  - name: "Mighty Elemental Call"
+    id: "MightyElementalCall"
+    tags: ["TIER IV", "Summoning", "Utility", "Radius: 12m", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]8 MP[/section]"
+    description: >
+      Call forth multiple elemental spirits to strengthen nearby sources.
+    effect: >
+      Raise the presence of up to [section:clr-value]4[/section] elemental sources in the area from [i]weak[/i] to [i]normal[/i].
+
+  - name: "Mighty Flame of Defiance"
+    id: "MightyFlameOfDefiance"
+    tags: ["TIER IV", "Binding (Fire)", "Utility", "Radius: 12m", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]12/8/4 MP[/section]"
+    description: >
+      Radiate fierce spirit to inspire and embolden allies.
+    effect: >
+      Allies gain [section:clr-save]Saves[/section] +[section:clr-value]4[/section].
+
+  - name: "Mighty Tailwind"
+    id: "MightyTailwind"
+    tags: ["TIER IV", "Binding (Air)", "Utility", "Radius: 24m", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]12/8/4 MP[/section]"
+    description: >
+      Greatly increase allies’ movement speed within range.
+    effect: >
+      [url:values#MS]MS[/url] +[section:clr-value]8[/section].
+
+  - name: "Mighty Wave of Healing"
+    id: "MightyWaveOfHealing"
+    tags: ["TIER IV", "Binding (Water)", "Utility", "Range: 12m", "[section:clr-heal]HEAL[/section]"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]12/8/4 MP[/section]"
+    description: >
+      Channel a mighty water elemental’s power to heal. May spill over to nearby allies (max. 6m).
+    effect: >
+      Target regains [section:clr-roll]4d8[/section] HP.
+      [br][url:core#Explosion]Explosion[/url]: [url:status#Regeneration]Regeneration 4[/url].
+
+  - name: "Mighty Wind Tunnel"
+    id: "MightyWindTunnel"
+    tags: ["TIER IV", "Summoning (Air)", "Utility", "Range: 8m", "Radius: 4m", "[section:clr-support]SUPPORT[/section]", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]12/8/4 MP[/section]"
+    description: >
+      Summon a mighty air elemental to supercharge missiles fired from within the field.
+    effect: >
+      Outgoing projectiles deal +[section:clr-roll]1d20[/section] damage (type depends on the projectile).
