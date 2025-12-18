@@ -38,6 +38,8 @@ title: Wizard Spells - Kinetics
   </div>
 </template>
 
+# Kinetics
 
-
-{{ bb_from_file('bb_docs/character/spellcasting-traditions/wizard/wizard-spells-kinetics.bb') }}
+{{ spells('data/spells/wizard/kinetics/wizard-kinetics-spells-i.yaml') }}
+{{ spells('data/spells/wizard/kinetics/wizard-kinetics-spells-ii.yaml') }}
+{{ spells('data/spells/wizard/kinetics/wizard-kinetics-spells-iii.yaml') }}

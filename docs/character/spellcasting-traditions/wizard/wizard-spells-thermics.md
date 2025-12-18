@@ -38,6 +38,8 @@ title: Wizard Spells - Thermics
   </div>
 </template>
 
+# Thermics
 
-
-{{ bb_from_file('bb_docs/character/spellcasting-traditions/wizard/wizard-spells-thermics.bb') }}
+{{ spells('data/spells/wizard/thermics/wizard-thermics-spells-i.yaml') }}
+{{ spells('data/spells/wizard/thermics/wizard-thermics-spells-ii.yaml') }}
+{{ spells('data/spells/wizard/thermics/wizard-thermics-spells-iii.yaml') }}

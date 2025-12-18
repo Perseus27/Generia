@@ -38,6 +38,8 @@ title: Wizard Spells - Hermetics
   </div>
 </template>
 
+# Hermetics
 
-
-{{ bb_from_file('bb_docs/character/spellcasting-traditions/wizard/wizard-spells-hermetics.bb') }}
+{{ spells('data/spells/wizard/hermetics/wizard-hermetics-spells-i.yaml') }}
+{{ spells('data/spells/wizard/hermetics/wizard-hermetics-spells-ii.yaml') }}
+{{ spells('data/spells/wizard/hermetics/wizard-hermetics-spells-iii.yaml') }}

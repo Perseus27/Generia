@@ -38,6 +38,8 @@ title: Wizard Spells - Meteorics
   </div>
 </template>
 
+# Meteorics
 
-
-{{ bb_from_file('bb_docs/character/spellcasting-traditions/wizard/wizard-spells-meteorics.bb') }}
+{{ spells('data/spells/wizard/meteorics/wizard-meteorics-spells-i.yaml') }}
+{{ spells('data/spells/wizard/meteorics/wizard-meteorics-spells-ii.yaml') }}
+{{ spells('data/spells/wizard/meteorics/wizard-meteorics-spells-iii.yaml') }}
