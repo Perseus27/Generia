@@ -29,12 +29,17 @@ title: Bard Spells
     <li><a href="#RitualIV">Ritual</a></li>
     <br>
     <h4>Tier X</h4>
+    <li><a href="#MostlyHarmless">Mostly Harmless (Charlatan)</a></li>
+    <li><a href="#EigthRest">Eigth Rest (Troubadour)</a></li>
     <br>
     <h4>See also:</h4>
     <li><a href="../what-is-a-bard">What is a Bard?</a></li>
   </div>
 </template>
 
+# Bard Spells
 
-
-{{ bb_from_file('bb_docs/character/spellcasting-traditions/bard/bard-spells.bb') }}
+{{ spells('data/spells/bard/bard-spells-i.yaml') }}
+{{ spells('data/spells/bard/bard-spells-ii.yaml') }}
+{{ spells('data/spells/bard/bard-spells-iii.yaml') }}
+{{ spells('data/spells/bard/bard-spells-x.yaml') }}

@@ -1,0 +1,186 @@
+name: "Bard Spells II"
+id: "bard-spells-ii"
+id_appendix: "II"
+
+offensive:
+  - name: "Stanza of Folly"
+    id: "StanzaOfFolly"
+    tags: ["TIER II", "Cacophony", "Offensive", "[section:clr-affliction]AFFLICTION[/section]", "Varieté", "Range: 20m"]
+    type:
+      - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]INT[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      The bard lashes a foe’s soul with cutting tones.
+    effect: >
+      [section:clr-roll]2d4[/section] Absolute; target becomes [url:status#Confused]Confused[/url].
+    saved: "No effect."
+
+  - name: "Stanza of Innocence"
+    id: "StanzaOfInnocence"
+    tags: ["TIER II", "Cacophony", "Offensive", "[section:clr-affliction]AFFLICTION[/section]", "Varieté", "Range: 20m"]
+    type:
+      - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      The bard lulls a foe’s soul into false safety.
+    effect: >
+      [section:clr-roll]2d4[/section] Absolute; causes [url:status#Hyperpathia]Hyperpathia[/url].
+    saved: "No effect."
+
+
+defensive:
+  - name: "Stanza of Love"
+    id: "StanzaOfLove"
+    tags: ["TIER II", "Cacophony", "Defensive", "[section:clr-control]CONTROL[/section]", "Varieté", "Radius: 4m"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
+    cost:
+      - "[section:clr-mp]4 MP[/section]"
+    description: >
+      The bard twists the souls of nearby foes.
+    effect: >
+      Inflicts [url:status#Charmed]Charmed[/url].
+    saved: "Inflicts [url:status#Confused]Confused[/url]."
+    saved10: "No effect."
+
+  - name: "Stanza of Steadiness"
+    id: "StanzaOfSteadiness"
+    tags: ["TIER II", "Euphony", "Defensive", "[section:clr-support]SUPPORT[/section]", "Varieté", "Radius: 8m"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
+    cost:
+      - "[section:clr-mp]4 MP[/section]"
+    description: >
+      The bard steadies nearby allies.
+    effect: >
+      [url:status#DefenseBonus]Defense Bonus[/url] [section:clr-value]4[/section]
+    saved: "[url:status#DefenseBonus]Defense Bonus[/url] [section:clr-value]2[/section]"
+    saved10: "No effect."
+
+  - name: "Song of Tyranny"
+    id: "SongOfTyranny"
+    tags: ["TIER II", "Cacophony", "Defensive", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]", "Da Capo", "Radius: 4m"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      The bard bars enemies from approaching.
+    effect: >
+      Enemies in range must pass a Save [url:core#Hindered]hindered[/url] by [section:clr-value]2++[/section] when taking a Movement Action; on a failure, the action is lost.
+    saved: "[url:status#Slowed]Slowed 1[/url]."
+    saved10: "No effect."
+
+  - name: "Stanza of Slumber"
+    id: "StanzaOfSlumber"
+    tags: ["TIER II", "Cacophony", "Defensive", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]", "Varieté", "Radius: 4m"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
+    cost:
+      - "[section:clr-mp]4 MP[/section]"
+    description: >
+      The bard makes nearby foes drowsy.
+    effect: >
+      [url:status#Drowsy]Drowsy[/url].
+    saved: "[url:status#Slowed]Slowed 1[/url]."
+    saved10: "No effect."
+
+
+utility:
+  - name: "Stanza of Boldness"
+    id: "StanzaOfBoldness"
+    tags: ["TIER II", "Euphony", "Utility", "[section:clr-support]SUPPORT[/section]", "Varieté", "Radius: 8m"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
+    cost:
+      - "[section:clr-mp]4 MP[/section]"
+    description: >
+      The bard emboldens nearby allies.
+    effect: >
+      [url:status#AttackBonus]Attack Bonus[/url] [section:clr-value]4[/section]
+    saved: "[url:status#AttackBonus]Attack Bonus[/url] [section:clr-value]2[/section]"
+    saved10: "No effect."
+
+  - name: "Stanza of Carelessness"
+    id: "StanzaOfCarelessness"
+    tags: ["TIER II", "Euphony", "Utility", "[section:clr-affliction]AFFLICTION[/section]", "Varieté", "Radius: 8m"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
+    cost:
+      - "[section:clr-mp]4 MP[/section]"
+    description: >
+      The bard lowers the guard of nearby foes.
+    effect: >
+      [url:status#DefensePenalty]Defense Penalty[/url] [section:clr-value]4[/section]
+    saved: "[url:status#DefensePenalty]Defense Penalty[/url] [section:clr-value]2[/section]"
+    saved10: "No effect."
+
+  - name: "Stanza of Cowardice"
+    id: "StanzaOfCowardice"
+    tags: ["TIER II", "Euphony", "Utility", "[section:clr-affliction]AFFLICTION[/section]", "Varieté", "Radius: 8m"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
+    cost:
+      - "[section:clr-mp]4 MP[/section]"
+    description: >
+      The bard causes nearby foes to be overly cautious when attacking.
+    effect: >
+      [url:status#AttackPenalty]Attack Penalty[/url] [section:clr-value]4[/section]
+    saved: "[url:status#AttackPenalty]Attack Penalty[/url] [section:clr-value]2[/section]"
+    saved10: "No effect."
+
+  - name: "Stanza of Healing"
+    id: "StanzaOfHealing"
+    tags: ["TIER II", "Euphony", "Utility", "[section:clr-heal]HEAL[/section]", "Varieté", "Radius: 8m"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
+    cost:
+      - "[section:clr-mp]4 MP[/section]"
+    description: >
+      The bard grants nearby allies fresh vigor.
+    effect: >
+      [url:status#Regeneration]Regeneration 2[/url]
+    saved: "[url:status#Regeneration]Regeneration 1[/url]"
+    saved10: "No effect."
+
+  - name: "Song of Heroism"
+    id: "SongOfHeroism"
+    tags: ["TIER II", "Euphony", "Utility", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]", "Da Capo", "Radius: 12m"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      The bard lends moral support to nearby allies’ attacks.
+    effect: >
+      Allied basic attacks deal [section:clr-value]2++[/section] additional damage of their weapon’s type.
+    saved: "No effect."
+
+  - name: "Song of Magic"
+    id: "SongOfMagic"
+    tags: ["TIER II", "Euphony", "Utility", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]", "Da Capo", "Radius: 12m"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      The bard helps allied mages focus.
+    effect: >
+      Allied spells deal [section:clr-value]2++[/section] additional damage of their element.
+    saved: "No effect."
+
+  - name: "Stanza of Rebellion"
+    id: "StanzaOfRebellion"
+    tags: ["TIER II", "Euphony", "Utility", "[section:clr-support]SUPPORT[/section]", "Varieté", "Radius: 12m"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
+    cost:
+      - "[section:clr-mp]4 MP[/section]"
+    description: >
+      The bard rouses allies against oppression.
+    effect: >
+      Targets may immediately make saves against active status effects if they could at the start or end of their turn. These saves are [url:core#Eased]eased[/url] by [section:clr-value]Euphony[/section] and have [url:core#Advantage]Advantage 1[/url].
+    saved: "No advantage."
+    saved10: "No effect."
