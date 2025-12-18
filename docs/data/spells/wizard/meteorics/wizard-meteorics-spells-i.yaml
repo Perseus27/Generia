@@ -1,0 +1,151 @@
+name: "Meteorics Spells I"
+id: "wizard-meteorics-spells-i"
+id_appendix: "I"
+
+offensive:
+  - name: "Meteoric Bolt I"
+    id: "MeteoricBoltI"
+    tags: ["TIER I", "Air / Lightning", "Offensive", "Range: 20m", "UPCAST 3"]
+    type:
+      - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
+    cost:
+      - "[section:clr-mpcost]1/2/3 MP[/section]"
+    description: >
+      A bolt of air or lightning mana.
+    effect: >
+      [section:clr-roll]1d8[/section] Air / Lightning
+
+  - name: "Shocking Touch"
+    id: "ShockingTouch"
+    tags: ["TIER I", "Lightning", "Offensive", "UPCAST 3"]
+    type:
+      - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
+    cost:
+      - "[section:clr-mpcost]1/2/3 MP[/section]"
+    description: >
+      The wizard channels electricity through their hand and touches the target.
+    effect: >
+      [section:clr-roll]1d10[/section] Lightning
+      [br][url:status#Shocked]Shocked[/url] [[section:clr-value]Lightning[/section]]
+    saved: >
+      Not [i]shocked[/i], damage halved.
+    saved10: >
+      No effect.
+
+  - name: "Zap I"
+    id: "ZapI"
+    tags: ["TIER I", "Lightning", "Offensive", "UPCAST 3"]
+    type:
+      - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
+    material:
+      - "Matrix Crystal (optional)"
+    cost:
+      - "[section:clr-mpcost]1/2/3 MP[/section]"
+    description: >
+      The wizard shoots an arc of electricity out of their fingertip.
+      [br][b]Matrix Crystal:[/b] May target up to [[section:clr-value]Lightning[/section]] different creatures. The total MP cost is multiplied by the number of targets.
+    effect: >
+      [section:clr-roll]1d6[/section] Lightning
+    saved: >
+      Damage halved.
+    saved10: >
+      No effect.
+
+defensive:
+  - name: "Meteoric Barrier I"
+    id: "MeteoricBarrierI"
+    tags: ["TIER I", "Air / Lightning", "Reaction", "UPCAST 3"]
+    type:
+      - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
+    cost:
+      - "[section:clr-mpcost]1/2/3 MP[/section]"
+    description: >
+      Erects a barrier around the wizard that neutralizes incoming damage. Breaks at its maximum; excess damage carries over.
+    effect: >
+      [section:clr-roll]1d4[/section] Protection
+      [br][i]Barrier is [url:status#resistant]resistant[/url] against Air/Lightning[/i]
+
+utility:
+  - name: "Air Burst"
+    id: "AirBurst"
+    tags: ["TIER I", "Air", "Utility", "UPCAST 3", "[section:clr-control]CONTROL[/section]"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]STR[/section]"
+    cost:
+      - "[section:clr-mpcost]1/2/3 MP[/section]"
+    description: >
+      The wizard compresses the air between them and a target in melee range, then releases it explosively to shove both in opposite directions.
+    effect: >
+      [url:status#Knockback]Knockback[/url] [section:clr-value]1/2/3[/section].
+    saved: >
+      [url:status#OffBalance]Off-Balance[/url].
+    saved10: >
+      No effect.
+
+  - name: "Air Cushion"
+    id: "AirCushion"
+    tags: ["TIER I", "Air", "Reaction", "Range: 20m", "Radius: 6m", "[section:clr-control]CONTROL[/section]", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mpcost]2 MP[/section]"
+    description: >
+      Create a cushion of air that catches falling creatures and objects.
+    effect: >
+      Prevents fall damage.
+
+  - name: "Discharge"
+    id: "Discharge"
+    tags: ["TIER I", "Lightning", "Utility", "Range: 20m", "[section:clr-affliction]AFFLICTION[/section]"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
+    cost:
+      - "[section:clr-mpcost]2 MP[/section]"
+    description: >
+      The wizard disturbs the target's nervous system with an electric impulse.
+    effect: >
+      [url:status#Shocked]Shocked[/url] [[section:clr-value]Lightning[/section]]
+    saved: >
+      No effect.
+
+  - name: "Lightning Step"
+    id: "LightningStep"
+    tags: ["TIER I", "Lightning", "Utility", "[section:clr-movement]MOVEMENT[/section]"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mpcost]1 MP[/section]"
+    description: >
+      The wizard catapults themselves up to [section:clr-attr]INT[/section] meters in a straight, unobstructed line.
+    effect: >
+      Attacks granted by the [i]Opportunist[/i] perk have [url:core#Disadvantage]disadvantage 1[/url] against this movement.
+
+  - name: "Neuroshock"
+    id: "Neuroshock"
+    tags: ["TIER I", "Lightning", "Utility", "Range: 20m"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]INT[/section]"
+    cost:
+      - "[section:clr-mpcost]2 MP[/section]"
+    description: >
+      An electrical pulse disrupts the target’s cerebral cortex to temporarily restrict brain function.
+    effect: >
+      Target becomes [url:status#Confused]confused[/url].
+    saved: >
+      No effect.
+
+ritual:
+  - name: "Meteoric Manipulation"
+    id: "MeteoricManipulation"
+    tags: ["TIER I", "Lightning / Air", "Out of Combat"]
+    type:
+      - "[section:clr-ritual]RITUAL[/section]"
+    material:
+      - "—"
+    cast:
+      - "Variable"
+    description: >
+      Manipulate meteoric mana (e.g., generate static electricity, conjure a gentle breeze, levitate an object…).
+    effect: >
+      Effect, duration, and any costs are negotiable.
+      [br]Enables [i][url:/generia/rules/magic/freecasting]Freecasting[/url][/i].

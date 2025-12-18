@@ -1,0 +1,170 @@
+name: "Meteorics Spells II"
+id: "wizard-meteorics-spells-ii"
+id_appendix: "II"
+
+offensive:
+  - name: "Lightning Blast I"
+    id: "LightningBlastI"
+    tags: ["TIER II", "Lightning", "Offensive", "Range: 20m", "UPCAST 3"]
+    type:
+      - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
+    cost:
+      - "[section:clr-mpcost]3/6/9 MP[/section]"
+    description: >
+      A bright lightning that hits all targets in a straight line from the caster.
+      [br]Width: [section:clr-value]1m[/section]
+    effect: >
+      [section:clr-roll]2d6[/section] Lightning
+    saved: >
+      Damage halved.
+    saved10: >
+      No effect.
+
+  - name: "Meteoric Bolt II"
+    id: "MeteoricBoltII"
+    tags: ["TIER II", "Air / Lightning", "Offensive", "Range: 20m", "UPCAST 3"]
+    type:
+      - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
+    cost:
+      - "[section:clr-mpcost]2/4/6 MP[/section]"
+    description: >
+      A bolt of air or lightning mana.
+    effect: >
+      [section:clr-roll]2d8[/section] Air / Lightning
+
+  - name: "Thunderbolt I"
+    id: "ThunderboltI"
+    tags: ["TIER II", "Air / Lightning", "Offensive", "Range: 20m", "UPCAST 3"]
+    type:
+      - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
+    cost:
+      - "[section:clr-mpcost]2/4/6 MP[/section]"
+    description: >
+      The wizard strikes the target with focused thunder.
+    effect: >
+      [section:clr-roll]1d6[/section] Absolute
+    saved: >
+      Damage halved.
+    saved10: >
+      No effect.
+
+  - name: "Zap II"
+    id: "ZapII"
+    tags: ["TIER II", "Lightning", "Offensive", "UPCAST 3"]
+    type:
+      - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
+    material:
+      - "Matrix Crystal (optional)"
+    cost:
+      - "[section:clr-mpcost]2/4/6 MP[/section]"
+    description: >
+      The wizard shoots an arc of electricity out of their fingertip.
+      [br][b]Matrix Crystal:[/b] May target up to [[section:clr-value]Lightning[/section]] different creatures. The total MP cost is multiplied by the number of targets.
+    effect: >
+      [section:clr-roll]2d6[/section] Lightning
+    saved: >
+      Damage halved.
+    saved10: >
+      No effect.
+
+defensive:
+  - name: "Meteoric Barrier II"
+    id: "MeteoricBarrierII"
+    tags: ["TIER II", "Air / Lightning", "Reaction", "UPCAST 3"]
+    type:
+      - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
+    cost:
+      - "[section:clr-mpcost]2/4/6 MP[/section]"
+    description: >
+      Erects a barrier around the wizard that neutralizes incoming damage. Breaks at its maximum; excess damage carries over.
+    effect: >
+      [section:clr-roll]1d8[/section] Protection
+      [br][i]Barrier is [url:status#resistant]resistant[/url] against Air/Lightning[/i]
+
+  - name: "Static Mantle"
+    id: "StaticMantle"
+    tags: ["TIER II", "Lightning", "Defensive", "Radius: 2m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
+    cost:
+      - "[section:clr-mpcost]2 MP[/section]"
+    description: >
+      Create a static field around yourself that shocks and confuses nearby creatures.
+    effect: >
+      [url:status#Shocked]Shocked[/url] [[section:clr-value]Lightning[/section]] and [url:status#Confused]Confused[/url].
+    saved: >
+      Not [i]Confused[/i].
+    saved10: >
+      No effect.
+
+utility:
+  - name: "Ball Lightning"
+    id: "BallLightning"
+    tags: ["TIER II", "Lightning", "Utility", "Range: 20m", "Radius: 2m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
+    cost:
+      - "[section:clr-mpcost]3 MP[/section]"
+    description: >
+      Place a ball of lightning that attacks nearby hostiles with non-damaging, but severely impairing arcs of electricity.
+    effect: >
+      [url:status#Shocked]Shocked[/url] [[section:clr-value]Lightning[/section]].
+    saved: >
+      [url:status#Shocked]Shocked[/url] [[section:clr-value]Lightning/2[/section]].
+    saved10: >
+      No effect.
+
+  - name: "Field of Silence"
+    id: "FieldOfSilence"
+    tags: ["TIER II", "Air", "Utility", "Range: 20m", "Radius: 2m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mpcost]2 MP[/section]"
+    description: >
+      Prevent sound from propagating in the target area.
+    effect: >
+      Creatures in the area are [url:status#Silenced]Silenced[/url].
+
+  - name: "Fog Cloud"
+    id: "FogCloud"
+    tags: ["TIER II", "Air / Water", "Utility", "Range: 20m", "UPCAST 3", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mpcost]2/4/6 MP[/section]"
+    description: >
+      Create fog at the target position; it spreads [section:clr-value]2/4/6m[/section] in all directions.
+    effect: >
+      Creatures in the fog are [url:status#Blinded]Blinded[/url].
+      [br]To attack a target inside the cloud from outside (or the other way around) with [url:def#RangedAttack]ranged attacks[/url] or [section:clr-pa]projectile spells[/section], first pass a [section:clr-attr]PER[/section] check against the caster’s [section:clr-dc]DC INT[/section].
+
+  - name: "Gust"
+    id: "Gust"
+    tags: ["TIER II", "Air", "Utility", "Radius: 4m", "UPCAST 3", "[section:clr-control]CONTROL[/section]"]
+    type:
+      - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]STR[/section]"
+    cost:
+      - "[section:clr-mpcost]2/4/6 MP[/section]"
+    description: >
+      Throw all creatures within [section:clr-value]4 m[/section] of you in a chosen direction.
+    effect: >
+      [url:status#Knockback]Knockback[/url] [section:clr-value]2/4/6[/section]
+    saved: >
+      [url:status#OffBalance]Off-Balance[/url].
+    saved10: >
+      No effect.
+
+  - name: "Levitation"
+    id: "Levitation"
+    tags: ["TIER II", "Air", "Utility", "[section:clr-movement]MOVEMENT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mpcost]2/4/6 MP[/section]"
+    description: >
+      Let the air carry you so you hover above the ground.
+    effect: >
+      [url:status#Levitating]Levitating 1/2/3[/url] (MS = [section:clr-attr]INT[/section] + [section:clr-value]Air[/section]).
+
+ritual: []
