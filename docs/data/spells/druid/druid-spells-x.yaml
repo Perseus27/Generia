@@ -1,0 +1,52 @@
+name: "Druid Spells X"
+id: "druid-spells-x"
+id_appendix: "X"
+is_exclusive: True
+
+exclusive:
+  - subheader:
+    is_subheader: True
+    name: "Ranger"
+    id: "Ranger"
+
+  - name: "Living Arrows"
+    id: "LivingArrows"
+    tags: ["TIER X", "Ranger", "Fauna / Flora", "Out of Combat", "SP Cost: 20"]
+    type:
+      - "[section:clr-ritual]RITUAL[/section]"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+      - "Cast: ½ Phase"
+    description: >
+      Craft arrows from the bones of a freshly hunted creature or the wood of a living plant. Make a [i]Flora[/i] or [i]Fauna[/i] check vs [section:clr-value]10[/section]; each point over [section:clr-value]10[/section] yields one arrow of that type.
+      [br][b]Fauna:[/b] Requires a creature of size Medium or larger. Limit: Medium – 1 use; Large – 3 uses.
+      [br][b]Flora:[/b] Requires a plant of size Shrub or larger. Limit: Shrub – 1 use; Tree – 3 uses.
+    effect: >
+      [b]Thorn Arrow:[/b]
+      [br][section:clr-roll]1d4[/section] + [section:clr-value]Flora[/section] [url:dmgtype#Arrow]Arrow[/url]
+      [br]On hit: [url:status#Poisoned]Poisoned 1[/url].
+      [br]On [url:core#Explosion]explosion[/url]: +[i]Poisoned 1[/i].
+      [br]Counts as [i]Shrub[/i] for Druid spells. If it causes a serious wound, the target has [url:core#Disadvantage]Disadvantage 1[/url] on all Saves against Druid [i][section:clr-control]Control[/section][/i] spells.
+      [br][b]Bone Arrow:[/b]
+      [br][section:clr-roll]1d4[/section] + [section:clr-value]Fauna[/section] [url:dmgtype#Arrow]Arrow[/url]
+      [br]On hit: [url:status#Bleeding]Bleeding 1[/url].
+      [br]On [url:core#Explosion]explosion[/url]: +[i]Bleeding 1[/i].
+      [br]Serrated barbs [url:core#Hindered]hinder[/url] all saves against [i]Bleeding[/i] caused by this arrow by [[section:clr-value]Fauna[/section]]. [url:/w/generia-perseus27/a/wounds-article]Severe wounds[/url] cause permanent [i]Bleeding 1[/i] until the wound is healed.
+
+  - subheader:
+    is_subheader: True
+    name: "Wildkeeper"
+    id: "Wildkeeper"
+
+  - name: "Summon Beast"
+    id: "SummonBeast"
+    tags: ["TIER X", "Wildkeeper", "Fauna", "Utility", "Soul Anchor", "SP Cost: 20"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      The Wildkeeper calls out to the soul of a beast kept inside an anchor. A spectral form of the beast materializes next to them, ready to fight at their side.
+      [br][i]Only one beast can be summoned at a time. The beast must be no more than five levels higher than the Wildkeeper for the spell to work.[/i]
+    effect: >
+      The beast is controlled directly by the Wildkeeper, like any other summon. Its initiative is equal to that of the Wildkeeper.

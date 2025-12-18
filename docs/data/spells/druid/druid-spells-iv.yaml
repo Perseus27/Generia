@@ -1,0 +1,48 @@
+name: "Druid Spells IV"
+id: "druid-spells-iv"
+id_appendix: "IV"
+
+offensive:
+  - name: "Whipping Willow"
+    id: "WhippingWillow"
+    tags: ["TIER IV", "Flora", "Offensive", "Range: 16m", "Radius: 8m", "[section:clr-control]CONTROL[/section]", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Vegetation / Staff Spell"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]12 MP[/section]"
+    description: >
+      A willow-like growth lashes all foes who enter the area or start their turn within it.
+    effect: >
+      [section:clr-roll]3d6[/section] Sharp
+      [br]On hit: [url:status#Poisoned]Poisoned 3[/url].
+
+
+defensive: []
+
+
+utility:
+  - name: "Theriomorph: Chimera"
+    id: "TheriomorphChimera"
+    tags: ["TIER IV", "Fauna", "Utility", "[section:clr-conc]CONCENTRATION[/section]", "Soul Anchor"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]4 MP[/section]"
+    description: >
+      Transform into a hybrid of two beasts.
+    effect: >
+      Adopt the higher [i][section:clr-attr]attribute MODs[/section][/i] and [url:values]values[/url] from both beasts; exceptions: [i][section:clr-attr]INT-MOD[/section], [section:clr-attr]WIL-MOD[/section], [section:clr-en]EN[/section], [section:clr-mp]MP[/section][/i]. Wounds are not shared between forms.
+
+  - name: "Wildgrowth: Grove"
+    id: "WildgrowthGrove"
+    tags: ["TIER IV", "Flora", "Utility", "Range: 16m", "Radius: 6m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Vegetation"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    material:
+      - "Plant seeds"
+    cost:
+      - "[section:clr-mp]8 MP[/section]"
+    description: >
+      Causes any plants in the area to sprout.
+    effect: >
+      Plants immediately grow to full size.

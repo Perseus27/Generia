@@ -1,0 +1,257 @@
+name: "Druid Spells II"
+id: "druid-spells-ii"
+id_appendix: "II"
+
+offensive:
+  - name: "Locust Swarm"
+    id: "LocustSwarm"
+    tags: ["TIER II", "Fauna", "Offensive", "Range: 16m", "Radius: 3m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]", "[section:clr-exper]EXPERTISE 2/3[/section]"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]CON[/section]"
+    material:
+      - "Insect Eggs"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      A swarm of locusts spawns in the target area, completely devouring all vegetation smaller than trees, as well as all food items not hermetically sealed.
+      [br]Other creatures in the area suffer from impaired vision and the gnawing bites of ever-starving insects. The locusts always target the worst-armored zone.
+      [br][i]Eggs are required only if there are no insect populations in the vicinity.[/i]
+    effect: >
+      [url:status#Blinded]Blinded 1[/url]
+      [br][section:clr-roll]2/4d4+Fauna[/section] Sharp
+    effect10: >
+      [url:status#Bleeding]Bleeding 2/3[/url]
+    saved: "Damage halved."
+    saved10: "No Damage."
+
+  - name: "Stranglevine"
+    id: "Stranglevine"
+    tags: ["TIER II", "Flora", "Offensive", "Vegetation / Staff Spell"]
+    type:
+      - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]CON[/section]"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      Murderous vines wrap around the neck of a target already [url:status#Restrained]restrained[/url] or [url:status#Slowed]slowed[/url] by vegetation.
+      [br][i]Only works on targets that need to breathe in some form. Adjust flavor as necessary.[/i]
+    effect: >
+      [section:clr-roll]2d6[/section] Absolute
+    saved: "Damage halved."
+    saved10: "No Effect."
+
+  - name: "Whirl of Thorns"
+    id: "WhirlOfThorns"
+    tags: ["TIER II", "Flora", "Offensive", "Radius: 4m", "[section:clr-exper]EXPERTISE 2/3[/section]", "Vegetation / Staff Spell"]
+    type:
+      - "[section:clr-pa]PA[/section] [section:clr-attr]WIL[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      A whip-like branch lashes all foes within the radius.
+    effect: >
+      [section:clr-roll]2/3d6[/section] Sharp
+      [br]On hit: [url:status#Poisoned]Poisoned 1[/url].
+
+
+defensive:
+  - name: "Thorn Mantle"
+    id: "ThornMantle"
+    tags: ["TIER II", "Flora", "Active / Defensive", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-exper]EXPERTISE 2/3[/section]", "Staff Spell"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      A mantle of thorns grows around the druid, harming melee attackers.
+    effect: >
+      [section:clr-roll]1/2d6[/section] Sharp (Arms)
+      [br]On hit: [url:status#Poisoned]Poisoned 1/2[/url].
+
+  - name: "Root Wall"
+    id: "RootWall"
+    tags: ["TIER II", "Flora", "Active / Defensive", "Range: 12m", "[section:clr-control]CONTROL[/section]", "[section:clr-terrain]TERRAIN[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Vegetation / Staff Spell"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      A massive root rapidly sprouts from the ground.
+      [br][i]Can be used to create cover, build bridges, barricade hallways...[/i]
+    effect: >
+      Root dimensions:
+      [br]max. Length [[section:clr-value]Flora[/section]+[section:clr-attr]WIL-MOD[/section]]m
+      [br]Height [section:clr-value]1–2[/section]m
+      [br]Width [section:clr-value]1–2[/section]m
+
+
+utility:
+  - name: "Ant Hill"
+    id: "AntHill"
+    tags: ["TIER II", "Fauna", "Utility", "Range: 16m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-field]FIELD[/section]"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section]"
+    material:
+      - "Insect Eggs"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      An ant colony spawns at the target square, continually expanding by [section:clr-value]one meter[/section] at the beginning of each combat round to a maximum radius of [[section:clr-value]Fauna[/section]] meters. All creatures designated hostile by the druid are viciously attacked by the ants, causing toxin buildup as well as armor erosion.
+      [br]Hostile creatures going prone in the area instantly suffer the enhanced (+10) effects and have to pass an additional [section:clr-attr]WIL[/section] [section:clr-save]save[/section] or become [url:status#Panicked]panicked[/url].
+      [br]Creatures currently affected by [url:status#Burning]Burning[/url], [url:status#Chilled]Chilled[/url] or similar effects are immune.
+      [br]The druid may recast this spell on an existing ant colony to immediately expand its radius by one stage.
+      [br][i]Eggs are required only if there are no insect populations in the vicinity.[/i]
+    effect: >
+      [url:status#Poisoned]Poisoned 1[/url]
+      [br][url:status#Brittle]Brittle 1[/url] (Legs)
+    effect10: >
+      [url:status#Brittle]Brittle 1[/url] (all zones)
+    saved: "Not Poisoned."
+    saved10: "No effect."
+
+  - name: "Breaking Vine"
+    id: "BreakingVine"
+    tags: ["TIER II", "Flora", "Utility", "Vegetation / Staff Spell"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section]"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      Relentless vines try to break the armor of a target already [url:status#Restrained]restrained[/url] or [url:status#Slowed]slowed[/url] by vegetation.
+      [br]The affected hit zone may be freely chosen.
+    effect: >
+      [url:status#Brittle]Brittle 2[/url]
+    saved: "[url:status#Brittle]Brittle 1[/url]"
+    saved10: "No Effect."
+
+  - name: "Crawling Infestation"
+    id: "CrawlingInfestation"
+    tags: ["TIER II", "Fauna", "Utility", "Range: 16m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-exper]EXPERTISE 2/3[/section]"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
+    material:
+      - "Insect Eggs"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      A large number of small venomous insects spawn all over the target's body, greatly unsettling most sentient creatures. The druid may choose whether they use their toxins on the target or its armor.
+      [br]The spell fails if the target is currently subjected to intense temperatures (e.g., thermal magic, Burning/Chilled) or underwater.
+      [br][i]Eggs are required only if there are no insect populations in the vicinity.[/i]
+    effect: >
+      [url:status#Poisoned]Poisoned 2/3[/url] or [url:status#Brittle]Brittle 2/3[/url] (all zones)
+      [br][url:status#Frightened]Frightened[/url]
+    effect10: >
+      [url:status#Panicked]Panicked[/url] instead of Frightened
+    saved: "Not Frightened."
+    saved10: "No Effect."
+
+  - name: "Field of Flowers"
+    id: "FieldOfFlowers"
+    tags: ["TIER II", "Flora", "Utility", "Range: 16m", "Radius: 2m", "[section:clr-heal]HEAL[/section]", "[section:clr-field]ZONE[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-exper]EXPERTISE 2/3[/section]", "Vegetation"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    material:
+      - "Seeds"
+    cost:
+      - "[section:clr-mp]4 MP[/section]"
+    description: >
+      A bed of flowers releases restorative pollen.
+    effect: >
+      [url:status#Regeneration]Regeneration 1/2[/url]
+
+  - name: "Field of Thorns"
+    id: "FieldOfThorns"
+    tags: ["TIER II", "Flora", "Utility", "Range: 8m", "Radius: 2m", "[section:clr-control]CONTROL[/section]", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Vegetation / Staff Spell"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section]"
+    cost:
+      - "[section:clr-mp]3 MP[/section]"
+    description: >
+      Thorny brambles fill the area.
+    effect: >
+      [section:clr-roll]2d6[/section] Sharp (Legs)
+      [br]On hit: [url:status#Poisoned]Poisoned 1[/url]
+      [br][url:status#Slowed]Slowed[/url]
+    saved: "No damage."
+    saved10: "No effect."
+
+  - name: "Panic"
+    id: "Panic"
+    tags: ["TIER II", "Fauna", "Utility", "Radius: 4m"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      An animalistic scream unnerves nearby foes.
+    effect: >
+      [url:status#Frightened]Frightened[/url] and [url:status#Confused]Confused[/url].
+    saved: "Prevents [i]Frightened[/i]."
+    saved10: "No effect."
+
+  - name: "Poison Vine"
+    id: "PoisonVine"
+    tags: ["TIER II", "Flora", "Utility", "Vegetation / Staff Spell"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]CON[/section]"
+    cost:
+      - "[section:clr-mp]1 MP[/section]"
+    description: >
+      Poisonous vines try to pierce the skin of a target already [url:status#Restrained]restrained[/url] or [url:status#Slowed]slowed[/url] by vegetation.
+    effect: >
+      [url:status#Poisoned]Poisoned 2[/url]
+    saved: "[url:status#Poisoned]Poisoned 1[/url]"
+    saved10: "No Effect."
+
+  - name: "Theriomorph: Hybrid"
+    id: "TheriomorphHybrid"
+    tags: ["TIER II", "Fauna", "Utility", "[section:clr-conc]CONCENTRATION[/section]", "Soul Anchor"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      Partially transform into a beast; you keep a humanoid form with animal traits.
+    effect: >
+      Adopt all [section:clr-attr]attribute MODs[/section] and [url:values]values[/url] of the beast that exceed your own, except [i][section:clr-attr]INT-MOD[/section], [section:clr-attr]WIL-MOD[/section], [section:clr-en]EN[/section], [section:clr-mp]MP[/section][/i].
+
+  - name: "Toxidermis"
+    id: "Toxidermis"
+    tags: ["TIER II", "Flora", "Utility", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]2 MP[/section]"
+    description: >
+      Your skin exudes a toxic film that poisons on contact.
+    effect: >
+      Direct touch inflicts [url:status#Poisoned]Poisoned 2[/url].
+      [br]Unarmed basic attacks inflict [i]Poisoned 2[/i] on hit.
+
+  - name: "Root Field"
+    id: "RootField"
+    tags: ["TIER II", "Flora", "Utility", "Range: 8m", "Radius: 2m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Vegetation / Staff Spell"]
+    type:
+      - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section]"
+    cost:
+      - "[section:clr-mp]4 MP[/section]"
+    description: >
+      Multiple roots burst beneath foes in the area, wrapping their ankles.
+    effect: >
+      Targets are [url:status#Restrained]Restrained[/url].
+    saved: "[url:status#Slowed]Slowed 1[/url]."
+    saved10: "No effect."
+
+
+ritual:
+  - name: "Soulbond"
+    id: "Soulbond"
+    tags: ["TIER II", "Fauna", "Out of Combat"]
+    type:
+      - "[section:clr-ritual]RITUAL[/section]"
+    material:
+      - "Soul Anchor"
+    cast_time: "1 hour"
+    description: >
+      Petition a wild beast’s soul to become your familiar; the soul chooses freely.
+    effect: >
+      Beast soul becomes a familiar if it accepts; it no longer needs a Soul Anchor and, if slain, regenerates within the druid’s astral body instead of returning to the Eternal Wilds. Pact may be ended by either side at any time.

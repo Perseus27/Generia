@@ -1,0 +1,46 @@
+name: "Druid Spells III"
+id: "druid-spells-iii"
+id_appendix: "III"
+
+offensive:
+  - name: "Thorn Fury"
+    id: "ThornFury"
+    tags: ["TIER III", "Flora", "Offensive", "Range: 16m", "Radius: 4m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-exper]EXPERTISE 3[/section]", "Vegetation / Staff Spell"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]4 MP[/section]"
+    description: >
+      A thorny vine grows from a tree, root, or staff and strikes all enemies who enter its reach or start their turn within it.
+    effect: >
+      [section:clr-roll]3d6[/section] Sharp
+      [br]On hit: [url:status#Poisoned]Poisoned 2[/url].
+
+
+defensive:
+  - name: "Thornroot Wall"
+    id: "ThornrootWall"
+    tags: ["TIER III", "Flora", "Active / Defensive", "Range: 12m", "[section:clr-control]CONTROL[/section]", "Terrain", "[section:clr-conc]CONCENTRATION[/section]", "Vegetation / Staff Spell"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]6 MP[/section]"
+    description: >
+      A massive thorny root erupts to form a natural wall; place along any map hex borders.
+    effect: >
+      A large, thorny root rises (Length 8m, Height 2m, Width 2m); provides full cover.
+      [br]Touching the wall deals [section:clr-roll]3d6[/section] + [section:clr-value]Flora[/section] Physical; on hit: [url:status#Poisoned]Poisoned 3[/url].
+
+
+utility:
+  - name: "Theriomorph: Total"
+    id: "TheriomorphTotal"
+    tags: ["TIER III", "Fauna", "Utility", "[section:clr-conc]CONCENTRATION[/section]", "Soul Anchor"]
+    type:
+      - "[section:clr-surecast]SURECAST[/section]"
+    cost:
+      - "[section:clr-mp]6 MP[/section]"
+    description: >
+      Fully transform into a single anchored beast.
+    effect: >
+      Adopt the beast’s entire stat block except [i][section:clr-attr]INT-MOD[/section], [section:clr-attr]WIL-MOD[/section], [section:clr-en]EN[/section], [section:clr-mp]MP[/section][/i]. Wounds are not shared between forms.
