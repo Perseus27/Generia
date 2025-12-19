@@ -8,7 +8,8 @@ content:
     sp-cost: 20
     requirements: Astral Body I
     description: >
-      Increase maximum [url:values#MP]Mana Points[/url] ([section:clr-mp]MP[/section]) by [section:clr-value]5[/section] and [url:values#MPR]MP Regeneration[/url] (MPR) by [section:clr-value]1[/section].
+      Further increase maximum [url:values#MP]Mana Points[/url] ([section:clr-mp]MP[/section]) by [section:clr-value]5[/section] and [url:values#MPR]MP Regeneration[/url] (MPR) by [section:clr-value]1[/section].
+
   - name: Blood Mage
     id: BloodMage
     sp-cost: 20
@@ -16,18 +17,21 @@ content:
     description: >
       You may spend your life essence to cast spells instead of MP. Each time you do, make a [section:clr-attr]CON[/section] [section:clr-save]save[/section] against [section:clr-value]10[/section] + the spell’s MP cost, [url:core#Eased]eased[/url] by your relevant spell proficiency value (e.g., [i]Arcane[/i], [i]Luna[/i]). On a failure, you suffer one wound.
       At most a number of MP equal to your Wound Treshold (WT) can be replaced in this way.
+
   - name: Focus II
     id: FocusII
     sp-cost: 20
     requirements: Focus I
     description: >
       May concentrate on one additional spell.
+
   - name: Shield Mage
     id: ShieldMage
     sp-cost: 20
     requirements: –
     description: >
       When casting a [url:def#SD]Spell Defense[/url], you gain an amount of effect die rerolls equal to the spell tier.
+
   - name: Supporter
     id: Supporter
     sp-cost: 20
