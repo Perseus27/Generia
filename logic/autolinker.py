@@ -22,7 +22,7 @@ class Autolinker:
         for y in self.perk_yamls:
             prefix = y.get("prefix")
             for p in self.get_all_perks_from_file(y):
-                if p.get("name") == x:
+                if p.get("name") == x or x in p.get("alias", []):
                     return f"{prefix}#{p.get('id')}"
         return False
 
@@ -31,7 +31,7 @@ class Autolinker:
             prefix = y.get("prefix")
             for subcat in self.get_all_spells_from_file(y):
                 for i in subcat:
-                    if i.get("name") == x:
+                    if i.get("name") == x or x in i.get("alias", []):
                         return f"{prefix}#{i.get('id')}"
         return False
     

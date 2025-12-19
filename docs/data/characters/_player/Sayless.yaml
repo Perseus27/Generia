@@ -95,8 +95,8 @@ proficiencies:
     - "[i]Survival 1[/i]"
 perks:
   special:
-    - "[url:species#Alb]Dark Heritage[/url]"
-    - "[url:species#Alb]Dissonance[/url]"
+    - Dark Heritage
+    - Dissonance
   
   combat:
     - Opportunist

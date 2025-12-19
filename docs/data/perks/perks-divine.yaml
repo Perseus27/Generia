@@ -1,0 +1,43 @@
+name: "Divine Perks"
+id: "perks-divine"
+prefix: "perksD"
+
+content:
+  - name: Purgatory
+    id: Purgatory
+
+  - name: Deliverance
+    id: Deliverance
+
+  - name: Battle Formation
+    id: BattleFormation
+    
+  - name: Bounty of the Fields
+    id: BountyOfTheFields
+    
+  - name: Profit Sense
+    id: ProfitSense
+    
+  - name: Muted Presence
+    id: MutedPresence
+    
+  - name: Unbound
+    id: Unbound
+    
+  - name: External Computation
+    id: ExternalComputation
+    
+  - name: Experimental Formula
+    id: ExperimentalFormula
+    
+  - name: Unhinged
+    id: Unhinged
+    
+  - name: Violent Urges
+    id: ViolentUrges
+    
+  - name: "Eredor's Touch"
+    id: EredorsTouch
+    
+  - name: "Depth's Embrace"
+    id: DepthsEmbrace
