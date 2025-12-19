@@ -76,6 +76,7 @@ actions:
     - Shadow Run
     - [Terror, "[section:clr-dc]13[/section]"]
     - Blur
+    - Flame Throw I
   rituals: 
     - ""
 proficiencies:
@@ -99,7 +100,7 @@ perks:
     - "[url:species#Alb]Dissonance[/url]"
   
   combat:
-    - "[url:perksC#Opportunist]Opportunist[/url]"
+    - Opportunist
   
   magic:
     - ""

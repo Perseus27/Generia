@@ -1,0 +1,28 @@
+name: "Magic Perks X II"
+id: "perks-magic-x-ii"
+prefix: "perksXM"
+
+content:
+  - subheader:
+    is_subheader: True
+    name: Arsenalist
+    id: Arsenalist
+
+  - name: Catalysis
+    id: Catalysis
+    sp-cost: 10
+    requirements: [url:class2#Arsenalist]Arsenalist[/url]
+    description: >
+      Spells with the [i]TRANSMUTATION[/i] keyword cost [section:clr-value]1[/section] MP less.
+
+  - subheader:
+    is_subheader: True
+    name: Skald
+    id: Skald
+
+  - name: Defiance
+    id: Defiance
+    sp-cost: 20
+    requirements: [url:class2#Skald]Skald[/url]
+    description: >
+      Spells with the [i]TRANSMUTATION[/i] keyword cost [section:clr-value]1[/section] MP less.

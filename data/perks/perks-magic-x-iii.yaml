@@ -1,0 +1,34 @@
+name: "Magic Perks X III"
+id: "perks-magic-x-iii"
+prefix: "perksXM"
+
+content:
+  - subheader:
+    is_subheader: True
+    name: Elementalist
+    id: Elementalist
+
+  - name: Channel Element
+    id: ChannelElement
+    sp-cost: 20
+    requirements: [url:class3#Elementalist]Elementalist[/url]
+    description: >
+      Gain the following effects when you summon an elemental of the corresponding element:
+      [br][b]Water:[/b] [url:status#Regeneration]Regeneration 2[/url]
+      [br][b]Stone:[/b] Armor is increased by [[section:clr-value]Summoning[/section]]
+      [br][b]Fire:[/b] Melee attackers suffer [url:status#Burning]Burning 2[/url]
+      [br][b]Air:[/b] [url:status#Levitating]Levitating 1[/url]
+      [br]Effects do not stack.
+
+  - subheader:
+    is_subheader: True
+    name: Templar
+    id: Templar
+
+  - name: Corona
+    id: Corona
+    sp-cost: 20
+    requirements: [url:class3#Templar]Templar[/url]
+    description: >
+      Enemies who end their turn within [section:clr-value][Sol/2][/section] meters of you gain [url:status#Lightburn]Lightburn 1[/url] if you are concentrating on a Sol spell.
+    
