@@ -1,6 +1,7 @@
 name: "Thermics Spells II"
 id: "wizard-thermics-spells-ii"
 id_appendix: "II"
+prefix: "thermics"
 
 offensive:
   - name: "Fireball I"

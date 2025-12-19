@@ -1,6 +1,7 @@
 name: "Hermetics Spells III"
 id: "wizard-hermetics-spells-iii"
 id_appendix: "III"
+prefix: "hermetics"
 
 offensive:
   - name: "Arcane Nova"

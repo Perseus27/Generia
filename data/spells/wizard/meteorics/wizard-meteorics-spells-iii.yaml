@@ -1,6 +1,7 @@
 name: "Meteorics Spells III"
 id: "wizard-meteorics-spells-iii"
 id_appendix: "III"
+prefix: "meteorics"
 
 offensive:
   - name: "Chain Lightning I"

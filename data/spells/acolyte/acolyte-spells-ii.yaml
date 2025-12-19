@@ -1,6 +1,7 @@
 name: "Acolyte Spells II"
 id: "acolyte-spells-ii"
 id_appendix: "II"
+prefix: "acolyteS"
 
 offensive:
   - name: "Sunlight Arrows"

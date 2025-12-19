@@ -1,6 +1,7 @@
 name: "Acolyte Spells III"
 id: "acolyte-spells-iii"
 id_appendix: "III"
+prefix: "acolyteS"
 
 offensive:
   - name: "Purge"

@@ -1,6 +1,7 @@
 name: "Wizard Spells X"
 id: "wizard-spells-x"
 id_appendix: "X"
+prefix: "wizardX"
 is_exclusive: True
 
 exclusive:

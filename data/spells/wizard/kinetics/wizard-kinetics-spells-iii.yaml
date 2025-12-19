@@ -1,6 +1,7 @@
 name: "Kinetics Spells III"
 id: "wizard-kinetics-spells-iii"
 id_appendix: "III"
+prefix: "kinetics"
 
 offensive:
   - name: "Geyser Field"

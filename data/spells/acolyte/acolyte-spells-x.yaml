@@ -1,6 +1,7 @@
 name: "Acolyte Spells X"
 id: "acolyte-spells-x"
 id_appendix: "X"
+prefix: "acolyteS"
 is_exclusive: True
 
 exclusive:

@@ -1,6 +1,7 @@
 name: "Acolyte Spells I"
 id: "acolyte-spells-i"
 id_appendix: "I"
+prefix: "acolyteS"
 
 offensive:
   - name: "Light of Sol"

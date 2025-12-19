@@ -1,6 +1,7 @@
 name: "Shaman Spells I"
 id: "shaman-spells-i"
 id_appendix: "I"
+prefix: "shamanS"
 
 offensive:
   - name: "Summon: Lesser Elemental"

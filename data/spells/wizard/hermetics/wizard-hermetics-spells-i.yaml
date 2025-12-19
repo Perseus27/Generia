@@ -1,6 +1,7 @@
 name: "Hermetics Spells I"
 id: "wizard-hermetics-spells-i"
 id_appendix: "I"
+prefix: "hermetics"
 
 offensive:
   - name: "Mana Beam I"

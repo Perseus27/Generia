@@ -1,6 +1,7 @@
 name: "Nox Spells I"
 id: "nox-spells-i"
 id_appendix: "I"
+prefix: "noxS"
 
 offensive:
   - name: "Shadow Strike"

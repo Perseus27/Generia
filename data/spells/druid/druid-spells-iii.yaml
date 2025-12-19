@@ -1,6 +1,7 @@
 name: "Druid Spells III"
 id: "druid-spells-iii"
 id_appendix: "III"
+prefix: "druidS"
 
 offensive:
   - name: "Thorn Fury"

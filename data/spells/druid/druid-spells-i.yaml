@@ -1,6 +1,7 @@
 name: "Druid Spells I"
 id: "druid-spells-i"
 id_appendix: "I"
+prefix: "druidS"
 
 offensive:
   - name: "Thorn Whip"

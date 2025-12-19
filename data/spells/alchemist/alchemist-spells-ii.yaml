@@ -1,6 +1,7 @@
 name: "Alchemist Spells II"
 id: "alchemist-spells-ii"
 id_appendix: "II"
+prefix: "alchemistS"
 
 offensive:
   - name: "Flame Throw II"

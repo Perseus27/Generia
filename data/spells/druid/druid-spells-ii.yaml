@@ -1,6 +1,7 @@
 name: "Druid Spells II"
 id: "druid-spells-ii"
 id_appendix: "II"
+prefix: "druidS"
 
 offensive:
   - name: "Locust Swarm"

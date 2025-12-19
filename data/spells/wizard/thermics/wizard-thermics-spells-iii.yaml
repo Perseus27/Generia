@@ -1,6 +1,7 @@
 name: "Thermics Spells III"
 id: "wizard-thermics-spells-iii"
 id_appendix: "III"
+prefix: "thermics"
 
 offensive:
   - name: "Explosion"

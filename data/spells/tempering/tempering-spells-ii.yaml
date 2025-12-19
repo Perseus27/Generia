@@ -1,6 +1,7 @@
 name: "Tempering Spells II"
 id: "tempering-spells-ii"
 id_appendix: "II"
+prefix: "temperedS"
 
 offensive:
   - name: "Crush"

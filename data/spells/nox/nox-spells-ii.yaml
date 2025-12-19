@@ -1,6 +1,7 @@
 name: "Nox Spells II"
 id: "nox-spells-ii"
 id_appendix: "II"
+prefix: "noxS"
 
 offensive:
   - name: "Shadow Coating"

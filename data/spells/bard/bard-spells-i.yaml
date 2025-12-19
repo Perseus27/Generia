@@ -1,6 +1,7 @@
 name: "Bard Spells I"
 id: "bard-spells-i"
 id_appendix: "I"
+prefix: "bardS"
 
 offensive:
   - name: "Verse of Folly"

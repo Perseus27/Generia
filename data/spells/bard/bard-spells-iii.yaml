@@ -1,6 +1,7 @@
 name: "Bard Spells III"
 id: "bard-spells-iii"
 id_appendix: "III"
+prefix: "bardS"
 
 offensive:
   - name: "Poem of Folly"

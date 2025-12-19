@@ -1,6 +1,7 @@
 name: "Kinetics Spells II"
 id: "wizard-kinetics-spells-ii"
 id_appendix: "II"
+prefix: "kinetics"
 
 offensive:
   - name: "Kinetic Bolt II"

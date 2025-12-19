@@ -1,6 +1,7 @@
 name: "Druid Spells IV"
 id: "druid-spells-iv"
 id_appendix: "IV"
+prefix: "druidS"
 
 offensive:
   - name: "Whipping Willow"

@@ -1,6 +1,7 @@
 name: "Bard Spells II"
 id: "bard-spells-ii"
 id_appendix: "II"
+prefix: "bardS"
 
 offensive:
   - name: "Stanza of Folly"

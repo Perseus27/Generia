@@ -1,6 +1,7 @@
 name: "Tempering Spells I"
 id: "tempering-spells-i"
 id_appendix: "I"
+prefix: "temperedS"
 
 offensive:
   - name: "Impact"
