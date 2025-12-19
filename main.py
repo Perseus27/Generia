@@ -8,6 +8,7 @@ from test_renderer import Test_Renderer
 from character_renderer import Character_Renderer
 from creature_renderer import Creature_Renderer
 from table_renderer import Table_Renderer
+from perk_renderer import Perk_Renderer
 from spell_renderer import Spell_Renderer
 from bb_renderer import BB_Renderer
 
@@ -45,6 +46,11 @@ def define_env(env):
     def table(path: str):
         yaml_content = _read_yaml(path)
         return Table_Renderer(yaml_content).get_output()
+    
+    @env.macro
+    def perks(path: str):
+        yaml_content = _read_yaml(path)
+        return Perk_Renderer(yaml_content).get_output()
     
     @env.macro
     def spells(path: str):

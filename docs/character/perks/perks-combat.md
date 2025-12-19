@@ -2,4 +2,12 @@
 title: Perks – Combat
 ---
 
-{{ bb_from_file('bb_docs/character/perks/perks-combat.bb') }}
+# Perks – Combat
+
+# Tier I
+
+{{ perks('data/perks/perks-combat-i.yaml') }}
+
+# Tier II
+
+{{ perks('data/perks/perks-combat-ii.yaml') }}

@@ -12,6 +12,6 @@ content:
   - name: Teamwork
     id: Teamwork
     sp-cost: 20
-    requirements: "[url:class3#Ranger]Ranger[/url]"
+    requirements: "[url:class3/class-ranger]Ranger[/url]"
     description: >
       When you and your summoned [i]Beast Soul[/i] attack the same target, both gain [url:core#Advantage]Advantage 1[/url] on the attack roll. You also have [url:core#Advantage]Advantage 1[/url] on all [i]Fauna[/i], [i]Flora[/i], [i]Hunting[/i], and [i]Survival[/i] checks while your summoned beast is active.

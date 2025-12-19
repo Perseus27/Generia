@@ -12,7 +12,7 @@ content:
   - name: Catalysis
     id: Catalysis
     sp-cost: 10
-    requirements: "[url:class2#Arsenalist]Arsenalist[/url]"
+    requirements: "[url:class2/class-arsenalist]Arsenalist[/url]"
     description: >
       Spells with the [i]TRANSMUTATION[/i] keyword cost [section:clr-value]1[/section] MP less.
 
@@ -24,7 +24,7 @@ content:
   - name: Defiance
     id: Defiance
     sp-cost: 20
-    requirements: "[url:class2#Skald]Skald[/url]"
+    requirements: "[url:class2/class-skald]Skald[/url]"
     description: >
       [i]Da Capo[/i] spells do not end immediately on a failed Concentration check. Instead, their variable effect is reduced by [section:clr-value]1[/section].
       [br]If the variable effect reaches [section:clr-value]O[/section], the spell ends.
@@ -37,7 +37,7 @@ content:
   - name: Disinfection
     id: Disinfection
     sp-cost: 10
-    requirements: "[url:class2#Medic]Medic[/url]"
+    requirements: "[url:class2/class-medic]Medic[/url]"
     description: >
       May freely add the bonus effect [i]Disinfection[/i] to volatile transmutations, removing all negative status effects with [section:clr-dc]DC[/section] up to [section:clr-value]10 + Pharmacy + Medicine[/section].
       [br]The [url:status#Corrupted]Corrupted[/url] status is not affected.
@@ -50,7 +50,7 @@ content:
   - name: Firm Bond
     id: FirmBond
     sp-cost: 20
-    requirements: "[url:class2#Summoner]Summoner[/url]"
+    requirements: "[url:class2/class-summoner]Summoner[/url]"
     description: >
       Concentration checks for summoned elementals have [url:Concentration#Advantage]Advantage 1[/url].
 
@@ -62,7 +62,7 @@ content:
   - name: "Luna's Guiding Hand"
     id: LunasGuidingHand
     sp-cost: 10
-    requirements: "[url:class2#MoonWarden]Moon Warden[/url]"
+    requirements: "[url:class2/class-moon-warden]Moon Warden[/url]"
     description: >
       The spell [i][url:/w/generia-perseus27/a/acolyte-spells-article#Sanctuary]Sanctuary[/url][/i] also [url:Concentration#Eased]eases[/url] [url:def#Parry]Parry[/url] and [url:def#Block]Block[/url] rolls.
 
@@ -74,7 +74,7 @@ content:
   - name: Misereor
     id: Misereor
     sp-cost: 10
-    requirements: "[url:class2#MoonPriest]Moon Priest[/url]"
+    requirements: "[url:class2/class-moon-priest]Moon Priest[/url]"
     description: >
       May cast any Luna spell that does not require a Moonstone as a [url:def#Reaction]Reaction[/url] by expending a Moonstone.
 
@@ -86,7 +86,7 @@ content:
   - name: Practiced Hermetician
     id: PracticedHermetician
     sp-cost: 20
-    requirements: "[url:class2#Hermetician]Hermetician[/url]"
+    requirements: "[url:class2/class-hermetician]Hermetician[/url]"
     description: >
       Arcane and Light spells cost [section:clr-value]1[/section] MP less.
 
@@ -98,7 +98,7 @@ content:
   - name: Practiced Kinetician
     id: PracticedKinetician
     sp-cost: 20
-    requirements: "[url:class2#Kinetician]Kinetician[/url]"
+    requirements: "[url:class2/class-kinetician]Kinetician[/url]"
     description: >
       Stone and Water spells cost [section:clr-value]1[/section] MP less.
 
@@ -110,7 +110,7 @@ content:
   - name: Practiced Meteorician
     id: PracticedMeteorician
     sp-cost: 20
-    requirements: "[url:class2#Meteorician]Meteorician[/url]"
+    requirements: "[url:class2/class-meteorician]Meteorician[/url]"
     description: >
       Air and Lightning spells cost [section:clr-value]1[/section] MP less.
 
@@ -122,7 +122,7 @@ content:
   - name: Practiced Thermician
     id: PracticedThermician
     sp-cost: 20
-    requirements: "[url:class2#Thermician]Thermician[/url]"
+    requirements: "[url:class2/class-thermician]Thermician[/url]"
     description: >
       Fire and Ice spells cost [section:clr-value]1[/section] MP less.
 
@@ -134,7 +134,7 @@ content:
   - name: Radiant Light
     id: RadiantLight
     sp-cost: 10
-    requirements: "[url:class2#SunEnvoy]Sun Envoy[/url]"
+    requirements: "[url:class2/class-sun-envoy]Sun Envoy[/url]"
     description: >
       Offensive Sol spells inflict [url:status#Blinded]Blinded 1[/url] on [url:def#Hit]hit[/url] and an additional stack if a damage die [url:core#Explosion]explodes[/url].
 
@@ -146,7 +146,7 @@ content:
   - name: Second Nature
     id: SecondNature
     sp-cost: 10
-    requirements: "[url:class2#Therianthrope]Therianthrope[/url]"
+    requirements: "[url:class2/class-therianthrope]Therianthrope[/url]"
     description: >
       [i]Theriomorphosis[/i] spells do not count against the [url:def#Concentration]Concentration[/url] maximum.
 
@@ -158,7 +158,7 @@ content:
   - name: Seduction
     id: Seduction
     sp-cost: 10
-    requirements: "[url:class2#Siren]Siren[/url]"
+    requirements: "[url:class2/class-siren]Siren[/url]"
     description: >
       When the Siren successfully applies a [url:status]status effect[/url] to any creature that is able to move, she may, as a [url:def#Reaction]Reaction[/url], force it to move up to [section:clr-value]3m[/section] toward her.
 
@@ -170,7 +170,7 @@ content:
   - name: Spiritual Resilience
     id: SpiritualResilience
     sp-cost: 20
-    requirements: "[url:class2#Binder]Binder[/url]"
+    requirements: "[url:class2/class-binder]Binder[/url]"
     description: >
       Gains [url:Concentration#Advantage]Advantage 1[/url] on WIL checks per active Binding spell.
 
@@ -182,7 +182,7 @@ content:
   - name: Subroutines
     id: Subroutines
     sp-cost: 10
-    requirements: "[url:class2#Engineer]Engineer[/url]"
+    requirements: "[url:class2/class-engineer]Engineer[/url]"
     description: >
       Issuing golem commands via control unit can be performed as a [url:def#Reaction]Reaction[/url].
 
@@ -194,7 +194,7 @@ content:
   - name: "Wildgrowth: Permanence"
     id: WildgrowthPermanence
     sp-cost: 10
-    requirements: "[url:class2#Treewarden]Treewarden[/url]"
+    requirements: "[url:class2/class-treewarden]Treewarden[/url]"
     description: >
       [i][url:druidS#Wildgrowth]Wildgrowth[/url][/i] now creates permanent plants. Their lifespan equals that of a normal plant of the species.
 
@@ -206,6 +206,6 @@ content:
   - name: Withering Shadows
     id: WitheringShadows
     sp-cost: 10
-    requirements: "[url:class2#Assassin]Assassin[/url]"
+    requirements: "[url:class2/class-assassin]Assassin[/url]"
     description: >
       Restore [section:clr-value]1[/section] Nox Point (NP) for each wound caused by shadow damage.

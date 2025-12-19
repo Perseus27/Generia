@@ -2,4 +2,12 @@
 title: Perks – Magic – Exclusive
 ---
 
-{{ bb_from_file('bb_docs/character/perks/perks-magic-exclusive.bb') }}
+# Perks – Magic – Exclusive
+
+# Tier II
+
+{{ perks('data/perks/perks-magic-x-ii.yaml') }}
+
+# Tier III
+
+{{ perks('data/perks/perks-magic-x-iii.yaml') }}

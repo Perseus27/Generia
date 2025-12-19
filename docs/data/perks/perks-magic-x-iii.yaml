@@ -12,7 +12,7 @@ content:
   - name: Channel Element
     id: ChannelElement
     sp-cost: 20
-    requirements: "[url:class3#Elementalist]Elementalist[/url]"
+    requirements: "[url:class3/class-elementalist]Elementalist[/url]"
     description: >
       Gain the following effects when you summon an elemental of the corresponding element:
       [br][b]Water:[/b] [url:status#Regeneration]Regeneration 2[/url]
@@ -29,7 +29,7 @@ content:
   - name: Corona
     id: Corona
     sp-cost: 20
-    requirements: "[url:class3#Templar]Templar[/url]"
+    requirements: "[url:class3/class-templar]Templar[/url]"
     description: >
       Enemies who end their turn within [section:clr-value][Sol/2][/section] meters of you gain [url:status#Lightburn]Lightburn 1[/url] if you are concentrating on a Sol spell.
 
@@ -41,7 +41,7 @@ content:
   - name: Disruption Matrix
     id: DisruptionMatrix
     sp-cost: 20
-    requirements: "[url:class3#Magister]Magister[/url]"
+    requirements: "[url:class3/class-magister]Magister[/url]"
     description: >
       When you force a [url:def#Concentration]Concentration[/url] save for an enemy spell with an offensive spell, that save is [url:core#Hindered]hindered[/url] by an amount equal to the element proficiency your offensive spell.
 
@@ -53,7 +53,7 @@ content:
   - name: Mighty Magics
     id: MightyMagics
     sp-cost: 20
-    requirements: "[url:class3#Magus]Magus[/url]"
+    requirements: "[url:class3/class-magus]Magus[/url]"
     description: >
       [section:clr-value]One[/section] spell damage die may be rerolled [section:clr-value]once[/section]. You may expend a [i]matrix crystal[/i] to reroll [section:clr-value]any number[/section] of your spell’s damage dice [section:clr-value]once[/section].
 
@@ -65,6 +65,6 @@ content:
   - name: "Luna's Protective Hand"
     id: LunasProtectiveHand
     sp-cost: 10
-    requirements: "[url:class3#MoonDancer]Moon Dancer[/url]"
+    requirements: "[url:class3/class-moon-dancer]Moon Dancer[/url]"
     description: >
       [i]Sanctuary[/i] does not count against the Concentration maximum, costs [section:clr-mp]0 MP[/section] to cast, and allows [url:def#Parry]parrying[/url] of magical projectiles.

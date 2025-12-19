@@ -12,7 +12,7 @@ content:
   - name: Edge Alignment
     id: EdgeAlignment
     sp-cost: 10
-    requirements: "[url:class2#Slasher]Slasher[/url]"
+    requirements: "[url:class2/class-slasher]Slasher[/url]"
     description: >
       On each attack with [url:weapons#SlashingWeaponsCommon]slashing weapons[/url], you may reroll [section:clr-value]one[/section] damage die [section:clr-value]once[/section].
 
@@ -24,21 +24,9 @@ content:
   - name: Bloodlust
     id: Bloodlust
     sp-cost: 20
-    requirements: "[url:class2#Berserker]Berserker[/url]"
+    requirements: "[url:class2/class-berserker]Berserker[/url]"
     description: >
       [url:core#Advantage]Advantage 1[/url] on [url:def#BasicAttack]basic attack[/url] rolls against wounded targets.
-
-  - subheader:
-    is_subheader: True
-    name: Knight
-    id: Knight
-
-  - name: In the Saddle
-    id: InTheSaddle
-    sp-cost: 10
-    requirements: "[url:class2#Knight]Knight[/url]"
-    description: >
-      While mounted, [url:def#Block]block[/url] and [url:def#Parry]parry[/url] rolls are eased by your [i]Riding[/i] proficiency value.
 
   - subheader:
     is_subheader: True
@@ -48,7 +36,7 @@ content:
   - name: Lone Fighter
     id: LoneFighter
     sp-cost: 20
-    requirements: "[url:class2#Duelist]Duelist[/url]"
+    requirements: "[url:class2/class-duelist]Duelist[/url]"
     description: >
       [url:core#Advantage]Advantage 1[/url] on [url:def#MeleeAttack]melee attacks[/url] against isolated targets. Additionally, gain [url:core#Advantage]Advantage 1[/url] on [url:def#Parry]parries[/url] if you are isolated.
 
@@ -60,7 +48,7 @@ content:
   - name: On the Prowl
     id: OnTheProwl
     sp-cost: 10
-    requirements: "[url:class2#Hunter]Hunter[/url]"
+    requirements: "[url:class2/class-hunter]Hunter[/url]"
     description: >
       When making a [url:def#RangedAttack]ranged attack[/url], if you have a height advantage of at least [section:clr-value]2m[/section] or the [url:status#Hidden]Hidden[/url] status, you may roll [section:clr-roll]2d10[/section] for hit location and choose either result.
 
@@ -72,7 +60,7 @@ content:
   - name: Sheer Force
     id: SheerForce
     sp-cost: 10
-    requirements: "[url:class2#Breaker]Breaker[/url]"
+    requirements: "[url:class2/class-breaker]Breaker[/url]"
     description: >
       On each attack with blunt weapons, you may reroll [section:clr-value]one[/section] damage die [section:clr-value]once[/section].
 
@@ -84,7 +72,7 @@ content:
   - name: Spearhead
     id: Spearhead
     sp-cost: 10
-    requirements: "[url:class2#Stabber]Stabber[/url]"
+    requirements: "[url:class2/class-stabber]Stabber[/url]"
     description: >
       On each attack with spears, lances, and halberds, you may reroll [section:clr-value]one[/section] damage die [section:clr-value]once[/section].
 
@@ -96,6 +84,6 @@ content:
   - name: Zone of Control
     id: ZoneOfControl
     sp-cost: 10
-    requirements: "[url:class2#WarDancer]War Dancer[/url]"
+    requirements: "[url:class2/class-war-dancer]War Dancer[/url]"
     description: >
       When a target enters your weapon’s reach, you may make a [url:def#MeleeAttack]melee attack[/url] as a reaction.
