@@ -1,0 +1,76 @@
+content:
+  acolyte:
+    prefix: acolyteS
+    list:
+      - name: Light of Sol
+        id: LightOfSol
+      - name: Sunlight Spear
+        id: SunlightSpear
+      - name: Blessing of Fortitude
+        id: BlessingOfFortitude
+
+  alchemist:
+    prefix: alchemistS
+    list:
+      - name: Flame Throw I
+        id: FlameThrowI
+
+  bard:
+    prefix: bardS
+    list:
+      - name: Verse of Folly
+        id: VerseOfFolly
+
+  druid:
+    prefix: druidS
+    list:
+      - name: Thorn Whip
+        id: ThornWhip
+
+  nox:
+    prefix: noxS
+    list:
+      - name: Shadow Strike
+        id: ShadowStrike
+
+  shaman:
+    prefix: shamanS
+    list:
+      - name: "Summon: Lesser Elemental"
+        id: SummonLesserElemental
+
+  tempering:
+    prefix: temperedS
+    list:
+      - name: Impact
+        id: Impact
+
+  hermetics:
+    prefix: hermetics
+    list:
+      - name: Mana Beam I
+        id: ManaBeamI
+
+  kinetics:
+    prefix: kinetics
+    list:
+      - name: Kinetic Bolt I
+        id: KineticBoltI
+
+  meteorics:
+    prefix: meteorics
+    list:
+      - name: Meteoric Bolt I
+        id: MeteoricBoltI
+
+  thermics:
+    prefix: thermics
+    list:
+      - name: Thermal Beam I
+        id: ThermalBeamI
+
+  wizard_exclusive:
+    prefix: wizardX
+    list:
+      - name: Negate
+        id: Negate

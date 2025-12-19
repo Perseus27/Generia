@@ -24,6 +24,10 @@ def define_env(env):
         return yaml.safe_load(full.read_text(encoding="utf-8"))
     
     @env.macro
+    def doc_env():
+        return {name:getattr(env, name) for name in dir(env) if not name.startswith('_')}
+    
+    @env.macro
     def character(path: str):
         yaml_content = _read_yaml(path)
         return Character_Renderer(yaml_content).get_output()
