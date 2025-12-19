@@ -57,7 +57,10 @@
 .chara-content-subtile {
     float: left;
     width: 32%;
-    font-size: 0.5rem;}
+    font-size: 0.5rem}
+
+.chara-content-subtile li {
+    font-size: 0.5rem}
 
 .chara-block ul {
     margin: 1px 0 1px;
