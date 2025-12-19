@@ -14,30 +14,7 @@ class Perk_Renderer:
         return self.html_output
     
     def format_to_html(self):
-        self.html_output = self.BB_HELPER.process(self.format_all(self.yaml_input.get("content")))
-    
-    def format_allOLD(self):
-        y = self.yaml_input
-        id_ap = y.get("id_appendix")
-        x = y.get("is_exclusive", False)
-        if x:
-            return f"""
-[h1|Tier{id_ap}]Tier {id_ap}[/h1]
-{self.format_spells_from_category(y.get('exclusive', False))}
-            """        
-        result = f"""
-[h1|Tier{id_ap}]Tier {id_ap}[/h1]
-[h2|Offensive{id_ap}]Offensive[/h2]
-{self.format_spells_from_category(y.get('offensive', False))}
-[h2|Defensive{id_ap}]Defensive[/h2]
-{self.format_spells_from_category(y.get('defensive', False))}
-[h2|Utility{id_ap}]Utility[/h2]
-{self.format_spells_from_category(y.get('utility', False))}
-[h2|Ritual{id_ap}]Ritual[/h2]
-{self.format_spells_from_category(y.get('ritual', False))}
-        """
-        return result
-    
+        self.html_output = self.BB_HELPER.process(self.format_all(self.yaml_input.get("content")))    
 
     def format_all(self, perk_yaml):
         if not perk_yaml:
