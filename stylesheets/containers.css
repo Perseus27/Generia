@@ -130,3 +130,39 @@
 .statusblock h4 {
 	margin-top: 0px;
 }
+
+
+
+
+.home-links {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	font-size: 0.7rem;
+}
+
+.home-links-left {
+	width: 50%;
+}
+.home-links-right {
+	width: 50%;
+}
+
+.home-linkblock {
+	background: rgba(180,180,180,0.1);
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.home-linkblock h2 {
+	margin-top: 0px;
+}
+.home-linkblock h3 {
+	margin-top: 0px !important;
+}
+.home-linkblock h4 {
+	margin-top: 0px;
+}
