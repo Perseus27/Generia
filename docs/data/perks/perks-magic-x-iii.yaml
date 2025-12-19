@@ -31,4 +31,39 @@ content:
     requirements: [url:class3#Templar]Templar[/url]
     description: >
       Enemies who end their turn within [section:clr-value][Sol/2][/section] meters of you gain [url:status#Lightburn]Lightburn 1[/url] if you are concentrating on a Sol spell.
-    
+
+  - subheader:
+    is_subheader: True
+    name: Magister
+    id: Magister
+
+  - name: Disruption Matrix
+    id: DisruptionMatrix
+    sp-cost: 20
+    requirements: [url:class3#Magister]Magister[/url]
+    description: >
+      When you force a [url:def#Concentration]Concentration[/url] save for an enemy spell with an offensive spell, that save is [url:core#Hindered]hindered[/url] by an amount equal to the element proficiency your offensive spell.
+
+  - subheader:
+    is_subheader: True
+    name: Magus
+    id: Magus
+
+  - name: Mighty Magics
+    id: MightyMagics
+    sp-cost: 20
+    requirements: [url:class3#Magus]Magus[/url]
+    description: >
+      [section:clr-value]One[/section] spell damage die may be rerolled [section:clr-value]once[/section]. You may expend a [i]matrix crystal[/i] to reroll [section:clr-value]any number[/section] of your spell’s damage dice [section:clr-value]once[/section].
+
+  - subheader:
+    is_subheader: True
+    name: Moon Dancer
+    id: MoonDancer
+
+  - name: Luna’s Protective Hand
+    id: LunasProtectiveHand
+    sp-cost: 10
+    requirements: [url:class3#MoonDancer]Moon Dancer[/url]
+    description: >
+      [i]Sanctuary[/i] does not count against the Concentration maximum, costs [section:clr-mp]0 MP[/section] to cast, and allows [url:def#Parry]parrying[/url] of magical projectiles.

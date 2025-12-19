@@ -25,4 +25,198 @@ content:
     sp-cost: 20
     requirements: [url:class2#Skald]Skald[/url]
     description: >
-      Spells with the [i]TRANSMUTATION[/i] keyword cost [section:clr-value]1[/section] MP less.
+      [i]Da Capo[/i] spells do not end immediately on a failed Concentration check. Instead, their variable effect is reduced by [section:clr-value]1[/section].
+      [br]If the variable effect reaches [section:clr-value]O[/section], the spell ends.
+
+  - subheader:
+    is_subheader: True
+    name: Medic
+    id: Medic
+
+  - name: Disinfection
+    id: Disinfection
+    sp-cost: 10
+    requirements: [url:class2#Medic]Medic[/url]
+    description: >
+      May freely add the bonus effect [i]Disinfection[/i] to volatile transmutations, removing all negative status effects with [section:clr-dc]DC[/section] up to [section:clr-value]10 + Pharmacy + Medicine[/section].
+      [br]The [url:status#Corrupted]Corrupted[/url] status is not affected.
+
+  - subheader:
+    is_subheader: True
+    name: Summoner
+    id: Summoner
+
+  - name: Firm Bond
+    id: FirmBond
+    sp-cost: 20
+    requirements: [url:class2#Summoner]Summoner[/url]
+    description: >
+      Concentration checks for summoned elementals have [url:Concentration#Advantage]Advantage 1[/url].
+
+  - subheader:
+    is_subheader: True
+    name: Moon Warden
+    id: MoonWarden
+
+  - name: Luna’s Guiding Hand
+    id: LunasGuidingHand
+    sp-cost: 10
+    requirements: [url:class2#MoonWarden]Moon Warden[/url]
+    description: >
+      The spell [i][url:/w/generia-perseus27/a/acolyte-spells-article#Sanctuary]Sanctuary[/url][/i] also [url:Concentration#Eased]eases[/url] [url:def#Parry]Parry[/url] and [url:def#Block]Block[/url] rolls.
+
+  - subheader:
+    is_subheader: True
+    name: Moon Priest
+    id: MoonPriest
+
+  - name: Misereor
+    id: Misereor
+    sp-cost: 10
+    requirements: [url:class2#MoonPriest]Moon Priest[/url]
+    description: >
+      May cast any Luna spell that does not require a Moonstone as a [url:def#Reaction]Reaction[/url] by expending a Moonstone.
+
+  - subheader:
+    is_subheader: True
+    name: Hermetician
+    id: Hermetician
+
+  - name: Practiced Hermetician
+    id: PracticedHermetician
+    sp-cost: 20
+    requirements: [url:class2#Hermetician]Hermetician[/url]
+    description: >
+      Arcane and Light spells cost [section:clr-value]1[/section] MP less.
+
+  - subheader:
+    is_subheader: True
+    name: Kinetician
+    id: Kinetician
+
+  - name: Practiced Kinetician
+    id: PracticedKinetician
+    sp-cost: 20
+    requirements: [url:class2#Kinetician]Kinetician[/url]
+    description: >
+      Stone and Water spells cost [section:clr-value]1[/section] MP less.
+
+  - subheader:
+    is_subheader: True
+    name: Meteorician
+    id: Meteorician
+
+  - name: Practiced Meteorician
+    id: PracticedMeteorician
+    sp-cost: 20
+    requirements: [url:class2#Meteorician]Meteorician[/url]
+    description: >
+      Air and Lightning spells cost [section:clr-value]1[/section] MP less.
+
+  - subheader:
+    is_subheader: True
+    name: Thermician
+    id: Thermician
+
+  - name: Practiced Thermician
+    id: PracticedThermician
+    sp-cost: 20
+    requirements: [url:class2#Thermician]Thermician[/url]
+    description: >
+      Fire and Ice spells cost [section:clr-value]1[/section] MP less.
+
+  - subheader:
+    is_subheader: True
+    name: Sun Envoy
+    id: SunEnvoy
+
+  - name: Radiant Light
+    id: RadiantLight
+    sp-cost: 10
+    requirements: [url:class2#SunEnvoy]Sun Envoy[/url]
+    description: >
+      Sol damage spells inflict [url:status#Blinded]Blinded 1[/url] if they penetrate [url:values#MD]MD[/url] and an additional stack if a damage die [url:core#Explosion]explodes[/url].
+
+  - subheader:
+    is_subheader: True
+    name: Therianthrope
+    id: Therianthrope
+
+  - name: Second Nature
+    id: SecondNature
+    sp-cost: 10
+    requirements: [url:class2#Therianthrope]Therianthrope[/url]
+    description: >
+      [i]Theriomorphosis[/i] spells do not count against the [url:def#Concentration]Concentration[/url] maximum.
+
+  - subheader:
+    is_subheader: True
+    name: Siren
+    id: Siren
+
+  - name: Seduction
+    id: Seduction
+    sp-cost: 10
+    requirements: [url:class2#Siren]Siren[/url]
+    description: >
+      When the Siren successfully applies a [url:status]status effect[/url] to any creature that is able to move, she may, as a [url:def#Reaction]Reaction[/url], force it to move up to [section:clr-value]3m[/section] toward her.
+
+  - subheader:
+    is_subheader: True
+    name: Herald of Nox
+    id: HeraldofNox
+
+  - name: Shadow Conclave
+    id: ShadowConclave
+    sp-cost: 20
+    requirements: [url:class2#HeraldofNox]Herald of Nox[/url]
+    description: >
+      Summoned shadows require no [url:def#Concentration]Concentration[/url] while in darkness.
+
+  - subheader:
+    is_subheader: True
+    name: Binder
+    id: Binder
+
+  - name: Spiritual Resilience
+    id: SpiritualResilience
+    sp-cost: 20
+    requirements: [url:class2#Binder]Binder[/url]
+    description: >
+      Gains [url:Concentration#Advantage]Advantage 1[/url] on WIL checks per active Binding spell.
+
+  - subheader:
+    is_subheader: True
+    name: Engineer
+    id: Engineer
+
+  - name: Subroutines
+    id: Subroutines
+    sp-cost: 10
+    requirements: [url:class2#Engineer]Engineer[/url]
+    description: >
+      Issuing golem commands via control unit can be performed as a [url:def#Reaction]Reaction[/url].
+
+  - subheader:
+    is_subheader: True
+    name: Treewarden
+    id: Treewarden
+
+  - name: Wildgrowth: Permanence
+    id: WildgrowthPermanence
+    sp-cost: 10
+    requirements: [url:class2#Treewarden]Treewarden[/url]
+    description: >
+      [i]Wildgrowth[/i] rituals now create permanent plants. Their lifespan equals that of a normal plant of the species.
+
+  - subheader:
+    is_subheader: True
+    name: Assassin
+    id: Assassin
+
+  - name: Withering Shadows
+    id: WitheringShadows
+    sp-cost: 10
+    requirements: [url:class2#Assassin]Assassin[/url]
+    description: >
+      Restore [section:clr-value]1[/section] Nox Point (NP) for each wound caused by shadow damage.
