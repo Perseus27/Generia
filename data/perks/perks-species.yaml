@@ -1,0 +1,28 @@
+name: "Species Perks"
+id: "perks-species"
+prefix: "species"
+
+content:  
+  - name: Human
+    alias: [Efficient Metabolism, Pursuit Hunter]
+    id: Human
+
+  - name: Elf
+    alias: [Arcane Flow, Harmony]
+    id: Elf
+  
+  - name: Alb
+    alias: [Dark Heritage, Dissonance]
+    id: Alb
+  
+  - name: Felis
+    alias: [Bloodline, Tradition]
+    id: Felis
+  
+  - name: Orc
+    alias: [Indomitable, Stalwart]
+    id: Orc
+  
+  - name: Dwarf
+    alias: [Stocky, Unyielding]
+    id: Dwarf
