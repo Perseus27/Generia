@@ -47,12 +47,12 @@ class Class_Renderer:
         ### combat
         result += f"[container:class-main-sub50]"
         result += f"[h4]Combat[/h4]"
-        result += f"{self.build_ul_li_with_autolink(perks.get('combat'), "perk")}"
+        result += f"{self.build_ul_li_with_autolink(perks.get('combat'), 'perk')}"
         result += "[/container]"
         ### magic
         result += f"[container:class-main-sub50]"
         result += f"[h4]Magic[/h4]"
-        result += f"{self.build_ul_li_with_autolink(perks.get('magic'), "perk")}"
+        result += f"{self.build_ul_li_with_autolink(perks.get('magic'), 'perk')}"
         result += "[/container]"
         ## close perks
         result += "[/container]"
@@ -62,12 +62,12 @@ class Class_Renderer:
         ### skills
         result += f"[container:class-main-sub50]"
         result += f"[h4]Skills[/h4]"
-        result += f"{self.build_ul_li_with_autolink(actions.get('skills'), "skill")}"
+        result += f"{self.build_ul_li_with_autolink(actions.get('skills'), 'skill')}"
         result += "[/container]"
         ### spells
         result += f"[container:class-main-sub50]"
         result += f"[h4]Spells[/h4]"
-        result += f"{self.build_ul_li_with_autolink(actions.get('spells'), "spell")}"
+        result += f"{self.build_ul_li_with_autolink(actions.get('spells'), 'spell')}"
         result += "[/container]"
         ## close actions
         result += "[/container]"

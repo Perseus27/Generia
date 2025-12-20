@@ -24,7 +24,7 @@ proficiencies:
   magic:
     - []
   weapons:
-    - ["Blunt [i]or[/i] Slashing Weapons: Beginner", 10 SP]
+    - ["Blunt [sup]or[/sup] Slashing Weapons: Beginner", 10 SP]
     - ["Natural Weapons: Beginner", 10 SP]
 
 actions:
@@ -36,7 +36,7 @@ actions:
     - []
 
 starter_set:
-  - "Battleaxe [i]or[/i] Warhammer"
+  - "Battleaxe [sup]or[/sup] Warhammer"
   - Leather Armor
   - Leather Gauntlets
   - Leather Greaves

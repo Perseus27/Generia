@@ -26,7 +26,7 @@ proficiencies:
     - []
   weapons:
     - ["Ranged Weapons: Beginner", 10 SP]
-    - ["Slashing [i]or[/i] Stabbing Weapons: Beginner", 10 SP]
+    - ["Slashing [sup]or[/sup] Stabbing Weapons: Beginner", 10 SP]
 
 actions:
   skills:
@@ -38,7 +38,7 @@ actions:
 
 starter_set:
   - Hunting Bow
-  - "Shortsword [i]or[/i] Smallsword"
+  - "Shortsword [sup]or[/sup] Smallsword"
   - Padded Armor
   - Cloth Gauntlets
   - Cloth Greaves

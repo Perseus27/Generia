@@ -32,7 +32,7 @@ proficiencies:
   magic:
     - []
   weapons:
-    - ["Blunt [i]or[/i] Slashing [i]or[/i] Stabbing Weapons: Beginner", 10 SP]
+    - ["Blunt [sup]or[/sup] Slashing [sup]or[/sup] Stabbing Weapons: Beginner", 10 SP]
     - ["Defensive Weapons: Beginner", 10 SP]
 
 actions:
@@ -45,8 +45,8 @@ actions:
     - []
 
 starter_set:
-  - "Broadsword [i]or[/i] Mace [i]or[/i] Rapier [i]or[/i] Spear"
-  - "Roundshield [i]or[/i] Buckler"
+  - "Broadsword [sup]or[/sup] Mace [sup]or[/sup] Rapier [sup]or[/sup] Spear"
+  - "Roundshield [sup]or[/sup] Buckler"
   - Leather Helmet
   - Leather Armor
   - Leather Gauntlets
