@@ -2,4 +2,4 @@
 title: Class – Troubadour
 ---
 
-{{ bb_from_file('bb_docs/character/classes/tier-ii/class-troubadour.bb') }}
+{{ class_main('data/classes/tier-ii/class-troubadour.yaml') }}

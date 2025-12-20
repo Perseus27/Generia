@@ -2,4 +2,4 @@
 title: Class – Druid
 ---
 
-{{ bb_from_file('bb_docs/character/classes/tier-i/class-druid.bb') }}
+{{ class_main('data/classes/tier-i/class-druid.yaml') }}

@@ -2,4 +2,4 @@
 title: Class – Summoner
 ---
 
-{{ bb_from_file('bb_docs/character/classes/tier-ii/class-summoner.bb') }}
+{{ class_main('data/classes/tier-ii/class-summoner.yaml') }}
