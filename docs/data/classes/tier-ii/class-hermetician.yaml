@@ -1,6 +1,6 @@
 name: "Hermetician"
 id: "class-hermetician"
-
+prefix: "class2"
 description: >
   Hermeticians are Wizards who specialize in arcane and light spells.
 

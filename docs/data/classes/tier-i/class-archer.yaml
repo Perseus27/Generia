@@ -1,6 +1,6 @@
 name: "Archer"
 id: "class-archer"
-
+prefix: "class1"
 description: >
   As the name implies, Archers primarily fight with bows and similar ranged weapons. They are not completely defenseless in melee, however.
 

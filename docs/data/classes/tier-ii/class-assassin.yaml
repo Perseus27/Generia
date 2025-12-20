@@ -1,6 +1,6 @@
 name: "Assassin"
 id: "class-assassin"
-
+prefix: "class2"
 description: >
   A shadowy assassin. Their considerable mobility makes them a feared opponent.
 

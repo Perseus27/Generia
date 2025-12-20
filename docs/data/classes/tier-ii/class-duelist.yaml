@@ -1,6 +1,6 @@
 name: "Duelist"
 id: "class-duelist"
-
+prefix: "class2"
 description: >
   Duelists are specialists in nimble one-on-one combat. Few enemies can stand up to their rapid strikes and deft parries.
 

@@ -1,6 +1,6 @@
 name: "Thermician"
 id: "class-thermician"
-
+prefix: "class2"
 description: >
   Thermicians are Wizards who specialize in fire and ice spells.
 

@@ -1,6 +1,6 @@
 name: "Spellbow"
 id: "class-spellbow"
-
+prefix: "class2"
 description: >
   A traditional elven fighting style that combines arcane talents with natural skill.
 

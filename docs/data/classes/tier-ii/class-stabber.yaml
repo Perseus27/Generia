@@ -1,6 +1,6 @@
 name: "Stabber"
 id: "class-stabber"
-
+prefix: "class2"
 description: >
   Stabbers are experts with stabbing weapons of all kinds.
 

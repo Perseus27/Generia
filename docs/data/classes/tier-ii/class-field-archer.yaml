@@ -1,6 +1,6 @@
 name: "Field Archer"
 id: "class-field-archer"
-
+prefix: "class2"
 description: >
   Field Archers are archers trained for battlefield combat who sacrifice mobility for higher impact.
 

@@ -1,6 +1,6 @@
 name: "Shaman"
 id: "class-shaman"
-
+prefix: "class1"
 spellcaster_info: >
   See also: [url:/generia/character/spellcasting-traditions/shaman/what-is-a-shaman]What is a Shaman?[/url]
 

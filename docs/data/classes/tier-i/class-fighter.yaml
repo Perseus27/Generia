@@ -1,6 +1,6 @@
 name: "Fighter"
 id: "class-fighter"
-
+prefix: "class1"
 description: >
   Fighters can handle a variety of weapon groups and are trained in the arts of war. Their versatility makes them valuable in any adventuring party.
 

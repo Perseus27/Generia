@@ -1,6 +1,6 @@
 name: "Wizard"
 id: "class-wizard"
-
+prefix: "class1"
 spellcaster_info: >
   See also: [url:/generia/character/spellcasting-traditions/wizard/what-is-a-wizard]What is a Wizard?[/url]
 

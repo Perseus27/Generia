@@ -1,6 +1,6 @@
 name: "Spellblade"
 id: "class-spellblade"
-
+prefix: "class2"
 description: >
   Spellblades are melee-focused spellcasters with the ability to transform their weapons' damage type.
 

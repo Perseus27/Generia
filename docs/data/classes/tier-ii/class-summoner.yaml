@@ -1,6 +1,6 @@
 name: "Summoner"
 id: "class-summoner"
-
+prefix: "class2"
 description: >
   Summoners are shamans who specialize in manifesting and commanding elementals.
 

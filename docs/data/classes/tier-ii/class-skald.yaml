@@ -1,6 +1,6 @@
 name: "Skald"
 id: "class-skald"
-
+prefix: "class2"
 description: >
   Skalds are warrior-bards who inspire allies in the thick of battle.
 

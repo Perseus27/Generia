@@ -1,6 +1,6 @@
 name: "Wildkeeper"
 id: "class-wildkeeper"
-
+prefix: "class2"
 description: >
   Wildkeepers are druids devoted to the animal kingdom. They fight alongside summoned beasts.
 

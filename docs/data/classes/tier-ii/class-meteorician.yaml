@@ -1,6 +1,6 @@
 name: "Meteorician"
 id: "class-meteorician"
-
+prefix: "class2"
 description: >
   Meteoricians are Wizards who specialize in air and lightning spells.
 
