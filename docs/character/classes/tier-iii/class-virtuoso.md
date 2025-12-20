@@ -2,4 +2,4 @@
 title: Class – Virtuoso
 ---
 
-{{ bb_from_file('bb_docs/character/classes/tier-iii/class-virtuoso.bb') }}
+{{ class_main('data/classes/tier-iii/class-virtuoso.yaml') }}
