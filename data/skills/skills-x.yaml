@@ -1,8 +1,9 @@
 name: "Skills Tier X"
 id: "skills-x"
 prefix: "skillsX"
+is_exclusive: True
 
-tier1:
+tier2:
   - subheader:
     is_subheader: True
     name: Field Archer
