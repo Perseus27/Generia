@@ -7,7 +7,7 @@ description: >
 prerequisites:
   - Archer
   - Fighter
-  - Slashing or Stabbing: Beginner
+  - "[i]Slashing [sup]or[/sup] Stabbing: Beginner[/i]"
 
 subclasses:
   - Champion
@@ -26,7 +26,7 @@ proficiencies:
     - []
   weapons:
     - ["Ranged: Intermediate", "20 SP"]
-    - ["Slashing or Stabbing: Intermediate", "20 SP"]
+    - ["Slashing [sup]or[/sup] Stabbing: Intermediate", "20 SP"]
 
 actions:
   skills:

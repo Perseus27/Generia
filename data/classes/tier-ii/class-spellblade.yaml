@@ -7,7 +7,7 @@ description: >
 prerequisites:
   - Fighter
   - Wizard
-  - Slashing or Stabbing: Beginner
+  - "Slashing [sup]or[/sup] Stabbing: Beginner"
 
 subclasses:
   - Champion

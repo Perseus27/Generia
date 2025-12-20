@@ -6,7 +6,7 @@ description: >
 
 prerequisites:
   - Fighter
-  - Slashing or Stabbing: Beginner
+  - "[i]Slashing [sup]or[/sup] Stabbing: Beginner[/i]"
 
 subclasses:
   - Moon Dancer
@@ -24,7 +24,7 @@ proficiencies:
   magic:
     - []
   weapons:
-    - ["Slashing or Stabbing Weapons: Intermediate", "20 SP"]
+    - ["Slashing [sup]or[/sup] Stabbing Weapons: Intermediate", "20 SP"]
 
 actions:
   skills:

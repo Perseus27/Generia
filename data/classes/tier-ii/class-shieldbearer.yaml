@@ -6,7 +6,6 @@ description: >
 
 prerequisites:
   - Fighter
-  - Defensive: Beginner
 
 subclasses:
   - Champion

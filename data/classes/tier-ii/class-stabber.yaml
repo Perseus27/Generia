@@ -6,7 +6,7 @@ description: >
 
 prerequisites:
   - Fighter
-  - Stabbing: Beginner
+  - "[i]Stabbing: Beginner[/i]"
 
 subclasses:
   - Champion
