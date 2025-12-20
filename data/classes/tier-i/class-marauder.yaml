@@ -1,0 +1,46 @@
+name: "Marauder"
+id: "class-marauder"
+
+description: >
+  Marauders are lone fighters who create chaos on the battlefield with brutal melee attacks. Their weapons are often less “civilized” than a fighter’s, but no less deadly.
+
+prerequisites:
+  - None
+
+subclasses:
+  - Berserker
+  - Monk
+
+perks:
+  combat:
+    - []
+  magic:
+    - []
+
+proficiencies:
+  civilian:
+    - ["Athletics 3", 6 SP]
+    - ["Survival 1", 1 SP]
+  magic:
+    - []
+  weapons:
+    - ["Blunt [i]or[/i] Slashing Weapons: Beginner", 10 SP]
+    - ["Natural Weapons: Beginner", 10 SP]
+
+skills:
+  - [Charge, 4 SP]
+  - [Leg Sweep, 4 SP]
+  - [Mighty Strike, 8 SP]
+
+spells:
+  - []
+
+starter_set:
+  - "Battleaxe [i]or[/i] Warhammer"
+  - Leather Armor
+  - Leather Gauntlets
+  - Leather Greaves
+  - "Two-handed Weapon Belt"
+  - "Adventurer's Belt"
+  - "Adventurer's Pouch"
+  - 2 Silver

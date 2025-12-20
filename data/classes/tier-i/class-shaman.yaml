@@ -1,0 +1,49 @@
+name: "Shaman"
+id: "class-shaman"
+
+spellcaster_info: >
+  See also: [url:/generia/character/spellcasting-traditions/shaman/what-is-a-shaman]What is a Shaman?[/url]
+
+description: >
+  Shamans have a strong bond to the spirit world and use it to empower allies and summon elementals.
+
+prerequisites:
+  - None
+
+subclasses:
+  - Binder
+  - Monk
+  - Summoner
+
+perks:
+  combat:
+    - []
+  magic:
+    - []
+
+proficiencies:
+  civilian:
+    - ["Rites 3", 6 SP]
+  magic:
+    - ["Shaman: Beginner", 10 SP]
+  weapons:
+    - []
+
+skills:
+  - []
+
+spells:
+  - [Summon: Lesser Elemental, 4 SP]
+  - [Elemental Wrath, 4 SP]
+  - [Low Stonewall, 4 SP]
+  - [Lesser Elemental Favor, 4 SP]
+  - [Lesser Wave of Healing, 4 SP]
+  - [Elemental Manipulation, 4 SP]
+
+starter_set:
+  - Combat Staff
+  - "Shaman Amulet +2"
+  - Thick Clothing
+  - "Adventurer's Belt"
+  - "Adventurer's Pouch"
+  - 2 Gold

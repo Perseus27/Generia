@@ -1,0 +1,41 @@
+name: "Sorcerer"
+id: "class-sorcerer"
+
+spellcaster_info: >
+  See also: [url:/generia/character/spellcasting-traditions/sorcerer/what-is-a-sorcerer]What is a Sorcerer?[/url]
+
+description: >
+  WARNING: ADVANCED CLASS. Sorcerers are self-taught spellcasters who rely entirely on their intuition to work magic. Predictably, this often results in chaos.
+
+prerequisites:
+  - None
+
+subclasses:
+  - Sorcerer II
+
+perks:
+  combat:
+    - []
+  magic:
+    - ["Battle Meditation", 10 SP]
+
+proficiencies:
+  civilian:
+    - ["Arcana 2", 3 SP]
+    - ["Rites 1", 1 SP]
+  magic:
+    - ["Sorcerer: Beginner", 10 SP]
+  weapons:
+    - []
+
+skills:
+  - []
+
+spells:
+  - [Template Tier I, 4 SP]
+  - [Template Tier I, 4 SP]
+  - [Overcharged Spell, 4 SP]
+  - [Safe Spell, 4 SP]
+
+starter_set:
+  - []

@@ -1,0 +1,50 @@
+name: "Bard"
+id: "class-bard"
+
+spellcaster_info: >
+  See also: [url:/generia/character/spellcasting-traditions/bard/what-is-a-bard]What is a Bard?[/url]
+
+description: >
+  Bards use ancient soul magic to strengthen allies and weaken enemies. Their spells are based on music and emotion.
+
+prerequisites:
+  - None
+
+subclasses:
+  - Siren
+  - Skald
+  - Troubadour
+
+perks:
+  combat:
+    - []
+  magic:
+    - []
+
+proficiencies:
+  civilian:
+    - ["History 2", 3 SP]
+    - ["Rites 1", 1 SP]
+    - ["Performance 3", 6 SP]
+  magic:
+    - ["Bard: Beginner", 10 SP]
+  weapons:
+    - []
+
+skills:
+  - []
+
+spells:
+  - [Verse of Folly, 4 SP]
+  - [Melody of Heroism, 4 SP]
+  - [Verse of Healing, 4 SP]
+  - [Verse of Rebellion, 4 SP]
+  - [Improvisation, 4 SP]
+
+starter_set:
+  - Instrument
+  - Short Sling
+  - Thick Clothing
+  - "Adventurer's Belt"
+  - "Adventurer's Pouch"
+  - 3 Gold

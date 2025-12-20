@@ -1,0 +1,55 @@
+name: "Alchemist"
+id: "class-alchemist"
+
+spellcaster_info: >
+  See also: [url:/generia/character/spellcasting-traditions/alchemist/what-is-an-alchemist]What is an Alchemist?[/url]
+
+description: >
+  Alchemists create items and substances from magical materials that can be used as weapons or remedies. They fight using transmuted firearms and grenades.
+
+prerequisites:
+  - None
+
+subclasses:
+  - Arsenalist
+  - Engineer
+  - Medic
+
+perks:
+  combat:
+    - []
+  magic:
+    - []
+
+proficiencies:
+  civilian:
+    - ["Arcana 2", 3 SP]
+    - ["Arithmetics 2", 3 SP]
+    - ["Medicine 1", 1 SP]
+    - ["Tinkering 1", 1 SP]
+  magic:
+    - ["Alchemist: Beginner", 10 SP]
+  weapons:
+    - []
+
+skills:
+  - []
+
+spells:
+  - [Elemental Ammunition, 4 SP]
+  - [Elemental Ammunition, 4 SP]
+  - [Elemental Ammunition, 4 SP]
+  - [Elemental Ammunition, 4 SP]
+  - [Elemental Ammunition, 4 SP]
+
+starter_set:
+  - "Transmuted Pistol"
+  - "Alchemist's Gauntlets, Cloth"
+  - Cloth Armor
+  - Weapon Belt
+  - "Adventurer's Belt"
+  - "Adventurer's Pouch"
+  - "Alchemist's Pouch"
+  - "40x elemental dust, any type"
+  - "2x elemental core, any type"
+  - "1 Gold, 8 Silver"

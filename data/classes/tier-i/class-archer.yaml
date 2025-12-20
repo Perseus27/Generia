@@ -1,0 +1,50 @@
+name: "Archer"
+id: "class-archer"
+
+description: >
+  As the name implies, Archers primarily fight with bows and similar ranged weapons. They are not completely defenseless in melee, however.
+
+prerequisites:
+  - None
+
+subclasses:
+  - Field Archer
+  - Hunter
+  - Spellbow
+
+perks:
+  combat:
+    - []
+  magic:
+    - []
+
+proficiencies:
+  civilian:
+    - ["Hunting 2", 3 SP]
+    - ["Survival 1", 1 SP]
+  magic:
+    - []
+  weapons:
+    - ["Ranged Weapons: Beginner", 10 SP]
+    - ["Slashing [i]or[/i] Stabbing Weapons: Beginner", 10 SP]
+
+skills:
+  - [Aimed Shot, 4 SP]
+  - [Unpredictable Shot, 4 SP]
+  - [Hold Breath, 8 SP]
+
+spells:
+  - []
+
+starter_set:
+  - Hunting Bow
+  - "Shortsword [i]or[/i] Smallsword"
+  - Padded Armor
+  - Cloth Gauntlets
+  - Cloth Greaves
+  - Weapon Belt
+  - "Adventurer's Belt"
+  - "Adventurer's Pouch"
+  - Quiver
+  - "10 Arrows, light"
+  - 8 Silver

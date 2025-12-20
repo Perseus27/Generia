@@ -1,0 +1,52 @@
+name: "Wizard"
+id: "class-wizard"
+
+spellcaster_info: >
+  See also: [url:/generia/character/spellcasting-traditions/wizard/what-is-a-wizard]What is a Wizard?[/url]
+
+description: >
+  Wizards wield powerful spells to inflict devastating damage to single targets and groups. Their 'intellectual tendencies' make them reliant on less fragile allies in combat.
+
+prerequisites:
+  - None
+
+subclasses:
+  - Hermetician
+  - Kinetician
+  - Meteorician
+  - Thermician
+  - Spellblade
+  - Spellbow
+
+perks:
+  combat:
+    - []
+  magic:
+    - []
+
+proficiencies:
+  civilian:
+    - ["Arcana 3", 6 SP]
+    - ["Arithmetics 1", 1 SP]
+    - ["History 1", 1 SP]
+  magic:
+    - ["Hermetics: Beginner", 10 SP]
+    - ["Kinetics [i]or[/i] Meteorics [i]or[/i] Thermics: Beginner", 10 SP]
+  weapons:
+    - []
+
+skills:
+  - []
+
+spells:
+  - [Mana Beam I, 4 SP]
+  - [Hermetic Manipulation, 4 SP]
+  - ["Kinetic [i]or[/i] Meteoric [i]or[/i] Thermal [i]or[/i] Mana Bolt I", 4 SP]
+
+starter_set:
+  - Wizard Staff
+  - Cloth Armor
+  - "Adventurer's Belt"
+  - "Adventurer's Pouch"
+  - "1× Matrix Crystal"
+  - "1 Gold, 8 Silver"

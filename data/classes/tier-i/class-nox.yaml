@@ -1,0 +1,49 @@
+name: "Nox"
+id: "class-nox"
+
+spellcaster_info: >
+  See also: [url:/generia/character/spellcasting-traditions/nox/what-is-a-nox]What is a Nox?[/url]
+
+description: >
+  Followers of the shadow goddess Nox are often found in dark alleys and shabby taverns offering questionable services. They usually specialize in stealth, blades, and poisons.
+
+prerequisites:
+  - None
+
+subclasses:
+  - Hand of Nox
+
+perks:
+  combat:
+    - []
+  magic:
+    - []
+
+proficiencies:
+  civilian:
+    - ["Rites 1", 1 SP]
+    - ["Stealth 2", 3 SP]
+    - ["Stealing 2", 3 SP]
+  magic:
+    - ["Nox: Beginner", 10 SP]
+  weapons:
+    - ["Slashing [i]or[/i] Stabbing Weapons: Beginner", 10 SP]
+
+skills:
+  - []
+
+spells:
+  - [Night 1, 1 SP]
+  - [Shadow Strike, 4 SP]
+  - [Shadow Cloak, 4 SP]
+  - [Blur, 4 SP]
+
+starter_set:
+  - Smallsword
+  - Dagger
+  - Thick Clothing
+  - "Weapon Belt, double"
+  - "Adventurer's Belt"
+  - "Adventurer's Pouch"
+  - "2× Poison, weak"
+  - "1 Gold, 5 Silver"

@@ -1,0 +1,54 @@
+name: "Druid"
+id: "class-druid"
+
+spellcaster_info: >
+  See also: [url:/generia/character/spellcasting-traditions/druid/what-is-a-druid]What is a Druid?[/url]
+
+description: >
+  Druids use nature rituals to control the battlefield with wild growth, assume the form of a beast, and heal allies.
+
+prerequisites:
+  - None
+
+subclasses:
+  - Siren
+  - Treewarden
+  - Therianthrope
+  - Wildkeeper
+
+perks:
+  combat:
+    - []
+  magic:
+    - []
+
+proficiencies:
+  civilian:
+    - ["Botany 2", 3 SP]
+    - ["Zoology 2", 3 SP]
+  magic:
+    - ["Druid: Beginner", 10 SP]
+  weapons:
+    - []
+
+skills:
+  - []
+
+spells:
+  - [Regrowth, 4 SP]
+  - [Grasping Vines, 4 SP]
+  - [Theriomorph: Aspect, 4 SP]
+  - [Wildgrowth, 4 SP]
+  - [Rooting, 4 SP]
+  - [Anchor/Release Beast Soul, 4 SP]
+
+starter_set:
+  - Shillelagh
+  - Soul Anchor
+  - Padded Armor
+  - Cloth Gauntlets
+  - Cloth Greaves
+  - "Adventurer's Belt"
+  - "Adventurer's Pouch"
+  - Seed Pouch
+  - 1 Gold
