@@ -31,15 +31,15 @@ proficiencies:
   weapons:
     - []
 
-skills:
-  - []
-
-spells:
-  - [Verse of Folly, 4 SP]
-  - [Melody of Heroism, 4 SP]
-  - [Verse of Healing, 4 SP]
-  - [Verse of Rebellion, 4 SP]
-  - [Improvisation, 4 SP]
+actions:
+  skills:
+    - []
+  spells:
+    - [Verse of Folly, 4 SP]
+    - [Melody of Heroism, 4 SP]
+    - [Verse of Healing, 4 SP]
+    - [Verse of Rebellion, 4 SP]
+    - [Improvisation, 4 SP]
 
 starter_set:
   - Instrument

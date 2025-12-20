@@ -31,16 +31,16 @@ proficiencies:
   weapons:
     - []
 
-skills:
-  - []
-
-spells:
-  - [Regrowth, 4 SP]
-  - [Grasping Vines, 4 SP]
-  - [Theriomorph: Aspect, 4 SP]
-  - [Wildgrowth, 4 SP]
-  - [Rooting, 4 SP]
-  - [Anchor/Release Beast Soul, 4 SP]
+actions:
+  skills:
+    - []
+  spells:
+    - [Regrowth, 4 SP]
+    - [Grasping Vines, 4 SP]
+    - [Theriomorph: Aspect, 4 SP]
+    - [Wildgrowth, 4 SP]
+    - [Rooting, 4 SP]
+    - [Anchor/Release Beast Soul, 4 SP]
 
 starter_set:
   - Shillelagh

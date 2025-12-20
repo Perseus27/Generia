@@ -25,14 +25,14 @@ proficiencies:
   weapons:
     - []
 
-skills:
-  - []
-
-spells:
-  - ["Kinetics: Intermediate", "20 SP"]
-  - ["Tensile Shield I", "4 SP"]
-  - ["Satellites", "8 SP"]
-  - ["Earthquake", "8 SP"]
+actions:
+  skills:
+    - []
+  spells:
+    - ["Kinetics: Intermediate", "20 SP"]
+    - ["Tensile Shield I", "4 SP"]
+    - ["Satellites", "8 SP"]
+    - ["Earthquake", "8 SP"]
 
 starter_set:
   - []

@@ -25,14 +25,14 @@ proficiencies:
   weapons:
     - []
 
-skills:
-  - []
-
-spells:
-  - ["Meteorics: Intermediate", "20 SP"]
-  - ["Air Burst", "4 SP"]
-  - ["Thunderbolt I", "8 SP"]
-  - ["Levitation", "8 SP"]
+actions:
+  skills:
+    - []
+  spells:
+    - ["Meteorics: Intermediate", "20 SP"]
+    - ["Air Burst", "4 SP"]
+    - ["Thunderbolt I", "8 SP"]
+    - ["Levitation", "8 SP"]
 
 starter_set:
   - []

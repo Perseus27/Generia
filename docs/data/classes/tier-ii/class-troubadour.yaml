@@ -24,16 +24,16 @@ proficiencies:
   weapons:
     - []
 
-skills:
-  - []
-
-spells:
-  - ["Bard: Intermediate", "20 SP"]
-  - ["Eigth Rest", "20 SP, X"]
-  - ["Stanza of Healing", "Upgrade: 4 SP"]
-  - ["Stanza of Folly", "Upgrade: 4 SP"]
-  - ["Song of Heroism", "Upgrade: 4 SP"]
-  - ["Stanza of Slumber", "8 SP"]
+actions:
+  skills:
+    - []
+  spells:
+    - ["Bard: Intermediate", "20 SP"]
+    - ["Eigth Rest", "20 SP, X"]
+    - ["Stanza of Healing", "Upgrade: 4 SP"]
+    - ["Stanza of Folly", "Upgrade: 4 SP"]
+    - ["Song of Heroism", "Upgrade: 4 SP"]
+    - ["Stanza of Slumber", "8 SP"]
 
 starter_set:
   - []

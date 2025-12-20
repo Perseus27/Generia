@@ -23,11 +23,11 @@ proficiencies:
   weapons:
     - []
 
-skills:
-  - []
-
-spells:
-  - []
+actions:
+  skills:
+    - []
+  spells:
+    - []
 
 starter_set:
   - []

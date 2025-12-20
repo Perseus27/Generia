@@ -28,13 +28,13 @@ proficiencies:
     - ["Ranged Weapons: Beginner", 10 SP]
     - ["Slashing [i]or[/i] Stabbing Weapons: Beginner", 10 SP]
 
-skills:
-  - [Aimed Shot, 4 SP]
-  - [Unpredictable Shot, 4 SP]
-  - [Hold Breath, 8 SP]
-
-spells:
-  - []
+actions:
+  skills:
+    - [Aimed Shot, 4 SP]
+    - [Unpredictable Shot, 4 SP]
+    - [Hold Breath, 8 SP]
+  spells:
+    - []
 
 starter_set:
   - Hunting Bow

@@ -23,15 +23,15 @@ proficiencies:
   weapons:
     - []
 
-skills:
-  - []
-
-spells:
-  - ["Shaman: Intermediate", "20 SP"]
-  - ["Summon: Elemental", "Upgrade: 4 SP"]
-  - ["Elemental Rage", "Upgrade: 4 SP"]
-  - ["Wind Ward", "8 SP"]
-  - ["Lesser Elemental Call", "4 SP"]
+actions:
+  skills:
+    - []
+  spells:
+    - ["Shaman: Intermediate", "20 SP"]
+    - ["Summon: Elemental", "Upgrade: 4 SP"]
+    - ["Elemental Rage", "Upgrade: 4 SP"]
+    - ["Wind Ward", "8 SP"]
+    - ["Lesser Elemental Call", "4 SP"]
 
 starter_set:
   - []

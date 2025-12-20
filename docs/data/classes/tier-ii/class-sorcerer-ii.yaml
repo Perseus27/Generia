@@ -24,13 +24,13 @@ proficiencies:
   weapons:
     - []
 
-skills:
-  - []
-
-spells:
-  - ["Sorcerer: Intermediate", "20 SP"]
-  - ["Template Budget", "12 SP"]
-  - ["Recycled Spell", "8 SP"]
+actions:
+  skills:
+    - []
+  spells:
+    - ["Sorcerer: Intermediate", "20 SP"]
+    - ["Template Budget", "12 SP"]
+    - ["Recycled Spell", "8 SP"]
 
 starter_set:
   - []

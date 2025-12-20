@@ -28,11 +28,11 @@ proficiencies:
     - ["Ranged: Intermediate", "20 SP"]
     - ["Slashing or Stabbing: Intermediate", "20 SP"]
 
-skills:
-  - ["Mighty Shot", "10 SP, X"]
-
-spells:
-  - []
+actions:
+  skills:
+    - ["Mighty Shot", "10 SP, X"]
+  spells:
+    - []
 
 starter_set:
   - []

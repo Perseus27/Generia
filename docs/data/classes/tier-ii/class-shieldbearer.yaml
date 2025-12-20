@@ -26,14 +26,14 @@ proficiencies:
   weapons:
     - ["Defensive: Intermediate", "20 SP"]
 
-skills:
-  - ["Protect", "10 SP, X"]
-  - ["Stance: Block", "12 SP"]
-  - ["Steady Block", "4 SP"]
-  - ["Shield Bash", "4 SP"]
-
-spells:
-  - []
+actions:
+  skills:
+    - ["Protect", "10 SP, X"]
+    - ["Stance: Block", "12 SP"]
+    - ["Steady Block", "4 SP"]
+    - ["Shield Bash", "4 SP"]
+  spells:
+    - []
 
 starter_set:
   - []

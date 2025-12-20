@@ -24,15 +24,15 @@ proficiencies:
   weapons:
     - []
 
-skills:
-  - []
-
-spells:
-  - ["Druid: Intermediate", "20 SP"]
-  - ["Root Grasp", "4 SP"]
-  - ["Field of Flowers", "8 SP"]
-  - ["Field of Thorns", "8 SP"]
-  - ["Root Wall", "8 SP"]
+actions:
+  skills:
+    - []
+  spells:
+    - ["Druid: Intermediate", "20 SP"]
+    - ["Root Grasp", "4 SP"]
+    - ["Field of Flowers", "8 SP"]
+    - ["Field of Thorns", "8 SP"]
+    - ["Root Wall", "8 SP"]
 
 starter_set:
   - []

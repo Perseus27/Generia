@@ -27,13 +27,13 @@ proficiencies:
   weapons:
     - ["Stabbing: Intermediate", "20 SP"]
 
-skills:
-  - ["Counter", "4 SP"]
-  - ["Multistrike", "8 SP"]
-  - ["Disarm", "8 SP"]
-
-spells:
-  - []
+actions:
+  skills:
+    - ["Counter", "4 SP"]
+    - ["Multistrike", "8 SP"]
+    - ["Disarm", "8 SP"]
+  spells:
+    - []
 
 starter_set:
   - []

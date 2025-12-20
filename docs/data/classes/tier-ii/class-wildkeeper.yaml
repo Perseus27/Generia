@@ -24,15 +24,15 @@ proficiencies:
   weapons:
     - []
 
-skills:
-  - []
-
-spells:
-  - ["Druid: Intermediate", "20 SP"]
-  - ["Summon Beast", "20 SP, X"]
-  - ["Barkskin", "4 SP"]
-  - ["Panic", "8 SP"]
-  - ["Soulbond", "8 SP"]
+actions:
+  skills:
+    - []
+  spells:
+    - ["Druid: Intermediate", "20 SP"]
+    - ["Summon Beast", "20 SP, X"]
+    - ["Barkskin", "4 SP"]
+    - ["Panic", "8 SP"]
+    - ["Soulbond", "8 SP"]
 
 starter_set:
   - []

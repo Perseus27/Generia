@@ -25,14 +25,14 @@ proficiencies:
   weapons:
     - ["Natural: Intermediate", "20 SP"]
 
-skills:
-  - ["Careful Strike", "4 SP"]
-  - ["Counter", "4 SP"]
-  - ["Feint", "4 SP"]
-  - ["Disarm", "8 SP"]
-
-spells:
-  - ["Inner World", "10 SP, X"]
+actions:
+  skills:
+    - ["Careful Strike", "4 SP"]
+    - ["Counter", "4 SP"]
+    - ["Feint", "4 SP"]
+    - ["Disarm", "8 SP"]
+  spells:
+    - ["Inner World", "10 SP, X"]
 
 starter_set:
   - []

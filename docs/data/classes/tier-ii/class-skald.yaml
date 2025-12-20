@@ -27,15 +27,15 @@ proficiencies:
   weapons:
     - []
 
-skills:
-  - []
-
-spells:
-  - ["Bard: Intermediate", "20 SP"]
-  - ["Verse of Steadyness", "4 SP"]
-  - ["Verse of Boldness", "4 SP"]
-  - ["Song of Tyranny", "8 SP"]
-  - ["Song of Heroism", "Upgrade: 4 SP"]
+actions:
+  skills:
+    - []
+  spells:
+    - ["Bard: Intermediate", "20 SP"]
+    - ["Verse of Steadyness", "4 SP"]
+    - ["Verse of Boldness", "4 SP"]
+    - ["Song of Tyranny", "8 SP"]
+    - ["Song of Heroism", "Upgrade: 4 SP"]
 
 starter_set:
   - []

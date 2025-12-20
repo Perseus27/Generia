@@ -25,14 +25,14 @@ proficiencies:
   weapons:
     - []
 
-skills:
-  - []
-
-spells:
-  - ["Hermetics: Intermediate", "20 SP"]
-  - ["Counter Shot", "4 SP"]
-  - ["Counterspell", "8 SP"]
-  - ["Dimension Step", "8 SP"]
+actions:
+  skills:
+    - []
+  spells:
+    - ["Hermetics: Intermediate", "20 SP"]
+    - ["Counter Shot", "4 SP"]
+    - ["Counterspell", "8 SP"]
+    - ["Dimension Step", "8 SP"]
 
 starter_set:
   - []

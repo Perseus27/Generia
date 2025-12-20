@@ -35,13 +35,13 @@ proficiencies:
   weapons:
     - []
 
-skills:
-  - []
-
-spells:
-  - [Mana Beam I, 4 SP]
-  - [Hermetic Manipulation, 4 SP]
-  - ["Kinetic [i]or[/i] Meteoric [i]or[/i] Thermal [i]or[/i] Mana Bolt I", 4 SP]
+actions:
+  skills:
+    - []
+  spells:
+    - [Mana Beam I, 4 SP]
+    - [Hermetic Manipulation, 4 SP]
+    - ["Kinetic [i]or[/i] Meteoric [i]or[/i] Thermal [i]or[/i] Mana Bolt I", 4 SP]
 
 starter_set:
   - Wizard Staff

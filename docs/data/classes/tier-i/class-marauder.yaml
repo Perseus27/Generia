@@ -27,13 +27,13 @@ proficiencies:
     - ["Blunt [i]or[/i] Slashing Weapons: Beginner", 10 SP]
     - ["Natural Weapons: Beginner", 10 SP]
 
-skills:
-  - [Charge, 4 SP]
-  - [Leg Sweep, 4 SP]
-  - [Mighty Strike, 8 SP]
-
-spells:
-  - []
+actions:
+  skills:
+    - [Charge, 4 SP]
+    - [Leg Sweep, 4 SP]
+    - [Mighty Strike, 8 SP]
+  spells:
+    - []
 
 starter_set:
   - "Battleaxe [i]or[/i] Warhammer"

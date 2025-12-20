@@ -26,13 +26,13 @@ proficiencies:
   weapons:
     - ["Slashing or Stabbing Weapons: Intermediate", "20 SP"]
 
-skills:
-  - ["Swift Parry", "4 SP"]
-  - ["Counter", "4 SP"]
-  - ["Whirl", "12 SP"]
-
-spells:
-  - []
+actions:
+  skills:
+    - ["Swift Parry", "4 SP"]
+    - ["Counter", "4 SP"]
+    - ["Whirl", "12 SP"]
+  spells:
+    - []
 
 starter_set:
   - []

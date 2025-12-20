@@ -24,14 +24,14 @@ proficiencies:
   weapons:
     - []
 
-skills:
-  - []
-
-spells:
-  - ["Nox: Intermediate", "20 SP"]
-  - ["Shadow Step", "8 SP"]
-  - ["Noxian Bargain", "8 SP"]
-  - ["Terror", "4 SP"]
+actions:
+  skills:
+    - []
+  spells:
+    - ["Nox: Intermediate", "20 SP"]
+    - ["Shadow Step", "8 SP"]
+    - ["Noxian Bargain", "8 SP"]
+    - ["Terror", "4 SP"]
 
 starter_set:
   - []

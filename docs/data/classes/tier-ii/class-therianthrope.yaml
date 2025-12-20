@@ -23,14 +23,14 @@ proficiencies:
   weapons:
     - []
 
-skills:
-  - ["Charge", "4 SP"]
-  - ["Feint", "4 SP"]
-  - ["Shove", "4 SP"]
-
-spells:
-  - ["Druid: Intermediate", "20 SP"]
-  - ["Theriomorphosis: Hybrid", "8 SP"]
+actions:
+  skills:
+    - ["Charge", "4 SP"]
+    - ["Feint", "4 SP"]
+    - ["Shove", "4 SP"]
+  spells:
+    - ["Druid: Intermediate", "20 SP"]
+    - ["Theriomorphosis: Hybrid", "8 SP"]
 
 starter_set:
   - []

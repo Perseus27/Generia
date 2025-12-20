@@ -27,12 +27,12 @@ proficiencies:
   weapons:
     - ["Blunt: Intermediate", "20 SP"]
 
-skills:
-  - ["Heavy Blow", "12 SP"]
-  - ["Mighty Strike", "8 SP"]
-
-spells:
-  - []
+actions:
+  skills:
+    - ["Heavy Blow", "12 SP"]
+    - ["Mighty Strike", "8 SP"]
+  spells:
+    - []
 
 starter_set:
   - []

@@ -24,12 +24,12 @@ proficiencies:
   weapons:
     - ["Ranged: Intermediate", "20 SP"]
 
-skills:
-  - []
-
-spells:
-  - ["Hermetics or Kinetics or Meteorics or Thermics: Intermediate", "20 SP"]
-  - ["Bow Infusion", "20 SP, X"]
+actions:
+  skills:
+    - []
+  spells:
+    - ["Hermetics or Kinetics or Meteorics or Thermics: Intermediate", "20 SP"]
+    - ["Bow Infusion", "20 SP, X"]
 
 starter_set:
   - []

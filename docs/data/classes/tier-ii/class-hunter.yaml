@@ -24,13 +24,13 @@ proficiencies:
   weapons:
     - ["Ranged: Intermediate", "20 SP"]
 
-skills:
-  - ["Careful Shot", "4 SP"]
-  - ["Camouflage", "8 SP"]
-  - ["Overwatch", "8 SP"]
-
-spells:
-  - []
+actions:
+  skills:
+    - ["Careful Shot", "4 SP"]
+    - ["Camouflage", "8 SP"]
+    - ["Overwatch", "8 SP"]
+  spells:
+    - []
 
 starter_set:
   - []

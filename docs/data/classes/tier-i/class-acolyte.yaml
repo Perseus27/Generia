@@ -31,14 +31,14 @@ proficiencies:
   weapons:
     - ["Blunt [i]or[/i] Slashing [i]or[/i] Stabbing Weapons: Beginner", 10 SP]
 
-skills:
-  - []
-
-spells:
-  - [Sunlight Spear, 4 SP]
-  - [Radiant Shield, 4 SP]
-  - [Healing, 4 SP]
-  - [Purify, 4 SP]
+actions:
+  skills:
+    - []
+  spells:
+    - [Sunlight Spear, 4 SP]
+    - [Radiant Shield, 4 SP]
+    - [Healing, 4 SP]
+    - [Purify, 4 SP]
 
 starter_set:
   - "Mace [i]or[/i] Bastard Sword [i]or[/i] Spear"

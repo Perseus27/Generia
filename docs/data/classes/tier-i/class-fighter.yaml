@@ -35,14 +35,14 @@ proficiencies:
     - ["Blunt [i]or[/i] Slashing [i]or[/i] Stabbing Weapons: Beginner", 10 SP]
     - ["Defensive Weapons: Beginner", 10 SP]
 
-skills:
-  - [Charge, 4 SP]
-  - [Feint, 4 SP]
-  - [Leg Sweep, 4 SP]
-  - [Shove, 4 SP]
-
-spells:
-  - []
+actions:
+  skills:
+    - [Charge, 4 SP]
+    - [Feint, 4 SP]
+    - [Leg Sweep, 4 SP]
+    - [Shove, 4 SP]
+  spells:
+    - []
 
 starter_set:
   - "Broadsword [i]or[/i] Mace [i]or[/i] Rapier [i]or[/i] Spear"

@@ -24,14 +24,14 @@ proficiencies:
   weapons:
     - []
 
-skills:
-  - []
-
-spells:
-  - ["Acolyte: Intermediate", "20 SP"]
-  - ["Prayer of Healing", "8 SP"]
-  - ["Sanctuary", "8 SP"]
-  - ["Mederi", "4 SP"]
+actions:
+  skills:
+    - []
+  spells:
+    - ["Acolyte: Intermediate", "20 SP"]
+    - ["Prayer of Healing", "8 SP"]
+    - ["Sanctuary", "8 SP"]
+    - ["Mederi", "4 SP"]
 
 starter_set:
   - []

@@ -24,15 +24,15 @@ proficiencies:
   weapons:
     - []
 
-skills:
-  - []
-
-spells:
-  - ["Acolyte: Intermediate", "20 SP"]
-  - ["Smite", "20 SP, X"]
-  - ["Prominence", "8 SP"]
-  - ["Armor of Sol", "8 SP"]
-  - ["Consecration", "4 SP"]
+actions:
+  skills:
+    - []
+  spells:
+    - ["Acolyte: Intermediate", "20 SP"]
+    - ["Smite", "20 SP, X"]
+    - ["Prominence", "8 SP"]
+    - ["Armor of Sol", "8 SP"]
+    - ["Consecration", "4 SP"]
 
 starter_set:
   - []

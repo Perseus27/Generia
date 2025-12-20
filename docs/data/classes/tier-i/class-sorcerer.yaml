@@ -29,14 +29,14 @@ proficiencies:
   weapons:
     - []
 
-skills:
-  - []
-
-spells:
-  - [Template Tier I, 4 SP]
-  - [Template Tier I, 4 SP]
-  - [Overcharged Spell, 4 SP]
-  - [Safe Spell, 4 SP]
+actions:
+  skills:
+    - []
+  spells:
+    - [Template Tier I, 4 SP]
+    - [Template Tier I, 4 SP]
+    - [Overcharged Spell, 4 SP]
+    - [Safe Spell, 4 SP]
 
 starter_set:
   - []

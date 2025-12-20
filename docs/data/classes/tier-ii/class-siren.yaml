@@ -26,12 +26,12 @@ proficiencies:
   weapons:
     - []
 
-skills:
-  - []
-
-spells:
-  - ["Bard: Intermediate", "20 SP"]
-  - ["Druid: Intermediate", "20 SP"]
+actions:
+  skills:
+    - []
+  spells:
+    - ["Bard: Intermediate", "20 SP"]
+    - ["Druid: Intermediate", "20 SP"]
 
 starter_set:
   - []

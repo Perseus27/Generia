@@ -23,15 +23,15 @@ proficiencies:
   weapons:
     - []
 
-skills:
-  - []
-
-spells:
-  - ["Shaman: Intermediate", "20 SP"]
-  - ["Lesser Elemental Guidance", "4 SP"]
-  - ["Wave of Healing", "Upgrade: 4 SP"]
-  - ["Elemental Favor", "Upgrade: 4 SP"]
-  - ["Flame of Defiance", "8 SP"]
+actions:
+  skills:
+    - []
+  spells:
+    - ["Shaman: Intermediate", "20 SP"]
+    - ["Lesser Elemental Guidance", "4 SP"]
+    - ["Wave of Healing", "Upgrade: 4 SP"]
+    - ["Elemental Favor", "Upgrade: 4 SP"]
+    - ["Flame of Defiance", "8 SP"]
 
 starter_set:
   - []

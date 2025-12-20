@@ -25,12 +25,12 @@ proficiencies:
   weapons:
     - []
 
-skills:
-  - ["Daredevil", "8 SP"]
-  - ["Whirl", "12 SP"]
-
-spells:
-  - []
+actions:
+  skills:
+    - ["Daredevil", "8 SP"]
+    - ["Whirl", "12 SP"]
+  spells:
+    - []
 
 starter_set:
   - []

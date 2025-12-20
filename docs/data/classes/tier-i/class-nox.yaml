@@ -29,14 +29,14 @@ proficiencies:
   weapons:
     - ["Slashing [i]or[/i] Stabbing Weapons: Beginner", 10 SP]
 
-skills:
-  - []
-
-spells:
-  - [Night 1, 1 SP]
-  - [Shadow Strike, 4 SP]
-  - [Shadow Cloak, 4 SP]
-  - [Blur, 4 SP]
+actions:
+  skills:
+    - []
+  spells:
+    - [Night 1, 1 SP]
+    - [Shadow Strike, 4 SP]
+    - [Shadow Cloak, 4 SP]
+    - [Blur, 4 SP]
 
 starter_set:
   - Smallsword
