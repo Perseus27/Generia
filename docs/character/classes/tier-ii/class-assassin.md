@@ -2,4 +2,4 @@
 title: Class – Assassin
 ---
 
-{{ bb_from_file('bb_docs/character/classes/tier-ii/class-assassin.bb') }}
+{{ class_main('data/classes/tier-ii/class-assassin.yaml') }}

@@ -2,4 +2,4 @@
 title: Class – Meteorician
 ---
 
-{{ bb_from_file('bb_docs/character/classes/tier-ii/class-meteorician.bb') }}
+{{ class_main('data/classes/tier-ii/class-meteorician.yaml') }}

@@ -2,4 +2,4 @@
 title: Class – Fighter
 ---
 
-{{ bb_from_file('bb_docs/character/classes/tier-i/class-fighter.bb') }}
+{{ class_main('data/classes/tier-i/class-fighter.yaml') }}

@@ -2,4 +2,4 @@
 title: Class – Bard
 ---
 
-{{ bb_from_file('bb_docs/character/classes/tier-i/class-bard.bb') }}
+{{ class_main('data/classes/tier-i/class-bard.yaml') }}
