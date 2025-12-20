@@ -1,0 +1,33 @@
+name: "Champion"
+id: "class-champion"
+prefix: "class3"
+description: >
+  Champions form the backbone of armies and high-tier adventuring guilds. Their masterful use of martial weapons and excellent tactical training make them highly effective in specialized groups.
+
+prerequisites:
+  - Any two Fighter subclasses
+
+subclasses: []
+
+perks:
+  combat:
+    - []
+  magic:
+    - []
+
+proficiencies:
+  civilian:
+    - []
+  magic:
+    - []
+  weapons:
+    - []
+
+actions:
+  skills:
+    - []
+  spells:
+    - []
+
+starter_set:
+  - []

@@ -1,0 +1,35 @@
+name: "Ranger"
+id: "class-ranger"
+prefix: "class3"
+description: >
+  Rangers live for the wilds, the hunt, and freedom. They are welcome in all guilds: their arrows are deadly accurate and their powerful nature rituals rival those of druid masters.
+
+prerequisites:
+  - Hunter
+  - Treewarden [sup]or[/sup] Wildkeeper
+
+subclasses: []
+
+perks:
+  combat:
+    - ["Teamwork", "20 SP, X"]
+  magic:
+    - []
+
+proficiencies:
+  civilian:
+    - []
+  magic:
+    - []
+  weapons:
+    - ["Ranged: Adept", "30 SP"]
+
+actions:
+  skills:
+    - []
+  spells:
+    - ["Druid: Adept", "30 SP"]
+    - ["Living Arrows", "20 SP, X"]
+
+starter_set:
+  - []

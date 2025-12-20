@@ -1,0 +1,37 @@
+name: "Magus"
+id: "class-magus"
+prefix: "class3"
+description: >
+  Magus
+
+prerequisites:
+  - Hermetician [sup]or[/sup] Kinetician [sup]or[/sup] Meteorician [sup]or[/sup] Thermician
+
+subclasses: []
+
+perks:
+  combat:
+    - []
+  magic:
+    - ["Mighty Magics", "20 SP, X"]
+    - ["Arcane Artillery", "10 SP"]
+    - ["Astral Body I", "10 SP"]
+    - ["Cold Calculation", "10 SP"]
+
+proficiencies:
+  civilian:
+    - []
+  magic:
+    - []
+  weapons:
+    - []
+
+actions:
+  skills:
+    - []
+  spells:
+    - ["Hermetics [sup]or[/sup] Kinetics [sup]or[/sup] Meteorics [sup]or[/sup] Thermics: Adept", "30 SP"]
+    - ["Ley Lines", "20 SP, X"]
+
+starter_set:
+  - []
