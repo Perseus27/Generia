@@ -1,0 +1,52 @@
+name: "Acolyte"
+id: "class-acolyte"
+
+info: >
+  See also: [url:/generia/character/spellcasting-traditions/acolyte/what-is-an-acolyte]What is an Acolyte?[/url]
+
+description: >
+  Acolytes of the Eternal Light can heal allies through prayers to the moon goddess Luna and, with the support of the sun god Sol, deal considerable light damage in combat.
+
+prerequisites:
+  - None
+
+subclasses:
+  - Moon Priest
+  - Moon Warden
+  - Sun Envoy
+  - Sun Cleric
+
+perks:
+  combat:
+    - []
+  magic:
+    - []
+
+proficiencies:
+  civilian:
+    - ["Medicine 1", 1 SP]
+    - ["Rites 2", 3 SP]
+  magic:
+    - ["Acolyte: Beginner", 10 SP]
+  weapons:
+    - ["Blunt or Slashing or Stabbing Weapons: Beginner", 10 SP]
+
+skills:
+  - []
+
+spells:
+  - [Sunlight Spear, 4 SP]
+  - [Radiant Shield, 4 SP]
+  - [Healing, 4 SP]
+  - [Purify, 4 SP]
+
+starter_set:
+  - Mace or Bastard Sword or Spear
+  - Acolyte Amulet+2
+  - Padded Armor
+  - Weapon Belt
+  - "Adventurer's Belt"
+  - "Adventurer's Pouch"
+  - "Priest's Pouch"
+  - "1× Med Kit"
+  - "1 Gold, 2 Silver"
