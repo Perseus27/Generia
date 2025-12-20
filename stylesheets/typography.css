@@ -64,3 +64,8 @@
 h1 {
     margin: 0px 0px 0px 0px;
 }
+
+
+.md-header__source {
+  display: none;
+}
