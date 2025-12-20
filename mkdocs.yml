@@ -1,7 +1,7 @@
 site_name: Generia
-site_url: https://perseus27.github.io/generia/
-repo_url: https://github.com/perseus27/generia
-repo_name: perseus27/generia
+#site_url: https://perseus27.github.io/generia/
+#repo_url: https://github.com/perseus27/generia
+#repo_name: perseus27/generia
 
 theme:
   name: material
