@@ -11,6 +11,30 @@ offensive:
     description: >
       Executes a [url:def#RangedAttack]ranged attack[/url], [url:core#Eased]eased[/url] by [[section:clr-attr]PER-MOD[/section]].
 
+  - name: Careful Strike
+    id: CarefulStrike
+    tags: [Tier I, Offensive, "Range: Weapon"]
+    cost:
+      - "[section:clr-encost]1 EN[/section]"
+    description: >
+      Executes a [url:def#MeleeAttack]melee attack[/url], [url:core#Eased]eased[/url] by [[section:clr-attr]PER-MOD[/section]].
+
+  - name: Charge
+    id: Charge
+    tags: [Tier I, Offensive, "Range: [url:values#MS]MS[/url]"]
+    cost:
+      - "[section:clr-encost]2 EN[/section]"
+    description: >
+      Charges a target in a straight line and executes a [url:def#MeleeAttack]melee attack[/url] or [url:def#Grapple]grapple[/url].
+      [br]Minimum range: [section:clr-value]4m[/section].
+
+  - name: Unpredictable Shot
+    id: UnpredictableShot
+    tags: [Tier I, Offensive, "Range: Weapon"]
+    cost:
+      - "[section:clr-encost]1 EN[/section]"
+    description: >
+      Executes a [url:def#RangedAttack]ranged attack[/url]. Target has [url:core#Disadvantage]Disadvantage 1[/url] on defensive rolls.
 
 utility:
   - name: Feint
@@ -23,6 +47,49 @@ utility:
     description: >
       Baits the target into a hasty defense, giving it [url:status#DefensePenalty]defense penalty[/url] [[section:clr-value]proficiency[/section]] if it fails the check.
 
+  - name: Leg Sweep
+    id: LegSweep
+    tags: [Tier I, Utility, "Range: Adjacent"]
+    cost:
+      - "[section:clr-encost]1 EN[/section]"
+    type:
+      - "Check [section:clr-attr]STR[/section] vs [section:clr-attr]DEX[/section]"
+    description: >
+      Target becomes [url:status#OffBalance]off-balance[/url] if it fails the check.
+      [br][url:core#Advantage]Advantage 1[/url] against smaller targets, [url:core#Disadvantage]Disadvantage 1[/url] against bigger targets, per difference in [url:/generia/rules/misc/creature-sizes]size level[/url].
+
+  - name: Pocket Sand
+    id: PocketSand
+    tags: [Tier I, Utility, "Range: 2m"]
+    cost:
+      - "[section:clr-encost]1 EN[/section]"
+    type:
+      - "Check [section:clr-attr]DEX[/section] vs [section:clr-attr]CON[/section]"
+    description: >
+      Throws a handful of dirt into the target's eyes to cause [url:status#Blinded]blinded 1[/url].
+      [br][i]No effect on targets without eyes or with alternative modes of perception.[/i]
+
+  - name: Shove
+    id: Shove
+    tags: [Tier I, Utility, "Range: Adjacent"]
+    cost:
+      - "[section:clr-encost]1 EN[/section]"
+    type:
+      - "Check [section:clr-attr]STR[/section] vs [section:clr-attr]STR[/section]/[section:clr-attr]DEX[/section]"
+    description: >
+      Shoves the target, causing [url:status#Knockback]Knockback[/url] [[section:clr-attr]STR-MOD[/section]] if it fails the check.
+
+  - name: Swing
+    id: Swing
+    tags: [Tier I, Utility, "Range: Weapon"]
+    cost:
+      - "[section:clr-encost]1 EN[/section]"
+    description: >
+      The next [url:def#MeleeAttack]melee attack[/url] within this turn gains the following features:
+      [ul]
+      [li]Target has [url:core#Disadvantage]Disadvantage 1[/url] on [url:def#Parry]Parry[/url][/li]
+      [li]Ignores [[section:clr-attr]STR-MOD[/section]] [url:values#BlockStrength]block strength[/url][/li]
+      [/ul]
 
 reaction:
   - name: Aimed Shot
@@ -32,3 +99,65 @@ reaction:
       - "[section:clr-encost]1 EN[/section]"
     description: >
       The next [url:def#RangedAttack]ranged attack[/url] within this turn targets a specific hit zone, but has [url:core#Disadvantage]Disadvantage 1[/url] when targeting arms or legs and [url:core#Disadvantage]Disadvantage 2[/url] when targeting the head. 
+
+  - name: Aimed Strike
+    id: AimedStrike
+    tags: [Tier I, Reaction]
+    cost:
+      - "[section:clr-encost]1 EN[/section]"
+    description: >
+      The next [url:def#MeleeAttack]melee attack[/url] within this turn targets a specific hit zone, but has [url:core#Disadvantage]Disadvantage 1[/url] when targeting arms or legs and [url:core#Disadvantage]Disadvantage 2[/url] when targeting the head. 
+
+  - name: Counter
+    id: Counter
+    tags: [Tier I, Reaction, "Range: Weapon"]
+    cost:
+      - "[section:clr-encost]1 EN[/section]"
+    description: >
+      Executes a [url:def#MeleeAttack]melee attack[/url] or [url:def#Grapple]grapple[/url] against the attacker.
+      [br][i]Only usable immediately after a successful [url:def#Parry]parry[/url].[/i]
+
+  - name: Dodge Reflex
+    id: DodgeReflex
+    tags: [Tier I, Reaction]
+    cost:
+      - "[section:clr-encost]1 EN[/section]"
+    description: >
+      Gain [url:core#Advantage]Advantage 1[/url] on the next [url:def#Dodge]dodge[/url] within this turn.
+
+  - name: Shield Bash
+    id: ShieldBash
+    tags: [Tier I, Reaction, "Range: Weapon"]
+    cost:
+      - "[section:clr-encost]1 EN[/section]"
+    description: >
+      Executes a non-parriable [url:def#MeleeAttack]melee attack[/url] with an equipped shield against the attacker.
+      [br][i]Only usable immediately after a successful [url:def#Block]block[/url] with a shield that did not result in a [url:def#Hit]hit[/url].[/i]
+
+  - name: Steady Block
+    id: SteadyBlock
+    tags: [Tier I, Reaction]
+    cost:
+      - "[section:clr-encost]1 EN[/section]"
+    description: >
+      Gain [url:core#Advantage]Advantage 1[/url] on the next [url:def#Block]block[/url] within this turn.
+
+  - name: Swift Parry
+    id: SwiftParry
+    tags: [Tier I, Reaction]
+    cost:
+      - "[section:clr-encost]1 EN[/section]"
+    description: >
+      Gain [url:core#Advantage]Advantage 1[/url] on the next [url:def#Parry]parry[/url] within this turn.
+
+  - name: Threat
+    id: Threat
+    tags: [Tier I, Reaction]
+    cost:
+      - "[section:clr-encost]1 EN[/section]"
+    type:
+      - "Check [section:clr-value]Proficiency[/section] vs [section:clr-attr]WIL[/section]"
+    description: >
+      [url:status#Frightened]Frightens[/url] a target in sight range immediately after causing a [url:wounds#SevereWounds]severe wound[/url].
+      [br][b]SAVED:[/b] No effect.
+      [br][b]EFFECT+10:[/b] [url:status#Panicked]Panicked[/url].

@@ -3,7 +3,77 @@ id: "skills-iii"
 prefix: "skills3"
 
 offensive:
+  - name: Flash of Steel
+    id: FlashOfSteel
+    tags: [Tier III, Offensive, "Range: [url:values#MS]MS[/url]"]
+    cost:
+      - "[section:clr-encost]2 EN[/section]"
+    description: >
+      Executes consecutive [url:def#MeleeAttack]melee attacks[/url] against up to [[section:clr-attr]DEX-MOD[/section]] targets.
+      [br]Targets may stand at most [url:values#MS]MS[/url] meters apart to chain the attacks.
+      [br]The user must choose to end the ability on any square in weapon range of the final target.
+      [br]Total [section:clr-en]EN[/section] cost is multiplied with the number of targets.
+
+  - name: Heavy Blow
+    id: HeavyBlow
+    tags: [Tier III, Offensive, "Range: Weapon"]
+    cost:
+      - "[section:clr-encost]2 EN[/section]"
+    description: >
+      Executes a [url:def#MeleeAttack]melee attack[/url] with the following features:
+      [ul]
+      [li]Target has [url:core#Disadvantage]Disadvantage 1[/url] on [url:def#Parry]parry[/url][/li]
+      [li]Ignores [[section:clr-attr]STR-MOD[/section]] [url:values#BlockStrength]block strength[/url][/li]
+      [li]Applies [url:status#DefensePenalty]defense penalty[/url] [[section:clr-value]proficiency[/section]] on [url:def#Hit]hit[/url][/li]
+      [/ul]
+      [br][i]Requires blunt weapon.[/i]
+
+  - name: Whirl
+    id: Whirl
+    tags: [Tier III, Offensive, "Range: Weapon"]
+    cost:
+      - "[section:clr-encost]3 EN[/section]"
+    description: >
+      Executes a wide [url:def#MeleeAttack]melee attack[/url] targeting all enemies in weapon range.
 
 utility:
+  - name: "Stance: Attack"
+    id: StanceAttack
+    tags: [Tier III, Utility, "[url:def#Concentration]Concentration[/url]"]
+    cost:
+      - "[section:clr-encost]2 EN[/section]"
+    description: >
+      [url:def#MeleeAttack]Melee attacks[/url] are [url:core#Eased]eased[/url] by [[section:clr-value]proficiency[/section]].
+
+  - name: "Stance: Block"
+    id: StanceBlock
+    tags: [Tier III, Utility, "[url:def#Concentration]Concentration[/url]"]
+    cost:
+      - "[section:clr-encost]2 EN[/section]"
+    description: >
+      [url:def#Block]Blocks[/url] are [url:core#Eased]eased[/url] by [[section:clr-value]proficiency[/section]].
+
+  - name: "Stance: Dodge"
+    id: StanceDodge
+    tags: [Tier III, Utility, "[url:def#Concentration]Concentration[/url]"]
+    cost:
+      - "[section:clr-encost]2 EN[/section]"
+    description: >
+      [url:def#Dodge]Dodges[/url] are [url:core#Eased]eased[/url] by [[section:clr-value]proficiency[/section]].
+
+  - name: "Stance: Parry"
+    id: StanceParry
+    tags: [Tier III, Utility, "[url:def#Concentration]Concentration[/url]"]
+    cost:
+      - "[section:clr-encost]2 EN[/section]"
+    description: >
+      [url:def#Parry]Parries[/url] are [url:core#Eased]eased[/url] by [[section:clr-value]proficiency[/section]].
 
 reaction:
+  - name: Ricochet
+    id: Ricochet
+    tags: [Tier III, Reaction]
+    cost:
+      - "[section:clr-encost]1 EN[/section]"
+    description: >
+      The next [url:def#RangedAttack]ranged attack[/url] within this turn bounces to another target within the attack's remaining range if it is not [url:def#Block]blocked[/url] or [url:def#Parry]parried[/url].

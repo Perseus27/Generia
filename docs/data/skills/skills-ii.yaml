@@ -3,7 +3,230 @@ id: "skills-ii"
 prefix: "skills2"
 
 offensive:
+  - name: Mighty Strike
+    id: MightyStrike
+    tags: [Tier II, Offensive, "Range: Weapon"]
+    cost:
+      - "[section:clr-encost]1/2/3/4/5 EN[/section]"
+    description: >
+      Executes a powerful [url:def#MeleeAttack]melee attack[/url], [url:core#Hindered]hindered[/url] by 4/6/8/10/12.
+      [br]Damage dealt is doubled, up to a limit of [[section:clr-attr]STR-MOD[/section]] * 2/4/6/8/10.
+
+  - name: Mordhau
+    id: Mordhau
+    tags: [Tier II, Offensive, "Range: Weapon"]
+    cost:
+      - "[section:clr-encost]2 EN[/section]"
+    description: >
+      Executes a [url:def#MeleeAttack]melee attack[/url] with the following features:
+      [ul]
+      [li]Causes blunt damage[/li]
+      [li]Ignores [[section:clr-attr]STR-MOD[/section]] [url:values#BlockStrength]block strength[/url][/li]
+      [li]Causes [url:status#Brittle]brittle 1[/url] at the targeted [url:def#HitZone]hit zone[/url][/li]
+      [/ul]
+      [br][i]Requires two-handed melee weapon.[/i]
+
+  - name: Multishot
+    id: Multishot
+    tags: [Tier II, Offensive, "Range: Weapon"]
+    cost:
+      - "[section:clr-encost]2 EN per attack[/section]"
+    description: >
+      Executes up to [[section:clr-attr]DEX-MOD[/section]/2] successive [url:def#RangedAttack]ranged attacks[/url] (min. [section:clr-value]2[/section]).
+      [br]Bonuses and penalties apply to all attacks for both attacker and target.
+      [br]Concentration saves take place after the skill is fully executed and are done only once per active concentration.
+      [br]Each [url:def#Hit]hit[/url] after the first [url:core#Hindered]hinders[/url] the saves by [section:clr-value]2[/section].
+
+  - name: Multistrike
+    id: Multistrike
+    tags: [Tier II, Offensive, "Range: Weapon"]
+    cost:
+      - "[section:clr-encost]2 EN per attack[/section]"
+    description: >
+      Executes up to [[section:clr-attr]DEX-MOD[/section]/2] successive [url:def#MeleeAttack]melee attacks[/url] (min. [section:clr-value]2[/section]).
+      [br]Bonuses and penalties apply to all attacks for both attacker and target.
+      [br]Concentration saves take place after the skill is fully executed and are done only once per active concentration.
+      [br]Each [url:def#Hit]hit[/url] after the first [url:core#Hindered]hinders[/url] the saves by [section:clr-value]2[/section].
+
+  - name: "Precise Shot: Arms"
+    id: PreciseShotArms
+    tags: [Tier II, Offensive, "Range: Weapon"]
+    cost:
+      - "[section:clr-encost]2 EN[/section]"
+    description: >
+      Executes a [url:def#RangedAttack]ranged attack[/url] that always targets the arms.
+      [br]On [url:def#Hit]hit[/url], it causes [url:status#AttackPenalty]attack penalty[/url] [[section:clr-attr]PER-MOD[/section]].
+      [br][i]Only usable if the target has arms or similar appendages.[/i]
+
+  - name: "Precise Shot: Head"
+    id: PreciseShotHead
+    tags: [Tier II, Offensive, "Range: Weapon"]
+    cost:
+      - "[section:clr-encost]2 EN[/section]"
+    description: >
+      Executes a [url:def#RangedAttack]ranged attack[/url] that always targets the head.
+      [br]On [url:def#Hit]hit[/url], it causes [url:status#DefensePenalty]defense penalty[/url] [[section:clr-attr]PER-MOD[/section]].
+      [br][i]Only usable if the target has a head.[/i]
+
+  - name: "Precise Shot: Legs"
+    id: PreciseShotLegs
+    tags: [Tier II, Offensive, "Range: Weapon"]
+    cost:
+      - "[section:clr-encost]2 EN[/section]"
+    description: >
+      Executes a [url:def#RangedAttack]ranged attack[/url] that always targets the legs.
+      [br]On [url:def#Hit]hit[/url], it causes [url:status#Slowed]slowed 1[/url].
+      [br][i]Only usable if the target has legs or similar appendages.[/i]
 
 utility:
+  - name: Bodycheck
+    id: Bodycheck
+    tags: [Tier II, Utility, "Range: [url:values#MS]MS[/url]"]
+    cost:
+      - "[section:clr-encost]2 EN[/section]"
+    type:
+      - "Check [section:clr-attr]STR[/section] vs [section:clr-attr]STR[/section]/[section:clr-attr]DEX[/section]"
+    description: >
+      Charges the target in a straight line to knock it [url:status#Prone]prone[/url].
+      [br][b]SAVED:[/b] Target becomes [url:status#OffBalance]off-balance[/url].
+      [br][b]EFFECT+10:[/b] No effect.
+
+  - name: Camouflage
+    id: Camouflage
+    tags: [Tier II, Utility, "[url:def#Concentration]Concentration[/url]"]
+    cost:
+      - "[section:clr-encost]1/2/3 EN[/section]"
+    description: >
+      Gains [url:status#Hidden]Hidden 1/2/3[/url].
+
+  - name: Disarm
+    id: Disarm
+    tags: [Tier II, Utility, "Range: Weapon"]
+    cost:
+      - "[section:clr-encost]1 EN[/section]"
+    type:
+      - "Check [section:clr-value]Proficiency[/section] vs [section:clr-value]Proficiency[/section]"
+    description: >
+      Knocks an equipped weapon out of the target's hand. It falls on the ground and remains there until it is picked up with an attack or utility action.
+      [br][b]SAVED:[/b] Target gains [url:status#DefensePenalty]defense penalty[/url] [[section:clr-value]proficiency[/section]] instead.
+      [br][b]EFFECT+10:[/b] No effect.
+
+  - name: Disorientate
+    id: Disorientate
+    tags: [Tier II, Utility]
+    cost:
+      - "[section:clr-encost]2 EN[/section]"
+    type:
+      - "Check [section:clr-value]Proficiency[/section] vs [section:clr-attr]INT[/section]"
+    description: >
+      Confuses opponents in a [section:clr-value]2m[/section] radius with erratic movements, causing [url:status#Confused]confused[/url].
+      [br][b]SAVED:[/b] Targets gain [url:status#AttackPenalty]attack penalty[/url] [[section:clr-value]proficiency[/section]] instead.
+      [br][b]EFFECT+10:[/b] No effect.
+
+  - name: Find Weakness
+    id: FindWeakness
+    tags: [Tier II, Utility]
+    cost:
+      - "[section:clr-encost]1 EN[/section]"
+    description: >
+      Attempts to find a weakness in an opponent's armor.
+      [br]Choose a [url:def#HitZone]hit zone[/url] and make a [section:clr-attr]PER[/section] check against [section:clr-value]10 + AV[/section].
+      [br]On success, all basic attacks on that zone gain [[section:clr-attr]PER-MOD[/section]] armor penetration.
+      [br][i]Applies only to the user of this skill.[/i]
+
+  - name: Overwatch
+    id: Overwatch
+    tags: [Tier II, Utility, "Range: Weapon"]
+    cost:
+      - "[section:clr-encost]1 EN (Utility)[/section]"
+      - "Hidden Action: [section:clr-attr]DEX[/section]"
+    description: >
+      Choose an area with a [section:clr-value]3m[/section] radius. Targets entering or moving within this area may be attacked with a [url:def#RangedAttack]ranged attack[/url] as a reaction.
+      [br]Overwatch ends at the start of the user's next turn, after performing [[section:clr-attr]PER-MOD[/section]] reactive attacks, or after changing position.
+      [br][i]Can be used as Attack or Utility action. No energy cost if used as Attack action.[/i]
+
+  - name: "Stance: Intercept"
+    id: StanceIntercept
+    tags: [Tier II, Utility, "[url:def#Concentration]Concentration[/url]"]
+    cost:
+      - "[section:clr-encost]–[/section]"
+    description: >
+      The user may strike any target entering weapon range with a [url:def#MeleeAttack]melee attack[/url] as a reaction.
+
+  - name: "Technique: Constitution"
+    id: TechniqueConstitution
+    tags: [Tier II, Utility, "[url:def#Concentration]Concentration[/url]"]
+    cost:
+      - "[section:clr-encost]1 EN[/section]"
+    description: >
+      Gains [url:core#Advantage]Advantage 1[/url] on [section:clr-attr]CON[/section] checks while [url:def#Concentration]Concentration[/url] is kept.
+
+  - name: "Technique: Strength"
+    id: TechniqueStrength
+    tags: [Tier II, Utility, "[url:def#Concentration]Concentration[/url]"]
+    cost:
+      - "[section:clr-encost]1 EN[/section]"
+    description: >
+      Gains [url:core#Advantage]Advantage 1[/url] on [section:clr-attr]STR[/section] checks while [url:def#Concentration]Concentration[/url] is kept.
+
+  - name: "Technique: Dexterity"
+    id: TechniqueDexterity
+    tags: [Tier II, Utility, "[url:def#Concentration]Concentration[/url]"]
+    cost:
+      - "[section:clr-encost]1 EN[/section]"
+    description: >
+      Gains [url:core#Advantage]Advantage 1[/url] on [section:clr-attr]DEX[/section] checks while [url:def#Concentration]Concentration[/url] is kept.
+
+  - name: "Technique: Second Wind"
+    id: TechniqueSecondWind
+    tags: [Tier II, Utility, "[url:def#Concentration]Concentration[/url]"]
+    cost:
+      - "[section:clr-encost]1 EN[/section]"
+    description: >
+      Gains [url:status#Regeneration]Regeneration 2[/url] while [url:def#Concentration]Concentration[/url] is kept.
+
+  - name: Vigilance
+    id: Vigilance
+    tags: [Tier II, Defensive, "Range: Weapon", "[url:def#Concentration]Concentration[/url]"]
+    cost:
+      - "[section:clr-encost]1 EN[/section]"
+      - "Hidden Action: [section:clr-attr]DEX[/section]"
+    description: >
+      Prepares to shoot down hostile projectiles as a reaction (attack roll vs. attack roll).
+      [br]Vigilance ends at the start of the user's next turn, after shooting down [[section:clr-attr]PER-MOD[/section]] projectiles, or after involuntarily changing position.
 
 reaction:
+  - name: Adrenaline
+    id: Adrenaline
+    tags: [Tier II, Reaction, "Range: Weapon"]
+    cost:
+      - "[section:clr-encost]2 EN[/section]"
+    description: >
+      Immediately executes a [url:def#BasicAttack]basic attack[/url] in exchange for losing next turn's attack action.
+
+  - name: Daredevil
+    id: Daredevil
+    tags: [Tier II, Reaction, "Range: Weapon"]
+    cost:
+      - "[section:clr-encost]1 EN[/section]"
+    description: >
+      The next basic attack within this turn gains [url:core#Advantage]Advantage 2[/url].
+      [br]In return, the user has [url:core#Disadvantage]Disadvantage 1[/url] on [url:def#Block]block[/url], [url:def#Dodge]dodge[/url], and [url:def#Parry]parry[/url] rolls until the start of their next turn.
+
+  - name: Hold Breath
+    id: HoldBreath
+    tags: [Tier II, Reaction, "Range: Weapon"]
+    cost:
+      - "[section:clr-encost]1 EN[/section]"
+    description: >
+      The next [url:def#RangedAttack]ranged attack[/url] within this turn gains [url:core#Advantage]Advantage 1[/url].
+
+  - name: Shoulder Bash
+    id: ShoulderBash
+    tags: [Tier II, Reaction, "Range: Weapon"]
+    cost:
+      - "[section:clr-encost]2 EN[/section]"
+    type:
+      - "Check [section:clr-attr]STR[/section] vs [section:clr-attr]STR[/section]/[section:clr-attr]DEX[/section]"
+    description: >
+      Crashes shoulder-first into the target immediately after a [url:def#Hit]hit[/url] with a melee weapon, causing [url:status#Knockback]Knockback[/url] [[section:clr-attr]STR-MOD[/section]] if it fails the check.
