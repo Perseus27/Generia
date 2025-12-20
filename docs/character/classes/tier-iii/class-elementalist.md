@@ -2,4 +2,4 @@
 title: Class – Elementalist
 ---
 
-{{ bb_from_file('bb_docs/character/classes/tier-iii/class-elementalist.bb') }}
+{{ class_main('data/classes/tier-iii/class-elementalist.yaml') }}

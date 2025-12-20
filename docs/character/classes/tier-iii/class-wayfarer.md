@@ -2,4 +2,4 @@
 title: Class – Wayfarer
 ---
 
-{{ bb_from_file('bb_docs/character/classes/tier-iii/class-wayfarer.bb') }}
+{{ class_main('data/classes/tier-iii/class-wayfarer.yaml') }}

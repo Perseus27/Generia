@@ -2,4 +2,4 @@
 title: Class – Ranger
 ---
 
-{{ bb_from_file('bb_docs/character/classes/tier-iii/class-ranger.bb') }}
+{{ class_main('data/classes/tier-iii/class-ranger.yaml') }}
