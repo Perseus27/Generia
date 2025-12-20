@@ -1,0 +1,35 @@
+name: "Templar"
+id: "class-templar"
+prefix: "class3"
+description: >
+  Templars form the elite fighting force of any Sol temple. Their mere presence burns enemies with holy light.
+
+prerequisites:
+  - Any Fighter subclass
+  - Sun Cleric
+
+subclasses: []
+
+perks:
+  combat:
+    - []
+  magic:
+    - ["Corona", "20 SP, X"]
+
+proficiencies:
+  civilian:
+    - []
+  magic:
+    - []
+  weapons:
+    - ["Blunt [sup]or[/sup] Slashing [sup]or[/sup] Stabbing Weapons: Adept", "30 SP"]
+
+actions:
+  skills:
+    - []
+  spells:
+    - ["Acolyte: Adept", "30 SP"]
+    - ["Impulse", "20 SP, X"]
+
+starter_set:
+  - []

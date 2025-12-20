@@ -1,0 +1,33 @@
+name: "Virtuoso"
+id: "class-virtuoso"
+prefix: "class3"
+description: >
+  Virtuoso
+
+prerequisites:
+  - Troubadour
+
+subclasses: []
+
+perks:
+  combat:
+    - []
+  magic:
+    - []
+
+proficiencies:
+  civilian:
+    - []
+  magic:
+    - []
+  weapons:
+    - []
+
+actions:
+  skills:
+    - []
+  spells:
+    - []
+
+starter_set:
+  - []

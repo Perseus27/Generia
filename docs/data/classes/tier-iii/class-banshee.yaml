@@ -1,0 +1,33 @@
+name: "Banshee"
+id: "class-banshee"
+prefix: "class3"
+description: >
+  Banshee
+
+prerequisites:
+  - Siren
+
+subclasses: []
+
+perks:
+  combat:
+    - []
+  magic:
+    - []
+
+proficiencies:
+  civilian:
+    - []
+  magic:
+    - []
+  weapons:
+    - []
+
+actions:
+  skills:
+    - []
+  spells:
+    - []
+
+starter_set:
+  - []

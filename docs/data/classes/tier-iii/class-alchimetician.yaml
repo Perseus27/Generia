@@ -1,0 +1,34 @@
+name: "Alchimetician"
+id: "class-alchimetician"
+prefix: "class3"
+description: >
+  Alchimetician
+
+prerequisites:
+  - Any Alchemist subclass
+  - Hermetician
+
+subclasses: []
+
+perks:
+  combat:
+    - []
+  magic:
+    - []
+
+proficiencies:
+  civilian:
+    - []
+  magic:
+    - []
+  weapons:
+    - []
+
+actions:
+  skills:
+    - []
+  spells:
+    - []
+
+starter_set:
+  - []

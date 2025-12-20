@@ -1,0 +1,33 @@
+name: "Wayfarer"
+id: "class-wayfarer"
+prefix: "class3"
+description: >
+  Wayfarer
+
+prerequisites:
+  - Monk
+
+subclasses: []
+
+perks:
+  combat:
+    - ["Deflector", "10 SP"]
+  magic:
+    - []
+
+proficiencies:
+  civilian:
+    - []
+  magic:
+    - []
+  weapons:
+    - ["Natural Weapons: Adept", "30 SP"]
+
+actions:
+  skills:
+    - []
+  spells:
+    - []
+
+starter_set:
+  - []

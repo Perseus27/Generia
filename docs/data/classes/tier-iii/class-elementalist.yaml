@@ -1,0 +1,36 @@
+name: "Elementalist"
+id: "class-elementalist"
+prefix: "class3"
+description: >
+  Lorem ipsum
+
+prerequisites:
+  - Summoner
+
+subclasses: []
+
+perks:
+  combat:
+    - []
+  magic:
+    - ["Channel Element", "20 SP, X"]
+    - ["Focus I", "10 SP"]
+    - ["Focus II", "20 SP"]
+
+proficiencies:
+  civilian:
+    - []
+  magic:
+    - []
+  weapons:
+    - []
+
+actions:
+  skills:
+    - []
+  spells:
+    - ["Shaman: Adept", "30 SP"]
+    - ["Elemental Field", "20 SP, X"]
+
+starter_set:
+  - []

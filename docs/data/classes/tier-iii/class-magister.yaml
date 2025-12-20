@@ -1,0 +1,36 @@
+name: "Magister"
+id: "class-magister"
+prefix: "class3"
+description: >
+  Magister
+
+prerequisites:
+  - Hermetician [sup]or[/sup] Kinetician [sup]or[/sup] Meteorician [sup]or[/sup] Thermician
+
+subclasses: []
+
+perks:
+  combat:
+    - []
+  magic:
+    - ["Disruption Matrix", "20 SP, X"]
+    - ["Astral Body I", "10 SP"]
+    - ["Shield Mage", "20 SP"]
+
+proficiencies:
+  civilian:
+    - []
+  magic:
+    - []
+  weapons:
+    - []
+
+actions:
+  skills:
+    - []
+  spells:
+    - ["Hermetics [sup]or[/sup] Kinetics [sup]or[/sup] Meteorics [sup]or[/sup] Thermics: Adept", "30 SP"]
+    - ["Negate", "20 SP, X"]
+
+starter_set:
+  - []
