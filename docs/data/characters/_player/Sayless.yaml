@@ -4,8 +4,8 @@ info:
   species: Alb
   level: 12
   size: Medium
-  classes: "Nox, Archer"
-  tags: "–"
+  classes: [Nox, Archer]
+  tags: [–]
 notes: >
   635 XP
   [br]

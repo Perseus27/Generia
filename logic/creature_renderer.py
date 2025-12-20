@@ -9,9 +9,10 @@ class Creature_Renderer:
 
     BB_HELPER = BB_Renderer()
     
-    def __init__(self, yaml_input):
+    def __init__(self, yaml_input, autolinker):
         self.yaml_input = yaml_input;
         self.html_output = ""
+        self.autolinker = autolinker
 
 
     def get_output(self):
@@ -96,24 +97,24 @@ class Creature_Renderer:
     
     def format_info(self):
         i = self.yaml_input.get("info", {})
+        species = i.get("species")
+        size = i.get("size")
+        tag_list = self.format_list_comma(i.get("tags"), to_link="tag")
         info_bb = f"""
-[table][tr][td][b][url:/generia/rules/misc/species]Species[/url]:[/b][/td]
-[td]{i.get("species")}[/td]
+[table][tr][td][b]Species:[/b][/td]
+[td][url:{self.autolinker.link_perk(species)}]{species}[/url][/td]
 [/tr]
 [tr][td][b]Level:[/b][/td]
 [td]{i.get("level")}[/td]
 [/tr]
-[tr][td][b][url:/generia/rules/misc/creature-sizes]Size[/url]:[/b][/td]
-[td]{i.get("size")}[/td]
+[tr][td][b]Size:[/b][/td]
+[td][url:{self.autolinker.link_tag(size)}]{size}[/url][/td]
 [/tr]
 [/table]
 [container:creature-info-container]
 [br]
-[b][url:/generia/character/classes/class-overview/]Classes[/url]:[/b]
-[br]{i.get("classes")}
-[br]
-[br][b][url:/generia/rules/misc/creature-tags]Tags[/url]:[/b]
-[br]{i.get("tags")}
+[br][b]Tags:[/b]
+[br]{tag_list}
 [/container]
         """
         return self.BB_HELPER.process(info_bb)
@@ -232,4 +233,26 @@ class Creature_Renderer:
                     else:
                         result += "[br]"+x.get(subitem)
                 result += "[/container]"
+        return result
+
+    def format_list_comma(self, list, to_link=False):
+        result = ""
+        first = True
+        for i in list:
+            if first:
+                first = False
+            else:
+                result += ", "
+            if to_link:
+                link = False
+                if to_link == "class":
+                    link = self.autolinker.link_class(i)
+                elif to_link == "tag":
+                    link = self.autolinker.link_tag(i)
+                if link:
+                    result += f"[url:{link}]{i}[/url]"
+                else:
+                    result += i
+            else:
+                result += i
         return result

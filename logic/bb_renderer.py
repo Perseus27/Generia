@@ -25,6 +25,8 @@ class BB_Renderer:
             'wounds'    :   '/generia/rules/combat/wounds',
             'dmgtype'   :   '/generia/rules/combat/damage-types',
             'species'   :   '/generia/rules/misc/species',
+            'ctags'     :   '/generia/rules/misc/creature-tags',
+            'csizes'    :   '/generia/rules/misc/creature-sizes',
             'skills1'   :   '/generia/character/skills/skills-tier-i',
             'skills2'   :   '/generia/character/skills/skills-tier-ii',
             'skills3'   :   '/generia/character/skills/skills-tier-iii',

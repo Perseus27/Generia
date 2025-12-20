@@ -1,5 +1,4 @@
 from bb_renderer import BB_Renderer
-from autolinker import Autolinker
 
 class Character_Renderer:
     
@@ -10,9 +9,10 @@ class Character_Renderer:
 
     BB_HELPER = BB_Renderer()
     
-    def __init__(self, yaml_input):
-        self.yaml_input = yaml_input;
+    def __init__(self, yaml_input, autolinker):
+        self.yaml_input = yaml_input
         self.html_output = ""
+        self.autolinker = autolinker
 
 
     def get_output(self):
@@ -97,24 +97,28 @@ class Character_Renderer:
     
     def format_info(self):
         i = self.yaml_input.get("info", {})
+        species = i.get("species")
+        size = i.get("size")
+        class_list = self.format_list_comma(i.get("classes"), to_link="class")
+        tag_list = self.format_list_comma(i.get("tags"), to_link="tag")
         info_bb = f"""
-[table][tr][td][b][url:/generia/rules/misc/species]Species[/url]:[/b][/td]
-[td]{i.get("species")}[/td]
+[table][tr][td][b]Species:[/b][/td]
+[td][url:{self.autolinker.link_perk(species)}]{species}[/url][/td]
 [/tr]
 [tr][td][b]Level:[/b][/td]
 [td]{i.get("level")}[/td]
 [/tr]
-[tr][td][b][url:/generia/rules/misc/creature-sizes]Size[/url]:[/b][/td]
-[td]{i.get("size")}[/td]
+[tr][td][b]Size:[/b][/td]
+[td][url:{self.autolinker.link_tag(size)}]{size}[/url][/td]
 [/tr]
 [/table]
 [container:chara-info-container]
 [br]
-[b][url:/generia/character/classes/class-overview/]Classes[/url]:[/b]
-[br]{i.get("classes")}
+[b]Classes:[/b]
+[br]{class_list}
 [br]
-[br][b][url:/generia/rules/misc/creature-tags]Tags[/url]:[/b]
-[br]{i.get("tags")}
+[br][b]Tags:[/b]
+[br]{tag_list}
 [/container]
         """
         return self.BB_HELPER.process(info_bb)
@@ -270,7 +274,7 @@ class Character_Renderer:
                 elif autolink == "skill":
                     pass
                 elif autolink == "spell":
-                    link = Autolinker().link_spell(x)
+                    link = self.autolinker.link_spell(x)
                 if link:
                     result += "[li][url:"+link+"]"+x+"[/url][/li]"
                 else:
@@ -313,11 +317,11 @@ class Character_Renderer:
                 else:
                     to_link = x
                 if link_type == "perk":
-                    link = Autolinker().link_perk(to_link)
+                    link = self.autolinker.link_perk(to_link)
                 elif link_type == "skill":
-                    link = Autolinker().link_skill(to_link)
+                    link = self.autolinker.link_skill(to_link)
                 elif link_type == "spell":
-                    link = Autolinker().link_spell(to_link)
+                    link = self.autolinker.link_spell(to_link)
                 if isinstance(x, list):
                     if link:
                         result += f"[li][url:{link}]{x[0]}[/url] {x[1]}[/li]"
@@ -330,4 +334,26 @@ class Character_Renderer:
                         result += f"[li]{x}[/li]"
 
         result += list_end
+        return result
+
+    def format_list_comma(self, list, to_link=False):
+        result = ""
+        first = True
+        for i in list:
+            if first:
+                first = False
+            else:
+                result += ", "
+            if to_link:
+                link = False
+                if to_link == "class":
+                    link = self.autolinker.link_class(i)
+                elif to_link == "tag":
+                    link = self.autolinker.link_tag(i)
+                if link:
+                    result += f"[url:{link}]{i}[/url]"
+                else:
+                    result += i
+            else:
+                result += i
         return result

@@ -7,10 +7,12 @@ sys.path.append("logic")
 from test_renderer import Test_Renderer
 from character_renderer import Character_Renderer
 from creature_renderer import Creature_Renderer
+from class_renderer import Class_Renderer
 from table_renderer import Table_Renderer
 from perk_renderer import Perk_Renderer
 from skill_renderer import Skill_Renderer
 from spell_renderer import Spell_Renderer
+from autolinker import Autolinker
 from bb_renderer import BB_Renderer
 
 _BB_HELPER = BB_Renderer()
@@ -18,6 +20,7 @@ _BB_HELPER = BB_Renderer()
 def define_env(env):
     project_root = pathlib.Path(env.project_dir)
     docs_root = project_root / "docs"
+    autolinker = Autolinker()
 
     def _read_yaml(rel_path: str):
         full = docs_root / rel_path
@@ -36,12 +39,17 @@ def define_env(env):
     @env.macro
     def character(path: str):
         yaml_content = _read_yaml(path)
-        return Character_Renderer(yaml_content).get_output()
+        return Character_Renderer(yaml_content, autolinker).get_output()
 
     @env.macro
     def creature(path: str):
         yaml_content = _read_yaml(path)
-        return Creature_Renderer(yaml_content).get_output()        
+        return Creature_Renderer(yaml_content, autolinker).get_output()
+    
+    @env.macro
+    def class_card(path: str):
+        yaml_content = _read_yaml(path)
+        return Class_Renderer(yaml_content, autolinker).get_output_card()
     
     @env.macro
     def table(path: str):

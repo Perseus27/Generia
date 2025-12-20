@@ -1,0 +1,19 @@
+name: Creature Sizes
+id: creature-sizes
+prefix: csizes
+
+content:
+  - name: Tiny
+    id: Tiny
+
+  - name: Small
+    id: Small
+
+  - name: Medium
+    id: Medium
+
+  - name: Large
+    id: Large
+
+  - name: Huge
+    id: Huge
