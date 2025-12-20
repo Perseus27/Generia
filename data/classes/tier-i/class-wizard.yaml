@@ -31,7 +31,7 @@ proficiencies:
     - ["History 1", 1 SP]
   magic:
     - ["Hermetics: Beginner", 10 SP]
-    - ["Kinetics [i]or[/i] Meteorics [i]or[/i] Thermics: Beginner", 10 SP]
+    - ["Kinetics [sup]or[/sup] Meteorics [sup]or[/sup] Thermics: Beginner", 10 SP]
   weapons:
     - []
 
@@ -41,7 +41,7 @@ actions:
   spells:
     - [Mana Beam I, 4 SP]
     - [Hermetic Manipulation, 4 SP]
-    - ["Kinetic [i]or[/i] Meteoric [i]or[/i] Thermal [i]or[/i] Mana Bolt I", 4 SP]
+    - ["Kinetic [sup]or[/sup] Meteoric [sup]or[/sup] Thermal [sup]or[/sup] Mana Bolt I", 4 SP]
 
 starter_set:
   - Wizard Staff

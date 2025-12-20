@@ -29,7 +29,7 @@ proficiencies:
   magic:
     - ["Acolyte: Beginner", 10 SP]
   weapons:
-    - ["Blunt [i]or[/i] Slashing [i]or[/i] Stabbing Weapons: Beginner", 10 SP]
+    - ["Blunt [sup]or[/sup] Slashing [sup]or[/sup] Stabbing Weapons: Beginner", 10 SP]
 
 actions:
   skills:
@@ -41,7 +41,7 @@ actions:
     - [Purify, 4 SP]
 
 starter_set:
-  - "Mace [i]or[/i] Bastard Sword [i]or[/i] Spear"
+  - "Mace [sup]or[/sup] Bastard Sword [sup]or[/sup] Spear"
   - Acolyte Amulet+2
   - Padded Armor
   - Weapon Belt

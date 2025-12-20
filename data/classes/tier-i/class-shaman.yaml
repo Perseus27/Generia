@@ -33,7 +33,7 @@ actions:
   skills:
     - []
   spells:
-    - [Summon: Lesser Elemental, 4 SP]
+    - ["Summon: Lesser Elemental", 4 SP]
     - [Elemental Wrath, 4 SP]
     - [Low Stonewall, 4 SP]
     - [Lesser Elemental Favor, 4 SP]
