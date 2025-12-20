@@ -1,0 +1,60 @@
+name: "Fighter"
+id: "class-fighter"
+
+info: >
+  Fighters excel with diverse weaponry and battlefield tactics.
+
+description: >
+  Fighters can handle a variety of weapon groups and are trained in the arts of war. Their versatility makes them valuable in any adventuring party.
+
+prerequisites:
+  - None
+
+subclasses:
+  - Breaker
+  - Duelist
+  - Field Archer
+  - Moon Warden
+  - Shieldbearer
+  - Skald
+  - Slasher
+  - Spellblade
+  - Stabber
+  - War Dancer
+
+perks:
+  combat:
+    - []
+  magic:
+    - []
+
+proficiencies:
+  civilian:
+    - ["Warfare 2", 3 SP]
+    - ["Monster Lore 1", 1 SP]
+  magic:
+    - []
+  weapons:
+    - ["Blunt or Slashing or Stabbing Weapons: Beginner", 10 SP]
+    - ["Defensive Weapons: Beginner", 10 SP]
+
+skills:
+  - [Charge, 4 SP]
+  - [Feint, 4 SP]
+  - [Leg Sweep, 4 SP]
+  - [Shove, 4 SP]
+
+spells:
+  - []
+
+starter_set:
+  - Broadsword or Mace or Smallsword or War Spear
+  - Roundshield or Buckler
+  - Leather Helmet
+  - Leather Armor
+  - Leather Gauntlets
+  - Leather Greaves
+  - Weapon Belt
+  - "Adventurer's Belt"
+  - "Adventurer's Pouch"
+  - 5 Silver
