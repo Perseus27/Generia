@@ -7,7 +7,6 @@ description: >
 prerequisites:
   - Bard
   - Fighter
-  - Defensive: Beginner
 
 subclasses:
   - Champion

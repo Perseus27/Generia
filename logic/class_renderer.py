@@ -16,11 +16,12 @@ class Class_Renderer:
     
 
     def format_class_main(self,c):
+        is_tier1 = c.get("prefix") == "class1"
         caster_info = c.get("spellcaster_info", False)
         perks = c.get("perks")
         actions = c.get("actions")
         proficiencies = c.get("proficiencies")
-        prof_civilian = proficiencies.get("civilian")
+        prof_civilian = proficiencies.get("civilian", [])
         starter_set = c.get("starter_set", [])
         # class header
         result = f"[container:class-main]"
@@ -82,7 +83,7 @@ class Class_Renderer:
         result += f"[h2]Proficiencies[/h2]"
         result += f"[container:class-main-body-category]"
         ### weapon
-        if len(prof_civilian):
+        if is_tier1:
             result += f"[container:class-main-sub33]"
         else:
             result += f"[container:class-main-sub50]"
@@ -90,7 +91,7 @@ class Class_Renderer:
         result += f"{self.build_ul_li(proficiencies.get('weapons'))}"
         result += f"[/container]"
         ### spellcasting
-        if len(prof_civilian):
+        if is_tier1:
             result += f"[container:class-main-sub33]"
         else:
             result += f"[container:class-main-sub50]"
@@ -98,7 +99,7 @@ class Class_Renderer:
         result += f"{self.build_ul_li(proficiencies.get('magic'))}"
         result += f"[/container]"
         ### civilian?
-        if len(prof_civilian):
+        if is_tier1:
             result += f"[container:class-main-sub33]"
             result += f"[h4]Civilian[/h4]"
             result += f"{self.build_ul_li(proficiencies.get('civilian'))}"
@@ -109,7 +110,7 @@ class Class_Renderer:
         # close body
         result += f"[/container]"
         # STARTER SET ???
-        if len(starter_set):
+        if is_tier1:
             result += f"[hr]"
             result += f"[container:class-main-starter]"
             result += f"[h2]Starter Set[/h2]"
