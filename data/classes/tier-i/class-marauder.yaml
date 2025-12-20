@@ -1,6 +1,6 @@
 name: "Marauder"
 id: "class-marauder"
-
+prefix: "class1"
 description: >
   Marauders are lone fighters who create chaos on the battlefield with brutal melee attacks. Their weapons are often less “civilized” than a fighter’s, but no less deadly.
 

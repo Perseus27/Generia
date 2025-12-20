@@ -1,6 +1,6 @@
 name: "Shieldbearer"
 id: "class-shieldbearer"
-
+prefix: "class2"
 description: >
   Shieldbearers are stalwart defenders who protect less-armored party members and draw enemy attention.
 

@@ -1,6 +1,6 @@
 name: "Breaker"
 id: "class-breaker"
-
+prefix: "class2"
 description: >
   Breakers specialize in blunt weapons to break an enemy’s defenses with great force - often literally.
 

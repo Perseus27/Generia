@@ -1,6 +1,6 @@
 name: "War Dancer"
 id: "class-war-dancer"
-
+prefix: "class2"
 description: >
   War Dancers specialize in polearms and dominate the battlefield with elegant precision and considerable reach.
 

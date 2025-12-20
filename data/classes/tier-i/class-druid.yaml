@@ -1,6 +1,6 @@
 name: "Druid"
 id: "class-druid"
-
+prefix: "class1"
 spellcaster_info: >
   See also: [url:/generia/character/spellcasting-traditions/druid/what-is-a-druid]What is a Druid?[/url]
 

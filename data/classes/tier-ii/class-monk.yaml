@@ -1,6 +1,6 @@
 name: "Monk"
 id: "class-monk"
-
+prefix: "class2"
 description: >
   Some Marauders find inner balance and resist the bloodrage. If such a marauder turns to shamanism, they follow the path of the Monk - warriors seeking spiritual enlightenment and bodily perfection. They prefer blunt weapons or unarmed combat to avoid the sight of flowing blood.
 

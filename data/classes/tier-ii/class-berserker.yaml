@@ -1,6 +1,6 @@
 name: "Berserker"
 id: "class-berserker"
-
+prefix: "class2"
 description: >
   Berserkers are marauders who give themselves over to a bloodrage and unleash frenzied attacks that wreck enemy ranks.
 

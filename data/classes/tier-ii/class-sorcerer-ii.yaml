@@ -1,6 +1,6 @@
 name: "Sorcerer II"
 id: "class-sorcerer-ii"
-
+prefix: "class2"
 description: >
   WARNING: ADVANCED CLASS Sorcerers are self-taught spellcasters who rely entirely on their intuition to work magic. Predictably, this often results in chaos.
 

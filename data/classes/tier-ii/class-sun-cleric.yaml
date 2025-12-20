@@ -1,6 +1,6 @@
 name: "Sun Cleric"
 id: "class-sun-cleric"
-
+prefix: "class2"
 description: >
   Sun Clerics follow the example of the martial sun god Sol and dedicate themselves to purging evil in holy light.
 

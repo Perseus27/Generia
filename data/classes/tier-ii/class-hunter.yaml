@@ -1,6 +1,6 @@
 name: "Hunter"
 id: "class-hunter"
-
+prefix: "class2"
 description: >
   Hunters spend much time in the wild. They are not only excellent archers but also survivalists.
 

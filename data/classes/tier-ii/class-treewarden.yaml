@@ -1,6 +1,6 @@
 name: "Treewarden"
 id: "class-treewarden"
-
+prefix: "class2"
 description: >
   Treewardens are druids focused on the plant world. They excel at hindering foes and controlling terrain.
 

@@ -1,6 +1,6 @@
 name: "Moon Priest"
 id: "class-moon-priest"
-
+prefix: "class2"
 description: >
   Moon Priests devote themselves to the moon goddess Luna to bring her grace to the world. They are not very threatening in melee but compensate with powerful buffing and healing spells.
 
