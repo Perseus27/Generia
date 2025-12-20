@@ -207,8 +207,7 @@ ritual:
       - "[section:clr-ritual]RITUAL[/section]"
     material:
       - "Matrix Crystal"
-    cost:
-      - "Cast: 1 Phase"
+    cast_time: 1 Phase
     description: >
       Create an arcane circle that emits a loud alarm when an intruder enters.
     effect: >
@@ -221,8 +220,7 @@ ritual:
       - "[section:clr-ritual]RITUAL[/section]"
     material:
       - "Matrix Crystal"
-    cost:
-      - "Cast: 1 Phase"
+    cast_time: 1 Phase
     description: >
       Create a static illusion blending seamlessly into the surroundings that makes creatures/objects up to 4 m high in the radius much harder to detect. Lasts 12 hours per matrix crystal used.
     effect: >

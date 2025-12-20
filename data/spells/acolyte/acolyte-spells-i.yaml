@@ -98,8 +98,7 @@ ritual:
     tags: ["TIER I", "Luna", "Out of Combat"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
-    cost:
-      - "Cast: Variable"
+    cast_time: Variable
     description: >
       Petitions Luna for an effect related to her [b]domains[/b]:
       [br]Elemental: [i]Light, Water, Arcane[/i]
@@ -113,8 +112,7 @@ ritual:
     tags: ["TIER I", "Sol", "Out of Combat"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
-    cost:
-      - "Cast: Variable"
+    cast_time: Variable
     description: >
       Petitions Sol for an effect related to his [b]domains[/b]:
       [br]Elemental: [i]Light, Fire[/i]
@@ -128,8 +126,7 @@ ritual:
     tags: ["TIER I", "Luna", "Out of Combat", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
-    cost:
-      - "Cast: ½ Phase"
+    cast_time: ½ Phase
     description: >
       Asks Luna’s aid for a Medicine check.
     effect: >
@@ -142,8 +139,7 @@ ritual:
       - "[section:clr-ritual]RITUAL[/section]"
     material:
       - "Sunstone"
-    cost:
-      - "Cast: ½ Phase"
+    cast_time: ½ Phase
     description: >
       Consecrates up to [[section:clr-value]Sol[/section]] weapons in the sun god’s name until sunset.
     effect: >

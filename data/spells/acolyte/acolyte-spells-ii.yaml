@@ -149,9 +149,8 @@ ritual:
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     material:
-      - "Moonstone"
-    cost:
-      - "Cast: 1 hour"
+      - Moonstone
+    cast_time: 1 Phase
     description: >
       Blesses a room as a sacred refuge for the sick and wounded; must be renewed at sunset. Room max: 40 m², 6 m high, clearly bounded on all sides.
     effect: >
@@ -163,9 +162,8 @@ ritual:
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     material:
-      - "Sunstone"
-    cost:
-      - "Cast: 1 Phase"
+      - Sunstone
+    cast_time: 1 Phase
     description: >
       Blesses a room as a sacred fortress; must be renewed at sunrise and sunset or it ends. Room max: 40 m², 6 m high, clearly bounded on all sides.
     effect: >
@@ -176,8 +174,7 @@ ritual:
     tags: ["TIER II", "Luna", "Out of Combat", "[section:clr-heal]HEAL[/section]"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
-    cost:
-      - "Cast: 1 Phase"
+    cast_time: 1 Phase
     description: >
       Conjures a holy well containing [i]Luna[/i] portions of moonwater. Upon polite request, Luna may also provide phials of light that can carry the water. The well, moonwater, and phials dissolve at sunrise; likewise if polluted or traded for profit.
     effect: >
@@ -189,8 +186,7 @@ ritual:
     tags: ["TIER II", "Luna", "Out of Combat", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
-    cost:
-      - "Cast: 1 Phase"
+    cast_time: 1 Phase
     description: >
       Summons holy scalpels as material for Medicine checks; the check is [url:core#Eased]eased[/url] by [i]Luna[/i]. Dissolve at sunrise or if traded for profit or used as weapons.
     effect: >
@@ -201,8 +197,7 @@ ritual:
     tags: ["TIER II", "Sol", "Out of Combat", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
-    cost:
-      - "Cast: ½ Phase"
+    cast_time: ½ Phase
     description: >
       Grants the caster and up to [i]Sol[/i] additional targets the ability to see in darkness up to [i]Sol×2[/i] meters.
     effect: >

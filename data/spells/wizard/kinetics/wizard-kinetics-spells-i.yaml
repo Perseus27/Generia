@@ -128,8 +128,7 @@ ritual:
       - "[section:clr-ritual]RITUAL[/section]"
     material:
       - "—"
-    cost:
-      - "Cast: Variable"
+    cast_time: Variable
     description: >
       Manipulate kinetic mana (e.g., shape a stone object, purify liquids, create ethereal water…).
     effect: >

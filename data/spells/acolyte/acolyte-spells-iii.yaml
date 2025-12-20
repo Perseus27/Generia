@@ -111,8 +111,7 @@ ritual:
     material:
       - "Moonstone"
       - "Reflective surface"
-    cost:
-      - "Cast: 1 Phase"
+    cast_time: 1 Phase
     description: >
       The acolyte receives impressions of possible futures from Luna, represented by [i]Prophecy Dice[/i]. These may be used to replace [b]any of their own rolls[/b] at [b]any time[/b].
       [br]At midnight, any unused Prophecy Dice become invalid.

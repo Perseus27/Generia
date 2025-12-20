@@ -136,8 +136,7 @@ ritual:
       - "[section:clr-ritual]RITUAL[/section]"
     material:
       - "Crystal"
-    cost:
-      - "Cast: 1 hour"
+    cast_time: 1 hour
     description: >
       The wizard etches a generic spell matrix into a crystal at least chestnut-sized.
     effect: >
@@ -150,8 +149,7 @@ ritual:
       - "[section:clr-ritual]RITUAL[/section]"
     material:
       - "—"
-    cost:
-      - "Cast: Variable"
+    cast_time: Variable
     description: >
       Manipulate hermetic mana (e.g., create a small illusion, conjure a floating light, make a spell matrix visible…).
     effect: >

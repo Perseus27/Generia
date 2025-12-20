@@ -143,8 +143,7 @@ ritual:
       - "[section:clr-ritual]RITUAL[/section]"
     material:
       - "—"
-    cast:
-      - "Variable"
+    cast_time: Variable
     description: >
       Manipulate meteoric mana (e.g., generate static electricity, conjure a gentle breeze, levitate an object…).
     effect: >

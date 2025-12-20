@@ -105,8 +105,7 @@ ritual:
       - "[section:clr-ritual]RITUAL[/section]"
     material:
       - "—"
-    cost:
-      - "Cast: Variable"
+    cast_time: Variable
     description: >
       Manipulate thermal mana (e.g., create a flame, chill a drink, heat a room…).
     effect: >

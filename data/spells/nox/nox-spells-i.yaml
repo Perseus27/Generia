@@ -99,8 +99,7 @@ ritual:
     tags: ["TIER I", "Nox", "Out of Combat"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
-    cost:
-      - "Cast: Variable"
+    cast_time: Variable
     description: >
       Petitions Nox for an effect related to her domains:
       [br]Elemental: [i]Shadow[/i]
@@ -114,7 +113,7 @@ ritual:
     tags: ["TIER I", "Nox", "Ritual"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
-    cast_time: "5 seconds"
+    cast_time: 5 seconds
     cost:
       - "[section:clr-mp]—[/section]"
     description: >

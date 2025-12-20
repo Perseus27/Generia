@@ -179,8 +179,7 @@ ritual:
     tags: ["TIER I", "Summoning", "Out of Combat"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
-    cost:
-      - "[section:clr-mp]—[/section]"
+    cast_time: Variable
     description: >
       Gently manipulate local elements: rekindle embers, calm wind, ripple a pond, shape a small stone statue, etc.
     effect: >

@@ -184,8 +184,7 @@ ritual:
     tags: ["TIER I", "Euphony / Cacophony", "Out of Combat", "Performance"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
-    cost:
-      - "Cast: Variable"
+    cast_time: Variable
     description: >
       The bard improvises a lyrical performance to weave subtle soul-magic.
     effect: >
@@ -196,8 +195,7 @@ ritual:
     tags: ["TIER I", "Euphony", "Out of Combat", "Performance", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
-    cost:
-      - "Cast: Short performance"
+    cast_time: Short performance
     effect: >
       All checks (incl. Charisma) to appear harmless, friendly, and inconspicuous have Advantage 1.
 
@@ -206,8 +204,6 @@ ritual:
     tags: ["TIER I", "Euphony", "Out of Combat", "[section:clr-support]SUPPORT[/section]", "Performance", "Radius: 8m"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
-    cost:
-      - "Cast: Minutes"
     effect: >
       [i]Meditation[/i] effects are doubled.
 
@@ -216,8 +212,6 @@ ritual:
     tags: ["TIER I", "Euphony", "Out of Combat", "[section:clr-support]SUPPORT[/section]", "Performance", "Radius: 8m"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
-    cost:
-      - "Cast: Minutes"
     effect: >
       All [b]SCH[/b] checks have [url:core#Advantage]Advantage 1[/url].
 
@@ -226,7 +220,5 @@ ritual:
     tags: ["TIER I", "Euphony", "Out of Combat", "[section:clr-support]SUPPORT[/section]", "Performance", "Radius: 8m"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
-    cost:
-      - "Cast: Minutes"
     effect: >
       All crafting skill checks have [url:core#Advantage]Advantage 1[/url].

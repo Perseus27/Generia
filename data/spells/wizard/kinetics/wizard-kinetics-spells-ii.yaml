@@ -182,8 +182,7 @@ ritual:
       - "[section:clr-ritual]RITUAL[/section]"
     material:
       - "Matrix Crystal"
-    cost:
-      - "Cast: 1 Phase"
+    cast_time: 1 Phase
     description: >
       Create a shaft up to 20 m deep and bring groundwater up, if present. Requires stone/earth ground.
     effect: >
