@@ -62,13 +62,13 @@ inventory:
     - ""
 actions:
   skills:
-    - "[url:skills2#Multishot]Multishot[/url]"
-    - "[url:skills1#AimedShot]Unpredictable Shot[/url]"
-    - "[url:skills2#HoldBreath]Hold Breath[/url]"
-    - "[url:skills2#Overwatch]Overwatch[/url]"
-    - "[url:skills1#AimedShot]Aimed Shot[/url]"
-    - "[url:skills1#AimedStrike]Aimed Strike[/url]"
-    - "[url:skills1#Counter]Counter[/url]"
+    - Multishot
+    - Unpredictable Shot
+    - Hold Breath
+    - Overwatch
+    - Aimed Shot
+    - Aimed Strike
+    - Counter
   spells:
     - Shadow Strike
     - Shadow Cloak
