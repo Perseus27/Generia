@@ -67,7 +67,7 @@ class Spell_Renderer:
         # check for cost
         cost = spell.get("cost", False)
         if cost:
-            columncenter += f"[br][b]{self.format_list_br(cost)}[/b]"
+            columncenter += f"[br][b]Cost: {self.format_list_comma(cost)}[/b]"
         # check for cast time
         cast_time = spell.get("cast_time", False)
         if cast_time:
@@ -101,6 +101,17 @@ class Spell_Renderer:
                 first = False
             else:
                 result += "[br]"
+            result += i
+        return result
+    
+    def format_list_comma(self, list):
+        result = ""
+        first = True
+        for i in list:
+            if first:
+                first = False
+            else:
+                result += ", "
             result += i
         return result
 
