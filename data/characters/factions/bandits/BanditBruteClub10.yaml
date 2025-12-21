@@ -1,0 +1,91 @@
+name: Bandit – Brute (Club) 10
+id: BruteClub10
+info:
+  species: [Human, Orc]
+  level: 10
+  size: Medium
+  classes: [Marauder, Berserker]
+  tags: [–]
+notes: >
+  [br]50 SP Base
+  [br]+20 Bonus
+  [br]REST 1
+
+attributes:
+  CON: [7, 3]
+  STR: [8, 4]
+  DEX: [4, 2]
+  INT: [3, 1]
+  WIL: [4, 2]
+  PER: [4, 2]
+values:
+  EN: 15
+  MP: 5
+  MPR: 1
+  WL: 4
+  WT: 7
+  TN: 3
+  MS: 4
+armor:
+  head: 0
+  torso: 4
+  arms: 3
+  legs: 2
+  md: 1
+  enc: 0
+inventory:
+  weapons:
+    - name: "Warclub"
+      damage: "[section:clr-roll]2d8+6[/section]"
+      hit: "Hit+5, Block+11|7"
+    - name: "Fist"
+      damage: "[section:clr-roll]1d6+4[/section]"
+      hit: "Hit+3, Block+9|3"
+    - name: "Knife"
+      damage: "[section:clr-roll]2d6[/section]"
+      hit: "Hit+2, Block+7|7"
+  armor:
+    - name: "Leather Armor-1"
+    - name: "Leather Gauntlets"
+    - name: "Leather Greaves-1"
+    - name: "Amulet+1"
+  misc:
+    - name: "Adventurer's Pack I"
+actions:
+  skills:
+    - Whirl
+    - Mighty Strike
+    - Daredevil
+    - Charge
+    - Leg Sweep
+    - Shove
+    - Swing
+    - Feint
+  spells:
+    - ""
+  rituals: 
+    - ""
+proficiencies:
+  magic:
+    - ""
+  weapons:
+    - "Blunt: Beginner"
+    - "[i]Clubs 4[/i]"
+    - "Natural: Beginner"
+    - "[i]Primitive 2[/i]"
+  civilian:
+    - "[i]Athletics 3[/i]"
+    - "[i]Survival 1[/i]"
+perks:
+  special:
+    - Pursuit Hunter
+    - Stalwart
+  
+  combat:
+    - Bloodlust
+    - Blood Avenger
+    - Opportunist
+    - Sprinter
+  
+  magic:
+    - ""

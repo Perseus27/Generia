@@ -1,0 +1,95 @@
+name: Bandit – Rogue 10
+id: Rogue10
+info:
+  species: [Felis, Human]
+  level: 10
+  size: Medium
+  classes: [Nox, Fighter]
+  tags: [–]
+notes: >
+  [br]75 SP Base
+  [br]+20 Bonus
+  [br]REST 0
+
+attributes:
+  CON: [4, 2]
+  STR: [4, 2]
+  DEX: [8, 4]
+  INT: [5, 2]
+  WIL: [3, 1]
+  PER: [6, 3]
+values:
+  EN: 10
+  MP: 10
+  MPR: 1
+  WL: 4
+  WT: 5
+  TN: 3
+  MS: 6
+armor:
+  head: 0
+  torso: 3
+  arms: 1
+  legs: 0
+  md: 1
+  enc: 0
+inventory:
+  weapons:
+    - name: "Smallsword"
+      damage: "[section:clr-roll]2d6+1[/section]"
+      hit: "Hit+10, Block+4|4"
+    - name: "Dagger"
+      damage: "[section:clr-roll]2d6[/section]"
+      hit: "Hit+10, Block+4|4"
+    - name: "Throwing Knife"
+      damage: "[section:clr-roll]2d4+2[/section]"
+      hit: "Hit+8"
+    - name: "Knife"
+      damage: "[section:clr-roll]2d6[/section]"
+      hit: "Hit+8, Block+4|4"
+  armor:
+    - name: "Padded Armor-1"
+    - name: "Cloth Gauntlets"
+    - name: "Noxian Ring +1"
+  misc:
+    - name: "Adventurer's Pack I"
+actions:
+  skills:
+    - Charge
+    - Feint
+    - Leg Sweep
+    - Shove
+  spells:
+    - Shadow Strike
+    - Shadow Cloak
+    - Shadow Knives
+    - Shadow Summoning
+    - Blur
+  rituals: 
+    - Prayer to Nox
+proficiencies:
+  magic:
+    - "Nox: Beginner"
+    - "[i]Night 3[/i]"
+  weapons:
+    - "Stabbing: Beginner"
+    - "[i]Swords 4[/i]"
+    - "[i]Daggers 4[/i]"
+    - "Throwing: Beginner"
+    - "Defensive: Beginner"
+  civilian:
+    - "[i]Monster Lore 1[/i]"
+    - "[i]Rites 1[/i]"
+    - "[i]Stealing 2[/i]"
+    - "[i]Stealth 3[/i]"
+    - "[i]Warfare 2[/i]"
+perks:
+  special:
+    - Pursuit Hunter
+    - Tradition [i]Stealth[/i]
+  
+  combat:
+    - Opportunist
+  
+  magic:
+    - ""

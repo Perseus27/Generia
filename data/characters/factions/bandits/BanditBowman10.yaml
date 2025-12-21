@@ -1,0 +1,90 @@
+name: Bandit – Bowman 10
+id: Bowman10
+info:
+  species: Human
+  level: 10
+  size: Medium
+  classes: [Archer]
+  tags: [–]
+notes: >
+  [br]75 SP Base
+  [br]+20 Bonus
+  [br]REST 3
+
+attributes:
+  CON: [4, 2]
+  STR: [6, 3]
+  DEX: [7, 3]
+  INT: [4, 2]
+  WIL: [4, 2]
+  PER: [6, 3]
+values:
+  EN: 15
+  MP: 5
+  MPR: 1
+  WL: 4
+  WT: 5
+  TN: 3
+  MS: 6
+armor:
+  head: 0
+  torso: 3
+  arms: 1
+  legs: 0
+  md: 1
+  enc: 0
+inventory:
+  weapons:
+    - name: "Hunting Bow"
+      damage: "[section:clr-roll]1d6+3[/section]"
+      hit: "Hit+7"
+      range: "-1/0/0, 20m"
+    - name: "20× Arrow, light"
+      damage: "[section:clr-roll]1d6[/section]"
+    - name: "Smallsword"
+      damage: "[section:clr-roll]2d6+1[/section]"
+      hit: "Hit+6, Block+7|5"
+    - name: "Knife"
+      damage: "[section:clr-roll]2d6[/section]"
+      hit: "Hit+3, Block+5|5"
+  armor:
+    - name: "Padded Armor-1"
+    - name: "Cloth Gauntlets"
+    - name: "Amulet +1"
+  misc:
+    - name: "Adventurer's Pack I"
+actions:
+  skills:
+    - "Precise Shot: Legs"
+    - Hold Breath
+    - Overwatch
+    - Dodge Reflex
+    - Careful Shot
+    - Unpredictable Shot
+    - Aimed Shot
+    - Counter
+  spells:
+    - ""
+  rituals: 
+    - ""
+proficiencies:
+  magic:
+    - ""
+  weapons:
+    - "Ranged: Beginner"
+    - "[i]Bows 4[/i]"
+    - "Stabbing: Beginner"
+    - "[i]Swords 2[/i]"
+  civilian:
+    - "[i]Hunting 1[/i]"
+perks:
+  special:
+    - Efficient Metabolism
+    - Pursuit Hunter
+  
+  combat:
+    - David
+    - Forerunner
+  
+  magic:
+    - ""
