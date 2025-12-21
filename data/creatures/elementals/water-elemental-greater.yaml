@@ -1,0 +1,71 @@
+name: Greater Water Elemental
+id: water-elemental-greater
+info:
+  species: Elemental
+  level: 25
+  size: Medium
+  tags: []
+notes: >
+  A being of pure water mana. Prefers the shape of a large drop, but can appear as a medium-sized humanoid. Around 1.5m ⌀ in drop shape.
+  [br]About as intelligent as a human. Can communicate verbally.
+
+attributes:
+  CON: [10, 5]
+  STR: [7, 3]
+  DEX: [13, 6]
+  INT: [6, 3]
+  WIL: [9, 4]
+  PER: [4, 2]
+values:
+  EN: 15
+  MP: 10
+  MPR: 3
+  WL: 5
+  WT: 8
+  TN: 4
+  MS: 4
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  enc: 0
+loot:
+  - Elemental Core, greater
+actions:
+  active:
+    - name: Water Whip
+      type: Melee, 4m
+      hit: "Hit+12, Block+8|8"
+      damage: 3d6+2 Sharp
+    - name: Flowing Counter
+      type: Reaction, Defensive
+      effect: >
+        Can counter with Water Whip after a successful parry.
+      cost: "[section:clr-en]1 EN[/section]"
+    - name: Healing Tentacle
+      type: Utility, 4m
+      effect: >
+        Target gains Regeneration 2.
+        The Elemental takes one wound.
+    - name: Grasping Tentacle
+      type: Reaction
+      hit: "[section:clr-dc]DC 13[/section]"
+      effect: >
+        On Water Whip hit: Grapples the target.
+      cost: "[section:clr-mp]5 MP[/section]"
+      save: "Save STR: No effect."
+  passive:
+    - name: Elemental (Water)
+      type: Passive
+      effect: >
+        Parries are eased by [[section:clr-attr]AGI-MOD[/section]].
+    - name: Living Mana
+      type: Passive
+      effect: >
+        Regenerates [[section:clr-value]MPR[/section]] [section:clr-mp]MP[/section] at the beginning of each turn.
+    - name: Absorption III
+      type: Passive
+      effect: >
+        Gains 4d4 Healing after causing a wound with Water Whip.

@@ -1,0 +1,78 @@
+name: Greater Air Elemental
+id: air-elemental-greater
+info:
+  species: Elemental
+  level: 25
+  size: Tiny
+  tags: [[Immunity, Air], [Resistance, Physical]]
+notes: >
+  A being of pure mana that prefers the shape of a tiny hummingbird, but can appear as a medium-sized humanoid. Can fly up to 100m high.
+  [br]About as intelligent as a human. Can communicate verbally.
+
+attributes:
+  CON: [5, 2]
+  STR: [1, 0]
+  DEX: [13, 6]
+  INT: [6, 3]
+  WIL: [11, 5]
+  PER: [10, 5]
+values:
+  EN: 5
+  MP: 10
+  MPR: 4
+  WL: 5
+  WT: 6
+  TN: 3
+  MS: 14
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  enc: 0
+loot:
+  - Elemental Core, greater
+actions:
+  active:
+    - name: Wind Shot
+      type: Projectile
+      hit: "[section:clr-pa]PA+10[/section], 20m"
+      damage: 2d8 Air
+      cost: "[section:clr-mp]2 MP[/section]"
+    - name: Turbulence
+      type: Reaction, 20m
+      effect: >
+        Lowers the attack value of one projectile by 5.
+      cost: "[section:clr-mp]1 MP[/section]"
+    - name: Air Pressure
+      type: Utility, 2m AoE
+      hit: "[section:clr-sa]SA+5[/section]"
+      effect: >
+        All creatures are knocked back by 5m.
+      cost: "[section:clr-mp]3 MP[/section]"
+      save: "Save STR: Off-Balance. Save+10: No effect."
+    - name: Vacuum
+      type: Utility, 4m AoE
+      hit: "[section:clr-dc]DC 15[/section]"
+      effect: >
+        All creatures with lungs in the area lose Concentration.
+      cost: "[section:clr-mp]4 MP[/section]"
+      save: "Save CON: They may perform regular Concentration saves instead. Save+10: No effect."
+  passive:
+    - name: Ethereal
+      type: Passive
+      effect: >
+        Resistant against Physical damage.
+    - name: Elemental (Air)
+      type: Passive
+      effect: >
+        Immune to Air damage.
+    - name: Living Mana
+      type: Passive
+      effect: >
+        Regenerates [[section:clr-value]MPR[/section]] [section:clr-mp]MP[/section] at the beginning of each turn.
+    - name: Tailwind III
+      type: Passive, 12m AoE
+      effect: >
+        Allied creatures gain [section:clr-bonus]+6[/section] MS.

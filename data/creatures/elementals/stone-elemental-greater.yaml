@@ -1,0 +1,83 @@
+name: Greater Stone Elemental
+id: stone-elemental-greater
+info:
+  species: Elemental
+  level: 25
+  size: Large
+  tags: []
+notes: >
+  A huge golem (3m tall).
+  [br]About as intelligent as a human. Can communicate verbally.
+
+attributes:
+  CON: [13, 6]
+  STR: [12, 6]
+  DEX: [6, 3]
+  INT: [6, 3]
+  WIL: [8, 4]
+  PER: [2, 1]
+values:
+  EN: 20
+  MP: 10
+  MPR: 2
+  WL: 7
+  WT: 10
+  TN: 4
+  MS: 4
+armor:
+  head: 6
+  torso: 6
+  arms: 6
+  legs: 6
+  md: 0
+  enc: 0
+loot:
+  - Elemental Core, greater
+actions:
+  active:
+    - name: Attack
+      type: Melee
+      hit: "Hit+3, Block+12|12"
+      damage: 2d8+12 Blunt
+    - name: Whirling Attack
+      type: Melee, 2m AoE
+      hit: "Hit+3"
+      damage: 2d8+6 Blunt
+      cost: "[section:clr-en]2 EN[/section]"
+    - name: Defensive Stance
+      type: Utility
+      effect: >
+        Advantage 3 on Blocks until the start of the next turn.
+      cost: "[section:clr-en]1 EN[/section]"
+    - name: Solidify
+      type: Reaction
+      effect: >
+        Block Strength +6 until the end of this turn.
+      cost: "[section:clr-mp]1 MP[/section]"
+    - name: Stony Grasp
+      type: Reaction, 2m
+      hit: "[section:clr-dc]DC 14[/section]"
+      effect: >
+        [section:clr-konz]Concentration[/section] A hand of stone grows from the ground to restrain a target.
+      cost: "[section:clr-mp]2 MP[/section]"
+      save: "Save STR/AGI: No effect."
+    - name: Pure Strength
+      type: Reaction
+      hit: "[section:clr-dc]DC 16[/section]"
+      effect: >
+        On hit: All targets hit are knocked back by 6m.
+      cost: "[section:clr-en]2 EN[/section]"
+      save: "Save STR/AGI: No effect."
+  passive:
+    - name: Elemental (Stone)
+      type: Passive
+      effect: >
+        AV increased by [[section:clr-attr]CON-MOD[/section]].
+    - name: Living Mana
+      type: Passive
+      effect: >
+        Regenerates [[section:clr-value]MPR[/section]] [section:clr-mp]MP[/section] at the beginning of each turn.
+    - name: Bodyguard III
+      type: Passive
+      effect: >
+        Provides total cover to adjacent creatures.

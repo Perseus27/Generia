@@ -1,0 +1,71 @@
+name: Air Elemental
+id: air-elemental
+info:
+  species: Elemental
+  level: 10
+  size: Tiny
+  tags: [[Immunity, Air], [Resistance, Physical]]
+notes: >
+  A being of pure mana that prefers the shape of a tiny hummingbird. Can fly up to 40m high.
+  [br]Can follow complex instructions (e.g., "Patrol this area and attack all intruders").
+
+attributes:
+  CON: [3, 1]
+  STR: [1, 0]
+  DEX: [8, 4]
+  INT: [3, 1]
+  WIL: [7, 3]
+  PER: [6, 3]
+values:
+  EN: 5
+  MP: 5
+  MPR: 2
+  WL: 5
+  WT: 5
+  TN: 3
+  MS: 10
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  enc: 0
+loot:
+  - Elemental Core, normal
+actions:
+  active:
+    - name: Wind Shot
+      type: Projectile
+      hit: "[section:clr-pa]PA+6[/section], 20m"
+      damage: 2d6 Air
+      cost: "[section:clr-mp]2 MP[/section]"
+    - name: Turbulence
+      type: Reaction, 20m
+      effect: >
+        Lowers the attack value of one projectile by 3.
+      cost: "[section:clr-mp]1 MP[/section]"
+    - name: Air Pressure
+      type: Utility, 2m AoE
+      hit: "[section:clr-sa]SA+3[/section]"
+      effect: >
+        All creatures are knocked back by 3m.
+      cost: "[section:clr-mp]3 MP[/section]"
+      save: "Save STR: No effect."
+  passive:
+    - name: Ethereal
+      type: Passive
+      effect: >
+        Resistant against Physical damage.
+    - name: Elemental (Air)
+      type: Passive
+      effect: >
+        Immune to Air damage.
+    - name: Living Mana
+      type: Passive
+      effect: >
+        Regenerates [[section:clr-value]MPR[/section]] [section:clr-mp]MP[/section] at the beginning of each turn.
+    - name: Tailwind II
+      type: Passive, 12m AoE
+      effect: >
+        Allied creatures gain [section:clr-bonus]+4[/section] MS.

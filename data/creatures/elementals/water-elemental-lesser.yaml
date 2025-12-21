@@ -1,0 +1,59 @@
+name: Lesser Water Elemental
+id: water-elemental-lesser
+info:
+  species: Elemental
+  level: 3
+  size: Medium
+  tags: []
+notes: >
+  A drop-like being of pure water mana.
+  [br]Can follow simple instructions (e.g., "Go over there", "Attack this target")
+
+attributes:
+  CON: [3, 1]
+  STR: [3, 1]
+  DEX: [4, 2]
+  INT: [1, 0]
+  WIL: [3, 1]
+  PER: [1, 0]
+values:
+  EN: 10
+  MP: 5
+  MPR: 1
+  WL: 4
+  WT: 5
+  TN: 3
+  MS: 4
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  enc: 0
+loot:
+  - Elemental Core, lesser
+actions:
+  active:
+    - name: Water Whip
+      type: Melee, 4m
+      hit: "Hit+4, Block+2|2"
+      damage: 2d6+1 Sharp
+    - name: Flowing Counter
+      type: Reaction, Defensive
+      effect: >
+        Can counter with Water Whip after a successful parry.
+      cost: "[section:clr-en]1 EN[/section]"
+  passive:
+    - name: Elemental (Water)
+      type: Passive
+      effect: >
+        Parries are eased by [[section:clr-attr]AGI-MOD[/section]].
+    - name: Living Mana
+      type: Passive
+      effect: >
+        Regenerates [[section:clr-value]MPR[/section]] [section:clr-mp]MP[/section] at the beginning of each turn.
+    - name: Absorption I
+      type: Passive
+      effect: >
+        Gains 2d4 Healing after causing a wound with Water Whip.
