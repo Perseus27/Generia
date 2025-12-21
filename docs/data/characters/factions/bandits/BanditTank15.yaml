@@ -1,0 +1,92 @@
+name: Bandit – Tank 15
+id: Tank15
+info:
+  species: [Human, Orc]
+  level: 15
+  size: Medium
+  classes: [Fighter]
+  tags: [–]
+notes: >
+  [br]100 SP Base
+  [br]+40 Bonus
+  [br]REST 5
+
+attributes:
+  CON: [8, 4]
+  STR: [7, 3]
+  DEX: [7, 3]
+  INT: [5, 2]
+  WIL: [5, 2]
+  PER: [5, 2]
+values:
+  EN: 25
+  MP: 5
+  MPR: 1
+  WL: 5
+  WT: 8
+  TN: 4
+  MS: 4
+armor:
+  head: 2
+  torso: 6
+  arms: 3
+  legs: 3
+  md: 1
+  enc: 0
+inventory:
+  weapons:
+    - name: "Broadsword"
+      damage: "2d6+4"
+      hit: "Hit+9, Block+12|6"
+    - name: "Roundshield"
+      damage: "1d6+6"
+      hit: "Hit+5, Block+11|8"
+    - name: "Knife"
+      damage: "2d6"
+      hit: "Hit+4, Block+8|6"
+  armor:
+    - name: "Leather Helmet"
+    - name: "Leather Armor"
+    - name: "Leather Gauntlets"
+    - name: "Padded Greaves"
+    - name: "Amulet +1"
+  misc:
+    - name: "Adventurer's Pack I"
+actions:
+  skills:
+    - Charge
+    - Feint
+    - Counter
+    - Leg Sweep
+    - Shove
+    - Aimed Strike
+    - Shield Bash
+    - Steady Block
+  spells:
+    - ""
+  rituals: 
+    - ""
+proficiencies:
+  magic:
+    - ""
+  weapons:
+    - "Slashing: Intermediate"
+    - "[i]Swords 6[/i]"
+    - "Defensive: Intermediate"
+    - "[i]Shields 5[/i]"
+  civilian:
+    - "[i]Athletics 2[/i]"
+    - "[i]Monster Lore 1[/i]"
+    - "[i]Warfare 3[/i]"
+perks:
+  special:
+    - Indomitable
+    - Pursuit Hunter
+  
+  combat:
+    - Conditioned II
+    - Forerunner
+    - Opportunist
+  
+  magic:
+    - ""

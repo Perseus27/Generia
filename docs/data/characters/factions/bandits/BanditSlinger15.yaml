@@ -1,0 +1,90 @@
+name: Bandit – Slinger 15
+id: Slinger15
+info:
+  species: Human
+  level: 15
+  size: Medium
+  classes: [Archer]
+  tags: [–]
+notes: >
+  [br]80 SP Base
+  [br]+40 Bonus
+  [br]REST 3
+
+attributes:
+  CON: [4, 2]
+  STR: [7, 3]
+  DEX: [8, 4]
+  INT: [4, 2]
+  WIL: [4, 2]
+  PER: [7, 3]
+values:
+  EN: 20
+  MP: 5
+  MPR: 1
+  WL: 4
+  WT: 5
+  TN: 3
+  MS: 6
+armor:
+  head: 0
+  torso: 3
+  arms: 1
+  legs: 0
+  md: 1
+  enc: 0
+inventory:
+  weapons:
+    - name: "Long Sling"
+      damage: "1d6+1"
+      hit: "Hit+8"
+      range: "-2/0/0, 25m"
+    - name: "4× Stone+3, heavy"
+      damage: "1d6+3"
+    - name: "Smallsword"
+      damage: "2d6+2"
+      hit: "Hit+8, Block+9|5"
+    - name: "Knife"
+      damage: "2d6"
+      hit: "Hit+3, Block+5|5"
+  armor:
+    - name: "Padded Armor-1"
+    - name: "Cloth Gauntlets"
+    - name: "Amulet +1"
+  misc:
+    - name: "Adventurer's Pack I"
+actions:
+  skills:
+    - "Precise Shot: Legs"
+    - Hold Breath
+    - Overwatch
+    - Dodge Reflex
+    - Careful Shot
+    - Unpredictable Shot
+    - Aimed Shot
+    - Counter
+  spells:
+    - ""
+  rituals: 
+    - ""
+proficiencies:
+  magic:
+    - ""
+  weapons:
+    - "Ranged: Intermediate"
+    - "[i]Slings 6[/i]"
+    - "Stabbing: Beginner"
+    - "[i]Swords 3[/i]"
+  civilian:
+    - "[i]Hunting 2[/i]"
+perks:
+  special:
+    - Efficient Metabolism
+    - Pursuit Hunter
+  
+  combat:
+    - David
+    - Forerunner
+  
+  magic:
+    - ""
