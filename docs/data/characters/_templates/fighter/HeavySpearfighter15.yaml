@@ -1,0 +1,100 @@
+name: "Heavy Spearfighter 15"
+id: HeavySpearfighter15
+info:
+  species: Human
+  level: 15
+  size: Medium
+  classes: [Fighter, Spearfighter, Shieldbearer]
+  tags: [–]
+notes: >
+  [br]Classes: Fighter, Spearfighter, Shieldbearer
+  [br]105 SP Base
+  [br]+30 Bonus
+  [br]Rest 0
+
+attributes:
+  CON: [8, 4]
+  STR: [8, 4]
+  DEX: [8, 4]
+  INT: [4, 2]
+  WIL: [5, 2]
+  PER: [5, 2]
+values:
+  EN: 20
+  MP: 5
+  MPR: 2
+  WL: 4
+  WT: 7
+  TN: 4
+  MS: 6
+armor:
+  head: 4
+  torso: 7
+  arms: 5
+  legs: 5
+  md: 3
+  enc: 0
+inventory:
+  weapons:
+    - name: "War Spear+1"
+      damage: "2d6+5|7"
+      hit: "Hit+9, Block+13|8"
+    - name: "Roundshield+1"
+      damage: "1d6+8"
+      hit: "Hit+4, Block+12|11"
+    - name: "Knife"
+      damage: "2d6"
+      hit: "Hit+4, Block+8|8"
+  armor:
+    - name: "Scale Helmet"
+    - name: "Scale Armor"
+    - name: "Scale Gauntlets"
+    - name: "Scale Greaves"
+    - name: "Amulet +2"
+    - name: "Ring +1"
+  misc:
+    - name: "Adventurer's Pack I"
+actions:
+  skills:
+    - Protect
+    - "Stance: Block"
+    - Double Stab
+    - Disarm
+    - Charge
+    - Feint
+    - Counter
+    - Leg Sweep
+    - Shove
+    - Aimed Strike
+    - Shield Bash
+    - Steady Block
+  spells:
+    - ""
+  rituals: 
+    - ""
+proficiencies:
+  magic:
+    - ""
+  weapons:
+    - "Stabbing: Intermediate"
+    - "[i]Spears 5[/i]"
+    - "Defensive: Intermediate"
+    - "[i]Roundshields 4[/i]"
+  civilian:
+    - "[i]Athletics 3[/i]"
+    - "[i]Monster Lore 1[/i]"
+    - "[i]Warfare 2[/i]"
+perks:
+  special:
+    - Efficient Metabolism
+    - Pursuit Hunter
+  
+  combat:
+    - Spearhead
+    - Armor Familiarity I
+    - Conditioned I
+    - Forerunner
+    - Opportunist
+  
+  magic:
+    - ""
