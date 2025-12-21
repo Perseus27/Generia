@@ -35,7 +35,7 @@ armor:
   enc: 0
 inventory:
   weapons:
-    - name: "Warclub"
+    - name: "Great Mace"
       damage: "2d8+6"
       hit: "Hit+5, Block+11|7"
     - name: "Fist"
