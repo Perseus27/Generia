@@ -41,16 +41,16 @@ armor:
 inventory:
   weapons:
     - name: "Hunting Bow+1"
-      damage: "[section:clr-roll]1d6+4[/section]"
+      damage: "1d6+4"
       hit: "Hit+10"
     - name: "20× Arrows, light"
-      damage: "[section:clr-roll]1d6[/section]"
+      damage: "1d6"
     - name: "Smallsword+1"
       enchantment: "[section:clr-bonus]Sharp I[/section]"
-      damage: "[section:clr-roll]2d6+2[/section]"
+      damage: "2d6+2"
       hit: "Hit+10, Block+7|4"
     - name: "Dagger"
-      damage: "[section:clr-roll]2d6[/section]"
+      damage: "2d6"
   armor:
     - name: "Leather Helmet+1"
     - name: "Leather Armor+1"

@@ -36,10 +36,10 @@ armor:
 inventory:
   weapons:
     - name: "Wizard Staff"
-      damage: "[section:clr-roll]2d8[/section]"
+      damage: "2d8"
       hit: "Hit+2, Block+3|3"
     - name: "Knife"
-      damage: "[section:clr-roll]2d6[/section]"
+      damage: "2d6"
       hit: "Hit+2, Block+3|3"
   armor:
     - name: "Wizard Hat"

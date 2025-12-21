@@ -36,13 +36,13 @@ armor:
 inventory:
   weapons:
     - name: "Shovel"
-      damage: "[section:clr-roll]2d8+6[/section]"
+      damage: "2d8+6"
       hit: "Hit+5, Block+11|7"
     - name: "Fist"
-      damage: "[section:clr-roll]1d6+4[/section]"
+      damage: "1d6+4"
       hit: "Hit+3, Block+9|3"
     - name: "Knife"
-      damage: "[section:clr-roll]2d6[/section]"
+      damage: "2d6"
       hit: "Hit+2, Block+7|7"
   armor:
     - name: "Leather Armor-1"

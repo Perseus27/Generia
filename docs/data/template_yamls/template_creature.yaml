@@ -41,11 +41,11 @@ actions:
     - name: "Goblin Bow"
       type: "Ranged Attack"
       hit: "Hit+4, 20m"
-      damage: "[section:clr-roll]1d6+1d4+2[/section] Arrow"
+      damage: "1d6+1d4+2 Arrow"
     - name: "Goblin Spear"
       type: "Melee Attack"
       hit: "Hit+4, Block+5|3"
-      damage: "[section:clr-roll]2d6+2[/section] Sharp"
+      damage: "2d6+2 Sharp"
     - name: "Nimble"
       type: "Reaction"
       effect: >

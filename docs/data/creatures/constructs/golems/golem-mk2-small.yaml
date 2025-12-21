@@ -42,19 +42,19 @@ actions:
     - name: "Golem Fist, small"
       type: "Melee Attack"
       hit: "Hit+6, Block+8|4"
-      damage: "[section:clr-roll]1d6+5[/section] Blunt"
+      damage: "1d6+5 Blunt"
 
     - name: "OPTIONAL EQUIPMENT"
 
     - name: "Mace & Shield"
       type: "Melee Attack"
       hit: "Hit+6, Block+8|10"
-      damage: "[section:clr-roll]2d6+5[/section] Blunt"
+      damage: "2d6+5 Blunt"
 
     - name: "Spear"
       type: "Melee Attack, long"
       hit: "Hit+6, Block+8|8"
-      damage: "[section:clr-roll]2d6+7[/section] Sharp"
+      damage: "2d6+7 Sharp"
 
   passive:
     - name: "Proficiencies"

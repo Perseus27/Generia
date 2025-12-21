@@ -42,7 +42,7 @@ actions:
     - name: "Needle"
       type: "Melee Attack, short"
       hit: "Hit+7"
-      damage: "[section:clr-roll]2d4[/section] Sharp"
+      damage: "2d4 Sharp"
     - name: "OPTIONAL EQUIPMENT"
     - name: "None"
   passive:
