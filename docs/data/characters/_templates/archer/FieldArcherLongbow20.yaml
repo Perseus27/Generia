@@ -1,0 +1,108 @@
+name: Field Archer Longbow 20
+id: FieldArcherLongbow20
+info:
+  species: Human
+  level: 20
+  size: Medium
+  classes:
+  - Archer
+  - Fighter
+  - Field Archer
+  tags: []
+notes: |-
+  [br]135 SP Base
+  [br]+30 Bonus
+  [br]Rest 0
+attributes:
+  CON:
+  - 10
+  - 5
+  STR:
+  - 10
+  - 5
+  DEX:
+  - 8
+  - 4
+  INT:
+  - 4
+  - 2
+  WIL:
+  - 5
+  - 2
+  PER:
+  - 7
+  - 3
+values:
+  EN: 25
+  MP: 5
+  MPR: 2
+  WL: 4
+  WT: 8
+  TN: 5
+  MS: 6
+armor:
+  head: 3
+  torso: 7
+  arms: 4
+  legs: 4
+  md: 4
+  enc: 0
+inventory:
+  weapons:
+  - name: Warbow+2
+    damage: 1d8+7
+    hit: Hit+10
+    range: -2/0/0, 28m
+  - name: '[i]20× Arrow, heavy[/i]'
+    damage: 1d8
+  - name: Broadsword+1
+    damage: 2d6+6
+    hit: Hit+8, Block+14|10
+  - name: Knife
+    damage: 2d6
+    hit: Hit+4, Block+10|10
+  armor:
+  - name: Chain Helmet
+  - name: Chainmail+1
+  - name: Chain Gauntlets
+  - name: Chain Greaves
+  - name: Amulet +2
+  - name: 2× Ring +1
+  misc:
+  - name: Adventurer's Pack II
+actions:
+  skills:
+  - Mighty Shot
+  - 'Stance: Dodge'
+  - 'Technique: Second Wind'
+  - Multishot
+  - Hold Breath
+  - Overwatch
+  - Dodge Reflex
+  - Careful Shot
+  - Unpredictable Shot
+  - Aimed Shot
+  - Counter
+  - Charge
+  - Feint
+  - Leg Sweep
+  - Shove
+proficiencies:
+  weapons:
+  - 'Ranged: Intermediate'
+  - '[i]Longbows 6[/i]'
+  - 'Slashing: Intermediate'
+  - '[i]Swords 4[/i]'
+  - 'Defensive: Beginner'
+  civilian:
+  - Hunting 1
+  - Monster Lore 1
+  - Warfare 2
+perks:
+  special:
+  - Efficient Metabolism
+  - Pursuit Hunter
+  combat:
+  - David
+  - Conditioned I
+  - Forerunner

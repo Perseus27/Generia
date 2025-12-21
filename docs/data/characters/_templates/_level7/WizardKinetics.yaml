@@ -1,0 +1,88 @@
+name: Wizard (Kinetics)
+id: WizardKinetics
+info:
+  species: Human
+  level: 7
+  size: Medium
+  classes:
+  - Wizard
+  tags: []
+notes: |-
+  [br]50 SP Total
+  [br]Rest 0
+attributes:
+  CON:
+  - 3
+  - 1
+  STR:
+  - 3
+  - 1
+  DEX:
+  - 3
+  - 1
+  INT:
+  - 6
+  - 3
+  WIL:
+  - 6
+  - 3
+  PER:
+  - 4
+  - 2
+values:
+  EN: 10
+  MP: 10
+  MPR: 2
+  WL: 4
+  WT: 5
+  TN: 3
+  MS: 4
+armor:
+  head: 0
+  torso: 3
+  arms: 0
+  legs: 0
+  md: 0
+  enc: 0
+inventory:
+  weapons:
+  - name: Wizard Staff
+    damage: 2d8
+    hit: Hit+1, Block+2|2
+  - name: Knife
+    damage: 2d6
+    hit: Hit+1, Block+2|2
+  armor:
+  - name: Cloth Armor
+  - name: Adventurer's Belt
+  - name: Adventurer's Pouch
+  - name: Wizard's Pouch
+  misc:
+  - name: 2× Matrix Crystal
+  - name: 1 Gold, 8 Silver
+actions:
+  spells:
+  - Mana Beam I
+  - Kinetic Bolt I
+  - Kinetic Barrier I
+  - Tensile Shield I
+  - Water Veil
+  rituals:
+  - Hermetic Manipulation
+  - Kinetic Manipulation
+proficiencies:
+  magic:
+  - 'Hermetics: Beginner'
+  - '[i]Arcane 1[/i]'
+  - 'Kinetics: Beginner'
+  - '[i]Water 2[/i]'
+  civilian:
+  - Arcana 3
+  - Arithmetics 1
+  - History 1
+perks:
+  special:
+  - Efficient Metabolism
+  - Pursuit Hunter
+  magic:
+  - Battle Meditation

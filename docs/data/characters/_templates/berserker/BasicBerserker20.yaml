@@ -1,0 +1,137 @@
+name: Basic Berserker 20
+id: BasicBerserker20
+info:
+  species: Human
+  level: 20
+  size: Medium
+  classes:
+  - Marauder
+  - Berserker
+  tags: []
+notes: |-
+  [br]135 SP Base
+  [br]+40 Bonus
+  [br]Rest 0
+attributes:
+  CON:
+  - 9
+  - 4
+  STR:
+  - 11
+  - 5
+  DEX:
+  - 8
+  - 4
+  INT:
+  - 4
+  - 2
+  WIL:
+  - 7
+  - 3
+  PER:
+  - 5
+  - 2
+values:
+  EN: 25
+  MP: 5
+  MPR: 2
+  WL: 5
+  WT: 8
+  TN: 4
+  MS: 6
+armor:
+  head: 3
+  torso: 7
+  arms: 4
+  legs: 4
+  md: 4
+  enc: 0
+inventory:
+  weapons:
+  - name: Battleaxe +2
+    damage: 2d8+9
+    hit: Hit+8, Block+15|9
+  - name: Brass Knuckles +1
+    damage: 1d8+8
+    hit: Hit+7, Block+12|9
+  - name: Knife
+    damage: 2d6
+    hit: Hit+4, Block+9|9
+  armor:
+  - name: Chain Helmet
+  - name: Chainmail+1
+  - name: Chain Gauntlets
+  - name: Chain Greaves
+  - name: Amulet+2
+  - name: 2× Ring+1
+  misc:
+  - name: Adventurer's Pack II
+actions:
+  skills:
+  - Whirl
+  - Mighty Strike
+  - Daredevil
+  - Charge
+  - Leg Sweep
+  - Shove
+  - Swing
+  - Feint
+proficiencies:
+  weapons:
+  - 'Slashing: Intermediate'
+  - '[i]Greataxes 6[/i]'
+  - 'Natural: Intermediate'
+  - '[i]Primitive 3[/i]'
+  civilian:
+  - Athletics 3
+  - Survival 2
+  - COPY ARTICLE BLOCK
+  - COPY WORLD BLOCK
+  - Metadata
+  - DO YOU NEED HELP?
+  - PRICING
+  - '*GIFT A MEMBERSHIP!*'
+  - ABOUT
+  - FAQ
+  - CHANGELOG
+  - RANDOM GENERATORS
+  - WORLDBUILDING PROMPTS
+  - WHAT IS WORLDBUILDING?
+  - OUR TEAM
+  - WE ARE HIRING
+  - OUR NEWS
+  - PRIVACY
+  - TERMS OF SERVICE
+  - COPYRIGHT
+  - ETIQUETTE
+  - ACCESSIBILITY
+  - '*// WORLDANVIL PODCAST*'
+  - '*// DISCORD*'
+  - // BLOG
+  - // BLUESKY
+  - // TWITTER
+  - // YOUTUBE
+  - // TWITCH
+  - // FACEBOOK
+  - // REDDIT
+  - '*GIFTS & WORLD ANVIL GEAR*'
+  - WORLD ANVIL API
+  - STREAMING
+  - MAJOR CHALLENGES
+  - WORLDEMBER
+  - SUMMERCAMP
+  - '*JOIN THE AFFILIATE PROGRAM*'
+  - GET SPONSORED
+perks:
+  special:
+  - Efficient Metabolism
+  - Pursuit Hunter
+  combat:
+  - Bloodlust
+  - Blood Avenger
+  - Conditioned I
+  - Goliath
+  - Grapple Expert
+  - Opportunist
+  - Pugilist
+  - Sprinter

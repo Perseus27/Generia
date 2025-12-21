@@ -1,0 +1,93 @@
+name: Shaman Support 10
+id: ShamanSupport10
+info:
+  species: Human
+  level: 10
+  size: Medium
+  classes:
+  - Shaman
+  tags: []
+notes: |-
+  [br]50 SP Base
+  [br]+20 Bonus
+  [br]Rest 2
+attributes:
+  CON:
+  - 5
+  - 2
+  STR:
+  - 4
+  - 2
+  DEX:
+  - 4
+  - 2
+  INT:
+  - 5
+  - 2
+  WIL:
+  - 8
+  - 4
+  PER:
+  - 4
+  - 2
+values:
+  EN: 10
+  MP: 15
+  MPR: 3
+  WL: 5
+  WT: 6
+  TN: 3
+  MS: 4
+armor:
+  head: 1
+  torso: 4
+  arms: 2
+  legs: 2
+  md: 2
+  enc: 0
+inventory:
+  weapons:
+  - name: Battlestaff
+    damage: 2d8+2
+    hit: Hit+4, Block+6|4
+  - name: Knife
+    damage: 2d6
+    hit: Hit+2, Block+4|4
+  armor:
+  - name: Padded Helmet
+  - name: Padded Armor
+  - name: Padded Gauntlets
+  - name: Padded Greaves
+  - name: Shaman Amulet +2
+  misc:
+  - name: Adventurer's Pack I
+actions:
+  spells:
+  - 'Summon: Lesser Elemental'
+  - Elemental Wrath
+  - Low Stonewall
+  - Lesser Elemental Favor
+  - Lesser Flame of Defiance
+  - Lesser Wave of Healing
+  - Lesser Elemental Guidance
+  rituals:
+  - Elemental Manipulation
+proficiencies:
+  magic:
+  - 'Shaman: Beginner'
+  - '[i]Binding 3[/i]'
+  - '[i]Summoning 2[/i]'
+  weapons:
+  - 'Blunt: Beginner'
+  - '[i]Staffs 2[/i]'
+  civilian:
+  - Medicine 2
+  - Rites 3
+perks:
+  special:
+  - Efficient Metabolism
+  - Pursuit Hunter
+  magic:
+  - Astral Body I
+  - Battle Meditation
+  - Focus I

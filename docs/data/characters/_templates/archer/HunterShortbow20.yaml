@@ -1,0 +1,107 @@
+name: Hunter Shortbow 20
+id: HunterShortbow20
+info:
+  species: Human
+  level: 20
+  size: Medium
+  classes:
+  - Archer
+  - Hunter
+  tags: []
+notes: |-
+  [br]145 SP Base
+  [br]+40 Bonus
+  [br]Rest 0
+attributes:
+  CON:
+  - 7
+  - 3
+  STR:
+  - 8
+  - 4
+  DEX:
+  - 11
+  - 5
+  INT:
+  - 4
+  - 2
+  WIL:
+  - 5
+  - 2
+  PER:
+  - 9
+  - 4
+values:
+  EN: 15
+  MP: 5
+  MPR: 2
+  WL: 4
+  WT: 7
+  TN: 3
+  MS: 8
+armor:
+  head: 2
+  torso: 6
+  arms: 3
+  legs: 3
+  md: 4
+  enc: 0
+inventory:
+  weapons:
+  - name: Hunting Bow+2
+    damage: 1d6+6
+    hit: Hit+11
+    range: -1/0/0, 20m
+  - name: '[i]20× Arrow+1, light[/i]'
+    damage: 1d6+1
+  - name: Smallsword
+    damage: 2d6+2
+    hit: Hit+9, Block+9|7
+  - name: Knife
+    damage: 2d6
+    hit: Hit+5, Block+7|7
+  armor:
+  - name: Leather Helmet
+  - name: Leather Armor+1
+  - name: Leather Gauntlets
+  - name: Leather Greaves
+  - name: Amulet +2
+  - name: 2× Ring +1
+  misc:
+  - name: Adventurer's Pack II
+actions:
+  skills:
+  - 'Stance: Dodge'
+  - Multishot
+  - 'Precise Shot: Arms'
+  - 'Precise Shot: Legs'
+  - Find Weakness
+  - 'Technique: Second Wind'
+  - Camouflage
+  - Overwatch
+  - Vigilance
+  - Hold Breath
+  - Dodge Reflex
+  - Careful Shot
+  - Unpredictable Shot
+  - Aimed Shot
+  - Counter
+proficiencies:
+  weapons:
+  - 'Ranged: Intermediate'
+  - '[i]Shortbows 6[/i]'
+  - 'Stabbing: Beginner'
+  - '[i]Swords 2[/i]'
+  civilian:
+  - Hunting 4
+  - Survival 2
+perks:
+  special:
+  - Efficient Metabolism
+  - Pursuit Hunter
+  combat:
+  - On the Prowl
+  - David
+  - Forerunner
+  magic:
+  - Focus I

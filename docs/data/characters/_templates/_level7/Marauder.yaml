@@ -1,0 +1,89 @@
+name: Marauder
+id: Marauder
+info:
+  species: Human
+  level: 7
+  size: Medium
+  classes:
+  - Marauder
+  tags: []
+notes: |-
+  [br]50 SP Total
+  [br]Rest 0
+attributes:
+  CON:
+  - 6
+  - 3
+  STR:
+  - 6
+  - 3
+  DEX:
+  - 4
+  - 2
+  INT:
+  - 3
+  - 1
+  WIL:
+  - 3
+  - 1
+  PER:
+  - 3
+  - 1
+values:
+  EN: 15
+  MP: 5
+  MPR: 1
+  WL: 4
+  WT: 6
+  TN: 3
+  MS: 4
+armor:
+  head: 0
+  torso: 5
+  arms: 3
+  legs: 3
+  md: 0
+  enc: 0
+inventory:
+  weapons:
+  - name: Battleaxe
+    damage: 2d8+4
+    hit: Hit+3, Block+8|6
+  - name: Knife
+    damage: 2d6
+    hit: Hit+2, Block+6|6
+  - name: Fist
+    damage: 1d6+3
+    hit: Hit+3, Block+6|3
+  armor:
+  - name: Leather Armor
+  - name: Leather Gauntlets
+  - name: Leather Greaves
+  - name: Adventurer's Belt
+  - name: Adventurer's Belt
+  - name: Weapon Belt, two-handed
+  misc:
+  - name: 2 Silver
+actions:
+  skills:
+  - Charge
+  - Leg Sweep
+  - Shove
+  - Swing
+  - Feint
+  - Mighty Strike
+proficiencies:
+  weapons:
+  - 'Slashing: Beginner'
+  - '[i]Greataxes 2[/i]'
+  - 'Natural: Beginner'
+  - '[i]Primitive 1[/i]'
+  civilian:
+  - Athletics 3
+  - Survival 1
+perks:
+  special:
+  - Efficient Metabolism
+  - Pursuit Hunter
+  combat:
+  - Sprinter

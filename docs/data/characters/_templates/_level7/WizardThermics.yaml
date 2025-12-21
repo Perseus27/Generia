@@ -1,0 +1,125 @@
+name: Wizard (Thermics)
+id: WizardThermics
+info:
+  species: Human
+  level: 7
+  size: Medium
+  classes:
+  - Wizard
+  tags: []
+notes: |-
+  [br]50 SP Total
+  [br]Rest 0
+attributes:
+  CON:
+  - 3
+  - 1
+  STR:
+  - 3
+  - 1
+  DEX:
+  - 3
+  - 1
+  INT:
+  - 6
+  - 3
+  WIL:
+  - 6
+  - 3
+  PER:
+  - 4
+  - 2
+values:
+  EN: 10
+  MP: 10
+  MPR: 2
+  WL: 4
+  WT: 5
+  TN: 3
+  MS: 4
+armor:
+  head: 0
+  torso: 3
+  arms: 0
+  legs: 0
+  md: 0
+  enc: 0
+inventory:
+  weapons:
+  - name: Wizard Staff
+    damage: 2d8
+    hit: Hit+1, Block+2|2
+  - name: Knife
+    damage: 2d6
+    hit: Hit+1, Block+2|2
+  armor:
+  - name: Cloth Armor
+  - name: Adventurer's Belt
+  - name: Adventurer's Pouch
+  - name: Wizard's Pouch
+  misc:
+  - name: 2× Matrix Crystal
+  - name: 1 Gold, 8 Silver
+actions:
+  spells:
+  - Mana Beam I
+  - Thermal Beam I
+  - Thermal Bolt I
+  - Sparkstream I
+  - Arcane Barrier I
+  rituals:
+  - Hermetic Manipulation
+  - Thermic Manipulation
+proficiencies:
+  magic:
+  - 'Hermetics: Beginner'
+  - '[i]Arcane 1[/i]'
+  - 'Thermics: Beginner'
+  - '[i]Fire 2[/i]'
+  civilian:
+  - Arcana 3
+  - Arithmetics 1
+  - History 1
+  - COPY ARTICLE BLOCK
+  - COPY WORLD BLOCK
+  - Metadata
+  - DO YOU NEED HELP?
+  - PRICING
+  - '*GIFT A MEMBERSHIP!*'
+  - ABOUT
+  - FAQ
+  - CHANGELOG
+  - RANDOM GENERATORS
+  - WORLDBUILDING PROMPTS
+  - WHAT IS WORLDBUILDING?
+  - OUR TEAM
+  - WE ARE HIRING
+  - OUR NEWS
+  - PRIVACY
+  - TERMS OF SERVICE
+  - COPYRIGHT
+  - ETIQUETTE
+  - ACCESSIBILITY
+  - '*// WORLDANVIL PODCAST*'
+  - '*// DISCORD*'
+  - // BLOG
+  - // BLUESKY
+  - // TWITTER
+  - // YOUTUBE
+  - // TWITCH
+  - // FACEBOOK
+  - // REDDIT
+  - '*GIFTS & WORLD ANVIL GEAR*'
+  - WORLD ANVIL API
+  - STREAMING
+  - MAJOR CHALLENGES
+  - WORLDEMBER
+  - SUMMERCAMP
+  - '*JOIN THE AFFILIATE PROGRAM*'
+  - GET SPONSORED
+perks:
+  special:
+  - Efficient Metabolism
+  - Pursuit Hunter
+  magic:
+  - Battle Meditation

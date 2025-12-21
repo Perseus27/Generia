@@ -1,0 +1,100 @@
+name: Duelist Sword 15
+id: DuelistSword15
+info:
+  species: Human
+  level: 15
+  size: Medium
+  classes:
+  - Fighter
+  - Duelist
+  tags: []
+notes: |-
+  [br]105 SP Base
+  [br]+30 Bonus
+  [br]Rest 1
+attributes:
+  CON:
+  - 7
+  - 3
+  STR:
+  - 6
+  - 3
+  DEX:
+  - 10
+  - 5
+  INT:
+  - 4
+  - 2
+  WIL:
+  - 5
+  - 2
+  PER:
+  - 6
+  - 3
+values:
+  EN: 15
+  MP: 5
+  MPR: 2
+  WL: 4
+  WT: 7
+  TN: 3
+  MS: 6
+armor:
+  head: 2
+  torso: 6
+  arms: 3
+  legs: 3
+  md: 3
+  enc: 0
+inventory:
+  weapons:
+  - name: Smallsword+1
+    damage: 2d6+2
+    hit: Hit+12, Block+11|6
+  - name: Buckler
+    damage: 1d4+1
+    hit: Hit+9, Block+10|6
+  - name: Knife
+    damage: 2d6
+    hit: Hit+5, Block+6|6
+  armor:
+  - name: Leather Helmet
+  - name: Leather Armor+1
+  - name: Leather Gauntlets
+  - name: Leather Greaves
+  - name: Amulet +2
+  - name: Ring +1
+  misc:
+  - name: 1× Adventurer's Pack I
+actions:
+  skills:
+  - 'Stance: Parry'
+  - Charge
+  - Careful Strike
+  - Feint
+  - Counter
+  - Leg Sweep
+  - Shove
+  - Aimed Strike
+  - Swift Parry
+  - Disarm
+proficiencies:
+  weapons:
+  - 'Stabbing: Intermediate'
+  - '[i]Swords 5[/i]'
+  - 'Defensive: Beginner'
+  - '[i]Bucklers 4[/i]'
+  civilian:
+  - Athletics 2
+  - Monster Lore 1
+  - Warfare 2
+perks:
+  special:
+  - Efficient Metabolism
+  - Pursuit Hunter
+  combat:
+  - Lone Fighter
+  - Dancer
+  - Deflector
+  - Forerunner
+  - Opportunist

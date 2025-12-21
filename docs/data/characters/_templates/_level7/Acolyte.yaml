@@ -1,0 +1,92 @@
+name: Acolyte
+id: Acolyte
+info:
+  species: Human
+  level: 7
+  size: Medium
+  classes:
+  - Acolyte
+  tags: []
+notes: |-
+  [br]50 SP Total
+  [br]Rest 0
+attributes:
+  CON:
+  - 4
+  - 2
+  STR:
+  - 4
+  - 2
+  DEX:
+  - 3
+  - 1
+  INT:
+  - 5
+  - 2
+  WIL:
+  - 6
+  - 3
+  PER:
+  - 3
+  - 1
+values:
+  EN: 10
+  MP: 10
+  MPR: 2
+  WL: 4
+  WT: 5
+  TN: 3
+  MS: 4
+armor:
+  head: 0
+  torso: 3
+  arms: 1
+  legs: 1
+  md: 2
+  enc: 0
+inventory:
+  weapons:
+  - name: Mace
+    damage: 2d6+3
+    hit: Hit+3, Block+7|4
+  - name: Knife
+    damage: 2d6
+    hit: Hit+1, Block+4|4
+  armor:
+  - name: Cloth Armor
+  - name: Cloth Gauntlets
+  - name: Cloth Greaves
+  - name: Acolyte Amulet +2
+  - name: Adventurer's Belt
+  - name: Adventurer's Pouch
+  - name: Weapon Belt
+  - name: Priest's Pouch
+  misc:
+  - name: 1× MedKit
+  - name: 2 Silver
+actions:
+  spells:
+  - Light of Sol
+  - Sunlight Spear
+  - Radiant Shield
+  - Healing
+  - Purify
+  rituals:
+  - Consecration
+proficiencies:
+  magic:
+  - 'Acolyte: Beginner'
+  - '[i]Luna 2[/i]'
+  - '[i]Sol 2[/i]'
+  weapons:
+  - 'Blunt: Beginner'
+  - '[i]Maces 3[/i]'
+  civilian:
+  - Medicine 1
+  - Rites 2
+perks:
+  special:
+  - Efficient Metabolism
+  - Pursuit Hunter
+  magic:
+  - Battle Meditation

@@ -1,0 +1,96 @@
+name: Alchemist
+id: Alchemist
+info:
+  species: ???
+  level: 7
+  size: Medium
+  classes: []
+  tags: []
+notes: |-
+  [br]50 SP Total
+  [br]Rest 0
+attributes:
+  CON:
+  - 3
+  - 1
+  STR:
+  - 3
+  - 1
+  DEX:
+  - 5
+  - 2
+  INT:
+  - 6
+  - 3
+  WIL:
+  - 5
+  - 2
+  PER:
+  - 4
+  - 2
+values:
+  EN: 10
+  MP: 10
+  MPR: 2
+  WL: 4
+  WT: 5
+  TN: 3
+  MS: 4
+armor:
+  head: 0
+  torso: 3
+  arms: 1
+  legs: 0
+  md: 0
+  enc: 0
+inventory:
+  weapons:
+  - name: Transmutierte Pistole
+    hit: Hit+4
+  - name: Messer
+    damage: 2w6
+    hit: Hit+2, Block+2|2
+  armor:
+  - name: Alchemistenhandschuhe, Stoff
+  - name: Stoffrüstung
+  - name: Abenteurer-Gürtel
+  - name: Abenteurer-Gürteltasche
+  - name: Alchemistentasche
+  misc:
+  - name: 6x Feuerstaub
+  - name: 8x Luftstaub
+  - name: 20x Steinstaub
+  - name: 6x Wasserstaub
+  - name: 1x Steinkern
+  - name: 1x Feuerkern
+  - name: 1x Luftkern
+  - name: 1 Gold, 3 Silber
+actions:
+  skills:
+  - Sicherer Schuss
+  spells:
+  - Flammenwurf
+  - Feuermunition I
+  - Schockmunition I
+  - Steinmunition I
+  - Brandgranate I
+  - Heilgranate I
+  rituals:
+  - Mechanische Transmutation
+  - Pharmazeutische Transmutation
+  - 'Transmutation: Desintegration'
+  - 'Transmutation: Pistole'
+proficiencies:
+  magic:
+  - 'Alchemie: Anfänger'
+  - '[i]Mechanik 1[/i]'
+  civilian:
+  - Arithmetik 2
+  - Magiekunde 2
+  - Basteln 1
+perks:
+  special:
+  - ???
+  - ???
+  magic:
+  - Kampfmeditation

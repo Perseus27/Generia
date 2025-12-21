@@ -1,0 +1,111 @@
+name: Monk 15
+id: Monk15
+info:
+  species: Human
+  level: 15
+  size: Medium
+  classes:
+  - Marauder
+  - Shaman
+  - Monk
+  tags: []
+notes: |-
+  [br]95 SP Base
+  [br]+30 Bonus
+  [br]Rest 0
+attributes:
+  CON:
+  - 7
+  - 3
+  STR:
+  - 6
+  - 3
+  DEX:
+  - 8
+  - 4
+  INT:
+  - 5
+  - 2
+  WIL:
+  - 8
+  - 4
+  PER:
+  - 4
+  - 2
+values:
+  EN: 15
+  MP: 10
+  MPR: 2
+  WL: 5
+  WT: 7
+  TN: 3
+  MS: 6
+armor:
+  head: 2
+  torso: 6
+  arms: 3
+  legs: 3
+  md: 3
+  enc: 0
+inventory:
+  weapons:
+  - name: Battlestaff+1
+    damage: 2d8+4
+    hit: Hit+7, Block+9|6
+  - name: Fist
+    damage: 1d6+3
+    hit: Hit+9, Block+11|3
+  - name: Foot
+    damage: 1d6+4
+    hit: Hit+7, Block+11|3
+  armor:
+  - name: Leather Helmet
+  - name: Leather Armor+1
+  - name: Leather Gauntlets
+  - name: Leather Greaves
+  - name: Shaman Amulet +2
+  - name: Ring +1
+  misc:
+  - name: Adventurer's Pack I
+actions:
+  skills:
+  - Mighty Strike
+  - Charge
+  - Leg Sweep
+  - Careful Strike
+  - Counter
+  - Feint
+  - Disarm
+  spells:
+  - Inner World
+  - 'Summon: Lesser Elemental'
+  - Elemental Wrath
+  - Low Stonewall
+  - Lesser Elemental Favor
+  - Lesser Wave of Healing
+  - Lesser Elemental Guidance
+  rituals:
+  - Elemental Manipulation
+proficiencies:
+  magic:
+  - 'Shaman: Beginner'
+  - '[i]Binding 4[/i]'
+  weapons:
+  - 'Natural: Intermediate'
+  - '[i]Primitive 5[/i]'
+  - 'Blunt: Beginner'
+  - '[i]Staffs 3[/i]'
+  civilian:
+  - Athletics 3
+  - Rites 3
+  - Survival 1
+perks:
+  special:
+  - Efficient Metabolism
+  - Pursuit Hunter
+  combat:
+  - Opportunist
+  - Pugilist
+  magic:
+  - Spiritual Resilience
+  - Battle Meditation

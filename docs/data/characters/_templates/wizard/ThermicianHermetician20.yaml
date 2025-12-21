@@ -1,0 +1,140 @@
+name: Thermician/Hermetician 20
+id: ThermicianHermetician20
+info:
+  species: Human
+  level: 20
+  size: Medium
+  classes:
+  - Wizard
+  - Thermician
+  - Hermetician
+  tags: []
+notes: |-
+  [br]130 SP Base
+  [br]+40 Bonus
+  [br]Rest 5
+attributes:
+  CON:
+  - 6
+  - 3
+  STR:
+  - 4
+  - 2
+  DEX:
+  - 4
+  - 2
+  INT:
+  - 12
+  - 6
+  WIL:
+  - 9
+  - 4
+  PER:
+  - 8
+  - 4
+values:
+  EN: 10
+  MP: 25
+  MPR: 4
+  WL: 5
+  WT: 6
+  TN: 3
+  MS: 4
+armor:
+  head: 1
+  torso: 6
+  arms: 3
+  legs: 3
+  md: 5
+  enc: 0
+inventory:
+  weapons:
+  - name: Wizard Staff
+    damage: 2d8
+    hit: Hit+2, Block+5|5
+  - name: Knife
+    damage: 2d6
+    hit: Hit+2, Block+5|5
+  armor:
+  - name: Wizard Hat
+  - name: Leather Armor+1
+  - name: Padded Gauntlets+1
+  - name: Padded Greaves+1
+  - name: Amulet +3
+  - name: 2× Ring +1
+  misc:
+  - name: Adventurer's Pack II
+actions:
+  spells:
+  - Fireball I
+  - Frost Lance I
+  - Thermal Beam II
+  - Thermal Bolt II
+  - Mana Beam I
+  - Ice Shrapnel
+  - Sparkstream I
+  - Counter Shot
+  - Arcane Barrier I
+  - Counterspell
+  - Dimension Step
+  rituals:
+  - Hermetic Manipulation
+  - Thermic Manipulation
+proficiencies:
+  magic:
+  - 'Thermics: Intermediate'
+  - '[i]Fire 4[/i]'
+  - '[i]Ice 4[/i]'
+  - 'Hermetics: Intermediate'
+  - '[i]Arcane 2[/i]'
+  civilian:
+  - Arcana 4
+  - Arithmetics 2
+  - History 2
+  - COPY ARTICLE BLOCK
+  - COPY WORLD BLOCK
+  - Metadata
+  - DO YOU NEED HELP?
+  - PRICING
+  - '*GIFT A MEMBERSHIP!*'
+  - ABOUT
+  - FAQ
+  - CHANGELOG
+  - RANDOM GENERATORS
+  - WORLDBUILDING PROMPTS
+  - WHAT IS WORLDBUILDING?
+  - OUR TEAM
+  - WE ARE HIRING
+  - OUR NEWS
+  - PRIVACY
+  - TERMS OF SERVICE
+  - COPYRIGHT
+  - ETIQUETTE
+  - ACCESSIBILITY
+  - '*// WORLDANVIL PODCAST*'
+  - '*// DISCORD*'
+  - // BLOG
+  - // BLUESKY
+  - // TWITTER
+  - // YOUTUBE
+  - // TWITCH
+  - // FACEBOOK
+  - // REDDIT
+  - '*GIFTS & WORLD ANVIL GEAR*'
+  - WORLD ANVIL API
+  - STREAMING
+  - MAJOR CHALLENGES
+  - WORLDEMBER
+  - SUMMERCAMP
+  - '*JOIN THE AFFILIATE PROGRAM*'
+  - GET SPONSORED
+perks:
+  special:
+  - Efficient Metabolism
+  - Pursuit Hunter
+  magic:
+  - Practiced Hermetician
+  - Practiced Thermician
+  - Astral Body I
+  - Battle Meditation
+  - Focus I

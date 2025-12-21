@@ -1,0 +1,88 @@
+name: Shaman
+id: Shaman
+info:
+  species: Human
+  level: 7
+  size: Medium
+  classes:
+  - Shaman
+  tags: []
+notes: |-
+  [br]50 SP Total
+  [br]Rest 0
+attributes:
+  CON:
+  - 4
+  - 2
+  STR:
+  - 4
+  - 2
+  DEX:
+  - 3
+  - 1
+  INT:
+  - 5
+  - 2
+  WIL:
+  - 6
+  - 3
+  PER:
+  - 3
+  - 1
+values:
+  EN: 10
+  MP: 10
+  MPR: 2
+  WL: 4
+  WT: 5
+  TN: 3
+  MS: 4
+armor:
+  head: 0
+  torso: 2
+  arms: 1
+  legs: 1
+  md: 2
+  enc: 0
+inventory:
+  weapons:
+  - name: Battlestaff
+    damage: 2d8+2
+    hit: Hit+1, Block+4|4
+  - name: Knife
+    damage: 2d6
+    hit: Hit+1, Block+4|4
+  armor:
+  - name: Thick Clothing
+  - name: Cloth Gauntlets
+  - name: Cloth Greaves
+  - name: Adventurer's Belt
+  - name: Adventurer's Pouch
+  - name: Shaman Amulet +2
+  misc:
+  - name: 1× Fire core, weak
+  - name: 5 Silver
+actions:
+  spells:
+  - 'Summon: Lesser Elemental'
+  - Elemental Wrath
+  - Low Stonewall
+  - Lesser Elemental Favor
+  - Lesser Flame of Defiance
+  - Lesser Wave of Healing
+  rituals:
+  - Elemental Manipulation
+proficiencies:
+  magic:
+  - Shaman
+  weapons:
+  - 'Blunt: Beginner'
+  civilian:
+  - Medicine 3
+  - Rites 3
+perks:
+  special:
+  - Efficient Metabolism
+  - Pursuit Hunter
+  magic:
+  - Battle Meditation

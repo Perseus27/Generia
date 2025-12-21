@@ -1,0 +1,107 @@
+name: Aggressive Swordfighter 20
+id: AggressiveSwordfighter20
+info:
+  species: Human
+  level: 20
+  size: Medium
+  classes:
+  - Fighter
+  - Swordfighter
+  tags: []
+notes: |-
+  [br]135 SP Base
+  [br]+40 Bonus
+  [br]Rest 0
+attributes:
+  CON:
+  - 10
+  - 5
+  STR:
+  - 11
+  - 5
+  DEX:
+  - 9
+  - 4
+  INT:
+  - 4
+  - 2
+  WIL:
+  - 4
+  - 2
+  PER:
+  - 4
+  - 2
+values:
+  EN: 25
+  MP: 5
+  MPR: 1
+  WL: 4
+  WT: 8
+  TN: 5
+  MS: 6
+armor:
+  head: 3
+  torso: 7
+  arms: 4
+  legs: 4
+  md: 4
+  enc: 0
+inventory:
+  weapons:
+  - name: Longsword+2
+    damage: 2d8+7|4
+    hit: Hit+10, Block+16|10
+  - name: Shortsword+1
+    damage: 2d6+3
+    hit: Hit+8, Block+12|10
+  - name: Roundshield
+    damage: 1d6+8
+    hit: Hit+0, Block+10|12
+  - name: Knife
+    damage: 2d6
+    hit: Hit+4, Block+10|10
+  armor:
+  - name: Chain Helmet
+  - name: Chainmail+1
+  - name: Chain Gauntlets
+  - name: Chain Greaves
+  - name: Amulet +2
+  - name: 2× Ring +1
+  misc:
+  - name: 1× Adventurer's Pack II
+actions:
+  skills:
+  - 'Stance: Attack'
+  - Whirl
+  - Mordhau
+  - Mighty Strike
+  - Bodycheck
+  - Disarm
+  - Aimed Strike
+  - Charge
+  - Swing
+  - Feint
+  - Counter
+  - Leg Sweep
+  - Shove
+proficiencies:
+  weapons:
+  - 'Slashing: Intermediate'
+  - '[i]Greatswords 6[/i]'
+  - '[i]Swords 2[/i]'
+  - 'Defensive: Beginner'
+  civilian:
+  - Athletics 2
+  - Monster Lore 1
+  - Warfare 2
+perks:
+  special:
+  - Efficient Metabolism
+  - Pursuit Hunter
+  combat:
+  - Edge Alignment
+  - Goliath
+  - Conditioned I
+  - Forerunner
+  - Opportunist
+  - Sprinter

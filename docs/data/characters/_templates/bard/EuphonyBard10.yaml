@@ -1,0 +1,97 @@
+name: Euphony Bard 10
+id: EuphonyBard10
+info:
+  species: Human
+  level: 10
+  size: Medium
+  classes:
+  - Bard
+  tags: []
+notes: |-
+  [br]70 SP Base
+  [br]+20 Bonus
+  [br]Rest 1
+attributes:
+  CON:
+  - 5
+  - 2
+  STR:
+  - 3
+  - 1
+  DEX:
+  - 5
+  - 2
+  INT:
+  - 5
+  - 2
+  WIL:
+  - 8
+  - 4
+  PER:
+  - 4
+  - 2
+values:
+  EN: 10
+  MP: 15
+  MPR: 3
+  WL: 5
+  WT: 6
+  TN: 3
+  MS: 4
+armor:
+  head: 0
+  torso: 4
+  arms: 1
+  legs: 1
+  md: 2
+  enc: 0
+inventory:
+  weapons:
+  - name: Smallsword
+    damage: 2d6
+    hit: Hit+6, Block+5|3
+  - name: Short Sling
+    damage: 1d6
+    hit: Hit+2
+  - name: Knife
+    damage: 2d6
+    hit: Hit+2, Block+3|3
+  armor:
+  - name: Padded Armor
+  - name: Cloth Gauntlets
+  - name: Cloth Greaves
+  - name: Amulet +2
+  misc:
+  - name: Adventurer's Pack I
+actions:
+  spells:
+  - Verse of Folly
+  - Verse of Innocence
+  - Verse of Boldness
+  - Melody of Heroism
+  - Melody of Magic
+  - Verse of Healing
+  - Verse of Rebellion
+  rituals:
+  - Improvisation
+proficiencies:
+  magic:
+  - 'Bard: Beginner'
+  - '[i]Euphony 3[/i]'
+  - '[i]Cacophony 2[/i]'
+  weapons:
+  - 'Stabbing: Beginner'
+  - '[i]Swords 3[/i]'
+  civilian:
+  - History 3
+  - Performance 3
+  - Rites 1
+  - Trading 1
+perks:
+  special:
+  - Efficient Metabolism
+  - Pursuit Hunter
+  magic:
+  - Astral Body I
+  - Battle Meditation
+  - Focus I

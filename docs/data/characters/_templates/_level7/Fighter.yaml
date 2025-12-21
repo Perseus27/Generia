@@ -1,0 +1,91 @@
+name: Fighter
+id: Fighter
+info:
+  species: Human
+  level: 7
+  size: Medium
+  classes:
+  - Fighter
+  tags: []
+notes: |-
+  [br]55 SP Total
+  [br]Rest 0
+attributes:
+  CON:
+  - 5
+  - 2
+  STR:
+  - 5
+  - 2
+  DEX:
+  - 5
+  - 2
+  INT:
+  - 3
+  - 1
+  WIL:
+  - 3
+  - 1
+  PER:
+  - 4
+  - 2
+values:
+  EN: 15
+  MP: 5
+  MPR: 1
+  WL: 4
+  WT: 6
+  TN: 3
+  MS: 4
+armor:
+  head: 2
+  torso: 5
+  arms: 3
+  legs: 3
+  md: 0
+  enc: 0
+inventory:
+  weapons:
+  - name: Broadsword
+    damage: 2d6+2
+    hit: Hit+6, Block+8|4
+  - name: Roundshield
+    damage: 1d6+4
+    hit: Hit+3, Block+7|6
+  - name: Knife
+    damage: 2d6
+    hit: Hit+2, Block+4|4
+  armor:
+  - name: Leather Helmet
+  - name: Leather Armor
+  - name: Leather Gauntlets
+  - name: Leather Greaves
+  - name: Adventurer's Belt
+  - name: Adventurer's Pouch
+  - name: Weapon Belt, double
+  misc:
+  - name: 5 Silver
+actions:
+  skills:
+  - Charge
+  - Feint
+  - Counter
+  - Leg Sweep
+  - Shove
+  - Aimed Strike
+  - Shield Bash
+  - Steady Block
+proficiencies:
+  weapons:
+  - 'Slashing: Beginner'
+  - '[i]Swords 4[/i]'
+  - 'Defensive: Beginner'
+  - '[i]Roundshields 3[/i]'
+  civilian:
+  - Athletics 2
+  - Monster Lore 1
+  - Warfare 2
+perks:
+  special:
+  - Efficient Metabolism
+  - Pursuit Hunter

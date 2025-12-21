@@ -1,0 +1,141 @@
+name: Treewarden 20
+id: Treewarden20
+info:
+  species: Human
+  level: 20
+  size: Medium
+  classes:
+  - Druid
+  - Treewarden
+  tags: []
+notes: |-
+  [br]125 SP Total
+  [br]+40 Bonus
+  [br]Rest 0
+attributes:
+  CON:
+  - 7
+  - 3
+  STR:
+  - 6
+  - 3
+  DEX:
+  - 5
+  - 2
+  INT:
+  - 8
+  - 4
+  WIL:
+  - 12
+  - 6
+  PER:
+  - 6
+  - 3
+values:
+  EN: 15
+  MP: 20
+  MPR: 5
+  WL: 5
+  WT: 7
+  TN: 3
+  MS: 4
+armor:
+  head: 2
+  torso: 6
+  arms: 4
+  legs: 4
+  md: 5
+  enc: 0
+inventory:
+  weapons:
+  - name: Shillelagh
+    damage: 2d8+3
+    hit: Hit+4, Block+8|6
+  - name: Knife
+    damage: 2d6
+    hit: Hit+2, Block+6|6
+  armor:
+  - name: Leather Helmet
+  - name: Leather Armor+1
+  - name: Leather Gauntlets+1
+  - name: Leather Greaves+1
+  - name: Amulet +3
+  - name: 2× Ring +1
+  misc:
+  - name: Adventurer's Pack II
+actions:
+  spells:
+  - Whirl of Thorns
+  - Stranglevine
+  - Thorn Whip
+  - Breaking Vine
+  - Grasping Tendrils
+  - Root Grip
+  - Field of Thorns
+  - Thorn Mantle
+  - Root Wall
+  - Field of Flowers
+  - Regrowth
+  - Barkskin
+  - 'Theriomorph: Aspect'
+  - Wildgrowth
+  rituals:
+  - Rooting
+  - Anchor/Release Beast Soul
+proficiencies:
+  magic:
+  - 'Druid: Intermediate'
+  - '[i]Flora 5[/i]'
+  - '[i]Fauna 2[/i]'
+  weapons:
+  - 'Blunt: Beginner'
+  - '[i]Staffs 4[/i]'
+  civilian:
+  - Botany 4
+  - Zoology 2
+  - COPY ARTICLE BLOCK
+  - COPY WORLD BLOCK
+  - Metadata
+  - DO YOU NEED HELP?
+  - PRICING
+  - '*GIFT A MEMBERSHIP!*'
+  - ABOUT
+  - FAQ
+  - CHANGELOG
+  - RANDOM GENERATORS
+  - WORLDBUILDING PROMPTS
+  - WHAT IS WORLDBUILDING?
+  - OUR TEAM
+  - WE ARE HIRING
+  - OUR NEWS
+  - PRIVACY
+  - TERMS OF SERVICE
+  - COPYRIGHT
+  - ETIQUETTE
+  - ACCESSIBILITY
+  - '*// WORLDANVIL PODCAST*'
+  - '*// DISCORD*'
+  - // BLOG
+  - // BLUESKY
+  - // TWITTER
+  - // YOUTUBE
+  - // TWITCH
+  - // FACEBOOK
+  - // REDDIT
+  - '*GIFTS & WORLD ANVIL GEAR*'
+  - WORLD ANVIL API
+  - STREAMING
+  - MAJOR CHALLENGES
+  - WORLDEMBER
+  - SUMMERCAMP
+  - '*JOIN THE AFFILIATE PROGRAM*'
+  - GET SPONSORED
+perks:
+  special:
+  - Efficient Metabolism
+  - Pursuit Hunter
+  magic:
+  - 'Wildgrowth: Permanence'
+  - Astral Body I
+  - Battle Meditation
+  - Focus I

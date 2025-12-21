@@ -1,0 +1,142 @@
+name: Heavy Swordfighter 20
+id: HeavySwordfighter20
+info:
+  species: Human
+  level: 20
+  size: Medium
+  classes:
+  - Fighter
+  - Swordfighter
+  - Shieldbearer
+  tags: []
+notes: |-
+  [br]130 SP Base
+  [br]+40 Bonus
+  [br]Rest 0
+attributes:
+  CON:
+  - 11
+  - 5
+  STR:
+  - 10
+  - 5
+  DEX:
+  - 8
+  - 4
+  INT:
+  - 4
+  - 2
+  WIL:
+  - 5
+  - 2
+  PER:
+  - 5
+  - 2
+values:
+  EN: 25
+  MP: 5
+  MPR: 2
+  WL: 4
+  WT: 9
+  TN: 5
+  MS: 6
+armor:
+  head: 5
+  torso: 9
+  arms: 6
+  legs: 6
+  md: 4
+  enc: 2
+inventory:
+  weapons:
+  - name: Bastard Sword+1
+    damage: 2d6+6|8
+    hit: Hit+9, Block+15|10
+  - name: Roundshield+2
+    damage: 1d6+10
+    hit: Hit+5, Block+15|14
+  - name: Knife
+    damage: 2d6
+    hit: Hit+4, Block+10|10
+  armor:
+  - name: Plate Helmet
+  - name: Plate Armor+1
+  - name: Plate Gauntlets
+  - name: Plate Greaves
+  - name: Amulet +2
+  - name: 2× Ring +1
+  misc:
+  - name: 1× Adventurer's Pack II
+actions:
+  skills:
+  - Protect
+  - 'Stance: Block'
+  - Mighty Strike
+  - Disarm
+  - Charge
+  - Feint
+  - Counter
+  - Leg Sweep
+  - Shove
+  - Aimed Strike
+  - Shield Bash
+  - Steady Block
+proficiencies:
+  weapons:
+  - 'Slashing: Intermediate'
+  - '[i]Swords 5[/i]'
+  - 'Defensive: Intermediate'
+  - '[i]Roundshields 5[/i]'
+  civilian:
+  - Athletics 3
+  - Monster Lore 1
+  - Warfare 2
+  - COPY ARTICLE BLOCK
+  - COPY WORLD BLOCK
+  - Metadata
+  - DO YOU NEED HELP?
+  - PRICING
+  - '*GIFT A MEMBERSHIP!*'
+  - ABOUT
+  - FAQ
+  - CHANGELOG
+  - RANDOM GENERATORS
+  - WORLDBUILDING PROMPTS
+  - WHAT IS WORLDBUILDING?
+  - OUR TEAM
+  - WE ARE HIRING
+  - OUR NEWS
+  - PRIVACY
+  - TERMS OF SERVICE
+  - COPYRIGHT
+  - ETIQUETTE
+  - ACCESSIBILITY
+  - '*// WORLDANVIL PODCAST*'
+  - '*// DISCORD*'
+  - // BLOG
+  - // BLUESKY
+  - // TWITTER
+  - // YOUTUBE
+  - // TWITCH
+  - // FACEBOOK
+  - // REDDIT
+  - '*GIFTS & WORLD ANVIL GEAR*'
+  - WORLD ANVIL API
+  - STREAMING
+  - MAJOR CHALLENGES
+  - WORLDEMBER
+  - SUMMERCAMP
+  - '*JOIN THE AFFILIATE PROGRAM*'
+  - GET SPONSORED
+perks:
+  special:
+  - Efficient Metabolism
+  - Pursuit Hunter
+  combat:
+  - Edge Alignment
+  - Armor Familiarity I
+  - Armor Familiarity II
+  - Conditioned I
+  - Forerunner
+  - Juggernaut
+  - Opportunist

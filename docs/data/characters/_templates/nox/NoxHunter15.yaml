@@ -1,0 +1,111 @@
+name: Nox Hunter 15
+id: NoxHunter15
+info:
+  species: Human
+  level: 15
+  size: Medium
+  classes:
+  - Nox
+  - Archer
+  - Hunter
+  tags: []
+notes: |-
+  [br]110 SP Base
+  [br]+30 Bonus
+  [br]Rest 2
+attributes:
+  CON:
+  - 5
+  - 2
+  STR:
+  - 5
+  - 2
+  DEX:
+  - 10
+  - 5
+  INT:
+  - 5
+  - 2
+  WIL:
+  - 4
+  - 2
+  PER: 8
+values:
+  EN: 15
+  MP: 10
+  MPR: 1
+  WL: 4
+  WT: 6
+  TN: 3
+  MS: 6
+armor:
+  head: 1
+  torso: 6
+  arms: 3
+  legs: 3
+  md: 3
+  enc: 0
+inventory:
+  weapons:
+  - name: Shortbow
+    damage: 1d6+1
+    hit: Hit+9
+  - name: 20× Arrow, light
+    damage: 1d6
+  - name: Smallsword
+    damage: 2d6+1
+    hit: Hit+10, Block+8|4
+  - name: Knife
+    damage: 2d6
+    hit: Hit+4, Block+4|4
+  armor:
+  - name: Padded Helmet
+  - name: Leather Armor+1
+  - name: Leather Gauntlets
+  - name: Leather Greaves
+  - name: Amulet +2
+  - name: Noxian Ring +1
+  misc:
+  - name: Adventurer's Pack I
+actions:
+  skills:
+  - Aimed Shot
+  - Careful Shot
+  - Unpredictable Shot
+  - Hold Breath
+  - Camouflage
+  - Overwatch
+  - Counter
+  spells:
+  - Shadow Strike
+  - Shadow Cloak
+  - Shadow Summoning
+  - Shadow Run
+  - Blur
+  rituals:
+  - Prayer to Nox
+proficiencies:
+  magic:
+  - 'Nox: Beginner'
+  - '[i]Night 4[/i]'
+  weapons:
+  - 'Ranged: Intermediate'
+  - '[i]Shortbows 5[/i]'
+  - 'Stabbing: Beginner'
+  - '[i]Swords 4[/i]'
+  civilian:
+  - Hunting 2
+  - Rites 1
+  - Stealing 2
+  - Stealth 3
+  - Survival 1
+perks:
+  special:
+  - Efficient Metabolism
+  - Pursuit Hunter
+  combat:
+  - On the Prowl
+  - Forerunner
+  - Opportunist
+  magic:
+  - Focus I

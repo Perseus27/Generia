@@ -1,0 +1,98 @@
+name: Thermician 15
+id: Thermician15
+info:
+  species: Human
+  level: 15
+  size: Medium
+  classes:
+  - Wizard
+  - Thermician
+  tags: []
+notes: |-
+  [br]105 SP Base
+  [br]+30 Bonus
+  [br]Rest 0
+attributes:
+  CON:
+  - 5
+  - 2
+  STR:
+  - 3
+  - 1
+  DEX:
+  - 4
+  - 2
+  INT:
+  - 10
+  - 5
+  WIL:
+  - 8
+  - 4
+  PER:
+  - 7
+  - 3
+values:
+  EN: 10
+  MP: 20
+  MPR: 3
+  WL: 5
+  WT: 6
+  TN: 3
+  MS: 4
+armor:
+  head: 1
+  torso: 4
+  arms: 2
+  legs: 2
+  md: 4
+  enc: 0
+inventory:
+  weapons:
+  - name: Wizard Staff
+    damage: 2d8
+    hit: Hit+2, Block+3|3
+  - name: Knife
+    damage: 2d6
+    hit: Hit+2, Block+3|3
+  armor:
+  - name: Wizard Hat
+  - name: Padded Armor
+  - name: Padded Gauntlets
+  - name: Padded Greaves
+  - name: Amulet +2
+  - name: 2× Ring +1
+  misc:
+  - name: Adventurer's Pack I
+actions:
+  spells:
+  - Fireball I
+  - Frost Lance I
+  - Thermal Beam II
+  - Thermal Bolt II
+  - Mana Beam I
+  - Ice Shrapnel
+  - Sparkstream I
+  - Arcane Barrier I
+  rituals:
+  - Hermetic Manipulation
+  - Thermic Manipulation
+proficiencies:
+  magic:
+  - 'Thermics: Intermediate'
+  - '[i]Fire 4[/i]'
+  - '[i]Ice 4[/i]'
+  - 'Hermetics: Beginner'
+  - '[i]Arcane 2[/i]'
+  civilian:
+  - Arcana 4
+  - Arithmetics 2
+  - History 2
+perks:
+  special:
+  - Efficient Metabolism
+  - Pursuit Hunter
+  magic:
+  - Practiced Thermician
+  - Astral Body I
+  - Battle Meditation
+  - Focus I

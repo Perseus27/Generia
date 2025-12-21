@@ -1,0 +1,105 @@
+name: Field Archer Longbow 15
+id: FieldArcherLongbow15
+info:
+  species: Human
+  level: 15
+  size: Medium
+  classes:
+  - Archer
+  - Fighter
+  - Field Archer
+  tags: []
+notes: |-
+  [br]105 SP Base
+  [br]+30 Bonus
+  [br]Rest 0
+attributes:
+  CON:
+  - 7
+  - 3
+  STR:
+  - 9
+  - 4
+  DEX:
+  - 8
+  - 4
+  INT:
+  - 4
+  - 2
+  WIL:
+  - 4
+  - 2
+  PER:
+  - 6
+  - 3
+values:
+  EN: 20
+  MP: 5
+  MPR: 1
+  WL: 4
+  WT: 7
+  TN: 3
+  MS: 6
+armor:
+  head: 1
+  torso: 4
+  arms: 2
+  legs: 2
+  md: 3
+  enc: 0
+inventory:
+  weapons:
+  - name: Warbow+1
+    damage: 1d8+4
+    hit: Hit+9
+    range: -2/0/0, 28m
+  - name: '[i]20× Arrow, heavy[/i]'
+    damage: 1d8
+  - name: Broadsword
+    damage: 2d6+4
+    hit: Hit+7, Block+10|7
+  - name: Knife
+    damage: 2d6
+    hit: Hit+3, Block+5|5
+  armor:
+  - name: Padded Helmet
+  - name: Padded Armor
+  - name: Padded Gauntlets
+  - name: Padded Greaves
+  - name: Amulet +2
+  - name: Ring +1
+  misc:
+  - name: Adventurer's Pack I
+actions:
+  skills:
+  - Mighty Shot
+  - Multishot
+  - Hold Breath
+  - Overwatch
+  - Dodge Reflex
+  - Careful Shot
+  - Unpredictable Shot
+  - Aimed Shot
+  - Counter
+  - Charge
+  - Feint
+  - Leg Sweep
+  - Shove
+proficiencies:
+  weapons:
+  - 'Ranged: Intermediate'
+  - '[i]Longbows 5[/i]'
+  - 'Slashing: Intermediate'
+  - '[i]Swords 3[/i]'
+  - 'Defensive: Beginner'
+  civilian:
+  - Hunting 1
+  - Monster Lore 1
+  - Warfare 2
+perks:
+  special:
+  - Efficient Metabolism
+  - Pursuit Hunter
+  combat:
+  - David
+  - Forerunner

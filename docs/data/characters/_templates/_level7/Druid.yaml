@@ -1,0 +1,91 @@
+name: Druid
+id: Druid
+info:
+  species: Human
+  level: 7
+  size: Medium
+  classes:
+  - Druid
+  tags: []
+notes: |-
+  [br]50 SP Total
+  [br]Rest 0
+attributes:
+  CON:
+  - 4
+  - 2
+  STR:
+  - 4
+  - 2
+  DEX:
+  - 3
+  - 1
+  INT:
+  - 5
+  - 2
+  WIL:
+  - 6
+  - 3
+  PER:
+  - 3
+  - 1
+values:
+  EN: 10
+  MP: 10
+  MPR: 2
+  WL: 4
+  WT: 5
+  TN: 3
+  MS: 4
+armor:
+  head: 0
+  torso: 4
+  arms: 1
+  legs: 1
+  md: 0
+  enc: 0
+inventory:
+  weapons:
+  - name: Shillelagh
+    damage: 2d8+2
+    hit: Hit+0, Block+4|4
+  - name: Knife
+    damage: 2d6
+    hit: Hit+1, Block+4|4
+  armor:
+  - name: Padded Armor
+  - name: Cloth Gauntlets
+  - name: Cloth Greaves
+  - name: Adventurer's Belt
+  - name: Adventurer's Pouch
+  - name: Seed Pouch
+  misc:
+  - name: Soul Anchor (Dachs
+    range: a/wildtiere-E28093-profan-article#Dachs>)
+  - name: 8 Silver
+actions:
+  spells:
+  - Thorn Whip
+  - Regrowth
+  - Grasping Vines
+  - 'Theriomorph: Aspect'
+  - Wildgrowth
+  rituals:
+  - Rooting
+  - Anchor/Release Beast Soul
+proficiencies:
+  magic:
+  - Druid
+  - '[i]Fauna 2[/i]'
+  - '[i]Flora 2[/i]'
+  weapons:
+  - 'Blunt: Beginner'
+  civilian:
+  - Botany 2
+  - Zoology 2
+perks:
+  special:
+  - Efficient Metabolism
+  - Pursuit Hunter
+  magic:
+  - Battle Meditation

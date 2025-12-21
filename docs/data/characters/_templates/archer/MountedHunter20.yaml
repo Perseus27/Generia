@@ -1,0 +1,141 @@
+name: Mounted Hunter 20
+id: MountedHunter20
+info:
+  species: Human
+  level: 20
+  size: Medium
+  classes:
+  - Archer
+  - Hunter
+  tags: []
+notes: |-
+  [br]145 SP Base
+  [br]+40 Bonus
+  [br]Rest 0
+attributes:
+  CON:
+  - 7
+  - 3
+  STR:
+  - 11
+  - 5
+  DEX:
+  - 9
+  - 4
+  INT:
+  - 4
+  - 2
+  WIL:
+  - 5
+  - 2
+  PER:
+  - 8
+  - 4
+values:
+  EN: 20
+  MP: 5
+  MPR: 2
+  WL: 4
+  WT: 7
+  TN: 3
+  MS: 6
+armor:
+  head: 2
+  torso: 5
+  arms: 3
+  legs: 3
+  md: 4
+  enc: 0
+inventory:
+  weapons:
+  - name: Riding Bow+2
+    damage: 1d6+7
+    hit: Hit+11
+    range: 0/0/-1, 20m
+  - name: '[i]20× Arrow+1, light[/i]'
+    damage: 1d6+1
+  - name: Saber+1
+    damage: 2d6+3
+    hit: Hit+10, Block+12|8
+  - name: Knife
+    damage: 2d6
+    hit: Hit+4, Block+8|8
+  armor:
+  - name: Leather Helmet
+  - name: Leather Armor
+  - name: Leather Gauntlets
+  - name: Leather Greaves
+  - name: Amulet +2
+  - name: 2× Ring +1
+  misc:
+  - name: Adventurer's Pack II
+actions:
+  skills:
+  - Multishot
+  - 'Technique: Second Wind'
+  - Camouflage
+  - Overwatch
+  - Hold Breath
+  - Dodge Reflex
+  - Careful Shot
+  - Unpredictable Shot
+  - Aimed Shot
+  - Counter
+proficiencies:
+  weapons:
+  - 'Ranged: Intermediate'
+  - '[i]Shortbows 7[/i]'
+  - 'Slashing: Intermediate'
+  - '[i]Swords 4[/i]'
+  civilian:
+  - Hunting 3
+  - Riding 3
+  - Survival 1
+  - COPY ARTICLE BLOCK
+  - COPY WORLD BLOCK
+  - Metadata
+  - DO YOU NEED HELP?
+  - PRICING
+  - '*GIFT A MEMBERSHIP!*'
+  - ABOUT
+  - FAQ
+  - CHANGELOG
+  - RANDOM GENERATORS
+  - WORLDBUILDING PROMPTS
+  - WHAT IS WORLDBUILDING?
+  - OUR TEAM
+  - WE ARE HIRING
+  - OUR NEWS
+  - PRIVACY
+  - TERMS OF SERVICE
+  - COPYRIGHT
+  - ETIQUETTE
+  - ACCESSIBILITY
+  - '*// WORLDANVIL PODCAST*'
+  - '*// DISCORD*'
+  - // BLOG
+  - // BLUESKY
+  - // TWITTER
+  - // YOUTUBE
+  - // TWITCH
+  - // FACEBOOK
+  - // REDDIT
+  - '*GIFTS & WORLD ANVIL GEAR*'
+  - WORLD ANVIL API
+  - STREAMING
+  - MAJOR CHALLENGES
+  - WORLDEMBER
+  - SUMMERCAMP
+  - '*JOIN THE AFFILIATE PROGRAM*'
+  - GET SPONSORED
+perks:
+  special:
+  - Efficient Metabolism
+  - Pursuit Hunter
+  combat:
+  - On the Prowl
+  - Cavalry
+  - David
+  - Forerunner
+  magic:
+  - Focus I

@@ -1,0 +1,99 @@
+name: Basic Berserker 15
+id: BasicBerserker15
+info:
+  species: Human
+  level: 15
+  size: Medium
+  classes:
+  - Marauder
+  - Berserker
+  tags: []
+notes: |-
+  [br]105 SP Base
+  [br]+30 Bonus
+  [br]Rest 1
+attributes:
+  CON:
+  - 7
+  - 3
+  STR:
+  - 9
+  - 4
+  DEX:
+  - 7
+  - 3
+  INT:
+  - 3
+  - 1
+  WIL:
+  - 7
+  - 3
+  PER:
+  - 5
+  - 2
+values:
+  EN: 25
+  MP: 5
+  MPR: 2
+  WL: 5
+  WT: 7
+  TN: 4
+  MS: 6
+armor:
+  head: 3
+  torso: 6
+  arms: 4
+  legs: 4
+  md: 3
+  enc: 0
+inventory:
+  weapons:
+  - name: Battleaxe +1
+    damage: 2d8+7
+    hit: Hit+6, Block+12|7
+  - name: Brass Knuckles +1
+    damage: 1d8+7
+    hit: Hit+5, Block+9|7
+  - name: Knife
+    damage: 2d6
+    hit: Hit+3, Block+7|7
+  armor:
+  - name: Chain Helmet
+  - name: Chainmail
+  - name: Chain Gauntlets
+  - name: Chain Greaves
+  - name: Amulet+2
+  - name: Ring+1
+  misc:
+  - name: Adventurer's Pack I
+actions:
+  skills:
+  - Whirl
+  - Mighty Strike
+  - Daredevil
+  - Charge
+  - Leg Sweep
+  - Shove
+  - Swing
+  - Feint
+proficiencies:
+  weapons:
+  - 'Slashing: Intermediate'
+  - '[i]Greataxes 5[/i]'
+  - 'Natural: Beginner'
+  - '[i]Primitive 2[/i]'
+  civilian:
+  - Athletics 3
+  - Survival 1
+perks:
+  special:
+  - Efficient Metabolism
+  - Pursuit Hunter
+  combat:
+  - Bloodlust
+  - Blood Avenger
+  - Conditioned I
+  - Goliath
+  - Opportunist
+  - Pugilist
+  - Sprinter

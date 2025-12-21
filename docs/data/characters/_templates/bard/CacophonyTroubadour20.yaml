@@ -1,0 +1,141 @@
+name: Cacophony Troubadour 20
+id: CacophonyTroubadour20
+info:
+  species: Human
+  level: 20
+  size: Medium
+  classes:
+  - Bard
+  - Troubadour
+  tags: []
+notes: |-
+  [br]130 SP Base
+  [br]+40 Bonus
+  [br]Rest 0
+attributes:
+  CON:
+  - 7
+  - 3
+  STR:
+  - 4
+  - 2
+  DEX:
+  - 7
+  - 3
+  INT:
+  - 7
+  - 3
+  WIL:
+  - 12
+  - 6
+  PER:
+  - 7
+  - 3
+values:
+  EN: 10
+  MP: 20
+  MPR: 5
+  WL: 5
+  WT: 7
+  TN: 3
+  MS: 6
+armor:
+  head: 1
+  torso: 6
+  arms: 3
+  legs: 3
+  md: 5
+  enc: 0
+inventory:
+  weapons:
+  - name: Smallsword+1
+    damage: 2d6+2
+    hit: Hit+8, Block+9|5
+  - name: Short Sling
+    damage: 1d6
+    hit: Hit+3
+  - name: Knife
+    damage: 2d6
+    hit: Hit+3, Block+5|5
+  armor:
+  - name: Padded Helmet
+  - name: Padded Armor+2
+  - name: Leather Gauntlets
+  - name: Leather Greaves
+  - name: Amulet +3
+  - name: 2× Ring +1
+  misc:
+  - name: Adventurer's Pack II
+actions:
+  spells:
+  - Eigth Rest
+  - Stanza of Folly
+  - Stanza of Innocence
+  - Stanza of Love
+  - Stanza of Slumber
+  - Stanza of Carelessness
+  - Stanza of Cowardice
+  - Song of Heroism
+  - Melody of Magic
+  - Stanza of Healing
+  - Verse of Rebellion
+  rituals:
+  - Improvisation
+proficiencies:
+  magic:
+  - 'Bard: Beginner'
+  - '[i]Cacophony 5[/i]'
+  - '[i]Euphony 3[/i]'
+  weapons:
+  - 'Stabbing: Beginner'
+  - '[i]Swords 4[/i]'
+  civilian:
+  - History 3
+  - Performance 5
+  - Rites 2
+  - Trading 1
+  - COPY ARTICLE BLOCK
+  - COPY WORLD BLOCK
+  - Metadata
+  - DO YOU NEED HELP?
+  - PRICING
+  - '*GIFT A MEMBERSHIP!*'
+  - ABOUT
+  - FAQ
+  - CHANGELOG
+  - RANDOM GENERATORS
+  - WORLDBUILDING PROMPTS
+  - WHAT IS WORLDBUILDING?
+  - OUR TEAM
+  - WE ARE HIRING
+  - OUR NEWS
+  - PRIVACY
+  - TERMS OF SERVICE
+  - COPYRIGHT
+  - ETIQUETTE
+  - ACCESSIBILITY
+  - '*// WORLDANVIL PODCAST*'
+  - '*// DISCORD*'
+  - // BLOG
+  - // BLUESKY
+  - // TWITTER
+  - // YOUTUBE
+  - // TWITCH
+  - // FACEBOOK
+  - // REDDIT
+  - '*GIFTS & WORLD ANVIL GEAR*'
+  - WORLD ANVIL API
+  - STREAMING
+  - MAJOR CHALLENGES
+  - WORLDEMBER
+  - SUMMERCAMP
+  - '*JOIN THE AFFILIATE PROGRAM*'
+  - GET SPONSORED
+perks:
+  special:
+  - Efficient Metabolism
+  - Pursuit Hunter
+  magic:
+  - Astral Body I
+  - Battle Meditation
+  - Focus I

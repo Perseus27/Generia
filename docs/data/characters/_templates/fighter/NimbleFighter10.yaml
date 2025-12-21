@@ -1,0 +1,95 @@
+name: Nimble Fighter 10
+id: NimbleFighter10
+info:
+  species: Human
+  level: 10
+  size: Medium
+  classes:
+  - Fighter
+  tags: []
+notes: |-
+  [br]75 SP Base
+  [br]+20 Bonus
+  [br]Rest 0
+attributes:
+  CON:
+  - 5
+  - 2
+  STR:
+  - 4
+  - 2
+  DEX:
+  - 8
+  - 4
+  INT:
+  - 4
+  - 2
+  WIL:
+  - 4
+  - 2
+  PER:
+  - 5
+  - 2
+values:
+  EN: 10
+  MP: 5
+  MPR: 1
+  WL: 4
+  WT: 6
+  TN: 3
+  MS: 6
+armor:
+  head: 2
+  torso: 5
+  arms: 3
+  legs: 3
+  md: 1
+  enc: 0
+inventory:
+  weapons:
+  - name: Smallsword
+    damage: 2d6+1
+    hit: Hit+10, Block+9|5
+  - name: Buckler
+    damage: 1d4+1
+    hit: Hit+7, Block+8|5
+  - name: Knife
+    damage: 2d6
+    hit: Hit+4, Block+5|5
+  armor:
+  - name: Leather Helmet
+  - name: Leather Armor
+  - name: Leather Gauntlets
+  - name: Leather Greaves
+  - name: Amulet +1
+  misc:
+  - name: 1× Adventurer's Pack I
+actions:
+  skills:
+  - Charge
+  - Careful Strike
+  - Feint
+  - Counter
+  - Leg Sweep
+  - Shove
+  - Aimed Strike
+  - Swift Parry
+proficiencies:
+  weapons:
+  - 'Stabbing: Beginner'
+  - '[i]Swords 4[/i]'
+  - 'Defensive: Beginner'
+  - '[i]Bucklers 3[/i]'
+  civilian:
+  - Athletics 2
+  - Monster Lore 1
+  - Warfare 2
+perks:
+  special:
+  - Efficient Metabolism
+  - Pursuit Hunter
+  combat:
+  - Dancer
+  - Deflector
+  - Forerunner
+  - Opportunist

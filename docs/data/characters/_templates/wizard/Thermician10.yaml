@@ -1,0 +1,94 @@
+name: Thermician 10
+id: Thermician10
+info:
+  species: Human
+  level: 10
+  size: Medium
+  classes:
+  - Wizard
+  - Thermician
+  tags: []
+notes: |-
+  [br]70 SP Base
+  [br]+20 Bonus
+  [br]Rest 2
+attributes:
+  CON:
+  - 4
+  - 2
+  STR:
+  - 3
+  - 1
+  DEX:
+  - 4
+  - 2
+  INT:
+  - 8
+  - 4
+  WIL:
+  - 6
+  - 3
+  PER:
+  - 5
+  - 2
+values:
+  EN: 10
+  MP: 15
+  MPR: 2
+  WL: 4
+  WT: 5
+  TN: 3
+  MS: 4
+armor:
+  head: 1
+  torso: 3
+  arms: 1
+  legs: 1
+  md: 2
+  enc: 0
+inventory:
+  weapons:
+  - name: Wizard Staff
+    damage: 2d8
+    hit: Hit+2, Block+3|3
+  - name: Knife
+    damage: 2d6
+    hit: Hit+2, Block+3|3
+  armor:
+  - name: Wizard Hat
+  - name: Cloth Armor
+  - name: Cloth Gauntlets
+  - name: Cloth Greaves
+  - name: Amulet +2
+  misc:
+  - name: Adventurer's Pack I
+actions:
+  spells:
+  - Fireball I
+  - Frost Lance I
+  - Thermal Beam II
+  - Thermal Bolt II
+  - Mana Beam I
+  - Ice Shrapnel
+  - Sparkstream I
+  - Arcane Barrier I
+  rituals:
+  - Hermetic Manipulation
+  - Thermic Manipulation
+proficiencies:
+  magic:
+  - 'Thermics: Intermediate'
+  - '[i]Fire 2[/i]'
+  - 'Hermetics: Beginner'
+  - '[i]Arcane 1[/i]'
+  civilian:
+  - Arcana 3
+  - Arithmetics 1
+  - History 1
+perks:
+  special:
+  - Efficient Metabolism
+  - Pursuit Hunter
+  magic:
+  - Practiced Thermician
+  - Battle Meditation

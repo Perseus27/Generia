@@ -1,0 +1,99 @@
+name: Binder 15
+id: Binder15
+info:
+  species: Human
+  level: 15
+  size: Medium
+  classes:
+  - Shaman
+  - Binder
+  tags: []
+notes: |-
+  [br]100 SP Base
+  [br]+30 Bonus
+  [br]Rest 1
+attributes:
+  CON:
+  - 5
+  - 2
+  STR:
+  - 4
+  - 2
+  DEX:
+  - 5
+  - 2
+  INT:
+  - 7
+  - 3
+  WIL:
+  - 11
+  - 5
+  PER:
+  - 5
+  - 2
+values:
+  EN: 10
+  MP: 20
+  MPR: 5
+  WL: 5
+  WT: 6
+  TN: 3
+  MS: 4
+armor:
+  head: 1
+  torso: 6
+  arms: 2
+  legs: 2
+  md: 4
+  enc: 0
+inventory:
+  weapons:
+  - name: Battlestaff+1
+    damage: 2d8+3
+    hit: Hit+5, Block+7|4
+  - name: Knife
+    damage: 2d6
+    hit: Hit+2, Block+4|4
+  armor:
+  - name: Padded Helmet
+  - name: Leather Armor+1
+  - name: Padded Gauntlets
+  - name: Padded Greaves
+  - name: Shaman Amulet +2
+  - name: 2× Ring +1
+  misc:
+  - name: Adventurer's Pack I
+actions:
+  spells:
+  - 'Summon: Elemental'
+  - Elemental Rage
+  - Low Stonewall
+  - Elemental Favor
+  - Flame of Defiance
+  - Tailwind
+  - Wind Tunnel
+  - Wave of Healing
+  - Lesser Cleansing Flame
+  - Elemental Guidance
+  rituals:
+  - Elemental Manipulation
+proficiencies:
+  magic:
+  - 'Shaman: Intermediate'
+  - '[i]Binding 4[/i]'
+  - '[i]Summoning 2[/i]'
+  weapons:
+  - 'Blunt: Beginner'
+  - '[i]Staffs 3[/i]'
+  civilian:
+  - Medicine 2
+  - Rites 3
+perks:
+  special:
+  - Efficient Metabolism
+  - Pursuit Hunter
+  magic:
+  - Spiritual Resilience
+  - Astral Body I
+  - Battle Meditation
+  - Focus I
