@@ -36,16 +36,16 @@ armor:
 inventory:
   weapons:
     - name: "Smallsword"
-      damage: "[section:clr-roll]2d6+1[/section]"
+      damage: "2d6+1"
       hit: "Hit+10, Block+4|4"
     - name: "Dagger"
-      damage: "[section:clr-roll]2d6[/section]"
+      damage: "2d6"
       hit: "Hit+10, Block+4|4"
     - name: "Throwing Knife"
-      damage: "[section:clr-roll]2d4+2[/section]"
+      damage: "2d4+2"
       hit: "Hit+8"
     - name: "Knife"
-      damage: "[section:clr-roll]2d6[/section]"
+      damage: "2d6"
       hit: "Hit+8, Block+4|4"
   armor:
     - name: "Padded Armor-1"

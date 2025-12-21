@@ -36,13 +36,13 @@ armor:
 inventory:
   weapons:
     - name: "Longsword+1"
-      damage: "[section:clr-roll]2d8+4|2[/section]"
+      damage: "2d8+4|2"
       hit: "Hit+8, Block+11|6"
     - name: "Roundshield"
-      damage: "[section:clr-roll]1d6+6[/section]"
+      damage: "1d6+6"
       hit: "Hit+0, Block+6|8"
     - name: "Knife"
-      damage: "[section:clr-roll]2d6[/section]"
+      damage: "2d6"
       hit: "Hit+3, Block+6|6"
   armor:
     - name: "Leather Helmet"
