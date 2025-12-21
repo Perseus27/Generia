@@ -59,9 +59,9 @@ actions:
   passive:
     - name: Proficiencies
       type: Passive
-      effect: >
-        Water [section:clr-value]+5[/section]
-        Primitive [section:clr-value]+5[/section]
+      effect:
+        - Water [section:clr-value]+5[/section]
+        - Primitive [section:clr-value]+5[/section]
     - name: Be like Water
       type: Passive
       effect: >
