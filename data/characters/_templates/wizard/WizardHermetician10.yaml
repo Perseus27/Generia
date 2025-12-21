@@ -1,0 +1,92 @@
+name: "Level 10 – Wizard (Hermetics)"
+id: WizardHermetician10
+info:
+  species: Human
+  level: 10
+  size: Medium
+  classes: [Wizard, Hermetician]
+  tags: [–]
+notes: >
+  [br]Classes: Wizard, Hermetician
+  [br]70 SP Base
+  [br]+20 Bonus
+  [br]Rest 0
+
+attributes:
+  CON: [4, 2]
+  STR: [3, 1]
+  DEX: [4, 2]
+  INT: [8, 4]
+  WIL: [6, 3]
+  PER: [5, 2]
+values:
+  EN: 10
+  MP: 15
+  MPR: 2
+  WL: 4
+  WT: 5
+  TN: 3
+  MS: 4
+armor:
+  head: 1
+  torso: 3
+  arms: 1
+  legs: 1
+  md: 2
+  enc: 0
+inventory:
+  weapons:
+    - name: "Wizard Staff"
+      damage: "2d8"
+      hit: "Hit+2, Block+3|3"
+    - name: "Knife"
+      damage: "2d6"
+      hit: "Hit+2, Block+3|3"
+  armor:
+    - name: "Wizard Hat"
+    - name: "Cloth Armor"
+    - name: "Cloth Gauntlets"
+    - name: "Cloth Greaves"
+    - name: "Amulet+2"
+  misc:
+    - name: "Adventurer's Pack I"
+actions:
+  skills:
+    - ""
+  spells:
+    - "Mana Bolt II +6"
+    - "Mana Beam II +5"
+    - "Neuroshock 15"
+    - "Counter Shot +8"
+    - "Arcane Barrier I +8"
+    - "Blink +8"
+    - "Illusory Double 16"
+    - "Counterspell +6"
+    - Dim
+    - "Dimension Step (10m)"
+  rituals: 
+    - Hermetic Manipulation
+    - Meteoric Manipulation
+proficiencies:
+  magic:
+    - "Hermetics: Intermediate"
+    - "[i]Arcane 2[/i]"
+    - "Meteorics: Beginner"
+    - "[i]Lightning 1[/i]"
+  weapons:
+    - ""
+  civilian:
+    - "[i]Arcana 3[/i]"
+    - "[i]Arithmetics 1[/i]"
+    - "[i]History 1[/i]"
+perks:
+  special:
+    - Efficient Metabolism
+    - Pursuit Hunter
+  
+  combat:
+    - ""
+  
+  magic:
+    - Practiced Hermetician
+    - Battle Meditation

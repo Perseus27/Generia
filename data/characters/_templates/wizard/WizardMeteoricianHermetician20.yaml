@@ -1,0 +1,100 @@
+name: "Level 20 – Wizard (Meteorics/Hermetics)"
+id: WizardMeteoricianHermetician20
+info:
+  species: Human
+  level: 20
+  size: Medium
+  classes: [Wizard, Meteorician, Hermetician]
+  tags: [–]
+notes: >
+  [br]Classes: Wizard, Meteorician, Hermetician
+  [br]130 SP Base
+  [br]+40 Bonus
+  [br]Rest 5
+
+attributes:
+  CON: [6, 3]
+  STR: [4, 2]
+  DEX: [4, 2]
+  INT: [12, 6]
+  WIL: [9, 4]
+  PER: [8, 4]
+values:
+  EN: 10
+  MP: 25
+  MPR: 4
+  WL: 5
+  WT: 6
+  TN: 3
+  MS: 4
+armor:
+  head: 1
+  torso: 6
+  arms: 3
+  legs: 3
+  md: 5
+  enc: 0
+inventory:
+  weapons:
+    - name: "Wizard Staff"
+      damage: "2d8"
+      hit: "Hit+2, Block+5|5"
+    - name: "Knife"
+      damage: "2d6"
+      hit: "Hit+2, Block+5|5"
+  armor:
+    - name: "Wizard Hat"
+    - name: "Leather Armor+1"
+    - name: "Padded Gauntlets+1"
+    - name: "Padded Greaves+1"
+    - name: "Amulet+3"
+    - name: "Ring+1"
+    - name: "Ring+1"
+  misc:
+    - name: "Adventurer's Pack II"
+actions:
+  skills:
+    - ""
+  spells:
+    - "Thunderbolt I +10"
+    - "Zap II +10"
+    - "Meteoric Bolt I +10"
+    - "Mana Beam I +8"
+    - "Discharge 20"
+    - "Air Burst 20"
+    - "Arcane Barrier I +12"
+    - "Counter Shot +12"
+    - "Counterspell +8"
+    - "Dimension Step (14m)"
+    - Levitation
+    - Lightning Step
+  rituals: 
+    - Hermetic Manipulation
+    - Meteoric Manipulation
+proficiencies:
+  magic:
+    - "Meteorics: Intermediate"
+    - "[i]Lightning 4[/i]"
+    - "[i]Air 4[/i]"
+    - "Hermetics: Intermediate"
+    - "[i]Arcane 2[/i]"
+  weapons:
+    - ""
+  civilian:
+    - "[i]Arcana 4[/i]"
+    - "[i]Arithmetics 2[/i]"
+    - "[i]History 2[/i]"
+perks:
+  special:
+    - Efficient Metabolism
+    - Pursuit Hunter
+  
+  combat:
+    - ""
+  
+  magic:
+    - Practiced Hermetician
+    - Practiced Meteorician
+    - Astral Body I
+    - Battle Meditation
+    - Focus I

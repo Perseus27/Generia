@@ -1,0 +1,91 @@
+name: "Level 10 – Wizard (Meteorics)"
+id: WizardMeteorician10
+info:
+  species: Human
+  level: 10
+  size: Medium
+  classes: [Wizard, Meteorician]
+  tags: [–]
+notes: >
+  [br]Classes: Wizard, Meteorician
+  [br]70 SP Base
+  [br]+20 Bonus
+  [br]Rest 2
+
+attributes:
+  CON: [4, 2]
+  STR: [3, 1]
+  DEX: [4, 2]
+  INT: [8, 4]
+  WIL: [6, 3]
+  PER: [5, 2]
+values:
+  EN: 10
+  MP: 15
+  MPR: 2
+  WL: 4
+  WT: 5
+  TN: 3
+  MS: 4
+armor:
+  head: 1
+  torso: 3
+  arms: 1
+  legs: 1
+  md: 2
+  enc: 0
+inventory:
+  weapons:
+    - name: "Wizard Staff"
+      damage: "2d8"
+      hit: "Hit+2, Block+3|3"
+    - name: "Knife"
+      damage: "2d6"
+      hit: "Hit+2, Block+3|3"
+  armor:
+    - name: "Wizard Hat"
+    - name: "Cloth Armor"
+    - name: "Cloth Gauntlets"
+    - name: "Cloth Greaves"
+    - name: "Amulet+2"
+  misc:
+    - name: "Adventurer's Pack I"
+actions:
+  skills:
+    - ""
+  spells:
+    - "Thunderbolt I +6"
+    - "Zap II +6"
+    - "Meteoric Bolt I +6"
+    - "Mana Beam I +5"
+    - "Discharge 16"
+    - "Air Burst 14"
+    - "Arcane Barrier I +7"
+    - Levitation
+    - Lightning Step
+  rituals: 
+    - Hermetic Manipulation
+    - Meteoric Manipulation
+proficiencies:
+  magic:
+    - "Meteorics: Intermediate"
+    - "[i]Lightning 2[/i]"
+    - "Hermetics: Beginner"
+    - "[i]Arcane 1[/i]"
+  weapons:
+    - ""
+  civilian:
+    - "[i]Arcana 3[/i]"
+    - "[i]Arithmetics 1[/i]"
+    - "[i]History 1[/i]"
+perks:
+  special:
+    - Efficient Metabolism
+    - Pursuit Hunter
+  
+  combat:
+    - ""
+  
+  magic:
+    - Practiced Meteorician
+    - Battle Meditation

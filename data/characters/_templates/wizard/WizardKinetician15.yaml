@@ -1,0 +1,95 @@
+name: "Level 15 – Wizard (Kinetics)"
+id: WizardKinetician15
+info:
+  species: Human
+  level: 15
+  size: Medium
+  classes: [Wizard, Kinetician]
+  tags: [–]
+notes: >
+  [br]Classes: Wizard, Kinetician
+  [br]105 SP Base
+  [br]+30 Bonus
+  [br]Rest 0
+
+attributes:
+  CON: [5, 2]
+  STR: [3, 1]
+  DEX: [4, 2]
+  INT: [10, 5]
+  WIL: [8, 4]
+  PER: [7, 3]
+values:
+  EN: 10
+  MP: 20
+  MPR: 3
+  WL: 5
+  WT: 6
+  TN: 3
+  MS: 4
+armor:
+  head: 1
+  torso: 4
+  arms: 2
+  legs: 2
+  md: 4
+  enc: 0
+inventory:
+  weapons:
+    - name: "Wizard Staff"
+      damage: "2d8"
+      hit: "Hit+2, Block+3|3"
+    - name: "Knife"
+      damage: "2d6"
+      hit: "Hit+2, Block+3|3"
+  armor:
+    - name: "Wizard Hat"
+    - name: "Padded Armor"
+    - name: "Padded Gauntlets"
+    - name: "Padded Greaves"
+    - name: "Amulet+2"
+    - name: "Ring+1"
+    - name: "Ring+1"
+  misc:
+    - name: "Adventurer's Pack I"
+actions:
+  skills:
+    - ""
+  spells:
+    - "Satellites +9"
+    - "Kinetic Bolt II +9"
+    - "Mana Beam I +7"
+    - "Earthquake 19"
+    - "Quagmire 19"
+    - "Kinetic Barrier I +12"
+    - Tensile Shield I
+    - Water Veil
+  rituals: 
+    - Hermetic Manipulation
+    - Kinetic Manipulation
+proficiencies:
+  magic:
+    - "Kinetics: Intermediate"
+    - "[i]Water 4[/i]"
+    - "[i]Stone 4[/i]"
+    - "Hermetics: Beginner"
+    - "[i]Arcane 2[/i]"
+  weapons:
+    - ""
+  civilian:
+    - "[i]Arcana 4[/i]"
+    - "[i]Arithmetics 2[/i]"
+    - "[i]History 2[/i]"
+perks:
+  special:
+    - Efficient Metabolism
+    - Pursuit Hunter
+  
+  combat:
+    - ""
+  
+  magic:
+    - Practiced Kinetician
+    - Astral Body I
+    - Battle Meditation
+    - Focus I

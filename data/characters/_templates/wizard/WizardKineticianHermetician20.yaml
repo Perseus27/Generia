@@ -1,0 +1,99 @@
+name: "Level 20 – Wizard (Kinetics/Hermetics)"
+id: WizardKineticianHermetician20
+info:
+  species: Human
+  level: 20
+  size: Medium
+  classes: [Wizard, Kinetician, Hermetician]
+  tags: [–]
+notes: >
+  [br]Classes: Wizard, Kinetician, Hermetician
+  [br]130 SP Base
+  [br]+40 Bonus
+  [br]Rest 5
+
+attributes:
+  CON: [6, 3]
+  STR: [4, 2]
+  DEX: [4, 2]
+  INT: [12, 6]
+  WIL: [9, 4]
+  PER: [8, 4]
+values:
+  EN: 10
+  MP: 25
+  MPR: 4
+  WL: 5
+  WT: 6
+  TN: 3
+  MS: 4
+armor:
+  head: 1
+  torso: 6
+  arms: 3
+  legs: 3
+  md: 5
+  enc: 0
+inventory:
+  weapons:
+    - name: "Wizard Staff"
+      damage: "2d8"
+      hit: "Hit+2, Block+5|5"
+    - name: "Knife"
+      damage: "2d6"
+      hit: "Hit+2, Block+5|5"
+  armor:
+    - name: "Wizard Hat"
+    - name: "Leather Armor+1"
+    - name: "Padded Gauntlets+1"
+    - name: "Padded Greaves+1"
+    - name: "Amulet+3"
+    - name: "Ring+1"
+    - name: "Ring+1"
+  misc:
+    - name: "Adventurer's Pack II"
+actions:
+  skills:
+    - ""
+  spells:
+    - "Satellites +10"
+    - "Kinetic Bolt II +10"
+    - "Mana Beam I +8"
+    - "Earthquake 20"
+    - "Quagmire 20"
+    - "Kinetic Barrier I +14"
+    - "Counter Shot +12"
+    - "Counterspell +8"
+    - "Dimension Step (14m)"
+    - Tensile Shield I
+    - Water Veil
+  rituals: 
+    - Hermetic Manipulation
+    - Kinetic Manipulation
+proficiencies:
+  magic:
+    - "Kinetics: Intermediate"
+    - "[i]Stone 4[/i]"
+    - "[i]Water 4[/i]"
+    - "Hermetics: Intermediate"
+    - "[i]Arcane 2[/i]"
+  weapons:
+    - ""
+  civilian:
+    - "[i]Arcana 4[/i]"
+    - "[i]Arithmetics 2[/i]"
+    - "[i]History 2[/i]"
+perks:
+  special:
+    - Efficient Metabolism
+    - Pursuit Hunter
+  
+  combat:
+    - ""
+  
+  magic:
+    - Practiced Hermetician
+    - Practiced Kinetician
+    - Astral Body I
+    - Battle Meditation
+    - Focus I
