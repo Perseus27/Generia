@@ -1,0 +1,74 @@
+name: Goblin Warrior - Red
+id: goblin-warrior-15
+info:
+  species: Goblin
+  level: 15
+  size: Small
+  tags: [Annoyance, [Reflexes, 2]]
+notes: >
+  This type of goblin engages in melee combat, but will retreat to the backline if wounded or outnumbered.
+
+attributes:
+  CON: ["5", "2"]
+  STR: ["9", "4"]
+  DEX: ["11", "5"]
+  INT: ["2", "1"]
+  WIL: ["3", "1"]
+  PER: ["5", "2"]
+values:
+  EN: 20
+  MP: 5
+  MPR: 1
+  WL: 4
+  WT: 6
+  TN: 3
+  MS: 8
+armor:
+  head: 0
+  torso: 2
+  arms: 1
+  legs: 1
+  md: 1
+  enc: 0
+loot:
+  - "[section:clr-roll-noex]1d8[/section] Stones+2, light"
+  - "[section:clr-roll-noex]1d4[/section] Poison, normal"
+  - "[section:clr-roll-noex]1d4[/section] Goblin Healing Potion+3, small"
+  - Goblin Amulet+1
+  - Monster Core, weak
+actions:
+  active:
+    - name: Spear
+      type: Melee Attack
+      hit: "Hit+11, Block+14|6"
+      damage: 2d6+3 Sharp
+    - name: Sling
+      type: Ranged Attack
+      hit: "Hit+9, -2/0/-5, 16m"
+      damage: 1d6+1d4+2 Blunt
+    - name: Mean Stab
+      type: Melee Attack
+      effect: >
+        Spear attack with [url:core#Advantage]Advantage 1[/url].
+      cost: "[section:clr-en]2 EN[/section]"
+    - name: Nimble
+      type: Reaction
+      effect: >
+        [url:core#Advantage]Advantage 1[/url] on the next [url:def#Dodge]dodge[/url] or [section:clr-attr]DEX[/section] check within this turn.
+      cost: "[section:clr-en]1 EN[/section]"
+    - name: Sneaky
+      type: Utility, Concentration
+      effect: >
+        Gain [url:status#Hidden]Hidden 1[/url].
+      cost: "[section:clr-en]1 EN[/section]"
+  passive:
+    - name: Proficiencies
+      type: Passive
+      effect: >
+        Spears [section:clr-value]+6[/section]
+        [br]Slings [section:clr-value]+4[/section]
+    - name: Cowardly
+      type: Passive
+      effect: >
+        Stealth checks have [url:core:Advantage]Advantage 1[/url].
+        [br]Saves against [url:status#Frightened]Frightened[/url] and [url:status#Panicked]Panicked[/url] have [url:core#Disadvantage]Disadvantage 1[/url].

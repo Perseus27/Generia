@@ -1,0 +1,69 @@
+name: Goblin Hunter - Red
+id: goblin-hunter-15
+info:
+  species: Goblin
+  level: 15
+  size: Small
+  tags: [Annoyance, [Reflexes, 2]]
+notes: >
+  This type of goblin tries to stay out of melee range and only uses its spear if cornered.
+
+attributes:
+  CON: ["5", "2"]
+  STR: ["6", "3"]
+  DEX: ["11", "5"]
+  INT: ["3", "1"]
+  WIL: ["3", "1"]
+  PER: ["8", "4"]
+values:
+  EN: 15
+  MP: 5
+  MPR: 1
+  WL: 4
+  WT: 6
+  TN: 3
+  MS: 8
+armor:
+  head: 0
+  torso: 2
+  arms: 1
+  legs: 1
+  md: 1
+  enc: 0
+loot:
+  - "[section:clr-roll-noex]1d10[/section] Arrows+2, primitive"
+  - "[section:clr-roll-noex]1d4[/section] Poison, normal"
+  - "[section:clr-roll-noex]1d4[/section] Goblin Healing Potion+3, small"
+  - Goblin Amulet+1
+  - Monster Core, weak
+actions:
+  active:
+    - name: Goblin Bow
+      type: Ranged Attack
+      hit: "Hit+11, -1/0/0, 20m"
+      damage: 1d6+1d4+5 Arrow
+    - name: Goblin Spear
+      type: Melee Attack
+      hit: "Hit+9, Block+11|5"
+      damage: 2d6+3 Sharp
+    - name: Nimble
+      type: Reaction
+      effect: >
+        [url:core#Advantage]Advantage 1[/url] on the next [url:def#Dodge]dodge[/url] or [section:clr-attr]DEX[/section] check within this turn.
+      cost: "[section:clr-en]1 EN[/section]"
+    - name: Sneaky
+      type: Utility, Concentration
+      effect: >
+        Gain [url:status#Hidden]Hidden 1[/url].
+      cost: "[section:clr-en]1 EN[/section]"
+  passive:
+    - name: Proficiencies
+      type: Passive
+      effect: >
+        Shortbows [section:clr-value]+6[/section]
+        [br]Spears [section:clr-value]+4[/section]
+    - name: Cowardly
+      type: Passive
+      effect: >
+        Stealth checks have [url:core:Advantage]Advantage 1[/url].
+        [br]Saves against [url:status#Frightened]Frightened[/url] and [url:status#Panicked]Panicked[/url] have [url:core#Disadvantage]Disadvantage 1[/url].
