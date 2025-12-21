@@ -1,0 +1,1996 @@
+// Published // Public //
+
+  * // Edit Article <https://www.worldanvil.com/p/athena/
+    article/23f8cba1-46b0-4975-97b2-832094ae5248/edit>
+  * // Articles <https://www.worldanvil.com/p/athena>
+  * // <https://www.worldanvil.com/p/athena>
+  * // <https://www.worldanvil.com/p/athena/settings>
+
+
+    World Codex
+
+  *
+
+
+              // Rules <https://www.worldanvil.com/w/generia-perseus27/
+              c/rules-category> // <https://www.worldanvil.com/w/
+              generia-perseus27/c/rules-category> // <https://
+              www.worldanvil.com/world/category/33db6e65-b64f-4a7d-ac94-
+              c667c0661207/edit>
+
+  *
+
+
+              // Classes <https://www.worldanvil.com/w/generia-
+              perseus27/c/classes-category> // <https://
+              www.worldanvil.com/w/generia-perseus27/c/classes-
+              category> // <https://www.worldanvil.com/world/
+              category/0894571a-27f6-4e29-a31a-da0059cdf3eb/edit>
+
+  *
+
+
+              // Spellcasting <https://www.worldanvil.com/w/generia-
+              perseus27/c/spells-category> // <https://
+              www.worldanvil.com/w/generia-perseus27/c/spells-
+              category> // <https://www.worldanvil.com/world/category/
+              b4fafb8a-3da7-417a-ae64-431d1104115d/edit>
+
+  *
+
+
+              // Skills <https://www.worldanvil.com/w/generia-perseus27/
+              c/skills-category-1> // <https://www.worldanvil.com/w/
+              generia-perseus27/c/skills-category-1> // <https://
+              www.worldanvil.com/world/category/6451d94a-e733-48b4-9eab-
+              a14c2f6288ce/edit>
+
+  *
+
+
+              // Perks <https://www.worldanvil.com/w/generia-perseus27/
+              c/perks-category-1> // <https://www.worldanvil.com/w/
+              generia-perseus27/c/perks-category-1> // <https://
+              www.worldanvil.com/world/category/bad323ef-
+              ee0d-4753-90a9-1c403e75c8c6/edit>
+
+  *
+
+
+              // Equipment <https://www.worldanvil.com/w/generia-
+              perseus27/c/equipment-category> // <https://
+              www.worldanvil.com/w/generia-perseus27/c/equipment-
+              category> // <https://www.worldanvil.com/world/category/
+              f1c583fd-e6ba-49b9-9bfc-fd80f9f46f47/edit>
+
+  *
+
+
+              // Spielleitung <https://www.worldanvil.com/w/generia-
+              perseus27/c/spielleitung-category> // <https://
+              www.worldanvil.com/w/generia-perseus27/c/spielleitung-
+              category> // <https://www.worldanvil.com/world/category/
+              f51df7b0-321c-4c52-80cb-4c36dcfff638/edit>
+
+  *
+
+
+              // Spielermaterialien <https://www.worldanvil.com/w/
+              generia-perseus27/c/spielermaterialien-category> //
+              <https://www.worldanvil.com/w/generia-perseus27/c/
+              spielermaterialien-category> // <https://
+              www.worldanvil.com/world/category/f8d97157-341e-4926-a74a-
+              d243db55efe2/edit>
+
+  *
+
+
+              // Deutsch (Alt) <https://www.worldanvil.com/w/generia-
+              perseus27/c/deutsch-28alt29-category> // <https://
+              www.worldanvil.com/w/generia-perseus27/c/deutsch-28alt29-
+              category> // <https://www.worldanvil.com/world/
+              category/251a5412-97b9-4122-9200-c27c1b03de2d/edit>
+
+  *
+
+
+              // Read World Meta <https://www.worldanvil.com/w/generia-
+              perseus27/meta>
+
+//
+//
+
+
+        World Styling Editor
+
+SELECT THEME
+
+CUSTOM CSS .statblock { background: rgba(0,0,0,0.1); } .orgblock
+{ background: rgba(0,0,0,0.1); border-style: dashed; border-width: 1px;
+border-color: black; border-radius: 5px; padding: 5px; } .orgblock-
+transparent { border-style: dashed; border-width: 1px; border-color:
+black; border-radius: 5px; padding: 5px; } .page-world-homepage #world-
+category-content { display: none; } .statblock .table tr td
+{ background: 0; } .statblock .table-striped tr:nth-of-type(odd)
+{ background: rgb(249, 249, 249, 0.2); } .statblock .table { background:
+0; } .perk { background: rgba(0,0,0,0.1); border-style: solid; border-
+width: 1px; border-color: black; border-radius: 5px; padding:
+5px; } .spell { background: rgba(0,0,0,0.1); border-style: solid;
+border-width: 1px; border-color: black; border-radius: 5px; padding:
+5px; } .spell-content { display: flex; } .spell-columnleft { width: 20%;
+padding: 2px; font-weight: bold; } .spell-columncenter { width: 50%;
+padding: 2px; } .spell-columnright { width: 30%; padding: 2px; } .spell-
+casttype { font-weight: bold; } .spell-overview {} .spell-description
+{} .spell-effect {} .spell-save {} .clr-wurf { color:#00369b;} .clr-roll
+{ color:#00369b;} .clr-roll-noex { color:#882bcf;} .clr-zahl
+{ color:#00369b;} .clr-value { color:#00369b;} .clr-val
+{ color:#00369b;} .clr-attr { color:#008e02;} .clr-za
+{ color:#008e02;} .clr-sa { color:#27827f;} .clr-zv
+{ color:#008e02;} .clr-uw { color:#b20080;} .clr-dc
+{ color:#b20080;} .clr-save {} .clr-proj {} .clr-pa
+{ color:#b3374e;} .clr-upcast {} .clr-quali {} .clr-feld {} .clr-field
+{} .clr-zone {} .clr-exper { color:darkblue;} .clr-bonus
+{ color:green;} .clr-malus { color:red;} .clr-mpcost { font-weight:
+bold; color:#419dc1;} .clr-encost { font-weight: bold;
+color:#c14700;} .clr-mp { color:#419dc1;} .clr-en
+{ color:#c14700;} .clr-chaos {} .clr-sorc {} .clr-konz {} .clr-conc
+{} .clr-ritual {} .clr-reaktion {} .clr-reaction {} .clr-klingenzauber
+{} .clr-alchi {} .clr-alchitype {} .clr-komm {} .clr-support
+{ color:green;} .clr-heilung { color:darkred;} .clr-heal
+{ color:darkred;} .clr-gebrechen { color:#6b7529;} .clr-affliction
+{ color:#6b7529;} .clr-kontrolle { color:#00369b;} .clr-control
+{ color:#00369b;} .clr-schutz { color:#9a00b2;} .clr-sd
+{ color:#9a00b2;} .clr-def { color:#9a00b2;} .clr-mobil
+{ color:#c19e00;} .clr-movement { color:#c19e00;} .clr-meta
+{ color:#00369b;} .clr-konter { color:#b20080;} .clr-counter
+{ color:#b20080;} .clr-summon {} .clr-terrain { color:brown;} .clr-nekro
+{ color:black;} .hide { display:none; } .clr-sunlight
+{ color:#c99400;} .clr-moonlight { color:#689cb3;}
+Save Changes
+
+Need help? Check out the CSS Styling Guide <https://www.worldanvil.com/
+learn/styling/css-basics>
+
+// <#full-layout>
+Toggle Menu World Anvil <https://www.worldanvil.com/>
+
+  * View Profile <https://www.worldanvil.com/author/Perseus27>
+  * Profile Settings <https://www.worldanvil.com/dashboard/user/profile/
+    edit>
+  * Interface <https://www.worldanvil.com/dashboard/user/interface>
+  * Account <https://www.worldanvil.com/dashboard/user/account>
+  * Guild Membership <https://www.worldanvil.com/dashboard/user/account/
+    subscription>
+  * Logout <https://www.worldanvil.com/logout>
+  * Need any help? <https://www.worldanvil.com/help/>
+
+  * // <https://discord.gg/dUycSefs4W>
+  * // <https://www.worldanvil.com/notification/>
+  *
+
+    PERSEUS27 //
+
+      o View Profile <https://www.worldanvil.com/author/Perseus27>
+      o Profile Settings <https://www.worldanvil.com/dashboard/user/
+        profile/edit>
+      o Interface <https://www.worldanvil.com/dashboard/user/interface>
+      o Account <https://www.worldanvil.com/dashboard/user/account>
+      o Guild Membership <https://www.worldanvil.com/dashboard/user/
+        account/subscription>
+      o Logout <https://www.worldanvil.com/logout>
+      o Need any help? <https://www.worldanvil.com/help/>
+
+Go to Generia Homepage <https://www.worldanvil.com/w/generia-perseus27>
+
+
+  Archetype: Fighter
+
+
+    Level 10
+
+
+      Aggressive Fighter 10
+
+Human, Level 10
+
+
+            *General*
+
+*Attributes*
+*CON* 	6 [3]
+*STR* 	6 [3]
+*AGI* 	7 [3]
+*INT* 	4 [2]
+*WIL* 	4 [2]
+*PER* 	4 [2]
+
+*Values*
+*EN* 	20
+*MP|R* 	5|1
+*WL* 	4
+*WT* 	6
+*TN* 	4
+*MS* 	6
+
+*Armor*
+*Head* 	2
+*Torso* 	6
+*Arms* 	3
+*Legs* 	3
+*MD* 	1
+*Enc.* 	0
+
+
+            *Notes*
+
+*Classes:* /Fighter/
+70 SP Base
++20 Bonus
+Rest 2
+
+
+            *Perks*
+
+Special
+
+  * Efficient Metabolism <https://www.worldanvil.com/w/generia-
+    perseus27/a/species-article#EfficientMetabolism>
+  * Pursuit Hunter <https://www.worldanvil.com/w/generia-perseus27/a/
+    species-article#PursuitHunter>
+
+Combat
+
+  * Conditioned I <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-combat-article#ConditionedI>
+  * Forerunner <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Forerunner>
+  * Opportunist <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Opportunist>
+
+Magic
+
+  *
+
+
+            *Actions*
+
+Skills
+
+  * Mordhau <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-ii-article#Mordhau>
+  * Charge <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Charge>
+  * Swing <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Swing>
+  * Feint <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Feint>
+  * Counter <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Counter>
+  * Leg Sweep <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#LegSweep>
+  * Shove <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Shove>
+  * Aimed Strike <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#AimedStrike>
+
+Spells
+
+  *
+
+Rituals
+
+  *
+
+
+            *Inventory*
+
+Weapons
+
+  * Longsword
+    2d8+3|1
+    /Hit+8, Block+11|6/
+  * Roundshield
+    1d6+6
+    /Hit+0, Block+6|6/
+  * Knife
+    2d6
+    /Hit+3, Block+6|6/
+
+Armor
+
+  * Leather Helmet
+  * Chainmail
+  * Leather Gauntlets
+  * Leather Greaves
+  * Amulet +1
+
+Misc.
+
+  * 1× Adventurer's Pack I
+
+
+            *Proficiencies*
+
+Magic
+
+  *
+
+Weapons
+
+  * Slashing: Beginner
+  * /Greatswords 5/
+  * Defensive: Beginner
+
+Civilian
+
+  * Athletics 2
+  * Monster Lore 1
+  * Warfare 2
+
+// <https://www.worldanvil.com/sheet/1596391/view> // <https://
+www.worldanvil.com/heroes/sheet/1596391/edit>
+
+
+      Nimble Fighter 10
+
+Human, Level 10
+
+
+            *General*
+
+*Attributes*
+*CON* 	5 [2]
+*STR* 	4 [2]
+*AGI* 	8 [4]
+*INT* 	4 [2]
+*WIL* 	4 [2]
+*PER* 	5 [2]
+
+*Values*
+*EN* 	10
+*MP|R* 	5|1
+*WL* 	4
+*WT* 	6
+*TN* 	3
+*MS* 	6
+
+*Armor*
+*Head* 	2
+*Torso* 	5
+*Arms* 	3
+*Legs* 	3
+*MD* 	1
+*Enc.* 	0
+
+
+            *Notes*
+
+*Classes:* /Fighter/
+75 SP Base
++20 Bonus
+Rest 0
+
+
+            *Perks*
+
+Special
+
+  * Efficient Metabolism <https://www.worldanvil.com/w/generia-
+    perseus27/a/species-article#EfficientMetabolism>
+  * Pursuit Hunter <https://www.worldanvil.com/w/generia-perseus27/a/
+    species-article#PursuitHunter>
+
+Combat
+
+  * Dancer <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Dancer>
+  * Deflector <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Deflector>
+  * Forerunner <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Forerunner>
+  * Opportunist <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Opportunist>
+
+Magic
+
+  *
+
+
+            *Actions*
+
+Skills
+
+  * Charge <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Charge>
+  * Careful Strike <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#CarefulStrike>
+  * Feint <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Feint>
+  * Counter <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Counter>
+  * Leg Sweep <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#LegSweep>
+  * Shove <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Shove>
+  * Aimed Strike <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#AimedStrike>
+  * Swift Parry <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#SwiftParry>
+
+Spells
+
+  *
+
+Rituals
+
+  *
+
+
+            *Inventory*
+
+Weapons
+
+  * Smallsword
+    2d6+1
+    /Hit+10, Block+9|5/
+  * Buckler
+    1d4+1
+    /Hit+7, Block+8|5/
+  * Knife
+    2d6
+    /Hit+4, Block+5|5/
+
+Armor
+
+  * Leather Helmet
+  * Leather Armor
+  * Leather Gauntlets
+  * Leather Greaves
+  * Amulet +1
+
+Misc.
+
+  * 1× Adventurer's Pack I
+
+
+            *Proficiencies*
+
+Magic
+
+  *
+
+Weapons
+
+  * Stabbing: Beginner
+  * /Swords 4/
+  * Defensive: Beginner
+  * /Bucklers 3/
+
+Civilian
+
+  * Athletics 2
+  * Monster Lore 1
+  * Warfare 2
+
+// <https://www.worldanvil.com/sheet/1596378/view> // <https://
+www.worldanvil.com/heroes/sheet/1596378/edit>
+
+
+      Tanky Fighter 10
+
+Human, Level 10
+
+
+            *General*
+
+*Attributes*
+*CON* 	7 [3]
+*STR* 	6 [3]
+*AGI* 	6 [3]
+*INT* 	4 [2]
+*WIL* 	4 [2]
+*PER* 	4 [2]
+
+*Values*
+*EN* 	20
+*MP|R* 	5|1
+*WL* 	4
+*WT* 	7
+*TN* 	4
+*MS* 	4
+
+*Armor*
+*Head* 	2
+*Torso* 	6
+*Arms* 	3
+*Legs* 	3
+*MD* 	1
+*Enc.* 	0
+
+
+            *Notes*
+
+*Classes:* /Fighter/
+70 SP Base
++20 Bonus
+Rest 5
+
+
+            *Perks*
+
+Special
+
+  * Efficient Metabolism <https://www.worldanvil.com/w/generia-
+    perseus27/a/species-article#EfficientMetabolism>
+  * Pursuit Hunter <https://www.worldanvil.com/w/generia-perseus27/a/
+    species-article#PursuitHunter>
+
+Combat
+
+  * Conditioned I <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-combat-article#ConditionedI>
+  * Forerunner <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Forerunner>
+  * Opportunist <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Opportunist>
+
+Magic
+
+  *
+
+
+            *Actions*
+
+Skills
+
+  * Charge <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Charge>
+  * Feint <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Feint>
+  * Counter <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Counter>
+  * Leg Sweep <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#LegSweep>
+  * Shove <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Shove>
+  * Aimed Strike <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#AimedStrike>
+  * Shield Bash <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#ShieldBash>
+  * Steady Block <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#SteadyBlock>
+
+Spells
+
+  *
+
+Rituals
+
+  *
+
+
+            *Inventory*
+
+Weapons
+
+  * Broadsword
+    2d6+3
+    /Hit+7, Block+10|6/
+  * Roundshield
+    1d6+6
+    /Hit+3, Block+9|8/
+  * Knife
+    2d6
+    /Hit+2, Block+6|6/
+
+Armor
+
+  * Leather Helmet
+  * Chainmail
+  * Leather Gauntlets
+  * Leather Greaves
+  * Amulet +1
+
+Misc.
+
+  * 1× Adventurer's Pack I
+
+
+            *Proficiencies*
+
+Magic
+
+  *
+
+Weapons
+
+  * Slashing: Beginner
+  * /Swords 4/
+  * Defensive: Beginner
+  * /Roundshields 3/
+
+Civilian
+
+  * Athletics 2
+  * Monster Lore 1
+  * Warfare 2
+
+// <https://www.worldanvil.com/sheet/1596356/view> // <https://
+www.worldanvil.com/heroes/sheet/1596356/edit>
+
+
+    Level 15
+
+
+      Aggressive Swordfighter 15
+
+Human, Level 15
+
+
+            *General*
+
+*Attributes*
+*CON* 	8 [4]
+*STR* 	9 [4]
+*AGI* 	8 [4]
+*INT* 	4 [2]
+*WIL* 	4 [2]
+*PER* 	4 [2]
+
+*Values*
+*EN* 	25
+*MP|R* 	5|1
+*WL* 	4
+*WT* 	7
+*TN* 	4
+*MS* 	6
+
+*Armor*
+*Head* 	3
+*Torso* 	7
+*Arms* 	4
+*Legs* 	4
+*MD* 	3
+*Enc.* 	0
+
+
+            *Notes*
+
+*Classes:* /Fighter, Swordfighter/
+100 SP Base
++30 Bonus
+Rest 2
+
+
+            *Perks*
+
+Special
+
+  * Efficient Metabolism <https://www.worldanvil.com/w/generia-
+    perseus27/a/species-article#EfficientMetabolism>
+  * Pursuit Hunter <https://www.worldanvil.com/w/generia-perseus27/a/
+    species-article#PursuitHunter>
+
+Combat
+
+  * Edge Alignment <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-combat-E28093-exclusive-article#EdgeAlignment>
+  * Conditioned I <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-combat-article#ConditionedI>
+  * Forerunner <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Forerunner>
+  * Opportunist <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Opportunist>
+
+Magic
+
+  *
+
+
+            *Actions*
+
+Skills
+
+  * Stance: Attack <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-iii-article#StanceAttack>
+  * Whirl <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-iii-article#Whirl>
+  * Mordhau <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-ii-article#Mordhau>
+  * Mighty Strike <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-ii-article#MightyStrike>
+  * Aimed Strike <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#AimedStrike>
+  * Charge <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Charge>
+  * Swing <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Swing>
+  * Feint <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Feint>
+  * Counter <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Counter>
+  * Leg Sweep <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#LegSweep>
+  * Shove <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Shove>
+  * Disarm <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-ii-article#Disarm>
+
+Spells
+
+  *
+
+Rituals
+
+  *
+
+
+            *Inventory*
+
+Weapons
+
+  * Longsword+1
+    2d8+5|3
+    /Hit+9, Block+13|8/
+  * Roundshield
+    1d6+8
+    /Hit+0, Block+8|10/
+  * Knife
+    2d6
+    /Hit+4, Block+8|8/
+
+Armor
+
+  * Chain Helmet
+  * Chainmail+1
+  * Chain Gauntlets
+  * Chain Greaves
+  * Amulet +2
+  * Ring +1
+
+Misc.
+
+  * 1× Adventurer's Pack I
+
+
+            *Proficiencies*
+
+Magic
+
+  *
+
+Weapons
+
+  * Slashing: Intermediate
+  * /Greatswords 5/
+  * Defensive: Beginner
+
+Civilian
+
+  * Athletics 2
+  * Monster Lore 1
+  * Warfare 2
+
+// <https://www.worldanvil.com/sheet/1596394/view> // <https://
+www.worldanvil.com/heroes/sheet/1596394/edit>
+
+
+      Duelist Sword 15
+
+Human, Level 15
+
+
+            *General*
+
+*Attributes*
+*CON* 	7 [3]
+*STR* 	6 [3]
+*AGI* 	10 [5]
+*INT* 	4 [2]
+*WIL* 	5 [2]
+*PER* 	6 [3]
+
+*Values*
+*EN* 	15
+*MP|R* 	5|2
+*WL* 	4
+*WT* 	7
+*TN* 	3
+*MS* 	6
+
+*Armor*
+*Head* 	2
+*Torso* 	6
+*Arms* 	3
+*Legs* 	3
+*MD* 	3
+*Enc.* 	0
+
+
+            *Notes*
+
+*Classes:* /Fighter, Duelist/
+105 SP Base
++30 Bonus
+Rest 1
+ 
+
+
+            *Perks*
+
+Special
+
+  * Efficient Metabolism <https://www.worldanvil.com/w/generia-
+    perseus27/a/species-article#EfficientMetabolism>
+  * Pursuit Hunter <https://www.worldanvil.com/w/generia-perseus27/a/
+    species-article#PursuitHunter>
+
+Combat
+
+  * Lone Fighter <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-combat-E28093-exclusive-article#LoneFighter>
+  * Dancer <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Dancer>
+  * Deflector <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Deflector>
+  * Forerunner <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Forerunner>
+  * Opportunist <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Opportunist>
+
+Magic
+
+  *
+
+
+            *Actions*
+
+Skills
+
+  * Stance: Parry <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-iii-article#StanceParry>
+  * Charge <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Charge>
+  * Careful Strike <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#CarefulStrike>
+  * Feint <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Feint>
+  * Counter <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Counter>
+  * Leg Sweep <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#LegSweep>
+  * Shove <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Shove>
+  * Aimed Strike <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#AimedStrike>
+  * Swift Parry <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#SwiftParry>
+  * Disarm <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-ii-article#Disarm>
+
+Spells
+
+  *
+
+Rituals
+
+  *
+
+
+            *Inventory*
+
+Weapons
+
+  * Smallsword+1
+    2d6+2
+    /Hit+12, Block+11|6/
+  * Buckler
+    1d4+1
+    /Hit+9, Block+10|6/
+  * Knife
+    2d6
+    /Hit+5, Block+6|6/
+
+Armor
+
+  * Leather Helmet
+  * Leather Armor+1
+  * Leather Gauntlets
+  * Leather Greaves
+  * Amulet +2
+  * Ring +1
+
+Misc.
+
+  * 1× Adventurer's Pack I
+
+
+            *Proficiencies*
+
+Magic
+
+  *
+
+Weapons
+
+  * Stabbing: Intermediate
+  * /Swords 5/
+  * Defensive: Beginner
+  * /Bucklers 4/
+
+Civilian
+
+  * Athletics 2
+  * Monster Lore 1
+  * Warfare 2
+
+// <https://www.worldanvil.com/sheet/1596382/view> // <https://
+www.worldanvil.com/heroes/sheet/1596382/edit>
+
+
+      Heavy Breaker 15
+
+Human, Level 15
+
+
+            *General*
+
+*Attributes*
+*CON* 	8 [4]
+*STR* 	8 [4]
+*AGI* 	8 [4]
+*INT* 	4 [2]
+*WIL* 	5 [2]
+*PER* 	5 [2]
+
+*Values*
+*EN* 	20
+*MP|R* 	5|2
+*WL* 	4
+*WT* 	7
+*TN* 	4
+*MS* 	6
+
+*Armor*
+*Head* 	4
+*Torso* 	7
+*Arms* 	5
+*Legs* 	5
+*MD* 	3
+*Enc.* 	2
+
+
+            *Notes*
+
+*Classes:* /Fighter, Breaker, Shieldbearer/
+105 SP Base
++30 Bonus
+Rest 0
+
+
+            *Perks*
+
+Special
+
+  * Efficient Metabolism <https://www.worldanvil.com/w/generia-
+    perseus27/a/species-article#EfficientMetabolism>
+  * Pursuit Hunter <https://www.worldanvil.com/w/generia-perseus27/a/
+    species-article#PursuitHunter>
+
+Combat
+
+  * Sheer Force <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-E28093-exclusive-article#SheerForce>
+  * Armor Familiarity I <https://www.worldanvil.com/w/generia-perseus27/
+    a/perks-E28093-combat-article#ArmorFamiliarityI>
+  * Conditioned I <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-combat-article#ConditionedI>
+  * Forerunner <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Forerunner>
+  * Opportunist <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Opportunist>
+
+Magic
+
+  *
+
+
+            *Actions*
+
+Skills
+
+  * Protect <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-x-article#Protect>
+  * Stance: Block <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-iii-article#StanceBlock>
+  * Heavy Blow <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-iii-article#HeavyBlow>
+  * Mighty Strike <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-ii-article#MightyStrike>
+  * Charge <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Charge>
+  * Feint <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Feint>
+  * Leg Sweep <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#LegSweep>
+  * Shove <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Shove>
+  * Aimed Strike <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#AimedStrike>
+  * Shield Bash <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#ShieldBash>
+  * Steady Block <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#SteadyBlock>
+
+Spells
+
+  *
+
+Rituals
+
+  *
+
+
+            *Inventory*
+
+Weapons
+
+  * Mace+1
+    2d6+7
+    /Hit+7, Block+13|8/
+  * Roundshield+1
+    1d6+8
+    /Hit+4, Block+12|11/
+  * Knife
+    2d6
+    /Hit+4, Block+8|8/
+
+Armor
+
+  * Scale Helmet
+  * Scale Armor
+  * Scale Gauntlets
+  * Scale Greaves
+  * Amulet +2
+  * Ring +1
+
+Misc.
+
+  * 1× Adventurer's Pack I
+
+
+            *Proficiencies*
+
+Magic
+
+  *
+
+Weapons
+
+  * Blunt: Intermediate
+  * /Maces 5/
+  * Defensive: Intermediate
+  * /Roundshields 4/
+
+Civilian
+
+  * Athletics 3
+  * Monster Lore 1
+  * Warfare 2
+
+// <https://www.worldanvil.com/sheet/1596363/view> // <https://
+www.worldanvil.com/heroes/sheet/1596363/edit>
+
+
+      Heavy Spearfighter 15
+
+Human, Level 15
+
+
+            *General*
+
+*Attributes*
+*CON* 	8 [4]
+*STR* 	8 [4]
+*AGI* 	8 [4]
+*INT* 	4 [2]
+*WIL* 	5 [2]
+*PER* 	5 [2]
+
+*Values*
+*EN* 	20
+*MP|R* 	5|2
+*WL* 	4
+*WT* 	7
+*TN* 	4
+*MS* 	6
+
+*Armor*
+*Head* 	4
+*Torso* 	7
+*Arms* 	5
+*Legs* 	5
+*MD* 	3
+*Enc.* 	0
+
+
+            *Notes*
+
+*Classes:* /Fighter, Spearfighter, Shieldbearer/
+105 SP Base
++30 Bonus
+Rest 0
+
+
+            *Perks*
+
+Special
+
+  * Efficient Metabolism <https://www.worldanvil.com/w/generia-
+    perseus27/a/species-article#EfficientMetabolism>
+  * Pursuit Hunter <https://www.worldanvil.com/w/generia-perseus27/a/
+    species-article#PursuitHunter>
+
+Combat
+
+  * Spearhead <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-E28093-exclusive-article#Spearhead>
+  * Armor Familiarity I <https://www.worldanvil.com/w/generia-perseus27/
+    a/perks-E28093-combat-article#ArmorFamiliarityI>
+  * Conditioned I <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-combat-article#ConditionedI>
+  * Forerunner <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Forerunner>
+  * Opportunist <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Opportunist>
+
+Magic
+
+  *
+
+
+            *Actions*
+
+Skills
+
+  * Protect <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-x-article#Protect>
+  * Stance: Block <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-iii-article#StanceBlock>
+  * Double Stab <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-ii-article#DoubleStab>
+  * Disarm <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-ii-article#Disarm>
+  * Charge <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Charge>
+  * Feint <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Feint>
+  * Counter <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Counter>
+  * Leg Sweep <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#LegSweep>
+  * Shove <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Shove>
+  * Aimed Strike <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#AimedStrike>
+  * Shield Bash <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#ShieldBash>
+  * Steady Block <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#SteadyBlock>
+
+Spells
+
+  *
+
+Rituals
+
+  *
+
+
+            *Inventory*
+
+Weapons
+
+  * War Spear+1
+    2d6+5|7
+    /Hit+9, Block+13|8/
+  * Roundshield+1
+    1d6+8
+    /Hit+4, Block+12|11/
+  * Knife
+    2d6
+    /Hit+4, Block+8|8/
+
+Armor
+
+  * Scale Helmet
+  * Scale Armor
+  * Scale Gauntlets
+  * Scale Greaves
+  * Amulet +2
+  * Ring +1
+
+Misc.
+
+  * 1× Adventurer's Pack I
+
+
+            *Proficiencies*
+
+Magic
+
+  *
+
+Weapons
+
+  * Stabbing: Intermediate
+  * /Spears 5/
+  * Defensive: Intermediate
+  * /Roundshields 4/
+
+Civilian
+
+  * Athletics 3
+  * Monster Lore 1
+  * Warfare 2
+
+// <https://www.worldanvil.com/sheet/1596372/view> // <https://
+www.worldanvil.com/heroes/sheet/1596372/edit>
+
+
+      Heavy Swordfighter 15
+
+Human, Level 15
+
+
+            *General*
+
+*Attributes*
+*CON* 	8 [4]
+*STR* 	8 [4]
+*AGI* 	8 [4]
+*INT* 	4 [2]
+*WIL* 	5 [2]
+*PER* 	5 [2]
+
+*Values*
+*EN* 	20
+*MP|R* 	5|2
+*WL* 	4
+*WT* 	7
+*TN* 	4
+*MS* 	6
+
+*Armor*
+*Head* 	4
+*Torso* 	7
+*Arms* 	5
+*Legs* 	5
+*MD* 	3
+*Enc.* 	2
+
+
+            *Notes*
+
+*Classes:* /Fighter, Swordfighter, Shieldbearer/
+105 SP Base
++30 Bonus
+Rest 0
+
+
+            *Perks*
+
+Special
+
+  * Efficient Metabolism <https://www.worldanvil.com/w/generia-
+    perseus27/a/species-article#EfficientMetabolism>
+  * Pursuit Hunter <https://www.worldanvil.com/w/generia-perseus27/a/
+    species-article#PursuitHunter>
+
+Combat
+
+  * Edge Alignment <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-combat-E28093-exclusive-article#EdgeAlignment>
+  * Armor Familiarity I <https://www.worldanvil.com/w/generia-perseus27/
+    a/perks-E28093-combat-article#ArmorFamiliarityI>
+  * Conditioned I <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-combat-article#ConditionedI>
+  * Forerunner <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Forerunner>
+  * Opportunist <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Opportunist>
+
+Magic
+
+  *
+
+
+            *Actions*
+
+Skills
+
+  * Protect <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-x-article#Protect>
+  * Stance: Block <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-iii-article#StanceBlock>
+  * Mighty Strike <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-ii-article#MightyStrike>
+  * Disarm <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-ii-article#Disarm>
+  * Charge <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Charge>
+  * Feint <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Feint>
+  * Counter <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Counter>
+  * Leg Sweep <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#LegSweep>
+  * Shove <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Shove>
+  * Aimed Strike <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#AimedStrike>
+  * Shield Bash <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#ShieldBash>
+  * Steady Block <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#SteadyBlock>
+
+Spells
+
+  *
+
+Rituals
+
+  *
+
+
+            *Inventory*
+
+Weapons
+
+  * Bastard Sword+1
+    2d6+5|7
+    /Hit+9, Block+13|8/
+  * Roundshield+1
+    1d6+8
+    /Hit+4, Block+12|11/
+  * Knife
+    2d6
+    /Hit+4, Block+8|8/
+
+Armor
+
+  * Scale Helmet
+  * Scale Armor
+  * Scale Gauntlets
+  * Scale Greaves
+  * Amulet +2
+  * Ring +1
+
+Misc.
+
+  * 1× Adventurer's Pack I
+
+
+            *Proficiencies*
+
+Magic
+
+  *
+
+Weapons
+
+  * Slashing: Intermediate
+  * /Swords 5/
+  * Defensive: Intermediate
+  * /Roundshields 4/
+
+Civilian
+
+  * Athletics 3
+  * Monster Lore 1
+  * Warfare 2
+
+// <https://www.worldanvil.com/sheet/1596396/view> // <https://
+www.worldanvil.com/heroes/sheet/1596396/edit>
+
+
+    Level 20
+
+
+      Aggressive Swordfighter 20
+
+Human, Level 20
+
+
+            *General*
+
+*Attributes*
+*CON* 	10 [5]
+*STR* 	11 [5]
+*AGI* 	9 [4]
+*INT* 	4 [2]
+*WIL* 	4 [2]
+*PER* 	4 [2]
+
+*Values*
+*EN* 	25
+*MP|R* 	5|1
+*WL* 	4
+*WT* 	8
+*TN* 	5
+*MS* 	6
+
+*Armor*
+*Head* 	3
+*Torso* 	7
+*Arms* 	4
+*Legs* 	4
+*MD* 	4
+*Enc.* 	0
+
+
+            *Notes*
+
+*Classes:* /Fighter, Swordfighter/
+135 SP Base
++40 Bonus
+Rest 0
+
+
+            *Perks*
+
+Special
+
+  * Efficient Metabolism <https://www.worldanvil.com/w/generia-
+    perseus27/a/species-article#EfficientMetabolism>
+  * Pursuit Hunter <https://www.worldanvil.com/w/generia-perseus27/a/
+    species-article#PursuitHunter>
+
+Combat
+
+  * Edge Alignment <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-combat-E28093-exclusive-article#EdgeAlignment>
+  * Goliath <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Goliath>
+  * Conditioned I <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-combat-article#ConditionedI>
+  * Forerunner <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Forerunner>
+  * Opportunist <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Opportunist>
+  * Sprinter <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Sprinter>
+
+Magic
+
+  *
+
+
+            *Actions*
+
+Skills
+
+  * Stance: Attack <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-iii-article#StanceAttack>
+  * Whirl <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-iii-article#Whirl>
+  * Mordhau <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-ii-article#Mordhau>
+  * Mighty Strike <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-ii-article#MightyStrike>
+  * Bodycheck <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-ii-article#Bodycheck>
+  * Disarm <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-ii-article#Disarm>
+  * Aimed Strike <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#AimedStrike>
+  * Charge <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Charge>
+  * Swing <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Swing>
+  * Feint <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Feint>
+  * Counter <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Counter>
+  * Leg Sweep <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#LegSweep>
+  * Shove <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Shove>
+
+Spells
+
+  *
+
+Rituals
+
+  *
+
+
+            *Inventory*
+
+Weapons
+
+  * Longsword+2
+    2d8+7|4
+    /Hit+10, Block+16|10/
+  * Shortsword+1
+    2d6+3
+    /Hit+8, Block+12|10/
+  * Roundshield
+    1d6+8
+    /Hit+0, Block+10|12/
+  * Knife
+    2d6
+    /Hit+4, Block+10|10/
+
+Armor
+
+  * Chain Helmet
+  * Chainmail+1
+  * Chain Gauntlets
+  * Chain Greaves
+  * Amulet +2
+  * 2× Ring +1
+
+Misc.
+
+  * 1× Adventurer's Pack II
+
+
+            *Proficiencies*
+
+Magic
+
+  *
+
+Weapons
+
+  * Slashing: Intermediate
+  * /Greatswords 6/
+  * /Swords 2/
+  * Defensive: Beginner
+
+Civilian
+
+  * Athletics 2
+  * Monster Lore 1
+  * Warfare 2
+
+// <https://www.worldanvil.com/sheet/1596398/view> // <https://
+www.worldanvil.com/heroes/sheet/1596398/edit>
+
+
+      Duelist Sword 20
+
+Human, Level 20
+
+
+            *General*
+
+*Attributes*
+*CON* 	7 [3]
+*STR* 	9 [4]
+*AGI* 	12 [6]
+*INT* 	4 [2]
+*WIL* 	5 [2]
+*PER* 	6 [3]
+
+*Values*
+*EN* 	20
+*MP|R* 	5|2
+*WL* 	4
+*WT* 	7
+*TN* 	3
+*MS* 	8
+
+*Armor*
+*Head* 	2
+*Torso* 	7
+*Arms* 	4
+*Legs* 	4
+*MD* 	4
+*Enc.* 	0
+
+
+            *Notes*
+
+*Classes:* /Fighter, Duelist/
+135 SP Base
++40 Bonus
+Rest 0
+ 
+
+
+            *Perks*
+
+Special
+
+  * Efficient Metabolism <https://www.worldanvil.com/w/generia-
+    perseus27/a/species-article#EfficientMetabolism>
+  * Pursuit Hunter <https://www.worldanvil.com/w/generia-perseus27/a/
+    species-article#PursuitHunter>
+
+Combat
+
+  * Lone Fighter <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-combat-E28093-exclusive-article#LoneFighter>
+  * Dancer <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Dancer>
+  * Deflector <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Deflector>
+  * Forerunner <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Forerunner>
+  * Opportunist <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Opportunist>
+
+Magic
+
+  *
+
+
+            *Actions*
+
+Skills
+
+  * Stance: Parry <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-iii-article#StanceParry>
+  * Double Stab <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#DoubleStab>
+  * Charge <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Charge>
+  * Careful Strike <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#CarefulStrike>
+  * Feint <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Feint>
+  * Counter <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Counter>
+  * Leg Sweep <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#LegSweep>
+  * Shove <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Shove>
+  * Aimed Strike <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#AimedStrike>
+  * Swift Parry <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#SwiftParry>
+  * Disarm <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-ii-article#Disarm>
+
+Spells
+
+  *
+
+Rituals
+
+  *
+
+
+            *Inventory*
+
+Weapons
+
+  * Smallsword+2
+    2d6+4
+    /Hit+14, Block+12|7/
+  * Buckler
+    1d4+1
+    /Hit+10, Block+11|7/
+  * Knife
+    2d6
+    /Hit+6, Block+7|7/
+
+Armor
+
+  * Leather Helmet
+  * Leather Armor+2
+  * Leather Gauntlets+1
+  * Leather Greaves+1
+  * Amulet +2
+  * 2× Ring +1
+
+Misc.
+
+  * 1× Adventurer's Pack II
+
+
+            *Proficiencies*
+
+Magic
+
+  *
+
+Weapons
+
+  * Stabbing: Adept
+  * /Swords 5/
+  * Defensive: Beginner
+  * /Bucklers 4/
+
+Civilian
+
+  * Athletics 3
+  * Monster Lore 1
+  * Warfare 2
+
+// <https://www.worldanvil.com/sheet/1597140/view> // <https://
+www.worldanvil.com/heroes/sheet/1597140/edit>
+
+
+      Heavy Swordfighter 20
+
+Human, Level 20
+
+
+            *General*
+
+*Attributes*
+*CON* 	11 [5]
+*STR* 	10 [5]
+*AGI* 	8 [4]
+*INT* 	4 [2]
+*WIL* 	5 [2]
+*PER* 	5 [2]
+
+*Values*
+*EN* 	25
+*MP|R* 	5|2
+*WL* 	4
+*WT* 	9
+*TN* 	5
+*MS* 	6
+
+*Armor*
+*Head* 	5
+*Torso* 	9
+*Arms* 	6
+*Legs* 	6
+*MD* 	4
+*Enc.* 	2
+
+
+            *Notes*
+
+*Classes:* /Fighter, Swordfighter, Shieldbearer/
+130 SP Base
++40 Bonus
+Rest 0
+
+
+            *Perks*
+
+Special
+
+  * Efficient Metabolism <https://www.worldanvil.com/w/generia-
+    perseus27/a/species-article#EfficientMetabolism>
+  * Pursuit Hunter <https://www.worldanvil.com/w/generia-perseus27/a/
+    species-article#PursuitHunter>
+
+Combat
+
+  * Edge Alignment <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-combat-E28093-exclusive-article#EdgeAlignment>
+  * Armor Familiarity I <https://www.worldanvil.com/w/generia-perseus27/
+    a/perks-E28093-combat-article#ArmorFamiliarityI>
+  * Armor Familiarity II <https://www.worldanvil.com/w/generia-
+    perseus27/a/perks-E28093-combat-article#ArmorFamiliarityII>
+  * Conditioned I <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-combat-article#ConditionedI>
+  * Forerunner <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Forerunner>
+  * Juggernaut <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Juggernaut>
+  * Opportunist <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Opportunist>
+
+Magic
+
+  *
+
+
+            *Actions*
+
+Skills
+
+  * Protect <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-x-article#Protect>
+  * Stance: Block <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-iii-article#StanceBlock>
+  * Mighty Strike <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-ii-article#MightyStrike>
+  * Disarm <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-ii-article#Disarm>
+  * Charge <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Charge>
+  * Feint <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Feint>
+  * Counter <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Counter>
+  * Leg Sweep <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#LegSweep>
+  * Shove <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Shove>
+  * Aimed Strike <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#AimedStrike>
+  * Shield Bash <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#ShieldBash>
+  * Steady Block <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#SteadyBlock>
+
+Spells
+
+  *
+
+Rituals
+
+  *
+
+
+            *Inventory*
+
+Weapons
+
+  * Bastard Sword+1
+    2d6+6|8
+    /Hit+9, Block+15|10/
+  * Roundshield+2
+    1d6+10
+    /Hit+5, Block+15|14/
+  * Knife
+    2d6
+    /Hit+4, Block+10|10/
+
+Armor
+
+  * Plate Helmet
+  * Plate Armor+1
+  * Plate Gauntlets
+  * Plate Greaves
+  * Amulet +2
+  * 2× Ring +1
+
+Misc.
+
+  * 1× Adventurer's Pack II
+
+
+            *Proficiencies*
+
+Magic
+
+  *
+
+Weapons
+
+  * Slashing: Intermediate
+  * /Swords 5/
+  * Defensive: Intermediate
+  * /Roundshields 5/
+
+Civilian
+
+  * Athletics 3
+  * Monster Lore 1
+  * Warfare 2
+
+// <https://www.worldanvil.com/sheet/1596401/view> // <https://
+www.worldanvil.com/heroes/sheet/1596401/edit>
+------------------------------------------------------------------------
+_Templates <https://www.worldanvil.com/w/generia-perseus27/c/templates-
+category-1>
+//..
+
+  * COPY ARTICLE BLOCK
+  * COPY WORLD BLOCK
+
+// <https://forms.gle/rtfsoiHJdDkBYAka9> submit to reddit <https://
+www.reddit.com/submit>
+
+  * Metadata <#metadata>
+
+Article template
+Generic article
+World
+Generia <https://www.worldanvil.com/w/generia-perseus27>
+Category
+_Templates <https://www.worldanvil.com/w/generia-perseus27/c/templates-
+category-1> in Stats <https://www.worldanvil.com/w/generia-perseus27/c/
+stats-category-1>
+Author
+Perseus27 <https://www.worldanvil.com/author/Perseus27>
+Publication Date
+9 Oct, 2025
+Creation Date
+9 Oct, 2025
+Last Update Date
+12 Oct, 2025
+Visibility
+Public
+Views
+5
+Favorites
+Comments
+0
+// Work In Progress
+
+
+        Find your way!
+
+  * DO YOU NEED HELP? <https://www.worldanvil.com/help/>
+  * PRICING <https://www.worldanvil.com/pricing>
+  * *GIFT A MEMBERSHIP!* <https://www.worldanvil.com/world-anvil-gift-
+    subscriptions>
+  * ABOUT <https://www.worldanvil.com/about>
+  * FAQ <https://www.worldanvil.com/faq>
+  * CHANGELOG <https://www.worldanvil.com/changelog>
+
+
+        Resources
+
+  * RANDOM GENERATORS <https://www.worldanvil.com/random-generators>
+  * WORLDBUILDING PROMPTS <https://www.worldanvil.com/worldbuilding-prompts>
+  * WHAT IS WORLDBUILDING? <https://www.worldanvil.com/worldbuilding>
+
+
+        WHO WE ARE
+
+  * OUR TEAM <https://www.worldanvil.com/team>
+  * WE ARE HIRING <https://www.worldanvil.com/we-are-hiring>
+  * OUR NEWS <http://blog.worldanvil.com/>
+
+
+        LEGAL
+
+  * PRIVACY <https://www.worldanvil.com/privacy>
+  * TERMS OF SERVICE <https://www.worldanvil.com/terms-of-service>
+  * COPYRIGHT <https://www.worldanvil.com/copyright>
+  * ETIQUETTE <https://www.worldanvil.com/etiquette>
+  * ACCESSIBILITY <https://www.worldanvil.com/accessibility>
+
+
+        Get the news
+
+  * *// WORLDANVIL PODCAST* <https://www.worldanvil.com/podcast>
+  * *// DISCORD* <https://www.worldanvil.com/discord>
+  * // BLOG <https://blog.worldanvil.com/>
+  * // BLUESKY <https://bsky.app/profile/worldanvil.com>
+  * // TWITTER <https://www.twitter.com/worldanvil>
+  * // YOUTUBE <https://www.youtube.com/channel/UCf5MDxxTuT1OpwOxVfG-ofg>
+  * // TWITCH <https://www.twitch.tv/worldanvil>
+  * // FACEBOOK <https://www.facebook.com/worldanvil>
+  * // REDDIT <http://www.reddit.com/r/worldanvil>
+
+
+        Our Shop
+
+  * *GIFTS & WORLD ANVIL GEAR* <https://shop.worldanvil.com/>
+
+
+        Development
+
+  * WORLD ANVIL API <https://www.worldanvil.com/api/external/boromir/
+    documentation>
+
+
+        EVENTS
+
+  * STREAMING <https://www.worldanvil.com/streaming>
+  * MAJOR CHALLENGES <https://www.worldanvil.com/community/challenges>
+  * WORLDEMBER <https://www.worldanvil.com/worldember>
+  * SUMMERCAMP <https://www.worldanvil.com/summercamp>
+
+
+        REACHING OUT
+
+  * *JOIN THE AFFILIATE PROGRAM* <https://www.worldanvil.com/affiliate>
+  * GET SPONSORED <https://www.worldanvil.com/sponsoring>
+
+
+        A BIG THANK YOU
+
+To all our *Our Patrons* <https://www.worldanvil.com/patrons> for their
+unwavering love and support.
+
+For the amazing images. His Titanship Christopher Dravus <https://
+www.worldanvil.com/author/thechosenone> of Ironrise Games, Our Revered
+Deity Basic Dragon / Rin <https://www.worldanvil.com/author/BasicDragon>
+& His Majesty Caeora <https://www.caeora.com/>
+

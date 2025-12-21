@@ -1,0 +1,2125 @@
+// Published // Public //
+
+  * // Edit Article <https://www.worldanvil.com/p/athena/
+    article/12dfd138-6480-4a39-8d68-9f430dbe947b/edit>
+  * // Articles <https://www.worldanvil.com/p/athena>
+  * // <https://www.worldanvil.com/p/athena>
+  * // <https://www.worldanvil.com/p/athena/settings>
+
+
+    World Codex
+
+  *
+
+
+              // Rules <https://www.worldanvil.com/w/generia-perseus27/
+              c/rules-category> // <https://www.worldanvil.com/w/
+              generia-perseus27/c/rules-category> // <https://
+              www.worldanvil.com/world/category/33db6e65-b64f-4a7d-ac94-
+              c667c0661207/edit>
+
+  *
+
+
+              // Classes <https://www.worldanvil.com/w/generia-
+              perseus27/c/classes-category> // <https://
+              www.worldanvil.com/w/generia-perseus27/c/classes-
+              category> // <https://www.worldanvil.com/world/
+              category/0894571a-27f6-4e29-a31a-da0059cdf3eb/edit>
+
+  *
+
+
+              // Spellcasting <https://www.worldanvil.com/w/generia-
+              perseus27/c/spells-category> // <https://
+              www.worldanvil.com/w/generia-perseus27/c/spells-
+              category> // <https://www.worldanvil.com/world/category/
+              b4fafb8a-3da7-417a-ae64-431d1104115d/edit>
+
+  *
+
+
+              // Skills <https://www.worldanvil.com/w/generia-perseus27/
+              c/skills-category-1> // <https://www.worldanvil.com/w/
+              generia-perseus27/c/skills-category-1> // <https://
+              www.worldanvil.com/world/category/6451d94a-e733-48b4-9eab-
+              a14c2f6288ce/edit>
+
+  *
+
+
+              // Perks <https://www.worldanvil.com/w/generia-perseus27/
+              c/perks-category-1> // <https://www.worldanvil.com/w/
+              generia-perseus27/c/perks-category-1> // <https://
+              www.worldanvil.com/world/category/bad323ef-
+              ee0d-4753-90a9-1c403e75c8c6/edit>
+
+  *
+
+
+              // Equipment <https://www.worldanvil.com/w/generia-
+              perseus27/c/equipment-category> // <https://
+              www.worldanvil.com/w/generia-perseus27/c/equipment-
+              category> // <https://www.worldanvil.com/world/category/
+              f1c583fd-e6ba-49b9-9bfc-fd80f9f46f47/edit>
+
+  *
+
+
+              // Spielleitung <https://www.worldanvil.com/w/generia-
+              perseus27/c/spielleitung-category> // <https://
+              www.worldanvil.com/w/generia-perseus27/c/spielleitung-
+              category> // <https://www.worldanvil.com/world/category/
+              f51df7b0-321c-4c52-80cb-4c36dcfff638/edit>
+
+  *
+
+
+              // Spielermaterialien <https://www.worldanvil.com/w/
+              generia-perseus27/c/spielermaterialien-category> //
+              <https://www.worldanvil.com/w/generia-perseus27/c/
+              spielermaterialien-category> // <https://
+              www.worldanvil.com/world/category/f8d97157-341e-4926-a74a-
+              d243db55efe2/edit>
+
+  *
+
+
+              // Deutsch (Alt) <https://www.worldanvil.com/w/generia-
+              perseus27/c/deutsch-28alt29-category> // <https://
+              www.worldanvil.com/w/generia-perseus27/c/deutsch-28alt29-
+              category> // <https://www.worldanvil.com/world/
+              category/251a5412-97b9-4122-9200-c27c1b03de2d/edit>
+
+  *
+
+
+              // Read World Meta <https://www.worldanvil.com/w/generia-
+              perseus27/meta>
+
+//
+//
+
+
+        World Styling Editor
+
+SELECT THEME
+
+CUSTOM CSS .statblock { background: rgba(0,0,0,0.1); } .orgblock
+{ background: rgba(0,0,0,0.1); border-style: dashed; border-width: 1px;
+border-color: black; border-radius: 5px; padding: 5px; } .orgblock-
+transparent { border-style: dashed; border-width: 1px; border-color:
+black; border-radius: 5px; padding: 5px; } .page-world-homepage #world-
+category-content { display: none; } .statblock .table tr td
+{ background: 0; } .statblock .table-striped tr:nth-of-type(odd)
+{ background: rgb(249, 249, 249, 0.2); } .statblock .table { background:
+0; } .perk { background: rgba(0,0,0,0.1); border-style: solid; border-
+width: 1px; border-color: black; border-radius: 5px; padding:
+5px; } .spell { background: rgba(0,0,0,0.1); border-style: solid;
+border-width: 1px; border-color: black; border-radius: 5px; padding:
+5px; } .spell-content { display: flex; } .spell-columnleft { width: 20%;
+padding: 2px; font-weight: bold; } .spell-columncenter { width: 50%;
+padding: 2px; } .spell-columnright { width: 30%; padding: 2px; } .spell-
+casttype { font-weight: bold; } .spell-overview {} .spell-description
+{} .spell-effect {} .spell-save {} .clr-wurf { color:#00369b;} .clr-roll
+{ color:#00369b;} .clr-roll-noex { color:#882bcf;} .clr-zahl
+{ color:#00369b;} .clr-value { color:#00369b;} .clr-val
+{ color:#00369b;} .clr-attr { color:#008e02;} .clr-za
+{ color:#008e02;} .clr-sa { color:#27827f;} .clr-zv
+{ color:#008e02;} .clr-uw { color:#b20080;} .clr-dc
+{ color:#b20080;} .clr-save {} .clr-proj {} .clr-pa
+{ color:#b3374e;} .clr-upcast {} .clr-quali {} .clr-feld {} .clr-field
+{} .clr-zone {} .clr-exper { color:darkblue;} .clr-bonus
+{ color:green;} .clr-malus { color:red;} .clr-mpcost { font-weight:
+bold; color:#419dc1;} .clr-encost { font-weight: bold;
+color:#c14700;} .clr-mp { color:#419dc1;} .clr-en
+{ color:#c14700;} .clr-chaos {} .clr-sorc {} .clr-konz {} .clr-conc
+{} .clr-ritual {} .clr-reaktion {} .clr-reaction {} .clr-klingenzauber
+{} .clr-alchi {} .clr-alchitype {} .clr-komm {} .clr-support
+{ color:green;} .clr-heilung { color:darkred;} .clr-heal
+{ color:darkred;} .clr-gebrechen { color:#6b7529;} .clr-affliction
+{ color:#6b7529;} .clr-kontrolle { color:#00369b;} .clr-control
+{ color:#00369b;} .clr-schutz { color:#9a00b2;} .clr-sd
+{ color:#9a00b2;} .clr-def { color:#9a00b2;} .clr-mobil
+{ color:#c19e00;} .clr-movement { color:#c19e00;} .clr-meta
+{ color:#00369b;} .clr-konter { color:#b20080;} .clr-counter
+{ color:#b20080;} .clr-summon {} .clr-terrain { color:brown;} .clr-nekro
+{ color:black;} .hide { display:none; } .clr-sunlight
+{ color:#c99400;} .clr-moonlight { color:#689cb3;}
+Save Changes
+
+Need help? Check out the CSS Styling Guide <https://www.worldanvil.com/
+learn/styling/css-basics>
+
+// <#full-layout>
+Toggle Menu World Anvil <https://www.worldanvil.com/>
+
+  * View Profile <https://www.worldanvil.com/author/Perseus27>
+  * Profile Settings <https://www.worldanvil.com/dashboard/user/profile/
+    edit>
+  * Interface <https://www.worldanvil.com/dashboard/user/interface>
+  * Account <https://www.worldanvil.com/dashboard/user/account>
+  * Guild Membership <https://www.worldanvil.com/dashboard/user/account/
+    subscription>
+  * Logout <https://www.worldanvil.com/logout>
+  * Need any help? <https://www.worldanvil.com/help/>
+
+  * // <https://discord.gg/dUycSefs4W>
+  * // <https://www.worldanvil.com/notification/>
+  *
+
+    PERSEUS27 //
+
+      o View Profile <https://www.worldanvil.com/author/Perseus27>
+      o Profile Settings <https://www.worldanvil.com/dashboard/user/
+        profile/edit>
+      o Interface <https://www.worldanvil.com/dashboard/user/interface>
+      o Account <https://www.worldanvil.com/dashboard/user/account>
+      o Guild Membership <https://www.worldanvil.com/dashboard/user/
+        account/subscription>
+      o Logout <https://www.worldanvil.com/logout>
+      o Need any help? <https://www.worldanvil.com/help/>
+
+Go to Generia Homepage <https://www.worldanvil.com/w/generia-perseus27>
+
+
+  Archetype: Wizard
+
+
+    Level 10
+
+
+      Hermetician 10
+
+Human, Level 10
+
+
+            *General*
+
+*Attributes*
+*CON* 	4 [2]
+*STR* 	3 [1]
+*AGI* 	4 [2]
+*INT* 	8 [4]
+*WIL* 	6 [3]
+*PER* 	5 [2]
+
+*Values*
+*EN* 	10
+*MP|R* 	15|2
+*WL* 	4
+*WT* 	5
+*TN* 	3
+*MS* 	4
+
+*Armor*
+*Head* 	1
+*Torso* 	3
+*Arms* 	1
+*Legs* 	1
+*MD* 	2
+*Enc.* 	0
+
+
+            *Notes*
+
+*Classes:* /Wizard, Hermetician/
+70 SP Base
++20 Bonus
+Rest 0
+
+
+            *Perks*
+
+Special
+
+  * Efficient Metabolism <https://www.worldanvil.com/w/generia-
+    perseus27/a/species-article#EfficientMetabolism>
+  * Pursuit Hunter <https://www.worldanvil.com/w/generia-perseus27/a/
+    species-article#PursuitHunter>
+
+Combat
+
+  *
+
+Magic
+
+  * Practiced Hermetician <https://www.worldanvil.com/w/generia-
+    perseus27/a/perks-E28093-magic-E28093-exclusive-
+    article#PracticedHermetician>
+  * Battle Meditation <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-magic-article#BattleMeditation>
+
+
+            *Actions*
+
+Skills
+
+  *
+
+Spells
+
+  * Mana Bolt II <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#ManaBoltI> +6
+  * Mana Beam II <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#ManaBeamI> +5
+  * Neuroshock <https://www.worldanvil.com/w/generia-perseus27/a/wizard-
+    spells-E28093-meteorics-article#Neuroshock> 15
+  * Counter Shot <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#CounterShot> +8
+  * Arcane Barrier I <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#ArcaneBarrierI> +8
+  * Blink <https://www.worldanvil.com/w/generia-perseus27/a/wizard-
+    spells-E28093-hermetics-article#Blink> +8
+  * Illusory Double <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#IllusoryDouble> 16
+  * Counterspell <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#Counterspell> +6
+  * Dim <https://www.worldanvil.com/w/generia-perseus27/a/wizard-spells-
+    E28093-hermetics-article#Dim>
+  * Dimension Step <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#DimensionStep> (10m)
+
+Rituals
+
+  * Hermetic Manipulation <https://www.worldanvil.com/w/generia-
+    perseus27/a/wizard-spells-E28093-hermetics-article#HermeticManipulation>
+  * Meteoric Manipulation <https://www.worldanvil.com/w/generia-
+    perseus27/a/wizard-spells-E28093-meteorics-article#MeteoricManipulation>
+
+
+            *Inventory*
+
+Weapons
+
+  * Wizard Staff
+    2d8
+    /Hit+2, Block+3|3/
+  * Knife
+    2d6
+    /Hit+2, Block+3|3/
+
+Armor
+
+  * Wizard Hat
+  * Cloth Armor
+  * Cloth Gauntlets
+  * Cloth Greaves
+  * Amulet +2
+
+Misc.
+
+  * Adventurer's Pack I
+
+
+            *Proficiencies*
+
+Magic
+
+  * Hermetics: Intermediate
+  * /Arcane 2/
+  * Meteorics: Beginner
+  * /Lightning 1/
+
+Weapons
+
+  *
+
+Civilian
+
+  * Arcana 3
+  * Arithmetics 1
+  * History 1
+
+// <https://www.worldanvil.com/sheet/1596756/view> // <https://
+www.worldanvil.com/heroes/sheet/1596756/edit>
+
+
+      Kinetician 10
+
+Human, Level 10
+
+
+            *General*
+
+*Attributes*
+*CON* 	4 [2]
+*STR* 	3 [1]
+*AGI* 	4 [2]
+*INT* 	8 [4]
+*WIL* 	6 [3]
+*PER* 	5 [2]
+
+*Values*
+*EN* 	10
+*MP|R* 	15|2
+*WL* 	4
+*WT* 	5
+*TN* 	3
+*MS* 	4
+
+*Armor*
+*Head* 	1
+*Torso* 	3
+*Arms* 	1
+*Legs* 	1
+*MD* 	2
+*Enc.* 	0
+
+
+            *Notes*
+
+*Classes:* /Wizard, Kinetician/
+70 SP Base
++20 Bonus
+Rest 2
+
+
+            *Perks*
+
+Special
+
+  * Efficient Metabolism <https://www.worldanvil.com/w/generia-
+    perseus27/a/species-article#EfficientMetabolism>
+  * Pursuit Hunter <https://www.worldanvil.com/w/generia-perseus27/a/
+    species-article#PursuitHunter>
+
+Combat
+
+  *
+
+Magic
+
+  * Practiced Kinetician <https://www.worldanvil.com/w/generia-
+    perseus27/a/perks-E28093-magic-E28093-exclusive-
+    article#PracticedKinetician>
+  * Battle Meditation <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-magic-article#BattleMeditation>
+
+
+            *Actions*
+
+Skills
+
+  *
+
+Spells
+
+  * Satellites <https://www.worldanvil.com/w/generia-perseus27/a/wizard-
+    spells-E28093-kinetics-article#Satellites> +4
+  * Kinetic Bolt II <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-kinetics-article#KineticBoltII> +6
+  * Mana Beam I <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#ManaBeamI> +5
+  * Earthquake <https://www.worldanvil.com/w/generia-perseus27/a/wizard-
+    spells-E28093-kinetics-article#Earthquake> 14
+  * Quagmire <https://www.worldanvil.com/w/generia-perseus27/a/wizard-
+    spells-E28093-kinetics-article#Quagmire> 16
+  * Kinetic Barrier I <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-kinetics-article#KineticBarrierI> +8
+  * Tensile Shield I <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-kinetics-article#TensileShieldI>
+  * Water Veil <https://www.worldanvil.com/w/generia-perseus27/a/wizard-
+    spells-E28093-kinetics-article#WaterVeil>
+
+Rituals
+
+  * Hermetic Manipulation <https://www.worldanvil.com/w/generia-
+    perseus27/a/wizard-spells-E28093-hermetics-article#HermeticManipulation>
+  * Kinetic Manipulation <https://www.worldanvil.com/w/generia-
+    perseus27/a/wizard-spells-E28093-kinetics-article#KineticManipulation>
+
+
+            *Inventory*
+
+Weapons
+
+  * Wizard Staff
+    2d8
+    /Hit+2, Block+3|3/
+  * Knife
+    2d6
+    /Hit+2, Block+3|3/
+
+Armor
+
+  * Wizard Hat
+  * Cloth Armor
+  * Cloth Gauntlets
+  * Cloth Greaves
+  * Amulet +2
+
+Misc.
+
+  * Adventurer's Pack I
+
+
+            *Proficiencies*
+
+Magic
+
+  * Kinetics: Intermediate
+  * /Water 2/
+  * Hermetics: Beginner
+  * /Arcane 1/
+
+Weapons
+
+  *
+
+Civilian
+
+  * Arcana 3
+  * Arithmetics 1
+  * History 1
+
+// <https://www.worldanvil.com/sheet/1596730/view> // <https://
+www.worldanvil.com/heroes/sheet/1596730/edit>
+
+
+      Meteorician 10
+
+Human, Level 10
+
+
+            *General*
+
+*Attributes*
+*CON* 	4 [2]
+*STR* 	3 [1]
+*AGI* 	4 [2]
+*INT* 	8 [4]
+*WIL* 	6 [3]
+*PER* 	5 [2]
+
+*Values*
+*EN* 	10
+*MP|R* 	15|2
+*WL* 	4
+*WT* 	5
+*TN* 	3
+*MS* 	4
+
+*Armor*
+*Head* 	1
+*Torso* 	3
+*Arms* 	1
+*Legs* 	1
+*MD* 	2
+*Enc.* 	0
+
+
+            *Notes*
+
+*Classes:* /Wizard, Meteorician/
+70 SP Base
++20 Bonus
+Rest 2
+
+
+            *Perks*
+
+Special
+
+  * Efficient Metabolism <https://www.worldanvil.com/w/generia-
+    perseus27/a/species-article#EfficientMetabolism>
+  * Pursuit Hunter <https://www.worldanvil.com/w/generia-perseus27/a/
+    species-article#PursuitHunter>
+
+Combat
+
+  *
+
+Magic
+
+  * Practiced Meteorician <https://www.worldanvil.com/w/generia-
+    perseus27/a/perks-E28093-magic-E28093-exclusive-
+    article#PracticedMeteorician>
+  * Battle Meditation <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-magic-article#BattleMeditation>
+
+
+            *Actions*
+
+Skills
+
+  *
+
+Spells
+
+  * Thunderbolt I <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-meteorics-article#ThunderboltI> +6
+  * Zap II <https://www.worldanvil.com/w/generia-perseus27/a/wizard-
+    spells-E28093-meteorics-article#ZapII> +6
+  * Meteoric Bolt I <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-meteorics-article#MeteoricBoltI> +6
+  * Mana Beam I <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#ManaBeamI> +5
+  * Discharge <https://www.worldanvil.com/w/generia-perseus27/a/wizard-
+    spells-E28093-meteorics-article#Discharge> 16
+  * Air Burst <https://www.worldanvil.com/w/generia-perseus27/a/wizard-
+    spells-E28093-meteorics-article#AirBurst> 14
+  * Arcane Barrier I <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#ArcaneBarrierI> +7
+  * Levitation <https://www.worldanvil.com/w/generia-perseus27/a/wizard-
+    spells-E28093-meteorics-article#Levitation>
+  * Lightning Step <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-meteorics-article#LightningStep>
+
+Rituals
+
+  * Hermetic Manipulation <https://www.worldanvil.com/w/generia-
+    perseus27/a/wizard-spells-E28093-hermetics-article#HermeticManipulation>
+  * Meteoric Manipulation <https://www.worldanvil.com/w/generia-
+    perseus27/a/wizard-spells-E28093-meteorics-article#MeteoricManipulation>
+
+
+            *Inventory*
+
+Weapons
+
+  * Wizard Staff
+    2d8
+    /Hit+2, Block+3|3/
+  * Knife
+    2d6
+    /Hit+2, Block+3|3/
+
+Armor
+
+  * Wizard Hat
+  * Cloth Armor
+  * Cloth Gauntlets
+  * Cloth Greaves
+  * Amulet +2
+
+Misc.
+
+  * Adventurer's Pack I
+
+
+            *Proficiencies*
+
+Magic
+
+  * Meteorics: Intermediate
+  * /Lightning 2/
+  * Hermetics: Beginner
+  * /Arcane 1/
+
+Weapons
+
+  *
+
+Civilian
+
+  * Arcana 3
+  * Arithmetics 1
+  * History 1
+
+// <https://www.worldanvil.com/sheet/1596726/view> // <https://
+www.worldanvil.com/heroes/sheet/1596726/edit>
+
+
+      Thermician 10
+
+Human, Level 10
+
+
+            *General*
+
+*Attributes*
+*CON* 	4 [2]
+*STR* 	3 [1]
+*AGI* 	4 [2]
+*INT* 	8 [4]
+*WIL* 	6 [3]
+*PER* 	5 [2]
+
+*Values*
+*EN* 	10
+*MP|R* 	15|2
+*WL* 	4
+*WT* 	5
+*TN* 	3
+*MS* 	4
+
+*Armor*
+*Head* 	1
+*Torso* 	3
+*Arms* 	1
+*Legs* 	1
+*MD* 	2
+*Enc.* 	0
+
+
+            *Notes*
+
+*Classes:* /Wizard, Thermician/
+70 SP Base
++20 Bonus
+Rest 2
+
+
+            *Perks*
+
+Special
+
+  * Efficient Metabolism <https://www.worldanvil.com/w/generia-
+    perseus27/a/species-article#EfficientMetabolism>
+  * Pursuit Hunter <https://www.worldanvil.com/w/generia-perseus27/a/
+    species-article#PursuitHunter>
+
+Combat
+
+  *
+
+Magic
+
+  * Practiced Thermician <https://www.worldanvil.com/w/generia-
+    perseus27/a/perks-E28093-magic-E28093-exclusive-
+    article#PracticedThermician>
+  * Battle Meditation <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-magic-article#BattleMeditation>
+
+
+            *Actions*
+
+Skills
+
+  *
+
+Spells
+
+  * Fireball I <https://www.worldanvil.com/w/generia-perseus27/a/wizard-
+    spells-E28093-thermics-article#FireballI> +6
+  * Frost Lance I <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-thermics-article#FrostLanceI> +4
+  * Thermal Beam II <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-thermics-article#ThermalBeamII> +6
+  * Thermal Bolt II <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-thermics-article#ThermalBoltI> +6
+  * Mana Beam I <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#ManaBeamI> +5
+  * Ice Shrapnel <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-thermics-article#IceShrapnel> +4
+  * Sparkstream I <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-thermics-article#SparkstreamI> 16
+  * Arcane Barrier I <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#ArcaneBarrierI> +7
+
+Rituals
+
+  * Hermetic Manipulation <https://www.worldanvil.com/w/generia-
+    perseus27/a/wizard-spells-E28093-hermetics-article#HermeticManipulation>
+  * Thermic Manipulation <https://www.worldanvil.com/w/generia-
+    perseus27/a/wizard-spells-E28093-thermics-article#ThermicManipulation>
+
+
+            *Inventory*
+
+Weapons
+
+  * Wizard Staff
+    2d8
+    /Hit+2, Block+3|3/
+  * Knife
+    2d6
+    /Hit+2, Block+3|3/
+
+Armor
+
+  * Wizard Hat
+  * Cloth Armor
+  * Cloth Gauntlets
+  * Cloth Greaves
+  * Amulet +2
+
+Misc.
+
+  * Adventurer's Pack I
+
+
+            *Proficiencies*
+
+Magic
+
+  * Thermics: Intermediate
+  * /Fire 2/
+  * Hermetics: Beginner
+  * /Arcane 1/
+
+Weapons
+
+  *
+
+Civilian
+
+  * Arcana 3
+  * Arithmetics 1
+  * History 1
+
+// <https://www.worldanvil.com/sheet/1596693/view> // <https://
+www.worldanvil.com/heroes/sheet/1596693/edit>
+
+
+    Level 15
+
+
+      Hermetician 15
+
+Human, Level 15
+
+
+            *General*
+
+*Attributes*
+*CON* 	5 [2]
+*STR* 	3 [1]
+*AGI* 	4 [2]
+*INT* 	10 [5]
+*WIL* 	8 [4]
+*PER* 	7 [3]
+
+*Values*
+*EN* 	10
+*MP|R* 	20|3
+*WL* 	5
+*WT* 	6
+*TN* 	3
+*MS* 	4
+
+*Armor*
+*Head* 	1
+*Torso* 	4
+*Arms* 	2
+*Legs* 	2
+*MD* 	4
+*Enc.* 	0
+
+
+            *Notes*
+
+*Classes:* /Wizard, Hermetician/
+105 SP Base
++30 Bonus
+Rest 0
+
+
+            *Perks*
+
+Special
+
+  * Efficient Metabolism <https://www.worldanvil.com/w/generia-
+    perseus27/a/species-article#EfficientMetabolism>
+  * Pursuit Hunter <https://www.worldanvil.com/w/generia-perseus27/a/
+    species-article#PursuitHunter>
+
+Combat
+
+  *
+
+Magic
+
+  * Practiced Hermetician <https://www.worldanvil.com/w/generia-
+    perseus27/a/perks-E28093-magic-E28093-exclusive-
+    article#PracticedHermetician>
+  * Astral Body I <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-magic-article#AstralBodyI>
+  * Battle Meditation <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-magic-article#BattleMeditation>
+  * Focus I <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-magic-article#FocusI>
+
+
+            *Actions*
+
+Skills
+
+  *
+
+Spells
+
+  * Mana Bolt II <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#ManaBoltI> +10
+  * Mana Beam II <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#ManaBeamI> +10
+  * Neuroshock <https://www.worldanvil.com/w/generia-perseus27/a/wizard-
+    spells-E28093-meteorics-article#Neuroshock> 17
+  * Counter Shot <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#CounterShot> +13
+  * Arcane Barrier I <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#ArcaneBarrierI> +13
+  * Blink <https://www.worldanvil.com/w/generia-perseus27/a/wizard-
+    spells-E28093-hermetics-article#Blink> +13
+  * Illusory Double <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#IllusoryDouble> 17
+  * Counterspell <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#Counterspell> +10
+  * Dim <https://www.worldanvil.com/w/generia-perseus27/a/wizard-spells-
+    E28093-hermetics-article#Dim>
+  * Dimension Step <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#DimensionStep> (15m)
+
+Rituals
+
+  * Hermetic Manipulation <https://www.worldanvil.com/w/generia-
+    perseus27/a/wizard-spells-E28093-hermetics-article#HermeticManipulation>
+  * Meteoric Manipulation <https://www.worldanvil.com/w/generia-
+    perseus27/a/wizard-spells-E28093-meteorics-article#MeteoricManipulation>
+
+
+            *Inventory*
+
+Weapons
+
+  * Wizard Staff
+    2d8
+    /Hit+2, Block+3|3/
+  * Knife
+    2d6
+    /Hit+2, Block+3|3/
+
+Armor
+
+  * Wizard Hat
+  * Padded Armor
+  * Padded Gauntlets
+  * Padded Greaves
+  * Amulet +2
+  * 2× Ring +1
+
+Misc.
+
+  * Adventurer's Pack I
+
+
+            *Proficiencies*
+
+Magic
+
+  * Hermetics: Intermediate
+  * /Arcane 5/
+  * /Light 2/
+  * Meteorics: Beginner
+  * /Lightning 2/
+
+Weapons
+
+  *
+
+Civilian
+
+  * Arcana 4
+  * Arithmetics 2
+  * History 2
+
+// <https://www.worldanvil.com/sheet/1596772/view> // <https://
+www.worldanvil.com/heroes/sheet/1596772/edit>
+
+
+      Kinetician 15
+
+Human, Level 15
+
+
+            *General*
+
+*Attributes*
+*CON* 	5 [2]
+*STR* 	3 [1]
+*AGI* 	4 [2]
+*INT* 	10 [5]
+*WIL* 	8 [4]
+*PER* 	7 [3]
+
+*Values*
+*EN* 	10
+*MP|R* 	20|3
+*WL* 	5
+*WT* 	6
+*TN* 	3
+*MS* 	4
+
+*Armor*
+*Head* 	1
+*Torso* 	4
+*Arms* 	2
+*Legs* 	2
+*MD* 	4
+*Enc.* 	0
+
+
+            *Notes*
+
+*Classes:* /Wizard, Kinetician/
+105 SP Base
++30 Bonus
+Rest 0
+
+
+            *Perks*
+
+Special
+
+  * Efficient Metabolism <https://www.worldanvil.com/w/generia-
+    perseus27/a/species-article#EfficientMetabolism>
+  * Pursuit Hunter <https://www.worldanvil.com/w/generia-perseus27/a/
+    species-article#PursuitHunter>
+
+Combat
+
+  *
+
+Magic
+
+  * Practiced Kinetician <https://www.worldanvil.com/w/generia-
+    perseus27/a/perks-E28093-magic-E28093-exclusive-
+    article#PracticedKinetician>
+  * Astral Body I <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-magic-article#AstralBodyI>
+  * Battle Meditation <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-magic-article#BattleMeditation>
+  * Focus I <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-magic-article#FocusI>
+
+
+            *Actions*
+
+Skills
+
+  *
+
+Spells
+
+  * Satellites <https://www.worldanvil.com/w/generia-perseus27/a/wizard-
+    spells-E28093-kinetics-article#Satellites> +9
+  * Kinetic Bolt II <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-kinetics-article#KineticBoltII> +9
+  * Mana Beam I <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#ManaBeamI> +7
+  * Earthquake <https://www.worldanvil.com/w/generia-perseus27/a/wizard-
+    spells-E28093-kinetics-article#Earthquake> 19
+  * Quagmire <https://www.worldanvil.com/w/generia-perseus27/a/wizard-
+    spells-E28093-kinetics-article#Quagmire> 19
+  * Kinetic Barrier I <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-kinetics-article#KineticBarrierI> +12
+  * Tensile Shield I <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-kinetics-article#TensileShieldI>
+  * Water Veil <https://www.worldanvil.com/w/generia-perseus27/a/wizard-
+    spells-E28093-kinetics-article#WaterVeil>
+
+Rituals
+
+  * Hermetic Manipulation <https://www.worldanvil.com/w/generia-
+    perseus27/a/wizard-spells-E28093-hermetics-article#HermeticManipulation>
+  * Kinetic Manipulation <https://www.worldanvil.com/w/generia-
+    perseus27/a/wizard-spells-E28093-kinetics-article#KineticManipulation>
+
+
+            *Inventory*
+
+Weapons
+
+  * Wizard Staff
+    2d8
+    /Hit+2, Block+3|3/
+  * Knife
+    2d6
+    /Hit+2, Block+3|3/
+
+Armor
+
+  * Wizard Hat
+  * Padded Armor
+  * Padded Gauntlets
+  * Padded Greaves
+  * Amulet +2
+  * 2× Ring +1
+
+Misc.
+
+  * Adventurer's Pack I
+
+
+            *Proficiencies*
+
+Magic
+
+  * Kinetics: Intermediate
+  * /Water 4/
+  * /Stone 4/
+  * Hermetics: Beginner
+  * /Arcane 2/
+
+Weapons
+
+  *
+
+Civilian
+
+  * Arcana 4
+  * Arithmetics 2
+  * History 2
+
+// <https://www.worldanvil.com/sheet/1596771/view> // <https://
+www.worldanvil.com/heroes/sheet/1596771/edit>
+
+
+      Meteorician 15
+
+Human, Level 15
+
+
+            *General*
+
+*Attributes*
+*CON* 	5 [2]
+*STR* 	3 [1]
+*AGI* 	4 [2]
+*INT* 	10 [5]
+*WIL* 	8 [4]
+*PER* 	7 [3]
+
+*Values*
+*EN* 	10
+*MP|R* 	20|3
+*WL* 	5
+*WT* 	6
+*TN* 	3
+*MS* 	4
+
+*Armor*
+*Head* 	1
+*Torso* 	4
+*Arms* 	2
+*Legs* 	2
+*MD* 	4
+*Enc.* 	0
+
+
+            *Notes*
+
+*Classes:* /Wizard, Meteorician/
+105 SP Base
++30 Bonus
+Rest 0
+
+
+            *Perks*
+
+Special
+
+  * Efficient Metabolism <https://www.worldanvil.com/w/generia-
+    perseus27/a/species-article#EfficientMetabolism>
+  * Pursuit Hunter <https://www.worldanvil.com/w/generia-perseus27/a/
+    species-article#PursuitHunter>
+
+Combat
+
+  *
+
+Magic
+
+  * Practiced Meteorician <https://www.worldanvil.com/w/generia-
+    perseus27/a/perks-E28093-magic-E28093-exclusive-
+    article#PracticedMeteorician>
+  * Astral Body I <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-magic-article#AstralBodyI>
+  * Battle Meditation <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-magic-article#BattleMeditation>
+  * Focus I <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-magic-article#FocusI>
+
+
+            *Actions*
+
+Skills
+
+  *
+
+Spells
+
+  * Thunderbolt I <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-meteorics-article#ThunderboltI> +9
+  * Zap II <https://www.worldanvil.com/w/generia-perseus27/a/wizard-
+    spells-E28093-meteorics-article#ZapII> +9
+  * Meteoric Bolt I <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-meteorics-article#MeteoricBoltI> +9
+  * Mana Beam I <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#ManaBeamI> +7
+  * Discharge <https://www.worldanvil.com/w/generia-perseus27/a/wizard-
+    spells-E28093-meteorics-article#Discharge> 19
+  * Air Burst <https://www.worldanvil.com/w/generia-perseus27/a/wizard-
+    spells-E28093-meteorics-article#AirBurst> 19
+  * Arcane Barrier I <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#ArcaneBarrierI> +10
+  * Levitation <https://www.worldanvil.com/w/generia-perseus27/a/wizard-
+    spells-E28093-meteorics-article#Levitation>
+  * Lightning Step <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-meteorics-article#LightningStep>
+
+Rituals
+
+  * Hermetic Manipulation <https://www.worldanvil.com/w/generia-
+    perseus27/a/wizard-spells-E28093-hermetics-article#HermeticManipulation>
+  * Meteoric Manipulation <https://www.worldanvil.com/w/generia-
+    perseus27/a/wizard-spells-E28093-meteorics-article#MeteoricManipulation>
+
+
+            *Inventory*
+
+Weapons
+
+  * Wizard Staff
+    2d8
+    /Hit+2, Block+3|3/
+  * Knife
+    2d6
+    /Hit+2, Block+3|3/
+
+Armor
+
+  * Wizard Hat
+  * Padded Armor
+  * Padded Gauntlets
+  * Padded Greaves
+  * Amulet +2
+  * 2× Ring +1
+
+Misc.
+
+  * Adventurer's Pack I
+
+
+            *Proficiencies*
+
+Magic
+
+  * Meteorics: Intermediate
+  * /Lightning 4/
+  * /Air 4/
+  * Hermetics: Beginner
+  * /Arcane 2/
+
+Weapons
+
+  *
+
+Civilian
+
+  * Arcana 4
+  * Arithmetics 2
+  * History 2
+
+// <https://www.worldanvil.com/sheet/1596768/view> // <https://
+www.worldanvil.com/heroes/sheet/1596768/edit>
+
+
+      Thermician 15
+
+Human, Level 15
+
+
+            *General*
+
+*Attributes*
+*CON* 	5 [2]
+*STR* 	3 [1]
+*AGI* 	4 [2]
+*INT* 	10 [5]
+*WIL* 	8 [4]
+*PER* 	7 [3]
+
+*Values*
+*EN* 	10
+*MP|R* 	20|3
+*WL* 	5
+*WT* 	6
+*TN* 	3
+*MS* 	4
+
+*Armor*
+*Head* 	1
+*Torso* 	4
+*Arms* 	2
+*Legs* 	2
+*MD* 	4
+*Enc.* 	0
+
+
+            *Notes*
+
+*Classes:* /Wizard, Thermician/
+105 SP Base
++30 Bonus
+Rest 0
+
+
+            *Perks*
+
+Special
+
+  * Efficient Metabolism <https://www.worldanvil.com/w/generia-
+    perseus27/a/species-article#EfficientMetabolism>
+  * Pursuit Hunter <https://www.worldanvil.com/w/generia-perseus27/a/
+    species-article#PursuitHunter>
+
+Combat
+
+  *
+
+Magic
+
+  * Practiced Thermician <https://www.worldanvil.com/w/generia-
+    perseus27/a/perks-E28093-magic-E28093-exclusive-
+    article#PracticedThermician>
+  * Astral Body I <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-magic-article#AstralBodyI>
+  * Battle Meditation <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-magic-article#BattleMeditation>
+  * Focus I <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-magic-article#FocusI>
+
+
+            *Actions*
+
+Skills
+
+  *
+
+Spells
+
+  * Fireball I <https://www.worldanvil.com/w/generia-perseus27/a/wizard-
+    spells-E28093-thermics-article#FireballI> +9
+  * Frost Lance I <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-thermics-article#FrostLanceI> +9
+  * Thermal Beam II <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-thermics-article#ThermalBeamII> +9
+  * Thermal Bolt II <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-thermics-article#ThermalBoltI> +9
+  * Mana Beam I <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#ManaBeamI> +7
+  * Ice Shrapnel <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-thermics-article#IceShrapnel> +9
+  * Sparkstream I <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-thermics-article#SparkstreamI> 19
+  * Arcane Barrier I <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#ArcaneBarrierI> +10
+
+Rituals
+
+  * Hermetic Manipulation <https://www.worldanvil.com/w/generia-
+    perseus27/a/wizard-spells-E28093-hermetics-article#HermeticManipulation>
+  * Thermic Manipulation <https://www.worldanvil.com/w/generia-
+    perseus27/a/wizard-spells-E28093-thermics-article#ThermicManipulation>
+
+
+            *Inventory*
+
+Weapons
+
+  * Wizard Staff
+    2d8
+    /Hit+2, Block+3|3/
+  * Knife
+    2d6
+    /Hit+2, Block+3|3/
+
+Armor
+
+  * Wizard Hat
+  * Padded Armor
+  * Padded Gauntlets
+  * Padded Greaves
+  * Amulet +2
+  * 2× Ring +1
+
+Misc.
+
+  * Adventurer's Pack I
+
+
+            *Proficiencies*
+
+Magic
+
+  * Thermics: Intermediate
+  * /Fire 4/
+  * /Ice 4/
+  * Hermetics: Beginner
+  * /Arcane 2/
+
+Weapons
+
+  *
+
+Civilian
+
+  * Arcana 4
+  * Arithmetics 2
+  * History 2
+
+// <https://www.worldanvil.com/sheet/1596767/view> // <https://
+www.worldanvil.com/heroes/sheet/1596767/edit>
+
+
+    Level 20
+
+
+      Hermetician/Meteorician 20
+
+Human, Level 20
+
+
+            *General*
+
+*Attributes*
+*CON* 	6 [3]
+*STR* 	4 [2]
+*AGI* 	4 [2]
+*INT* 	12 [6]
+*WIL* 	9 [4]
+*PER* 	8 [4]
+
+*Values*
+*EN* 	10
+*MP|R* 	25|4
+*WL* 	5
+*WT* 	6
+*TN* 	3
+*MS* 	4
+
+*Armor*
+*Head* 	1
+*Torso* 	6
+*Arms* 	3
+*Legs* 	3
+*MD* 	5
+*Enc.* 	0
+
+
+            *Notes*
+
+*Classes:* /Wizard, Hermetician, Meteorician/
+130 SP Base
++40 Bonus
+Rest 0
+
+
+            *Perks*
+
+Special
+
+  * Efficient Metabolism <https://www.worldanvil.com/w/generia-
+    perseus27/a/species-article#EfficientMetabolism>
+  * Pursuit Hunter <https://www.worldanvil.com/w/generia-perseus27/a/
+    species-article#PursuitHunter>
+
+Combat
+
+  *
+
+Magic
+
+  * Practiced Hermetician <https://www.worldanvil.com/w/generia-
+    perseus27/a/perks-E28093-magic-E28093-exclusive-
+    article#PracticedHermetician>
+  * Practiced Meteorician <https://www.worldanvil.com/w/generia-
+    perseus27/a/perks-E28093-magic-E28093-exclusive-
+    article#PracticedMeteorician>
+  * Astral Body I <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-magic-article#AstralBodyI>
+  * Battle Meditation <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-magic-article#BattleMeditation>
+  * Focus I <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-magic-article#FocusI>
+
+
+            *Actions*
+
+Skills
+
+  *
+
+Spells
+
+  * Mana Bolt II <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#ManaBoltI> +11
+  * Mana Beam II <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#ManaBeamI> +11
+  * Thunderbolt I <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-meteorics-article#ThunderboltI> +8
+  * Neuroshock <https://www.worldanvil.com/w/generia-perseus27/a/wizard-
+    spells-E28093-meteorics-article#Neuroshock> 18
+  * Discharge <https://www.worldanvil.com/w/generia-perseus27/a/wizard-
+    spells-E28093-meteorics-article#Discharge> 18
+  * Counter Shot <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#CounterShot> +15
+  * Arcane Barrier I <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#ArcaneBarrierI> +15
+  * Blink <https://www.worldanvil.com/w/generia-perseus27/a/wizard-
+    spells-E28093-hermetics-article#Blink> +15
+  * Illusory Double <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#IllusoryDouble> 18
+  * Air Burst <https://www.worldanvil.com/w/generia-perseus27/a/wizard-
+    spells-E28093-meteorics-article#AirBurst> 17
+  * Counterspell <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#Counterspell> +11
+  * Levitation <https://www.worldanvil.com/w/generia-perseus27/a/wizard-
+    spells-E28093-meteorics-article#Levitation>
+  * Dim <https://www.worldanvil.com/w/generia-perseus27/a/wizard-spells-
+    E28093-hermetics-article#Dim>
+  * Dimension Step <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#DimensionStep> (17m)
+
+Rituals
+
+  * Hermetic Manipulation <https://www.worldanvil.com/w/generia-
+    perseus27/a/wizard-spells-E28093-hermetics-article#HermeticManipulation>
+  * Meteoric Manipulation <https://www.worldanvil.com/w/generia-
+    perseus27/a/wizard-spells-E28093-meteorics-article#MeteoricManipulation>
+
+
+            *Inventory*
+
+Weapons
+
+  * Wizard Staff
+    2d8
+    /Hit+2, Block+5|5/
+  * Knife
+    2d6
+    /Hit+2, Block+5|5/
+
+Armor
+
+  * Wizard Hat
+  * Leather Armor+1
+  * Padded Gauntlets+1
+  * Padded Greaves+1
+  * Amulet +3
+  * 2× Ring +1
+
+Misc.
+
+  * Adventurer's Pack II
+
+
+            *Proficiencies*
+
+Magic
+
+  * Hermetics: Intermediate
+  * /Arcane 5/
+  * /Light 2/
+  * Meteorics: Intermediate
+  * /Air 1/
+  * /Lightning 2/
+
+Weapons
+
+  *
+
+Civilian
+
+  * Arcana 4
+  * Arithmetics 2
+  * History 2
+
+// <https://www.worldanvil.com/sheet/1596781/view> // <https://
+www.worldanvil.com/heroes/sheet/1596781/edit>
+
+
+      Kinetician/Hermetician 20
+
+Human, Level 20
+
+
+            *General*
+
+*Attributes*
+*CON* 	6 [3]
+*STR* 	4 [2]
+*AGI* 	4 [2]
+*INT* 	12 [6]
+*WIL* 	9 [4]
+*PER* 	8 [4]
+
+*Values*
+*EN* 	10
+*MP|R* 	25|4
+*WL* 	5
+*WT* 	6
+*TN* 	3
+*MS* 	4
+
+*Armor*
+*Head* 	1
+*Torso* 	6
+*Arms* 	3
+*Legs* 	3
+*MD* 	5
+*Enc.* 	0
+
+
+            *Notes*
+
+*Classes:* /Wizard, Kinetician, Hermetician/
+130 SP Base
++40 Bonus
+Rest 5
+
+
+            *Perks*
+
+Special
+
+  * Efficient Metabolism <https://www.worldanvil.com/w/generia-
+    perseus27/a/species-article#EfficientMetabolism>
+  * Pursuit Hunter <https://www.worldanvil.com/w/generia-perseus27/a/
+    species-article#PursuitHunter>
+
+Combat
+
+  *
+
+Magic
+
+  * Practiced Hermetician <https://www.worldanvil.com/w/generia-
+    perseus27/a/perks-E28093-magic-E28093-exclusive-
+    article#PracticedHermetician>
+  * Practiced Kinetician <https://www.worldanvil.com/w/generia-
+    perseus27/a/perks-E28093-magic-E28093-exclusive-
+    article#PracticedKinetician>
+  * Astral Body I <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-magic-article#AstralBodyI>
+  * Battle Meditation <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-magic-article#BattleMeditation>
+  * Focus I <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-magic-article#FocusI>
+
+
+            *Actions*
+
+Skills
+
+  *
+
+Spells
+
+  * Satellites <https://www.worldanvil.com/w/generia-perseus27/a/wizard-
+    spells-E28093-kinetics-article#Satellites> +10
+  * Kinetic Bolt II <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-kinetics-article#KineticBoltII> +10
+  * Mana Beam I <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#ManaBeamI> +8
+  * Earthquake <https://www.worldanvil.com/w/generia-perseus27/a/wizard-
+    spells-E28093-kinetics-article#Earthquake> 20
+  * Quagmire <https://www.worldanvil.com/w/generia-perseus27/a/wizard-
+    spells-E28093-kinetics-article#Quagmire> 20
+  * Kinetic Barrier I <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-kinetics-article#KineticBarrierI> +14
+  * Counter Shot <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#CounterShot> +12
+  * Counterspell <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#Counterspell> +8
+  * Dimension Step <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#DimensionStep> (14m)
+  * Tensile Shield I <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-kinetics-article#TensileShieldI>
+  * Water Veil <https://www.worldanvil.com/w/generia-perseus27/a/wizard-
+    spells-E28093-kinetics-article#WaterVeil>
+
+Rituals
+
+  * Hermetic Manipulation <https://www.worldanvil.com/w/generia-
+    perseus27/a/wizard-spells-E28093-hermetics-article#HermeticManipulation>
+  * Kinetic Manipulation <https://www.worldanvil.com/w/generia-
+    perseus27/a/wizard-spells-E28093-kinetics-article#KineticManipulation>
+
+
+            *Inventory*
+
+Weapons
+
+  * Wizard Staff
+    2d8
+    /Hit+2, Block+5|5/
+  * Knife
+    2d6
+    /Hit+2, Block+5|5/
+
+Armor
+
+  * Wizard Hat
+  * Leather Armor+1
+  * Padded Gauntlets+1
+  * Padded Greaves+1
+  * Amulet +3
+  * 2× Ring +1
+
+Misc.
+
+  * Adventurer's Pack II
+
+
+            *Proficiencies*
+
+Magic
+
+  * Kinetics: Intermediate
+  * /Stone 4/
+  * /Water 4/
+  * Hermetics: Intermediate
+  * /Arcane 2/
+
+Weapons
+
+  *
+
+Civilian
+
+  * Arcana 4
+  * Arithmetics 2
+  * History 2
+
+// <https://www.worldanvil.com/sheet/1596782/view> // <https://
+www.worldanvil.com/heroes/sheet/1596782/edit>
+
+
+      Meteorician/Hermetician 20
+
+Human, Level 20
+
+
+            *General*
+
+*Attributes*
+*CON* 	6 [3]
+*STR* 	4 [2]
+*AGI* 	4 [2]
+*INT* 	12 [6]
+*WIL* 	9 [4]
+*PER* 	8 [4]
+
+*Values*
+*EN* 	10
+*MP|R* 	25|4
+*WL* 	5
+*WT* 	6
+*TN* 	3
+*MS* 	4
+
+*Armor*
+*Head* 	1
+*Torso* 	6
+*Arms* 	3
+*Legs* 	3
+*MD* 	5
+*Enc.* 	0
+
+
+            *Notes*
+
+*Classes:* /Wizard, Meteorician, Hermetician/
+130 SP Base
++40 Bonus
+Rest 5
+
+
+            *Perks*
+
+Special
+
+  * Efficient Metabolism <https://www.worldanvil.com/w/generia-
+    perseus27/a/species-article#EfficientMetabolism>
+  * Pursuit Hunter <https://www.worldanvil.com/w/generia-perseus27/a/
+    species-article#PursuitHunter>
+
+Combat
+
+  *
+
+Magic
+
+  * Practiced Hermetician <https://www.worldanvil.com/w/generia-
+    perseus27/a/perks-E28093-magic-E28093-exclusive-
+    article#PracticedHermetician>
+  * Practiced Meteorician <https://www.worldanvil.com/w/generia-
+    perseus27/a/perks-E28093-magic-E28093-exclusive-
+    article#PracticedMeteorician>
+  * Astral Body I <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-magic-article#AstralBodyI>
+  * Battle Meditation <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-magic-article#BattleMeditation>
+  * Focus I <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-magic-article#FocusI>
+
+
+            *Actions*
+
+Skills
+
+  *
+
+Spells
+
+  * Thunderbolt I <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-meteorics-article#ThunderboltI> +10
+  * Zap II <https://www.worldanvil.com/w/generia-perseus27/a/wizard-
+    spells-E28093-meteorics-article#ZapII> +10
+  * Meteoric Bolt I <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-meteorics-article#MeteoricBoltI> +10
+  * Mana Beam I <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#ManaBeamI> +8
+  * Discharge <https://www.worldanvil.com/w/generia-perseus27/a/wizard-
+    spells-E28093-meteorics-article#Discharge> 20
+  * Air Burst <https://www.worldanvil.com/w/generia-perseus27/a/wizard-
+    spells-E28093-meteorics-article#AirBurst> 20
+  * Arcane Barrier I <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#ArcaneBarrierI> +12
+  * Counter Shot <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#CounterShot> +12
+  * Counterspell <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#Counterspell> +8
+  * Dimension Step <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#DimensionStep> (14m)
+  * Levitation <https://www.worldanvil.com/w/generia-perseus27/a/wizard-
+    spells-E28093-meteorics-article#Levitation>
+  * Lightning Step <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-meteorics-article#LightningStep>
+
+Rituals
+
+  * Hermetic Manipulation <https://www.worldanvil.com/w/generia-
+    perseus27/a/wizard-spells-E28093-hermetics-article#HermeticManipulation>
+  * Meteoric Manipulation <https://www.worldanvil.com/w/generia-
+    perseus27/a/wizard-spells-E28093-meteorics-article#MeteoricManipulation>
+
+
+            *Inventory*
+
+Weapons
+
+  * Wizard Staff
+    2d8
+    /Hit+2, Block+5|5/
+  * Knife
+    2d6
+    /Hit+2, Block+5|5/
+
+Armor
+
+  * Wizard Hat
+  * Leather Armor+1
+  * Padded Gauntlets+1
+  * Padded Greaves+1
+  * Amulet +3
+  * 2× Ring +1
+
+Misc.
+
+  * Adventurer's Pack II
+
+
+            *Proficiencies*
+
+Magic
+
+  * Meteorics: Intermediate
+  * /Lightning 4/
+  * /Air 4/
+  * Hermetics: Intermediate
+  * /Arcane 2/
+
+Weapons
+
+  *
+
+Civilian
+
+  * Arcana 4
+  * Arithmetics 2
+  * History 2
+
+// <https://www.worldanvil.com/sheet/1596786/view> // <https://
+www.worldanvil.com/heroes/sheet/1596786/edit>
+
+
+      Thermician/Hermetician 20
+
+Human, Level 20
+
+
+            *General*
+
+*Attributes*
+*CON* 	6 [3]
+*STR* 	4 [2]
+*AGI* 	4 [2]
+*INT* 	12 [6]
+*WIL* 	9 [4]
+*PER* 	8 [4]
+
+*Values*
+*EN* 	10
+*MP|R* 	25|4
+*WL* 	5
+*WT* 	6
+*TN* 	3
+*MS* 	4
+
+*Armor*
+*Head* 	1
+*Torso* 	6
+*Arms* 	3
+*Legs* 	3
+*MD* 	5
+*Enc.* 	0
+
+
+            *Notes*
+
+*Classes:* /Wizard, Thermician, Hermetician/
+130 SP Base
++40 Bonus
+Rest 5
+
+
+            *Perks*
+
+Special
+
+  * Efficient Metabolism <https://www.worldanvil.com/w/generia-
+    perseus27/a/species-article#EfficientMetabolism>
+  * Pursuit Hunter <https://www.worldanvil.com/w/generia-perseus27/a/
+    species-article#PursuitHunter>
+
+Combat
+
+  *
+
+Magic
+
+  * Practiced Hermetician <https://www.worldanvil.com/w/generia-
+    perseus27/a/perks-E28093-magic-E28093-exclusive-
+    article#PracticedHermetician>
+  * Practiced Thermician <https://www.worldanvil.com/w/generia-
+    perseus27/a/perks-E28093-magic-E28093-exclusive-
+    article#PracticedThermician>
+  * Astral Body I <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-magic-article#AstralBodyI>
+  * Battle Meditation <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-magic-article#BattleMeditation>
+  * Focus I <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-magic-article#FocusI>
+
+
+            *Actions*
+
+Skills
+
+  *
+
+Spells
+
+  * Fireball I <https://www.worldanvil.com/w/generia-perseus27/a/wizard-
+    spells-E28093-thermics-article#FireballI> +10
+  * Frost Lance I <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-thermics-article#FrostLanceI> +10
+  * Thermal Beam II <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-thermics-article#ThermalBeamII> +10
+  * Thermal Bolt II <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-thermics-article#ThermalBoltI> +10
+  * Mana Beam I <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#ManaBeamI> +8
+  * Ice Shrapnel <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-thermics-article#IceShrapnel> +10
+  * Sparkstream I <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-thermics-article#SparkstreamI> 20
+  * Counter Shot <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#CounterShot> +12
+  * Arcane Barrier I <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#ArcaneBarrierI> +12
+  * Counterspell <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#Counterspell> +8
+  * Dimension Step <https://www.worldanvil.com/w/generia-perseus27/a/
+    wizard-spells-E28093-hermetics-article#Counterspell> (14m)
+
+Rituals
+
+  * Hermetic Manipulation <https://www.worldanvil.com/w/generia-
+    perseus27/a/wizard-spells-E28093-hermetics-article#HermeticManipulation>
+  * Thermic Manipulation <https://www.worldanvil.com/w/generia-
+    perseus27/a/wizard-spells-E28093-thermics-article#ThermicManipulation>
+
+
+            *Inventory*
+
+Weapons
+
+  * Wizard Staff
+    2d8
+    /Hit+2, Block+5|5/
+  * Knife
+    2d6
+    /Hit+2, Block+5|5/
+
+Armor
+
+  * Wizard Hat
+  * Leather Armor+1
+  * Padded Gauntlets+1
+  * Padded Greaves+1
+  * Amulet +3
+  * 2× Ring +1
+
+Misc.
+
+  * Adventurer's Pack II
+
+
+            *Proficiencies*
+
+Magic
+
+  * Thermics: Intermediate
+  * /Fire 4/
+  * /Ice 4/
+  * Hermetics: Intermediate
+  * /Arcane 2/
+
+Weapons
+
+  *
+
+Civilian
+
+  * Arcana 4
+  * Arithmetics 2
+  * History 2
+
+// <https://www.worldanvil.com/sheet/1596784/view> // <https://
+www.worldanvil.com/heroes/sheet/1596784/edit>
+------------------------------------------------------------------------
+_Templates <https://www.worldanvil.com/w/generia-perseus27/c/templates-
+category-1>
+//..
+
+  * COPY ARTICLE BLOCK
+  * COPY WORLD BLOCK
+
+// <https://forms.gle/rtfsoiHJdDkBYAka9> submit to reddit <https://
+www.reddit.com/submit>
+
+  * Metadata <#metadata>
+
+Article template
+Generic article
+World
+Generia <https://www.worldanvil.com/w/generia-perseus27>
+Category
+_Templates <https://www.worldanvil.com/w/generia-perseus27/c/templates-
+category-1> in Stats <https://www.worldanvil.com/w/generia-perseus27/c/
+stats-category-1>
+Author
+Perseus27 <https://www.worldanvil.com/author/Perseus27>
+Publication Date
+10 Oct, 2025
+Creation Date
+10 Oct, 2025
+Last Update Date
+10 Oct, 2025
+Visibility
+Public
+Views
+2
+Favorites
+Comments
+0
+// Work In Progress
+
+
+        Find your way!
+
+  * DO YOU NEED HELP? <https://www.worldanvil.com/help/>
+  * PRICING <https://www.worldanvil.com/pricing>
+  * *GIFT A MEMBERSHIP!* <https://www.worldanvil.com/world-anvil-gift-
+    subscriptions>
+  * ABOUT <https://www.worldanvil.com/about>
+  * FAQ <https://www.worldanvil.com/faq>
+  * CHANGELOG <https://www.worldanvil.com/changelog>
+
+
+        Resources
+
+  * RANDOM GENERATORS <https://www.worldanvil.com/random-generators>
+  * WORLDBUILDING PROMPTS <https://www.worldanvil.com/worldbuilding-prompts>
+  * WHAT IS WORLDBUILDING? <https://www.worldanvil.com/worldbuilding>
+
+
+        WHO WE ARE
+
+  * OUR TEAM <https://www.worldanvil.com/team>
+  * WE ARE HIRING <https://www.worldanvil.com/we-are-hiring>
+  * OUR NEWS <http://blog.worldanvil.com/>
+
+
+        LEGAL
+
+  * PRIVACY <https://www.worldanvil.com/privacy>
+  * TERMS OF SERVICE <https://www.worldanvil.com/terms-of-service>
+  * COPYRIGHT <https://www.worldanvil.com/copyright>
+  * ETIQUETTE <https://www.worldanvil.com/etiquette>
+  * ACCESSIBILITY <https://www.worldanvil.com/accessibility>
+
+
+        Get the news
+
+  * *// WORLDANVIL PODCAST* <https://www.worldanvil.com/podcast>
+  * *// DISCORD* <https://www.worldanvil.com/discord>
+  * // BLOG <https://blog.worldanvil.com/>
+  * // BLUESKY <https://bsky.app/profile/worldanvil.com>
+  * // TWITTER <https://www.twitter.com/worldanvil>
+  * // YOUTUBE <https://www.youtube.com/channel/UCf5MDxxTuT1OpwOxVfG-ofg>
+  * // TWITCH <https://www.twitch.tv/worldanvil>
+  * // FACEBOOK <https://www.facebook.com/worldanvil>
+  * // REDDIT <http://www.reddit.com/r/worldanvil>
+
+
+        Our Shop
+
+  * *GIFTS & WORLD ANVIL GEAR* <https://shop.worldanvil.com/>
+
+
+        Development
+
+  * WORLD ANVIL API <https://www.worldanvil.com/api/external/boromir/
+    documentation>
+
+
+        EVENTS
+
+  * STREAMING <https://www.worldanvil.com/streaming>
+  * MAJOR CHALLENGES <https://www.worldanvil.com/community/challenges>
+  * WORLDEMBER <https://www.worldanvil.com/worldember>
+  * SUMMERCAMP <https://www.worldanvil.com/summercamp>
+
+
+        REACHING OUT
+
+  * *JOIN THE AFFILIATE PROGRAM* <https://www.worldanvil.com/affiliate>
+  * GET SPONSORED <https://www.worldanvil.com/sponsoring>
+
+
+        A BIG THANK YOU
+
+To all our *Our Patrons* <https://www.worldanvil.com/patrons> for their
+unwavering love and support.
+
+For the amazing images. His Titanship Christopher Dravus <https://
+www.worldanvil.com/author/thechosenone> of Ironrise Games, Our Revered
+Deity Basic Dragon / Rin <https://www.worldanvil.com/author/BasicDragon>
+& His Majesty Caeora <https://www.caeora.com/>
+

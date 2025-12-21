@@ -1,0 +1,764 @@
+// Published // Public //
+
+  * // Edit Article <https://www.worldanvil.com/p/athena/article/
+    d5694fae-df05-4ea7-971c-0c528bc0653f/edit>
+  * // Articles <https://www.worldanvil.com/p/athena>
+  * // <https://www.worldanvil.com/p/athena>
+  * // <https://www.worldanvil.com/p/athena/settings>
+
+
+    World Codex
+
+  *
+
+
+              // Rules <https://www.worldanvil.com/w/generia-perseus27/
+              c/rules-category> // <https://www.worldanvil.com/w/
+              generia-perseus27/c/rules-category> // <https://
+              www.worldanvil.com/world/category/33db6e65-b64f-4a7d-ac94-
+              c667c0661207/edit>
+
+  *
+
+
+              // Classes <https://www.worldanvil.com/w/generia-
+              perseus27/c/classes-category> // <https://
+              www.worldanvil.com/w/generia-perseus27/c/classes-
+              category> // <https://www.worldanvil.com/world/
+              category/0894571a-27f6-4e29-a31a-da0059cdf3eb/edit>
+
+  *
+
+
+              // Spellcasting <https://www.worldanvil.com/w/generia-
+              perseus27/c/spells-category> // <https://
+              www.worldanvil.com/w/generia-perseus27/c/spells-
+              category> // <https://www.worldanvil.com/world/category/
+              b4fafb8a-3da7-417a-ae64-431d1104115d/edit>
+
+  *
+
+
+              // Skills <https://www.worldanvil.com/w/generia-perseus27/
+              c/skills-category-1> // <https://www.worldanvil.com/w/
+              generia-perseus27/c/skills-category-1> // <https://
+              www.worldanvil.com/world/category/6451d94a-e733-48b4-9eab-
+              a14c2f6288ce/edit>
+
+  *
+
+
+              // Perks <https://www.worldanvil.com/w/generia-perseus27/
+              c/perks-category-1> // <https://www.worldanvil.com/w/
+              generia-perseus27/c/perks-category-1> // <https://
+              www.worldanvil.com/world/category/bad323ef-
+              ee0d-4753-90a9-1c403e75c8c6/edit>
+
+  *
+
+
+              // Equipment <https://www.worldanvil.com/w/generia-
+              perseus27/c/equipment-category> // <https://
+              www.worldanvil.com/w/generia-perseus27/c/equipment-
+              category> // <https://www.worldanvil.com/world/category/
+              f1c583fd-e6ba-49b9-9bfc-fd80f9f46f47/edit>
+
+  *
+
+
+              // Spielleitung <https://www.worldanvil.com/w/generia-
+              perseus27/c/spielleitung-category> // <https://
+              www.worldanvil.com/w/generia-perseus27/c/spielleitung-
+              category> // <https://www.worldanvil.com/world/category/
+              f51df7b0-321c-4c52-80cb-4c36dcfff638/edit>
+
+  *
+
+
+              // Spielermaterialien <https://www.worldanvil.com/w/
+              generia-perseus27/c/spielermaterialien-category> //
+              <https://www.worldanvil.com/w/generia-perseus27/c/
+              spielermaterialien-category> // <https://
+              www.worldanvil.com/world/category/f8d97157-341e-4926-a74a-
+              d243db55efe2/edit>
+
+  *
+
+
+              // Deutsch (Alt) <https://www.worldanvil.com/w/generia-
+              perseus27/c/deutsch-28alt29-category> // <https://
+              www.worldanvil.com/w/generia-perseus27/c/deutsch-28alt29-
+              category> // <https://www.worldanvil.com/world/
+              category/251a5412-97b9-4122-9200-c27c1b03de2d/edit>
+
+  *
+
+
+              // Read World Meta <https://www.worldanvil.com/w/generia-
+              perseus27/meta>
+
+//
+//
+
+
+        World Styling Editor
+
+SELECT THEME
+
+CUSTOM CSS .statblock { background: rgba(0,0,0,0.1); } .orgblock
+{ background: rgba(0,0,0,0.1); border-style: dashed; border-width: 1px;
+border-color: black; border-radius: 5px; padding: 5px; } .orgblock-
+transparent { border-style: dashed; border-width: 1px; border-color:
+black; border-radius: 5px; padding: 5px; } .page-world-homepage #world-
+category-content { display: none; } .statblock .table tr td
+{ background: 0; } .statblock .table-striped tr:nth-of-type(odd)
+{ background: rgb(249, 249, 249, 0.2); } .statblock .table { background:
+0; } .perk { background: rgba(0,0,0,0.1); border-style: solid; border-
+width: 1px; border-color: black; border-radius: 5px; padding:
+5px; } .spell { background: rgba(0,0,0,0.1); border-style: solid;
+border-width: 1px; border-color: black; border-radius: 5px; padding:
+5px; } .spell-content { display: flex; } .spell-columnleft { width: 20%;
+padding: 2px; font-weight: bold; } .spell-columncenter { width: 50%;
+padding: 2px; } .spell-columnright { width: 30%; padding: 2px; } .spell-
+casttype { font-weight: bold; } .spell-overview {} .spell-description
+{} .spell-effect {} .spell-save {} .clr-wurf { color:#00369b;} .clr-roll
+{ color:#00369b;} .clr-roll-noex { color:#882bcf;} .clr-zahl
+{ color:#00369b;} .clr-value { color:#00369b;} .clr-val
+{ color:#00369b;} .clr-attr { color:#008e02;} .clr-za
+{ color:#008e02;} .clr-sa { color:#27827f;} .clr-zv
+{ color:#008e02;} .clr-uw { color:#b20080;} .clr-dc
+{ color:#b20080;} .clr-save {} .clr-proj {} .clr-pa
+{ color:#b3374e;} .clr-upcast {} .clr-quali {} .clr-feld {} .clr-field
+{} .clr-zone {} .clr-exper { color:darkblue;} .clr-bonus
+{ color:green;} .clr-malus { color:red;} .clr-mpcost { font-weight:
+bold; color:#419dc1;} .clr-encost { font-weight: bold;
+color:#c14700;} .clr-mp { color:#419dc1;} .clr-en
+{ color:#c14700;} .clr-chaos {} .clr-sorc {} .clr-konz {} .clr-conc
+{} .clr-ritual {} .clr-reaktion {} .clr-reaction {} .clr-klingenzauber
+{} .clr-alchi {} .clr-alchitype {} .clr-komm {} .clr-support
+{ color:green;} .clr-heilung { color:darkred;} .clr-heal
+{ color:darkred;} .clr-gebrechen { color:#6b7529;} .clr-affliction
+{ color:#6b7529;} .clr-kontrolle { color:#00369b;} .clr-control
+{ color:#00369b;} .clr-schutz { color:#9a00b2;} .clr-sd
+{ color:#9a00b2;} .clr-def { color:#9a00b2;} .clr-mobil
+{ color:#c19e00;} .clr-movement { color:#c19e00;} .clr-meta
+{ color:#00369b;} .clr-konter { color:#b20080;} .clr-counter
+{ color:#b20080;} .clr-summon {} .clr-terrain { color:brown;} .clr-nekro
+{ color:black;} .hide { display:none; } .clr-sunlight
+{ color:#c99400;} .clr-moonlight { color:#689cb3;}
+Save Changes
+
+Need help? Check out the CSS Styling Guide <https://www.worldanvil.com/
+learn/styling/css-basics>
+
+// <#full-layout>
+Toggle Menu World Anvil <https://www.worldanvil.com/>
+
+  * View Profile <https://www.worldanvil.com/author/Perseus27>
+  * Profile Settings <https://www.worldanvil.com/dashboard/user/profile/
+    edit>
+  * Interface <https://www.worldanvil.com/dashboard/user/interface>
+  * Account <https://www.worldanvil.com/dashboard/user/account>
+  * Guild Membership <https://www.worldanvil.com/dashboard/user/account/
+    subscription>
+  * Logout <https://www.worldanvil.com/logout>
+  * Need any help? <https://www.worldanvil.com/help/>
+
+  * // <https://discord.gg/dUycSefs4W>
+  * // <https://www.worldanvil.com/notification/>
+  *
+
+    PERSEUS27 //
+
+      o View Profile <https://www.worldanvil.com/author/Perseus27>
+      o Profile Settings <https://www.worldanvil.com/dashboard/user/
+        profile/edit>
+      o Interface <https://www.worldanvil.com/dashboard/user/interface>
+      o Account <https://www.worldanvil.com/dashboard/user/account>
+      o Guild Membership <https://www.worldanvil.com/dashboard/user/
+        account/subscription>
+      o Logout <https://www.worldanvil.com/logout>
+      o Need any help? <https://www.worldanvil.com/help/>
+
+Go to Generia Homepage <https://www.worldanvil.com/w/generia-perseus27>
+
+
+  Archetype: Berserker
+
+
+    Level 10
+
+
+      Basic Berserker 10
+
+Human, Level 10
+
+
+            *General*
+
+*Attributes*
+*CON* 	7 [3]
+*STR* 	8 [4]
+*AGI* 	4 [2]
+*INT* 	3 [1]
+*WIL* 	4 [2]
+*PER* 	4 [2]
+
+*Values*
+*EN* 	15
+*MP|R* 	5|1
+*WL* 	4
+*WT* 	7
+*TN* 	3
+*MS* 	4
+
+*Armor*
+*Head* 	2
+*Torso* 	5
+*Arms* 	3
+*Legs* 	3
+*MD* 	1
+*Enc.* 	0
+
+
+            *Notes*
+
+*Classes:* /Marauder, Berserker/
+50 SP Base
++20 Bonus
+Rest 1
+
+
+            *Perks*
+
+Special
+
+  * Efficient Metabolism <https://www.worldanvil.com/w/generia-
+    perseus27/a/species-article#EfficientMetabolism>
+  * Pursuit Hunter <https://www.worldanvil.com/w/generia-perseus27/a/
+    species-article#PursuitHunter>
+
+Combat
+
+  * Bloodlust <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-E28093-exclusive-article#Bloodlust>
+  * Blood Avenger <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-combat-article#BloodAvenger>
+  * Opportunist <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Opportunist>
+  * Sprinter <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Sprinter>
+
+Magic
+
+  *
+
+
+            *Actions*
+
+Skills
+
+  * Whirl <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-iii-article#Whirl>
+  * Mighty Strike <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-ii-article#MightyStrike>
+  * Daredevil <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-ii-article#Daredevil>
+  * Charge <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Charge>
+  * Leg Sweep <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#LegSweep>
+  * Shove <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Shove>
+  * Swing <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Swing>
+  * Feint <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Feint>
+
+Spells
+
+  *
+
+Rituals
+
+  *
+
+
+            *Inventory*
+
+Weapons
+
+  * Battleaxe
+    2d8+6
+    /Hit+5, Block+11|7/
+  * Fist
+    1d6+4
+    /Hit+3, Block+9|3/
+  * Knife
+    2d6
+    /Hit+2, Block+7|7/
+
+Armor
+
+  * Leather Helmet
+  * Leather Armor
+  * Leather Gauntlets
+  * Leather Greaves
+  * Amulet+1
+
+Misc.
+
+  * Adventurer's Pack I
+
+
+            *Proficiencies*
+
+Magic
+
+  *
+
+Weapons
+
+  * Slashing: Beginner
+  * /Greataxes 4/
+  * Natural: Beginner
+  * /Primitive 2/
+
+Civilian
+
+  * Athletics 3
+  * Survival 1
+
+// <https://www.worldanvil.com/sheet/1597391/view> // <https://
+www.worldanvil.com/heroes/sheet/1597391/edit>
+
+
+    Level 15
+
+
+      Basic Berserker 15
+
+Human, Level 15
+
+
+            *General*
+
+*Attributes*
+*CON* 	7 [3]
+*STR* 	9 [4]
+*AGI* 	7 [3]
+*INT* 	3 [1]
+*WIL* 	7 [3]
+*PER* 	5 [2]
+
+*Values*
+*EN* 	25
+*MP|R* 	5|2
+*WL* 	5
+*WT* 	7
+*TN* 	4
+*MS* 	6
+
+*Armor*
+*Head* 	3
+*Torso* 	6
+*Arms* 	4
+*Legs* 	4
+*MD* 	3
+*Enc.* 	0
+
+
+            *Notes*
+
+*Classes:* /Marauder, Berserker/
+105 SP Base
++30 Bonus
+Rest 1
+
+
+            *Perks*
+
+Special
+
+  * Efficient Metabolism <https://www.worldanvil.com/w/generia-
+    perseus27/a/species-article#EfficientMetabolism>
+  * Pursuit Hunter <https://www.worldanvil.com/w/generia-perseus27/a/
+    species-article#PursuitHunter>
+
+Combat
+
+  * Bloodlust <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-E28093-exclusive-article#Bloodlust>
+  * Blood Avenger <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-combat-article#BloodAvenger>
+  * Conditioned I <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-combat-article#ConditionedI>
+  * Goliath <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Goliath>
+  * Opportunist <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Opportunist>
+  * Pugilist <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Pugilist>
+  * Sprinter <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Sprinter>
+
+Magic
+
+  *
+
+
+            *Actions*
+
+Skills
+
+  * Whirl <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-iii-article#Whirl>
+  * Mighty Strike <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-ii-article#MightyStrike>
+  * Daredevil <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-ii-article#Daredevil>
+  * Charge <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Charge>
+  * Leg Sweep <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#LegSweep>
+  * Shove <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Shove>
+  * Swing <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Swing>
+  * Feint <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Feint>
+
+Spells
+
+  *
+
+Rituals
+
+  *
+
+
+            *Inventory*
+
+Weapons
+
+  * Battleaxe +1
+    2d8+7
+    /Hit+6, Block+12|7/
+  * Brass Knuckles +1
+    1d8+7
+    /Hit+5, Block+9|7/
+  * Knife
+    2d6
+    /Hit+3, Block+7|7/
+
+Armor
+
+  * Chain Helmet
+  * Chainmail
+  * Chain Gauntlets
+  * Chain Greaves
+  * Amulet+2
+  * Ring+1
+
+Misc.
+
+  * Adventurer's Pack I
+
+
+            *Proficiencies*
+
+Magic
+
+  *
+
+Weapons
+
+  * Slashing: Intermediate
+  * /Greataxes 5/
+  * Natural: Beginner
+  * /Primitive 2/
+
+Civilian
+
+  * Athletics 3
+  * Survival 1
+
+// <https://www.worldanvil.com/sheet/1597397/view> // <https://
+www.worldanvil.com/heroes/sheet/1597397/edit>
+
+
+    Level 20
+
+
+      Basic Berserker 20
+
+Human, Level 20
+
+
+            *General*
+
+*Attributes*
+*CON* 	9 [4]
+*STR* 	11 [5]
+*AGI* 	8 [4]
+*INT* 	4 [2]
+*WIL* 	7 [3]
+*PER* 	5 [2]
+
+*Values*
+*EN* 	25
+*MP|R* 	5|2
+*WL* 	5
+*WT* 	8
+*TN* 	4
+*MS* 	6
+
+*Armor*
+*Head* 	3
+*Torso* 	7
+*Arms* 	4
+*Legs* 	4
+*MD* 	4
+*Enc.* 	0
+
+
+            *Notes*
+
+*Classes:* /Marauder, Berserker/
+135 SP Base
++40 Bonus
+Rest 0
+
+
+            *Perks*
+
+Special
+
+  * Efficient Metabolism <https://www.worldanvil.com/w/generia-
+    perseus27/a/species-article#EfficientMetabolism>
+  * Pursuit Hunter <https://www.worldanvil.com/w/generia-perseus27/a/
+    species-article#PursuitHunter>
+
+Combat
+
+  * Bloodlust <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-E28093-exclusive-article#Bloodlust>
+  * Blood Avenger <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-combat-article#BloodAvenger>
+  * Conditioned I <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-combat-article#ConditionedI>
+  * Goliath <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Goliath>
+  * Grapple Expert <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-combat-article#GrappleExpert>
+  * Opportunist <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Opportunist>
+  * Pugilist <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Pugilist>
+  * Sprinter <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Sprinter>
+
+Magic
+
+  *
+
+
+            *Actions*
+
+Skills
+
+  * Whirl <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-iii-article#Whirl>
+  * Mighty Strike <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-ii-article#MightyStrike>
+  * Daredevil <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-ii-article#Daredevil>
+  * Charge <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Charge>
+  * Leg Sweep <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#LegSweep>
+  * Shove <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Shove>
+  * Swing <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Swing>
+  * Feint <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Feint>
+
+Spells
+
+  *
+
+Rituals
+
+  *
+
+
+            *Inventory*
+
+Weapons
+
+  * Battleaxe +2
+    2d8+9
+    /Hit+8, Block+15|9/
+  * Brass Knuckles +1
+    1d8+8
+    /Hit+7, Block+12|9/
+  * Knife
+    2d6
+    /Hit+4, Block+9|9/
+
+Armor
+
+  * Chain Helmet
+  * Chainmail+1
+  * Chain Gauntlets
+  * Chain Greaves
+  * Amulet+2
+  * 2× Ring+1
+
+Misc.
+
+  * Adventurer's Pack II
+
+
+            *Proficiencies*
+
+Magic
+
+  *
+
+Weapons
+
+  * Slashing: Intermediate
+  * /Greataxes 6/
+  * Natural: Intermediate
+  * /Primitive 3/
+
+Civilian
+
+  * Athletics 3
+  * Survival 2
+
+// <https://www.worldanvil.com/sheet/1597399/view> // <https://
+www.worldanvil.com/heroes/sheet/1597399/edit>
+------------------------------------------------------------------------
+_Templates <https://www.worldanvil.com/w/generia-perseus27/c/templates-
+category-1>
+//..
+
+  * COPY ARTICLE BLOCK
+  * COPY WORLD BLOCK
+
+// <https://forms.gle/rtfsoiHJdDkBYAka9> submit to reddit <https://
+www.reddit.com/submit>
+
+  * Metadata <#metadata>
+
+Article template
+Generic article
+World
+Generia <https://www.worldanvil.com/w/generia-perseus27>
+Category
+_Templates <https://www.worldanvil.com/w/generia-perseus27/c/templates-
+category-1> in Stats <https://www.worldanvil.com/w/generia-perseus27/c/
+stats-category-1>
+Author
+Perseus27 <https://www.worldanvil.com/author/Perseus27>
+Publication Date
+13 Oct, 2025
+Creation Date
+13 Oct, 2025
+Last Update Date
+13 Oct, 2025
+Visibility
+Public
+Views
+5
+Favorites
+Comments
+0
+// Work In Progress
+
+
+        Find your way!
+
+  * DO YOU NEED HELP? <https://www.worldanvil.com/help/>
+  * PRICING <https://www.worldanvil.com/pricing>
+  * *GIFT A MEMBERSHIP!* <https://www.worldanvil.com/world-anvil-gift-
+    subscriptions>
+  * ABOUT <https://www.worldanvil.com/about>
+  * FAQ <https://www.worldanvil.com/faq>
+  * CHANGELOG <https://www.worldanvil.com/changelog>
+
+
+        Resources
+
+  * RANDOM GENERATORS <https://www.worldanvil.com/random-generators>
+  * WORLDBUILDING PROMPTS <https://www.worldanvil.com/worldbuilding-prompts>
+  * WHAT IS WORLDBUILDING? <https://www.worldanvil.com/worldbuilding>
+
+
+        WHO WE ARE
+
+  * OUR TEAM <https://www.worldanvil.com/team>
+  * WE ARE HIRING <https://www.worldanvil.com/we-are-hiring>
+  * OUR NEWS <http://blog.worldanvil.com/>
+
+
+        LEGAL
+
+  * PRIVACY <https://www.worldanvil.com/privacy>
+  * TERMS OF SERVICE <https://www.worldanvil.com/terms-of-service>
+  * COPYRIGHT <https://www.worldanvil.com/copyright>
+  * ETIQUETTE <https://www.worldanvil.com/etiquette>
+  * ACCESSIBILITY <https://www.worldanvil.com/accessibility>
+
+
+        Get the news
+
+  * *// WORLDANVIL PODCAST* <https://www.worldanvil.com/podcast>
+  * *// DISCORD* <https://www.worldanvil.com/discord>
+  * // BLOG <https://blog.worldanvil.com/>
+  * // BLUESKY <https://bsky.app/profile/worldanvil.com>
+  * // TWITTER <https://www.twitter.com/worldanvil>
+  * // YOUTUBE <https://www.youtube.com/channel/UCf5MDxxTuT1OpwOxVfG-ofg>
+  * // TWITCH <https://www.twitch.tv/worldanvil>
+  * // FACEBOOK <https://www.facebook.com/worldanvil>
+  * // REDDIT <http://www.reddit.com/r/worldanvil>
+
+
+        Our Shop
+
+  * *GIFTS & WORLD ANVIL GEAR* <https://shop.worldanvil.com/>
+
+
+        Development
+
+  * WORLD ANVIL API <https://www.worldanvil.com/api/external/boromir/
+    documentation>
+
+
+        EVENTS
+
+  * STREAMING <https://www.worldanvil.com/streaming>
+  * MAJOR CHALLENGES <https://www.worldanvil.com/community/challenges>
+  * WORLDEMBER <https://www.worldanvil.com/worldember>
+  * SUMMERCAMP <https://www.worldanvil.com/summercamp>
+
+
+        REACHING OUT
+
+  * *JOIN THE AFFILIATE PROGRAM* <https://www.worldanvil.com/affiliate>
+  * GET SPONSORED <https://www.worldanvil.com/sponsoring>
+
+
+        A BIG THANK YOU
+
+To all our *Our Patrons* <https://www.worldanvil.com/patrons> for their
+unwavering love and support.
+
+For the amazing images. His Titanship Christopher Dravus <https://
+www.worldanvil.com/author/thechosenone> of Ironrise Games, Our Revered
+Deity Basic Dragon / Rin <https://www.worldanvil.com/author/BasicDragon>
+& His Majesty Caeora <https://www.caeora.com/>
+

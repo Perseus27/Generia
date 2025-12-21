@@ -1,0 +1,1770 @@
+// Published // Public //
+
+  * // Edit Article <https://www.worldanvil.com/p/athena/
+    article/78a0e2ce-f5af-4e8c-93f1-53bc237f1013/edit>
+  * // Articles <https://www.worldanvil.com/p/athena>
+  * // <https://www.worldanvil.com/p/athena>
+  * // <https://www.worldanvil.com/p/athena/settings>
+
+
+    World Codex
+
+  *
+
+
+              // Rules <https://www.worldanvil.com/w/generia-perseus27/
+              c/rules-category> // <https://www.worldanvil.com/w/
+              generia-perseus27/c/rules-category> // <https://
+              www.worldanvil.com/world/category/33db6e65-b64f-4a7d-ac94-
+              c667c0661207/edit>
+
+  *
+
+
+              // Classes <https://www.worldanvil.com/w/generia-
+              perseus27/c/classes-category> // <https://
+              www.worldanvil.com/w/generia-perseus27/c/classes-
+              category> // <https://www.worldanvil.com/world/
+              category/0894571a-27f6-4e29-a31a-da0059cdf3eb/edit>
+
+  *
+
+
+              // Spellcasting <https://www.worldanvil.com/w/generia-
+              perseus27/c/spells-category> // <https://
+              www.worldanvil.com/w/generia-perseus27/c/spells-
+              category> // <https://www.worldanvil.com/world/category/
+              b4fafb8a-3da7-417a-ae64-431d1104115d/edit>
+
+  *
+
+
+              // Skills <https://www.worldanvil.com/w/generia-perseus27/
+              c/skills-category-1> // <https://www.worldanvil.com/w/
+              generia-perseus27/c/skills-category-1> // <https://
+              www.worldanvil.com/world/category/6451d94a-e733-48b4-9eab-
+              a14c2f6288ce/edit>
+
+  *
+
+
+              // Perks <https://www.worldanvil.com/w/generia-perseus27/
+              c/perks-category-1> // <https://www.worldanvil.com/w/
+              generia-perseus27/c/perks-category-1> // <https://
+              www.worldanvil.com/world/category/bad323ef-
+              ee0d-4753-90a9-1c403e75c8c6/edit>
+
+  *
+
+
+              // Equipment <https://www.worldanvil.com/w/generia-
+              perseus27/c/equipment-category> // <https://
+              www.worldanvil.com/w/generia-perseus27/c/equipment-
+              category> // <https://www.worldanvil.com/world/category/
+              f1c583fd-e6ba-49b9-9bfc-fd80f9f46f47/edit>
+
+  *
+
+
+              // Spielleitung <https://www.worldanvil.com/w/generia-
+              perseus27/c/spielleitung-category> // <https://
+              www.worldanvil.com/w/generia-perseus27/c/spielleitung-
+              category> // <https://www.worldanvil.com/world/category/
+              f51df7b0-321c-4c52-80cb-4c36dcfff638/edit>
+
+  *
+
+
+              // Spielermaterialien <https://www.worldanvil.com/w/
+              generia-perseus27/c/spielermaterialien-category> //
+              <https://www.worldanvil.com/w/generia-perseus27/c/
+              spielermaterialien-category> // <https://
+              www.worldanvil.com/world/category/f8d97157-341e-4926-a74a-
+              d243db55efe2/edit>
+
+  *
+
+
+              // Deutsch (Alt) <https://www.worldanvil.com/w/generia-
+              perseus27/c/deutsch-28alt29-category> // <https://
+              www.worldanvil.com/w/generia-perseus27/c/deutsch-28alt29-
+              category> // <https://www.worldanvil.com/world/
+              category/251a5412-97b9-4122-9200-c27c1b03de2d/edit>
+
+  *
+
+
+              // Read World Meta <https://www.worldanvil.com/w/generia-
+              perseus27/meta>
+
+//
+//
+
+
+        World Styling Editor
+
+SELECT THEME
+
+CUSTOM CSS .statblock { background: rgba(0,0,0,0.1); } .orgblock
+{ background: rgba(0,0,0,0.1); border-style: dashed; border-width: 1px;
+border-color: black; border-radius: 5px; padding: 5px; } .orgblock-
+transparent { border-style: dashed; border-width: 1px; border-color:
+black; border-radius: 5px; padding: 5px; } .page-world-homepage #world-
+category-content { display: none; } .statblock .table tr td
+{ background: 0; } .statblock .table-striped tr:nth-of-type(odd)
+{ background: rgb(249, 249, 249, 0.2); } .statblock .table { background:
+0; } .perk { background: rgba(0,0,0,0.1); border-style: solid; border-
+width: 1px; border-color: black; border-radius: 5px; padding:
+5px; } .spell { background: rgba(0,0,0,0.1); border-style: solid;
+border-width: 1px; border-color: black; border-radius: 5px; padding:
+5px; } .spell-content { display: flex; } .spell-columnleft { width: 20%;
+padding: 2px; font-weight: bold; } .spell-columncenter { width: 50%;
+padding: 2px; } .spell-columnright { width: 30%; padding: 2px; } .spell-
+casttype { font-weight: bold; } .spell-overview {} .spell-description
+{} .spell-effect {} .spell-save {} .clr-wurf { color:#00369b;} .clr-roll
+{ color:#00369b;} .clr-roll-noex { color:#882bcf;} .clr-zahl
+{ color:#00369b;} .clr-value { color:#00369b;} .clr-val
+{ color:#00369b;} .clr-attr { color:#008e02;} .clr-za
+{ color:#008e02;} .clr-sa { color:#27827f;} .clr-zv
+{ color:#008e02;} .clr-uw { color:#b20080;} .clr-dc
+{ color:#b20080;} .clr-save {} .clr-proj {} .clr-pa
+{ color:#b3374e;} .clr-upcast {} .clr-quali {} .clr-feld {} .clr-field
+{} .clr-zone {} .clr-exper { color:darkblue;} .clr-bonus
+{ color:green;} .clr-malus { color:red;} .clr-mpcost { font-weight:
+bold; color:#419dc1;} .clr-encost { font-weight: bold;
+color:#c14700;} .clr-mp { color:#419dc1;} .clr-en
+{ color:#c14700;} .clr-chaos {} .clr-sorc {} .clr-konz {} .clr-conc
+{} .clr-ritual {} .clr-reaktion {} .clr-reaction {} .clr-klingenzauber
+{} .clr-alchi {} .clr-alchitype {} .clr-komm {} .clr-support
+{ color:green;} .clr-heilung { color:darkred;} .clr-heal
+{ color:darkred;} .clr-gebrechen { color:#6b7529;} .clr-affliction
+{ color:#6b7529;} .clr-kontrolle { color:#00369b;} .clr-control
+{ color:#00369b;} .clr-schutz { color:#9a00b2;} .clr-sd
+{ color:#9a00b2;} .clr-def { color:#9a00b2;} .clr-mobil
+{ color:#c19e00;} .clr-movement { color:#c19e00;} .clr-meta
+{ color:#00369b;} .clr-konter { color:#b20080;} .clr-counter
+{ color:#b20080;} .clr-summon {} .clr-terrain { color:brown;} .clr-nekro
+{ color:black;} .hide { display:none; } .clr-sunlight
+{ color:#c99400;} .clr-moonlight { color:#689cb3;}
+Save Changes
+
+Need help? Check out the CSS Styling Guide <https://www.worldanvil.com/
+learn/styling/css-basics>
+
+// <#full-layout>
+Toggle Menu World Anvil <https://www.worldanvil.com/>
+
+  * View Profile <https://www.worldanvil.com/author/Perseus27>
+  * Profile Settings <https://www.worldanvil.com/dashboard/user/profile/
+    edit>
+  * Interface <https://www.worldanvil.com/dashboard/user/interface>
+  * Account <https://www.worldanvil.com/dashboard/user/account>
+  * Guild Membership <https://www.worldanvil.com/dashboard/user/account/
+    subscription>
+  * Logout <https://www.worldanvil.com/logout>
+  * Need any help? <https://www.worldanvil.com/help/>
+
+  * // <https://discord.gg/dUycSefs4W>
+  * // <https://www.worldanvil.com/notification/>
+  *
+
+    PERSEUS27 //
+
+      o View Profile <https://www.worldanvil.com/author/Perseus27>
+      o Profile Settings <https://www.worldanvil.com/dashboard/user/
+        profile/edit>
+      o Interface <https://www.worldanvil.com/dashboard/user/interface>
+      o Account <https://www.worldanvil.com/dashboard/user/account>
+      o Guild Membership <https://www.worldanvil.com/dashboard/user/
+        account/subscription>
+      o Logout <https://www.worldanvil.com/logout>
+      o Need any help? <https://www.worldanvil.com/help/>
+
+Go to Generia Homepage <https://www.worldanvil.com/w/generia-perseus27>
+
+
+  Archetype: Nox
+
+
+    Level 10
+
+
+      Nox Base 10
+
+Human, Level 10
+
+
+            *General*
+
+*Attributes*
+*CON* 	4 [2]
+*STR* 	4 [2]
+*AGI* 	8 [4]
+*INT* 	5 [2]
+*WIL* 	3 [1]
+*PER* 	6 [3]
+
+*Values*
+*EN* 	10
+*MP|R* 	10|1
+*WL* 	4
+*WT* 	5
+*TN* 	3
+*MS* 	6
+
+*Armor*
+*Head* 	1
+*Torso* 	5
+*Arms* 	2
+*Legs* 	2
+*MD* 	1
+*Enc.* 	0
+
+
+            *Notes*
+
+*Classes:* /Nox/
+75 SP Base
++20 Bonus
+Rest 75
+
+
+            *Perks*
+
+Special
+
+  * Efficient Metabolism <https://www.worldanvil.com/w/generia-
+    perseus27/a/species-article#EfficientMetabolism>
+  * Pursuit Hunter <https://www.worldanvil.com/w/generia-perseus27/a/
+    species-article#PursuitHunter>
+
+Combat
+
+  *
+
+Magic
+
+  *
+
+
+            *Actions*
+
+Skills
+
+  *
+
+Spells
+
+  * Shadow Strike <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#ShadowStrike>
+  * Shadow Cloak <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#ShadowCloak>
+  * Blur <https://www.worldanvil.com/w/generia-perseus27/a/nox-spells-
+    article#Blur>
+
+Rituals
+
+  *
+
+
+            *Inventory*
+
+Weapons
+
+  * Smallsword
+    2d6+1
+    /Hit+6, Block+4|4/
+  * Dagger
+    2d6
+    /Hit+6, Block+4|4/
+  * Knife
+    2d6
+    /Hit+4, Block+4|4/
+
+Armor
+
+  * Padded Helmet
+  * Leather Armor
+  * Padded Gauntlets
+  * Padded Greaves
+  * Noxian Ring +1
+
+Misc.
+
+  * Adventurer's Pack I
+
+
+            *Proficiencies*
+
+Magic
+
+  * Nox: Beginner
+  * /Night 1/
+
+Weapons
+
+  * Stabbing: Beginner
+
+Civilian
+
+  * Rites 1
+  * Stealing 2
+  * Stealth 2
+
+// <https://www.worldanvil.com/sheet/1597088/view> // <https://
+www.worldanvil.com/heroes/sheet/1597088/edit>
+
+
+      Nox Archer 10
+
+Human, Level 10
+
+
+            *General*
+
+*Attributes*
+*CON* 	4 [2]
+*STR* 	4 [2]
+*AGI* 	8 [4]
+*INT* 	5 [2]
+*WIL* 	3 [1]
+*PER* 	6 [3]
+
+*Values*
+*EN* 	10
+*MP|R* 	10|1
+*WL* 	4
+*WT* 	5
+*TN* 	3
+*MS* 	6
+
+*Armor*
+*Head* 	1
+*Torso* 	5
+*Arms* 	2
+*Legs* 	2
+*MD* 	1
+*Enc.* 	0
+
+
+            *Notes*
+
+*Classes:* /Nox, Archer/
+75 SP Base
++20 Bonus
+Rest 0
+
+
+            *Perks*
+
+Special
+
+  * Efficient Metabolism <https://www.worldanvil.com/w/generia-
+    perseus27/a/species-article#EfficientMetabolism>
+  * Pursuit Hunter <https://www.worldanvil.com/w/generia-perseus27/a/
+    species-article#PursuitHunter>
+
+Combat
+
+  * Forerunner <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Forerunner>
+
+Magic
+
+  *
+
+
+            *Actions*
+
+Skills
+
+  * Aimed Shot <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#AimedShot>
+  * Careful Shot <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#CarefulShot>
+  * Unpredictable Shot <https://www.worldanvil.com/w/generia-perseus27/
+    a/skills-E28093-tier-i-article#UnpredictableShot>
+  * Hold Breath <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-ii-article#HoldBreath>
+  * Counter <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Counter>
+
+Spells
+
+  * Shadow Strike <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#ShadowStrike>
+  * Shadow Cloak <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#ShadowCloak>
+  * Shadow Summoning <https://www.worldanvil.com/w/generia-perseus27/a/
+    nox-spells-article#ShadowSummoning>
+  * Shadow Run <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#ShadowRun>
+  * Blur <https://www.worldanvil.com/w/generia-perseus27/a/nox-spells-
+    article#Blur>
+
+Rituals
+
+  * Prayer to Nox <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#PrayerToNox>
+
+
+            *Inventory*
+
+Weapons
+
+  * Shortbow
+    1d6+1
+    /Hit+9/
+  * 20× Arrow, light
+    1d6
+  * Smallsword
+    2d6+1
+    /Hit+10, Block+8|4/
+  * Knife
+    2d6
+    /Hit+4, Block+4|4/
+
+Armor
+
+  * Padded Helmet
+  * Leather Armor
+  * Padded Gauntlets
+  * Padded Greaves
+  * Noxian Ring +1
+
+Misc.
+
+  * Adventurer's Pack I
+
+
+            *Proficiencies*
+
+Magic
+
+  * Nox: Beginner
+  * /Night 3/
+
+Weapons
+
+  * Ranged: Beginner
+  * /Shortbows 5/
+  * Stabbing: Beginner
+  * /Swords 4/
+
+Civilian
+
+  * Hunting 2
+  * Rites 1
+  * Stealing 2
+  * Stealth 2
+  * Survival 1
+
+// <https://www.worldanvil.com/sheet/1597121/view> // <https://
+www.worldanvil.com/heroes/sheet/1597121/edit>
+
+
+      Nox Fighter 10
+
+Human, Level 10
+
+
+            *General*
+
+*Attributes*
+*CON* 	4 [2]
+*STR* 	4 [2]
+*AGI* 	8 [4]
+*INT* 	5 [2]
+*WIL* 	3 [1]
+*PER* 	6 [3]
+
+*Values*
+*EN* 	10
+*MP|R* 	10|1
+*WL* 	4
+*WT* 	5
+*TN* 	3
+*MS* 	6
+
+*Armor*
+*Head* 	1
+*Torso* 	5
+*Arms* 	2
+*Legs* 	2
+*MD* 	1
+*Enc.* 	0
+
+
+            *Notes*
+
+*Classes:* /Nox, Fighter/
+75 SP Base
++20 Bonus
+Rest 0
+
+
+            *Perks*
+
+Special
+
+  * Efficient Metabolism <https://www.worldanvil.com/w/generia-
+    perseus27/a/species-article#EfficientMetabolism>
+  * Pursuit Hunter <https://www.worldanvil.com/w/generia-perseus27/a/
+    species-article#PursuitHunter>
+
+Combat
+
+  * Opportunist <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Opportunist>
+
+Magic
+
+  *
+
+
+            *Actions*
+
+Skills
+
+  * Charge <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Charge>
+  * Feint <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Feint>
+  * Leg Sweep <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#LegSweep>
+  * Shove <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Shove>
+
+Spells
+
+  * Shadow Strike <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#ShadowStrike>
+  * Shadow Cloak <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#ShadowCloak>
+  * Shadow Knives <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#ShadowKnives>
+  * Shadow Summoning <https://www.worldanvil.com/w/generia-perseus27/a/
+    nox-spells-article#ShadowSummoning>
+  * Blur <https://www.worldanvil.com/w/generia-perseus27/a/nox-spells-
+    article#Blur>
+
+Rituals
+
+  * Prayer to Nox <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#PrayerToNox>
+
+
+            *Inventory*
+
+Weapons
+
+  * Smallsword
+    2d6+1
+    /Hit+10, Block+4|4/
+  * Dagger
+    2d6
+    /Hit+10, Block+4|4/
+  * Throwing Knife
+    2d4+2
+    /Hit+8/
+  * Knife
+    2d6
+    /Hit+8, Block+4|4/
+
+Armor
+
+  * Padded Helmet
+  * Leather Armor
+  * Padded Gauntlets
+  * Padded Greaves
+  * Noxian Ring +1
+
+Misc.
+
+  * Adventurer's Pack I
+
+
+            *Proficiencies*
+
+Magic
+
+  * Nox: Beginner
+  * /Night 3/
+
+Weapons
+
+  * Stabbing: Beginner
+  * /Swords 4/
+  * /Daggers 4/
+  * Throwing: Beginner
+  * Defensive: Beginner
+
+Civilian
+
+  * Monster Lore 1
+  * Rites 1
+  * Stealing 2
+  * Stealth 3
+  * Warfare 2
+
+// <https://www.worldanvil.com/sheet/1597091/view> // <https://
+www.worldanvil.com/heroes/sheet/1597091/edit>
+
+
+    Level 15
+
+
+      Nox Duelist 15
+
+Human, Level 15
+
+
+            *General*
+
+*Attributes*
+*CON* 	5 [2]
+*STR* 	5 [2]
+*AGI* 	10 [5]
+*INT* 	5 [2]
+*WIL* 	4 [2]
+*PER* 	8 [4]
+
+*Values*
+*EN* 	15
+*MP|R* 	10|1
+*WL* 	4
+*WT* 	6
+*TN* 	3
+*MS* 	6
+
+*Armor*
+*Head* 	1
+*Torso* 	6
+*Arms* 	3
+*Legs* 	3
+*MD* 	3
+*Enc.* 	0
+
+
+            *Notes*
+
+*Classes:* /Nox, Fighter, Duelist/
+110 SP Base
++30 Bonus
+Rest 3
+
+
+            *Perks*
+
+Special
+
+  * Efficient Metabolism <https://www.worldanvil.com/w/generia-
+    perseus27/a/species-article#EfficientMetabolism>
+  * Pursuit Hunter <https://www.worldanvil.com/w/generia-perseus27/a/
+    species-article#PursuitHunter>
+
+Combat
+
+  * Lone Fighter <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-combat-E28093-exclusive-article#LoneFighter>
+  * Opportunist <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Opportunist>
+
+Magic
+
+  *
+
+
+            *Actions*
+
+Skills
+
+  * Aimed Strike <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#AimedStrike>
+  * Charge <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Charge>
+  * Feint <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Feint>
+  * Leg Sweep <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#LegSweep>
+  * Shove <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Shove>
+  * SwiftParry <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#SwiftParry>
+  * Counter <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Counter>
+  * Disarm <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-ii-article#Disarm>
+  * Pocket Sand <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#PocketSand>
+
+Spells
+
+  * Shadow Strike <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#ShadowStrike>
+  * Shadow Cloak <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#ShadowCloak>
+  * Shadow Knives <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#ShadowKnives>
+  * Shadow Summoning <https://www.worldanvil.com/w/generia-perseus27/a/
+    nox-spells-article#ShadowSummoning>
+  * Shadow Run <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#ShadowRun>
+  * Blur <https://www.worldanvil.com/w/generia-perseus27/a/nox-spells-
+    article#Blur>
+
+Rituals
+
+  * Prayer to Nox <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#PrayerToNox>
+
+
+            *Inventory*
+
+Weapons
+
+  * Smallsword+1
+    2d6+2
+    /Hit+11, Block+8|4/
+  * Dagger+1
+    2d6+1
+    /Hit+11, Block+8|4/
+  * Throwing Knife
+    2d4+2
+    /Hit+9/
+  * Knife
+    2d6
+    /Hit+9, Block+4|4/
+
+Armor
+
+  * Padded Helmet
+  * Leather Armor+1
+  * Leather Gauntlets
+  * Leather Greaves
+  * Amulet +2
+  * Noxian Ring +1
+
+Misc.
+
+  * Adventurer's Pack I
+
+
+            *Proficiencies*
+
+Magic
+
+  * Nox: Beginner
+  * /Night 4/
+
+Weapons
+
+  * Stabbing: Intermediate
+  * /Swords 4/
+  * /Daggers 4/
+  * Throwing: Beginner
+  * Defensive: Beginner
+
+Civilian
+
+  * Monster Lore 1
+  * Rites 1
+  * Stealing 2
+  * Stealth 3
+  * Warfare 2
+
+// <https://www.worldanvil.com/sheet/1597129/view> // <https://
+www.worldanvil.com/heroes/sheet/1597129/edit>
+
+
+      Nox Hunter 15
+
+Human, Level 15
+
+
+            *General*
+
+*Attributes*
+*CON* 	5 [2]
+*STR* 	5 [2]
+*AGI* 	10 [5]
+*INT* 	5 [2]
+*WIL* 	4 [2]
+*PER* 	8 3]
+
+*Values*
+*EN* 	15
+*MP|R* 	10|1
+*WL* 	4
+*WT* 	6
+*TN* 	3
+*MS* 	6
+
+*Armor*
+*Head* 	1
+*Torso* 	6
+*Arms* 	3
+*Legs* 	3
+*MD* 	3
+*Enc.* 	0
+
+
+            *Notes*
+
+*Classes:* /Nox, Archer, Hunter/
+110 SP Base
++30 Bonus
+Rest 2
+
+
+            *Perks*
+
+Special
+
+  * Efficient Metabolism <https://www.worldanvil.com/w/generia-
+    perseus27/a/species-article#EfficientMetabolism>
+  * Pursuit Hunter <https://www.worldanvil.com/w/generia-perseus27/a/
+    species-article#PursuitHunter>
+
+Combat
+
+  * On the Prowl <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-combat-E28093-exclusive-article#OnTheProwl>
+  * Forerunner <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Forerunner>
+  * Opportunist <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Opportunist>
+
+Magic
+
+  * Focus I <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-magic-article#FocusI>
+
+
+            *Actions*
+
+Skills
+
+  * Aimed Shot <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#AimedShot>
+  * Careful Shot <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#CarefulShot>
+  * Unpredictable Shot <https://www.worldanvil.com/w/generia-perseus27/
+    a/skills-E28093-tier-i-article#UnpredictableShot>
+  * Hold Breath <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-ii-article#HoldBreath>
+  * Camouflage <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-ii-article#Camouflage>
+  * Overwatch <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-ii-article#Overwatch>
+  * Counter <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Counter>
+
+Spells
+
+  * Shadow Strike <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#ShadowStrike>
+  * Shadow Cloak <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#ShadowCloak>
+  * Shadow Summoning <https://www.worldanvil.com/w/generia-perseus27/a/
+    nox-spells-article#ShadowSummoning>
+  * Shadow Run <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#ShadowRun>
+  * Blur <https://www.worldanvil.com/w/generia-perseus27/a/nox-spells-
+    article#Blur>
+
+Rituals
+
+  * Prayer to Nox <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#PrayerToNox>
+
+
+            *Inventory*
+
+Weapons
+
+  * Shortbow
+    1d6+1
+    /Hit+9/
+  * 20× Arrow, light
+    1d6
+  * Smallsword
+    2d6+1
+    /Hit+10, Block+8|4/
+  * Knife
+    2d6
+    /Hit+4, Block+4|4/
+
+Armor
+
+  * Padded Helmet
+  * Leather Armor+1
+  * Leather Gauntlets
+  * Leather Greaves
+  * Amulet +2
+  * Noxian Ring +1
+
+Misc.
+
+  * Adventurer's Pack I
+
+
+            *Proficiencies*
+
+Magic
+
+  * Nox: Beginner
+  * /Night 4/
+
+Weapons
+
+  * Ranged: Intermediate
+  * /Shortbows 5/
+  * Stabbing: Beginner
+  * /Swords 4/
+
+Civilian
+
+  * Hunting 2
+  * Rites 1
+  * Stealing 2
+  * Stealth 3
+  * Survival 1
+
+// <https://www.worldanvil.com/sheet/1597137/view> // <https://
+www.worldanvil.com/heroes/sheet/1597137/edit>
+
+
+    Level 20
+
+
+      Nox Duelist 20
+
+Human, Level 20
+
+
+            *General*
+
+*Attributes*
+*CON* 	7 [3]
+*STR* 	6 [3]
+*AGI* 	11 [5]
+*INT* 	5 [2]
+*WIL* 	5 [2]
+*PER* 	10 [5]
+
+*Values*
+*EN* 	15
+*MP|R* 	10|2
+*WL* 	4
+*WT* 	7
+*TN* 	3
+*MS* 	8
+
+*Armor*
+*Head* 	2
+*Torso* 	6
+*Arms* 	3
+*Legs* 	3
+*MD* 	4
+*Enc.* 	0
+
+
+            *Notes*
+
+*Classes:* /Nox, Fighter, Duelist, Hand of Nox/
+140 SP Base
++40 Bonus
+Rest 2
+
+
+            *Perks*
+
+Special
+
+  * Efficient Metabolism <https://www.worldanvil.com/w/generia-
+    perseus27/a/species-article#EfficientMetabolism>
+  * Pursuit Hunter <https://www.worldanvil.com/w/generia-perseus27/a/
+    species-article#PursuitHunter>
+
+Combat
+
+  * Lone Fighter <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-combat-E28093-exclusive-article#LoneFighter>
+  * Opportunist <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Opportunist>
+
+Magic
+
+  * Withering Shadow <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-magic-E28093-exclusive-article#WitheringShadow>
+
+
+            *Actions*
+
+Skills
+
+  * Double Stab <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-ii-article#DoubleStab>
+  * Aimed Strike <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#AimedStrike>
+  * Charge <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Charge>
+  * Feint <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Feint>
+  * Leg Sweep <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#LegSweep>
+  * Shove <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Shove>
+  * SwiftParry <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#SwiftParry>
+  * Counter <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Counter>
+  * Disarm <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-ii-article#Disarm>
+  * Pocket Sand <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#PocketSand>
+
+Spells
+
+  * Shadow Strike <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#ShadowStrike>
+  * Shadow Coating <https://www.worldanvil.com/w/generia-perseus27/a/
+    nox-spells-article#ShadowCoating>
+  * Shadow Cloak <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#ShadowCloak>
+  * Shadow Knives <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#ShadowKnives>
+  * Shadow Summoning <https://www.worldanvil.com/w/generia-perseus27/a/
+    nox-spells-article#ShadowSummoning>
+  * Terror <https://www.worldanvil.com/w/generia-perseus27/a/nox-spells-
+    article#Terror>
+  * Shadow Step <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#ShadowStep>
+  * Shadow Run <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#ShadowRun>
+  * Blur <https://www.worldanvil.com/w/generia-perseus27/a/nox-spells-
+    article#Blur>
+  * Noxian Bargain <https://www.worldanvil.com/w/generia-perseus27/a/
+    nox-spells-article#NoxianBargain>
+
+Rituals
+
+  * Prayer to Nox <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#PrayerToNox>
+
+
+            *Inventory*
+
+Weapons
+
+  * Smallsword+2
+    2d6+3
+    /Hit+11, Block+10|6/
+  * Dagger+2
+    2d6+2
+    /Hit+11, Block+10|6/
+  * Throwing Knife
+    2d4+2
+    /Hit+9/
+  * Knife
+    2d6
+    /Hit+9, Block+6|6/
+
+Armor
+
+  * Leather Helmet
+  * Leather Armor+1
+  * Leather Gauntlets
+  * Leather Greaves
+  * Amulet +2
+  * Noxian Ring +1
+  * Ring +1
+
+Misc.
+
+  * Adventurer's Pack II
+
+
+            *Proficiencies*
+
+Magic
+
+  * Nox: Intermediate
+  * /Night 5/
+
+Weapons
+
+  * Stabbing: Intermediate
+  * /Swords 4/
+  * /Daggers 4/
+  * Throwing: Beginner
+  * Defensive: Beginner
+
+Civilian
+
+  * Monster Lore 1
+  * Rites 1
+  * Stealing 2
+  * Stealth 3
+  * Warfare 2
+
+// <https://www.worldanvil.com/sheet/1597135/view> // <https://
+www.worldanvil.com/heroes/sheet/1597135/edit>
+
+
+      Nox Hunter 20
+
+Human, Level 20
+
+
+            *General*
+
+*Attributes*
+*CON* 	7 [3]
+*STR* 	6 [3]
+*AGI* 	11 [5]
+*INT* 	5 [2]
+*WIL* 	5 [2]
+*PER* 	10 [5]
+
+*Values*
+*EN* 	15
+*MP|R* 	10|2
+*WL* 	4
+*WT* 	7
+*TN* 	3
+*MS* 	8
+
+*Armor*
+*Head* 	2
+*Torso* 	6
+*Arms* 	3
+*Legs* 	3
+*MD* 	4
+*Enc.* 	0
+
+
+            *Notes*
+
+*Classes:* /Nox, Archer, Hunter, Hand of Nox/
+140 SP Base
++40 Bonus
+Rest 1
+
+
+            *Perks*
+
+Special
+
+  * Efficient Metabolism <https://www.worldanvil.com/w/generia-
+    perseus27/a/species-article#EfficientMetabolism>
+  * Pursuit Hunter <https://www.worldanvil.com/w/generia-perseus27/a/
+    species-article#PursuitHunter>
+
+Combat
+
+  * On the Prowl <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-combat-E28093-exclusive-article#OnTheProwl>
+  * Forerunner <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Forerunner>
+  * Opportunist <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Opportunist>
+
+Magic
+
+  * Withering Shadows <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-magic-E28093-exclusive-article#WitheringShadows>
+  * Focus I <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-magic-article#FocusI>
+
+
+            *Actions*
+
+Skills
+
+  * Precise Shot: Legs <https://www.worldanvil.com/w/generia-perseus27/
+    a/skills-E28093-tier-ii-article#PreciseShotLegs>
+  * Aimed Shot <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#AimedShot>
+  * Careful Shot <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#CarefulShot>
+  * Unpredictable Shot <https://www.worldanvil.com/w/generia-perseus27/
+    a/skills-E28093-tier-i-article#UnpredictableShot>
+  * Hold Breath <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-ii-article#HoldBreath>
+  * Camouflage <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-ii-article#Camouflage>
+  * Overwatch <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-ii-article#Overwatch>
+  * Counter <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Counter>
+
+Spells
+
+  * Shadow Strike <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#ShadowStrike>
+  * Shadow Coating <https://www.worldanvil.com/w/generia-perseus27/a/
+    nox-spells-article#ShadowCoating>
+  * Shadow Cloak <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#ShadowCloak>
+  * Shadow Summoning <https://www.worldanvil.com/w/generia-perseus27/a/
+    nox-spells-article#ShadowSummoning>
+  * Terror <https://www.worldanvil.com/w/generia-perseus27/a/nox-spells-
+    article#Terror>
+  * Shadow Step <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#ShadowStep>
+  * Shadow Run <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#ShadowRun>
+  * Blur <https://www.worldanvil.com/w/generia-perseus27/a/nox-spells-
+    article#Blur>
+  * Noxian Bargain <https://www.worldanvil.com/w/generia-perseus27/a/
+    nox-spells-article#NoxianBargain>
+
+Rituals
+
+  * Prayer to Nox <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#PrayerToNox>
+
+
+            *Inventory*
+
+Weapons
+
+  * Shortbow
+    1d6+1
+    /Hit+9/
+  * 20× Arrow, light
+    1d6
+  * Smallsword
+    2d6+1
+    /Hit+10, Block+8|4/
+  * Knife
+    2d6
+    /Hit+4, Block+4|4/
+
+Armor
+
+  * Leather Helmet
+  * Leather Armor+1
+  * Leather Gauntlets
+  * Leather Greaves
+  * Amulet +2
+  * Noxian Ring +1
+  * Ring +1
+
+Misc.
+
+  * Adventurer's Pack II
+
+
+            *Proficiencies*
+
+Magic
+
+  * Nox: Intermediate
+  * /Night 5/
+
+Weapons
+
+  * Ranged: Intermediate
+  * /Shortbows 5/
+  * Stabbing: Beginner
+  * /Swords 4/
+
+Civilian
+
+  * Hunting 2
+  * Rites 1
+  * Stealing 2
+  * Stealth 3
+  * Survival 1
+
+// <https://www.worldanvil.com/sheet/1597123/view> // <https://
+www.worldanvil.com/heroes/sheet/1597123/edit>
+
+
+    Level 25
+
+
+      Nox Duelist 25
+
+Human, Level 25
+
+
+            *General*
+
+*Attributes*
+*CON* 	7 [3]
+*STR* 	6 [3]
+*AGI* 	12 [6]
+*INT* 	5 [2]
+*WIL* 	7 [3]
+*PER* 	12 [6]
+
+*Values*
+*EN* 	15
+*MP|R* 	10|2
+*WL* 	5
+*WT* 	7
+*TN* 	3
+*MS* 	8
+
+*Armor*
+*Head* 	2
+*Torso* 	7
+*Arms* 	4
+*Legs* 	4
+*MD* 	4
+*Enc.* 	0
+
+
+            *Notes*
+
+*Classes:* /Nox, Fighter, Duelist, Hand of Nox/
+170 SP Base
++50 Bonus
+Rest 2
+
+
+            *Perks*
+
+Special
+
+  * Efficient Metabolism <https://www.worldanvil.com/w/generia-
+    perseus27/a/species-article#EfficientMetabolism>
+  * Pursuit Hunter <https://www.worldanvil.com/w/generia-perseus27/a/
+    species-article#PursuitHunter>
+
+Combat
+
+  * Lone Fighter <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-combat-E28093-exclusive-article#LoneFighter>
+  * Forerunner <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Forerunner>
+  * Opportunist <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Opportunist>
+
+Magic
+
+  * Withering Shadow <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-magic-E28093-exclusive-article#WitheringShadow>
+  * Focus I <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-magic-article#FocusI>
+
+
+            *Actions*
+
+Skills
+
+  * Stance: Dodge <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-iii-article#StanceDodge>
+  * Double Stab <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-ii-article#DoubleStab>
+  * Aimed Strike <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#AimedStrike>
+  * Charge <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Charge>
+  * Feint <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Feint>
+  * Leg Sweep <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#LegSweep>
+  * Shove <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Shove>
+  * SwiftParry <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#SwiftParry>
+  * Counter <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Counter>
+  * Disarm <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-ii-article#Disarm>
+  * Find Weakness <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-ii-article#FindWeakness>
+  * Pocket Sand <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#PocketSand>
+
+Spells
+
+  * Shadow Strike <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#ShadowStrike>
+  * Shadow Coating <https://www.worldanvil.com/w/generia-perseus27/a/
+    nox-spells-article#ShadowCoating>
+  * Shadow Cloak <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#ShadowCloak>
+  * Shadow Knives <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#ShadowKnives>
+  * Shadow Summoning <https://www.worldanvil.com/w/generia-perseus27/a/
+    nox-spells-article#ShadowSummoning>
+  * Terror <https://www.worldanvil.com/w/generia-perseus27/a/nox-spells-
+    article#Terror>
+  * Shadow Step <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#ShadowStep>
+  * Shadow Run <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#ShadowRun>
+  * Blur <https://www.worldanvil.com/w/generia-perseus27/a/nox-spells-
+    article#Blur>
+  * Noxian Bargain <https://www.worldanvil.com/w/generia-perseus27/a/
+    nox-spells-article#NoxianBargain>
+
+Rituals
+
+  * Prayer to Nox <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#PrayerToNox>
+
+
+            *Inventory*
+
+Weapons
+
+  * Smallsword+2
+    2d6+3
+    /Hit+13, Block+10|6/
+  * Dagger+2
+    2d6+2
+    /Hit+13, Block+10|6/
+  * Throwing Knife
+    2d4+2
+    /Hit+10/
+  * Knife
+    2d6
+    /Hit+10, Block+6|6/
+
+Armor
+
+  * Leather Helmet
+  * Leather Armor+2
+  * Leather Gauntlets+1
+  * Leather Greaves+1
+  * Amulet +2
+  * Noxian Ring +1
+  * Ring +1
+
+Misc.
+
+  * Adventurer's Pack II
+
+
+            *Proficiencies*
+
+Magic
+
+  * Nox: Intermediate
+  * /Night 5/
+
+Weapons
+
+  * Stabbing: Intermediate
+  * /Swords 4/
+  * /Daggers 4/
+  * Throwing: Beginner
+  * Defensive: Beginner
+
+Civilian
+
+  * Monster Lore 1
+  * Rites 1
+  * Stealing 2
+  * Stealth 3
+  * Warfare 2
+
+// <https://www.worldanvil.com/sheet/1597138/view> // <https://
+www.worldanvil.com/heroes/sheet/1597138/edit>
+
+
+      Nox Hunter 25
+
+Human, Level 25
+
+
+            *General*
+
+*Attributes*
+*CON* 	7 [3]
+*STR* 	6 [3]
+*AGI* 	12 [6]
+*INT* 	5 [2]
+*WIL* 	7 [3]
+*PER* 	12 [6]
+
+*Values*
+*EN* 	15
+*MP|R* 	10|2
+*WL* 	5
+*WT* 	7
+*TN* 	3
+*MS* 	8
+
+*Armor*
+*Head* 	2
+*Torso* 	7
+*Arms* 	4
+*Legs* 	4
+*MD* 	4
+*Enc.* 	0
+
+
+            *Notes*
+
+*Classes:* /Nox, Archer, Hunter, Hand of Nox/
+170 SP Base
++50 Bonus
+Rest 5
+
+
+            *Perks*
+
+Special
+
+  * Efficient Metabolism <https://www.worldanvil.com/w/generia-
+    perseus27/a/species-article#EfficientMetabolism>
+  * Pursuit Hunter <https://www.worldanvil.com/w/generia-perseus27/a/
+    species-article#PursuitHunter>
+
+Combat
+
+  * On the Prowl <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-combat-E28093-exclusive-article#OnTheProwl>
+  * Forerunner <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Forerunner>
+  * Opportunist <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-combat-article#Opportunist>
+
+Magic
+
+  * Withering Shadows <https://www.worldanvil.com/w/generia-perseus27/a/
+    perks-E28093-magic-E28093-exclusive-article#WitheringShadows>
+  * Focus I <https://www.worldanvil.com/w/generia-perseus27/a/perks-
+    E28093-magic-article#FocusI>
+
+
+            *Actions*
+
+Skills
+
+  * Stance: Dodge <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-iii-article#StanceDodge>
+  * Precise Shot: Legs <https://www.worldanvil.com/w/generia-perseus27/
+    a/skills-E28093-tier-ii-article#PreciseShotLegs>
+  * Multishot <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-ii-article#Multishot>
+  * Aimed Shot <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#AimedShot>
+  * Careful Shot <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-i-article#CarefulShot>
+  * Unpredictable Shot <https://www.worldanvil.com/w/generia-perseus27/
+    a/skills-E28093-tier-i-article#UnpredictableShot>
+  * Hold Breath <https://www.worldanvil.com/w/generia-perseus27/a/
+    skills-E28093-tier-ii-article#HoldBreath>
+  * Camouflage <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-ii-article#Camouflage>
+  * Overwatch <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-ii-article#Overwatch>
+  * Counter <https://www.worldanvil.com/w/generia-perseus27/a/skills-
+    E28093-tier-i-article#Counter>
+
+Spells
+
+  * Shadow Strike <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#ShadowStrike>
+  * Shadow Coating <https://www.worldanvil.com/w/generia-perseus27/a/
+    nox-spells-article#ShadowCoating>
+  * Shadow Cloak <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#ShadowCloak>
+  * Shadow Summoning <https://www.worldanvil.com/w/generia-perseus27/a/
+    nox-spells-article#ShadowSummoning>
+  * Terror <https://www.worldanvil.com/w/generia-perseus27/a/nox-spells-
+    article#Terror>
+  * Wings of Night <https://www.worldanvil.com/w/generia-perseus27/a/
+    nox-spells-article#WingsOfNight>
+  * Shadow Step <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#ShadowStep>
+  * Substitution <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#Substitution>
+  * Shadow Run <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#ShadowRun>
+  * Blur <https://www.worldanvil.com/w/generia-perseus27/a/nox-spells-
+    article#Blur>
+  * Noxian Bargain <https://www.worldanvil.com/w/generia-perseus27/a/
+    nox-spells-article#NoxianBargain>
+
+Rituals
+
+  * Prayer to Nox <https://www.worldanvil.com/w/generia-perseus27/a/nox-
+    spells-article#PrayerToNox>
+
+
+            *Inventory*
+
+Weapons
+
+  * Shortbow
+    1d6+1
+    /Hit+9/
+  * 20× Arrow, light
+    1d6
+  * Smallsword
+    2d6+1
+    /Hit+10, Block+8|4/
+  * Knife
+    2d6
+    /Hit+4, Block+4|4/
+
+Armor
+
+  * Leather Helmet
+  * Leather Armor+2
+  * Leather Gauntlets+1
+  * Leather Greaves+1
+  * Amulet +2
+  * Noxian Ring +1
+  * Ring +1
+
+Misc.
+
+  * Adventurer's Pack II
+
+
+            *Proficiencies*
+
+Magic
+
+  * Nox: Intermediate
+  * /Night 5/
+
+Weapons
+
+  * Ranged: Intermediate
+  * /Shortbows 5/
+  * Stabbing: Beginner
+  * /Swords 4/
+
+Civilian
+
+  * Hunting 2
+  * Rites 1
+  * Stealing 2
+  * Stealth 3
+  * Survival 1
+
+// <https://www.worldanvil.com/sheet/1597139/view> // <https://
+www.worldanvil.com/heroes/sheet/1597139/edit>
+------------------------------------------------------------------------
+_Templates <https://www.worldanvil.com/w/generia-perseus27/c/templates-
+category-1>
+//..
+
+  * COPY ARTICLE BLOCK
+  * COPY WORLD BLOCK
+
+// <https://forms.gle/rtfsoiHJdDkBYAka9> submit to reddit <https://
+www.reddit.com/submit>
+
+  * Metadata <#metadata>
+
+Article template
+Generic article
+World
+Generia <https://www.worldanvil.com/w/generia-perseus27>
+Category
+_Templates <https://www.worldanvil.com/w/generia-perseus27/c/templates-
+category-1> in Stats <https://www.worldanvil.com/w/generia-perseus27/c/
+stats-category-1>
+Author
+Perseus27 <https://www.worldanvil.com/author/Perseus27>
+Publication Date
+11 Oct, 2025
+Creation Date
+11 Oct, 2025
+Last Update Date
+12 Oct, 2025
+Visibility
+Public
+Views
+3
+Favorites
+Comments
+0
+// Work In Progress
+
+
+        Find your way!
+
+  * DO YOU NEED HELP? <https://www.worldanvil.com/help/>
+  * PRICING <https://www.worldanvil.com/pricing>
+  * *GIFT A MEMBERSHIP!* <https://www.worldanvil.com/world-anvil-gift-
+    subscriptions>
+  * ABOUT <https://www.worldanvil.com/about>
+  * FAQ <https://www.worldanvil.com/faq>
+  * CHANGELOG <https://www.worldanvil.com/changelog>
+
+
+        Resources
+
+  * RANDOM GENERATORS <https://www.worldanvil.com/random-generators>
+  * WORLDBUILDING PROMPTS <https://www.worldanvil.com/worldbuilding-prompts>
+  * WHAT IS WORLDBUILDING? <https://www.worldanvil.com/worldbuilding>
+
+
+        WHO WE ARE
+
+  * OUR TEAM <https://www.worldanvil.com/team>
+  * WE ARE HIRING <https://www.worldanvil.com/we-are-hiring>
+  * OUR NEWS <http://blog.worldanvil.com/>
+
+
+        LEGAL
+
+  * PRIVACY <https://www.worldanvil.com/privacy>
+  * TERMS OF SERVICE <https://www.worldanvil.com/terms-of-service>
+  * COPYRIGHT <https://www.worldanvil.com/copyright>
+  * ETIQUETTE <https://www.worldanvil.com/etiquette>
+  * ACCESSIBILITY <https://www.worldanvil.com/accessibility>
+
+
+        Get the news
+
+  * *// WORLDANVIL PODCAST* <https://www.worldanvil.com/podcast>
+  * *// DISCORD* <https://www.worldanvil.com/discord>
+  * // BLOG <https://blog.worldanvil.com/>
+  * // BLUESKY <https://bsky.app/profile/worldanvil.com>
+  * // TWITTER <https://www.twitter.com/worldanvil>
+  * // YOUTUBE <https://www.youtube.com/channel/UCf5MDxxTuT1OpwOxVfG-ofg>
+  * // TWITCH <https://www.twitch.tv/worldanvil>
+  * // FACEBOOK <https://www.facebook.com/worldanvil>
+  * // REDDIT <http://www.reddit.com/r/worldanvil>
+
+
+        Our Shop
+
+  * *GIFTS & WORLD ANVIL GEAR* <https://shop.worldanvil.com/>
+
+
+        Development
+
+  * WORLD ANVIL API <https://www.worldanvil.com/api/external/boromir/
+    documentation>
+
+
+        EVENTS
+
+  * STREAMING <https://www.worldanvil.com/streaming>
+  * MAJOR CHALLENGES <https://www.worldanvil.com/community/challenges>
+  * WORLDEMBER <https://www.worldanvil.com/worldember>
+  * SUMMERCAMP <https://www.worldanvil.com/summercamp>
+
+
+        REACHING OUT
+
+  * *JOIN THE AFFILIATE PROGRAM* <https://www.worldanvil.com/affiliate>
+  * GET SPONSORED <https://www.worldanvil.com/sponsoring>
+
+
+        A BIG THANK YOU
+
+To all our *Our Patrons* <https://www.worldanvil.com/patrons> for their
+unwavering love and support.
+
+For the amazing images. His Titanship Christopher Dravus <https://
+www.worldanvil.com/author/thechosenone> of Ironrise Games, Our Revered
+Deity Basic Dragon / Rin <https://www.worldanvil.com/author/BasicDragon>
+& His Majesty Caeora <https://www.caeora.com/>
+
