@@ -1,0 +1,85 @@
+name: "Level 7 – Wizard (Meteorics)"
+id: WizardMeteorics7
+info:
+  species: Human
+  level: 7
+  size: Medium
+  classes: [Wizard]
+  tags: [–]
+notes: >
+  [br]Classes: Wizard (Meteorics)
+  [br]50 SP Total
+  [br]Rest 0
+
+attributes:
+  CON: [3, 1]
+  STR: [3, 1]
+  DEX: [3, 1]
+  INT: [6, 3]
+  WIL: [6, 3]
+  PER: [4, 2]
+values:
+  EN: 10
+  MP: 10
+  MPR: 2
+  WL: 4
+  WT: 5
+  TN: 3
+  MS: 4
+armor:
+  head: 0
+  torso: 3
+  arms: 0
+  legs: 0
+  md: 0
+  enc: 0
+inventory:
+  weapons:
+    - name: "Wizard Staff"
+      damage: "2d8"
+      hit: "Hit+1, Block+2|2"
+    - name: "Knife"
+      damage: "2d6"
+      hit: "Hit+1, Block+2|2"
+  armor:
+    - name: "Cloth Armor"
+    - name: "Adventurer's Belt"
+    - name: "Adventurer's Pouch"
+    - name: "Wizard's Pouch"
+  misc:
+    - name: "2× Matrix Crystal"
+    - name: "1 Gold, 8 Silver"
+actions:
+  skills:
+    - ""
+  spells:
+    - "Mana Beam I"
+    - "Meteoric Bolt I"
+    - "Discharge"
+    - "Arcane Barrier I"
+    - "Lightning Step"
+  rituals: 
+    - "Hermetic Manipulation"
+    - "Meteoric Manipulation"
+proficiencies:
+  magic:
+    - "Hermetics: Beginner"
+    - "[i]Arcane 1[/i]"
+    - "Meteorics: Beginner"
+    - "[i]Lightning 2[/i]"
+  weapons:
+    - ""
+  civilian:
+    - "[i]Arcana 3[/i]"
+    - "[i]Arithmetics 1[/i]"
+    - "[i]History 1[/i]"
+perks:
+  special:
+    - Efficient Metabolism
+    - Pursuit Hunter
+  
+  combat:
+    - ""
+  
+  magic:
+    - Battle Meditation

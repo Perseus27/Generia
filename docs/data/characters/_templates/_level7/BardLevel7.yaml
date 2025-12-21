@@ -1,0 +1,87 @@
+name: "Level 7 – Bard"
+id: Bard7
+info:
+  species: Human
+  level: 7
+  size: Medium
+  classes: [Bard]
+  tags: [–]
+notes: >
+  [br]Classes: Bard
+  [br]50 SP Total
+  [br]Rest 0
+
+attributes:
+  CON: [3, 1]
+  STR: [3, 1]
+  DEX: [4, 2]
+  INT: [5, 2]
+  WIL: [6, 3]
+  PER: [4, 2]
+values:
+  EN: 10
+  MP: 10
+  MPR: 2
+  WL: 4
+  WT: 5
+  TN: 3
+  MS: 4
+armor:
+  head: 0
+  torso: 2
+  arms: 1
+  legs: 1
+  md: 0
+  enc: 0
+inventory:
+  weapons:
+    - name: "Smallsword"
+      damage: "2d6"
+      hit: "Hit+6, Block+5|2"
+    - name: "Short Sling"
+      damage: "1d6"
+      hit: "Hit+2"
+    - name: "Knife"
+      damage: "2d6"
+      hit: "Hit+2, Block+2|2"
+  armor:
+    - name: "Thick Clothing"
+    - name: "Cloth Gauntlets"
+    - name: "Cloth Greaves"
+    - name: "Adventurer's Belt"
+    - name: "Adventurer's Pouch"
+    - name: "Weapon Belt"
+  misc:
+    - name: "Lute"
+    - name: "6 Silver"
+actions:
+  skills:
+    - ""
+  spells:
+    - "Verse of Folly"
+    - "Melody of Heroism"
+    - "Verse of Healing"
+    - "Verse of Rebellion"
+  rituals: 
+    - "Improvisation"
+proficiencies:
+  magic:
+    - "Bard: Beginner"
+  weapons:
+    - "Stabbing: Beginner"
+    - "[i]Swords 3[/i]"
+  civilian:
+    - "[i]History 3[/i]"
+    - "[i]Performance 3[/i]"
+    - "[i]Rites 1[/i]"
+    - "[i]Trading 1[/i]"
+perks:
+  special:
+    - Efficient Metabolism
+    - Pursuit Hunter
+  
+  combat:
+    - ""
+  
+  magic:
+    - Battle Meditation
