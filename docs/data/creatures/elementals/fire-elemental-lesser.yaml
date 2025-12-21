@@ -1,0 +1,57 @@
+name: Lesser Fire Elemental
+id: fire-elemental-lesser
+info:
+  species: Elemental
+  level: 3
+  size: Small
+  tags:
+    - [Immunity, Fire]
+    - [Resistance, Physical]
+notes: >
+  A small orb (30cm ⌀) of pure mana. Hovers slightly above the ground or settles down on flammable material.
+  [br]Can follow simple instructions (e.g., "Go over there", "Attack this target"). 
+
+attributes:
+  CON: [1, 0]
+  STR: [1, 0]
+  DEX: [3, 1]
+  INT: [1, 0]
+  WIL: [5, 2]
+  PER: [3, 1]
+values:
+  EN: 5
+  MP: 5
+  MPR: 2
+  WL: 4
+  WT: 3
+  TN: 3
+  MS: 4
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 4
+  enc: 0
+loot:
+  - Elemental Core, lesser
+actions:
+  active:
+    - name: Fire Shot
+      type: Projectile
+      hit: "[section:clr-pa]PA+4[/section], 20m"
+      damage: 2d4+1 Fire
+      cost: "[section:clr-mp]2 MP[/section]"
+  passive:
+    - name: Proficiencies
+      type: Passive
+      effect: >
+        Fire [section:clr-value]+1[/section]
+    - name: Living Mana
+      type: Passive
+      effect: >
+        Regenerates [[section:clr-value]MPR[/section]] [section:clr-mp]MP[/section] at the beginning of each turn.
+  passive:
+    - name: Burning Aura I
+      type: Passive, 2m Radius, Zone
+      damage: 2d4+1 Fire

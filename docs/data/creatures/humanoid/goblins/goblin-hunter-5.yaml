@@ -34,35 +34,35 @@ loot:
   - "[section:clr-roll-noex]1d10[/section] Arrows, primitive"
   - "[section:clr-roll-noex]1d4[/section] Poison, weak"
   - "[section:clr-roll-noex]1d4[/section] Goblin Healing Potion+1, small"
-  - "Goblin Amulet+1"
-  - "Monster Core, weak"
+  - Goblin Amulet+1
+  - Monster Core, lesser
 actions:
   active:
-    - name: "Goblin Bow"
-      type: "Ranged Attack"
-      hit: "Hit+4, 20m"
-      damage: "1d6+1d4+2 Arrow"
-    - name: "Goblin Spear"
-      type: "Melee Attack"
+    - name: Goblin Bow
+      type: Ranged Attack
+      hit: Hit+4, 20m
+      damage: 1d6+1d4+2 Arrow
+    - name: Goblin Spear
+      type: Melee Attack
       hit: "Hit+4, Block+5|3"
-      damage: "2d6+2 Sharp"
-    - name: "Nimble"
-      type: "Reaction"
+      damage: 2d6+2 Sharp
+    - name: Nimble
+      type: Reaction
       effect: >
         [url:core#Advantage]Advantage 1[/url] on the next [url:def#Dodge]dodge[/url] or [section:clr-attr]DEX[/section] check within this turn.
       cost: "[section:clr-en]1 EN[/section]"
-    - name: "Sneaky"
-      type: "Utility, Concentration"
+    - name: Sneaky
+      type: Utility, Concentration
       effect: >
         Gain [url:status#Hidden]Hidden 1[/url].
       cost: "[section:clr-en]1 EN[/section]"
   passive:
-    - name: "Proficiencies"
-      type: "Passive"
+    - name: Proficiencies
+      type: Passive
       effect: >
         Shortbows [section:clr-value]+2[/section]
-    - name: "Cowardly"
-      type: "Passive"
+    - name: Cowardly
+      type: Passive
       effect: >
         Stealth checks have [url:core:Advantage]Advantage 1[/url].
         [br]Saves against [url:status#Frightened]Frightened[/url] and [url:status#Panicked]Panicked[/url] have [url:core#Disadvantage]Disadvantage 1[/url].
