@@ -1,5 +1,5 @@
-name: Gnoll Fighter 10
-id: gnoll-fighter-10
+name: Gnoll Hunter 10
+id: gnoll-hunter-10
 info:
   species: Gnoll
   level: 10
@@ -10,8 +10,8 @@ notes: >
 
 attributes:
   CON: ["6", "3"]
-  STR: ["8", "4"]
-  DEX: ["6", "3"]
+  STR: ["6", "3"]
+  DEX: ["8", "4"]
   INT: ["3", "1"]
   WIL: ["3", "1"]
   PER: ["5", "2"]
@@ -35,15 +35,15 @@ loot:
   - Monster Core, lesser
 actions:
   active:
-    - name: Spear & Shield
+    - name: Cutlass
       type: Melee Attack
-      hit: "Hit+5, Block+8|9"
-      damage: 2d6+4 Sharp
-      skills: [Feint, Shield Bash]
+      hit: "Hit+6, Block+8|6"
+      damage: 2d6+3 Sharp
+      skills: [Feint, Aimed Strike, Counter]
     - name: Bite
       type: Melee Attack
-      hit: "Hit+7"
-      damage: 3d4+4 Sharp
+      hit: "Hit+8"
+      damage: 3d4+3 Sharp
     - name: Twitch
       type: Reaction
       effect: >
@@ -55,10 +55,9 @@ actions:
       perks: [Opportunist]
     - name: Proficiencies
       type: Passive
-      effect_list:
-        - Primitive [section:clr-value]+4[/section]
-        - Polearms [section:clr-value]+2[/section]
-        - Shields [section:clr-value]+1[/section]
+      effect: >
+        Primitive [section:clr-value]+4[/section]
+        [br]  Swords [section:clr-value]+2[/section]
     - name: Bloodthirsty
       type: Passive
       effect: >

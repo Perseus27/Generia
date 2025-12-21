@@ -43,7 +43,7 @@ actions:
       skills: [Careful Shot, Aimed Shot]
     - name: Spear
       type: Melee Attack
-      hit: "Hit+5, Block+6|6"
+      hit: "Hit+5, Block+7|6"
       damage: 2d6+3 Sharp
     - name: Bite
       type: Melee Attack
@@ -60,10 +60,10 @@ actions:
       perks: [Opportunist]
     - name: Proficiencies
       type: Passive
-      effect: >
-        Primitive [section:clr-value]+4[/section]
-        [br]  Bows [section:clr-value]+2[/section]
-        [br]  Polearms [section:clr-value]+1[/section]
+      effect_list:
+        - Primitive [section:clr-value]+4[/section]
+        - Bows [section:clr-value]+2[/section]
+        - Polearms [section:clr-value]+1[/section]
     - name: Bloodthirsty
       type: Passive
       effect: >
