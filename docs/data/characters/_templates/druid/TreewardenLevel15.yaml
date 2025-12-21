@@ -1,0 +1,95 @@
+name: "Level 15 – Treewarden"
+id: Treewarden15
+info:
+  species: Human
+  level: 15
+  size: Medium
+  classes: [Druid, Treewarden]
+  tags: [–]
+notes: >
+  [br]Classes: Druid, Treewarden
+  [br]95 SP Total
+  [br]+30 Bonus
+  [br]Rest 0
+
+attributes:
+  CON: [6, 3]
+  STR: [4, 2]
+  DEX: [4, 2]
+  INT: [7, 3]
+  WIL: [11, 5]
+  PER: [5, 2]
+values:
+  EN: 10
+  MP: 20
+  MPR: 5
+  WL: 5
+  WT: 6
+  TN: 3
+  MS: 4
+armor:
+  head: 1
+  torso: 6
+  arms: 3
+  legs: 3
+  md: 4
+  enc: 0
+inventory:
+  weapons:
+    - name: "Shillelagh"
+      damage: "2d8+2"
+      hit: "Hit+4, Block+7|5"
+    - name: "Knife"
+      damage: "2d6"
+      hit: "Hit+2, Block+5|5"
+  armor:
+    - name: "Padded Helmet"
+    - name: "Leather Armor+1"
+    - name: "Leather Gauntlets"
+    - name: "Leather Greaves"
+    - name: "Amulet+2"
+    - name: "Ring+1 (×2)"
+  misc:
+    - name: "Adventurer's Pack I"
+actions:
+  skills:
+    - ""
+  spells:
+    - "Whirl of Thorns (+9)"
+    - "Thorn Whip (+9)"
+    - "Grasping Tendrils (19)"
+    - "Root Grip (19)"
+    - "Field of Thorns (19)"
+    - "Root Wall"
+    - "Field of Flowers"
+    - "Regrowth"
+    - "Barkskin"
+    - "Theriomorph: Aspect"
+    - "Wildgrowth"
+  rituals: 
+    - "Rooting"
+    - "Anchor/Release Beast Soul"
+proficiencies:
+  magic:
+    - "Druid: Intermediate"
+    - "[i]Flora 4[/i]"
+    - "[i]Fauna 2[/i]"
+  weapons:
+    - "Blunt: Beginner"
+    - "[i]Staffs 2[/i]"
+  civilian:
+    - "[i]Botany 3[/i]"
+    - "[i]Zoology 2[/i]"
+perks:
+  special:
+    - Efficient Metabolism
+    - Pursuit Hunter
+  
+  combat:
+    - ""
+  
+  magic:
+    - Wildgrowth: Permanence
+    - Astral Body I
+    - Battle Meditation
+    - Focus I
