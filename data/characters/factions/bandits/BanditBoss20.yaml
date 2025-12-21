@@ -1,0 +1,91 @@
+name: Bandit – Boss 20
+id: Boss20
+info:
+  species: Human
+  level: 20
+  size: Medium
+  classes: [Fighter]
+  tags: [–]
+notes: >
+  [br]130 SP Base
+  [br]+60 Bonus
+  [br]REST 2
+
+attributes:
+  CON: [10, 5]
+  STR: [10, 5]
+  DEX: [7, 3]
+  INT: [6, 3]
+  WIL: [6, 3]
+  PER: [6, 3]
+values:
+  EN: 30
+  MP: 5
+  MPR: 1
+  WL: 6
+  WT: 8
+  TN: 4
+  MS: 6
+armor:
+  head: 2
+  torso: 8
+  arms: 3
+  legs: 3
+  md: 1
+  enc: 0
+inventory:
+  weapons:
+    - name: "Longsword+3"
+      damage: "2d8+6|2"
+      hit: "Hit+12, Block+15|6"
+    - name: "Roundshield"
+      damage: "1d6+6"
+      hit: "Hit+4, Block+10|8"
+    - name: "Knife"
+      damage: "2d6"
+      hit: "Hit+9, Block+10|6"
+  armor:
+    - name: "Leather Helmet"
+    - name: "Chainmail+2"
+    - name: "Leather Gauntlets"
+    - name: "Leather Greaves"
+    - name: "Amulet +1"
+  misc:
+    - name: "Adventurer's Pack I"
+actions:
+  skills:
+    - Mordhau
+    - Charge
+    - Swing
+    - Feint
+    - Counter
+    - Leg Sweep
+    - Shove
+    - Aimed Strike
+  spells:
+    - ""
+  rituals: 
+    - ""
+proficiencies:
+  magic:
+    - ""
+  weapons:
+    - "Slashing: Advanced"
+    - "[i]Swords 9[/i]"
+    - "Defensive: Advanced"
+  civilian:
+    - "[i]Athletics 4[/i]"
+    - "[i]Monster Lore 1[/i]"
+    - "[i]Warfare 4[/i]"
+perks:
+  special:
+    - Efficient Metabolism
+    - Pursuit Hunter
+  
+  combat:
+    - Conditioned III
+    - Forerunner
+    - Opportunist
+  
+  magic:
+    - ""

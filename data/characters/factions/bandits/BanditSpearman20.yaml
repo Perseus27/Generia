@@ -1,0 +1,88 @@
+name: Bandit – Spearman 20
+id: Spearman20
+info:
+  species: [Human, Orc]
+  level: 20
+  size: Medium
+  classes: [Fighter]
+  tags: [–]
+notes: >
+  [br]130 SP Base
+  [br]+60 Bonus
+  [br]REST 2
+
+attributes:
+  CON: [8, 4]
+  STR: [8, 4]
+  DEX: [9, 4]
+  INT: [6, 3]
+  WIL: [6, 3]
+  PER: [6, 3]
+values:
+  EN: 30
+  MP: 5
+  MPR: 1
+  WL: 6
+  WT: 8
+  TN: 4
+  MS: 6
+armor:
+  head: 1
+  torso: 6
+  arms: 4
+  legs: 4
+  md: 1
+  enc: 0
+inventory:
+  weapons:
+    - name: "Spear"
+      damage: "2d6+5|4"
+      hit: "Hit+12, Block+15|6"
+    - name: "Knife"
+      damage: "2d6"
+      hit: "Hit+3, Block+6|6"
+  armor:
+    - name: "Padded Helmet"
+    - name: "Leather Armor-1"
+    - name: "Padded Gauntlets"
+    - name: "Padded Greaves"
+    - name: "Amulet +1"
+  misc:
+    - name: "Adventurer's Pack I"
+actions:
+  skills:
+    - Mordhau
+    - Charge
+    - Swing
+    - Feint
+    - Counter
+    - Leg Sweep
+    - Shove
+    - Aimed Strike
+  spells:
+    - ""
+  rituals: 
+    - ""
+proficiencies:
+  magic:
+    - ""
+  weapons:
+    - "Stabbing: Advanced"
+    - "[i]Polearms 9[/i]"
+    - "Defensive: Advanced"
+  civilian:
+    - "[i]Athletics 4[/i]"
+    - "[i]Monster Lore 1[/i]"
+    - "[i]Warfare 4[/i]"
+perks:
+  special:
+    - Indomitable
+    - Pursuit Hunter
+  
+  combat:
+    - Conditioned III
+    - Forerunner
+    - Opportunist
+  
+  magic:
+    - ""
