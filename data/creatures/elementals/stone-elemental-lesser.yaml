@@ -52,9 +52,9 @@ actions:
   passive:
     - name: Proficiencies
       type: Passive
-      effect: >
-        Stone [section:clr-value]+1[/section]
-        Primitive [section:clr-value]+1[/section]
+      effect:
+        - Stone [section:clr-value]+1[/section]
+        - Primitive [section:clr-value]+1[/section]
     - name: Rock Solid
       type: Passive
       effect: >
