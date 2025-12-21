@@ -1,0 +1,99 @@
+name: "Bard – Cacophony Troubadour 20"
+id: CacophonyTroubadour20
+info:
+  species: Human
+  level: 20
+  size: Medium
+  classes: [Bard, Troubadour]
+  tags: [–]
+notes: >
+  [br]Classes: Bard, Troubadour
+  [br]130 SP Base
+  [br]+40 Bonus
+  [br]Rest 0
+
+attributes:
+  CON: [7, 3]
+  STR: [4, 2]
+  DEX: [7, 3]
+  INT: [7, 3]
+  WIL: [12, 6]
+  PER: [7, 3]
+values:
+  EN: 10
+  MP: 20
+  MPR: 5
+  WL: 5
+  WT: 7
+  TN: 3
+  MS: 6
+armor:
+  head: 1
+  torso: 6
+  arms: 3
+  legs: 3
+  md: 5
+  enc: 0
+inventory:
+  weapons:
+    - name: "Smallsword+1"
+      damage: "2d6+2"
+      hit: "Hit+8, Block+9|5"
+    - name: "Short Sling"
+      damage: "1d6"
+      hit: "Hit+3"
+    - name: "Knife"
+      damage: "2d6"
+      hit: "Hit+3, Block+5|5"
+  armor:
+    - name: "Padded Helmet"
+    - name: "Padded Armor+2"
+    - name: "Leather Gauntlets"
+    - name: "Leather Greaves"
+    - name: "Amulet+3"
+    - name: "Ring+1"
+    - name: "Ring+1"
+  misc:
+    - name: "Adventurer's Pack II"
+actions:
+  skills:
+    - ""
+  spells:
+    - "Eigth Rest 21"
+    - "Stanza of Folly +11"
+    - "Stanza of Innocence +11"
+    - "Stanza of Love 21"
+    - "Stanza of Slumber 21"
+    - "Stanza of Carelessness 21"
+    - "Stanza of Cowardice 21"
+    - "Song of Heroism 19"
+    - "Melody of Magic 19"
+    - "Stanza of Healing 19"
+    - "Verse of Rebellion 19"
+  rituals: 
+    - Improvisation
+proficiencies:
+  magic:
+    - "Bard: Beginner"
+    - "[i]Cacophony 5[/i]"
+    - "[i]Euphony 3[/i]"
+  weapons:
+    - "Stabbing: Beginner"
+    - "[i]Swords 4[/i]"
+  civilian:
+    - "[i]History 3[/i]"
+    - "[i]Performance 5[/i]"
+    - "[i]Rites 2[/i]"
+    - "[i]Trading 1[/i]"
+perks:
+  special:
+    - Efficient Metabolism
+    - Pursuit Hunter
+  
+  combat:
+    - ""
+  
+  magic:
+    - Astral Body I
+    - Battle Meditation
+    - Focus I

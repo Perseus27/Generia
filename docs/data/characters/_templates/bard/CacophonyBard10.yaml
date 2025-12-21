@@ -1,0 +1,92 @@
+name: "Bard – Cacophony 10"
+id: CacophonyBard10
+info:
+  species: Human
+  level: 10
+  size: Medium
+  classes: [Bard]
+  tags: [–]
+notes: >
+  [br]Classes: Bard
+  [br]70 SP Base
+  [br]+20 Bonus
+  [br]Rest 1
+
+attributes:
+  CON: [5, 2]
+  STR: [3, 1]
+  DEX: [5, 2]
+  INT: [5, 2]
+  WIL: [8, 4]
+  PER: [4, 2]
+values:
+  EN: 10
+  MP: 15
+  MPR: 3
+  WL: 5
+  WT: 6
+  TN: 3
+  MS: 4
+armor:
+  head: 0
+  torso: 4
+  arms: 1
+  legs: 1
+  md: 2
+  enc: 0
+inventory:
+  weapons:
+    - name: "Smallsword"
+      damage: "2d6"
+      hit: "Hit+6, Block+5|3"
+    - name: "Short Sling"
+      damage: "1d6"
+      hit: "Hit+2"
+    - name: "Knife"
+      damage: "2d6"
+      hit: "Hit+2, Block+3|3"
+  armor:
+    - name: "Padded Armor"
+    - name: "Cloth Gauntlets"
+    - name: "Cloth Greaves"
+    - name: "Amulet+2"
+  misc:
+    - name: "Adventurer's Pack I"
+actions:
+  skills:
+    - ""
+  spells:
+    - "Verse of Folly +7"
+    - "Verse of Innocence +7"
+    - "Verse of Love 17"
+    - "Verse of Slumber 17"
+    - "Melody of Heroism 16"
+    - "Verse of Healing 16"
+    - "Verse of Rebellion 16"
+  rituals: 
+    - Improvisation
+proficiencies:
+  magic:
+    - "Bard: Beginner"
+    - "[i]Cacophony 3[/i]"
+    - "[i]Euphony 2[/i]"
+  weapons:
+    - "Stabbing: Beginner"
+    - "[i]Swords 3[/i]"
+  civilian:
+    - "[i]History 3[/i]"
+    - "[i]Performance 3[/i]"
+    - "[i]Rites 1[/i]"
+    - "[i]Trading 1[/i]"
+perks:
+  special:
+    - Efficient Metabolism
+    - Pursuit Hunter
+  
+  combat:
+    - ""
+  
+  magic:
+    - Astral Body I
+    - Battle Meditation
+    - Focus I
