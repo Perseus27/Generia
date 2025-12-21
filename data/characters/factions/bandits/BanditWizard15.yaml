@@ -59,7 +59,7 @@ actions:
     - [Thermal Beam II, "[section:clr-sa]+9[/section]"]
     - [Thermal Bolt II, "[section:clr-pa]+9[/section]"]
     - [Mana Beam I, "[section:clr-sa]+7[/section]"]
-    - [Ice Shrapnel, "[section:clr-sa]+5[/section]"]
+    - [Ice Shrapnel, "[section:clr-sa]+9[/section]"]
     - [Sparkstream II, "[section:clr-dc]19[/section]"]
     - [Arcane Barrier II, "[section:clr-sd]+10[/section]"]
   rituals: 
