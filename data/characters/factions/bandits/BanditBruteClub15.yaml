@@ -1,0 +1,91 @@
+name: Bandit – Brute (Club) 15
+id: BruteClub15
+info:
+  species: [Human, Orc]
+  level: 15
+  size: Medium
+  classes: [Marauder, Berserker]
+  tags: [–]
+notes: >
+  [br]60 SP Base
+  [br]+40 Bonus
+  [br]REST 1
+
+attributes:
+  CON: [8, 4]
+  STR: [9, 4]
+  DEX: [5, 2]
+  INT: [3, 1]
+  WIL: [5, 2]
+  PER: [5, 2]
+values:
+  EN: 20
+  MP: 5
+  MPR: 1
+  WL: 5
+  WT: 8
+  TN: 3
+  MS: 4
+armor:
+  head: 0
+  torso: 5
+  arms: 4
+  legs: 3
+  md: 1
+  enc: 0
+inventory:
+  weapons:
+    - name: "Great Mace"
+      damage: "2d8+7"
+      hit: "Hit+7, Block+13|7"
+    - name: "Fist"
+      damage: "1d6+5"
+      hit: "Hit+5, Block+11|3"
+    - name: "Knife"
+      damage: "2d6"
+      hit: "Hit+4, Block+9|7"
+  armor:
+    - name: "Leather Armor-1"
+    - name: "Leather Gauntlets"
+    - name: "Leather Greaves-1"
+    - name: "Amulet+1"
+  misc:
+    - name: "Adventurer's Pack I"
+actions:
+  skills:
+    - Whirl
+    - Mighty Strike
+    - Daredevil
+    - Charge
+    - Leg Sweep
+    - Shove
+    - Swing
+    - Feint
+  spells:
+    - ""
+  rituals: 
+    - ""
+proficiencies:
+  magic:
+    - ""
+  weapons:
+    - "Blunt: Intermediate"
+    - "[i]Clubs 5[/i]"
+    - "Natural: Beginner"
+    - "[i]Primitive 2[/i]"
+  civilian:
+    - "[i]Athletics 3[/i]"
+    - "[i]Survival 1[/i]"
+perks:
+  special:
+    - Pursuit Hunter
+    - Stalwart
+  
+  combat:
+    - Bloodlust
+    - Blood Avenger
+    - Opportunist
+    - Sprinter
+  
+  magic:
+    - ""

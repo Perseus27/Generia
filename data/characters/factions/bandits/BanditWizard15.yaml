@@ -1,0 +1,89 @@
+name: Bandit – Wizard 15
+id: Wizard15
+info:
+  species: [Alb, Elf]
+  level: 15
+  size: Medium
+  classes: [Wizard, Thermician]
+  tags: [–]
+notes: >
+  [br]100 SP Base
+  [br]+40 Bonus
+  [br]REST 2
+
+attributes:
+  CON: [4, 2]
+  STR: [3, 1]
+  DEX: [4, 2]
+  INT: [9, 4]
+  WIL: [7, 3]
+  PER: [6, 3]
+values:
+  EN: 10
+  MP: 20
+  MPR: 3
+  WL: 5
+  WT: 5
+  TN: 3
+  MS: 4
+armor:
+  head: 1
+  torso: 3
+  arms: 1
+  legs: 1
+  md: 2
+  enc: 0
+inventory:
+  weapons:
+    - name: "Wizard Staff"
+      damage: "2d8"
+      hit: "Hit+3, Block+5|3"
+    - name: "Knife"
+      damage: "2d6"
+      hit: "Hit+3, Block+5|3"
+  armor:
+    - name: "Wizard Hat"
+    - name: "Cloth Armor"
+    - name: "Cloth Gauntlets"
+    - name: "Cloth Greaves"
+    - name: "Amulet +3"
+  misc:
+    - name: "Adventurer's Pack I"
+actions:
+  skills:
+    - ""
+  spells:
+    - [Fireball II, "[section:clr-sa]+7[/section]"]
+    - [Frost Lance II, "[section:clr-pa]+5[/section]"]
+    - [Thermal Beam III, "[section:clr-sa]+7[/section]"]
+    - [Thermal Bolt III, "[section:clr-pa]+7[/section]"]
+    - [Mana Beam II, "[section:clr-sa]+6[/section]"]
+    - [Ice Shrapnel, "[section:clr-sa]+5[/section]"]
+    - [Sparkstream II, "[section:clr-dc]17[/section]"]
+    - [Arcane Barrier II, "[section:clr-sd]+8[/section]"]
+  rituals: 
+    - Hermetic Manipulation
+    - Thermic Manipulation
+proficiencies:
+  magic:
+    - "Thermics: Advanced"
+    - "[i]Fire 3[/i]"
+    - "Hermetics: Intermediate"
+    - "[i]Arcane 2[/i]"
+  weapons:
+    - ""
+  civilian:
+    - "[i]Arcana 4[/i]"
+    - "[i]Arithmetics 1[/i]"
+    - "[i]History 1[/i]"
+perks:
+  special:
+    - Arcane Flow
+    - Dissonance
+  
+  combat:
+    - ""
+  
+  magic:
+    - Practiced Thermician
+    - Battle Meditation
