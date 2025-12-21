@@ -87,7 +87,7 @@ proficiencies:
     - "[i]Warfare 2[/i]"
 perks:
   special:
-    - Bloodline AGI
+    - Bloodline DEX
     - "Tradition Athletics"
   
   combat:
