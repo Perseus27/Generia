@@ -1,0 +1,103 @@
+name: Guard – Archer (Crossbow) 15
+id: ArcherCrossbow15
+info:
+  species: Elf / Human
+  level: 15
+  size: Medium
+  classes: [Archer, Fighter, Field Archer]
+  tags: [Trained 10]
+notes: >
+  [br]105 SP Base
+  [br]+30 Bonus
+  [br]+10 Trained
+  [br]Rest 0
+
+attributes:
+  CON: [7, 3]
+  STR: [9, 4]
+  DEX: [8, 4]
+  INT: [4, 2]
+  WIL: [4, 2]
+  PER: [6, 3]
+values:
+  EN: 25
+  MP: 5
+  MPR: 1
+  WL: 4
+  WT: 7
+  TN: 4
+  MS: 6
+armor:
+  head: 3
+  torso: 8
+  arms: 4
+  legs: 4
+  md: 3
+  enc: 0
+inventory:
+  weapons:
+    - name: "Heavy Crossbow+2"
+      damage: "2d8+2"
+      hit: "Hit+9"
+      range: "-2/0/0, 28m"
+    - name: "20× Bolt+1, heavy"
+      damage: "1d8+1"
+    - name: "Broadsword"
+      damage: "2d6+4"
+      hit: "Hit+7, Block+10|7"
+    - name: "Knife"
+      damage: "2d6"
+      hit: "Hit+3, Block+5|5"
+  armor:
+    - name: "Leather Helmet+1"
+    - name: "Chainmail+2"
+    - name: "Leather Gauntlets+1"
+    - name: "Leather Greaves+1"
+    - name: "Amulet+2"
+    - name: "Ring+1"
+  misc:
+    - name: "Adventurer's Pack I"
+actions:
+  skills:
+    - Mighty Shot
+    - Multishot
+    - Hold Breath
+    - Overwatch
+    - Dodge Reflex
+    - Careful Shot
+    - Unpredictable Shot
+    - Aimed Shot
+    - Counter
+    - Charge
+    - Feint
+    - Leg Sweep
+    - Shove
+  spells:
+    - ""
+  rituals: 
+    - ""
+proficiencies:
+  magic:
+    - ""
+  weapons:
+    - "Ranged: Intermediate"
+    - "[i]Crossbows 5[/i]"
+    - "Slashing: Intermediate"
+    - "[i]Swords 3[/i]"
+    - "Defensive: Beginner"
+  civilian:
+    - "[i]Hunting 1[/i]"
+    - "[i]Monster Lore 1[/i]"
+    - "[i]Warfare 2[/i]"
+perks:
+  special:
+    - Harmony
+    - Pursuit Hunter
+  
+  combat:
+    - David
+    - Conditioned I
+    - Forerunner
+  
+  magic:
+    - ""

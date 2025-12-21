@@ -1,0 +1,99 @@
+name: Guard – Pikeman 15
+id: Pikeman15
+info:
+  species: Human
+  level: 15
+  size: Medium
+  classes: [Fighter, Spearfighter]
+  tags: [Trained 10]
+notes: >
+  [br]100 SP Base
+  [br]+30 Bonus
+  [br]+10 Trained
+  [br]Rest 2
+
+attributes:
+  CON: [8, 4]
+  STR: [9, 4]
+  DEX: [8, 4]
+  INT: [4, 2]
+  WIL: [4, 2]
+  PER: [4, 2]
+values:
+  EN: 25
+  MP: 5
+  MPR: 1
+  WL: 4
+  WT: 7
+  TN: 4
+  MS: 6
+armor:
+  head: 4
+  torso: 8
+  arms: 5
+  legs: 5
+  md: 3
+  enc: 0
+inventory:
+  weapons:
+    - name: "Pike+2"
+      damage: "2d8+6"
+      hit: "Hit+9, Block+13|8"
+    - name: "Roundshield"
+      damage: "1d6+8"
+      hit: "Hit+0, Block+8|10"
+    - name: "Knife"
+      damage: "2d6"
+      hit: "Hit+4, Block+8|8"
+  armor:
+    - name: "Chain Helmet+1"
+    - name: "Chainmail+2"
+    - name: "Chain Gauntlets+1"
+    - name: "Chain Greaves+1"
+    - name: "Amulet+2"
+    - name: "Ring+1"
+  misc:
+    - name: "Adventurer's Pack I"
+actions:
+  skills:
+    - "Stance: Attack"
+    - Whirl
+    - Mordhau
+    - Multistrike
+    - Aimed Strike
+    - Charge
+    - Swing
+    - Feint
+    - Counter
+    - Leg Sweep
+    - Shove
+    - Disarm
+  spells:
+    - ""
+  rituals: 
+    - ""
+proficiencies:
+  magic:
+    - ""
+  weapons:
+    - "Stabbing: Intermediate"
+    - "[i]Lances 5[/i]"
+    - "Defensive: Beginner"
+  civilian:
+    - "[i]Athletics 2[/i]"
+    - "[i]Monster Lore 1[/i]"
+    - "[i]Warfare 2[/i]"
+perks:
+  special:
+    - Efficient Metabolism
+    - Pursuit Hunter
+  
+  combat:
+    - Spearhead
+    - Conditioned I
+    - Deflector
+    - Forerunner
+    - Opportunist
+  
+  magic:
+    - ""

@@ -1,0 +1,94 @@
+name: Guard – Healer 15
+id: Healer15
+info:
+  species: Elf
+  level: 15
+  size: Medium
+  classes: [Acolyte, Moon Priest]
+  tags: [Trained 20]
+notes: >
+  [br]95 SP Base
+  [br]+30 Bonus
+  [br]+20 Trained
+  [br]Rest 0
+
+attributes:
+  CON: [5, 2]
+  STR: [4, 2]
+  DEX: [6, 3]
+  INT: [7, 3]
+  WIL: [11, 5]
+  PER: [4, 2]
+values:
+  EN: 10
+  MP: 20
+  MPR: 5
+  WL: 5
+  WT: 6
+  TN: 3
+  MS: 4
+armor:
+  head: 2
+  torso: 6
+  arms: 3
+  legs: 3
+  md: 5
+  enc: 0
+inventory:
+  weapons:
+    - name: "Healer's Staff"
+      damage: "2d8+2"
+      hit: "Hit+2, Block+4|4"
+    - name: "Knife"
+      damage: "2d6"
+      hit: "Hit+2, Block+3|3"
+  armor:
+    - name: "Padded Helmet+1"
+    - name: "Padded Armor+2"
+    - name: "Padded Gauntlets+1"
+    - name: "Padded Greaves+1"
+    - name: "Acolyte Amulet+3"
+    - name: "Ring+1"
+    - name: "Ring+1"
+  misc:
+    - name: "Adventurer's Pack I"
+actions:
+  skills:
+    - ""
+  spells:
+    - "Sunlight Spear +8"
+    - "Prayer of Healing"
+    - "Healing"
+    - "Purify 20+"
+    - "Radiant Shield"
+    - "Prayer of Purification 20+"
+    - "Blessing of Resilience"
+  rituals: 
+    - Prayer to Luna
+    - Prayer to Sol
+    - Mederi
+    - Hospitium Lunae
+    - Fountain of Youth
+proficiencies:
+  magic:
+    - "Acolyte: Intermediate"
+    - "[i]Luna 5[/i]"
+    - "[i]Sol 3[/i]"
+  weapons:
+    - "Blunt: Beginner"
+  civilian:
+    - "[i]Medicine 5[/i]"
+    - "[i]Rites 2[/i]"
+perks:
+  special:
+    - Arcane Flow
+    - Harmony
+  
+  combat:
+    - ""
+  
+  magic:
+    - Misereor
+    - Astral Body I
+    - Battle Meditation
+    - Focus I

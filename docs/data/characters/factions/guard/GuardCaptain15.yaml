@@ -1,0 +1,101 @@
+name: Guard – Captain 15
+id: Captain15
+info:
+  species: Human
+  level: 15
+  size: Medium
+  classes: [Fighter, Swordfighter]
+  tags: [Trained 20]
+notes: >
+  [br]100 SP Base
+  [br]+30 Bonus
+  [br]+20 Trained
+  [br]Rest 0
+
+attributes:
+  CON: [8, 5]
+  STR: [9, 5]
+  DEX: [8, 5]
+  INT: [4, 2]
+  WIL: [4, 2]
+  PER: [4, 2]
+values:
+  EN: 25
+  MP: 5
+  MPR: 1
+  WL: 4
+  WT: 7
+  TN: 4
+  MS: 6
+armor:
+  head: 5
+  torso: 9
+  arms: 6
+  legs: 6
+  md: 5
+  enc: 0
+inventory:
+  weapons:
+    - name: "Bastard Sword+3 (Sharp I)"
+      damage: "2d6+8|10"
+      hit: "Hit+10, Block+15|10"
+    - name: "Roundshield"
+      damage: "1d6+10"
+      hit: "Hit+0, Block+10|12"
+    - name: "Knife"
+      damage: "2d6"
+      hit: "Hit+5, Block+10|10"
+  armor:
+    - name: "Chain Helmet+2"
+    - name: "Chainmail+3"
+    - name: "Chain Gauntlets+2"
+    - name: "Chain Greaves+2"
+    - name: "Amulet+3"
+    - name: "Ring+1"
+    - name: "Ring+1"
+  misc:
+    - name: "Adventurer's Pack I"
+actions:
+  skills:
+    - "Stance: Attack"
+    - "Stance: Parry"
+    - Whirl
+    - Mordhau
+    - Mighty Strike
+    - Aimed Strike
+    - Charge
+    - Swing
+    - Feint
+    - Counter
+    - Leg Sweep
+    - Shove
+    - Disarm
+  spells:
+    - ""
+  rituals: 
+    - ""
+proficiencies:
+  magic:
+    - ""
+  weapons:
+    - "Slashing: Intermediate"
+    - "[i]Swords 5[/i]"
+    - "Defensive: Beginner"
+  civilian:
+    - "[i]Athletics 2[/i]"
+    - "[i]Monster Lore 1[/i]"
+    - "[i]Warfare 2[/i]"
+perks:
+  special:
+    - Efficient Metabolism
+    - Pursuit Hunter
+  
+  combat:
+    - Edge Alignment
+    - Conditioned I
+    - Deflector
+    - Forerunner
+    - Opportunist
+  
+  magic:
+    - ""
