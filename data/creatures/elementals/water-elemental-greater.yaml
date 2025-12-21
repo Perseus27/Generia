@@ -29,7 +29,7 @@ armor:
   torso: 0
   arms: 0
   legs: 0
-  md: 0
+  md: 4
   enc: 0
 loot:
   - Elemental Core, greater
@@ -37,10 +37,10 @@ actions:
   active:
     - name: Water Whip
       type: Melee, 4m
-      hit: "Hit+12, Block+8|8"
-      damage: 3d6+2 Sharp
+      hit: "Hit+14, Block+13|8"
+      damage: 3d6+1 Sharp
     - name: Flowing Counter
-      type: Reaction, Defensive
+      type: Reaction
       effect: >
         Can counter with Water Whip after a successful parry.
       cost: "[section:clr-en]1 EN[/section]"
@@ -51,16 +51,25 @@ actions:
         The Elemental takes one wound.
     - name: Grasping Tentacle
       type: Reaction
-      hit: "[section:clr-dc]DC 13[/section]"
+      hit: "[section:clr-dc]DC 18[/section]"
       effect: >
-        On Water Whip hit: Grapples the target.
+        On [i]Water Whip[/i] [url:def#Hit]hit[/url]: Grapples the target.
       cost: "[section:clr-mp]5 MP[/section]"
-      save: "Save STR: No effect."
+      save: "[b]Save [section:clr-attr]STR[/section]/[section:clr-attr]DEX[/section][/b]: No effect."
   passive:
-    - name: Elemental (Water)
+    - name: Proficiencies
       type: Passive
       effect: >
-        Parries are eased by [[section:clr-attr]AGI-MOD[/section]].
+        Water [section:clr-value]+5[/section]
+        Primitive [section:clr-value]+5[/section]
+    - name: Be like Water
+      type: Passive
+      effect: >
+        Parries are eased by [section:clr-attr]AGI-MOD[/section].
+    - name: Will of the World
+      type: Passive
+      effect: >
+        MD is increased by [section:clr-attr]WIL-MOD[/section].
     - name: Living Mana
       type: Passive
       effect: >

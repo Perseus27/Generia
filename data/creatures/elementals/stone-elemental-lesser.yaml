@@ -6,7 +6,7 @@ info:
   size: Medium
   tags: []
 notes: >
-  A small golem(1.2m tall).
+  A small golem (~1.5m tall).
   [br]Can follow simple instructions (e.g., "Go over there", "Attack this target")
 
 attributes:
@@ -29,7 +29,7 @@ armor:
   torso: 2
   arms: 2
   legs: 2
-  md: 0
+  md: 1
   enc: 0
 loot:
   - Elemental Core, lesser
@@ -37,12 +37,12 @@ actions:
   active:
     - name: Attack
       type: Melee
-      hit: "Hit+0, Block+3|3"
-      damage: 2d6+2 Blunt
+      hit: "Hit+1, Block+4|3"
+      damage: 2d6+1 Blunt
     - name: Defensive Stance
       type: Utility
       effect: >
-        Advantage 1 on Blocks until the start of the next turn.
+        [url:core#Advantage]Advantage 1[/url] on Blocks until the start of the next turn.
       cost: "[section:clr-en]1 EN[/section]"
     - name: Solidify
       type: Reaction
@@ -50,10 +50,19 @@ actions:
         Block Strength +2 until the end of this turn.
       cost: "[section:clr-mp]1 MP[/section]"
   passive:
-    - name: Elemental (Stone)
+    - name: Proficiencies
+      type: Passive
+      effect: >
+        Stone [section:clr-value]+1[/section]
+        Primitive [section:clr-value]+1[/section]
+    - name: Rock Solid
       type: Passive
       effect: >
         AV increased by [[section:clr-attr]CON-MOD[/section]].
+    - name: Will of the World
+      type: Passive
+      effect: >
+        MD is increased by [section:clr-attr]WIL-MOD[/section].
     - name: Living Mana
       type: Passive
       effect: >

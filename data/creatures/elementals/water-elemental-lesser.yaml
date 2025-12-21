@@ -29,7 +29,7 @@ armor:
   torso: 0
   arms: 0
   legs: 0
-  md: 0
+  md: 1
   enc: 0
 loot:
   - Elemental Core, lesser
@@ -37,18 +37,27 @@ actions:
   active:
     - name: Water Whip
       type: Melee, 4m
-      hit: "Hit+4, Block+2|2"
-      damage: 2d6+1 Sharp
+      hit: "Hit+4, Block+3|2"
+      damage: 2d6 Sharp
     - name: Flowing Counter
-      type: Reaction, Defensive
+      type: Reaction
       effect: >
         Can counter with Water Whip after a successful parry.
       cost: "[section:clr-en]1 EN[/section]"
   passive:
-    - name: Elemental (Water)
+    - name: Proficiencies
       type: Passive
       effect: >
-        Parries are eased by [[section:clr-attr]AGI-MOD[/section]].
+        Water [section:clr-value]+1[/section]
+        Primitive [section:clr-value]+1[/section]
+    - name: Be like Water
+      type: Passive
+      effect: >
+        Parries are eased by [section:clr-attr]AGI-MOD[/section].
+    - name: Will of the World
+      type: Passive
+      effect: >
+        MD is increased by [section:clr-attr]WIL-MOD[/section].
     - name: Living Mana
       type: Passive
       effect: >
@@ -56,4 +65,4 @@ actions:
     - name: Absorption I
       type: Passive
       effect: >
-        Gains 2d4 Healing after causing a wound with Water Whip.
+        Gains [section:clr-roll]2d4[/section] Healing after causing a wound with Water Whip.

@@ -29,7 +29,7 @@ armor:
   torso: 0
   arms: 0
   legs: 0
-  md: 0
+  md: 4
   enc: 0
 loot:
   - Elemental Core, normal
@@ -38,27 +38,27 @@ actions:
     - name: Fire Shot
       type: Projectile
       hit: "[section:clr-pa]PA+7[/section], 20m"
-      damage: 2d6 Fire
+      damage: 2d6+3 Fire
       cost: "[section:clr-mp]2 MP[/section]"
     - name: Fire Nova
       type: AoE, 4m
       hit: "[section:clr-sa]SA+4[/section]"
-      damage: 3d4 Fire
+      damage: 3d4+1 Fire
       cost: "[section:clr-mp]3 MP[/section]"
-      save: "Save AGI: Damage halved. Save+10: No effect."
+      save: "[b]Save [section:clr-attr]DEX[/section]/+10[/b]: Damage halved/No effect."
   passive:
-    - name: Ethereal
+    - name: Proficiencies
       type: Passive
       effect: >
-        Resistant against Physical damage.
-    - name: Elemental (Fire)
+        Fire [section:clr-value]+3[/section]
+    - name: Will of the World
       type: Passive
       effect: >
-        Immune to Fire damage.
+        MD is increased by [section:clr-attr]WIL-MOD[/section].
     - name: Living Mana
       type: Passive
       effect: >
         Regenerates [[section:clr-value]MPR[/section]] [section:clr-mp]MP[/section] at the beginning of each turn.
     - name: Burning Aura II
       type: Passive, 2m AoE, Zone
-      damage: 3d4 Fire
+      damage: 3d4+1 Fire
