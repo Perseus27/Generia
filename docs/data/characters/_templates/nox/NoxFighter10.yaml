@@ -1,0 +1,98 @@
+name: "Nox – Fighter 10"
+id: NoxFighter10
+info:
+  species: Human
+  level: 10
+  size: Medium
+  classes: [Nox, Fighter]
+  tags: [–]
+notes: >
+  [br]Classes: Nox, Fighter
+  [br]75 SP Base
+  [br]+20 Bonus
+  [br]Rest 0
+
+attributes:
+  CON: [4, 2]
+  STR: [4, 2]
+  DEX: [8, 4]
+  INT: [5, 2]
+  WIL: [3, 1]
+  PER: [6, 3]
+values:
+  EN: 10
+  MP: 10
+  MPR: 1
+  WL: 4
+  WT: 5
+  TN: 3
+  MS: 6
+armor:
+  head: 1
+  torso: 5
+  arms: 2
+  legs: 2
+  md: 1
+  enc: 0
+inventory:
+  weapons:
+    - name: "Smallsword"
+      damage: "2d6+1"
+      hit: "Hit+10, Block+4|4"
+    - name: "Dagger"
+      damage: "2d6"
+      hit: "Hit+10, Block+4|4"
+    - name: "Throwing Knife"
+      damage: "2d4+2"
+      hit: "Hit+8"
+    - name: "Knife"
+      damage: "2d6"
+      hit: "Hit+8, Block+4|4"
+  armor:
+    - name: "Padded Helmet"
+    - name: "Leather Armor"
+    - name: "Padded Gauntlets"
+    - name: "Padded Greaves"
+    - name: "Noxian Ring +1"
+  misc:
+    - name: "Adventurer's Pack I"
+actions:
+  skills:
+    - "Charge"
+    - "Feint"
+    - "Leg Sweep"
+    - "Shove"
+  spells:
+    - "Shadow Strike"
+    - "Shadow Cloak"
+    - "Shadow Knives"
+    - "Shadow Summoning"
+    - "Blur"
+  rituals: 
+    - "Prayer to Nox"
+proficiencies:
+  magic:
+    - "Nox: Beginner"
+    - "[i]Night 3[/i]"
+  weapons:
+    - "Stabbing: Beginner"
+    - "[i]Swords 4[/i]"
+    - "[i]Daggers 4[/i]"
+    - "Throwing: Beginner"
+    - "Defensive: Beginner"
+  civilian:
+    - "[i]Monster Lore 1[/i]"
+    - "[i]Rites 1[/i]"
+    - "[i]Stealing 2[/i]"
+    - "[i]Stealth 3[/i]"
+    - "[i]Warfare 2[/i]"
+perks:
+  special:
+    - Efficient Metabolism
+    - Pursuit Hunter
+  
+  combat:
+    - Opportunist
+  
+  magic:
+    - ""

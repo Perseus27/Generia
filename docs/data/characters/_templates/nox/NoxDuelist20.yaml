@@ -1,0 +1,112 @@
+name: "Nox – Duelist 20"
+id: NoxDuelist20
+info:
+  species: Human
+  level: 20
+  size: Medium
+  classes: [Nox, Fighter, Duelist, Hand of Nox]
+  tags: [–]
+notes: >
+  [br]Classes: Nox, Fighter, Duelist, Hand of Nox
+  [br]140 SP Base
+  [br]+40 Bonus
+  [br]Rest 2
+
+attributes:
+  CON: [7, 3]
+  STR: [6, 3]
+  DEX: [11, 5]
+  INT: [5, 2]
+  WIL: [5, 2]
+  PER: [10, 5]
+values:
+  EN: 15
+  MP: 10
+  MPR: 2
+  WL: 4
+  WT: 7
+  TN: 3
+  MS: 8
+armor:
+  head: 2
+  torso: 6
+  arms: 3
+  legs: 3
+  md: 4
+  enc: 0
+inventory:
+  weapons:
+    - name: "Smallsword+2"
+      damage: "2d6+3"
+      hit: "Hit+11, Block+10|6"
+    - name: "Dagger+2"
+      damage: "2d6+2"
+      hit: "Hit+11, Block+10|6"
+    - name: "Throwing Knife"
+      damage: "2d4+2"
+      hit: "Hit+9"
+    - name: "Knife"
+      damage: "2d6"
+      hit: "Hit+9, Block+6|6"
+  armor:
+    - name: "Leather Helmet"
+    - name: "Leather Armor+1"
+    - name: "Leather Gauntlets"
+    - name: "Leather Greaves"
+    - name: "Amulet +2"
+    - name: "Noxian Ring +1"
+    - name: "Ring +1"
+  misc:
+    - name: "Adventurer's Pack II"
+actions:
+  skills:
+    - "Double Stab"
+    - "Aimed Strike"
+    - "Charge"
+    - "Feint"
+    - "Leg Sweep"
+    - "Shove"
+    - "SwiftParry"
+    - "Counter"
+    - "Disarm"
+    - "Pocket Sand"
+  spells:
+    - "Shadow Strike"
+    - "Shadow Coating"
+    - "Shadow Cloak"
+    - "Shadow Knives"
+    - "Shadow Summoning"
+    - "Terror"
+    - "Shadow Step"
+    - "Shadow Run"
+    - "Blur"
+    - "Noxian Bargain"
+  rituals: 
+    - "Prayer to Nox"
+proficiencies:
+  magic:
+    - "Nox: Intermediate"
+    - "[i]Night 5[/i]"
+  weapons:
+    - "Stabbing: Intermediate"
+    - "[i]Swords 4[/i]"
+    - "[i]Daggers 4[/i]"
+    - "Throwing: Beginner"
+    - "Defensive: Beginner"
+  civilian:
+    - "[i]Monster Lore 1[/i]"
+    - "[i]Rites 1[/i]"
+    - "[i]Stealing 2[/i]"
+    - "[i]Stealth 3[/i]"
+    - "[i]Warfare 2[/i]"
+perks:
+  special:
+    - Efficient Metabolism
+    - Pursuit Hunter
+  
+  combat:
+    - Lone Fighter
+    - Opportunist
+  
+  magic:
+    - Withering Shadow

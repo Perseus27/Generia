@@ -1,0 +1,113 @@
+name: "Nox – Hunter 25"
+id: NoxHunter25
+info:
+  species: Human
+  level: 25
+  size: Medium
+  classes: [Nox, Archer, Hunter, Hand of Nox]
+  tags: [–]
+notes: >
+  [br]Classes: Nox, Archer, Hunter, Hand of Nox
+  [br]170 SP Base
+  [br]+50 Bonus
+  [br]Rest 5
+
+attributes:
+  CON: [7, 3]
+  STR: [6, 3]
+  DEX: [12, 6]
+  INT: [5, 2]
+  WIL: [7, 3]
+  PER: [12, 6]
+values:
+  EN: 15
+  MP: 10
+  MPR: 2
+  WL: 5
+  WT: 7
+  TN: 3
+  MS: 8
+armor:
+  head: 2
+  torso: 7
+  arms: 4
+  legs: 4
+  md: 4
+  enc: 0
+inventory:
+  weapons:
+    - name: "Shortbow"
+      damage: "1d6+1"
+      hit: "Hit+9"
+    - name: "20× Arrow, light"
+      damage: "1d6"
+    - name: "Smallsword"
+      damage: "2d6+1"
+      hit: "Hit+10, Block+8|4"
+    - name: "Knife"
+      damage: "2d6"
+      hit: "Hit+4, Block+4|4"
+  armor:
+    - name: "Leather Helmet"
+    - name: "Leather Armor+2"
+    - name: "Leather Gauntlets+1"
+    - name: "Leather Greaves+1"
+    - name: "Amulet +2"
+    - name: "Noxian Ring +1"
+    - name: "Ring +1"
+  misc:
+    - name: "Adventurer's Pack II"
+actions:
+  skills:
+    - "Stance: Dodge"
+    - "Precise Shot: Legs"
+    - "Multishot"
+    - "Aimed Shot"
+    - "Careful Shot"
+    - "Unpredictable Shot"
+    - "Hold Breath"
+    - "Camouflage"
+    - "Overwatch"
+    - "Counter"
+  spells:
+    - "Shadow Strike"
+    - "Shadow Coating"
+    - "Shadow Cloak"
+    - "Shadow Summoning"
+    - "Terror"
+    - "Wings of Night"
+    - "Shadow Step"
+    - "Substitution"
+    - "Shadow Run"
+    - "Blur"
+    - "Noxian Bargain"
+  rituals: 
+    - "Prayer to Nox"
+proficiencies:
+  magic:
+    - "Nox: Intermediate"
+    - "[i]Night 5[/i]"
+  weapons:
+    - "Ranged: Intermediate"
+    - "[i]Shortbows 5[/i]"
+    - "Stabbing: Beginner"
+    - "[i]Swords 4[/i]"
+  civilian:
+    - "[i]Hunting 2[/i]"
+    - "[i]Rites 1[/i]"
+    - "[i]Stealing 2[/i]"
+    - "[i]Stealth 3[/i]"
+    - "[i]Survival 1[/i]"
+perks:
+  special:
+    - Efficient Metabolism
+    - Pursuit Hunter
+  
+  combat:
+    - On the Prowl
+    - Forerunner
+    - Opportunist
+  
+  magic:
+    - Withering Shadows
+    - Focus I
