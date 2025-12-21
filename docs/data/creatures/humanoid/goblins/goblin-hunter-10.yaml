@@ -59,9 +59,9 @@ actions:
   passive:
     - name: Proficiencies
       type: Passive
-      effect: >
-        Shortbows [section:clr-value]+4[/section]
-        [br]Spears [section:clr-value]+2[/section]
+      effect:
+        - Shortbows [section:clr-value]+4[/section]
+        - Spears [section:clr-value]+2[/section]
     - name: Cowardly
       type: Passive
       effect: >

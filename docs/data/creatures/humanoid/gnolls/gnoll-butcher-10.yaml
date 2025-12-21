@@ -59,10 +59,10 @@ actions:
       perks: [Opportunist]
     - name: Proficiencies
       type: Passive
-      effect: >
-        Primitive [section:clr-value]+4[/section]
-        [br]  Bows [section:clr-value]+2[/section]
-        [br]  Polearms [section:clr-value]+1[/section]
+      effect:
+        - Primitive [section:clr-value]+4[/section]
+        - Bows [section:clr-value]+2[/section]
+        - Polearms [section:clr-value]+1[/section]
     - name: Bloodthirsty
       type: Passive
       effect: >

@@ -238,8 +238,12 @@ class Creature_Renderer:
                         result += f"[br]  {self.format_list_comma(x.get(subitem), 'skill')}"
                     elif subitem == "perks":
                         result += f"[br]  {self.format_list_comma(x.get(subitem), 'perk')}"
-                    elif subitem == "effect_list":
-                        for y in x.get(subitem):
+                    elif subitem == "effect":
+                        y = x.get(subitem)
+                        if isinstance(y, list):
+                            for z in y:
+                                result += f"[br]  {z}"
+                        else:
                             result += f"[br]  {y}"
                     else:
                         result += "[br]  "+x.get(subitem)
