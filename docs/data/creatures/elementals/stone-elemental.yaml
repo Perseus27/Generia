@@ -1,0 +1,76 @@
+name: Stone Elemental
+id: stone-elemental
+info:
+  species: Elemental
+  level: 10
+  size: Large
+  tags: []
+notes: >
+  A large golem (2m tall).
+  [br]Can follow complex instructions (e.g., "Patrol this area and attack all intruders")
+
+attributes:
+  CON: [9, 4]
+  STR: [7, 3]
+  DEX: [4, 2]
+  INT: [3, 1]
+  WIL: [4, 2]
+  PER: [1, 0]
+values:
+  EN: 15
+  MP: 5
+  MPR: 1
+  WL: 6
+  WT: 8
+  TN: 3
+  MS: 4
+armor:
+  head: 4
+  torso: 4
+  arms: 4
+  legs: 4
+  md: 0
+  enc: 0
+loot:
+  - Elemental Core, normal
+actions:
+  active:
+    - name: Attack
+      type: Melee
+      hit: "Hit+2, Block+7|7"
+      damage: 2d8+6 Blunt
+    - name: Whirling Attack
+      type: Melee, 2m AoE
+      hit: "Hit+2"
+      damage: 2d8+3 Blunt
+      cost: "[section:clr-en]2 EN[/section]"
+    - name: Defensive Stance
+      type: Utility
+      effect: >
+        Advantage 2 on Blocks until the start of the next turn.
+      cost: "[section:clr-en]1 EN[/section]"
+    - name: Solidify
+      type: Reaction
+      effect: >
+        Block Strength +4 until the end of this turn.
+      cost: "[section:clr-mp]1 MP[/section]"
+    - name: Stony Grasp
+      type: Reaction, 2m
+      hit: "[section:clr-dc]DC 12[/section]"
+      effect: >
+        [section:clr-konz]Concentration[/section] A hand of stone grows from the ground to restrain a target.
+      cost: "[section:clr-mp]2 MP[/section]"
+      save: "Save STR/AGI: No effect."
+  passive:
+    - name: Elemental (Stone)
+      type: Passive
+      effect: >
+        AV increased by [[section:clr-attr]CON-MOD[/section]].
+    - name: Living Mana
+      type: Passive
+      effect: >
+        Regenerates [[section:clr-value]MPR[/section]] [section:clr-mp]MP[/section] at the beginning of each turn.
+    - name: Bodyguard II
+      type: Passive
+      effect: >
+        Provides full cover to adjacent creatures.
