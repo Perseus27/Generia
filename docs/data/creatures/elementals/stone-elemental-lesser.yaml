@@ -1,0 +1,64 @@
+name: Lesser Stone Elemental
+id: stone-elemental-lesser
+info:
+  species: Elemental
+  level: 3
+  size: Medium
+  tags: []
+notes: >
+  A small golem(1.2m tall).
+  [br]Can follow simple instructions (e.g., "Go over there", "Attack this target")
+
+attributes:
+  CON: [5, 2]
+  STR: [3, 1]
+  DEX: [1, 0]
+  INT: [1, 0]
+  WIL: [3, 1]
+  PER: [1, 0]
+values:
+  EN: 10
+  MP: 5
+  MPR: 1
+  WL: 4
+  WT: 6
+  TN: 3
+  MS: 2
+armor:
+  head: 2
+  torso: 2
+  arms: 2
+  legs: 2
+  md: 0
+  enc: 0
+loot:
+  - Elemental Core, lesser
+actions:
+  active:
+    - name: Attack
+      type: Melee
+      hit: "Hit+0, Block+3|3"
+      damage: 2d6+2 Blunt
+    - name: Defensive Stance
+      type: Utility
+      effect: >
+        Advantage 1 on Blocks until the start of the next turn.
+      cost: "[section:clr-en]1 EN[/section]"
+    - name: Solidify
+      type: Reaction
+      effect: >
+        Block Strength +2 until the end of this turn.
+      cost: "[section:clr-mp]1 MP[/section]"
+  passive:
+    - name: Elemental (Stone)
+      type: Passive
+      effect: >
+        AV increased by [[section:clr-attr]CON-MOD[/section]].
+    - name: Living Mana
+      type: Passive
+      effect: >
+        Regenerates [[section:clr-value]MPR[/section]] [section:clr-mp]MP[/section] at the beginning of each turn.
+    - name: Bodyguard I
+      type: Passive
+      effect: >
+        Provides half cover to adjacent creatures.

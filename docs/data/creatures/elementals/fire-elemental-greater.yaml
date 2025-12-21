@@ -1,0 +1,69 @@
+name: Greater Fire Elemental
+id: fire-elemental-greater
+info:
+  species: Elemental
+  level: 25
+  size: Small
+  tags: [[Immunity, Fire], [Resistance, Physical]]
+notes: >
+  A being of pure fire mana that prefers the shape of a small salamander, but can appear as a medium-sized humanoid.
+  [br]About as intelligent as a human. Can communicate verbally.
+
+attributes:
+  CON: [7, 3]
+  STR: [1, 0]
+  DEX: [10, 5]
+  INT: [6, 3]
+  WIL: [12, 6]
+  PER: [11, 5]
+values:
+  EN: 5
+  MP: 10
+  MPR: 4
+  WL: 5
+  WT: 7
+  TN: 3
+  MS: 6
+armor:
+  head: 0
+  torso: 0
+  arms: 0
+  legs: 0
+  md: 0
+  enc: 0
+loot:
+  - Elemental Core, greater
+actions:
+  active:
+    - name: Fire Shot
+      type: Projectile
+      hit: "[section:clr-pa]PA+11[/section], 20m"
+      damage: 2d8 Fire
+      cost: "[section:clr-mp]2 MP[/section]"
+    - name: Fire Nova
+      type: AoE, 4m
+      hit: "[section:clr-sa]SA+6[/section]"
+      damage: 4d4 Fire
+      cost: "[section:clr-mp]4 MP[/section]"
+      save: "Save AGI: Damage halved. Save+10: No effect."
+    - name: Enflame
+      type: Reaction
+      effect: >
+        On hit: Immediately triggers all Burning stacks on all targets hit.
+      cost: "[section:clr-mp]2 MP[/section]"
+  passive:
+    - name: Ethereal
+      type: Passive
+      effect: >
+        Resistant against Physical damage.
+    - name: Elemental (Fire)
+      type: Passive
+      effect: >
+        Immune to Fire damage.
+    - name: Living Mana
+      type: Passive
+      effect: >
+        Regenerates [[section:clr-value]MPR[/section]] [section:clr-mp]MP[/section] at the beginning of each turn.
+    - name: Burning Aura III
+      type: Passive, 2m AoE, Zone
+      damage: 4d4 Fire
