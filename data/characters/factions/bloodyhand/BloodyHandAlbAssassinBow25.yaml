@@ -1,0 +1,115 @@
+name: Bloody Hand – Alb Assassin Bow 25
+id: AlbAssassinBow25
+info:
+  species: [Alb, Human]
+  level: 25
+  size: Medium
+  classes: [Nox, Archer, Hunter, Hand of Nox]
+  tags: [Trained 30]
+notes: >
+  [br]170 SP Base
+  [br]+50 Bonus
+  [br]+30 Trained
+  [br]Rest 2
+
+attributes:
+  CON: [7, 3]
+  STR: [6, 3]
+  DEX: [12, 6]
+  INT: [5, 2]
+  WIL: [7, 3]
+  PER: [12, 6]
+values:
+  EN: 15
+  MP: 10
+  MPR: 2
+  WL: 5
+  WT: 7
+  TN: 3
+  MS: 8
+armor:
+  head: 2
+  torso: 7
+  arms: 4
+  legs: 4
+  md: 4
+  enc: 0
+inventory:
+  weapons:
+    - name: "Shortbow+2"
+      damage: "1d6+5"
+      hit: "Hit+11"
+    - name: "20× Arrow+1, light"
+      damage: "1d6+1"
+    - name: "Smallsword+1"
+      damage: "2d6+2"
+      hit: "Hit+13, Block+10|6"
+    - name: "Dagger+1"
+      damage: "2d6+1"
+      hit: "Hit+13, Block+10|6"
+  armor:
+    - name: "Leather Helmet"
+    - name: "Leather Armor+2"
+    - name: "Leather Gauntlets+1"
+    - name: "Leather Greaves+1"
+    - name: "Amulet+2"
+    - name: "Noxian Ring+1"
+    - name: "Ring+1"
+  misc:
+    - name: "Adventurer's Pack II"
+actions:
+  skills:
+    - "Precise Shot: Head"
+    - "Precise Shot: Legs"
+    - Multishot
+    - Aimed Shot
+    - Careful Shot
+    - Unpredictable Shot
+    - Hold Breath
+    - Camouflage
+    - Overwatch
+    - Counter
+  spells:
+    - Shadow Strike
+    - Shadow Coating
+    - Shadow Cloak
+    - Shadow Summoning
+    - Terror
+    - Wings of Night
+    - Shadow Step
+    - Substitution
+    - Shadow Run
+    - Blur
+    - Noxian Bargain
+  rituals: 
+    - Prayer to Nox
+proficiencies:
+  magic:
+    - "Nox: Intermediate"
+    - "[i]Night 5[/i]"
+  weapons:
+    - "Ranged: Intermediate"
+    - "[i]Shortbows 5[/i]"
+    - "Stabbing: Beginner"
+    - "[i]Swords 4[/i]"
+    - "[i]Daggers 4[/i]"
+  civilian:
+    - "Hunting 2"
+    - "Rites 1"
+    - "Stealing 3"
+    - "Stealth 4"
+    - "Survival 1"
+perks:
+  special:
+    - Dissonance
+    - Pursuit Hunter
+  
+  combat:
+    - On the Prowl
+    - David
+    - Forerunner
+    - Opportunist
+  
+  magic:
+    - Withering Shadows
+    - Focus I
