@@ -1,0 +1,99 @@
+name: Horde – Catfolk Duelist 20
+id: CatfolkDuelist20
+info:
+  species: Felis
+  level: 20
+  size: Medium
+  classes: [Fighter, Duelist]
+  tags: [–]
+notes: >
+  [br]135 SP Base
+  [br]+40 Bonus
+  [br]Rest 0
+
+attributes:
+  CON: [7, 3]
+  STR: [9, 4]
+  DEX: [12, 7]
+  INT: [4, 2]
+  WIL: [5, 2]
+  PER: [6, 3]
+values:
+  EN: 20
+  MP: 5
+  MPR: 2
+  WL: 4
+  WT: 7
+  TN: 3
+  MS: 8
+armor:
+  head: 2
+  torso: 7
+  arms: 4
+  legs: 4
+  md: 4
+  enc: 0
+inventory:
+  weapons:
+    - name: "Saber+2"
+      damage: "2d6+4"
+      hit: "Hit+15, Block+12|7"
+    - name: "Buckler"
+      damage: "1d4+1"
+      hit: "Hit+11, Block+11|7"
+    - name: "Knife"
+      damage: "2d6"
+      hit: "Hit+7, Block+6|6"
+  armor:
+    - name: "Leather Helmet"
+    - name: "Leather Armor+2"
+    - name: "Leather Gauntlets+1"
+    - name: "Leather Greaves+1"
+    - name: "Amulet+2"
+    - name: "Ring+1"
+    - name: "Ring+1"
+  misc:
+    - name: "Adventurer's Pack II"
+actions:
+  skills:
+    - "Stance: Parry"
+    - Double Stab
+    - Charge
+    - Careful Strike
+    - Feint
+    - Counter
+    - Leg Sweep
+    - Shove
+    - Aimed Strike
+    - Swift Parry
+    - Disarm
+  spells:
+    - ""
+  rituals: 
+    - ""
+proficiencies:
+  magic:
+    - ""
+  weapons:
+    - "Slashing: Adept"
+    - "[i]Swords 5[/i]"
+    - "Defensive: Beginner"
+    - "[i]Bucklers 4[/i]"
+  civilian:
+    - "[i]Athletics 3[/i]"
+    - "[i]Monster Lore 1[/i]"
+    - "[i]Warfare 2[/i]"
+perks:
+  special:
+    - Bloodline AGI
+    - "Tradition Stealth"
+  
+  combat:
+    - Lone Fighter
+    - Dancer
+    - Deflector
+    - Forerunner
+    - Opportunist
+  
+  magic:
+    - ""

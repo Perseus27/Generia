@@ -1,0 +1,102 @@
+name: Horde – Human Fighter 20
+id: HumanFighter20
+info:
+  species: Human
+  level: 20
+  size: Medium
+  classes: [Fighter, Swordfighter]
+  tags: [–]
+notes: >
+  [br]135 SP Base
+  [br]+40 Bonus
+  [br]Rest 0
+
+attributes:
+  CON: [10, 5]
+  STR: [11, 5]
+  DEX: [9, 4]
+  INT: [4, 2]
+  WIL: [4, 2]
+  PER: [4, 2]
+values:
+  EN: 25
+  MP: 5
+  MPR: 1
+  WL: 4
+  WT: 8
+  TN: 5
+  MS: 6
+armor:
+  head: 3
+  torso: 7
+  arms: 4
+  legs: 4
+  md: 4
+  enc: 0
+inventory:
+  weapons:
+    - name: "War Spear+2"
+      damage: "2d6+5|7"
+      hit: "Hit+10, Block+16|10"
+    - name: "Roundshield"
+      damage: "1d6+8"
+      hit: "Hit+2, Block+12|12"
+    - name: "Knife"
+      damage: "2d6"
+      hit: "Hit+4, Block+10|10"
+  armor:
+    - name: "Chain Helmet"
+    - name: "Chainmail+1"
+    - name: "Chain Gauntlets"
+    - name: "Chain Greaves"
+    - name: "Amulet+2"
+    - name: "Ring+1"
+    - name: "Ring+1"
+  misc:
+    - name: "Adventurer's Pack II"
+actions:
+  skills:
+    - "Stance: Attack"
+    - Whirl
+    - Mordhau
+    - Mighty Strike
+    - Bodycheck
+    - Disarm
+    - Aimed Strike
+    - Charge
+    - Swing
+    - Feint
+    - Counter
+    - Leg Sweep
+    - Shove
+  spells:
+    - ""
+  rituals: 
+    - ""
+proficiencies:
+  magic:
+    - ""
+  weapons:
+    - "Stabbing: Intermediate"
+    - "[i]Spears 6[/i]"
+    - "Defensive: Beginner"
+    - "[i]Roundshield 2[/i]"
+  civilian:
+    - "[i]Athletics 2[/i]"
+    - "[i]Monster Lore 1[/i]"
+    - "[i]Warfare 2[/i]"
+perks:
+  special:
+    - Efficient Metabolism
+    - Pursuit Hunter
+  
+  combat:
+    - Edge Alignment
+    - Goliath
+    - Conditioned I
+    - Forerunner
+    - Opportunist
+    - Sprinter
+  
+  magic:
+    - ""

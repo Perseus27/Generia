@@ -1,0 +1,100 @@
+name: Horde – Human Archer 20
+id: HumanArcher20
+info:
+  species: Human
+  level: 20
+  size: Medium
+  classes: [Archer, Hunter]
+  tags: [–]
+notes: >
+  [br]145 SP Base
+  [br]+40 Bonus
+  [br]Rest 0
+
+attributes:
+  CON: [7, 3]
+  STR: [11, 5]
+  DEX: [9, 4]
+  INT: [4, 2]
+  WIL: [5, 2]
+  PER: [8, 4]
+values:
+  EN: 20
+  MP: 5
+  MPR: 2
+  WL: 4
+  WT: 7
+  TN: 3
+  MS: 6
+armor:
+  head: 2
+  torso: 5
+  arms: 3
+  legs: 3
+  md: 4
+  enc: 0
+inventory:
+  weapons:
+    - name: "Riding Bow+2"
+      damage: "1d6+7"
+      hit: "Hit+11"
+      range: "0/0/-1, 20m"
+    - name: "20× Arrow+1, light"
+      damage: "1d6+1"
+    - name: "Saber+1"
+      damage: "2d6+3"
+      hit: "Hit+10, Block+12|8"
+    - name: "Knife"
+      damage: "2d6"
+      hit: "Hit+4, Block+8|8"
+  armor:
+    - name: "Leather Helmet"
+    - name: "Leather Armor"
+    - name: "Leather Gauntlets"
+    - name: "Leather Greaves"
+    - name: "Amulet+2"
+    - name: "Ring+1"
+    - name: "Ring+1"
+  misc:
+    - name: "Adventurer's Pack II"
+actions:
+  skills:
+    - Multishot
+    - "Technique: Second Wind"
+    - Camouflage
+    - Overwatch
+    - Hold Breath
+    - Dodge Reflex
+    - Careful Shot
+    - Unpredictable Shot
+    - Aimed Shot
+    - Counter
+  spells:
+    - ""
+  rituals: 
+    - ""
+proficiencies:
+  magic:
+    - ""
+  weapons:
+    - "Ranged: Intermediate"
+    - "[i]Shortbows 7[/i]"
+    - "Slashing: Intermediate"
+    - "[i]Swords 4[/i]"
+  civilian:
+    - "[i]Hunting 3[/i]"
+    - "[i]Riding 3[/i]"
+    - "[i]Survival 1[/i]"
+perks:
+  special:
+    - Efficient Metabolism
+    - Pursuit Hunter
+  
+  combat:
+    - On the Prowl
+    - Cavalry
+    - David
+    - Forerunner
+  
+  magic:
+    - Focus I

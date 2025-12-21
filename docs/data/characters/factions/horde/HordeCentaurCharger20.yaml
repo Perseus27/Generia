@@ -1,0 +1,102 @@
+name: Horde – Centaur Charger 20
+id: CentaurCharger20
+info:
+  species: Felis
+  level: 20
+  size: Large
+  classes: [Fighter, Swordfighter, Shieldbearer]
+  tags: [Large, Fast 2]
+notes: >
+  [br]130 SP Base
+  [br]+40 Bonus
+  [br]Rest 0
+
+attributes:
+  CON: [11, 5]
+  STR: [10, 6]
+  DEX: [8, 4]
+  INT: [4, 2]
+  WIL: [5, 2]
+  PER: [5, 2]
+values:
+  EN: 25
+  MP: 5
+  MPR: 2
+  WL: 6
+  WT: 9
+  TN: 5
+  MS: 8
+armor:
+  head: 5
+  torso: 9
+  arms: 6
+  legs: 6
+  md: 4
+  enc: 2
+inventory:
+  weapons:
+    - name: "War Spear+1"
+      damage: "2d6+7|10"
+      hit: "Hit+9, Block+16|11"
+    - name: "Roundshield+2"
+      damage: "1d6+12"
+      hit: "Hit+5, Block+16|15"
+    - name: "Knife"
+      damage: "2d6"
+      hit: "Hit+4, Block+11|11"
+  armor:
+    - name: "Plate Helmet"
+    - name: "Plate Armor+1"
+    - name: "Plate Gauntlets"
+    - name: "Plate Greaves"
+    - name: "Amulet+2"
+    - name: "Ring+1"
+    - name: "Ring+1"
+  misc:
+    - name: "Adventurer's Pack II"
+actions:
+  skills:
+    - Protect
+    - "Stance: Block"
+    - Mighty Strike
+    - Disarm
+    - Charge
+    - Feint
+    - Counter
+    - Leg Sweep
+    - Shove
+    - Aimed Strike
+    - Shield Bash
+    - Steady Block
+  spells:
+    - ""
+  rituals: 
+    - ""
+proficiencies:
+  magic:
+    - ""
+  weapons:
+    - "Stabbing: Intermediate"
+    - "[i]Spears 5[/i]"
+    - "Defensive: Intermediate"
+    - "[i]Roundshields 5[/i]"
+  civilian:
+    - "[i]Athletics 3[/i]"
+    - "[i]Monster Lore 1[/i]"
+    - "[i]Warfare 2[/i]"
+perks:
+  special:
+    - Bloodline STR
+    - "Tradition Athletics"
+  
+  combat:
+    - Edge Alignment
+    - Armor Familiarity I
+    - Armor Familiarity II
+    - Conditioned I
+    - Forerunner
+    - Juggernaut
+    - Opportunist
+  
+  magic:
+    - ""

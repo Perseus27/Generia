@@ -1,0 +1,107 @@
+name: Horde – Kitsune Monk 20
+id: KitsuneMonk20
+info:
+  species: Felis
+  level: 20
+  size: Medium
+  classes: [Marauder, Shaman, Monk]
+  tags: [–]
+notes: >
+  [br]135 SP Base
+  [br]+40 Bonus
+  [br]Rest 0
+
+attributes:
+  CON: [7, 3]
+  STR: [9, 4]
+  DEX: [11, 5]
+  INT: [5, 3]
+  WIL: [8, 4]
+  PER: [4, 2]
+values:
+  EN: 20
+  MP: 15
+  MPR: 3
+  WL: 5
+  WT: 7
+  TN: 3
+  MS: 8
+armor:
+  head: 3
+  torso: 7
+  arms: 5
+  legs: 4
+  md: 4
+  enc: 0
+inventory:
+  weapons:
+    - name: "Brass Knuckles+1"
+      damage: "1d8+7"
+      hit: "Hit+10, Block+12|7"
+    - name: "Battlestaff+1"
+      damage: "2d8+5"
+      hit: "Hit+8, Block+10|7"
+    - name: "Fist"
+      damage: "1d6+4"
+      hit: "Hit+10, Block+12|3"
+    - name: "Foot"
+      damage: "1d6+6"
+      hit: "Hit+7, Block+12|3"
+  armor:
+    - name: "Chain Helmet"
+    - name: "Chainmail+1"
+    - name: "Chain Gauntlets+1"
+    - name: "Chain Greaves"
+    - name: "Shaman Amulet+2"
+    - name: "Ring+1"
+    - name: "Ring+1"
+  misc:
+    - name: "Adventurer's Pack II"
+actions:
+  skills:
+    - Mighty Strike
+    - Charge
+    - Leg Sweep
+    - Careful Strike
+    - Counter
+    - Feint
+    - Disarm
+  spells:
+    - Inner World
+    - "Summon: Lesser Elemental"
+    - "Elemental Wrath +4"
+    - Low Stonewall
+    - "Lesser Elemental Favor"
+    - "Lesser Wave of Healing"
+    - "Lesser Elemental Guidance"
+  rituals: 
+    - Elemental Manipulation
+proficiencies:
+  magic:
+    - "Shaman: Beginner"
+    - "[i]Binding 5[/i]"
+  weapons:
+    - "Natural: Intermediate"
+    - "[i]Primitive 5[/i]"
+    - "Blunt: Beginner"
+    - "[i]Staffs 3[/i]"
+  civilian:
+    - "[i]Athletics 3[/i]"
+    - "[i]Rites 3[/i]"
+    - "[i]Survival 1[/i]"
+perks:
+  special:
+    - Bloodline INT
+    - "Tradition Arcana"
+  
+  combat:
+    - Deflector
+    - Forerunner
+    - Opportunist
+    - Pugilist
+  
+  magic:
+    - Spiritual Resilience
+    - Astral Body I
+    - Battle Meditation
+    - Focus I

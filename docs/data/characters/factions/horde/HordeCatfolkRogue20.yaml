@@ -1,0 +1,111 @@
+name: Horde – Catfolk Rogue 20
+id: CatfolkRogue20
+info:
+  species: Felis
+  level: 20
+  size: Medium
+  classes: [Nox, Fighter, Duelist, Hand of Nox]
+  tags: [–]
+notes: >
+  [br]140 SP Base
+  [br]+40 Bonus
+  [br]Rest 2
+
+attributes:
+  CON: [7, 3]
+  STR: [6, 3]
+  DEX: [11, 6]
+  INT: [5, 2]
+  WIL: [5, 2]
+  PER: [10, 5]
+values:
+  EN: 15
+  MP: 10
+  MPR: 2
+  WL: 4
+  WT: 7
+  TN: 3
+  MS: 8
+armor:
+  head: 2
+  torso: 6
+  arms: 3
+  legs: 3
+  md: 4
+  enc: 0
+inventory:
+  weapons:
+    - name: "Smallsword+2"
+      damage: "2d6+3"
+      hit: "Hit+13, Block+10|6"
+    - name: "Dagger+2"
+      damage: "2d6+2"
+      hit: "Hit+13, Block+10|6"
+    - name: "Throwing Knife"
+      damage: "2d4+2"
+      hit: "Hit+10"
+    - name: "Knife"
+      damage: "2d6"
+      hit: "Hit+10, Block+6|6"
+  armor:
+    - name: "Leather Helmet"
+    - name: "Leather Armor+1"
+    - name: "Leather Gauntlets"
+    - name: "Leather Greaves"
+    - name: "Amulet+2"
+    - name: "Noxian Ring+1"
+    - name: "Ring+1"
+  misc:
+    - name: "Adventurer's Pack II"
+actions:
+  skills:
+    - Double Stab
+    - Aimed Strike
+    - Charge
+    - Feint
+    - Leg Sweep
+    - Shove
+    - Swift Parry
+    - Counter
+    - Disarm
+    - Pocket Sand
+  spells:
+    - Shadow Strike
+    - Shadow Coating
+    - Shadow Cloak
+    - Shadow Knives
+    - Shadow Summoning
+    - Terror
+    - Shadow Step
+    - Shadow Run
+    - Blur
+    - Noxian Bargain
+  rituals: 
+    - Prayer to Nox
+proficiencies:
+  magic:
+    - Nox: Intermediate
+    - "[i]Night 5[/i]"
+  weapons:
+    - "Stabbing: Intermediate"
+    - "[i]Swords 4[/i]"
+    - "[i]Daggers 4[/i]"
+    - "Throwing: Beginner"
+    - "Defensive: Beginner"
+  civilian:
+    - "[i]Monster Lore 1[/i]"
+    - "[i]Rites 1[/i]"
+    - "[i]Stealing 2[/i]"
+    - "[i]Stealth 3[/i]"
+    - "[i]Warfare 2[/i]"
+perks:
+  special:
+    - Bloodline AGI
+    - "Tradition Stealth"
+  
+  combat:
+    - Lone Fighter
+    - Opportunist
+  
+  magic:
+    - Withering Shadow

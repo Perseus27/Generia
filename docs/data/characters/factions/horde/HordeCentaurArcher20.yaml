@@ -1,0 +1,105 @@
+name: Horde – Centaur Archer 20
+id: CentaurArcher20
+info:
+  species: Felis
+  level: 20
+  size: Large
+  classes: [Archer, Fighter, Field Archer]
+  tags: [Large, Fast 2]
+notes: >
+  [br]135 SP Base
+  [br]+30 Bonus
+  [br]Rest 0
+
+attributes:
+  CON: [10, 5]
+  STR: [10, 6]
+  DEX: [8, 4]
+  INT: [4, 2]
+  WIL: [5, 2]
+  PER: [7, 3]
+values:
+  EN: 25
+  MP: 5
+  MPR: 2
+  WL: 6
+  WT: 8
+  TN: 5
+  MS: 8
+armor:
+  head: 3
+  torso: 7
+  arms: 4
+  legs: 4
+  md: 4
+  enc: 0
+inventory:
+  weapons:
+    - name: "Warbow+2"
+      damage: "1d8+8"
+      hit: "Hit+10"
+      range: "-2/0/0, 28m"
+    - name: "20× Arrow+1, heavy"
+      damage: "1d8+1"
+    - name: "Broadsword+1"
+      damage: "2d6+7"
+      hit: "Hit+8, Block+15|11"
+    - name: "Knife"
+      damage: "2d6"
+      hit: "Hit+4, Block+11|11"
+  armor:
+    - name: "Chain Helmet"
+    - name: "Chainmail+1"
+    - name: "Chain Gauntlets"
+    - name: "Chain Greaves"
+    - name: "Amulet+2"
+    - name: "Ring+1"
+    - name: "Ring+1"
+  misc:
+    - name: "Adventurer's Pack II"
+actions:
+  skills:
+    - Mighty Shot
+    - "Stance: Dodge"
+    - "Technique: Second Wind"
+    - Multishot
+    - Hold Breath
+    - Overwatch
+    - Dodge Reflex
+    - Careful Shot
+    - Unpredictable Shot
+    - Aimed Shot
+    - Counter
+    - Charge
+    - Feint
+    - Leg Sweep
+    - Shove
+  spells:
+    - ""
+  rituals: 
+    - ""
+proficiencies:
+  magic:
+    - ""
+  weapons:
+    - "Ranged: Intermediate"
+    - "[i]Longbows 6[/i]"
+    - "Slashing: Intermediate"
+    - "[i]Swords 4[/i]"
+    - "Defensive: Beginner"
+  civilian:
+    - "[i]Hunting 1[/i]"
+    - "[i]Monster Lore 1[/i]"
+    - "[i]Warfare 2[/i]"
+perks:
+  special:
+    - Bloodline STR
+    - "Tradition Athletics"
+  
+  combat:
+    - David
+    - Conditioned I
+    - Forerunner
+  
+  magic:
+    - ""

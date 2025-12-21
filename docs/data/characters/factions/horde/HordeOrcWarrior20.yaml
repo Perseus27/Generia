@@ -1,0 +1,102 @@
+name: Horde – Orc Warrior 20
+id: OrcWarrior20
+info:
+  species: Orc
+  level: 20
+  size: Medium
+  classes: [Fighter, Swordfighter, Shieldbearer]
+  tags: [–]
+notes: >
+  [br]130 SP Base
+  [br]+40 Bonus
+  [br]Rest 0
+
+attributes:
+  CON: [11, 5]
+  STR: [10, 5]
+  DEX: [8, 4]
+  INT: [4, 2]
+  WIL: [5, 2]
+  PER: [5, 2]
+values:
+  EN: 25
+  MP: 5
+  MPR: 2
+  WL: 4
+  WT: 9
+  TN: 5
+  MS: 6
+armor:
+  head: 5
+  torso: 9
+  arms: 6
+  legs: 6
+  md: 4
+  enc: 2
+inventory:
+  weapons:
+    - name: "Bastard Sword+1"
+      damage: "2d6+6|8"
+      hit: "Hit+9, Block+15|10"
+    - name: "Roundshield+2"
+      damage: "1d6+10"
+      hit: "Hit+5, Block+15|14"
+    - name: "Knife"
+      damage: "2d6"
+      hit: "Hit+4, Block+10|10"
+  armor:
+    - name: "Plate Helmet"
+    - name: "Plate Armor+1"
+    - name: "Plate Gauntlets"
+    - name: "Plate Greaves"
+    - name: "Amulet+2"
+    - name: "Ring+1"
+    - name: "Ring+1"
+  misc:
+    - name: "Adventurer's Pack II"
+actions:
+  skills:
+    - Protect
+    - "Stance: Block"
+    - Mighty Strike
+    - Disarm
+    - Charge
+    - Feint
+    - Counter
+    - Leg Sweep
+    - Shove
+    - Aimed Strike
+    - Shield Bash
+    - Steady Block
+  spells:
+    - ""
+  rituals: 
+    - ""
+proficiencies:
+  magic:
+    - ""
+  weapons:
+    - "Slashing: Intermediate"
+    - "[i]Swords 5[/i]"
+    - "Defensive: Intermediate"
+    - "[i]Roundshields 5[/i]"
+  civilian:
+    - "[i]Athletics 3[/i]"
+    - "[i]Monster Lore 1[/i]"
+    - "[i]Warfare 2[/i]"
+perks:
+  special:
+    - Indomitable
+    - Stalwart
+  
+  combat:
+    - Edge Alignment
+    - Armor Familiarity I
+    - Armor Familiarity II
+    - Conditioned I
+    - Forerunner
+    - Juggernaut
+    - Opportunist
+  
+  magic:
+    - ""
