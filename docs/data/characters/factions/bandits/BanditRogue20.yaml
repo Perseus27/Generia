@@ -1,0 +1,95 @@
+name: Bandit – Rogue 20
+id: Rogue20
+info:
+  species: [Felis, Human]
+  level: 20
+  size: Medium
+  classes: [Nox, Fighter]
+  tags: [–]
+notes: >
+  [br]85 SP Base
+  [br]+60 Bonus
+  [br]REST 0
+
+attributes:
+  CON: [4, 2]
+  STR: [6, 3]
+  DEX: [10, 5]
+  INT: [7, 3]
+  WIL: [5, 2]
+  PER: [8, 4]
+values:
+  EN: 10
+  MP: 20
+  MPR: 3
+  WL: 6
+  WT: 5
+  TN: 3
+  MS: 6
+armor:
+  head: 0
+  torso: 3
+  arms: 1
+  legs: 0
+  md: 1
+  enc: 0
+inventory:
+  weapons:
+    - name: "Smallsword"
+      damage: "2d6+3"
+      hit: "Hit+14, Block+8|4"
+    - name: "Dagger"
+      damage: "2d6"
+      hit: "Hit+14, Block+8|4"
+    - name: "Throwing Knife"
+      damage: "2d4+4"
+      hit: "Hit+12"
+    - name: "Knife"
+      damage: "2d6"
+      hit: "Hit+12, Block+8|4"
+  armor:
+    - name: "Padded Armor-1"
+    - name: "Cloth Gauntlets"
+    - name: "Noxian Ring +3"
+  misc:
+    - name: "Adventurer's Pack I"
+actions:
+  skills:
+    - Charge
+    - Feint
+    - Leg Sweep
+    - Shove
+  spells:
+    - Shadow Strike
+    - Shadow Cloak
+    - Shadow Knives
+    - Shadow Summoning
+    - Blur
+  rituals: 
+    - Prayer to Nox
+proficiencies:
+  magic:
+    - "Nox: Advanced"
+    - "[i]Night 5[/i]"
+  weapons:
+    - "Stabbing: Advanced"
+    - "[i]Swords 6[/i]"
+    - "[i]Daggers 6[/i]"
+    - "Ranged: Beginner"
+    - "Defensive: Beginner"
+  civilian:
+    - "[i]Monster Lore 1[/i]"
+    - "[i]Rites 1[/i]"
+    - "[i]Stealing 4[/i]"
+    - "[i]Stealth 5[/i]"
+    - "[i]Warfare 2[/i]"
+perks:
+  special:
+    - Pursuit Hunter
+    - Tradition [i]Stealth[/i]
+  
+  combat:
+    - Opportunist
+  
+  magic:
+    - ""
