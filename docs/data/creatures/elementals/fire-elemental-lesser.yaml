@@ -29,7 +29,7 @@ armor:
   torso: 0
   arms: 0
   legs: 0
-  md: 4
+  md: 2
   enc: 0
 loot:
   - Elemental Core, lesser
@@ -37,7 +37,7 @@ actions:
   active:
     - name: Fire Shot
       type: Projectile
-      hit: "[section:clr-pa]PA+4[/section], 20m"
+      hit: "[section:clr-pa]PA+3[/section], 20m"
       damage: 2d4+1 Fire
       cost: "[section:clr-mp]2 MP[/section]"
   passive:
@@ -45,6 +45,10 @@ actions:
       type: Passive
       effect: >
         Fire [section:clr-value]+1[/section]
+    - name: Will of the World
+      type: Passive
+      effect: >
+        MD is increased by [section:clr-attr]WIL-MOD[/section].
     - name: Living Mana
       type: Passive
       effect: >

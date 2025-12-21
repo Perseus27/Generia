@@ -29,7 +29,7 @@ armor:
   torso: 0
   arms: 0
   legs: 0
-  md: 0
+  md: 1
   enc: 0
 loot:
   - Elemental Core, lesser
@@ -38,7 +38,7 @@ actions:
     - name: Wind Shot
       type: Projectile
       hit: "[section:clr-pa]PA+2[/section], 20m"
-      damage: 2d4 Air
+      damage: 2d4+1 Air
       cost: "[section:clr-mp]2 MP[/section]"
     - name: Turbulence
       type: Reaction, 20m
@@ -46,14 +46,14 @@ actions:
         Lowers the attack value of one projectile by 1.
       cost: "[section:clr-mp]1 MP[/section]"
   passive:
-    - name: Ethereal
+    - name: Proficiencies
       type: Passive
       effect: >
-        Resistant against Physical damage.
-    - name: Elemental (Air)
+        Air [section:clr-value]+1[/section]
+    - name: Will of the World
       type: Passive
       effect: >
-        Immune to Air damage.
+        MD is increased by [section:clr-attr]WIL-MOD[/section].
     - name: Living Mana
       type: Passive
       effect: >

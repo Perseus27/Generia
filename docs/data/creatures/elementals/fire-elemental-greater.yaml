@@ -29,7 +29,7 @@ armor:
   torso: 0
   arms: 0
   legs: 0
-  md: 0
+  md: 6
   enc: 0
 loot:
   - Elemental Core, greater
@@ -38,32 +38,32 @@ actions:
     - name: Fire Shot
       type: Projectile
       hit: "[section:clr-pa]PA+11[/section], 20m"
-      damage: 2d8 Fire
+      damage: 2d8+5 Fire
       cost: "[section:clr-mp]2 MP[/section]"
     - name: Fire Nova
       type: AoE, 4m
-      hit: "[section:clr-sa]SA+6[/section]"
-      damage: 4d4 Fire
+      hit: "[section:clr-sa]SA+11[/section]"
+      damage: 4d4+2 Fire
       cost: "[section:clr-mp]4 MP[/section]"
-      save: "Save AGI: Damage halved. Save+10: No effect."
+      save: "[b]Save [section:clr-attr]DEX[/section]/+10[/b]: Damage halved/No effect."
     - name: Enflame
       type: Reaction
       effect: >
-        On hit: Immediately triggers all Burning stacks on all targets hit.
+        On [url:def#Hit]hit[/url]: Immediately triggers all [url:status#Burning]Burning[/url] stacks on all targets hit.
       cost: "[section:clr-mp]2 MP[/section]"
   passive:
-    - name: Ethereal
+    - name: Proficiencies
       type: Passive
       effect: >
-        Resistant against Physical damage.
-    - name: Elemental (Fire)
+        Fire [section:clr-value]+5[/section]
+    - name: Will of the World
       type: Passive
       effect: >
-        Immune to Fire damage.
+        MD is increased by [section:clr-attr]WIL-MOD[/section].
     - name: Living Mana
       type: Passive
       effect: >
         Regenerates [[section:clr-value]MPR[/section]] [section:clr-mp]MP[/section] at the beginning of each turn.
     - name: Burning Aura III
       type: Passive, 2m AoE, Zone
-      damage: 4d4 Fire
+      damage: 4d4+2 Fire

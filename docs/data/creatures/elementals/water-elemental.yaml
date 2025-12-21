@@ -29,7 +29,7 @@ armor:
   torso: 0
   arms: 0
   legs: 0
-  md: 0
+  md: 2
   enc: 0
 loot:
   - Elemental Core, normal
@@ -37,23 +37,32 @@ actions:
   active:
     - name: Water Whip
       type: Melee, 4m
-      hit: "Hit+8, Block+5|5"
-      damage: 2d6+2 Sharp
+      hit: "Hit+9, Block+8|5"
+      damage: 2d6+1 Sharp
     - name: Flowing Counter
-      type: Reaction, Defensive
+      type: Reaction
       effect: >
         Can counter with Water Whip after a successful parry.
       cost: "[section:clr-en]1 EN[/section]"
     - name: Healing Tentacle
       type: Utility, 4m
       effect: >
-        Target gains Regeneration 1.
+        Target gains [url:status#Regeneration]Regeneration 1[/url].
         The Elemental takes one wound.
   passive:
-    - name: Elemental (Water)
+    - name: Proficiencies
       type: Passive
       effect: >
-        Parries are eased by [[section:clr-attr]AGI-MOD[/section]].
+        Water [section:clr-value]+3[/section]
+        Primitive [section:clr-value]+3[/section]
+    - name: Be like Water
+      type: Passive
+      effect: >
+        Parries are eased by [section:clr-attr]AGI-MOD[/section].
+    - name: Will of the World
+      type: Passive
+      effect: >
+        MD is increased by [section:clr-attr]WIL-MOD[/section].
     - name: Living Mana
       type: Passive
       effect: >
