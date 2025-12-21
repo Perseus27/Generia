@@ -38,6 +38,11 @@ The creature is immune to [url:status]mental status effects[/url] and [url:wound
 [/container]
 
 [container:orgblock]
+[h4|Miniboss]Miniboss[/h4]
+Slaying this creature awards twice the experience points.
+[/container]
+
+[container:orgblock]
 [h4|Reflexes]Reflexes X[/h4]
 [url:def#Block]Block[/url], [url:def#Dodge]Dodge[/url], and [url:def#Parry]Parry[/url] rolls are [url:core#Eased]eased[/url] (or, in case of negative [section:clr-value]X[/section], [url:core#Hindered]hindered[/url]) by [section:clr-value]X[/section].
 [/container]

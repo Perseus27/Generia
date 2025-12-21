@@ -31,6 +31,9 @@ content:
   - name: Construct
     id: Construct
 
+  - name: Miniboss
+    id: Miniboss
+
   - name: Reflexes
     id: Reflexes
 
