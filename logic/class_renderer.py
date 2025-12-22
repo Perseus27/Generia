@@ -122,9 +122,10 @@ class Class_Renderer:
         
 
     def format_class_card(self, c):
+        cid = c.get("id")
         result = f"[container:class-card]"
         # header
-        result += f"[container:class-card-header][h2][url:{c.get('prefix')}/{c.get('id')}]{c.get('name')}[/url][/h2][/container]"
+        result += f"[container:class-card-header][h2|{cid}][url:{c.get('prefix')}/{cid}]{c.get('name')}[/url][/h2][/container]"
         # body
         result += f"[container:class-card-body]"
         # description
