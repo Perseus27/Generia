@@ -46,8 +46,8 @@ actions:
       damage: 3d4+4 Sharp
     - name: Twitch
       type: Reaction
-      effect: >
-        Reroll the hit zone die once during a [url:def#MeleeAttack]melee attack[/url].
+      effect:
+        - Reroll the hit zone die once during a [url:def#MeleeAttack]melee attack[/url].
       cost: "[section:clr-en]1 EN[/section]"
   passive:
     - name: Perks
@@ -61,9 +61,9 @@ actions:
         - Shields [section:clr-value]+1[/section]
     - name: Bloodthirsty
       type: Passive
-      effect: >
-        Gains [url:core#Advantage]Advantage 1[/url] on [i]Bite[/i] against [url:status#Bleeding]bleeding[/url] targets.
+      effect:
+        - Gains [url:core#Advantage]Advantage 1[/url] on [i]Bite[/i] against [url:status#Bleeding]bleeding[/url] targets.
     - name: Carnivore
       type: Passive
-      effect: >
-        Gains [url:status#Regeneration]Regeneration 1[/url] upon causing a wound with [i]Bite[/i].
+      effect:
+        - Gains [url:status#Regeneration]Regeneration 1[/url] upon causing a wound with [i]Bite[/i].

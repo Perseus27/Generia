@@ -1,5 +1,5 @@
-name: Gnoll Hunter 10
-id: gnoll-hunter-10
+name: Gnoll Scourge 10
+id: gnoll-scourge-10
 info:
   species: Gnoll
   level: 10
@@ -35,23 +35,19 @@ loot:
   - Monster Core, lesser
 actions:
   active:
-    - name: Bow
-      type: Ranged Attack
-      hit: "Hit+6, -1/0/0, 20m"
-      damage: 1d6+1d4+3 Arrow
-      skills: [Careful Shot, Aimed Shot]
-    - name: Spear
-      type: Melee Attack
-      hit: "Hit+5, Block+6|6"
+    - name: Whip
+      type: Melee Attack, Long
+      hit: "Hit+6"
       damage: 2d6+3 Sharp
+      skills: [Feint, Counter]
     - name: Bite
       type: Melee Attack
       hit: "Hit+8"
       damage: 3d4+3 Sharp
     - name: Twitch
       type: Reaction
-      effect: >
-        Reroll the hit zone die once during a [url:def#MeleeAttack]melee attack[/url].
+      effect:
+        - Reroll the hit zone die once during a [url:def#MeleeAttack]melee attack[/url].
       cost: "[section:clr-en]1 EN[/section]"
   passive:
     - name: Perks
@@ -61,13 +57,12 @@ actions:
       type: Passive
       effect:
         - Primitive [section:clr-value]+4[/section]
-        - Bows [section:clr-value]+2[/section]
-        - Polearms [section:clr-value]+1[/section]
+        - Whips [section:clr-value]+2[/section]
     - name: Bloodthirsty
       type: Passive
-      effect: >
-        Gains [url:core#Advantage]Advantage 1[/url] on [i]Bite[/i] against [url:status#Bleeding]bleeding[/url] targets.
+      effect:
+        - Gains [url:core#Advantage]Advantage 1[/url] on [i]Bite[/i] against [url:status#Bleeding]bleeding[/url] targets.
     - name: Carnivore
       type: Passive
-      effect: >
-        Gains [url:status#Regeneration]Regeneration 1[/url] upon causing a wound with [i]Bite[/i].
+      effect:
+        - Gains [url:status#Regeneration]Regeneration 1[/url] upon causing a wound with [i]Bite[/i].
