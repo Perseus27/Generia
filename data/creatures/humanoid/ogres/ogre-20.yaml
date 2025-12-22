@@ -1,0 +1,80 @@
+name: Young Ogre
+id: ogre-20
+info:
+  species: Ogre
+  level: 20
+  size: Large
+  tags: [Miniboss, [Reflexes, -10], [Resistance, Physical (Torso)], [Tough, 1], [Vulnerability, Lightning]]
+notes: >
+  A large, humanoid monster with little intellect, but considerable power.
+
+attributes:
+  CON: ["13", "6"]
+  STR: ["12", "6"]
+  DEX: ["6", "3"]
+  INT: ["1", "0"]
+  WIL: ["3", "1"]
+  PER: ["2", "1"]
+values:
+  EN: 20
+  MP: 5
+  MPR: 1
+  WL: 6
+  WT: 10
+  TN: 5
+  MS: 4
+armor:
+  head: 0
+  torso: 3
+  arms: 2
+  legs: 2
+  md: 1
+  enc: 0
+loot:
+  - Ogre Amulet+1
+  - Monster Core, normal
+actions:
+  active:
+    - name: Huge Club
+      type: Melee Attack
+      hit: "Hit+5, Block+6|12"
+      damage: 2d8+9 Blunt
+    - name: Ogre Fist
+      type: Melee Attack
+      hit: "Hit+5, Block+6|6"
+      damage: 1d8+9 Blunt
+    - name: Squash
+      type: Melee Attack
+      hit: "Hit+5"
+      damage: 4d8+9 Blunt
+      effect:
+        - "Only againt [url:status#Prone]prone[/url] targets."
+    - name: Stomp
+      type: Utility, Radius 4m
+      hit: "[section:clr-dc]DC 16[/section]"
+      effect:
+        - Smaller creatures nearby [url:status#OffBalance]lose balance[/url].
+      save: "[b]Save [section:clr-attr]DEX[/section]:[/b] No effect."
+      cost: "[section:clr-en]2 EN[/section]"
+    - name: Roar
+      type: Utility, Radius 12m
+      hit: "[section:clr-dc]DC 16[/section]"
+      effect:
+        - [url:status#Frightened]Frightened[/url].
+      save: "[b]Save [section:clr-attr]WIL[/section]:[/b] No effect."
+      cost: "[section:clr-en]2 EN[/section]"
+  passive:
+    - name: Proficiencies
+      type: Passive
+      effect:
+        - Primitive [section:clr-value]+4[/section]
+        - Maces [section:clr-value]+4[/section]
+    - name: Impact
+      type: Passive
+      hit: "[section:clr-dc]DC 16[/section]"
+      effect:
+        - "On melee [url:def#Hit]hit[/url] against a smaller target:"
+        - Target [url:status#OffBalance]loses balance[/url].
+        - "If already off-balance: [url:status#Knockback]Knockback 6[/url] into [section:clr-status#Prone]Prone[/section]."
+      save: "[b]Save [section:clr-attr]STR[/section]/[section:clr-attr]DEX[/section]:[/b] No effect."
+

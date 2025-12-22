@@ -35,7 +35,7 @@ loot:
   - "[section:clr-roll-noex]1d4[/section] Poison, normal"
   - "[section:clr-roll-noex]1d4[/section] Goblin Healing Potion+2, small"
   - Goblin Amulet+1
-  - Monster Core, weak
+  - Monster Core, lesser
 actions:
   active:
     - name: Spear

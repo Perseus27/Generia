@@ -66,7 +66,7 @@ actions:
       type: Passive
       effect:
         - Primitive [section:clr-value]+4[/section]
-        - Sorcery [section:clr-value]+2[/section]
+        - Sorcery [section:clr-value]+2[/section] ([section:clr-attr]PER[/section])
     - name: Bloodthirsty
       type: Passive
       effect:

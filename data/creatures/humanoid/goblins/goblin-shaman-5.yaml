@@ -34,7 +34,7 @@ loot:
   - "[section:clr-roll-noex]1d4[/section] Goblin Mana Potion+1, small"
   - "[section:clr-roll-noex]1d4[/section] Goblin Healing Potion+1, small"
   - Goblin Amulet+2
-  - Monster Core, weak
+  - Monster Core, lesser
 actions:
   active:
     - name: Shaman Spear
