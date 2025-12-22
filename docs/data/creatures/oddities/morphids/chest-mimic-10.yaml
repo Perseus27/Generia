@@ -1,0 +1,87 @@
+name: Chest Mimic, Green
+id: chest-mimic-10
+info:
+  species: Morphid
+  level: 20
+  size: Large
+  tags: [Miniboss, [Resistance, Sharp (Torso)], [Tough, 1], [Vulnerability, Fire/Ice]]
+notes: >
+  An ambush hunter with a taste for adventurers.
+
+attributes:
+  CON: ["7", "3"]
+  STR: ["6", "3"]
+  DEX: ["7", "3"]
+  INT: ["3", "1"]
+  WIL: ["3", "1"]
+  PER: ["4", "2"]
+values:
+  EN: 15
+  MP: 5
+  MPR: 2
+  WL: 6
+  WT: 7
+  TN: 4
+  MS: 6
+armor:
+  head: 1
+  torso: 3
+  arms: 2
+  legs: 2
+  md: 1
+  enc: 0
+loot:
+  - Eaten Gear?
+  - Monster Core, lesser
+actions:
+  active:
+    - name: Teeth
+      type: Melee Attack
+      hit: "Hit+5"
+      damage: 3d6+3 Sharp
+    - name: Tentacle Slap
+      type: Melee Attack, Range 4m
+      hit: "Hit+5, Block+8|3"
+      damage: 2d8+3 Blunt
+    - name: Double Slap
+      type: Melee Attack
+      effect:
+        - Executes two [i]Tentacle Slaps[/i] against different targets.
+    - name: Harden
+      type: Reaction
+      effect:
+        - Tentacle [url:values#BlockStrength]Block Strength[/url] is doubled until the end of this turn.
+      cost: "[section:clr-en]1 EN[/section]"
+    - name: Tentacle Grab
+      type: Reaction
+      hit: "[section:clr-dc]DC 13[/section]"
+      effect:
+        - "After tentacle [url:def#Hit]hit[/url] or Block: Target is [url:status#Restrained]restrained[/url]."
+      save: "[b]Save [section:clr-attr]STR[/section]:[/b] No effect."
+      cost: "[section:clr-en]1 EN[/section]"
+    - name: Tentacle Pull
+      type: Utility, Radius 4m
+      hit: "[section:clr-dc]DC 13[/section]"
+      effect:
+        - Moves a [url:status#Restrained]restrained[/url] target up to [section:clr-value]3m[/section] in any direction within the radius.
+      save: "[b]Save [section:clr-attr]STR[/section]/+10:[/b] Range halved/No effect."
+      cost: "[section:clr-en]2 EN[/section]"
+    - name: Morphosis
+      type: Out of Combat
+      effect:
+        - Takes the form of any object roughly the size of a treasure chest.
+  passive:
+    - name: Proficiencies
+      type: Passive
+      effect:
+        - Primitive [section:clr-value]+2[/section]
+        - "Tentacles: 2"
+    - name: Exoskeleton
+      type: Passive
+      effect:
+        - AV is increased by [section:clr-attr]CON-MOD[/section].
+    - name: Will of the World
+      type: Passive
+      effect:
+        - MD is increased by [section:clr-attr]WIL-MOD[/section].
+

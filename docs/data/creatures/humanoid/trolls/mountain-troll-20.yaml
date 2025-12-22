@@ -1,0 +1,86 @@
+name: Mountain Troll 20
+id: mountain-troll-20
+info:
+  species: Troll
+  level: 20
+  size: Large
+  tags: [Miniboss, [Resistance, Poison], [Vulnerability, Fire]]
+notes: >
+  
+
+attributes:
+  CON: ["9", "4"]
+  STR: ["10", "5"]
+  DEX: ["10", "5"]
+  INT: ["5", "2"]
+  WIL: ["5", "2"]
+  PER: ["5", "2"]
+values:
+  EN: 20
+  MP: 10
+  MPR: 2
+  WL: 6
+  WT: 8
+  TN: 3
+  MS: 6
+armor:
+  head: 0
+  torso: 3
+  arms: 2
+  legs: 1
+  md: 2
+  enc: 0
+loot:
+  - Troll Amulet+2
+  - "[section:clr-roll-noex]1d4[/section] Troll Glands"
+  - Monster Core, normal
+actions:
+  active:
+    - name: Claws
+      type: Melee Attack
+      hit: "Hit+9, Block+13|4"
+      damage: 2d6+5 Sharp
+    - name: Poison Claws
+      type: Reaction
+      hit: "[section:clr-dc]DC 14[/section]"
+      effect:
+        - "On [i]Claw[/i] hit: [url:status#Poisoned]Poisoned 2[/url]"
+      save: "[b]Save [section:clr-attr]CON[/section]/+10:[/b] [url:status#Poisoned]Poisoned 1[/url]/No effect."
+      cost: "[section:clr-en]1 EN[/section]"
+    - name: Poison Spit
+      type: Utility, Range 4m
+      hit: "[section:clr-dc]DC 14[/section]"
+      effect:
+        - "[url:status#Poisoned]Poisoned 2[/url]"
+      save: "[b]Save [section:clr-attr]CON[/section]/+10:[/b] [url:status#Poisoned]Poisoned 1[/url]/No effect."
+      cost: "[section:clr-en]1 EN[/section]"
+    - name: Stone Shot
+      type: Projectile Attack, Range 20m
+      hit: "[section:clr-pa]PA +6[/section]"
+      damage: 1d10+6 Blunt
+      effect:
+        - May cast up to [section:clr-value]4[/section] at once.
+      cost: [section:clr-mp]1 MP[/section] per stone.
+    - name: Earthquake
+      type: Utility, Range 12m, Radius 4m
+      hit: "[section:clr-dc]DC 16[/section]"
+      effect:
+        - Creatures in the area go [url:status#Prone]prone[/url].
+      save: "[b]Save [section:clr-attr]DEX[/section]/+10:[/b] [url:status#OffBalance]Off-Balance[/url]/No effect."
+      cost: "[section:clr-mp]2 MP[/section]"
+    - name: Stoneskin
+      type: Utility, Concentration
+      effect:
+        WT increased by [section:clr-value]4[/section].
+      cost: [section:clr-mp]1 MP[/section]
+  passive:
+    - name: Proficiencies
+      type: Passive
+      effect:
+        - Primitive [section:clr-value]+4[/section]
+        - Stone [section:clr-value]+4[/section] ([section:clr-attr]PER[/section])
+    - name: Troll Regeneration
+      type: Passive
+      effect:
+        - Permanent [url:status#Regeneration]Regeneration 3[/url].
+        - Inactive while [url:status#Burning]Burning[/url].
