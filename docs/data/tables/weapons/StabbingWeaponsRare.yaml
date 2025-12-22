@@ -1,85 +1,94 @@
-name: "Stabbing Weapons - Rare"
-id: "StabbingWeaponsRare"
-table_type: "weapon-table weapon-table-melee"
-
+name: Stabbing Weapons - Rare
+id: StabbingWeaponsRare
+table_type: weapon-table weapon-table-melee
 headers:
-  - "Name"
-  - "Type"
-  - "Damage"
-  - "Skill"
-  - "DEX"
-  - "STR"
-  - "Weight"
-  - "Size"
-  - "Tags"
-
+- Name
+- Type
+- Damage
+- Skill
+- DEX
+- STR
+- Weight
+- Size
+- Tags
 items:
-  - name: "Parrying Dagger"
-    type: "Dagger"
-    damage: "[section:clr-roll]2d6[/section] Sharp"
-    skill: "[url:skillsW#Butcher]Butcher[/url]"
-    hr: 1.5
-    dr: 0.0
-    weight: 0.5
-    size: "4x1"
-    tags: "[url:eqtags#Complex]Complex[/url], [url:eqtags#Parry]Parry[/url]"
-
-  - name: "Stiletto"
-    type: "Dagger"
-    damage: "[section:clr-roll]2d6[/section] Sharp"
-    skill: "[url:skillsW#Pierce]Pierce[/url]"
-    hr: 1.5
-    dr: 0.0
-    weight: 0.25
-    size: "4x1"
-    tags: "[url:eqtags#Precise]Precise[/url], [url:eqtags#Short]Short[/url]"
-
-  - name: "Glaive"
-    type: "Polearm"
-    damage: "[section:clr-roll]2d8[/section] Sharp"
-    skill: "[url:skillsW#Maim]Maim[/url]"
-    hr: 1.5
-    dr: 0.5
-    weight: 3
-    size: "24x2"
-    tags: "[url:eqtags#Cavalry]Cavalry[/url], [url:eqtags#Complex]Complex[/url], [url:eqtags#Long]Long[/url], [url:eqtags#TwoHanded]Two-Handed[/url]"
-
-  - name: "Lance"
-    type: "Polearm"
-    damage: "[section:clr-roll]2d8[/section] Sharp"
-    skill: "[url:skillsW#Pierce]Pierce[/url]"
-    hr: 0.5
-    dr: 1.5
-    weight: 2
-    size: "26x1"
-    tags: "[url:eqtags#Cavalry]Cavalry[/url], [url:eqtags#Long]Long[/url], [url:eqtags#TwoHanded]Two-Handed[/url]"
-
-  - name: "Naginata"
-    type: "Polearm"
-    damage: "[section:clr-roll]2d8[/section] Sharp"
-    skill: "[url:skillsW#Cut]Cut[/url]"
-    hr: 1.0
-    dr: 1.0
-    weight: 3
-    size: "24x2"
-    tags: "[url:eqtags#Complex]Complex[/url], [url:eqtags#Long]Long[/url], [url:eqtags#TwoHanded]Two-Handed[/url]"
-
-  - name: "Yari"
-    type: "Polearm"
-    damage: "[section:clr-roll]2d8[/section] Sharp"
-    skill: "[url:skillsW#Push]Push[/url]"
-    hr: 1.5
-    dr: 0.5
-    weight: 1.5
-    size: "22x1"
-    tags: "[url:eqtags#Long]Long[/url], [url:eqtags#TwoHanded]Two-Handed[/url]"
-
-  - name: "Estoc"
-    type: "Sword"
-    damage: "[section:clr-roll]2d8[/section] Sharp"
-    skill: "[url:skillsW#Pierce]Pierce[/url]"
-    hr: 1.5
-    dr: 0.5
-    weight: 2
-    size: "14x2"
-    tags: "[url:eqtags#TwoHanded]Two-Handed[/url]"
+- name: Parrying Dagger
+  type: Dagger
+  damage: 2d6 Sharp
+  skill: Butcher
+  hr: 1.5
+  dr: 0.0
+  weight: 0.5
+  size: 4x1
+  tags:
+  - Complex
+  - Parry
+- name: Stiletto
+  type: Dagger
+  damage: 2d6 Sharp
+  skill: Pierce
+  hr: 1.5
+  dr: 0.0
+  weight: 0.25
+  size: 4x1
+  tags:
+  - Precise
+  - Short
+- name: Glaive
+  type: Polearm
+  damage: 2d8 Sharp
+  skill: Maim
+  hr: 1.5
+  dr: 0.5
+  weight: 3
+  size: 24x2
+  tags:
+  - Cavalry
+  - Complex
+  - Long
+  - Two-Handed
+- name: Lance
+  type: Polearm
+  damage: 2d8 Sharp
+  skill: Pierce
+  hr: 0.5
+  dr: 1.5
+  weight: 2
+  size: 26x1
+  tags:
+  - Cavalry
+  - Long
+  - Two-Handed
+- name: Naginata
+  type: Polearm
+  damage: 2d8 Sharp
+  skill: Cut
+  hr: 1.0
+  dr: 1.0
+  weight: 3
+  size: 24x2
+  tags:
+  - Complex
+  - Long
+  - Two-Handed
+- name: Yari
+  type: Polearm
+  damage: 2d8 Sharp
+  skill: Push
+  hr: 1.5
+  dr: 0.5
+  weight: 1.5
+  size: 22x1
+  tags:
+  - Long
+  - Two-Handed
+- name: Estoc
+  type: Sword
+  damage: 2d8 Sharp
+  skill: Pierce
+  hr: 1.5
+  dr: 0.5
+  weight: 2
+  size: 14x2
+  tags:
+  - Two-Handed

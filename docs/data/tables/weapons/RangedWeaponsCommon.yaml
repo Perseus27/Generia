@@ -1,126 +1,121 @@
-name: "Ranged Weapons - Common"
-id: "RangedWeaponsCommon"
-table_type: "weapon-table weapon-table-ranged"
-
+name: Ranged Weapons - Common
+id: RangedWeaponsCommon
+table_type: weapon-table weapon-table-ranged
 headers:
-  - "Name"
-  - "Type"
-  - "Damage"
-  - "Skill"
-  - "DEX"
-  - "STR"
-  - "Range"
-  - "Weight"
-  - "Size"
-  - "Tags"
-
+- Name
+- Type
+- Damage
+- Skill
+- DEX
+- STR
+- Range
+- Weight
+- Size
+- Tags
 items:
-  - name: "Hunting Bow"
-    type: "Bow"
-    damage: "[section:clr-roll]1d6[/section] Arrow"
-    skill: "[url:skillsW#Kite]Kite[/url]"
-    hr: 1.0
-    dr: 1.0
-    range: "-1/0/0, 20m"
-    weight: 1
-    size: "12x3"
-    tags: "–"
-
-  - name: "Riding Bow"
-    type: "Bow"
-    damage: "[section:clr-roll]1d6[/section] Arrow"
-    skill: "[url:skillsW#Draw]Draw[/url]"
-    hr: 1.0
-    dr: 1.0
-    range: "0/0/-1, 20m"
-    weight: 1
-    size: "10x3"
-    tags: "–"
-
-  - name: "Longbow"
-    type: "Bow"
-    damage: "[section:clr-roll]1d8[/section] Arrow"
-    skill: "[url:skillsW#Draw]Draw[/url]"
-    hr: 1.0
-    dr: 1.0
-    range: "-2/0/0, 28m"
-    weight: 2
-    size: "18x3"
-    tags: "[url:eqtags#Long]Long[/url]"
-
-  - name: "Heavy Crossbow"
-    type: "Crossbow"
-    damage: "[section:clr-roll]2d8[/section] Arrow"
-    skill: "[url:skillsW#Pierce]Pierce[/url]"
-    hr: 1.0
-    dr: 0.0
-    range: "-2/0/0, 24m"
-    weight: 4
-    size: "10x4"
-    tags: "[url:eqtags#Long]Long[/url], [url:eqtags#Reload]Reload[/url] 2"
-
-  - name: "Light Crossbow"
-    type: "Crossbow"
-    damage: "[section:clr-roll]2d6[/section] Arrow"
-    skill: "[url:skillsW#Pierce]Pierce[/url]"
-    hr: 1.0
-    dr: 0.0
-    range: "-1/0/0, 24m"
-    weight: 2
-    size: "8x4"
-    tags: "[url:eqtags#Reload]Reload[/url] 1"
-
-  - name: "Long Sling"
-    type: "Sling"
-    damage: "[section:clr-roll]1d6[/section] Blunt"
-    skill: "[url:skillsW#Kite]Kite[/url]"
-    hr: 1.0
-    dr: 0.0
-    range: "-2/0/0, 20m"
-    weight: 0.25
-    size: "2x1"
-    tags: "–"
-
-  - name: "Short Sling"
-    type: "Sling"
-    damage: "[section:clr-roll]1d6[/section] Blunt"
-    skill: "[url:skillsW#Kite]Kite[/url]"
-    hr: 1.0
-    dr: 0.0
-    range: "-2/0/-5, 16m"
-    weight: 0.1
-    size: "1x1"
-    tags: "–"
-
-  - name: "Grenade"
-    type: "Thrown"
-    damage: "???"
-    skill: "–"
-    hr: 1.0
-    dr: 0.0
-    range: "16m"
-    weight: "0.25"
-    size: "1x1"
-    tags: "–"
-
-  - name: "Javelin"
-    type: "Thrown"
-    damage: "[section:clr-roll]2d6[/section] Arrow"
-    skill: "[url:skillsW#Draw]Draw[/url]"
-    hr: 1.0
-    dr: 1.0
-    range: "16m"
-    weight: 0.5
-    size: "18x1"
-    tags: "–"
-
-  - name: "Throwing Knife"
-    type: "Thrown"
-    damage: "[section:clr-roll]2d4[/section] Sharp"
-    skill: "[url:skillsW#Kite]Kite[/url]"
-    hr: 1.0
-    dr: 1.0
-    range: "12m"
-    weight: 0.1
-    size: "2x1"
-    tags: "–"
+- name: Hunting Bow
+  type: Bow
+  damage: 1d6 Arrow
+  skill: Kite
+  hr: 1.0
+  dr: 1.0
+  range: -1/0/0, 20m
+  weight: 1
+  size: 12x3
+  tags: []
+- name: Riding Bow
+  type: Bow
+  damage: 1d6 Arrow
+  skill: Draw
+  hr: 1.0
+  dr: 1.0
+  range: 0/0/-1, 20m
+  weight: 1
+  size: 10x3
+  tags: []
+- name: Longbow
+  type: Bow
+  damage: 1d8 Arrow
+  skill: Draw
+  hr: 1.0
+  dr: 1.0
+  range: -2/0/0, 28m
+  weight: 2
+  size: 18x3
+  tags:
+  - Long
+- name: Heavy Crossbow
+  type: Crossbow
+  damage: 2d8 Arrow
+  skill: Pierce
+  hr: 1.0
+  dr: 0.0
+  range: -2/0/0, 24m
+  weight: 4
+  size: 10x4
+  tags:
+  - Long
+  - - Reload
+    - 2
+- name: Light Crossbow
+  type: Crossbow
+  damage: 2d6 Arrow
+  skill: Pierce
+  hr: 1.0
+  dr: 0.0
+  range: -1/0/0, 24m
+  weight: 2
+  size: 8x4
+  tags:
+  - - Reload
+    - 1
+- name: Long Sling
+  type: Sling
+  damage: 1d6 Blunt
+  skill: Kite
+  hr: 1.0
+  dr: 0.0
+  range: -2/0/0, 20m
+  weight: 0.25
+  size: 2x1
+  tags: []
+- name: Short Sling
+  type: Sling
+  damage: 1d6 Blunt
+  skill: Kite
+  hr: 1.0
+  dr: 0.0
+  range: -2/0/-5, 16m
+  weight: 0.1
+  size: 1x1
+  tags: []
+- name: Grenade
+  type: Thrown
+  damage: ???
+  skill: –
+  hr: 1.0
+  dr: 0.0
+  range: 16m
+  weight: '0.25'
+  size: 1x1
+  tags: []
+- name: Javelin
+  type: Thrown
+  damage: 2d6 Arrow
+  skill: Draw
+  hr: 1.0
+  dr: 1.0
+  range: 16m
+  weight: 0.5
+  size: 18x1
+  tags: []
+- name: Throwing Knife
+  type: Thrown
+  damage: 2d4 Sharp
+  skill: Kite
+  hr: 1.0
+  dr: 1.0
+  range: 12m
+  weight: 0.1
+  size: 2x1
+  tags: []

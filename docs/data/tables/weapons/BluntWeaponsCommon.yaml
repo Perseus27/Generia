@@ -1,85 +1,95 @@
-name: "Blunt Weapons - Common"
-id: "BluntWeaponsCommon"
-table_type: "weapon-table weapon-table-melee"
-
+name: Blunt Weapons - Common
+id: BluntWeaponsCommon
+table_type: weapon-table weapon-table-melee
 headers:
-  - "Name"
-  - "Type"
-  - "Damage"
-  - "Skill"
-  - "DEX"
-  - "STR"
-  - "Weight"
-  - "Size"
-  - "Tags"
-
+- Name
+- Type
+- Damage
+- Skill
+- DEX
+- STR
+- Weight
+- Size
+- Tags
 items:
-  - name: "Flanged Mace"
-    type: "Club"
-    damage: "[section:clr-roll]2d6[/section] Blunt"
-    skill: "[url:skillsW#Break]Break[/url]"
-    hr: 1.0
-    dr: 1.0
-    weight: 1.5
-    size: "8x2"
-    tags: "[url:eqtags#Blockbreaker]Blockbreaker[/url] 1.0"
-
-  - name: "Great Mace"
-    type: "Club"
-    damage: "[section:clr-roll]2d8[/section] Blunt"
-    skill: "[url:skillsW#Smash]Smash[/url]"
-    hr: 0.5
-    dr: 1.5
-    weight: 3
-    size: "14x3"
-    tags: "[url:eqtags#Blockbreaker]Blockbreaker[/url] 1.0, [url:eqtags#TwoHanded]Two-Handed[/url]"
-
-  - name: "Knobbed Mace"
-    type: "Club"
-    damage: "[section:clr-roll]2d6[/section] Blunt"
-    skill: "[url:skillsW#Smash]Smash[/url]"
-    hr: 0.5
-    dr: 1.5
-    weight: 2
-    size: "8x2"
-    tags: "[url:eqtags#Blockbreaker]Blockbreaker[/url] 1.0"
-
-  - name: "Hand Hammer"
-    type: "Hammer"
-    damage: "[section:clr-roll]2d6[/section] Blunt"
-    skill: "[url:skillsW#Smash]Smash[/url]"
-    hr: 0.5
-    dr: 1.5
-    weight: 1.5
-    size: "4x2"
-    tags: "[url:eqtags#Blockbreaker]Blockbreaker[/url] 1.0, [url:eqtags#Short]Short[/url]"
-
-  - name: "Sledgehammer"
-    type: "Hammer"
-    damage: "[section:clr-roll]2d8[/section] Blunt"
-    skill: "[url:skillsW#Smash]Smash[/url]"
-    hr: 0.5
-    dr: 1.5
-    weight: 5
-    size: "12x3"
-    tags: "[url:eqtags#Blockbreaker]Blockbreaker[/url] 2.0, [url:eqtags#TwoHanded]Two-Handed[/url]"
-
-  - name: "War Hammer"
-    type: "Hammer"
-    damage: "[section:clr-roll]2d8[/section] Blunt"
-    skill: "[url:skillsW#Break]Break[/url]"
-    hr: 1.0
-    dr: 1.0
-    weight: 3
-    size: "10x3"
-    tags: "[url:eqtags#Blockbreaker]Blockbreaker[/url] 1.0, [url:eqtags#TwoHanded]Two-Handed[/url]"
-
-  - name: "Quarterstaff"
-    type: "Staff"
-    damage: "[section:clr-roll]2d8[/section] Blunt"
-    skill: "[url:skillsW#Push]Push[/url]"
-    hr: 1.0
-    dr: 1.0
-    weight: 1.5
-    size: "20x1"
-    tags: "[url:eqtags#Long]Long[/url], [url:eqtags#TwoHanded]Two-Handed[/url]"
+- name: Flanged Mace
+  type: Club
+  damage: 2d6 Blunt
+  skill: Break
+  hr: 1.0
+  dr: 1.0
+  weight: 1.5
+  size: 8x2
+  tags:
+  - - Blockbreaker
+    - 1
+- name: Great Mace
+  type: Club
+  damage: 2d8 Blunt
+  skill: Smash
+  hr: 0.5
+  dr: 1.5
+  weight: 3
+  size: 14x3
+  tags:
+  - - Blockbreaker
+    - 1
+  - Two-Handed
+- name: Knobbed Mace
+  type: Club
+  damage: 2d6 Blunt
+  skill: Smash
+  hr: 0.5
+  dr: 1.5
+  weight: 2
+  size: 8x2
+  tags:
+  - - Blockbreaker
+    - 1
+- name: Hand Hammer
+  type: Hammer
+  damage: 2d6 Blunt
+  skill: Smash
+  hr: 0.5
+  dr: 1.5
+  weight: 1.5
+  size: 4x2
+  tags:
+  - - Blockbreaker
+    - 1
+  - Short
+- name: Sledgehammer
+  type: Hammer
+  damage: 2d8 Blunt
+  skill: Smash
+  hr: 0.5
+  dr: 1.5
+  weight: 5
+  size: 12x3
+  tags:
+  - - Blockbreaker
+    - 2
+  - Two-Handed
+- name: War Hammer
+  type: Hammer
+  damage: 2d8 Blunt
+  skill: Break
+  hr: 1.0
+  dr: 1.0
+  weight: 3
+  size: 10x3
+  tags:
+  - - Blockbreaker
+    - 1
+  - Two-Handed
+- name: Quarterstaff
+  type: Staff
+  damage: 2d8 Blunt
+  skill: Push
+  hr: 1.0
+  dr: 1.0
+  weight: 1.5
+  size: 20x1
+  tags:
+  - Long
+  - Two-Handed

@@ -1,61 +1,67 @@
-name: "Ammunition - Common"
-id: "AmmunitionCommon"
-table_type: "weapon-table weapon-table-ammo"
-
+name: Ammunition - Common
+id: AmmunitionCommon
+table_type: weapon-table weapon-table-ammo
 headers:
-  - "Name"
-  - "Type"
-  - "Damage"
-  - "Weight"
-  - "Size"
-  - "Tags"
-
+- Name
+- Type
+- Damage
+- Weight
+- Size
+- Tags
 items:
-  - name: "Arrow, light"
-    type: "Bow"
-    damage: "[section:clr-roll]1d6[/section] Arrow"
-    weight: 0.1
-    size: "8x1"
-    tags: "[url:eqtags#10]Stack[/url] 10"
-
-  - name: "Arrow, heavy"
-    type: "Bow"
-    damage: "[section:clr-roll]1d8[/section] Arrow"
-    weight: 0.2
-    size: "8x1"
-    tags: "[url:eqtags#10]Stack[/url] 10"
-
-  - name: "Arrow, primitive"
-    type: "Bow"
-    damage: "[section:clr-roll]1d4[/section] Arrow"
-    weight: 0.1
-    size: "8x1"
-    tags: "[url:eqtags#10]Stack[/url] 10"
-
-  - name: "Bolt, light"
-    type: "Crossbow"
-    damage: "[section:clr-roll]1d8[/section] Arrow"
-    weight: 0.1
-    size: "8x1"
-    tags: "[url:eqtags#10]Stack[/url] 10"
-
-  - name: "Bolt, heavy"
-    type: "Bow"
-    damage: "[section:clr-roll]1d10[/section] Arrow"
-    weight: 0.2
-    size: "8x1"
-    tags: "[url:eqtags#10]Stack[/url] 10"
-
-  - name: "Stone, light"
-    type: "Sling"
-    damage: "[section:clr-roll]1d4[/section] Blunt"
-    weight: 0.1
-    size: "1x1"
-    tags: "[url:eqtags#10]Stack[/url] 4"
-
-  - name: "Stone, heavy"
-    type: "Sling"
-    damage: "[section:clr-roll]1d6[/section] Blunt"
-    weight: 0.2
-    size: "1x1"
-    tags: "[url:eqtags#10]Stack[/url] 4"
+- name: Arrow, light
+  type: Bow
+  damage: 1d6 Arrow
+  weight: 0.1
+  size: 8x1
+  tags:
+  - - Stack
+    - 10
+- name: Arrow, heavy
+  type: Bow
+  damage: 1d8 Arrow
+  weight: 0.2
+  size: 8x1
+  tags:
+  - - Stack
+    - 10
+- name: Arrow, primitive
+  type: Bow
+  damage: 1d4 Arrow
+  weight: 0.1
+  size: 8x1
+  tags:
+  - - Stack
+    - 10
+- name: Bolt, light
+  type: Crossbow
+  damage: 1d8 Arrow
+  weight: 0.1
+  size: 8x1
+  tags:
+  - - Stack
+    - 10
+- name: Bolt, heavy
+  type: Bow
+  damage: 1d10 Arrow
+  weight: 0.2
+  size: 8x1
+  tags:
+  - - Stack
+    - 10
+- name: Stone, light
+  type: Sling
+  damage: 1d4 Blunt
+  weight: 0.1
+  size: 1x1
+  tags:
+  - - Stack
+    - 4
+- name: Stone, heavy
+  type: Sling
+  damage: 1d6 Blunt
+  weight: 0.2
+  size: 1x1
+  tags:
+  - - Stack
+    - 4

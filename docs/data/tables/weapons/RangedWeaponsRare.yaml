@@ -1,71 +1,72 @@
-name: "Ranged Weapons - Rare"
-id: "RangedWeaponsRare"
-table_type: "weapon-table weapon-table-ranged"
-
+name: Ranged Weapons - Rare
+id: RangedWeaponsRare
+table_type: weapon-table weapon-table-ranged
 headers:
-  - "Name"
-  - "Type"
-  - "Damage"
-  - "Skill"
-  - "DEX"
-  - "STR"
-  - "Range"
-  - "Weight"
-  - "Size"
-  - "Tags"
-
+- Name
+- Type
+- Damage
+- Skill
+- DEX
+- STR
+- Range
+- Weight
+- Size
+- Tags
 items:
-  - name: "Dwarvish Bow"
-    type: "Bow"
-    damage: "[section:clr-roll]1d6[/section] Arrow"
-    skill: "[url:skillsW#Pierce]Pierce[/url]"
-    hr: 0.5
-    dr: 1.5
-    range: "-1/0/0, 24m"
-    weight: 4
-    size: "10x3"
-    tags: "–"
-  
-  - name: "Elvish Bow"
-    type: "Bow"
-    damage: "[section:clr-roll]1d8[/section] Arrow"
-    skill: "[url:skillsW#Kite]Kite[/url]"
-    hr: 1.0
-    dr: 1.0
-    range: "-1/0/1, 28m"
-    weight: 1
-    size: "16x3"
-    tags: "[url:eqtags#Complex]Complex[/url], [url:eqtags#Enchanted]Enchanted[/url], [url:eqtags#Long]Long[/url]"
-  
-  - name: "Orkish Warbow"
-    type: "Bow"
-    damage: "[section:clr-roll]1d8[/section] Arrow"
-    skill: "[url:skillsW#Draw]Draw[/url]"
-    hr: 0.5
-    dr: 1.5
-    range: "-3/0/0, 28m"
-    weight: 3
-    size: "20x3"
-    tags: "[url:eqtags#Long]Long[/url]"
-  
-  - name: "Yumi"
-    type: "Bow"
-    damage: "[section:clr-roll]1d8[/section] Arrow"
-    skill: "[url:skillsW#Draw]Draw[/url]"
-    hr: 1.0
-    dr: 1.0
-    range: "-2/0/0, 28m"
-    weight: 2
-    size: "22x3"
-    tags: "[url:eqtags#Cavalry]Cavalry[/url], [url:eqtags#Complex]Complex[/url], [url:eqtags#Long]Long[/url]"
-
-  - name: "Staff Sling"
-    type: "Sling"
-    damage: "[section:clr-roll]1d8[/section] Blunt"
-    skill: "[url:skillsW#Draw]Draw[/url]"
-    hr: 1.0
-    dr: 0.0
-    range: "-2/0/0, 24m"
-    weight: 1
-    size: "12x1"
-    tags: "–"
+- name: Dwarvish Bow
+  type: Bow
+  damage: 1d6 Arrow
+  skill: Pierce
+  hr: 0.5
+  dr: 1.5
+  range: -1/0/0, 24m
+  weight: 4
+  size: 10x3
+  tags: []
+- name: Elvish Bow
+  type: Bow
+  damage: 1d8 Arrow
+  skill: Kite
+  hr: 1.0
+  dr: 1.0
+  range: -1/0/1, 28m
+  weight: 1
+  size: 16x3
+  tags:
+  - Complex
+  - Enchanted
+  - Long
+- name: Orkish Warbow
+  type: Bow
+  damage: 1d8 Arrow
+  skill: Draw
+  hr: 0.5
+  dr: 1.5
+  range: -3/0/0, 28m
+  weight: 3
+  size: 20x3
+  tags:
+  - Long
+- name: Yumi
+  type: Bow
+  damage: 1d8 Arrow
+  skill: Draw
+  hr: 1.0
+  dr: 1.0
+  range: -2/0/0, 28m
+  weight: 2
+  size: 22x3
+  tags:
+  - Cavalry
+  - Complex
+  - Long
+- name: Staff Sling
+  type: Sling
+  damage: 1d8 Blunt
+  skill: Draw
+  hr: 1.0
+  dr: 0.0
+  range: -2/0/0, 24m
+  weight: 1
+  size: 12x1
+  tags: []
