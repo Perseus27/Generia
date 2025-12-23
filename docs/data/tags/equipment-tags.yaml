@@ -33,6 +33,8 @@ content:
   - name: Two-Handed
     id: TwoHanded
 
+  - name: Unpredictable
+
   - name: Access
 
   - name: Enchanted
