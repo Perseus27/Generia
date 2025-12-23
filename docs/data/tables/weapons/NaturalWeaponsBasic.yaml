@@ -6,11 +6,12 @@ headers:
 - Type
 - Damage
 - Skill
-- DEX
-- STR
+- HR
+- DR
 - Weight
 - Size
 - Tags
+
 items:
 - name: Fist
   type: Primitive
@@ -21,7 +22,8 @@ items:
   weight: 0
   size: –
   tags:
-  - Natural
+    - Natural
+
 - name: Foot
   type: Primitive
   damage: 1d6 Blunt
@@ -31,7 +33,8 @@ items:
   weight: 0
   size: –
   tags:
-  - Natural
+    - Natural
+
 - name: Claws (small)
   type: Primitive
   damage: 1d6 Sharp
@@ -41,7 +44,8 @@ items:
   weight: 0
   size: –
   tags:
-  - Natural
+    - Natural
+
 - name: Claws (medium)
   type: Primitive
   damage: 2d6 Sharp
@@ -51,7 +55,8 @@ items:
   weight: 0
   size: –
   tags:
-  - Natural
+    - Natural
+    
 - name: Claws (large)
   type: Primitive
   damage: 2d8 Sharp
@@ -61,7 +66,8 @@ items:
   weight: 0
   size: –
   tags:
-  - Natural
+    - Natural
+
 - name: Horns (medium)
   type: Primitive
   damage: 3d4 Sharp
@@ -71,7 +77,8 @@ items:
   weight: 0
   size: –
   tags:
-  - Natural
+    - Natural
+
 - name: Horns (large)
   type: Primitive
   damage: 3d6 Sharp
@@ -81,7 +88,8 @@ items:
   weight: 0
   size: –
   tags:
-  - Natural
+    - Natural
+
 - name: Teeth (small)
   type: Primitive
   damage: 2d4 Sharp
@@ -91,7 +99,8 @@ items:
   weight: 0
   size: –
   tags:
-  - Natural
+    - Natural
+
 - name: Teeth (medium)
   type: Primitive
   damage: 3d4 Sharp
@@ -101,7 +110,8 @@ items:
   weight: 0
   size: –
   tags:
-  - Natural
+    - Natural
+
 - name: Teeth (large)
   type: Primitive
   damage: 3d6 Sharp
@@ -111,7 +121,8 @@ items:
   weight: 0
   size: –
   tags:
-  - Natural
+    - Natural
+
 - name: Tentacles (medium)
   type: Primitive
   damage: 2d8 Blunt
@@ -121,7 +132,8 @@ items:
   weight: 0
   size: –
   tags:
-  - Natural
+    - Natural
+
 - name: Tentacles (large)
   type: Primitive
   damage: 2d10 Blunt
@@ -131,4 +143,4 @@ items:
   weight: 0
   size: –
   tags:
-  - Natural
+    - Natural

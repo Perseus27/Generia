@@ -6,11 +6,12 @@ headers:
 - Type
 - Damage
 - Skill
-- DEX
-- STR
+- HR
+- DR
 - Weight
 - Size
 - Tags
+
 items:
 - name: Brass Knuckles
   type: Fist
@@ -21,7 +22,8 @@ items:
   weight: 0
   size: 1x2
   tags:
-  - Short
+    - Short
+
 - name: Steel Claws
   type: Fist
   damage: 2d4 Blunt
@@ -31,6 +33,6 @@ items:
   weight: 0
   size: 1x2
   tags:
-  - Brutal
-  - Complex
-  - Short
+    - Brutal
+    - Complex
+    - Short

@@ -6,11 +6,12 @@ headers:
 - Type
 - Damage
 - Skill
-- DEX
-- STR
+- HR
+- DR
 - Weight
 - Size
 - Tags
+
 items:
 - name: Dagger
   type: Dagger
@@ -21,8 +22,9 @@ items:
   weight: 0.25
   size: 3x1
   tags:
-  - Precise
-  - Short
+    - Precise
+    - Short
+
 - name: Knife
   type: Dagger
   damage: 2d6 Sharp
@@ -32,8 +34,9 @@ items:
   weight: 0.1
   size: 2x1
   tags:
-  - Precise
-  - Short
+    - Precise
+    - Short
+
 - name: Rondel Dagger
   type: Dagger
   damage: 2d6 Sharp
@@ -43,7 +46,8 @@ items:
   weight: 0.25
   size: 3x1
   tags:
-  - Short
+    - Short
+
 - name: Halberd
   type: Polearm
   damage: 2d8 Sharp
@@ -53,8 +57,9 @@ items:
   weight: 3
   size: 21x2
   tags:
-  - Long
-  - Two-Handed
+    - Long
+    - Two-Handed
+
 - name: Pike
   type: Polearm
   damage: 2d8 Sharp
@@ -64,8 +69,9 @@ items:
   weight: 2
   size: 24x1
   tags:
-  - Long
-  - Two-Handed
+    - Long
+    - Two-Handed
+
 - name: Spear
   type: Polearm
   damage: 2d6 Sharp
@@ -75,7 +81,8 @@ items:
   weight: 1
   size: 18x1
   tags:
-  - Flexible 1.0|1.5 Long
+    - Flexible 1.0|1.5 Long
+
 - name: Rapier
   type: Sword
   damage: 2d6 Sharp
@@ -85,6 +92,7 @@ items:
   weight: 1
   size: 12x2
   tags: []
+  
 - name: Spadroon
   type: Sword
   damage: 2d6 Sharp

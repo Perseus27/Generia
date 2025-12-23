@@ -5,43 +5,29 @@ prefix: ctags
 
 content:
   - name: Colossus
-    id: Colossus
 
   - name: Fast
-    id: Fast
 
   - name: Slow
-    id: Slow
 
   - name: Sluggish
-    id: Sluggish
 
   - name: Immunity
-    id: Immunity
 
   - name: Resistance
-    id: Resistance
 
   - name: Vulnerability
-    id: Vulnerability
 
   - name: Mindless
-    id: Mindless
 
   - name: Construct
-    id: Construct
 
   - name: Miniboss
-    id: Miniboss
 
   - name: Reflexes
-    id: Reflexes
 
   - name: Tough
-    id: Tough
 
   - name: Trained
-    id: Trained
 
   - name: Untrained
-    id: Untrained

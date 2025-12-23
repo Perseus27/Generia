@@ -59,7 +59,7 @@ def define_env(env):
     @env.macro
     def table(path: str):
         yaml_content = _read_yaml(path)
-        return Table_Renderer(yaml_content).get_output()
+        return Table_Renderer(yaml_content, autolinker).get_output()
     
     @env.macro
     def perks(path: str):

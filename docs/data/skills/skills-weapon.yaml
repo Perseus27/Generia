@@ -1,0 +1,104 @@
+name: "Weapon Skills"
+id: "skills-weapon"
+prefix: "skillsW"
+special: True
+
+content:
+  - name: Butcher
+    tags: [Offensive]
+    cost:
+      - "[section:clr-encost]1 EN[/section]"
+    description: >
+      Executes a [url:def#MeleeAttack]melee attack[/url] against a [url:status#Confined]confined[/url], [url:status#Grappled]grappled[/url], or [url:status#Restrained]restrained[/url] target.
+      [br]If the attack is a [url:def#Hit]hit[/url], it may be repeated, up to a total of [[section:clr-attr]DEX-MOD[/section]/2] attacks (min. [section:clr-value]2[/section]), including the first.
+
+  - name: Break
+    tags: [Offensive]
+    cost:
+      - "[section:clr-encost]2 EN[/section]"
+    description: >
+      Executes a [url:def#BasicAttack]basic attack[/url] that causes [url:status#Brittle]Brittle[/url] on [url:def#Hit]hit[/url] depending on the type of armor worn by the target:
+      [ul]
+      [li][b]None:[/b] –[/li]
+      [li][b]Light:[/b] [url:status#Brittle]Brittle 1[/url][/li]
+      [li][b]Medium:[/b] [url:status#Brittle]Brittle 2[/url][/li]
+      [li][b]Heavy:[/b] [url:status#Brittle]Brittle 3[/url][/li]
+      [/ul]
+
+  - name: Cut
+    tags: [Offensive]
+    cost:
+      - "[section:clr-encost]2 EN[/section]"
+    description: >
+      Executes a [url:def#BasicAttack]basic attack[/url] that causes [url:status#Bleeding]Bleeding[/url] on [url:def#Hit]hit[/url] depending on the type of armor worn by the target:
+      [ul]
+      [li][b]None:[/b] [url:status#Bleeding]Bleeding 3[/url][/li]
+      [li][b]Light:[/b] [url:status#Bleeding]Bleeding 2[/url][/li]
+      [li][b]Medium:[/b] [url:status#Bleeding]Bleeding 1[/url][/li]
+      [li][b]Heavy:[/b] –[/li]
+      [/ul]
+
+  - name: Draw
+    tags: [Offensive]
+    cost:
+      - "[section:clr-encost]1 EN[/section]"
+    description: >
+      Executes a [url:def#RangedAttack]ranged attack[/url]. Damage dealt is increased by [[section:clr-attr]STR-MOD[/section]].
+
+  - name: Kite
+    tags: [Offensive]
+    cost:
+      - "[section:clr-encost]1 EN[/section]"
+    description: >
+      Executes a [url:def#RangedAttack]ranged attack[/url] while moving up to [[section:clr-value]Proficiency[/section]] (max. [section:clr-attr]DEX-MOD[/section]) meters.
+      [br][i]The attack may be freely timed during the movement.[/i]
+
+  - name: Lunge
+    tags: [Offensive]
+    cost:
+      - "[section:clr-encost]1 EN[/section]"
+    description: >
+      Moves [section:clr-value]one field[/section] towards an enemy, executes a [url:def#MeleeAttack]melee attack[/url], and may move back to the original position afterwards.
+      [br][i]Reactive attacks from [url:perksC#Opportunist]Opportunist[/url] etc. have [url:core#Disadvantage]Disadvantage 1[/url].[/i]
+
+  - name: Maim
+    tags: [Offensive]
+    cost:
+      - "[section:clr-encost]1 EN[/section]"
+    description: >
+      Executes a [url:def#MeleeAttack]melee attack[/url]. Every wound caused by this attack requires a [url:wounds#WoundCheck]Wound Check[/url].
+
+  - name: Pierce
+    tags: [Offensive]
+    cost:
+      - "[section:clr-encost]2 EN[/section]"
+    description: >
+      Executes a [url:def#BasicAttack]basic attack[/url] that ignores up to [[section:clr-value]Proficiency[/section]] [url:values#AV]AV[/url].
+
+  - name: Pull
+    tags: [Offensive]
+    cost:
+      - "[section:clr-encost]1 EN[/section]"
+    description: >
+      Executes a [url:def#MeleeAttack]melee attack[/url]. On a [url:def#Hit]hit[/url], perform an [url:core#OpposedCheck]opposed [section:clr-attr]STR[/section] check[/url]. if the target loses, it is pulled [section:clr-value]one field[/section] towards the attacker. In a tie, the higher weapon proficiency decides.
+
+  - name: Push
+    tags: [Offensive]
+    cost:
+      - "[section:clr-encost]1 EN[/section]"
+    description: >
+      Executes a [url:def#MeleeAttack]melee attack[/url]. On a [url:def#Hit]hit[/url], perform an [url:core#OpposedCheck]opposed [section:clr-attr]STR[/section] check[/url]. The loser is [url:status#Knockback]knocked back[/url] [section:clr-value]one field[/section]. In a tie, the higher weapon proficiency decides.
+
+  - name: Recoil
+    tags: [Offensive]
+    cost:
+      - "[section:clr-encost]1 EN[/section]"
+    description: >
+      Executes a [url:def#RangedAttack]ranged attack[/url]. The attacker is [url:status#Knockback]knocked back[/url] [section:clr-value]one field[/section]. On a [url:def#Hit]hit[/url], the defender is also [url:status#Knockback]knocked back[/url] [section:clr-value]one field[/section].
+
+  - name: Smash
+    tags: [Offensive]
+    cost:
+      - "[section:clr-encost]1 EN[/section]"
+    description: >
+      Executes a [url:def#MeleeAttack]melee attack[/url]. Damage dealt is increased by [[section:clr-attr]STR-MOD[/section]].

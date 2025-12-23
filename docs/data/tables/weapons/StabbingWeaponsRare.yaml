@@ -6,11 +6,12 @@ headers:
 - Type
 - Damage
 - Skill
-- DEX
-- STR
+- HR
+- DR
 - Weight
 - Size
 - Tags
+
 items:
 - name: Parrying Dagger
   type: Dagger
@@ -21,8 +22,9 @@ items:
   weight: 0.5
   size: 4x1
   tags:
-  - Complex
-  - Parry
+    - Complex
+    - Parry
+
 - name: Stiletto
   type: Dagger
   damage: 2d6 Sharp
@@ -32,8 +34,9 @@ items:
   weight: 0.25
   size: 4x1
   tags:
-  - Precise
-  - Short
+    - Precise
+    - Short
+
 - name: Glaive
   type: Polearm
   damage: 2d8 Sharp
@@ -43,10 +46,11 @@ items:
   weight: 3
   size: 24x2
   tags:
-  - Cavalry
-  - Complex
-  - Long
-  - Two-Handed
+    - Cavalry
+    - Complex
+    - Long
+    - Two-Handed
+
 - name: Lance
   type: Polearm
   damage: 2d8 Sharp
@@ -56,9 +60,10 @@ items:
   weight: 2
   size: 26x1
   tags:
-  - Cavalry
-  - Long
-  - Two-Handed
+    - Cavalry
+    - Long
+    - Two-Handed
+
 - name: Naginata
   type: Polearm
   damage: 2d8 Sharp
@@ -68,9 +73,10 @@ items:
   weight: 3
   size: 24x2
   tags:
-  - Complex
-  - Long
-  - Two-Handed
+    - Complex
+    - Long
+    - Two-Handed
+
 - name: Yari
   type: Polearm
   damage: 2d8 Sharp
@@ -80,8 +86,9 @@ items:
   weight: 1.5
   size: 22x1
   tags:
-  - Long
-  - Two-Handed
+    - Long
+    - Two-Handed
+
 - name: Estoc
   type: Sword
   damage: 2d8 Sharp
@@ -91,4 +98,4 @@ items:
   weight: 2
   size: 14x2
   tags:
-  - Two-Handed
+    - Two-Handed

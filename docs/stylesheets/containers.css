@@ -69,6 +69,10 @@
 	margin: 4px 0px 4px;
 }
 
+.skill li {
+	font-size: .7rem;
+}
+
 
 .perk {
 	background: rgba(180,180,180,0.05);

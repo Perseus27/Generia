@@ -109,7 +109,7 @@ Executes a [url:def#MeleeAttack]melee attack[/url]. Every wound caused by this a
 [container:skill-content]
 [container:skill-columnleft]
 Offensive
-[br][section:clr-encost]1 EN[/section]
+[br][section:clr-encost]2 EN[/section]
 [/container]
 [container:skill-columnright]
 Executes a [url:def#BasicAttack]basic attack[/url] that ignores up to [[section:clr-value]Proficiency[/section]] [url:values#AV]AV[/url].

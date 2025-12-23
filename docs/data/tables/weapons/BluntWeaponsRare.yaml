@@ -6,11 +6,12 @@ headers:
 - Type
 - Damage
 - Skill
-- DEX
-- STR
+- HR
+- DR
 - Weight
 - Size
 - Tags
+
 items:
 - name: Flail
   type: Club
@@ -21,8 +22,9 @@ items:
   weight: 2
   size: 8x2
   tags:
-  - Complex
-  - Unpredictable
+    - Complex
+    - Unpredictable
+
 - name: Spiked Mace
   type: Club
   damage: 2d6 Blunt
@@ -32,7 +34,8 @@ items:
   weight: 2
   size: 8x2
   tags:
-  - Brutal
+    - Brutal
+
 - name: Dwarven Hammer
   type: Hammer
   damage: 2d6 Blunt
@@ -42,9 +45,10 @@ items:
   weight: 4
   size: 4x3
   tags:
-  - - Blockbreaker
-    - 2
-  - Short
+    - - Blockbreaker
+      - 2
+    - Short
+
 - name: Raven's Beak
   type: Hammer
   damage: 2d6 Blunt
@@ -54,7 +58,8 @@ items:
   weight: 2
   size: 10x3
   tags:
-  - Flexible 0.5|1.5
+    - Flexible 0.5|1.5
+
 - name: Bo Staff
   type: Staff
   damage: 2d8 Blunt
@@ -64,7 +69,8 @@ items:
   weight: 1.0
   size: 14x1
   tags:
-  - Two-Handed
+    - Two-Handed
+
 - name: Nunchaku
   type: Staff
   damage: 2d6 Blunt
@@ -74,8 +80,9 @@ items:
   weight: 0.5
   size: 3x1
   tags:
-  - Complex
-  - Unpredictable
+    - Complex
+    - Unpredictable
+
 - name: Shillelagh
   type: Staff
   damage: 2d8 Blunt
@@ -85,8 +92,9 @@ items:
   weight: 1
   size: 14x2
   tags:
-  - Focus (Druid)
-  - Two-Handed
+    - Focus (Druid)
+    - Two-Handed
+    
 - name: Wizard's Staff
   type: Staff
   damage: 2d8 Blunt
@@ -96,5 +104,5 @@ items:
   weight: 1
   size: 18x2
   tags:
-  - Focus (Wizard)
-  - Two-Handed
+    - Focus (Wizard)
+    - Two-Handed

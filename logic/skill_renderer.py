@@ -19,6 +19,7 @@ class Skill_Renderer:
     def format_all(self):
         y = self.yaml_input
         x = y.get("is_exclusive", False)
+        special = y.get("special", False)
         if x:
             return f"""
 [h2|TierII]Tier II[/h2]
@@ -26,6 +27,10 @@ class Skill_Renderer:
 [hr]
 [h2|TierIII]Tier III[/h2]
 {self.format_skills_from_category(y.get('tier3', False))}
+        """
+        elif special:
+            return f"""
+{self.format_skills_from_category(y.get('content', False))}
         """
         return f"""
 [h2|Offensive]Offensive[/h2]
@@ -54,8 +59,9 @@ class Skill_Renderer:
         return f"[h3|{subheader.get('id')}]{subheader.get('name')}[/h3]"
 
     def format_skill(self, skill):
+        name = skill.get("name")
         ###
-        header = f"[container:skill][h2|{skill.get('id')}]{skill.get('name')}[/h2][container:skill-content]"
+        header = f"[container:skill][h2|{skill.get('id', name)}]{name}[/h2][container:skill-content]"
         ### left column
         columnleft = f"[container:skill-columnleft]{self.format_list_br(skill.get('tags'))}[/container]"
         ### right column

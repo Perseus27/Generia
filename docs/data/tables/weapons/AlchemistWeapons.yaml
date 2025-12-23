@@ -8,6 +8,7 @@ headers:
 - Range
 - Size
 - Tags
+
 items:
 - name: Handgun
   tier: Tier I
@@ -15,24 +16,27 @@ items:
   range: -1/0/-1, 20m
   size: 3x1
   tags:
-  - Short
+    - Short
+
 - name: Shotgun
   tier: Tier II
   skill: Recoil
   range: 0/-1/-1, 16m
   size: 6x2
   tags:
-  - Short
+    - Short
+
 - name: Grenade Launcher
   tier: Tier II
   skill: –
   range: 24m (grenades only)
   size: 6x3
   tags: []
+
 - name: Rifle
   tier: Tier III
   skill: Pierce
   range: -1/-1/0, 24m
   size: 14x2
   tags:
-  - Long
+   - Long

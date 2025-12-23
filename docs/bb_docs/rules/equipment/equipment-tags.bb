@@ -31,10 +31,10 @@ The [url:values#BlockStrength]Block Strength[/url] of [i]Natural[/i] weapons is 
 [h2|Precise]Precise[/h2]
 Damage rolls from [i]precise[/i] weapons [url:core#Explosion]explode[/url] one point earlier if the attack roll had [url:core#Advantage]Advantage[/url].
 
-[h2]Reload X[/h2]
+[h2|Reload]Reload X[/h2]
 Weapons with the tag [i]Reload[/i] require [section:clr-value]X[/section] [url:def#Actions]Attack or Utility actions[/url] to reload ammunition after performing an attack.
 
-[h2]Shield (X)[/h2]
+[h2|Shield]Shield (X)[/h2]
 [i]Shields[/i] have [url:core#Advantage]Advantage 1[/url] on [url:def#Block]block[/url] rolls.
 [br]Additionally, their [url:values#BlockStrength]Block Strength[/url] is increased by [section:clr-value]X[/section].
 

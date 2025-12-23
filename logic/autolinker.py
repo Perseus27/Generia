@@ -45,8 +45,9 @@ class Autolinker:
         for y in self.perk_yamls:
             prefix = y.get("prefix")
             for p in self.get_all_perks_from_file(y):
-                if p.get("name") == x or x in p.get("alias", []):
-                    return f"{prefix}#{p.get('id')}"
+                name = p.get("name")
+                if name == x or x in p.get("alias", []):
+                    return f"{prefix}#{p.get('id', name)}"
         return False
 
     def link_skill(self, x):
@@ -54,8 +55,9 @@ class Autolinker:
             prefix = y.get("prefix")
             for subcat in self.get_all_skills_from_file(y):
                 for i in subcat:
-                    if i.get("name") == x or x in i.get("alias", []):
-                        return f"{prefix}#{i.get('id')}"
+                    name = i.get("name")
+                    if name == x or x in i.get("alias", []):
+                        return f"{prefix}#{i.get('id', name)}"
         return False
 
     def link_spell(self, x):
@@ -63,16 +65,18 @@ class Autolinker:
             prefix = y.get("prefix")
             for subcat in self.get_all_spells_from_file(y):
                 for i in subcat:
-                    if i.get("name") == x or x in i.get("alias", []):
-                        return f"{prefix}#{i.get('id')}"
+                    name = i.get("name")
+                    if name == x or x in i.get("alias", []):
+                        return f"{prefix}#{i.get('id', name)}"
         return False
     
     def link_tag(self, x):
         for y in self.tag_yamls:
             prefix = y.get("prefix")
             for p in self.get_all_tags_from_file(y):
-                if p.get("name") == x or x in p.get("alias", []):
-                    return f"{prefix}#{p.get('id')}"
+                name = p.get("name")
+                if name == x or x in p.get("alias", []):
+                    return f"{prefix}#{p.get('id', name)}"
         return False
     
 
@@ -87,7 +91,8 @@ class Autolinker:
                   f.get("utility", False), 
                   f.get("reaction", False),
                   f.get("tier2", False),
-                  f.get("tier3", False)]
+                  f.get("tier3", False),
+                  f.get("content", False)]
         result = [x for x in all if x]
         return result
     

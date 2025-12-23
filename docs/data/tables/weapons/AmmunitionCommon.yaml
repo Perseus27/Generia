@@ -8,6 +8,7 @@ headers:
 - Weight
 - Size
 - Tags
+
 items:
 - name: Arrow, light
   type: Bow
@@ -15,53 +16,59 @@ items:
   weight: 0.1
   size: 8x1
   tags:
-  - - Stack
-    - 10
+    - - Stack
+      - 10
+
 - name: Arrow, heavy
   type: Bow
   damage: 1d8 Arrow
   weight: 0.2
   size: 8x1
   tags:
-  - - Stack
-    - 10
+    - - Stack
+      - 10
+
 - name: Arrow, primitive
   type: Bow
   damage: 1d4 Arrow
   weight: 0.1
   size: 8x1
   tags:
-  - - Stack
-    - 10
+    - - Stack
+      - 10
+
 - name: Bolt, light
   type: Crossbow
   damage: 1d8 Arrow
   weight: 0.1
   size: 8x1
   tags:
-  - - Stack
-    - 10
+    - - Stack
+      - 10
+
 - name: Bolt, heavy
   type: Bow
   damage: 1d10 Arrow
   weight: 0.2
   size: 8x1
   tags:
-  - - Stack
-    - 10
+    - - Stack
+      - 10
+
 - name: Stone, light
   type: Sling
   damage: 1d4 Blunt
   weight: 0.1
   size: 1x1
   tags:
-  - - Stack
-    - 4
+    - - Stack
+      - 4
+
 - name: Stone, heavy
   type: Sling
   damage: 1d6 Blunt
   weight: 0.2
   size: 1x1
   tags:
-  - - Stack
-    - 4
+    - - Stack
+      - 4

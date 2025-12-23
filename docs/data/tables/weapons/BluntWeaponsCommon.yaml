@@ -6,11 +6,12 @@ headers:
 - Type
 - Damage
 - Skill
-- DEX
-- STR
+- HR
+- DR
 - Weight
 - Size
 - Tags
+
 items:
 - name: Flanged Mace
   type: Club
@@ -21,8 +22,9 @@ items:
   weight: 1.5
   size: 8x2
   tags:
-  - - Blockbreaker
-    - 1
+    - - Blockbreaker
+      - 1
+
 - name: Great Mace
   type: Club
   damage: 2d8 Blunt
@@ -32,9 +34,10 @@ items:
   weight: 3
   size: 14x3
   tags:
-  - - Blockbreaker
-    - 1
-  - Two-Handed
+    - - Blockbreaker
+      - 1
+    - Two-Handed
+
 - name: Knobbed Mace
   type: Club
   damage: 2d6 Blunt
@@ -44,8 +47,9 @@ items:
   weight: 2
   size: 8x2
   tags:
-  - - Blockbreaker
-    - 1
+    - - Blockbreaker
+      - 1
+
 - name: Hand Hammer
   type: Hammer
   damage: 2d6 Blunt
@@ -55,9 +59,10 @@ items:
   weight: 1.5
   size: 4x2
   tags:
-  - - Blockbreaker
-    - 1
-  - Short
+    - - Blockbreaker
+      - 1
+    - Short
+
 - name: Sledgehammer
   type: Hammer
   damage: 2d8 Blunt
@@ -67,9 +72,10 @@ items:
   weight: 5
   size: 12x3
   tags:
-  - - Blockbreaker
-    - 2
-  - Two-Handed
+    - - Blockbreaker
+      - 2
+    - Two-Handed
+
 - name: War Hammer
   type: Hammer
   damage: 2d8 Blunt
@@ -79,9 +85,10 @@ items:
   weight: 3
   size: 10x3
   tags:
-  - - Blockbreaker
-    - 1
-  - Two-Handed
+    - - Blockbreaker
+      - 1
+    - Two-Handed
+  
 - name: Quarterstaff
   type: Staff
   damage: 2d8 Blunt
@@ -91,5 +98,5 @@ items:
   weight: 1.5
   size: 20x1
   tags:
-  - Long
-  - Two-Handed
+    - Long
+    - Two-Handed

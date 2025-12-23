@@ -6,12 +6,13 @@ headers:
 - Type
 - Damage
 - Skill
-- DEX
-- STR
+- HR
+- DR
 - Range
 - Weight
 - Size
 - Tags
+
 items:
 - name: Dwarvish Bow
   type: Bow
@@ -23,6 +24,7 @@ items:
   weight: 4
   size: 10x3
   tags: []
+
 - name: Elvish Bow
   type: Bow
   damage: 1d8 Arrow
@@ -33,9 +35,10 @@ items:
   weight: 1
   size: 16x3
   tags:
-  - Complex
-  - Enchanted
-  - Long
+    - Complex
+    - Enchanted
+    - Long
+
 - name: Orkish Warbow
   type: Bow
   damage: 1d8 Arrow
@@ -46,7 +49,8 @@ items:
   weight: 3
   size: 20x3
   tags:
-  - Long
+   - Long
+
 - name: Yumi
   type: Bow
   damage: 1d8 Arrow
@@ -57,9 +61,10 @@ items:
   weight: 2
   size: 22x3
   tags:
-  - Cavalry
-  - Complex
-  - Long
+    - Cavalry
+    - Complex
+    - Long
+    
 - name: Staff Sling
   type: Sling
   damage: 1d8 Blunt

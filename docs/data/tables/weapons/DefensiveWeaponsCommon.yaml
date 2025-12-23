@@ -6,11 +6,12 @@ headers:
 - Type
 - Damage
 - Skill
-- DEX
-- STR
+- HR
+- DR
 - Weight
 - Size
 - Tags
+
 items:
 - name: Buckler
   type: Shield
@@ -21,8 +22,9 @@ items:
   weight: 1
   size: 3x3
   tags:
-  - Parry
-  - Shield
+    - Parry
+    - Shield
+
 - name: Roundshield
   type: Shield
   damage: 1d6 Blunt
@@ -32,8 +34,9 @@ items:
   weight: 2
   size: 6x6
   tags:
-  - - Shield
-    - 2
+    - - Shield
+      - 2
+      
 - name: Towershield
   type: Shield
   damage: 1d8 Blunt
@@ -43,5 +46,5 @@ items:
   weight: 6
   size: 14x6
   tags:
-  - - Shield
-    - 6
+    - - Shield
+      - 6

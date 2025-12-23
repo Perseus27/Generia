@@ -6,12 +6,13 @@ headers:
 - Type
 - Damage
 - Skill
-- DEX
-- STR
+- HR
+- DR
 - Range
 - Weight
 - Size
 - Tags
+
 items:
 - name: Hunting Bow
   type: Bow
@@ -23,6 +24,7 @@ items:
   weight: 1
   size: 12x3
   tags: []
+
 - name: Riding Bow
   type: Bow
   damage: 1d6 Arrow
@@ -33,6 +35,7 @@ items:
   weight: 1
   size: 10x3
   tags: []
+
 - name: Longbow
   type: Bow
   damage: 1d8 Arrow
@@ -43,7 +46,8 @@ items:
   weight: 2
   size: 18x3
   tags:
-  - Long
+    - Long
+
 - name: Heavy Crossbow
   type: Crossbow
   damage: 2d8 Arrow
@@ -54,9 +58,10 @@ items:
   weight: 4
   size: 10x4
   tags:
-  - Long
-  - - Reload
-    - 2
+    - Long
+    - - Reload
+      - 2
+
 - name: Light Crossbow
   type: Crossbow
   damage: 2d6 Arrow
@@ -67,8 +72,9 @@ items:
   weight: 2
   size: 8x4
   tags:
-  - - Reload
-    - 1
+    - - Reload
+      - 1
+
 - name: Long Sling
   type: Sling
   damage: 1d6 Blunt
@@ -79,6 +85,7 @@ items:
   weight: 0.25
   size: 2x1
   tags: []
+
 - name: Short Sling
   type: Sling
   damage: 1d6 Blunt
@@ -89,6 +96,7 @@ items:
   weight: 0.1
   size: 1x1
   tags: []
+
 - name: Grenade
   type: Thrown
   damage: ???
@@ -99,6 +107,7 @@ items:
   weight: '0.25'
   size: 1x1
   tags: []
+
 - name: Javelin
   type: Thrown
   damage: 2d6 Arrow
@@ -109,6 +118,7 @@ items:
   weight: 0.5
   size: 18x1
   tags: []
+
 - name: Throwing Knife
   type: Thrown
   damage: 2d4 Sharp

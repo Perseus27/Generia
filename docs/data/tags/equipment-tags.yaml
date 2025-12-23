@@ -1,0 +1,45 @@
+name: Equipment Tags
+id: equipment-tags
+prefix: eqtags
+
+
+content:
+  - name: Ammo
+
+  - name: Blockbreaker
+
+  - name: Brutal
+
+  - name: Cavalry
+
+  - name: Complex
+
+  - name: Flexible
+
+  - name: Long
+
+  - name: Natural
+
+  - name: Parry
+
+  - name: Precise
+
+  - name: Reload
+
+  - name: Shield
+
+  - name: Short
+
+  - name: Two-Handed
+    id: TwoHanded
+
+  - name: Access
+
+  - name: Enchanted
+
+  - name: Focus
+
+  - name: Pocket Dimension
+    id: PocketDimension
+
+  - name: Stack

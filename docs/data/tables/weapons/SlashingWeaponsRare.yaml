@@ -6,11 +6,12 @@ headers:
 - Type
 - Damage
 - Skill
-- DEX
-- STR
+- HR
+- DR
 - Weight
 - Size
 - Tags
+
 items:
 - name: Dwarven Axe
   type: Axe
@@ -21,9 +22,10 @@ items:
   weight: 1.5
   size: 5x3
   tags:
-  - - Blockbreaker
-    - 1
-  - Short
+    - - Blockbreaker
+      - 1
+    - Short
+
 - name: Nord Axe
   type: Axe
   damage: 2d8 Sharp
@@ -33,7 +35,8 @@ items:
   weight: 4
   size: 14x3
   tags:
-  - Two-Handed
+    - Two-Handed
+
 - name: Glaive
   type: Polearm
   damage: 2d8 Sharp
@@ -43,10 +46,11 @@ items:
   weight: 3
   size: 24x2
   tags:
-  - Cavalry
-  - Complex
-  - Long
-  - Two-Handed
+    - Cavalry
+    - Complex
+    - Long
+    - Two-Handed
+
 - name: Naginata
   type: Polearm
   damage: 2d8 Sharp
@@ -56,9 +60,10 @@ items:
   weight: 3
   size: 24x2
   tags:
-  - Complex
-  - Long
-  - Two-Handed
+    - Complex
+    - Long
+    - Two-Handed
+
 - name: Bastard Sword
   type: Sword
   damage: 2d6 Sharp
@@ -68,7 +73,8 @@ items:
   weight: 1.5
   size: 12x2
   tags:
-  - Flexible 1.0|1.5
+    - Flexible 1.0|1.5
+
 - name: Gladius
   type: Sword
   damage: 2d6 Sharp
@@ -78,7 +84,8 @@ items:
   weight: 0.75
   size: 8x2
   tags:
-  - Short
+    - Short
+
 - name: Katana
   type: Sword
   damage: 2d8 Sharp
@@ -88,9 +95,10 @@ items:
   weight: 1.5
   size: 12x2
   tags:
-  - Complex
-  - Flexible 1.0|0.5
-  - Two-Handed
+    - Complex
+    - Flexible 1.0|0.5
+    - Two-Handed
+
 - name: Odachi
   type: Sword
   damage: 2d8 Sharp
@@ -100,8 +108,9 @@ items:
   weight: 6
   size: 20x2
   tags:
-  - Long
-  - Two-Handed
+    - Long
+    - Two-Handed
+  
 - name: Zweihänder
   type: Sword
   damage: 2d8 Sharp
@@ -111,5 +120,5 @@ items:
   weight: 4
   size: 18x2
   tags:
-  - Long
-  - Two-Handed
+    - Long
+    - Two-Handed
