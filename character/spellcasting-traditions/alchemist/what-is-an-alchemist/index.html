@@ -3773,25 +3773,95 @@
   
 
 
-<h1 id="macro-rendering-error"><em>Macro Rendering Error</em><a class="headerlink" href="#macro-rendering-error" title="Permanent link">&para;</a></h1>
-<p><em>File</em>: <code>character/spellcasting-traditions/alchemist/what-is-an-alchemist.md</code></p>
-<p><em>FileNotFoundError</em>: YAML not found: data/tables/weapons/AlchemistWeapons.yaml</p>
-<div class="highlight"><pre><span></span><code>Traceback (most recent call last):
-  File &quot;/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/mkdocs_macros/plugin.py&quot;, line 527, in render
-    return md_template.render(**page_variables)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File &quot;/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/jinja2/environment.py&quot;, line 1295, in render
-    self.environment.handle_exception()
-  File &quot;/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/jinja2/environment.py&quot;, line 942, in handle_exception
-    raise rewrite_traceback_stack(source=source)
-  File &quot;&lt;template&gt;&quot;, line 18, in top-level template code
-  File &quot;/home/runner/work/generia/generia/main.py&quot;, line 61, in table
-    yaml_content = _read_yaml(path)
-                   ^^^^^^^^^^^^^^^^
-  File &quot;/home/runner/work/generia/generia/main.py&quot;, line 28, in _read_yaml
-    raise FileNotFoundError(f&quot;YAML not found: {rel_path}&quot;)
-FileNotFoundError: YAML not found: data/tables/weapons/AlchemistWeapons.yaml
-</code></pre></div>
+<p><template id="sidebar-extra">
+<br />
+<div class="sidebar-extra">
+    <h3>Navigation</h3>
+    <h4>See also:</h4>
+    <li><a href="../alchemist-spells">Alchemist Spells</a></li>
+    <br>
+    <h4>Related Classes</h4>
+    <li><a href="XXX">Alchemist</a></li>
+    <li><a href="XXX">Arsenalist</a></li>
+    <li><a href="XXX">Engineer</a></li>
+    <li><a href="XXX">Medic</a></li>
+  </div></p>
+<p></template></p>
+<h1>Alchemists</h1>
+<p>Alchemists create tools and substances from magical materials. Their craft serves on the battlefield and at the healer’s bench alike – turning rare reagents into munitions, tonics, salves, bombs, and even temporary constructs.
+<h1>Special Features</h1></p>
+<h2>Transmutation</h2>
+<p>Spontaneous creations are called <em>transmutations</em> and come in three broad types.
+<h4>Permanent</h4></p>
+<p>Permanent transmutations require ample preparation and execution time. The resulting item is durable and behaves like a regular piece of equipment.
+<h4>Volatile</h4></p>
+<p>Fast, combat‑ready workings cast on the fly. Their effects fade quickly (after one Phase, unless specified otherwise) and the product crumbles to dust afterward.
+<h4>Construction</h4></p>
+<p>Constructions are a subtype of permanent transmutations, mostly encompassing the creation of golems and similarly complex structures.
+<h2>Focus Gloves</h2></p>
+<p>Alchemists use <em>focus gloves</em> inscribed with alchemical runes to safely channel volatile transmutations. The gloves’ <a href='/generia/rules/basic/values#AV'>Armor Value (AV)</a> equals the value of their mundane counterpart (e.g., cloth, leather).
+<h1>Alchemical Schools</h1></p>
+<h3>Mechanics</h3>
+<p>The creation of devices and constructs: everything from firearms and ammunition to <a href='#Golems'>golems</a> and specialized tools.
+<h3>Pharmacy</h3></p>
+<p>The brewing of poisons, remedies, and diverse chemical compounds.
+<h1 id='Elements'>Elements</h1></p>
+<h2>Basic Elements</h2>
+<p>The four basic elements <strong>Water</strong>, <strong>Stone</strong>, <strong>Fire</strong>, and <strong>Air</strong> are the core of alchemy. Cores and dust of those elements are relatively easy to obtain by drawing them from ambient mana or slaying elementals.
+<h2>Derivative Elements</h2></p>
+<p>There are countless derivative elements, but only the following two are stable enough to use offensively:<br><strong>Ice</strong>: Water + Stone<br><strong>Lightning</strong>: Fire + Air
+<h2>Aether</h2></p>
+<p>Aether, known among wizards as "the Arcane", is understood by alchemists as the critical link between mass and elemental energy. Many devote themselves to its study, but few ever manage to grasp more than the very basics of its workings, since it seems to respond more to <em>intent</em> than any measurable factors.<br>Most alchemists grudgingly accept it as the unknowable foundation of their craft and simply rely on it behaving in accordance with their wishes and experience.
+<h1>School Specialization (Proficiency Value)</h1></p>
+<h4>Mechanics</h4>
+<p>Each point in Mechanics increases damage, <span class='clr-dc section'>DC</span>, <span class='clr-sa section'>SA</span>, and <span class='clr-sd section'>SD</span> of all mechanical munitions and spells by <span class='clr-value section'>1</span>. Additionally, the damage dealt by constructed golems is increased by <span class='clr-value section'>1</span>.
+<h4>Pharmacy</h4></p>
+<p>Each point in Pharmacy increases damage, <span class='clr-dc section'>DC</span>, <span class='clr-sa section'>SA</span>, and <span class='clr-sd section'>SD</span> of all pharmaceutical munitions and spells by <span class='clr-value section'>1</span>. Additionally, the <span class='clr-dc section'>DC</span> of pharmaceutically caused status effects is increased by <span class='clr-value section'>1</span>.
+<h1 id='Golems'>Golems</h1></p>
+<p>Alchemists are adept at creating golems, mechanical constructs with a wide range of customization options.
+<h3>Golem Cores</h3></p>
+<p>Golems require artificial "cores", small computing units the size of a marble that essentially serve as the construct's brain. These cores are soul-bound to their creator, meaning that they can only be used by the Alchemist who made them.<br>Golem cores are universal, meaning that the same core could control a tiny or large golem. They can be reused as many times as the Alchemist pleases, as long as they are not destroyed.
+<h4>Core Damage</h4></p>
+<p>Since cores are a golem's central processing unit, they occupy the <em>Head</em> hit zone, regardless of their actual location in the golem's body.<br>Whenever a golem takes a core wound, it must succeed on a <span class='clr-attr section'>CON</span> save against <span class='clr-value section'>10 + [Total Wounds]</span>, or it is considered inoperable (functionally <a href='/generia/rules/combat/status-effects#Unconscious'>Unconscious</a>) until the damage is repaired.
+<h4>Core Generations</h4></p>
+<p>Golem cores range from simple models to highly complex supercomputers. They are the defining factor of the resulting golem's overall strength, represented by their creature level:<br><strong>Core Mk. I:</strong> Level 10<br><strong>Core Mk. II:</strong> Level 20<br><strong>Core Mk. III:</strong> Level 30<br><strong>Etc.</strong><br><em>For golem statblocks, see: <a href='/generia/stats/creatures/constructs/golems/golems-mk1'>Mk. I</a>, <a href='/generia/stats/creatures/constructs/golems/golems-mk2'>Mk. II</a></em>
+<h3 id='GolemSizes'>Golem Sizes</h3></p>
+<p>Golems come in four standardized sizes: Tiny, Small, Medium, and Large.
+<h4>Tiny</h4></p>
+<p>Tiny golems are usually insect-like – diminutive and nimble. They are mostly useless in combat due to their inherent fragility and inability to equip Golem Kits, but they can serve as reliable scouting tools.
+<h4>Small</h4></p>
+<p>Small golems tend to be bipedal humanoids around the height of a dwarf, but spindly limbs and lack of armor plating give them an unsettling appearance.<br>Their role in combat is that of an assassin, rapidly engaging soft targets from unexpected angles and then retreating to avoid destruction.
+<h4>Medium</h4></p>
+<p>Medium golems are the most commonly used type, with a humanoid build, balanced attributes, and a variety of equipment options. In combat, they can serve as physical damage dealers, body guards, or highly durable distractions.
+<h4>Large</h4></p>
+<p>Due to their immense ressource requirements, large golems aren't usually deployed in combat. Instead, their absurd strength and resilience are used for construction projects, logistics, and other manual labor.<br>Despite this, they are slow, but terrifying combatants best suited for perimeter defense, deterrence, and breaching fortified enemy positions.
+<h3>Golem Fuel</h3></p>
+<p>Golems require elemental energy to run. This is represented by their <span class='clr-en section'>EN</span> value. They are not picky eaters; any element type will do.
+<h4>Refueling</h4></p>
+<p>To refuel a golem, the Alchemist must insert elemental cores or similar sources of elemental energy into its refueling port. The amount of EN restored depends on the grade of the fuel:<br><strong>Dust:</strong> <span class='clr-encost section'>1 EN</span><br><strong>Core, weak:</strong> <span class='clr-encost section'>10 EN</span><br><strong>Core, normal:</strong> <span class='clr-encost section'>20 EN</span><br><strong>Core, strong:</strong> <span class='clr-encost section'>40 EN</span>
+<h4>Idle Drain</h4></p>
+<p>Active golems steadily lose energy each day. For a tiny golem, this drain is <span class='clr-en section'>1 EN</span> each day, increasing by <span class='clr-value section'>1</span> for each size class above tiny.
+<h3>Golem Materials</h3></p>
+<p>Golems can be made from either <strong>Stone</strong> or <strong>Metal</strong>. Stone is much easier to obtain in large quantities, while highly expensive metal golems offer the following benefits:
+<h4>Efficiency</h4></p>
+<p>When refueling metal golems, they regain twice the <span class='clr-en section'>EN</span>.
+<h4>Resilience</h4></p>
+<p>Metal golems have <a href='/generia/rules/combat/status-effects#Resistant'>Resistance <em>Sharp</em></a>.
+<h1 id='TransmutedWeapons'>Transmuted Weapons</h1></p>
+<p>Alchemist spells can create various ranged weapons. These weapons count as regular weapons, meaning they can be used in conjunction with combat <a href='/generia/character/skills/skills-tier-i'>skills</a> and <a href='/generia/character/perks/perks-combat'>perks</a>.
+<h4>Proficiency</h4></p>
+<p>The Alchemist proficiency counts as <a href='/generia/character/proficiencies/proficiencies-weapons'>weapon proficiency</a> for transmuted weapons, including all bonuses this entails, e.g., an additional unmodified basic attack at <em>Adept</em> rank.<br>The Alchemist's <span class='clr-value section'><em>Mechanics</em></span> value counts as weapon proficiency value.
+<h4>Attack Value</h4></p>
+<p>The <a href='/generia/rules/basic/values#AttackValue'>attack value</a> formula of transmuted weapons is as follows:<br>[<span class='clr-value section'>Mechanics</span>] + <span class='clr-attr section'>INT-MOD</span>
+<h4>Damage</h4></p>
+<p>The damage of transmuted weapons is entirely dependent on the used ammunition. They do not have base damage.</p>
+<div class="rendered-table">
+    <h3 id="AlchemistWeapons">Transmuted Weapons</h3>
+    <table class="weapon-table weapon-table-alchemist rendered-table-inner">
+        <tr><th>Name</th><th>Tier</th><th>Skill</th><th>Range</th><th>Size</th><th>Tags</th></tr>
+        <tr><td>Handgun</td><td>Tier I</td><td><a href='/generia/rules/equipment/weapon-skills#Kite'>Kite</a></td><td>-1/0/-1, 20m</td><td>3x1</td><td><a href='/generia/rules/equipment/equipment-tags#Short'>Short</a></td></tr><tr><td>Shotgun</td><td>Tier II</td><td><a href='/generia/rules/equipment/weapon-skills#Recoil'>Recoil</a></td><td>0/-1/-1, 16m</td><td>6x2</td><td><a href='/generia/rules/equipment/equipment-tags#Short'>Short</a></td></tr><tr><td>Grenade Launcher</td><td>Tier II</td><td>–</td><td>24m (grenades only)</td><td>6x3</td><td></td></tr><tr><td>Rifle</td><td>Tier III</td><td><a href='/generia/rules/equipment/weapon-skills#Pierce'>Pierce</a></td><td>-1/-1/0, 24m</td><td>14x2</td><td><a href='/generia/rules/equipment/equipment-tags#Long'>Long</a></td></tr>
+    </table>
+</div>
 
 
 
