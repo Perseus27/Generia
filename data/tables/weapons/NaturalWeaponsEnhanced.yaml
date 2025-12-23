@@ -1,35 +1,36 @@
-name: "Natural Weapons - Enhanced"
-id: "NaturalWeaponsEnhanced"
-table_type: "weapon-table weapon-table-melee"
-
+name: Natural Weapons - Enhanced
+id: NaturalWeaponsEnhanced
+table_type: weapon-table weapon-table-melee
 headers:
-  - "Name"
-  - "Type"
-  - "Damage"
-  - "Skill"
-  - "DEX"
-  - "STR"
-  - "Weight"
-  - "Size"
-  - "Tags"
-
+- Name
+- Type
+- Damage
+- Skill
+- DEX
+- STR
+- Weight
+- Size
+- Tags
 items:
-  - name: "Brass Knuckles"
-    type: "Fist"
-    damage: "[section:clr-roll]1d8[/section] Blunt"
-    skill: "–"
-    hr: 1.0
-    dr: 1.5
-    weight: 0
-    size: "1x2"
-    tags: "[url:eqtags#Short]Short[/url]"
-
-  - name: "Steel Claws"
-    type: "Fist"
-    damage: "[section:clr-roll]2d4[/section] Blunt"
-    skill: "–"
-    hr: 1.5
-    dr: 0.5
-    weight: 0
-    size: "1x2"
-    tags: "[url:eqtags#Brutal]Brutal[/url], [url:eqtags#Complex]Complex[/url], [url:eqtags#Short]Short[/url]"
+- name: Brass Knuckles
+  type: Fist
+  damage: 1d8 Blunt
+  skill: –
+  hr: 1.0
+  dr: 1.5
+  weight: 0
+  size: 1x2
+  tags:
+  - Short
+- name: Steel Claws
+  type: Fist
+  damage: 2d4 Blunt
+  skill: –
+  hr: 1.5
+  dr: 0.5
+  weight: 0
+  size: 1x2
+  tags:
+  - Brutal
+  - Complex
+  - Short

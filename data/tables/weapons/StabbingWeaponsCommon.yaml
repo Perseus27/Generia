@@ -1,95 +1,96 @@
-name: "Stabbing Weapons - Common"
-id: "StabbingWeaponsCommon"
-table_type: "weapon-table weapon-table-melee"
-
+name: Stabbing Weapons - Common
+id: StabbingWeaponsCommon
+table_type: weapon-table weapon-table-melee
 headers:
-  - "Name"
-  - "Type"
-  - "Damage"
-  - "Skill"
-  - "DEX"
-  - "STR"
-  - "Weight"
-  - "Size"
-  - "Tags"
-
+- Name
+- Type
+- Damage
+- Skill
+- DEX
+- STR
+- Weight
+- Size
+- Tags
 items:
-  - name: "Dagger"
-    type: "Dagger"
-    damage: "[section:clr-roll]2d6[/section] Sharp"
-    skill: "[url:skillsW#Butcher]Butcher[/url]"
-    hr: 1.5
-    dr: 0.0
-    weight: 0.25
-    size: "3x1"
-    tags: "[url:eqtags#Precise]Precise[/url], [url:eqtags#Short]Short[/url]"
-
-  - name: "Knife"
-    type: "Dagger"
-    damage: "[section:clr-roll]2d6[/section] Sharp"
-    skill: "[url:skillsW#Butcher]Butcher[/url]"
-    hr: 1.0
-    dr: 0.0
-    weight: 0.1
-    size: "2x1"
-    tags: "[url:eqtags#Precise]Precise[/url], [url:eqtags#Short]Short[/url]"
-
-  - name: "Rondel Dagger"
-    type: "Dagger"
-    damage: "[section:clr-roll]2d6[/section] Sharp"
-    skill: "[url:skillsW#Butcher]Butcher[/url]"
-    hr: 0.5
-    dr: 1.5
-    weight: 0.25
-    size: "3x1"
-    tags: "[url:eqtags#Short]Short[/url]"
-
-  - name: "Halberd"
-    type: "Polearm"
-    damage: "[section:clr-roll]2d8[/section] Sharp"
-    skill: "[url:skillsW#Pierce]Pierce[/url]"
-    hr: 1.0
-    dr: 1.0
-    weight: 3
-    size: "21x2"
-    tags: "[url:eqtags#Long]Long[/url], [url:eqtags#TwoHanded]Two-Handed[/url]"
-
-  - name: "Pike"
-    type: "Polearm"
-    damage: "[section:clr-roll]2d8[/section] Sharp"
-    skill: "[url:skillsW#Pierce]Pierce[/url]"
-    hr: 1.5
-    dr: 0.5
-    weight: 2
-    size: "24x1"
-    tags: "[url:eqtags#Long]Long[/url], [url:eqtags#TwoHanded]Two-Handed[/url]"
-
-  - name: "Spear"
-    type: "Polearm"
-    damage: "[section:clr-roll]2d6[/section] Sharp"
-    skill: "[url:skillsW#Maim]Maim[/url]"
-    hr: 1.0
-    dr: 1.0
-    weight: 1
-    size: "18x1"
-    tags: "[url:eqtags#Flexible]Flexible[/url] 1.0|1.5 [i][url:eqtags#Long]Long[/url][/i]"
-
-  - name: "Rapier"
-    type: "Sword"
-    damage: "[section:clr-roll]2d6[/section] Sharp"
-    skill: "[url:skillsW#Lunge]Lunge[/url]"
-    hr: 1.5
-    dr: 0.5
-    weight: 1
-    size: "12x2"
-    tags: "–"
-
-  - name: "Spadroon"
-    type: "Sword"
-    damage: "[section:clr-roll]2d6[/section] Sharp"
-    skill: "[url:skillsW#Lunge]Lunge[/url]"
-    hr: 1.0
-    dr: 1.0
-    weight: 1
-    size: "8x2"
-    tags: "–"
+- name: Dagger
+  type: Dagger
+  damage: 2d6 Sharp
+  skill: Butcher
+  hr: 1.5
+  dr: 0.0
+  weight: 0.25
+  size: 3x1
+  tags:
+  - Precise
+  - Short
+- name: Knife
+  type: Dagger
+  damage: 2d6 Sharp
+  skill: Butcher
+  hr: 1.0
+  dr: 0.0
+  weight: 0.1
+  size: 2x1
+  tags:
+  - Precise
+  - Short
+- name: Rondel Dagger
+  type: Dagger
+  damage: 2d6 Sharp
+  skill: Butcher
+  hr: 0.5
+  dr: 1.5
+  weight: 0.25
+  size: 3x1
+  tags:
+  - Short
+- name: Halberd
+  type: Polearm
+  damage: 2d8 Sharp
+  skill: Pierce
+  hr: 1.0
+  dr: 1.0
+  weight: 3
+  size: 21x2
+  tags:
+  - Long
+  - Two-Handed
+- name: Pike
+  type: Polearm
+  damage: 2d8 Sharp
+  skill: Pierce
+  hr: 1.5
+  dr: 0.5
+  weight: 2
+  size: 24x1
+  tags:
+  - Long
+  - Two-Handed
+- name: Spear
+  type: Polearm
+  damage: 2d6 Sharp
+  skill: Maim
+  hr: 1.0
+  dr: 1.0
+  weight: 1
+  size: 18x1
+  tags:
+  - Flexible 1.0|1.5 Long
+- name: Rapier
+  type: Sword
+  damage: 2d6 Sharp
+  skill: Lunge
+  hr: 1.5
+  dr: 0.5
+  weight: 1
+  size: 12x2
+  tags: []
+- name: Spadroon
+  type: Sword
+  damage: 2d6 Sharp
+  skill: Lunge
+  hr: 1.0
+  dr: 1.0
+  weight: 1
+  size: 8x2
+  tags: []

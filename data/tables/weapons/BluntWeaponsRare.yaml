@@ -1,95 +1,100 @@
-name: "Blunt Weapons - Rare"
-id: "BluntWeaponsRare"
-table_type: "weapon-table weapon-table-melee"
-
+name: Blunt Weapons - Rare
+id: BluntWeaponsRare
+table_type: weapon-table weapon-table-melee
 headers:
-  - "Name"
-  - "Type"
-  - "Damage"
-  - "Skill"
-  - "DEX"
-  - "STR"
-  - "Weight"
-  - "Size"
-  - "Tags"
-
+- Name
+- Type
+- Damage
+- Skill
+- DEX
+- STR
+- Weight
+- Size
+- Tags
 items:
-  - name: "Flail"
-    type: "Club"
-    damage: "[section:clr-roll]2d6[/section] Blunt"
-    skill: "[url:skillsW#Smash]Smash[/url]"
-    hr: 0.5
-    dr: 1.5
-    weight: 2
-    size: "8x2"
-    tags: "[url:eqtags#Complex]Complex[/url], [url:eqtags#Unpredictable]Unpredictable[/url]"
-
-  - name: "Spiked Mace"
-    type: "Club"
-    damage: "[section:clr-roll]2d6[/section] Blunt"
-    skill: "[url:skillsW#Smash]Smash[/url]"
-    hr: 0.5
-    dr: 1.5
-    weight: 2
-    size: "8x2"
-    tags: "[url:eqtags#Brutal]Brutal[/url]"
-
-  - name: "Dwarven Hammer"
-    type: "Hammer"
-    damage: "[section:clr-roll]2d6[/section] Blunt"
-    skill: "[url:skillsW#Smash]Smash[/url]"
-    hr: 0.5
-    dr: 1.5
-    weight: 4
-    size: "4x3"
-    tags: "[url:eqtags#Blockbreaker]Blockbreaker[/url] 2.0, [url:eqtags#Short]Short[/url]"
-
-  - name: "Raven's Beak"
-    type: "Hammer"
-    damage: "[section:clr-roll]2d6[/section] Blunt"
-    skill: "[url:skillsW#Pierce]Pierce[/url]"
-    hr: 1.0
-    dr: 1.0
-    weight: 2
-    size: "10x3"
-    tags: "[url:eqtags#Flexible]Flexible[/url] 0.5|1.5"
-
-  - name: "Bo Staff"
-    type: "Staff"
-    damage: "[section:clr-roll]2d8[/section] Blunt"
-    skill: "[url:skillsW#Push]Push[/url]"
-    hr: 1.5
-    dr: 0.5
-    weight: 1.0
-    size: "14x1"
-    tags: "[url:eqtags#TwoHanded]Two-Handed[/url]"
-
-  - name: "Nunchaku"
-    type: "Staff"
-    damage: "[section:clr-roll]2d6[/section] Blunt"
-    skill: "[url:skillsW#Smash]Smash[/url]"
-    hr: 1.0
-    dr: 1.0
-    weight: 0.5
-    size: "3x1"
-    tags: "[url:eqtags#Complex]Complex[/url], [url:eqtags#Unpredictable]Unpredictable[/url]"
-
-  - name: "Shillelagh"
-    type: "Staff"
-    damage: "[section:clr-roll]2d8[/section] Blunt"
-    skill: "[url:skillsW#Smash]Smash[/url]"
-    hr: 0.5
-    dr: 1.5
-    weight: 1
-    size: "14x2"
-    tags: "[url:eqtags#Focus]Focus[/url] (Druid), [url:eqtags#TwoHanded]Two-Handed[/url]"
-
-  - name: "Wizard's Staff"
-    type: "Staff"
-    damage: "[section:clr-roll]2d8[/section] Blunt"
-    skill: "[url:skillsW#Push]Push[/url]"
-    hr: 1.0
-    dr: 0.5
-    weight: 1
-    size: "18x2"
-    tags: "[url:eqtags#Focus]Focus[/url] (Wizard), [url:eqtags#TwoHanded]Two-Handed[/url]"
+- name: Flail
+  type: Club
+  damage: 2d6 Blunt
+  skill: Smash
+  hr: 0.5
+  dr: 1.5
+  weight: 2
+  size: 8x2
+  tags:
+  - Complex
+  - Unpredictable
+- name: Spiked Mace
+  type: Club
+  damage: 2d6 Blunt
+  skill: Smash
+  hr: 0.5
+  dr: 1.5
+  weight: 2
+  size: 8x2
+  tags:
+  - Brutal
+- name: Dwarven Hammer
+  type: Hammer
+  damage: 2d6 Blunt
+  skill: Smash
+  hr: 0.5
+  dr: 1.5
+  weight: 4
+  size: 4x3
+  tags:
+  - - Blockbreaker
+    - 2
+  - Short
+- name: Raven's Beak
+  type: Hammer
+  damage: 2d6 Blunt
+  skill: Pierce
+  hr: 1.0
+  dr: 1.0
+  weight: 2
+  size: 10x3
+  tags:
+  - Flexible 0.5|1.5
+- name: Bo Staff
+  type: Staff
+  damage: 2d8 Blunt
+  skill: Push
+  hr: 1.5
+  dr: 0.5
+  weight: 1.0
+  size: 14x1
+  tags:
+  - Two-Handed
+- name: Nunchaku
+  type: Staff
+  damage: 2d6 Blunt
+  skill: Smash
+  hr: 1.0
+  dr: 1.0
+  weight: 0.5
+  size: 3x1
+  tags:
+  - Complex
+  - Unpredictable
+- name: Shillelagh
+  type: Staff
+  damage: 2d8 Blunt
+  skill: Smash
+  hr: 0.5
+  dr: 1.5
+  weight: 1
+  size: 14x2
+  tags:
+  - Focus (Druid)
+  - Two-Handed
+- name: Wizard's Staff
+  type: Staff
+  damage: 2d8 Blunt
+  skill: Push
+  hr: 1.0
+  dr: 0.5
+  weight: 1
+  size: 18x2
+  tags:
+  - Focus (Wizard)
+  - Two-Handed

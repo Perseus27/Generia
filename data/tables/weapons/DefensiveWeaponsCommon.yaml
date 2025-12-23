@@ -1,45 +1,47 @@
-name: "Defensive Weapons - Common"
-id: "DefensiveWeaponsCommon"
-table_type: "weapon-table weapon-table-melee"
-
+name: Defensive Weapons - Common
+id: DefensiveWeaponsCommon
+table_type: weapon-table weapon-table-melee
 headers:
-  - "Name"
-  - "Type"
-  - "Damage"
-  - "Skill"
-  - "DEX"
-  - "STR"
-  - "Weight"
-  - "Size"
-  - "Tags"
-
+- Name
+- Type
+- Damage
+- Skill
+- DEX
+- STR
+- Weight
+- Size
+- Tags
 items:
-  - name: "Buckler"
-    type: "Shield"
-    damage: "[section:clr-roll]1d4[/section] Blunt"
-    skill: "[url:skillsW#Push]Push[/url]"
-    hr: 1.0
-    dr: 1.0
-    weight: 1
-    size: "3x3"
-    tags: "[url:eqtags#Parry]Parry[/url], [url:eqtags#Shield]Shield[/url]"
-
-  - name: "Roundshield"
-    type: "Shield"
-    damage: "[section:clr-roll]1d6[/section] Blunt"
-    skill: "[url:skillsW#Push]Push[/url]"
-    hr: 0.5
-    dr: 1.5
-    weight: 2
-    size: "6x6"
-    tags: "[url:eqtags#Shield]Shield[/url] 2"
-
-  - name: "Towershield"
-    type: "Shield"
-    damage: "[section:clr-roll]1d8[/section] Blunt"
-    skill: "[url:skillsW#Push]Push[/url]"
-    hr: 0.0
-    dr: 2.0
-    weight: 6
-    size: "14x6"
-    tags: "[url:eqtags#Shield]Shield[/url] 6"
+- name: Buckler
+  type: Shield
+  damage: 1d4 Blunt
+  skill: Push
+  hr: 1.0
+  dr: 1.0
+  weight: 1
+  size: 3x3
+  tags:
+  - Parry
+  - Shield
+- name: Roundshield
+  type: Shield
+  damage: 1d6 Blunt
+  skill: Push
+  hr: 0.5
+  dr: 1.5
+  weight: 2
+  size: 6x6
+  tags:
+  - - Shield
+    - 2
+- name: Towershield
+  type: Shield
+  damage: 1d8 Blunt
+  skill: Push
+  hr: 0.0
+  dr: 2.0
+  weight: 6
+  size: 14x6
+  tags:
+  - - Shield
+    - 6

@@ -1,105 +1,115 @@
-name: "Slashing Weapons - Rare"
-id: "SlashingWeaponsRare"
-table_type: "weapon-table weapon-table-melee"
-
+name: Slashing Weapons - Rare
+id: SlashingWeaponsRare
+table_type: weapon-table weapon-table-melee
 headers:
-  - "Name"
-  - "Type"
-  - "Damage"
-  - "Skill"
-  - "DEX"
-  - "STR"
-  - "Weight"
-  - "Size"
-  - "Tags"
-
+- Name
+- Type
+- Damage
+- Skill
+- DEX
+- STR
+- Weight
+- Size
+- Tags
 items:
-  - name: "Dwarven Axe"
-    type: "Axe"
-    damage: "[section:clr-roll]2d6[/section] Sharp"
-    skill: "[url:skillsW#Maim]Maim[/url]"
-    hr: 1.0
-    dr: 1.0
-    weight: 1.5
-    size: "5x3"
-    tags: "[url:eqtags#Blockbreaker]Blockbreaker[/url] 1.0, [url:eqtags#Short]Short[/url]"
-
-  - name: "Nord Axe"
-    type: "Axe"
-    damage: "[section:clr-roll]2d8[/section] Sharp"
-    skill: "[url:skillsW#Maim]Maim[/url]"
-    hr: 0.5
-    dr: 1.5
-    weight: 4
-    size: "14x3"
-    tags: "[url:eqtags#TwoHanded]Two-Handed[/url]"
-
-  - name: "Glaive"
-    type: "Polearm"
-    damage: "[section:clr-roll]2d8[/section] Sharp"
-    skill: "[url:skillsW#Maim]Maim[/url]"
-    hr: 1.5
-    dr: 0.5
-    weight: 3
-    size: "24x2"
-    tags: "[url:eqtags#Cavalry]Cavalry[/url], [url:eqtags#Complex]Complex[/url], [url:eqtags#Long]Long[/url], [url:eqtags#TwoHanded]Two-Handed[/url]"
-
-  - name: "Naginata"
-    type: "Polearm"
-    damage: "[section:clr-roll]2d8[/section] Sharp"
-    skill: "[url:skillsW#Cut]Cut[/url]"
-    hr: 1.0
-    dr: 1.0
-    weight: 3
-    size: "24x2"
-    tags: "[url:eqtags#Complex]Complex[/url], [url:eqtags#Long]Long[/url], [url:eqtags#TwoHanded]Two-Handed[/url]"
-
-  - name: "Bastard Sword"
-    type: "Sword"
-    damage: "[section:clr-roll]2d6[/section] Sharp"
-    skill: "[url:skillsW#Maim]Maim[/url]"
-    hr: 1.0
-    dr: 1.0
-    weight: 1.5
-    size: "12x2"
-    tags: "[url:eqtags#Flexible]Flexible[/url] 1.0|1.5"
-  
-  - name: "Gladius"
-    type: "Sword"
-    damage: "[section:clr-roll]2d6[/section] Sharp"
-    skill: "[url:skillsW#Butcher]Butcher[/url]"
-    hr: 1.0
-    dr: 1.0
-    weight: 0.75
-    size: "8x2"
-    tags: "[url:eqtags#Short]Short[/url]"
-
-  - name: "Katana"
-    type: "Sword"
-    damage: "[section:clr-roll]2d8[/section] Sharp"
-    skill: "[url:skillsW#Cut]Cut[/url]"
-    hr: 1.0
-    dr: 1.0
-    weight: 1.5
-    size: "12x2"
-    tags: "[url:eqtags#Complex]Complex[/url], [url:eqtags#Flexible]Flexible[/url] 1.0|0.5, [url:eqtags#TwoHanded]Two-Handed[/url]"
-  
-  - name: "Odachi"
-    type: "Sword"
-    damage: "[section:clr-roll]2d8[/section] Sharp"
-    skill: "[url:skillsW#Cut]Cut[/url]"
-    hr: 0.5
-    dr: 1.5
-    weight: 6
-    size: "20x2"
-    tags: "[url:eqtags#Long]Long[/url], [url:eqtags#TwoHanded]Two-Handed[/url]"
-  
-  - name: "Zweihänder"
-    type: "Sword"
-    damage: "[section:clr-roll]2d8[/section] Sharp"
-    skill: "[url:skillsW#Maim]Maim[/url]"
-    hr: 1.0
-    dr: 1.0
-    weight: 4
-    size: "18x2"
-    tags: "[url:eqtags#Long]Long[/url], [url:eqtags#TwoHanded]Two-Handed[/url]"
+- name: Dwarven Axe
+  type: Axe
+  damage: 2d6 Sharp
+  skill: Maim
+  hr: 1.0
+  dr: 1.0
+  weight: 1.5
+  size: 5x3
+  tags:
+  - - Blockbreaker
+    - 1
+  - Short
+- name: Nord Axe
+  type: Axe
+  damage: 2d8 Sharp
+  skill: Maim
+  hr: 0.5
+  dr: 1.5
+  weight: 4
+  size: 14x3
+  tags:
+  - Two-Handed
+- name: Glaive
+  type: Polearm
+  damage: 2d8 Sharp
+  skill: Maim
+  hr: 1.5
+  dr: 0.5
+  weight: 3
+  size: 24x2
+  tags:
+  - Cavalry
+  - Complex
+  - Long
+  - Two-Handed
+- name: Naginata
+  type: Polearm
+  damage: 2d8 Sharp
+  skill: Cut
+  hr: 1.0
+  dr: 1.0
+  weight: 3
+  size: 24x2
+  tags:
+  - Complex
+  - Long
+  - Two-Handed
+- name: Bastard Sword
+  type: Sword
+  damage: 2d6 Sharp
+  skill: Maim
+  hr: 1.0
+  dr: 1.0
+  weight: 1.5
+  size: 12x2
+  tags:
+  - Flexible 1.0|1.5
+- name: Gladius
+  type: Sword
+  damage: 2d6 Sharp
+  skill: Butcher
+  hr: 1.0
+  dr: 1.0
+  weight: 0.75
+  size: 8x2
+  tags:
+  - Short
+- name: Katana
+  type: Sword
+  damage: 2d8 Sharp
+  skill: Cut
+  hr: 1.0
+  dr: 1.0
+  weight: 1.5
+  size: 12x2
+  tags:
+  - Complex
+  - Flexible 1.0|0.5
+  - Two-Handed
+- name: Odachi
+  type: Sword
+  damage: 2d8 Sharp
+  skill: Cut
+  hr: 0.5
+  dr: 1.5
+  weight: 6
+  size: 20x2
+  tags:
+  - Long
+  - Two-Handed
+- name: Zweihänder
+  type: Sword
+  damage: 2d8 Sharp
+  skill: Maim
+  hr: 1.0
+  dr: 1.0
+  weight: 4
+  size: 18x2
+  tags:
+  - Long
+  - Two-Handed

@@ -1,135 +1,134 @@
-name: "Natural Weapons - Basic"
-id: "NaturalWeaponsBasic"
-table_type: "weapon-table weapon-table-melee"
-
+name: Natural Weapons - Basic
+id: NaturalWeaponsBasic
+table_type: weapon-table weapon-table-melee
 headers:
-  - "Name"
-  - "Type"
-  - "Damage"
-  - "Skill"
-  - "DEX"
-  - "STR"
-  - "Weight"
-  - "Size"
-  - "Tags"
-
+- Name
+- Type
+- Damage
+- Skill
+- DEX
+- STR
+- Weight
+- Size
+- Tags
 items:
-  - name: "Fist"
-    type: "Primitive"
-    damage: "[section:clr-roll]1d6[/section] Blunt"
-    skill: "–"
-    hr: 1.0
-    dr: 1.0
-    weight: 0
-    size: "–"
-    tags: "[url:eqtags#Natural]Natural[/url]"
-
-  - name: "Foot"
-    type: "Primitive"
-    damage: "[section:clr-roll]1d6[/section] Blunt"
-    skill: "–"
-    hr: 0.5
-    dr: 1.5
-    weight: 0
-    size: "–"
-    tags: "[url:eqtags#Natural]Natural[/url]"
-
-  - name: "Claws (small)"
-    type: "Primitive"
-    damage: "[section:clr-roll]1d6[/section] Sharp"
-    skill: "–"
-    hr: 1.0
-    dr: 1.0
-    weight: 0
-    size: "–"
-    tags: "[url:eqtags#Natural]Natural[/url]"
-
-  - name: "Claws (medium)"
-    type: "Primitive"
-    damage: "[section:clr-roll]2d6[/section] Sharp"
-    skill: "–"
-    hr: 1.0
-    dr: 1.0
-    weight: 0
-    size: "–"
-    tags: "[url:eqtags#Natural]Natural[/url]"
-
-  - name: "Claws (large)"
-    type: "Primitive"
-    damage: "[section:clr-roll]2d8[/section] Sharp"
-    skill: "–"
-    hr: 1.0
-    dr: 1.0
-    weight: 0
-    size: "–"
-    tags: "[url:eqtags#Natural]Natural[/url]"
-
-  - name: "Horns (medium)"
-    type: "Primitive"
-    damage: "[section:clr-roll]3d4[/section] Sharp"
-    skill: "–"
-    hr: 1.0
-    dr: 1.0
-    weight: 0
-    size: "–"
-    tags: "[url:eqtags#Natural]Natural[/url]"
-
-  - name: "Horns (large)"
-    type: "Primitive"
-    damage: "[section:clr-roll]3d6[/section] Sharp"
-    skill: "–"
-    hr: 1.0
-    dr: 1.0
-    weight: 0
-    size: "–"
-    tags: "[url:eqtags#Natural]Natural[/url]"
-
-  - name: "Teeth (small)"
-    type: "Primitive"
-    damage: "[section:clr-roll]2d4[/section] Sharp"
-    skill: "–"
-    hr: 1.0
-    dr: 1.0
-    weight: 0
-    size: "–"
-    tags: "[url:eqtags#Natural]Natural[/url]"
-
-  - name: "Teeth (medium)"
-    type: "Primitive"
-    damage: "[section:clr-roll]3d4[/section] Sharp"
-    skill: "–"
-    hr: 1.0
-    dr: 1.0
-    weight: 0
-    size: "–"
-    tags: "[url:eqtags#Natural]Natural[/url]"
-
-  - name: "Teeth (large)"
-    type: "Primitive"
-    damage: "[section:clr-roll]3d6[/section] Sharp"
-    skill: "–"
-    hr: 1.0
-    dr: 1.0
-    weight: 0
-    size: "–"
-    tags: "[url:eqtags#Natural]Natural[/url]"
-
-  - name: "Tentacles (medium)"
-    type: "Primitive"
-    damage: "[section:clr-roll]2d8[/section] Blunt"
-    skill: "–"
-    hr: 1.0
-    dr: 1.0
-    weight: 0
-    size: "–"
-    tags: "[url:eqtags#Natural]Natural[/url]"
-
-  - name: "Tentacles (large)"
-    type: "Primitive"
-    damage: "[section:clr-roll]2d10[/section] Blunt"
-    skill: "–"
-    hr: 1.0
-    dr: 1.0
-    weight: 0
-    size: "–"
-    tags: "[url:eqtags#Natural]Natural[/url]"
+- name: Fist
+  type: Primitive
+  damage: 1d6 Blunt
+  skill: –
+  hr: 1.0
+  dr: 1.0
+  weight: 0
+  size: –
+  tags:
+  - Natural
+- name: Foot
+  type: Primitive
+  damage: 1d6 Blunt
+  skill: –
+  hr: 0.5
+  dr: 1.5
+  weight: 0
+  size: –
+  tags:
+  - Natural
+- name: Claws (small)
+  type: Primitive
+  damage: 1d6 Sharp
+  skill: –
+  hr: 1.0
+  dr: 1.0
+  weight: 0
+  size: –
+  tags:
+  - Natural
+- name: Claws (medium)
+  type: Primitive
+  damage: 2d6 Sharp
+  skill: –
+  hr: 1.0
+  dr: 1.0
+  weight: 0
+  size: –
+  tags:
+  - Natural
+- name: Claws (large)
+  type: Primitive
+  damage: 2d8 Sharp
+  skill: –
+  hr: 1.0
+  dr: 1.0
+  weight: 0
+  size: –
+  tags:
+  - Natural
+- name: Horns (medium)
+  type: Primitive
+  damage: 3d4 Sharp
+  skill: –
+  hr: 1.0
+  dr: 1.0
+  weight: 0
+  size: –
+  tags:
+  - Natural
+- name: Horns (large)
+  type: Primitive
+  damage: 3d6 Sharp
+  skill: –
+  hr: 1.0
+  dr: 1.0
+  weight: 0
+  size: –
+  tags:
+  - Natural
+- name: Teeth (small)
+  type: Primitive
+  damage: 2d4 Sharp
+  skill: –
+  hr: 1.0
+  dr: 1.0
+  weight: 0
+  size: –
+  tags:
+  - Natural
+- name: Teeth (medium)
+  type: Primitive
+  damage: 3d4 Sharp
+  skill: –
+  hr: 1.0
+  dr: 1.0
+  weight: 0
+  size: –
+  tags:
+  - Natural
+- name: Teeth (large)
+  type: Primitive
+  damage: 3d6 Sharp
+  skill: –
+  hr: 1.0
+  dr: 1.0
+  weight: 0
+  size: –
+  tags:
+  - Natural
+- name: Tentacles (medium)
+  type: Primitive
+  damage: 2d8 Blunt
+  skill: –
+  hr: 1.0
+  dr: 1.0
+  weight: 0
+  size: –
+  tags:
+  - Natural
+- name: Tentacles (large)
+  type: Primitive
+  damage: 2d10 Blunt
+  skill: –
+  hr: 1.0
+  dr: 1.0
+  weight: 0
+  size: –
+  tags:
+  - Natural

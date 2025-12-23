@@ -1,61 +1,67 @@
-name: "Ammunition - Rare"
-id: "AmmunitionRare"
-table_type: "weapon-table weapon-table-ammo"
-
+name: Ammunition - Rare
+id: AmmunitionRare
+table_type: weapon-table weapon-table-ammo
 headers:
-  - "Name"
-  - "Type"
-  - "Damage"
-  - "Weight"
-  - "Size"
-  - "Tags"
-
+- Name
+- Type
+- Damage
+- Weight
+- Size
+- Tags
 items:
-  - name: "Arrow, blunt"
-    type: "Bow"
-    damage: "[section:clr-roll]2d4[/section] Blunt"
-    weight: 0.3
-    size: "8x1"
-    tags: "[url:eqtags#10]Stack[/url] 10"
-
-  - name: "Arrow, elemental"
-    type: "Bow"
-    damage: "[section:clr-roll]3d4[/section] Element"
-    weight: 0.2
-    size: "8x1"
-    tags: "[url:eqtags#10]Stack[/url] 10"
-
-  - name: "Bolt, blunt"
-    type: "Crossbow"
-    damage: "[section:clr-roll]2d6[/section] Blunt"
-    weight: 0.3
-    size: "8x1"
-    tags: "[url:eqtags#10]Stack[/url] 10"
-
-  - name: "Bolt, elemental"
-    type: "Crossbow"
-    damage: "[section:clr-roll]3d4[/section] Element"
-    weight: 0.2
-    size: "8x1"
-    tags: "[url:eqtags#10]Stack[/url] 10"
-
-  - name: "Bullet, light"
-    type: "Sling"
-    damage: "[section:clr-roll]1d6[/section] Blunt"
-    weight: 0.1
-    size: "1x1"
-    tags: "[url:eqtags#10]Stack[/url] 4"
-
-  - name: "Bullet, heavy"
-    type: "Sling"
-    damage: "[section:clr-roll]1d8[/section] Blunt"
-    weight: 0.2
-    size: "1x1"
-    tags: "[url:eqtags#10]Stack[/url] 4"
-
-  - name: "Bullet, elemental"
-    type: "Sling"
-    damage: "[section:clr-roll]3d4[/section] Element"
-    weight: 0.2
-    size: "1x1"
-    tags: "[url:eqtags#10]Stack[/url] 4"
+- name: Arrow, blunt
+  type: Bow
+  damage: 2d4 Blunt
+  weight: 0.3
+  size: 8x1
+  tags:
+  - - Stack
+    - 10
+- name: Arrow, elemental
+  type: Bow
+  damage: 3d4 Element
+  weight: 0.2
+  size: 8x1
+  tags:
+  - - Stack
+    - 10
+- name: Bolt, blunt
+  type: Crossbow
+  damage: 2d6 Blunt
+  weight: 0.3
+  size: 8x1
+  tags:
+  - - Stack
+    - 10
+- name: Bolt, elemental
+  type: Crossbow
+  damage: 3d4 Element
+  weight: 0.2
+  size: 8x1
+  tags:
+  - - Stack
+    - 10
+- name: Bullet, light
+  type: Sling
+  damage: 1d6 Blunt
+  weight: 0.1
+  size: 1x1
+  tags:
+  - - Stack
+    - 4
+- name: Bullet, heavy
+  type: Sling
+  damage: 1d8 Blunt
+  weight: 0.2
+  size: 1x1
+  tags:
+  - - Stack
+    - 4
+- name: Bullet, elemental
+  type: Sling
+  damage: 3d4 Element
+  weight: 0.2
+  size: 1x1
+  tags:
+  - - Stack
+    - 4

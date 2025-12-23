@@ -1,105 +1,105 @@
-name: "Slashing Weapons - Common"
-id: "SlashingWeaponsCommon"
-table_type: "weapon-table weapon-table-melee"
-
+name: Slashing Weapons - Common
+id: SlashingWeaponsCommon
+table_type: weapon-table weapon-table-melee
 headers:
-  - "Name"
-  - "Type"
-  - "Damage"
-  - "Skill"
-  - "DEX"
-  - "STR"
-  - "Weight"
-  - "Size"
-  - "Tags"
-
+- Name
+- Type
+- Damage
+- Skill
+- DEX
+- STR
+- Weight
+- Size
+- Tags
 items:
-  - name: "Battleaxe"
-    type: "Axe"
-    damage: "[section:clr-roll]2d8[/section] Sharp"
-    skill: "[url:skillsW#Maim]Maim[/url]"
-    hr: 1.0
-    dr: 1.0
-    weight: 3
-    size: "12x3"
-    tags: "[url:eqtags#TwoHanded]Two-Handed[/url]"
-
-  - name: "Hand Axe"
-    type: "Axe"
-    damage: "[section:clr-roll]2d6[/section] Sharp"
-    skill: "[url:skillsW#Butcher]Butcher[/url]"
-    hr: 1.0
-    dr: 1.0
-    weight: 1
-    size: "4x3"
-    tags: "[url:eqtags#Short]Short[/url]"
-
-  - name: "War Axe"
-    type: "Axe"
-    damage: "[section:clr-roll]2d6[/section] Sharp"
-    skill: "[url:skillsW#Maim]Maim[/url]"
-    hr: 1.0
-    dr: 1.0
-    weight: 1.5
-    size: "8x3"
-    tags: "[url:eqtags#Flexible]Flexible[/url] 1.0|1.5"
-
-  - name: "Halberd"
-    type: "Polearm"
-    damage: "[section:clr-roll]2d8[/section] Sharp"
-    skill: "[url:skillsW#Pierce]Pierce[/url]"
-    hr: 1.0
-    dr: 1.0
-    weight: 3
-    size: "21x2"
-    tags: "[url:eqtags#Long]Long[/url], [url:eqtags#TwoHanded]Two-Handed[/url]"
-
-  - name: "Broadsword"
-    type: "Sword"
-    damage: "[section:clr-roll]2d6[/section] Sharp"
-    skill: "[url:skillsW#Maim]Maim[/url]"
-    hr: 1.0
-    dr: 1.0
-    weight: 1
-    size: "10x2"
-    tags: "–"
-
-  - name: "Cutlass"
-    type: "Sword"
-    damage: "[section:clr-roll]2d6[/section] Sharp"
-    skill: "[url:skillsW#Cut]Cut[/url]"
-    hr: 1.0
-    dr: 1.0
-    weight: 1.5
-    size: "10x2"
-    tags: "–"
-
-  - name: "Longsword"
-    type: "Sword"
-    damage: "[section:clr-roll]2d8[/section] Sharp"
-    skill: "[url:skillsW#Maim]Maim[/url]"
-    hr: 1.0
-    dr: 1.0
-    weight: 3
-    size: "14x2"
-    tags: "[url:eqtags#Flexible]Flexible[/url] 1.0|0.5 [i][url:eqtags#Long]Long[/url][/i], [url:eqtags#TwoHanded]Two-Handed[/url]"
-
-  - name: "Saber"
-    type: "Sword"
-    damage: "[section:clr-roll]2d6[/section] Sharp"
-    skill: "[url:skillsW#Cut]Cut[/url]"
-    hr: 1.5
-    dr: 0.5
-    weight: 0.75
-    size: "8x2"
-    tags: "[url:eqtags#Cavalry]Cavalry[/url], [url:eqtags#Complex]Complex[/url]"
-
-  - name: "Shortsword"
-    type: "Sword"
-    damage: "[section:clr-roll]2d6[/section] Sharp"
-    skill: "[url:skillsW#Butcher]Butcher[/url]"
-    hr: 1.5
-    dr: 0.5
-    weight: 0.5
-    size: "6x2"
-    tags: "[url:eqtags#Short]Short[/url]"
+- name: Battleaxe
+  type: Axe
+  damage: 2d8 Sharp
+  skill: Maim
+  hr: 1.0
+  dr: 1.0
+  weight: 3
+  size: 12x3
+  tags:
+  - Two-Handed
+- name: Hand Axe
+  type: Axe
+  damage: 2d6 Sharp
+  skill: Butcher
+  hr: 1.0
+  dr: 1.0
+  weight: 1
+  size: 4x3
+  tags:
+  - Short
+- name: War Axe
+  type: Axe
+  damage: 2d6 Sharp
+  skill: Maim
+  hr: 1.0
+  dr: 1.0
+  weight: 1.5
+  size: 8x3
+  tags:
+  - Flexible 1.0|1.5
+- name: Halberd
+  type: Polearm
+  damage: 2d8 Sharp
+  skill: Pierce
+  hr: 1.0
+  dr: 1.0
+  weight: 3
+  size: 21x2
+  tags:
+  - Long
+  - Two-Handed
+- name: Broadsword
+  type: Sword
+  damage: 2d6 Sharp
+  skill: Maim
+  hr: 1.0
+  dr: 1.0
+  weight: 1
+  size: 10x2
+  tags: []
+- name: Cutlass
+  type: Sword
+  damage: 2d6 Sharp
+  skill: Cut
+  hr: 1.0
+  dr: 1.0
+  weight: 1.5
+  size: 10x2
+  tags: []
+- name: Longsword
+  type: Sword
+  damage: 2d8 Sharp
+  skill: Maim
+  hr: 1.0
+  dr: 1.0
+  weight: 3
+  size: 14x2
+  tags:
+  - Flexible 1.0|0.5 Long
+  - Two-Handed
+- name: Saber
+  type: Sword
+  damage: 2d6 Sharp
+  skill: Cut
+  hr: 1.5
+  dr: 0.5
+  weight: 0.75
+  size: 8x2
+  tags:
+  - Cavalry
+  - Complex
+- name: Shortsword
+  type: Sword
+  damage: 2d6 Sharp
+  skill: Butcher
+  hr: 1.5
+  dr: 0.5
+  weight: 0.5
+  size: 6x2
+  tags:
+  - Short
