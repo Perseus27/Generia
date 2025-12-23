@@ -17,7 +17,7 @@ items:
   type: Dagger
   damage: 2d6 Sharp
   skill: Butcher
-  hr: 1.5
+  hr: 1.0
   dr: 0.0
   weight: 0.5
   size: 4x1
@@ -39,21 +39,6 @@ items:
     - Precise
     - Short
 
-- name: Glaive
-  type: Polearm
-  damage: 2d8 Sharp
-  skill: Maim
-  hr: 1.5
-  dr: 0.5
-  weight: 3
-  size: 24x2
-  rarity: 3
-  tags:
-    - Cavalry
-    - Complex
-    - Long
-    - Two-Handed
-
 - name: Lance
   type: Polearm
   damage: 2d8 Sharp
@@ -65,20 +50,6 @@ items:
   rarity: 3
   tags:
     - Cavalry
-    - Long
-    - Two-Handed
-
-- name: Naginata
-  type: Polearm
-  damage: 2d8 Sharp
-  skill: Cut
-  hr: 1.0
-  dr: 1.0
-  weight: 3
-  size: 24x2
-  rarity: 3
-  tags:
-    - Complex
     - Long
     - Two-Handed
 

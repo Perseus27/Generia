@@ -51,19 +51,6 @@ items:
   tags:
     - Short
 
-- name: Halberd
-  type: Polearm
-  damage: 2d8 Sharp
-  skill: Pierce
-  hr: 1.0
-  dr: 1.0
-  weight: 3
-  size: 21x2
-  rarity: 2
-  tags:
-    - Long
-    - Two-Handed
-
 - name: Pike
   type: Polearm
   damage: 2d8 Sharp
@@ -110,4 +97,6 @@ items:
   weight: 1
   size: 8x2
   rarity: 1
-  tags: []
+  tags:
+    - - Variant
+      - Slashing

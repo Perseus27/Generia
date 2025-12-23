@@ -47,12 +47,13 @@ items:
   size: 8x3
   rarity: 2
   tags:
-    - Flexible 1.0|1.5
+    - - Flexible
+      - 1.0|1.5
 
 - name: Halberd
   type: Polearm
   damage: 2d8 Sharp
-  skill: Pierce
+  skill: Pull
   hr: 1.0
   dr: 1.0
   weight: 3
@@ -61,6 +62,22 @@ items:
   tags:
     - Long
     - Two-Handed
+    - - Variant
+      - Stabbing
+
+- name: Poleaxe
+  type: Polearm
+  damage: 2d8 Sharp
+  skill: Smash
+  hr: 1.0
+  dr: 1.0
+  weight: 2.5
+  size: 16x2
+  rarity: 2
+  tags:
+    - Two-Handed
+    - - Variant
+      - Blunt
 
 - name: Broadsword
   type: Sword
@@ -122,3 +139,5 @@ items:
   rarity: 1
   tags:
     - Short
+    - - Variant
+      - Stabbing
