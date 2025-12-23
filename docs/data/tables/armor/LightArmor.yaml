@@ -1,61 +1,69 @@
-name: "Light Armor"
-id: "LightArmor"
-table_type: "armor-table"
+name: Light Armor
+id: LightArmor
+table_type: armor-table
 
 headers:
-  - "Name"
-  - "Type"
-  - "AV"
-  - "Enc."
-  - "Weight"
-  - "Slots"
+  - Name
+  - Type
+  - AV
+  - Enc.
+  - Weight
+  - Slots
 
 items:
-  - name: "Padded Helmet"
-    type: "Head"
+  - name: Padded Helmet
+    type: Head
     av: 1
     enc: 0
     weight: 0.25
     slots: –
-  - name: "Thick Clothing"
-    type: "Torso"
+    rarity: 1
+  - name: Thick Clothing
+    type: Torso
     av: 2
     enc: 0
     weight: 0.5
-    slots: "6x4"
-  - name: "Cloth Armor"
-    type: "Torso"
+    slots: 6x4
+    rarity: 1
+  - name: Cloth Armor
+    type: Torso
     av: 3
     enc: 0
     weight: 1
-    slots: "4x3"
-  - name: "Padded Armor"
-    type: "Torso"
+    slots: 4x3
+    rarity: 1
+  - name: Padded Armor
+    type: Torso
     av: 4
     enc: 0
     weight: 1.5
-    slots: "2x1"
-  - name: "Cloth Gauntlets"
-    type: "Arms"
+    slots: 2x1
+    rarity: 1
+  - name: Cloth Gauntlets
+    type: Arms
     av: 1
     enc: 0
     weight: 0.25
     slots: –
-  - name: "Padded Gauntlets"
-    type: "Arms"
+    rarity: 1
+  - name: Padded Gauntlets
+    type: Arms
     av: 2
     enc: 0
     weight: 0.5
-    slots: –    
-  - name: "Cloth Greaves"
-    type: "Legs"
+    slots: –
+    rarity: 1
+  - name: Cloth Greaves
+    type: Legs
     av: 1
     enc: 0
     weight: 0.25
     slots: –
-  - name: "Padded Greaves"
-    type: "Legs"
+    rarity: 1
+  - name: Padded Greaves
+    type: Legs
     av: 2
     enc: 0
     weight: 0.5
     slots: –
+    rarity: 1
