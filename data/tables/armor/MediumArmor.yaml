@@ -1,61 +1,69 @@
-name: "Medium Armor"
-id: "MediumArmor"
-table_type: "armor-table"
+name: Medium Armor
+id: MediumArmor
+table_type: armor-table
 
 headers:
-  - "Name"
-  - "Type"
-  - "AV"
-  - "Enc."
-  - "Weight"
-  - "Slots"
+  - Name
+  - Type
+  - AV
+  - Enc.
+  - Weight
+  - Slots
 
 items:
-  - name: "Leather Helmet"
-    type: "Head"
+  - name: Leather Helmet
+    type: Head
     av: 2
     enc: 0
     weight: 0.75
     slots: –
-  - name: "Chain Helmet"
-    type: "Head"
+    rarity: 1
+  - name: Chain Helmet
+    type: Head
     av: 3
     enc: 0
     weight: 1
     slots: –
-  - name: "Leather Armor"
-    type: "Torso"
+    rarity: 1
+  - name: Leather Armor
+    type: Torso
     av: 5
     enc: 0
     weight: 2
     slots: –
-  - name: "Chain Armor"
-    type: "Torso"
+    rarity: 1
+  - name: Chain Armor
+    type: Torso
     av: 6
     enc: 0
     weight: 3
     slots: –
-  - name: "Leather Gauntlets"
-    type: "Arms"
+    rarity: 1
+  - name: Leather Gauntlets
+    type: Arms
     av: 3
     enc: 0
     weight: 0.75
     slots: –
-  - name: "Chain Gauntlets"
-    type: "Arms"
+    rarity: 1
+  - name: Chain Gauntlets
+    type: Arms
     av: 4
     enc: 0
     weight: 1
-    slots: –    
-  - name: "Leather Greaves"
-    type: "Legs"
+    slots: –
+    rarity: 1
+  - name: Leather Greaves
+    type: Legs
     av: 3
     enc: 0
     weight: 0.75
     slots: –
-  - name: "Chain Greaves"
-    type: "Legs"
+    rarity: 1
+  - name: Chain Greaves
+    type: Legs
     av: 4
     enc: 0
     weight: 1
     slots: –
+    rarity: 1

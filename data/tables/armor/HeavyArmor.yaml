@@ -1,61 +1,69 @@
-name: "Heavy Armor"
-id: "HeavyArmor"
-table_type: "armor-table"
+name: Heavy Armor
+id: HeavyArmor
+table_type: armor-table
 
 headers:
-  - "Name"
-  - "Type"
-  - "AV"
-  - "Enc."
-  - "Weight"
-  - "Slots"
+  - Name
+  - Type
+  - AV
+  - Enc.
+  - Weight
+  - Slots
 
 items:
-  - name: "Scale Helmet"
-    type: "Head"
+  - name: Scale Helmet
+    type: Head
     av: 4
     enc: 1
     weight: 2.5
     slots: –
-  - name: "Plate Helmet"
-    type: "Head"
+    rarity: 1
+  - name: Plate Helmet
+    type: Head
     av: 5
     enc: 2
     weight: 3
     slots: –
-  - name: "Scale Armor"
-    type: "Torso"
+    rarity: 1
+  - name: Scale Armor
+    type: Torso
     av: 7
     enc: 3
     weight: 5
     slots: –
-  - name: "Plate Armor"
-    type: "Torso"
+    rarity: 1
+  - name: Plate Armor
+    type: Torso
     av: 8
     enc: 4
     weight: 6
     slots: –
-  - name: "Scale Gauntlets"
-    type: "Arms"
+    rarity: 1
+  - name: Scale Gauntlets
+    type: Arms
     av: 5
     enc: 1
     weight: 2.5
     slots: –
-  - name: "Plate Gauntlets"
-    type: "Arms"
+    rarity: 1
+  - name: Plate Gauntlets
+    type: Arms
     av: 6
     enc: 2
     weight: 3
-    slots: –    
-  - name: "Scale Greaves"
-    type: "Legs"
+    slots: –
+    rarity: 1
+  - name: Scale Greaves
+    type: Legs
     av: 5
     enc: 1
     weight: 2.5
     slots: –
-  - name: "Plate Greaves"
-    type: "Legs"
+    rarity: 1
+  - name: Plate Greaves
+    type: Legs
     av: 6
     enc: 2
     weight: 3
     slots: –
+    rarity: 1
