@@ -21,6 +21,7 @@ items:
   dr: 1.5
   weight: 2
   size: 8x2
+  rarity: 3
   tags:
     - Complex
     - Unpredictable
@@ -33,6 +34,7 @@ items:
   dr: 1.5
   weight: 2
   size: 8x2
+  rarity: 3
   tags:
     - Brutal
 
@@ -44,6 +46,7 @@ items:
   dr: 1.5
   weight: 4
   size: 4x3
+  rarity: 3
   tags:
     - - Blockbreaker
       - 2
@@ -57,6 +60,7 @@ items:
   dr: 1.0
   weight: 2
   size: 10x3
+  rarity: 3
   tags:
     - Flexible 0.5|1.5
 
@@ -68,6 +72,7 @@ items:
   dr: 0.5
   weight: 1.0
   size: 14x1
+  rarity: 3
   tags:
     - Two-Handed
 
@@ -79,6 +84,7 @@ items:
   dr: 1.0
   weight: 0.5
   size: 3x1
+  rarity: 3
   tags:
     - Complex
     - Unpredictable
@@ -91,6 +97,7 @@ items:
   dr: 1.5
   weight: 1
   size: 14x2
+  rarity: 4
   tags:
     - Focus (Druid)
     - Two-Handed
@@ -103,6 +110,7 @@ items:
   dr: 0.5
   weight: 1
   size: 18x2
+  rarity: 4
   tags:
     - Focus (Wizard)
     - Two-Handed

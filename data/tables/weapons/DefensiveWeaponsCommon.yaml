@@ -21,6 +21,7 @@ items:
   dr: 1.0
   weight: 1
   size: 3x3
+  rarity: 1
   tags:
     - Parry
     - Shield
@@ -33,6 +34,7 @@ items:
   dr: 1.5
   weight: 2
   size: 6x6
+  rarity: 1
   tags:
     - - Shield
       - 2
@@ -45,6 +47,7 @@ items:
   dr: 2.0
   weight: 6
   size: 14x6
+  rarity: 2
   tags:
     - - Shield
       - 6

@@ -23,6 +23,7 @@ items:
   range: -1/0/0, 20m
   weight: 1
   size: 12x3
+  rarity: 1
   tags: []
 
 - name: Riding Bow
@@ -34,6 +35,7 @@ items:
   range: 0/0/-1, 20m
   weight: 1
   size: 10x3
+  rarity: 1
   tags: []
 
 - name: Longbow
@@ -45,6 +47,7 @@ items:
   range: -2/0/0, 28m
   weight: 2
   size: 18x3
+  rarity: 2
   tags:
     - Long
 
@@ -57,6 +60,7 @@ items:
   range: -2/0/0, 24m
   weight: 4
   size: 10x4
+  rarity: 2
   tags:
     - Long
     - - Reload
@@ -71,6 +75,7 @@ items:
   range: -1/0/0, 24m
   weight: 2
   size: 8x4
+  rarity: 1
   tags:
     - - Reload
       - 1
@@ -84,6 +89,7 @@ items:
   range: -2/0/0, 20m
   weight: 0.25
   size: 2x1
+  rarity: 1
   tags: []
 
 - name: Short Sling
@@ -95,6 +101,7 @@ items:
   range: -2/0/-5, 16m
   weight: 0.1
   size: 1x1
+  rarity: 1
   tags: []
 
 - name: Grenade
@@ -106,6 +113,7 @@ items:
   range: 16m
   weight: '0.25'
   size: 1x1
+  rarity: 2
   tags: []
 
 - name: Javelin
@@ -117,6 +125,7 @@ items:
   range: 16m
   weight: 0.5
   size: 18x1
+  rarity: 1
   tags: []
 
 - name: Throwing Knife
@@ -128,4 +137,5 @@ items:
   range: 12m
   weight: 0.1
   size: 2x1
+  rarity: 1
   tags: []

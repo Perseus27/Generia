@@ -21,6 +21,7 @@ items:
   dr: 1.0
   weight: 1.5
   size: 8x2
+  rarity: 1
   tags:
     - - Blockbreaker
       - 1
@@ -33,6 +34,7 @@ items:
   dr: 1.5
   weight: 3
   size: 14x3
+  rarity: 2
   tags:
     - - Blockbreaker
       - 1
@@ -46,6 +48,7 @@ items:
   dr: 1.5
   weight: 2
   size: 8x2
+  rarity: 1
   tags:
     - - Blockbreaker
       - 1
@@ -58,6 +61,7 @@ items:
   dr: 1.5
   weight: 1.5
   size: 4x2
+  rarity: 1
   tags:
     - - Blockbreaker
       - 1
@@ -71,6 +75,7 @@ items:
   dr: 1.5
   weight: 5
   size: 12x3
+  rarity: 2
   tags:
     - - Blockbreaker
       - 2
@@ -84,6 +89,7 @@ items:
   dr: 1.0
   weight: 3
   size: 10x3
+  rarity: 2
   tags:
     - - Blockbreaker
       - 1
@@ -97,6 +103,7 @@ items:
   dr: 1.0
   weight: 1.5
   size: 20x1
+  rarity: 1
   tags:
     - Long
     - Two-Handed

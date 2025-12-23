@@ -21,6 +21,7 @@ items:
   dr: 1.0
   weight: 3
   size: 12x3
+  rarity: 2
   tags:
     - Two-Handed
 
@@ -32,6 +33,7 @@ items:
   dr: 1.0
   weight: 1
   size: 4x3
+  rarity: 1
   tags:
     - Short
 
@@ -43,6 +45,7 @@ items:
   dr: 1.0
   weight: 1.5
   size: 8x3
+  rarity: 2
   tags:
     - Flexible 1.0|1.5
 
@@ -54,6 +57,7 @@ items:
   dr: 1.0
   weight: 3
   size: 21x2
+  rarity: 2
   tags:
     - Long
     - Two-Handed
@@ -66,6 +70,7 @@ items:
   dr: 1.0
   weight: 1
   size: 10x2
+  rarity: 1
   tags: []
 
 - name: Cutlass
@@ -76,6 +81,7 @@ items:
   dr: 1.0
   weight: 1.5
   size: 10x2
+  rarity: 1
   tags: []
 
 - name: Longsword
@@ -86,6 +92,7 @@ items:
   dr: 1.0
   weight: 3
   size: 14x2
+  rarity: 2
   tags:
     - Flexible 1.0|0.5 Long
     - Two-Handed
@@ -98,6 +105,7 @@ items:
   dr: 0.5
   weight: 0.75
   size: 8x2
+  rarity: 1
   tags:
     - Cavalry
     - Complex
@@ -110,5 +118,6 @@ items:
   dr: 0.5
   weight: 0.5
   size: 6x2
+  rarity: 1
   tags:
     - Short

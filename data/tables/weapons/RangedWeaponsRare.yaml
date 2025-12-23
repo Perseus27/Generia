@@ -23,6 +23,7 @@ items:
   range: -1/0/0, 24m
   weight: 4
   size: 10x3
+  rarity: 3
   tags: []
 
 - name: Elvish Bow
@@ -34,6 +35,7 @@ items:
   range: -1/0/1, 28m
   weight: 1
   size: 16x3
+  rarity: 4
   tags:
     - Complex
     - Enchanted
@@ -48,6 +50,7 @@ items:
   range: -3/0/0, 28m
   weight: 3
   size: 20x3
+  rarity: 3
   tags:
    - Long
 
@@ -60,6 +63,7 @@ items:
   range: -2/0/0, 28m
   weight: 2
   size: 22x3
+  rarity: 3
   tags:
     - Cavalry
     - Complex
@@ -74,4 +78,5 @@ items:
   range: -2/0/0, 24m
   weight: 1
   size: 12x1
+  rarity: 3
   tags: []
