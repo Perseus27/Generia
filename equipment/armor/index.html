@@ -3769,31 +3769,25 @@
   
 
 
-  <h1>Armor</h1>
-
-<div class="rendered-table">
-    <h3 id="LightArmor">Light Armor</h3>
-    <table class="armor-table rendered-table-inner">
-        <tr><th>Name</th><th>Type</th><th>AV</th><th>Enc.</th><th>Weight</th><th>Slots</th></tr>
-        <tr><td>Padded Helmet</td><td>Head</td><td>1</td><td>0</td><td>0.25</td><td>–</td></tr><tr><td>Thick Clothing</td><td>Torso</td><td>2</td><td>0</td><td>0.5</td><td>6x4</td></tr><tr><td>Cloth Armor</td><td>Torso</td><td>3</td><td>0</td><td>1</td><td>4x3</td></tr><tr><td>Padded Armor</td><td>Torso</td><td>4</td><td>0</td><td>1.5</td><td>2x1</td></tr><tr><td>Cloth Gauntlets</td><td>Arms</td><td>1</td><td>0</td><td>0.25</td><td>–</td></tr><tr><td>Padded Gauntlets</td><td>Arms</td><td>2</td><td>0</td><td>0.5</td><td>–</td></tr><tr><td>Cloth Greaves</td><td>Legs</td><td>1</td><td>0</td><td>0.25</td><td>–</td></tr><tr><td>Padded Greaves</td><td>Legs</td><td>2</td><td>0</td><td>0.5</td><td>–</td></tr>
-    </table>
-</div>
-
-<div class="rendered-table">
-    <h3 id="MediumArmor">Medium Armor</h3>
-    <table class="armor-table rendered-table-inner">
-        <tr><th>Name</th><th>Type</th><th>AV</th><th>Enc.</th><th>Weight</th><th>Slots</th></tr>
-        <tr><td>Leather Helmet</td><td>Head</td><td>2</td><td>0</td><td>0.75</td><td>–</td></tr><tr><td>Chain Helmet</td><td>Head</td><td>3</td><td>0</td><td>1</td><td>–</td></tr><tr><td>Leather Armor</td><td>Torso</td><td>5</td><td>0</td><td>2</td><td>–</td></tr><tr><td>Chain Armor</td><td>Torso</td><td>6</td><td>0</td><td>3</td><td>–</td></tr><tr><td>Leather Gauntlets</td><td>Arms</td><td>3</td><td>0</td><td>0.75</td><td>–</td></tr><tr><td>Chain Gauntlets</td><td>Arms</td><td>4</td><td>0</td><td>1</td><td>–</td></tr><tr><td>Leather Greaves</td><td>Legs</td><td>3</td><td>0</td><td>0.75</td><td>–</td></tr><tr><td>Chain Greaves</td><td>Legs</td><td>4</td><td>0</td><td>1</td><td>–</td></tr>
-    </table>
-</div>
-
-<div class="rendered-table">
-    <h3 id="HeavyArmor">Heavy Armor</h3>
-    <table class="armor-table rendered-table-inner">
-        <tr><th>Name</th><th>Type</th><th>AV</th><th>Enc.</th><th>Weight</th><th>Slots</th></tr>
-        <tr><td>Scale Helmet</td><td>Head</td><td>4</td><td>1</td><td>2.5</td><td>–</td></tr><tr><td>Plate Helmet</td><td>Head</td><td>5</td><td>2</td><td>3</td><td>–</td></tr><tr><td>Scale Armor</td><td>Torso</td><td>7</td><td>3</td><td>5</td><td>–</td></tr><tr><td>Plate Armor</td><td>Torso</td><td>8</td><td>4</td><td>6</td><td>–</td></tr><tr><td>Scale Gauntlets</td><td>Arms</td><td>5</td><td>1</td><td>2.5</td><td>–</td></tr><tr><td>Plate Gauntlets</td><td>Arms</td><td>6</td><td>2</td><td>3</td><td>–</td></tr><tr><td>Scale Greaves</td><td>Legs</td><td>5</td><td>1</td><td>2.5</td><td>–</td></tr><tr><td>Plate Greaves</td><td>Legs</td><td>6</td><td>2</td><td>3</td><td>–</td></tr>
-    </table>
-</div>
+<h1 id="macro-rendering-error"><em>Macro Rendering Error</em><a class="headerlink" href="#macro-rendering-error" title="Permanent link">&para;</a></h1>
+<p><em>File</em>: <code>equipment/armor.md</code></p>
+<p><em>FileNotFoundError</em>: YAML not found: data/tables/armor/LightArmor.yaml</p>
+<div class="highlight"><pre><span></span><code>Traceback (most recent call last):
+  File &quot;/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/mkdocs_macros/plugin.py&quot;, line 527, in render
+    return md_template.render(**page_variables)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/jinja2/environment.py&quot;, line 1295, in render
+    self.environment.handle_exception()
+  File &quot;/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/jinja2/environment.py&quot;, line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File &quot;&lt;template&gt;&quot;, line 1, in top-level template code
+  File &quot;/home/runner/work/generia/generia/main.py&quot;, line 61, in table
+    yaml_content = _read_yaml(path)
+                   ^^^^^^^^^^^^^^^^
+  File &quot;/home/runner/work/generia/generia/main.py&quot;, line 28, in _read_yaml
+    raise FileNotFoundError(f&quot;YAML not found: {rel_path}&quot;)
+FileNotFoundError: YAML not found: data/tables/armor/LightArmor.yaml
+</code></pre></div>
 
 
 
