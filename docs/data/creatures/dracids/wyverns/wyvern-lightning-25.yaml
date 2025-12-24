@@ -1,0 +1,134 @@
+name: Lightning Wyvern 25
+id: wyvern-lightning-25
+info:
+  species: Wyvern
+  level: 25
+  size: Large
+  tags: [[Flying, 12], Miniboss, [Resistance, Lightning], [Tough, 1], [Vulnerability, Ice]]
+notes: >
+  This species' distant kinship with dragons manifests as intense territoriality, anger issues, and potent instinctual magic.
+  [br]Needless to say, wyverns are responsible for a great many adventurer casualties.
+
+attributes:
+  CON: ["11", "5"]
+  STR: ["9", "4"]
+  DEX: ["9", "4"]
+  INT: ["6", "3"]
+  WIL: ["7", "3"]
+  PER: ["9", "4"]
+values:
+  EN: 20
+  MP: 10
+  MPR: 2
+  WL: 7
+  WT: 9
+  TN: 5
+  MS: 6
+armor:
+  head: 3
+  torso: 5
+  arms: 4
+  legs: 4
+  md: 3
+  enc: 0
+loot:
+  - Wyvern Scales
+  - Wyvern Teeth
+  - Wyvern Eyes
+  - Monster Core, normal
+actions:
+  active:
+    - name: Claws
+      type: Melee Attack
+      hit: Hit+8, Block+13|4
+      damage: 2d8+4 Sharp
+
+    - name: Teeth
+      type: Melee Attack
+      hit: Hit+8
+      damage: 3d6+4 Sharp
+
+    - name: Tail Swipe
+      type: Melee Attack, AoE, Radius 4m
+      hit: Hit+6
+      damage: 2d8+6
+      cost: "[section:clr-en]2 EN[/section]"
+
+    - name: Dive
+      type: Melee Attack, Range 12m
+      hit: Hit+6, [section:clr-dc]DC 15[/section]
+      damage: 2d8+6
+      effect:
+        - "Only during [i]Flight[/i]. Minimum Range: [section:clr-value]4m[/section]" 
+        - "On [url:def#Hit]hit[/url]: [url:status#Prone]Prone[/url]"
+      save: "[b]Save [section:clr-attr]STR[/section]/[section:clr-attr]AGI[/section]/+10:[/b] [url:status#OffBalance]Off-Balance[/url]/No effect."
+
+    - name: Shock
+      type: Reaction
+      hit: "[section:clr-dc]DC 18[/section]"
+      effect:
+        - "After [url:def#Hit]hit[/url] with [i]Claws[/i] or [i]Teeth[/i]: Target gets [url:status#Shocked]Shocked 4[/url]."
+      save: "[b]Save [section:clr-attr]CON[/section]/+10:[/b] [url:status#Shocked]Shocked 2[/url]/No effect."
+      cost: "[section:clr-mp]1 MP[/section]"
+
+    - name: Lightning Breath
+      type: Spell Attack, Ray, Range 12m, Width 3m
+      hit: "[section:clr-sa]SA +8[/section]"
+      damage: 2d8+4 Lightning
+      save: "[b]Save [section:clr-attr]CON[/section]/+10:[/b] Damage halved/No effect."
+      cost: "[section:clr-mp]2 MP[/section]"
+
+    - name: Chain Lightning
+      type: Spell Attack, Range 20m, Chain 4m
+      hit: "[section:clr-sa]SA +8[/section]"
+      damage: 3d6+4 Lightning
+      effect:
+        - Max. [section:clr-value]4[/section] targets. Can't target the same creature twice.
+      save: "[b]Save [section:clr-attr]CON[/section]/+10:[/b] Damage halved/No effect."
+      cost: "[section:clr-mp]2 MP[/section]"
+
+    - name: Wing Beat
+      type: Utility, Ray, Range 8m, Width 5m
+      hit: "[section:clr-dc]DC 14[/section]"
+      effect:
+        - "[url:status#Knockback]Knockback 4[/url], [url:status#OffBalance]Off-Balance[/url]"
+      save: "[b]Save [section:clr-attr]STR[/section]/+10:[/b] No knockback/No effect."
+      cost: "[section:clr-en]2 EN[/section]"
+
+    - name: Shriek
+      type: Utility, Radius 8m
+      hit: "[section:clr-dc]DC 13[/section]"
+      effect:
+        - Creatures in the area get [url:status#Confused]Confused[/url] and [url:status#Frightened]Frightened[/url].
+      save: "[b]Save [section:clr-attr]INT[/section]/[section:clr-attr]PER[/section]/+10:[/b] Not frightened/No effect."
+      cost: "[section:clr-en]1 EN[/section]"
+
+    - name: Flight
+      type: Utility or Movement
+      effect:
+        - Rises [section:clr-value]4m[/section] into the air to [i]fly[/i].
+
+
+  passive:
+    - name: Proficiencies
+      type: Passive
+      effect:
+        - Primitive [section:clr-value]+4[/section]
+        - Lightning [section:clr-value]+4[/section] ([section:clr-attr]PER[/section])
+    - name: Draconic Constitution
+      type: Passive
+      effect:
+        - Permanent [url:status#Regeneration]Regeneration 2[/url] while [section:clr-en]EN[/section] is at or above 50%.
+    - name: "Instinctual Magic: Lightning"
+      type: Passive
+      effect:
+        - One Lightning damage die may be rerolled once.
+    - name: Scales
+      type: Passive
+      effect:
+        - AV is increased by [section:clr-attr]CON-MOD[/section].
+    - name: Will of the World
+      type: Passive
+      effect:
+        - MD is increased by [section:clr-attr]WIL-MOD[/section].
+
