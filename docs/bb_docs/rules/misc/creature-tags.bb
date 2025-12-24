@@ -50,6 +50,21 @@ Slaying this creature awards twice the experience points.
 [/container]
 
 [container:orgblock]
+[h4|NaturesArmor]Nature's Armor[/h4]
+This creature is protected by some form of natural armor (thick fur, scales, exoskeleton...)
+[br][url:values#AV]Armor Value[/url] is increased by the following values:
+[ul]
+[li]Head: [section:clr-attr]CON-MOD[/section]-2[/li]
+[li]Torso: [section:clr-attr]CON-MOD[/section][/li]
+[li]Arms: [section:clr-attr]CON-MOD[/section]-1[/li]
+[li]Legs: [section:clr-attr]CON-MOD[/section]-1[/li]
+[/ul]
+[h4|NaturesWill]Nature's Will[/h4]
+This creature is protected by the magical energies that suffuse all of nature.
+[br][url:values#MD]Magical Defense[/url] is increased by [section:clr-attr]WIL-MOD[/section].
+[/container]
+
+[container:orgblock]
 [h4|Reflexes]Reflexes X[/h4]
 [url:def#Block]Block[/url], [url:def#Dodge]Dodge[/url], and [url:def#Parry]Parry[/url] rolls are [url:core#Eased]eased[/url] (or, in case of negative [section:clr-value]X[/section], [url:core#Hindered]hindered[/url]) by [section:clr-value]X[/section].
 [/container]

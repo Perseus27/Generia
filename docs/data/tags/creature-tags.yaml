@@ -28,6 +28,12 @@ content:
 
   - name: Miniboss
 
+  - name: Nature's Armor
+    id: NaturesArmor
+
+  - name: Nature's Will
+    id: NaturesWill
+
   - name: Reflexes
 
   - name: Sapient
