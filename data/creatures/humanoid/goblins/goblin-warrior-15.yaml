@@ -4,7 +4,7 @@ info:
   species: Goblin
   level: 15
   size: Small
-  tags: [Annoyance, [Reflexes, 2]]
+  tags: [Sapient, [Reflexes, 2]]
 notes: >
   This type of goblin engages in melee combat, but will retreat to the backline if wounded or outnumbered.
 
