@@ -21,6 +21,8 @@ Universal Action [url:actions#Sprint]Sprint[/url] is unavailable.
 [container:orgblock]
 [h4|Flying]Flying X[/h4]
 The creature is inherently capable of flight, with an unmodified [url:values#MS]movement speed[/url] of [section:clr-value]X[/section].
+[h4|Levitating]Levitating X[/h4]
+The creature naturally levitates [section:clr-value]X[/section] meters above the ground. Regular [url:values#MS]movement speed[/url] applies.
 [/container]
 
 [container:orgblock]
