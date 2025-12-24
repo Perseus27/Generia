@@ -48,6 +48,12 @@ Slaying this creature awards twice the experience points.
 [/container]
 
 [container:orgblock]
+[h4|Sapient]Sapient[/h4]
+Sapient creatures are significantly more dangerous than beasts and beast-like monsters. Due to the increased risk of engaging them in combat, they award as much experience as a character of the same level when slain.
+[br][i]Sapient creatures often have access to skills, spells, and perks usually reserved for characters.[/i]
+[/container]
+
+[container:orgblock]
 [h4|Tough]Tough X[/h4]
 [url:values#TN]Toughness[/url] ([b]TN[/b]) is increased by [section:clr-value]X[/section].
 [/container]
