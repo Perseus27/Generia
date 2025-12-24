@@ -4,7 +4,7 @@ info:
   species: Elemental
   level: 25
   size: Tiny
-  tags: [[Immunity, Air], [Resistance, Physical]]
+  tags: [[Immunity, Air], [Resistance, Physical], Nature's Will]
 notes: >
   A being of pure mana that prefers the shape of a tiny hummingbird, but can appear as a medium-sized humanoid. Can fly up to 100m high.
   [br]About as intelligent as a human. Can communicate verbally.
@@ -64,10 +64,6 @@ actions:
       type: Passive
       effect: >
         Air [section:clr-value]+5[/section]
-    - name: Will of the World
-      type: Passive
-      effect: >
-        MD is increased by [section:clr-attr]WIL-MOD[/section].
     - name: Living Mana
       type: Passive
       effect: >

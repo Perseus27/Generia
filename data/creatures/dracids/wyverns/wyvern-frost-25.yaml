@@ -4,7 +4,7 @@ info:
   species: Wyvern
   level: 25
   size: Large
-  tags: [[Flying, 12], Miniboss, [Resistance, Ice], [Tough, 1], [Vulnerability, Fire]]
+  tags: [[Flying, 12], Miniboss, [Resistance, Ice], [Tough, 1], [Vulnerability, Fire], Nature's Armor, Nature's Will]
 notes: >
   This species' distant kinship with dragons manifests as intense territoriality, anger issues, and potent instinctual magic.
   [br]Needless to say, wyverns are responsible for a great many adventurer casualties.
@@ -121,12 +121,3 @@ actions:
       type: Passive
       effect:
         - One Ice damage die may be rerolled once.
-    - name: Scales
-      type: Passive
-      effect:
-        - AV is increased by [section:clr-attr]CON-MOD[/section].
-    - name: Will of the World
-      type: Passive
-      effect:
-        - MD is increased by [section:clr-attr]WIL-MOD[/section].
-

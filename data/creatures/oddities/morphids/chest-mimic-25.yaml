@@ -4,7 +4,7 @@ info:
   species: Morphid
   level: 25
   size: Large
-  tags: [Miniboss, [Resistance, Sharp (Torso)], [Tough, 1], [Vulnerability, Fire/Ice]]
+  tags: [Miniboss, [Resistance, Sharp (Torso)], [Tough, 1], [Vulnerability, Fire/Ice], Nature's Armor, Nature's Will]
 notes: >
   An ambush hunter with a taste for adventurers.
 
@@ -84,12 +84,3 @@ actions:
       effect:
         - Primitive [section:clr-value]+4[/section]
         - "Tentacles: 4"
-    - name: Exoskeleton
-      type: Passive
-      effect:
-        - AV is increased by [section:clr-attr]CON-MOD[/section].
-    - name: Will of the World
-      type: Passive
-      effect:
-        - MD is increased by [section:clr-attr]WIL-MOD[/section].
-

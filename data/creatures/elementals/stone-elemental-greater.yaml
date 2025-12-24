@@ -4,7 +4,7 @@ info:
   species: Elemental
   level: 25
   size: Large
-  tags: []
+  tags: [Nature's Armor, Nature's Will]
 notes: >
   A huge golem (~3m tall).
   [br]About as intelligent as a human. Can communicate verbally.
@@ -74,14 +74,6 @@ actions:
       effect:
         - Stone [section:clr-value]+5[/section]
         - Primitive [section:clr-value]+5[/section]
-    - name: Rock Solid
-      type: Passive
-      effect: >
-        AV increased by [[section:clr-attr]CON-MOD[/section]].
-    - name: Will of the World
-      type: Passive
-      effect: >
-        MD is increased by [section:clr-attr]WIL-MOD[/section].
     - name: Living Mana
       type: Passive
       effect: >

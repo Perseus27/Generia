@@ -4,7 +4,7 @@ info:
   species: Elemental
   level: 3
   size: Medium
-  tags: []
+  tags: [Nature's Will]
 notes: >
   A drop-like being of pure water mana.
   [br]Can follow simple instructions (e.g., "Go over there", "Attack this target")
@@ -54,10 +54,6 @@ actions:
       type: Passive
       effect: >
         Parries are eased by [section:clr-attr]AGI-MOD[/section].
-    - name: Will of the World
-      type: Passive
-      effect: >
-        MD is increased by [section:clr-attr]WIL-MOD[/section].
     - name: Living Mana
       type: Passive
       effect: >

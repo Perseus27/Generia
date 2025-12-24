@@ -4,7 +4,7 @@ info:
   species: Elemental
   level: 3
   size: Medium
-  tags: []
+  tags: [Nature's Armor, Nature's Will]
 notes: >
   A small golem (~1.5m tall).
   [br]Can follow simple instructions (e.g., "Go over there", "Attack this target")
@@ -55,14 +55,6 @@ actions:
       effect:
         - Stone [section:clr-value]+1[/section]
         - Primitive [section:clr-value]+1[/section]
-    - name: Rock Solid
-      type: Passive
-      effect: >
-        AV increased by [[section:clr-attr]CON-MOD[/section]].
-    - name: Will of the World
-      type: Passive
-      effect: >
-        MD is increased by [section:clr-attr]WIL-MOD[/section].
     - name: Living Mana
       type: Passive
       effect: >
