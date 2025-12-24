@@ -2,7 +2,7 @@ name: Chest Mimic, Yellow
 id: chest-mimic-25
 info:
   species: Morphid
-  level: 20
+  level: 25
   size: Large
   tags: [Miniboss, [Resistance, Sharp (Torso)], [Tough, 1], [Vulnerability, Fire/Ice]]
 notes: >
