@@ -4,7 +4,7 @@ info:
   species: Gnoll
   level: 10
   size: Medium
-  tags: [[Tough, 1]]
+  tags: [Sapient, [Tough, 1]]
 notes: >
   Extremely aggressive.
 

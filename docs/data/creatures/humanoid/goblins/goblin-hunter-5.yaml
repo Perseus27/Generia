@@ -4,7 +4,7 @@ info:
   species: Goblin
   level: 5
   size: Small
-  tags: [Annoyance, [Reflexes, 2]]
+  tags: [Sapient, [Reflexes, 2]]
 notes: >
   This type of goblin tries to stay out of melee range and only uses its spear if cornered.
 
