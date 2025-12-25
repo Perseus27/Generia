@@ -51,13 +51,13 @@ actions:
     - name: Tail Swipe
       type: Melee Attack, AoE, Radius 4m
       hit: Hit+6
-      damage: 2d8+6
+      damage: 2d8+6 Blunt
       cost: "[section:clr-en]2 EN[/section]"
 
     - name: Dive
       type: Melee Attack, Range 12m
       hit: Hit+6, [section:clr-dc]DC 15[/section]
-      damage: 2d8+6
+      damage: 2d8+6 Blunt
       effect:
         - "Only during [i]Flight[/i]. Minimum Range: [section:clr-value]4m[/section]" 
         - "On [url:def#Hit]hit[/url]: [url:status#Prone]Prone[/url]"
