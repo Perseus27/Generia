@@ -1,0 +1,74 @@
+name: Rift Snail 15
+id: rift-snail-15
+info:
+  species: Rift Beast
+  level: 15
+  size: Large
+  tags: [Nature's Armor, Nature's Will, [Resistance, Fire], [Resistance, Physical (Torso)], Sluggish, [Vulnerability, Lightning]]
+notes: >
+  –
+
+attributes:
+  CON: ["11", "5"]
+  STR: ["10", "5"]
+  DEX: ["2", "1"]
+  INT: ["1", "0"]
+  WIL: ["6", "3"]
+  PER: ["2", "1"]
+values:
+  EN: 20
+  MP: 5
+  MPR: 2
+  WL: 6
+  WT: 9
+  TN: 4
+  MS: 2
+armor:
+  head: 3
+  torso: 5
+  arms: 4
+  legs: 4
+  md: 3
+  enc: 0
+loot:
+  - Trophy (Eye)
+actions:
+  active:
+    - name: Tentacle Slap
+      type: Melee Attack, Range 4m
+      hit: "Hit+5, Block+14|5"
+      damage: 2d8+5 Blunt
+
+    - name: Multislap
+      type: Melee Attack
+      effect:
+        - "Executes up to [section:clr-value]four[/section] [i]Tentacle Slaps[/i] against separate targets."
+      cost: "[section:clr-en]1 EN[/section] per attack"
+
+    - name: Tentacle Poison
+      type: Reaction
+      hit: "[section:clr-dc]DC 15[/section]"
+      effect:
+        - "After [url:def#Hit]hit[/url] with [i]Tentacle Slap[/i]: Target gets [url:status#Poisoned]Poisoned 2[/url]."
+      save: "[b]Save [section:clr-attr]CON[/section]/+10:[/b] [url:status#Poisoned]Poisoned 1[/url]/No effect."
+      cost: "[section:clr-en]1 EN[/section]"
+
+    - name: Slime Puddle
+      type: Utility, Range 8m, Radius 1m, Field
+      effect:
+        - Spits out a puddle of slime that [url:status#Slowed]slows[/url] creatures moving through it. Levitating creatures are immune.
+        - Rift Snails only use half the MS per field while moving through [i]Slime Puddle[/i].
+      cost: "[section:clr-en]2 EN[/section]"
+
+  passive:
+    - name: Proficiencies
+      type: Passive
+      effect:
+        - Primitive [section:clr-value]+4[/section]
+        - "Tentacles: 4"
+
+    - name: Slippery
+      type: passive
+      effect:
+        - "[url:core#Advantage]Advantage 1[/url] on saves against [url:status#Grappled]Grappled[/url] and [url:status#Restrained]Restrained[/url]."
+

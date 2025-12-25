@@ -1,0 +1,99 @@
+name: Rift Lion 20
+id: rift-lion-20
+info:
+  species: Rift Beast
+  level: 20
+  size: Large
+  tags: [Nature's Armor, Nature's Will, [Resistance, Fire], [Vulnerability, Lightning]]
+notes: >
+  –
+
+attributes:
+  CON: ["10", "5"]
+  STR: ["12", "6"]
+  DEX: ["8", "4"]
+  INT: ["3", "1"]
+  WIL: ["4", "2"]
+  PER: ["5", "2"]
+values:
+  EN: 20
+  MP: 5
+  MPR: 2
+  WL: 6
+  WT: 8
+  TN: 4
+  MS: 6
+armor:
+  head: 3
+  torso: 5
+  arms: 4
+  legs: 4
+  md: 2
+  enc: 0
+loot:
+  - Trophy (Tooth)
+actions:
+  active:
+    - name: Bite
+      type: Melee Attack
+      hit: "Hit+10"
+      damage: 3d6+6 Sharp
+
+    - name: Claw
+      type: Melee Attack
+      hit: "Hit+8, Block+17|5"
+      damage: 2d8+9 Sharp
+
+    - name: Tail Swipe
+      type: Melee Attack, AoE, Radius 2m
+      hit: "Hit+10"
+      damage: 2d8+6 Blunt
+      cost: "[section:clr-en]2 EN[/section]"
+
+    - name: Tear
+      type: Reaction
+      hit: "[section:clr-dc]DC 16[/section]"
+      effect:
+        - "After [url:def#Hit]hit[/url] with [i]Bite[/i] or [i]Claw[/i]: Target gets [url:status#Bleeding]Bleeding 2[/url]."
+      save: "[b]Save [section:clr-attr]CON[/section]/+10:[/b] [url:status#Bleeding]Bleeding 1[/url]/No effect."
+      cost: "[section:clr-en]1 EN[/section]"
+
+    - name: Pounce
+      type: Melee Attack, Range 6m, min. Range 3m
+      hit: "Hit+8, [section:clr-dc]DC 15[/section]"
+      damage: 2d8+9 Sharp
+      effect:
+        - "On [url:def#Hit]hit[/url]: Target goes [url:status#Prone]prone[/url]."
+      save: "Save [section:clr-attr]DEX[/section]/+10: [url:status#OffBalance]Off-Balance[/url]/No effect."
+      cost: "[section:clr-en]2 EN[/section]"
+
+    - name: Pin
+      type: Utility, Melee
+      effect:
+        - "Pins a [url:status#Prone]prone[/url] target against the ground with a large claw to [url:status#Grappled]grapple[/url] it."
+
+  passive:
+    - name: Proficiencies
+      type: Passive
+      effect:
+        - Primitive [section:clr-value]+6[/section]
+
+    - name: Monstrous Fangs
+      type: Passive
+      effect:
+        - "[section:clr-value]One[/section] [i]Bite[/i] damage die may be rerolled [section:clr-value]once[/section]."
+
+    - name: Savage Predator
+      type: Passive
+      effect:
+        - "When using [i]Bite[/i] against [url:status#Prone]prone[/url] or [url:status#Grappled]grappled[/url] targets, the [i]Bite[/i] action may be repeated [section:clr-value]once[/section]."
+
+    - name: Serrated Teeth
+      type: Passive
+      effect:
+        - "On [url:def#Hit]hit[/url] with [i]Bite[/i]: [url:status#Bleeding]Bleeding 1[/url]."
+
+    - name: Slippery
+      type: passive
+      effect:
+        - "[url:core#Advantage]Advantage 1[/url] on saves against [url:status#Grappled]Grappled[/url] and [url:status#Restrained]Restrained[/url]."

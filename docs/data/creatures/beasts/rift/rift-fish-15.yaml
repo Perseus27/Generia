@@ -1,0 +1,80 @@
+name: Rift Fish 15
+id: rift-fish-15
+info:
+  species: Rift Beast
+  level: 15
+  size: Small
+  tags: [[Levitating, 2], Nature's Armor, Nature's Will, [Resistance, Fire], [Vulnerability, Lightning]]
+notes: >
+  –
+
+attributes:
+  CON: ["7", "3"]
+  STR: ["3", "1"]
+  DEX: ["10", "5"]
+  INT: ["4", "2"]
+  WIL: ["4", "2"]
+  PER: ["8", "4"]
+values:
+  EN: 10
+  MP: 10
+  MPR: 1
+  WL: 3
+  WT: 7
+  TN: 3
+  MS: 6
+armor:
+  head: 1
+  torso: 3
+  arms: 2
+  legs: 2
+  md: 2
+  enc: 0
+loot:
+  - Trophy (Fin)
+actions:
+  active:
+    - name: Bite
+      type: Melee Attack
+      hit: "Hit+7"
+      damage: 3d4+1 Sharp
+
+    - name: Zap
+      type: Spell Attack, Range 20m
+      hit: "[section:clr-sa]SA +6[/section]"
+      damage: 2d6+2 Lightning
+      cost: "[section:clr-mp]1 MP[/section]"
+
+    - name: Razor Drop
+      type: Projectile Attack, Range 20m
+      hit: "[section:clr-pa]PA +6[/section]"
+      damage: 2d4+2 Sharp
+      effect:
+        - "On [url:def#Hit]hit[/url]: [url:status#Bleeding]Bleeding 1[/url]"
+      cost: "[section:clr-mp]1 MP[/section]"
+
+    - name: Wave of Healing
+      type: Utility, Range 6m, Chain 6m
+      damage: 2d4+2 [section:clr-heal]Healing[/section]
+      effect:
+        - Max. [section:clr-value]4[/section] targets.
+        - "On [url:core#Explosion]explosion[/url]: [url:status#Regeneration]Regeneration 1[/url]."
+
+  passive:
+    - name: Proficiencies
+      type: Passive
+      effect:
+        - Primitive [section:clr-value]+2[/section]
+        - Lightning [section:clr-value]+2[/section] ([section:clr-attr]PER[/section])
+        - Water [section:clr-value]+2[/section] ([section:clr-attr]PER[/section])
+
+    - name: Blood in the Water
+      type: Passive, Radius 8m
+      effect:
+        - If any creature in the radius suffers a wound from [url:status#Bleeding]Bleeding[/url], regenerate [section:clr-roll-noex]1d4[/section] [section:clr-mp]MP[/section].
+
+    - name: Slippery
+      type: passive
+      effect:
+        - "[url:core#Advantage]Advantage 1[/url] on saves against [url:status#Grappled]Grappled[/url] and [url:status#Restrained]Restrained[/url]."
+

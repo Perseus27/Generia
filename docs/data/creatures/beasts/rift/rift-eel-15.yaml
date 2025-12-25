@@ -1,0 +1,74 @@
+name: Rift Eel 15
+id: rift-eel-15
+info:
+  species: Rift Beast
+  level: 15
+  size: Medium
+  tags: [[Levitating, 2], Nature's Armor, Nature's Will, [Resistance, Fire], [Vulnerability, Lightning]]
+notes: >
+  –
+
+attributes:
+  CON: ["7", "3"]
+  STR: ["5", "2"]
+  DEX: ["12", "6"]
+  INT: ["1", "0"]
+  WIL: ["3", "1"]
+  PER: ["6", "3"]
+values:
+  EN: 15
+  MP: 5
+  MPR: 1
+  WL: 4
+  WT: 7
+  TN: 3
+  MS: 8
+armor:
+  head: 1
+  torso: 3
+  arms: 2
+  legs: 2
+  md: 1
+  enc: 0
+loot:
+  - Trophy (Tooth)
+actions:
+  active:
+    - name: Bite
+      type: Melee Attack
+      hit: "Hit+10"
+      damage: 3d4+2 Sharp
+
+    - name: Shock
+      type: Reaction
+      hit: "[section:clr-dc]DC 15[/section]"
+      effect:
+        - "After [url:def#Hit]hit[/url] with [i]Bite[/i]: Target gets [url:status#Shocked]Shocked 2[/url]."
+      save: "[b]Save [section:clr-attr]CON[/section]:[/b] No effect."
+      cost: "[section:clr-mp]1 MP[/section]"
+
+    - name: Sidewinder
+      type: Reaction
+      effect:
+        - "[url:core#Advantage]Advantage 1[/url] on the next [url:def#Dodge]dodge[/url] roll within this turn."
+      cost: "[section:clr-en]1 EN[/section]"
+
+  passive:
+    - name: Proficiencies
+      type: Passive
+      effect:
+        - Primitive [section:clr-value]+4[/section]
+        - Lightning [section:clr-value]+2[/section] ([section:clr-attr]PER[/section])
+
+    - name: Charged Skin
+      type: Passive
+      hit: "[section:clr-dc]DC 15[/section]"
+      effect:
+        - Melee attackers get [url:status#Shocked]Shocked 2[/url].
+      save: "[b]Save [section:clr-attr]CON[/section]:[/b] No effect."
+
+    - name: Slippery
+      type: passive
+      effect:
+        - "[url:core#Advantage]Advantage 1[/url] on saves against [url:status#Grappled]Grappled[/url] and [url:status#Restrained]Restrained[/url]."
+
