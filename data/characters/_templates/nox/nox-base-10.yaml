@@ -36,7 +36,7 @@ armor:
   enc: 0
 inventory:
   weapons:
-    - name: "Smallsword"
+    - name: "Rapier"
       damage: "2d6+1"
       hit: "Hit+6, Block+4|4"
     - name: "Dagger"

@@ -36,7 +36,7 @@ armor:
   enc: 0
 inventory:
   weapons:
-    - name: "Smallsword+2"
+    - name: "Rapier+2"
       damage: "2d6+3"
       hit: "Hit+11, Block+10|6"
     - name: "Dagger+2"
@@ -60,7 +60,7 @@ inventory:
     - name: "Adventurer's Pack II"
 actions:
   skills:
-    - "Double Stab"
+    - "Multistrike"
     - "Aimed Strike"
     - "Charge"
     - "Feint"

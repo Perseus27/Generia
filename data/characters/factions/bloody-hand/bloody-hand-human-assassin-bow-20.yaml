@@ -41,7 +41,7 @@ inventory:
       hit: "Hit+10"
     - name: "20× Arrow, light"
       damage: "1d6"
-    - name: "Smallsword+1"
+    - name: "Rapier+1"
       damage: "2d6+2"
       hit: "Hit+11, Block+10|6"
     - name: "Dagger+1"

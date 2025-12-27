@@ -45,7 +45,7 @@ inventory:
       hit: "Hit+10"
     - name: "20× Arrows, light"
       damage: "1d6"
-    - name: "Smallsword+1"
+    - name: "Rapier+1"
       enchantment: "[section:clr-bonus]Sharp I[/section]"
       damage: "2d6+2"
       hit: "Hit+10, Block+7|4"

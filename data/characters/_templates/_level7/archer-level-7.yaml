@@ -41,7 +41,7 @@ inventory:
       range: "-1/0/0, 20m"
     - name: "10× Arrow, light"
       damage: "1d6"
-    - name: "Smallsword"
+    - name: "Rapier"
       damage: "2d6+1"
       hit: "Hit+6, Block+5|3"
     - name: "Knife"

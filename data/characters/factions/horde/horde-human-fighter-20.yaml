@@ -35,7 +35,7 @@ armor:
   enc: 0
 inventory:
   weapons:
-    - name: "War Spear+2"
+    - name: "Spear+2"
       damage: "2d6+5|7"
       hit: "Hit+10, Block+16|10"
     - name: "Roundshield"

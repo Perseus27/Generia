@@ -35,7 +35,7 @@ armor:
   enc: 0
 inventory:
   weapons:
-    - name: "Smallsword+1"
+    - name: "Rapier+1"
       damage: "2d6+2"
       hit: "Hit+10, Block+9|5"
     - name: "Short Sling"

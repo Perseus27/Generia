@@ -285,7 +285,7 @@ Rituals
 
 Weapons
 
-  * Smallsword
+  * Rapier
     2d6
     /Hit+6, Block+5|3/
   * Short Sling
@@ -427,7 +427,7 @@ Rituals
 
 Weapons
 
-  * Smallsword
+  * Rapier
     2d6
     /Hit+6, Block+5|3/
   * Short Sling
@@ -574,7 +574,7 @@ Rituals
 
 Weapons
 
-  * Smallsword+1
+  * Rapier+1
     2d6+2
     /Hit+7, Block+7|4/
   * Short Sling
@@ -729,7 +729,7 @@ Rituals
 
 Weapons
 
-  * Smallsword+1
+  * Rapier+1
     2d6+2
     /Hit+8, Block+9|5/
   * Short Sling

@@ -432,7 +432,7 @@ Weapons
     /-1/0/0, 20m/
   * /20× Arrow, light/
     1d6
-  * Smallsword
+  * Rapier
     2d6+1
     /Hit+6, Block+7|5/
   * Knife
@@ -744,7 +744,7 @@ Weapons
     /-1/0/0, 20m/
   * /20× Arrow, light/
     1d6
-  * Smallsword
+  * Rapier
     2d6+1
     /Hit+8, Block+7|5/
   * Knife
@@ -1070,7 +1070,7 @@ Weapons
     /-1/0/0, 20m/
   * /20× Arrow+1, light/
     1d6+1
-  * Smallsword
+  * Rapier
     2d6+2
     /Hit+9, Block+9|7/
   * Knife

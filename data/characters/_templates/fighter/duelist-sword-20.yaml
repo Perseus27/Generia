@@ -36,7 +36,7 @@ armor:
   enc: 0
 inventory:
   weapons:
-    - name: "Smallsword+2"
+    - name: "Rapier+2"
       damage: "2d6+4"
       hit: "Hit+14, Block+12|7"
     - name: "Buckler"
@@ -58,7 +58,7 @@ inventory:
 actions:
   skills:
     - "Stance: Parry"
-    - Double Stab
+    - Multistrike
     - Charge
     - Careful Strike
     - Feint

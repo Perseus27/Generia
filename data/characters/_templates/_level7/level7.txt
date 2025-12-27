@@ -554,7 +554,7 @@ Weapons
     /-1/0/0, 20m/
   * /10× Arrow, light/
     1d6
-  * Smallsword
+  * Rapier
     2d6+1
     /Hit+6, Block+5|3/
   * Knife
@@ -682,7 +682,7 @@ Rituals
 
 Weapons
 
-  * Smallsword
+  * Rapier
     2d6
     /Hit+6, Block+5|2/
   * Short Sling
@@ -1229,7 +1229,7 @@ Rituals
 
 Weapons
 
-  * Smallsword
+  * Rapier
     2d6+1
     /Hit+6, Block+6|4/
   * Dagger

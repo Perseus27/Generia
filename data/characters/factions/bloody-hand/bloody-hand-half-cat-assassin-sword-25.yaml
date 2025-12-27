@@ -36,7 +36,7 @@ armor:
   enc: 0
 inventory:
   weapons:
-    - name: "Smallsword+2"
+    - name: "Rapier+2"
       damage: "2d6+3"
       hit: "Hit+13, Block+10|6"
     - name: "Dagger+2"
@@ -62,7 +62,7 @@ actions:
   skills:
     - Flash of Steel
     - "Stance: Dodge"
-    - Double Stab
+    - Multistrike
     - Aimed Strike
     - Charge
     - Feint

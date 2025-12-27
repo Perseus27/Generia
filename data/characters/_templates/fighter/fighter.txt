@@ -430,7 +430,7 @@ Rituals
 
 Weapons
 
-  * Smallsword
+  * Rapier
     2d6+1
     /Hit+10, Block+9|5/
   * Buckler
@@ -881,7 +881,7 @@ Rituals
 
 Weapons
 
-  * Smallsword+1
+  * Rapier+1
     2d6+2
     /Hit+12, Block+11|6/
   * Buckler
@@ -1157,7 +1157,7 @@ Skills
     E28093-tier-x-article#Protect>
   * Stance: Block <https://www.worldanvil.com/w/generia-perseus27/a/
     skills-E28093-tier-iii-article#StanceBlock>
-  * Double Stab <https://www.worldanvil.com/w/generia-perseus27/a/
+  * Multistrike <https://www.worldanvil.com/w/generia-perseus27/a/
     skills-E28093-tier-ii-article#DoubleStab>
   * Disarm <https://www.worldanvil.com/w/generia-perseus27/a/skills-
     E28093-tier-ii-article#Disarm>
@@ -1191,7 +1191,7 @@ Rituals
 
 Weapons
 
-  * War Spear+1
+  * Spear+1
     2d6+5|7
     /Hit+9, Block+13|8/
   * Roundshield+1
@@ -1634,7 +1634,7 @@ Skills
 
   * Stance: Parry <https://www.worldanvil.com/w/generia-perseus27/a/
     skills-E28093-tier-iii-article#StanceParry>
-  * Double Stab <https://www.worldanvil.com/w/generia-perseus27/a/
+  * Multistrike <https://www.worldanvil.com/w/generia-perseus27/a/
     skills-E28093-tier-i-article#DoubleStab>
   * Charge <https://www.worldanvil.com/w/generia-perseus27/a/skills-
     E28093-tier-i-article#Charge>
@@ -1668,7 +1668,7 @@ Rituals
 
 Weapons
 
-  * Smallsword+2
+  * Rapier+2
     2d6+4
     /Hit+14, Block+12|7/
   * Buckler
