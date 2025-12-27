@@ -7,8 +7,7 @@ info:
   classes: [Nox, Fighter, Duelist]
   tags: [–]
 notes: >
-  [br]Classes: Nox, Fighter, Duelist
-  [br]110 SP Base
+  110 SP Base
   [br]+30 Bonus
   [br]Rest 3
 
@@ -85,7 +84,7 @@ proficiencies:
     - "Stabbing: Intermediate"
     - "[i]Swords 4[/i]"
     - "[i]Daggers 4[/i]"
-    - "Throwing: Beginner"
+    - "Ranged: Beginner"
     - "Defensive: Beginner"
   civilian:
     - "[i]Monster Lore 1[/i]"

@@ -94,7 +94,7 @@ utility:
     id: "FormOfDread"
     tags: ["TIER II", "Nox", "Utility", "Radius: 4m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
-      - "[section:clr-dc]DC[/section] [section:clr-value]Shadow[/section] vs [section:clr-attr]INT[/section]"
+      - "[section:clr-dc]DC[/section] [section:clr-attr]PER[/section] vs [section:clr-attr]INT[/section]"
     cost:
       - "[section:clr-mp]3 MP[/section]"
     description: >

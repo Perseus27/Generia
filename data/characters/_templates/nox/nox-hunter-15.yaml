@@ -7,8 +7,7 @@ info:
   classes: [Nox, Archer, Hunter]
   tags: [–]
 notes: >
-  [br]Classes: Nox, Archer, Hunter
-  [br]110 SP Base
+  110 SP Base
   [br]+30 Bonus
   [br]Rest 2
 
@@ -79,7 +78,7 @@ proficiencies:
     - "[i]Night 4[/i]"
   weapons:
     - "Ranged: Intermediate"
-    - "[i]Shortbows 5[/i]"
+    - "[i]Bows 5[/i]"
     - "Stabbing: Beginner"
     - "[i]Swords 4[/i]"
   civilian:

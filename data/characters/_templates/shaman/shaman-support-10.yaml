@@ -7,8 +7,7 @@ info:
   classes: [Shaman]
   tags: [Support]
 notes: >
-  [br]Classes: Shaman
-  [br]50 SP Base
+  50 SP Base
   [br]+20 Bonus
   [br]Rest 2
 
@@ -36,7 +35,7 @@ armor:
   enc: 0
 inventory:
   weapons:
-    - name: "Battlestaff"
+    - name: "Quarterstaff"
       damage: "2d8+2"
       hit: "Hit+4, Block+6|4"
     - name: "Knife"

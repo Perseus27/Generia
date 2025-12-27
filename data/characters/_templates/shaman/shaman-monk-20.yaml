@@ -7,8 +7,7 @@ info:
   classes: [Marauder, Shaman, Monk]
   tags: [–]
 notes: >
-  [br]Classes: Marauder, Shaman, Monk
-  [br]135 SP Base
+  135 SP Base
   [br]+40 Bonus
   [br]Rest 0
 
@@ -39,7 +38,7 @@ inventory:
     - name: "Brass Knuckles+1"
       damage: "1d8+7"
       hit: "Hit+10, Block+12|7"
-    - name: "Battlestaff+1"
+    - name: "Quarterstaff+1"
       damage: "2d8+5"
       hit: "Hit+8, Block+10|7"
     - name: "Fist"

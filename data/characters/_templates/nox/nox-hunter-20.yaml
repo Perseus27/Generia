@@ -4,11 +4,10 @@ info:
   species: Human
   level: 20
   size: Medium
-  classes: [Nox, Archer, Hunter, Hand of Nox]
+  classes: [Nox, Archer, Hunter, Assassin]
   tags: [–]
 notes: >
-  [br]Classes: Nox, Archer, Hunter, Hand of Nox
-  [br]140 SP Base
+  140 SP Base
   [br]+40 Bonus
   [br]Rest 1
 
@@ -85,7 +84,7 @@ proficiencies:
     - "[i]Night 5[/i]"
   weapons:
     - "Ranged: Intermediate"
-    - "[i]Shortbows 5[/i]"
+    - "[i]Bows 5[/i]"
     - "Stabbing: Beginner"
     - "[i]Swords 4[/i]"
   civilian:

@@ -7,8 +7,7 @@ info:
   classes: [Shaman, Binder]
   tags: [–]
 notes: >
-  [br]Classes: Shaman, Binder
-  [br]100 SP Base
+  100 SP Base
   [br]+30 Bonus
   [br]Rest 1
 
@@ -36,7 +35,7 @@ armor:
   enc: 0
 inventory:
   weapons:
-    - name: "Battlestaff+1"
+    - name: "Quarterstaff+1"
       damage: "2d8+3"
       hit: "Hit+5, Block+7|4"
     - name: "Knife"

@@ -7,8 +7,7 @@ info:
   classes: [Nox, Archer]
   tags: [–]
 notes: >
-  [br]Classes: Nox, Archer
-  [br]75 SP Base
+  75 SP Base
   [br]+20 Bonus
   [br]Rest 0
 
@@ -37,7 +36,7 @@ armor:
 inventory:
   weapons:
     - name: "Shortbow"
-      damage: "1d6+1"
+      damage: "1d6+2"
       hit: "Hit+9"
     - name: "20× Arrow, light"
       damage: "1d6"
@@ -76,7 +75,7 @@ proficiencies:
     - "[i]Night 3[/i]"
   weapons:
     - "Ranged: Beginner"
-    - "[i]Shortbows 5[/i]"
+    - "[i]Bows 5[/i]"
     - "Stabbing: Beginner"
     - "[i]Swords 4[/i]"
   civilian:

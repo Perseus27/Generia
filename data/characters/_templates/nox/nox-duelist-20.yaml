@@ -4,11 +4,10 @@ info:
   species: Human
   level: 20
   size: Medium
-  classes: [Nox, Fighter, Duelist, Hand of Nox]
+  classes: [Nox, Fighter, Duelist, Assassin]
   tags: [–]
 notes: >
-  [br]Classes: Nox, Fighter, Duelist, Hand of Nox
-  [br]140 SP Base
+  140 SP Base
   [br]+40 Bonus
   [br]Rest 2
 
@@ -91,7 +90,7 @@ proficiencies:
     - "Stabbing: Intermediate"
     - "[i]Swords 4[/i]"
     - "[i]Daggers 4[/i]"
-    - "Throwing: Beginner"
+    - "Ranged: Beginner"
     - "Defensive: Beginner"
   civilian:
     - "[i]Monster Lore 1[/i]"

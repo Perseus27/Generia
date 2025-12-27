@@ -7,8 +7,7 @@ info:
   classes: [Fighter, Duelist]
   tags: [–]
 notes: >
-  [br]Classes: Fighter, Duelist
-  [br]135 SP Base
+  135 SP Base
   [br]+40 Bonus
   [br]Rest 0
  
@@ -79,7 +78,7 @@ proficiencies:
     - "Stabbing: Adept"
     - "[i]Swords 5[/i]"
     - "Defensive: Beginner"
-    - "[i]Bucklers 4[/i]"
+    - "[i]Shields 4[/i]"
   civilian:
     - "[i]Athletics 3[/i]"
     - "[i]Monster Lore 1[/i]"

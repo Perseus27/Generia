@@ -77,9 +77,9 @@ proficiencies:
     - ""
   weapons:
     - "Stabbing: Intermediate"
-    - "[i]Spears 5[/i]"
+    - "[i]Polearms 5[/i]"
     - "Defensive: Intermediate"
-    - "[i]Roundshields 5[/i]"
+    - "[i]Shields 5[/i]"
   civilian:
     - "[i]Athletics 3[/i]"
     - "[i]Monster Lore 1[/i]"

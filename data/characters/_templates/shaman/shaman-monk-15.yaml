@@ -7,8 +7,7 @@ info:
   classes: [Marauder, Shaman, Monk]
   tags: [–]
 notes: >
-  [br]Classes: Marauder, Shaman, Monk
-  [br]95 SP Base
+  95 SP Base
   [br]+30 Bonus
   [br]Rest 0
 
@@ -36,7 +35,7 @@ armor:
   enc: 0
 inventory:
   weapons:
-    - name: "Battlestaff+1"
+    - name: "Quarterstaff+1"
       damage: "2d8+4"
       hit: "Hit+7, Block+9|6"
     - name: "Fist"

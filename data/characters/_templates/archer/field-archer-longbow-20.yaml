@@ -7,8 +7,7 @@ info:
   classes: [Archer, Fighter, Field Archer]
   tags: [–]
 notes: >
-  [br]Classes: Archer, Fighter, Field Archer
-  [br]135 SP Base
+  135 SP Base
   [br]+30 Bonus
   [br]Rest 0
 
@@ -36,7 +35,7 @@ armor:
   enc: 0
 inventory:
   weapons:
-    - name: "Warbow+2"
+    - name: "Longbow+2"
       damage: "1d8+7"
       hit: "Hit+10"
       range: "-2/0/0, 28m"
@@ -84,7 +83,7 @@ proficiencies:
     - ""
   weapons:
     - "Ranged: Intermediate"
-    - "[i]Longbows 6[/i]"
+    - "[i]Bows 6[/i]"
     - "Slashing: Intermediate"
     - "[i]Swords 4[/i]"
     - "Defensive: Beginner"

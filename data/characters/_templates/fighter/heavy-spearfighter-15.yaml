@@ -4,11 +4,10 @@ info:
   species: Human
   level: 15
   size: Medium
-  classes: [Fighter, Spearfighter, Shieldbearer]
+  classes: [Fighter, Stabber, Shieldbearer]
   tags: [–]
 notes: >
-  [br]Classes: Fighter, Spearfighter, Shieldbearer
-  [br]105 SP Base
+  105 SP Base
   [br]+30 Bonus
   [br]Rest 0
 
@@ -77,9 +76,9 @@ proficiencies:
     - ""
   weapons:
     - "Stabbing: Intermediate"
-    - "[i]Spears 5[/i]"
+    - "[i]Polearms 5[/i]"
     - "Defensive: Intermediate"
-    - "[i]Roundshields 4[/i]"
+    - "[i]Shields 4[/i]"
   civilian:
     - "[i]Athletics 3[/i]"
     - "[i]Monster Lore 1[/i]"

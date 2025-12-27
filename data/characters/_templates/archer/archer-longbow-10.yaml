@@ -7,8 +7,7 @@ info:
   classes: [Archer]
   tags: [–]
 notes: >
-  [br]Classes: Archer
-  [br]75 SP Base
+  75 SP Base
   [br]+20 Bonus
   [br]Rest 3
 
@@ -36,7 +35,7 @@ armor:
   enc: 0
 inventory:
   weapons:
-    - name: "Warbow"
+    - name: "Longbow"
       damage: "1d8+3"
       hit: "Hit+7"
       range: "-2/0/0, 28m"
@@ -75,7 +74,7 @@ proficiencies:
     - ""
   weapons:
     - "Ranged: Beginner"
-    - "[i]Longbows 4[/i]"
+    - "[i]Bows 4[/i]"
     - "Slashing: Beginner"
     - "[i]Swords 2[/i]"
   civilian:

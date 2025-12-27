@@ -7,8 +7,7 @@ info:
   classes: [Archer, Fighter, Field Archer]
   tags: [–]
 notes: >
-  [br]Classes: Archer, Fighter, Field Archer
-  [br]105 SP Base
+  105 SP Base
   [br]+30 Bonus
   [br]Rest 0
 
@@ -36,7 +35,7 @@ armor:
   enc: 0
 inventory:
   weapons:
-    - name: "Warbow+1"
+    - name: "Longbow+1"
       damage: "1d8+4"
       hit: "Hit+9"
       range: "-2/0/0, 28m"

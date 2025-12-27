@@ -7,8 +7,7 @@ info:
   classes: [Archer, Hunter]
   tags: [–]
 notes: >
-  [br]Classes: Archer, Hunter
-  [br]145 SP Base
+  145 SP Base
   [br]+40 Bonus
   [br]Rest 0
 
@@ -37,7 +36,7 @@ armor:
 inventory:
   weapons:
     - name: "Riding Bow+2"
-      damage: "1d6+7"
+      damage: "1d6+5"
       hit: "Hit+11"
       range: "0/0/-1, 20m"
     - name: "20× Arrow+1, light"
@@ -79,7 +78,7 @@ proficiencies:
     - ""
   weapons:
     - "Ranged: Intermediate"
-    - "[i]Shortbows 7[/i]"
+    - "[i]Bows 7[/i]"
     - "Slashing: Intermediate"
     - "[i]Swords 4[/i]"
   civilian:

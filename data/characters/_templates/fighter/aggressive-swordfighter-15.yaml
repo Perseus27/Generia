@@ -4,11 +4,10 @@ info:
   species: Human
   level: 15
   size: Medium
-  classes: [Fighter, Swordfighter]
+  classes: [Fighter, Slasher]
   tags: [–]
 notes: >
-  [br]Classes: Fighter, Swordfighter
-  [br]100 SP Base
+  100 SP Base
   [br]+30 Bonus
   [br]Rest 2
 
@@ -77,7 +76,7 @@ proficiencies:
     - ""
   weapons:
     - "Slashing: Intermediate"
-    - "[i]Greatswords 5[/i]"
+    - "[i]Swords 5[/i]"
     - "Defensive: Beginner"
   civilian:
     - "[i]Athletics 2[/i]"

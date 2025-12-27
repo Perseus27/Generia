@@ -7,8 +7,7 @@ info:
   classes: [Archer, Hunter]
   tags: [–]
 notes: >
-  [br]Classes: Archer, Hunter
-  [br]145 SP Base
+  145 SP Base
   [br]+40 Bonus
   [br]Rest 0
 
@@ -84,7 +83,7 @@ proficiencies:
     - ""
   weapons:
     - "Ranged: Intermediate"
-    - "[i]Shortbows 6[/i]"
+    - "[i]Bows 6[/i]"
     - "Stabbing: Beginner"
     - "[i]Swords 2[/i]"
   civilian:

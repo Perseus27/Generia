@@ -7,7 +7,7 @@ info:
   classes: [Marauder, Berserker]
   tags: [–]
 notes: >
-  [br]105 SP Base
+  105 SP Base
   [br]+30 Bonus
   [br]Rest 1
 
@@ -36,8 +36,8 @@ armor:
 inventory:
   weapons:
     - name: "Battleaxe +1"
-      damage: "2d8+7"
-      hit: "Hit+6, Block+12|7"
+      damage: "2d8+5"
+      hit: "Hit+8, Block+12|7"
     - name: "Brass Knuckles +1"
       damage: "1d8+7"
       hit: "Hit+5, Block+9|7"
@@ -72,7 +72,7 @@ proficiencies:
     - ""
   weapons:
     - "Slashing: Intermediate"
-    - "[i]Greataxes 5[/i]"
+    - "[i]Axes 5[/i]"
     - "Natural: Beginner"
     - "[i]Primitive 2[/i]"
   civilian:
