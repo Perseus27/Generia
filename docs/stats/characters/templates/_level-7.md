@@ -6,8 +6,8 @@ title: Level 7 Templates
   <div class="sidebar-extra sidebar-extra-larger">
     <h4>NAVIGATION</h4>
     <p>
-    <a href="#Acolyte7">Acolyte</a>
-    <br><a href="#Alchemist7">Alchemist</a>
+    <a href="#acolyte-7">Acolyte</a>
+    <br><a href="#alchemist-7">Alchemist</a>
     </p>
     <hr>
     <h5><a href="/generia/stats/gm/">Stat Overview</a></h5>

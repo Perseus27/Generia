@@ -6,11 +6,11 @@ title: Horde 20
   <div class="sidebar-extra sidebar-extra-larger">
     <h4>NAVIGATION</h4>
     <p>
-    <a href="#CatfolkDuelist20">Catfolk Duelist</a>
-    <br><a href="#CatfolkRogue20">Catfolk Rogue</a>
-    <br><a href="#CentaurArcher20">Centaur Archer</a>
-    <br><a href="#CentaurCharger20">Centaur Charger</a>
-    <br><a href="#DeerfolkDruid20">Deerfolk Druid</a>
+    <a href="#catfolk-duelist-20">Catfolk Duelist</a>
+    <br><a href="#catfolk-rogue-20">Catfolk Rogue</a>
+    <br><a href="#centaur-archer-20">Centaur Archer</a>
+    <br><a href="#centaur-charger-20">Centaur Charger</a>
+    <br><a href="#deerfolk-druid-20">Deerfolk Druid</a>
     </p>
     <h5>See also:</h5>
     <p>

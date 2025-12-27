@@ -6,14 +6,14 @@ title: Guard 15
   <div class="sidebar-extra sidebar-extra-larger">
     <h4>NAVIGATION</h4>
     <p>
-    <a href="#Captain15">Boss</a>
-    <br><a href="#ArcherBow15">Archer, Bow</a>
-    <br><a href="#ArcherCrossbow15">Archer, Crossbow</a>
-    <br><a href="#Healer15">Healer</a>
-    <br><a href="#Pacificator15">Pacificator</a>
-    <br><a href="#Pikeman15">Pikeman</a>
-    <br><a href="#Tank15">Tank</a>
-    <br><a href="#Wizard15">Wizard</a>
+    <a href="#captain-15">Boss</a>
+    <br><a href="#archer-bow-15">Archer, Bow</a>
+    <br><a href="#archer-crossbow-15">Archer, Crossbow</a>
+    <br><a href="#healer-15">Healer</a>
+    <br><a href="#pacificator-15">Pacificator</a>
+    <br><a href="#pikeman-15">Pikeman</a>
+    <br><a href="#tank-15">Tank</a>
+    <br><a href="#wizard-15">Wizard</a>
     </p>
     <h5>See also:</h5>
     <p>

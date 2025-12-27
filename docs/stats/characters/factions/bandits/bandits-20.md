@@ -6,14 +6,14 @@ title: Bandits 20
   <div class="sidebar-extra sidebar-extra-larger">
     <h4>NAVIGATION</h4>
     <p>
-    <a href="#Boss20">Boss</a>
-    <br><a href="#Bowman20">Bowman</a>
-    <br><a href="#Brute20">Brute</a>
-    <br><a href="#Rogue20">Rogue</a>
-    <br><a href="#Slinger20">Slinger</a>
-    <br><a href="#Spearman20">Spearman</a>
-    <br><a href="#Tank20">Tank</a>
-    <br><a href="#Wizard20">Wizard</a>
+    <a href="#boss-20">Boss</a>
+    <br><a href="#bowman-20">Bowman</a>
+    <br><a href="#brute-20">Brute</a>
+    <br><a href="#rogue-20">Rogue</a>
+    <br><a href="#slinger-20">Slinger</a>
+    <br><a href="#spearman-20">Spearman</a>
+    <br><a href="#tank-20">Tank</a>
+    <br><a href="#wizard-20">Wizard</a>
     </p>
     <h5>See also:</h5>
     <p>

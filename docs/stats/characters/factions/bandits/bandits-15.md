@@ -6,14 +6,14 @@ title: Bandits 15
   <div class="sidebar-extra sidebar-extra-larger">
     <h4>NAVIGATION</h4>
     <p>
-    <a href="#Boss15">Boss</a>
-    <br><a href="#Bowman15">Bowman</a>
-    <br><a href="#Brute15">Brute</a>
-    <br><a href="#Rogue15">Rogue</a>
-    <br><a href="#Slinger15">Slinger</a>
-    <br><a href="#Spearman15">Spearman</a>
-    <br><a href="#Tank15">Tank</a>
-    <br><a href="#Wizard15">Wizard</a>
+    <a href="#boss-15">Boss</a>
+    <br><a href="#bowman-15">Bowman</a>
+    <br><a href="#brute-15">Brute</a>
+    <br><a href="#rogue-15">Rogue</a>
+    <br><a href="#slinger-15">Slinger</a>
+    <br><a href="#spearman-15">Spearman</a>
+    <br><a href="#tank-15">Tank</a>
+    <br><a href="#wizard-15">Wizard</a>
     </p>
     <h5>See also:</h5>
     <p>

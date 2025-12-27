@@ -6,11 +6,11 @@ title: Bloody Hand 20
   <div class="sidebar-extra sidebar-extra-larger">
     <h4>NAVIGATION</h4>
     <p>
-    <a href="#AlbAssassinBow20">Alb Assassin, Bow</a>
-    <br><a href="#AlbAssassinSword20">Alb Assassin, Sword</a>
-    <br><a href="#HalfCatAssassinSword20">Half-Cat Assassin, Sword</a>
-    <br><a href="#HumanAssassinBow20">Human Assassin, Bow</a>
-    <br><a href="#HumanAssassinSword20">Human Assassin, Sword</a>
+    <a href="#alb-assassin-bow-20">Alb Assassin, Bow</a>
+    <br><a href="#alb-assassin-sword-20">Alb Assassin, Sword</a>
+    <br><a href="#half-cat-assassin-sword-20">Half-Cat Assassin, Sword</a>
+    <br><a href="#human-assassin-bow-20">Human Assassin, Bow</a>
+    <br><a href="#human-assassin-sword-20">Human Assassin, Sword</a>
     </p>
     <h5>See also:</h5>
     <p>
