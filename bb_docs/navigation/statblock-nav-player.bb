@@ -1,0 +1,16 @@
+[container:home-links]
+[container:home-links-left]
+[container:home-linkblock]
+[h2]Player Characters[/h2]
+[url:/generia/stats/characters/_player/sayless-stats]Sayless[/url]
+[/container]
+[/container]
+
+
+[container:home-links-right]
+[container:home-linkblock]
+[h2]Pets & Summons[/h2]
+[url:/generia/stats/characters/_player/zedrow-pets]Zedrow[/url]
+[/container]
+[/container]
+[/container]
