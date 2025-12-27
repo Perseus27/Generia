@@ -8,6 +8,16 @@ title: Level 7 Templates
     <p>
     <a href="#acolyte-7">Acolyte</a>
     <br><a href="#alchemist-7">Alchemist</a>
+    <br><a href="#archer-7">Archer</a>
+    <br><a href="#bard-7">Bard</a>
+    <br><a href="#druid-7">Druid</a>
+    <br><a href="#fighter-7">Fighter</a>
+    <br><a href="#marauder-7">Marauder</a>
+    <br><a href="#nox-7">Nox</a>
+    <br><a href="#shaman-7">Shaman</a>
+    <br><a href="#wizard-kinetics-7">Wizard Kinetics</a>
+    <br><a href="#wizard-meteorics-7">Wizard Meteorics</a>
+    <br><a href="#wizard-thermics-7">Wizard Thermics</a>
     </p>
     <hr>
     <h5><a href="/generia/stats/gm/">Stat Overview</a></h5>

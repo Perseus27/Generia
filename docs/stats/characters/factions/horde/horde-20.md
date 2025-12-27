@@ -11,6 +11,17 @@ title: Horde 20
     <br><a href="#centaur-archer-20">Centaur Archer</a>
     <br><a href="#centaur-charger-20">Centaur Charger</a>
     <br><a href="#deerfolk-druid-20">Deerfolk Druid</a>
+    <br><a href="#human-archer-20">Human Archer</a>
+    <br><a href="#human-fighter-20">Human Fighter</a>
+    <br><a href="#human-hunter-20">Human Hunter</a>
+    <br><a href="#human-monk-20">Human Monk</a>
+    <br><a href="#kitsune-monk-20">Kitsune Monk</a>
+    <br><a href="#kitsune-wizard-20">Kitsune Wizard</a>
+    <br><a href="#orc-archer-20">Orc Archer</a>
+    <br><a href="#orc-shaman-20">Orc Shaman</a>
+    <br><a href="#orc-warrior-20">Orc Warrior</a>
+    <br><a href="#satyr-bard-20">Satyr Bard</a>
+    <br><a href="#satyr-spearman-20">Satyr Spearman</a>
     </p>
     <h5>See also:</h5>
     <p>
