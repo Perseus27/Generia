@@ -1,13 +1,28 @@
+---
+title: Bandits 10
+---
+
 <template id="sidebar-extra">
-  <div class="sidebar-extra">
+  <div class="sidebar-extra sidebar-extra-larger">
+    <h4>NAVIGATION</h4>
+    <p>
     <a href="#Boss10">Boss</a>
-    <a href="#Bowman10">Bowman</a>
-    <a href="#Brute10">Brute</a>
-    <a href="#Rogue10">Rogue</a>
-    <a href="#Slinger10">Slinger</a>
-    <a href="#Spearman10">Spearman</a>
-    <a href="#Tank10">Tank</a>
-    <a href="#Wizard10">Wizard</a>
+    <br><a href="#Bowman10">Bowman</a>
+    <br><a href="#Brute10">Brute</a>
+    <br><a href="#Rogue10">Rogue</a>
+    <br><a href="#Slinger10">Slinger</a>
+    <br><a href="#Spearman10">Spearman</a>
+    <br><a href="#Tank10">Tank</a>
+    <br><a href="#Wizard10">Wizard</a>
+    </p>
+    <h5>See also:</h5>
+    <p>
+    <a href="/generia/stats/characters/factions/bandits/bandits-10">Bandits 10</a>
+    <br><a href="/generia/stats/characters/factions/bandits/bandits-15">Bandits 15</a>
+    <br><a href="/generia/stats/characters/factions/bandits/bandits-20">Bandits 20</a>
+    </p>
+    <hr>
+    <h5><a href="/generia/stats/gm/">Stat Overview</a></h5>
   </div>
 </template>
 

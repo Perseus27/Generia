@@ -19,3 +19,7 @@
 .sidebar-extra hr {
   border: 1px solid;
 }
+
+.sidebar-extra-larger p {
+  font-size: 0.75rem;
+}
