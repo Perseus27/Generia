@@ -56,15 +56,15 @@ actions:
   skills:
     - ""
   spells:
-    - "Satellites +10"
-    - "Kinetic Bolt II +10"
-    - "Mana Beam I +8"
-    - "Earthquake 20"
-    - "Quagmire 20"
-    - "Kinetic Barrier I +14"
-    - "Counter Shot +12"
-    - "Counterspell +8"
-    - "Dimension Step (14m)"
+    - [Satellites, "[section:clr-pa]+10[/section]"]
+    - [Kinetic Bolt II, "[section:clr-pa]+10[/section]"]
+    - [Mana Beam I, "[section:clr-sa]+8[/section]"]
+    - [Earthquake, "[section:clr-dc]20[/section]"]
+    - [Quagmire, "[section:clr-dc]20[/section]"]
+    - [Kinetic Barrier I, "[section:clr-sd]+14[/section]"]
+    - [Counter Shot, "[section:clr-sd]+12[/section]"]
+    - [Counterspell, "+8"]
+    - [Dimension Step, "([section:clr-value]14m[/section])"]
     - Tensile Shield I
     - Water Veil
   rituals: 

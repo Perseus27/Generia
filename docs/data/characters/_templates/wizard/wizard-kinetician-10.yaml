@@ -54,12 +54,12 @@ actions:
   skills:
     - ""
   spells:
-    - "Satellites +4"
-    - "Kinetic Bolt II +6"
-    - "Mana Beam I +5"
-    - "Earthquake 14"
-    - "Quagmire 16"
-    - "Kinetic Barrier I +8"
+    - [Satellites, "[section:clr-pa]+4[/section]"]
+    - [Kinetic Bolt II, "[section:clr-pa]+6[/section]"]
+    - [Mana Beam I, "[section:clr-sa]+5[/section]"]
+    - [Earthquake, "[section:clr-dc]14[/section]"]
+    - [Quagmire, "[section:clr-dc]16[/section]"]
+    - [Kinetic Barrier I, "[section:clr-sd]+8[/section]"]
     - Tensile Shield I
     - Water Veil
   rituals: 

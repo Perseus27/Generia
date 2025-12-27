@@ -58,17 +58,17 @@ actions:
   skills:
     - ""
   spells:
-    - "Eigth Rest 21"
-    - "Stanza of Folly +11"
-    - "Stanza of Innocence +11"
-    - "Stanza of Love 21"
-    - "Stanza of Slumber 21"
-    - "Stanza of Carelessness 21"
-    - "Stanza of Cowardice 21"
-    - "Song of Heroism 19"
-    - "Melody of Magic 19"
-    - "Stanza of Healing 19"
-    - "Verse of Rebellion 19"
+    - [Eigth Rest, "[section:clr-surecast]21[/section]"]
+    - [Stanza of Folly, "[section:clr-sa]+11[/section]"]
+    - [Stanza of Innocence, "[section:clr-sa]+11[/section]"]
+    - [Stanza of Love, "[section:clr-dc]21[/section]"]
+    - [Stanza of Slumber, "[section:clr-dc]21[/section]"]
+    - [Stanza of Carelessness, "[section:clr-dc]21[/section]"]
+    - [Stanza of Cowardice, "[section:clr-dc]21[/section]"]
+    - [Song of Heroism, "[section:clr-dc]19[/section]"]
+    - [Melody of Magic, "[section:clr-dc]19[/section]"]
+    - [Stanza of Healing, "[section:clr-dc]19[/section]"]
+    - [Verse of Rebellion, "[section:clr-dc]19[/section]"]
   rituals: 
     - Improvisation
 proficiencies:

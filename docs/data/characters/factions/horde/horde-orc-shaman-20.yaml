@@ -56,14 +56,14 @@ actions:
     - ""
   spells:
     - "Summon: Elemental"
-    - "Elemental Rage +10"
+    - [Elemental Rage, "[section:clr-sa]+10[/section]"]
     - Low Stonewall
     - Elemental Favor
     - Flame of Defiance
     - Tailwind
     - Wind Tunnel
     - Wave of Healing
-    - "Lesser Cleansing Flame 21"
+    - [Lesser Cleansing Flame, "[section:clr-dc]21[/section]"]
     - Elemental Guidance
   rituals: 
     - Elemental Manipulation

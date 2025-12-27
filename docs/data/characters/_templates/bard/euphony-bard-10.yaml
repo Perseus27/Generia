@@ -56,13 +56,13 @@ actions:
   skills:
     - ""
   spells:
-    - "Verse of Folly +6"
-    - "Verse of Innocence +6"
-    - "Verse of Boldness 17"
-    - "Melody of Heroism 17"
-    - "Melody of Magic 17"
-    - "Verse of Healing 17"
-    - "Verse of Rebellion 17"
+    - [Verse of Folly, "[section:clr-sa]+6[/section]"]
+    - [Verse of Innocence, "[section:clr-sa]+6[/section]"]
+    - [Verse of Boldness, "[section:clr-dc]17[/section]"]
+    - [Melody of Heroism, "[section:clr-dc]17[/section]"]
+    - [Melody of Magic, "[section:clr-dc]17[/section]"]
+    - [Verse of Healing, "[section:clr-dc]17[/section]"]
+    - [Verse of Rebellion, "[section:clr-dc]17[/section]"]
   rituals: 
     - Improvisation
 proficiencies:

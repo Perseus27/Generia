@@ -56,16 +56,16 @@ actions:
   skills:
     - ""
   spells:
-    - "Mana Bolt II +10"
-    - "Mana Beam II +10"
-    - "Neuroshock 17"
-    - "Counter Shot +13"
-    - "Arcane Barrier I +13"
-    - "Blink +13"
-    - "Illusory Double 17"
-    - "Counterspell +10"
+    - [Mana Bolt II, "[section:clr-pa]+10[/section]"]
+    - [Mana Beam II, "[section:clr-sa]+10[/section]"]
+    - [Neuroshock, "[section:clr-dc]17[/section]"]
+    - [Counter Shot, "[section:clr-sd]+13[/section]"]
+    - [Arcane Barrier I, "[section:clr-sd]+13[/section]"]
+    - [Blink, "[section:clr-sd]+13[/section]"]
+    - [Illusory Double, "[section:clr-dc]17[/section]"]
+    - [Counterspell, "+10"]
     - Dim
-    - "Dimension Step (15m)"
+    - [Dimension Step, "([section:clr-value]15m[/section])"]
   rituals: 
     - Hermetic Manipulation
     - Meteoric Manipulation
