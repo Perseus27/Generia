@@ -56,17 +56,17 @@ actions:
   skills:
     - ""
   spells:
-    - "Fireball I +10"
-    - "Frost Lance I +10"
-    - "Thermal Beam II +10"
-    - "Thermal Bolt II +10"
-    - "Mana Beam I +8"
-    - "Ice Shrapnel +10"
-    - "Sparkstream I 20"
-    - "Counter Shot +12"
-    - "Arcane Barrier I +12"
-    - "Counterspell +8"
-    - "Dimension Step (14m)"
+    - [Fireball I, "[section:clr-sa]+10[/section]"]
+    - [Frost Lance I, "[section:clr-pa]+10[/section]"]
+    - [Thermal Beam II, "[section:clr-sa]+10[/section]"]
+    - [Thermal Bolt II, "[section:clr-pa]+10[/section]"]
+    - [Mana Beam I, "[section:clr-sa]+8[/section]"]
+    - [Ice Shrapnel, "[section:clr-sa]+10[/section]"]
+    - [Sparkstream I, "[section:clr-dc]20[/section]"]
+    - [Counter Shot, "[section:clr-sd]+12[/section]"]
+    - [Arcane Barrier I, "[section:clr-sd]+12[/section]"]
+    - [Counterspell, "+8"]
+    - [Dimension Step, "([section:clr-value]14m[/section])"]
   rituals: 
     - Hermetic Manipulation
     - Thermic Manipulation

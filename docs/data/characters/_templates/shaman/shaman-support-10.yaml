@@ -55,7 +55,7 @@ actions:
     - ""
   spells:
     - "Summon: Lesser Elemental"
-    - "Elemental Wrath +6"
+    - [Elemental Wrath, "[section:clr-sa]+6[/section]"]
     - "Low Stonewall"
     - "Lesser Elemental Favor"
     - "Lesser Flame of Defiance"
@@ -86,4 +86,3 @@ perks:
     - Astral Body I
     - Battle Meditation
     - Focus I
-

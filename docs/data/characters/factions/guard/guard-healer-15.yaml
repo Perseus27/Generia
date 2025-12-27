@@ -56,7 +56,7 @@ actions:
   skills:
     - ""
   spells:
-    - "Sunlight Spear +8"
+    - [Sunlight Spear, "[section:clr-pa]+8[/section]"]
     - "Prayer of Healing"
     - "Healing"
     - "Purify 20+"

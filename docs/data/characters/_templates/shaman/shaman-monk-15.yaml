@@ -66,7 +66,7 @@ actions:
   spells:
     - "Inner World"
     - "Summon: Lesser Elemental"
-    - "Elemental Wrath +4"
+    - [Elemental Wrath, "[section:clr-sa]+4[/section]"]
     - "Low Stonewall"
     - "Lesser Elemental Favor"
     - "Lesser Wave of Healing"
@@ -98,4 +98,3 @@ perks:
   magic:
     - Spiritual Resilience
     - Battle Meditation
-
