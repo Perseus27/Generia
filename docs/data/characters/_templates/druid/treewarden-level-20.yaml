@@ -7,8 +7,7 @@ info:
   classes: [Druid, Treewarden]
   tags: [–]
 notes: >
-  [br]Classes: Druid, Treewarden
-  [br]125 SP Total
+  125 SP Total
   [br]+40 Bonus
   [br]Rest 0
 
@@ -37,8 +36,8 @@ armor:
 inventory:
   weapons:
     - name: "Shillelagh"
-      damage: "2d8+3"
-      hit: "Hit+4, Block+8|6"
+      damage: "2d8+4"
+      hit: "Hit+5, Block+8|6"
     - name: "Knife"
       damage: "2d6"
       hit: "Hit+2, Block+6|6"

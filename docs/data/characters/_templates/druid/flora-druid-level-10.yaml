@@ -7,8 +7,7 @@ info:
   classes: [Druid]
   tags: [–]
 notes: >
-  [br]Classes: Druid
-  [br]65 SP Total
+  65 SP Total
   [br]+20 Bonus
   [br]Rest 0
 
@@ -37,8 +36,8 @@ armor:
 inventory:
   weapons:
     - name: "Shillelagh"
-      damage: "2d8+2"
-      hit: "Hit+2, Block+4|4"
+      damage: "2d8+3"
+      hit: "Hit+1, Block+4|4"
     - name: "Knife"
       damage: "2d6"
       hit: "Hit+2, Block+4|4"
