@@ -36,7 +36,7 @@ armor:
   enc: 2
 inventory:
   weapons:
-    - name: "Mace+2"
+    - name: "Knobbed Mace+2"
       damage: "2d6+8"
       hit: "Hit+7, Block+13|8"
     - name: "Roundshield+2"
@@ -76,9 +76,9 @@ proficiencies:
     - ""
   weapons:
     - "Blunt: Intermediate"
-    - "[i]Maces 5[/i]"
+    - "[i]Clubs 5[/i]"
     - "Defensive: Intermediate"
-    - "[i]Roundshields 4[/i]"
+    - "[i]Shields 4[/i]"
   civilian:
     - "[i]Athletics 3[/i]"
     - "[i]Monster Lore 1[/i]"

@@ -4,7 +4,7 @@ info:
   species: Human
   level: 15
   size: Medium
-  classes: [Fighter, Spearfighter]
+  classes: [Fighter, Stabber]
   tags: [Trained 10]
 notes: >
   [br]100 SP Base
@@ -77,7 +77,7 @@ proficiencies:
     - ""
   weapons:
     - "Stabbing: Intermediate"
-    - "[i]Lances 5[/i]"
+    - "[i]Polearms 5[/i]"
     - "Defensive: Beginner"
   civilian:
     - "[i]Athletics 2[/i]"

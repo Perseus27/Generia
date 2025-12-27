@@ -4,7 +4,7 @@ info:
   species: Human
   level: 15
   size: Medium
-  classes: [Fighter, Swordfighter]
+  classes: [Fighter, Slasher]
   tags: [Trained 20]
 notes: >
   [br]100 SP Base
