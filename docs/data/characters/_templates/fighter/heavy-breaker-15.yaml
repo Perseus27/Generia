@@ -7,8 +7,7 @@ info:
   classes: [Fighter, Breaker, Shieldbearer]
   tags: [–]
 notes: >
-  [br]Classes: Fighter, Breaker, Shieldbearer
-  [br]105 SP Base
+  105 SP Base
   [br]+30 Bonus
   [br]Rest 0
 
@@ -36,7 +35,7 @@ armor:
   enc: 2
 inventory:
   weapons:
-    - name: "Mace+1"
+    - name: "Knobbed Mace+1"
       damage: "2d6+7"
       hit: "Hit+7, Block+13|8"
     - name: "Roundshield+1"
@@ -76,9 +75,9 @@ proficiencies:
     - ""
   weapons:
     - "Blunt: Intermediate"
-    - "[i]Maces 5[/i]"
+    - "[i]Clubs 5[/i]"
     - "Defensive: Intermediate"
-    - "[i]Roundshields 4[/i]"
+    - "[i]Shields 4[/i]"
   civilian:
     - "[i]Athletics 3[/i]"
     - "[i]Monster Lore 1[/i]"

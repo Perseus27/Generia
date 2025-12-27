@@ -4,11 +4,10 @@ info:
   species: Human
   level: 20
   size: Medium
-  classes: [Fighter, Swordfighter]
+  classes: [Fighter, Slasher]
   tags: [–]
 notes: >
-  [br]Classes: Fighter, Swordfighter
-  [br]135 SP Base
+  135 SP Base
   [br]+40 Bonus
   [br]Rest 0
 

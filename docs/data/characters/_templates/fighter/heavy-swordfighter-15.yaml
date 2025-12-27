@@ -4,11 +4,10 @@ info:
   species: Human
   level: 15
   size: Medium
-  classes: [Fighter, Swordfighter, Shieldbearer]
+  classes: [Fighter, Slasher, Shieldbearer]
   tags: [–]
 notes: >
-  [br]Classes: Fighter, Swordfighter, Shieldbearer
-  [br]105 SP Base
+  105 SP Base
   [br]+30 Bonus
   [br]Rest 0
 
@@ -79,7 +78,7 @@ proficiencies:
     - "Slashing: Intermediate"
     - "[i]Swords 5[/i]"
     - "Defensive: Intermediate"
-    - "[i]Roundshields 4[/i]"
+    - "[i]Shields 4[/i]"
   civilian:
     - "[i]Athletics 3[/i]"
     - "[i]Monster Lore 1[/i]"

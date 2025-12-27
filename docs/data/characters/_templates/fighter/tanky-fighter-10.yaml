@@ -7,8 +7,7 @@ info:
   classes: [Fighter]
   tags: [–]
 notes: >
-  [br]Classes: Fighter
-  [br]70 SP Base
+  70 SP Base
   [br]+20 Bonus
   [br]Rest 5
 
@@ -74,7 +73,7 @@ proficiencies:
     - "Slashing: Beginner"
     - "[i]Swords 4[/i]"
     - "Defensive: Beginner"
-    - "[i]Roundshields 3[/i]"
+    - "[i]Shields 3[/i]"
   civilian:
     - "[i]Athletics 2[/i]"
     - "[i]Monster Lore 1[/i]"
