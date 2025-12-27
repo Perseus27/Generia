@@ -86,8 +86,8 @@ proficiencies:
     - "[i]Trading 1[/i]"
 perks:
   special:
-    - Bloodline DEX
-    - "Tradition Athletics"
+    - [Bloodline, "[section:clr-attr]DEX[/section]"]
+    - [Tradition, "[i]Athletics[/i]"]
   
   combat:
     - ""

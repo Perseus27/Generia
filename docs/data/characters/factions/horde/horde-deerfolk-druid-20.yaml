@@ -5,7 +5,7 @@ info:
   level: 20
   size: Medium
   classes: [Druid, Treewarden]
-  tags: [Fast 2]
+  tags: [[Fast, 2]]
 notes: >
   [br]125 SP Total
   [br]+40 Bonus
@@ -85,8 +85,8 @@ proficiencies:
     - "[i]Zoology 2[/i]"
 perks:
   special:
-    - Bloodline WIL
-    - "Tradition Survival"
+    - [Bloodline, "[section:clr-attr]WIL[/section]"]
+    - [Tradition, "[i]Survival[/i]"]
   
   combat:
     - ""

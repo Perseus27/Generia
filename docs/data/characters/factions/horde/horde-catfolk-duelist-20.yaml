@@ -57,7 +57,7 @@ inventory:
 actions:
   skills:
     - "Stance: Parry"
-    - Double Stab
+    - Multistrike
     - Charge
     - Careful Strike
     - Feint
@@ -85,8 +85,8 @@ proficiencies:
     - "[i]Warfare 2[/i]"
 perks:
   special:
-    - Bloodline DEX
-    - "Tradition Stealth"
+    - [Bloodline, "[section:clr-attr]DEX[/section]"]
+    - [Tradition, "[i]Stealth[/i]"]
   
   combat:
     - Lone Fighter

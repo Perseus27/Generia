@@ -91,8 +91,8 @@ proficiencies:
     - "[i]Survival 1[/i]"
 perks:
   special:
-    - Bloodline INT
-    - "Tradition Arcana"
+    - [Bloodline, "[section:clr-attr]INT[/section]"]
+    - [Tradition, "[i]Arcana[/i]"]
   
   combat:
     - Deflector

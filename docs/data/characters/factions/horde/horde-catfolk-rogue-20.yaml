@@ -59,7 +59,7 @@ inventory:
     - name: "Adventurer's Pack II"
 actions:
   skills:
-    - Double Stab
+    - Multistrike
     - Aimed Strike
     - Charge
     - Feint
@@ -75,7 +75,7 @@ actions:
     - Shadow Cloak
     - Shadow Knives
     - Shadow Summoning
-    - Terror
+    - [Terror, "[section:clr-dc]15[/section]"]
     - Shadow Step
     - Shadow Run
     - Blur
@@ -84,7 +84,7 @@ actions:
     - Prayer to Nox
 proficiencies:
   magic:
-    - Nox: Intermediate
+    - "Nox: Intermediate"
     - "[i]Night 5[/i]"
   weapons:
     - "Stabbing: Intermediate"
@@ -100,8 +100,8 @@ proficiencies:
     - "[i]Warfare 2[/i]"
 perks:
   special:
-    - Bloodline DEX
-    - "Tradition Stealth"
+    - [Bloodline, "[section:clr-attr]DEX[/section]"]
+    - [Tradition, "[i]Stealth[/i]"]
   
   combat:
     - Lone Fighter

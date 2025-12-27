@@ -5,7 +5,7 @@ info:
   level: 20
   size: Large
   classes: [Fighter, Swordfighter, Shieldbearer]
-  tags: [Large, Fast 2]
+  tags: [[Fast, 2]]
 notes: >
   [br]130 SP Base
   [br]+40 Bonus
@@ -86,8 +86,8 @@ proficiencies:
     - "[i]Warfare 2[/i]"
 perks:
   special:
-    - Bloodline STR
-    - "Tradition Athletics"
+    - [Bloodline, "[section:clr-attr]STR[/section]"]
+    - [Tradition, "[i]Athletics[/i]"]
   
   combat:
     - Edge Alignment

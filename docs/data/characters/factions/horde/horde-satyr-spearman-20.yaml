@@ -87,8 +87,8 @@ proficiencies:
     - "[i]Warfare 2[/i]"
 perks:
   special:
-    - Bloodline DEX
-    - "Tradition Athletics"
+    - [Bloodline, "[section:clr-attr]DEX[/section]"]
+    - [Tradition, "[i]Athletics[/i]"]
   
   combat:
     - Edge Alignment
