@@ -4,7 +4,7 @@ prefix: "skills1"
 
 offensive:
   - name: Careful Shot
-    id: CarefulShot
+    id: careful-shot
     tags: [Tier I, Offensive, "Range: Weapon"]
     cost:
       - "[section:clr-encost]1 EN[/section]"
@@ -12,7 +12,7 @@ offensive:
       Executes a [url:def#RangedAttack]ranged attack[/url], [url:core#Eased]eased[/url] by [[section:clr-attr]PER-MOD[/section]].
 
   - name: Careful Strike
-    id: CarefulStrike
+    id: careful-strike
     tags: [Tier I, Offensive, "Range: Weapon"]
     cost:
       - "[section:clr-encost]1 EN[/section]"
@@ -20,7 +20,7 @@ offensive:
       Executes a [url:def#MeleeAttack]melee attack[/url], [url:core#Eased]eased[/url] by [[section:clr-attr]PER-MOD[/section]].
 
   - name: Charge
-    id: Charge
+    id: charge
     tags: [Tier I, Offensive, "Range: [url:values#MS]MS[/url]"]
     cost:
       - "[section:clr-encost]2 EN[/section]"
@@ -29,7 +29,7 @@ offensive:
       [br]Minimum range: [section:clr-value]4m[/section].
 
   - name: Unpredictable Shot
-    id: UnpredictableShot
+    id: unpredictable-shot
     tags: [Tier I, Offensive, "Range: Weapon"]
     cost:
       - "[section:clr-encost]1 EN[/section]"
@@ -38,7 +38,7 @@ offensive:
 
 utility:
   - name: Feint
-    id: Feint
+    id: feint
     tags: [Tier I, Utility, "Range: Weapon"]
     cost:
       - "[section:clr-encost]1 EN[/section]"
@@ -48,7 +48,7 @@ utility:
       Baits the target into a hasty defense, giving it [url:status#DefensePenalty]defense penalty[/url] [[section:clr-value]proficiency[/section]] if it fails the check.
 
   - name: Leg Sweep
-    id: LegSweep
+    id: leg-sweep
     tags: [Tier I, Utility, "Range: Adjacent"]
     cost:
       - "[section:clr-encost]1 EN[/section]"
@@ -59,7 +59,7 @@ utility:
       [br][url:core#Advantage]Advantage 1[/url] against smaller targets, [url:core#Disadvantage]Disadvantage 1[/url] against bigger targets, per difference in [url:/generia/rules/misc/creature-sizes]size level[/url].
 
   - name: Pocket Sand
-    id: PocketSand
+    id: pocket-sand
     tags: [Tier I, Utility, "Range: 2m"]
     cost:
       - "[section:clr-encost]1 EN[/section]"
@@ -70,7 +70,7 @@ utility:
       [br][i]No effect on targets without eyes or with alternative modes of perception.[/i]
 
   - name: Shove
-    id: Shove
+    id: shove
     tags: [Tier I, Utility, "Range: Adjacent"]
     cost:
       - "[section:clr-encost]1 EN[/section]"
@@ -80,7 +80,7 @@ utility:
       Shoves the target, causing [url:status#Knockback]Knockback[/url] [[section:clr-attr]STR-MOD[/section]] if it fails the check.
 
   - name: Swing
-    id: Swing
+    id: swing
     tags: [Tier I, Utility, "Range: Weapon"]
     cost:
       - "[section:clr-encost]1 EN[/section]"
@@ -93,7 +93,7 @@ utility:
 
 reaction:
   - name: Aimed Shot
-    id: AimedShot
+    id: aimed-shot
     tags: [Tier I, Reaction]
     cost:
       - "[section:clr-encost]1 EN[/section]"
@@ -101,7 +101,7 @@ reaction:
       The next [url:def#RangedAttack]ranged attack[/url] within this turn targets a specific hit zone, but has [url:core#Disadvantage]Disadvantage 1[/url] when targeting arms or legs and [url:core#Disadvantage]Disadvantage 2[/url] when targeting the head. 
 
   - name: Aimed Strike
-    id: AimedStrike
+    id: aimed-strike
     tags: [Tier I, Reaction]
     cost:
       - "[section:clr-encost]1 EN[/section]"
@@ -109,7 +109,7 @@ reaction:
       The next [url:def#MeleeAttack]melee attack[/url] within this turn targets a specific hit zone, but has [url:core#Disadvantage]Disadvantage 1[/url] when targeting arms or legs and [url:core#Disadvantage]Disadvantage 2[/url] when targeting the head. 
 
   - name: Counter
-    id: Counter
+    id: counter
     tags: [Tier I, Reaction, "Range: Weapon"]
     cost:
       - "[section:clr-encost]1 EN[/section]"
@@ -118,7 +118,7 @@ reaction:
       [br][i]Only usable immediately after a successful [url:def#Parry]parry[/url].[/i]
 
   - name: Dodge Reflex
-    id: DodgeReflex
+    id: dodge-reflex
     tags: [Tier I, Reaction]
     cost:
       - "[section:clr-encost]1 EN[/section]"
@@ -126,7 +126,7 @@ reaction:
       Gain [url:core#Advantage]Advantage 1[/url] on the next [url:def#Dodge]dodge[/url] within this turn.
 
   - name: Shield Bash
-    id: ShieldBash
+    id: shield-bash
     tags: [Tier I, Reaction, "Range: Weapon"]
     cost:
       - "[section:clr-encost]1 EN[/section]"
@@ -135,7 +135,7 @@ reaction:
       [br][i]Only usable immediately after a successful [url:def#Block]block[/url] with a shield that did not result in a [url:def#Hit]hit[/url].[/i]
 
   - name: Steady Block
-    id: SteadyBlock
+    id: steady-block
     tags: [Tier I, Reaction]
     cost:
       - "[section:clr-encost]1 EN[/section]"
@@ -143,7 +143,7 @@ reaction:
       Gain [url:core#Advantage]Advantage 1[/url] on the next [url:def#Block]block[/url] within this turn.
 
   - name: Swift Parry
-    id: SwiftParry
+    id: swift-parry
     tags: [Tier I, Reaction]
     cost:
       - "[section:clr-encost]1 EN[/section]"
@@ -151,7 +151,7 @@ reaction:
       Gain [url:core#Advantage]Advantage 1[/url] on the next [url:def#Parry]parry[/url] within this turn.
 
   - name: Threat
-    id: Threat
+    id: threat
     tags: [Tier I, Reaction]
     cost:
       - "[section:clr-encost]1 EN[/section]"

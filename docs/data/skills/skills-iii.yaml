@@ -4,7 +4,7 @@ prefix: "skills3"
 
 offensive:
   - name: Flash of Steel
-    id: FlashOfSteel
+    id: flash-of-steel
     tags: [Tier III, Offensive, "Range: [url:values#MS]MS[/url]"]
     cost:
       - "[section:clr-encost]2 EN[/section]"
@@ -15,7 +15,7 @@ offensive:
       [br]Total [section:clr-en]EN[/section] cost is multiplied with the number of targets.
 
   - name: Heavy Blow
-    id: HeavyBlow
+    id: heavy-blow
     tags: [Tier III, Offensive, "Range: Weapon"]
     cost:
       - "[section:clr-encost]2 EN[/section]"
@@ -29,7 +29,7 @@ offensive:
       [br][i]Requires blunt weapon.[/i]
 
   - name: Whirl
-    id: Whirl
+    id: whirl
     tags: [Tier III, Offensive, "Range: Weapon"]
     cost:
       - "[section:clr-encost]3 EN[/section]"
@@ -38,7 +38,7 @@ offensive:
 
 utility:
   - name: "Stance: Attack"
-    id: StanceAttack
+    id: stance-attack
     tags: [Tier III, Utility, "[url:def#Concentration]Concentration[/url]"]
     cost:
       - "[section:clr-encost]2 EN[/section]"
@@ -46,7 +46,7 @@ utility:
       [url:def#MeleeAttack]Melee attacks[/url] are [url:core#Eased]eased[/url] by [[section:clr-value]proficiency[/section]].
 
   - name: "Stance: Block"
-    id: StanceBlock
+    id: stance-block
     tags: [Tier III, Utility, "[url:def#Concentration]Concentration[/url]"]
     cost:
       - "[section:clr-encost]2 EN[/section]"
@@ -54,7 +54,7 @@ utility:
       [url:def#Block]Blocks[/url] are [url:core#Eased]eased[/url] by [[section:clr-value]proficiency[/section]].
 
   - name: "Stance: Dodge"
-    id: StanceDodge
+    id: stance-dodge
     tags: [Tier III, Utility, "[url:def#Concentration]Concentration[/url]"]
     cost:
       - "[section:clr-encost]2 EN[/section]"
@@ -62,7 +62,7 @@ utility:
       [url:def#Dodge]Dodges[/url] are [url:core#Eased]eased[/url] by [[section:clr-value]proficiency[/section]].
 
   - name: "Stance: Parry"
-    id: StanceParry
+    id: stance-parry
     tags: [Tier III, Utility, "[url:def#Concentration]Concentration[/url]"]
     cost:
       - "[section:clr-encost]2 EN[/section]"
@@ -71,7 +71,7 @@ utility:
 
 reaction:
   - name: Ricochet
-    id: Ricochet
+    id: ricochet
     tags: [Tier III, Reaction]
     cost:
       - "[section:clr-encost]1 EN[/section]"

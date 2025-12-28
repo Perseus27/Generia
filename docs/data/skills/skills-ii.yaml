@@ -4,7 +4,7 @@ prefix: "skills2"
 
 offensive:
   - name: Mighty Strike
-    id: MightyStrike
+    id: mighty-strike
     tags: [Tier II, Offensive, "Range: Weapon"]
     cost:
       - "[section:clr-encost]1/2/3/4/5 EN[/section]"
@@ -13,7 +13,7 @@ offensive:
       [br]Damage dealt is doubled, up to a limit of [[section:clr-attr]STR-MOD[/section]] * 2/4/6/8/10.
 
   - name: Mordhau
-    id: Mordhau
+    id: mordhau
     tags: [Tier II, Offensive, "Range: Weapon"]
     cost:
       - "[section:clr-encost]2 EN[/section]"
@@ -27,7 +27,7 @@ offensive:
       [br][i]Requires two-handed melee weapon.[/i]
 
   - name: Multishot
-    id: Multishot
+    id: multishot
     tags: [Tier II, Offensive, "Range: Weapon"]
     cost:
       - "[section:clr-encost]2 EN per attack[/section]"
@@ -38,7 +38,7 @@ offensive:
       [br]Each [url:def#Hit]hit[/url] after the first [url:core#Hindered]hinders[/url] the saves by [section:clr-value]2[/section].
 
   - name: Multistrike
-    id: Multistrike
+    id: multistrike
     tags: [Tier II, Offensive, "Range: Weapon"]
     cost:
       - "[section:clr-encost]2 EN per attack[/section]"
@@ -49,7 +49,7 @@ offensive:
       [br]Each [url:def#Hit]hit[/url] after the first [url:core#Hindered]hinders[/url] the saves by [section:clr-value]2[/section].
 
   - name: "Precise Shot: Arms"
-    id: PreciseShotArms
+    id: precise-shot-arms
     tags: [Tier II, Offensive, "Range: Weapon"]
     cost:
       - "[section:clr-encost]2 EN[/section]"
@@ -59,7 +59,7 @@ offensive:
       [br][i]Only usable if the target has arms or similar appendages.[/i]
 
   - name: "Precise Shot: Head"
-    id: PreciseShotHead
+    id: precise-shot-head
     tags: [Tier II, Offensive, "Range: Weapon"]
     cost:
       - "[section:clr-encost]2 EN[/section]"
@@ -69,7 +69,7 @@ offensive:
       [br][i]Only usable if the target has a head.[/i]
 
   - name: "Precise Shot: Legs"
-    id: PreciseShotLegs
+    id: precise-shot-legs
     tags: [Tier II, Offensive, "Range: Weapon"]
     cost:
       - "[section:clr-encost]2 EN[/section]"
@@ -80,7 +80,7 @@ offensive:
 
 utility:
   - name: Bodycheck
-    id: Bodycheck
+    id: bodycheck
     tags: [Tier II, Utility, "Range: [url:values#MS]MS[/url]"]
     cost:
       - "[section:clr-encost]2 EN[/section]"
@@ -92,7 +92,7 @@ utility:
       [br][b]EFFECT+10:[/b] No effect.
 
   - name: Camouflage
-    id: Camouflage
+    id: camouflage
     tags: [Tier II, Utility, "[url:def#Concentration]Concentration[/url]"]
     cost:
       - "[section:clr-encost]1/2/3 EN[/section]"
@@ -100,7 +100,7 @@ utility:
       Gains [url:status#Hidden]Hidden 1/2/3[/url].
 
   - name: Disarm
-    id: Disarm
+    id: disarm
     tags: [Tier II, Utility, "Range: Weapon"]
     cost:
       - "[section:clr-encost]1 EN[/section]"
@@ -112,7 +112,7 @@ utility:
       [br][b]EFFECT+10:[/b] No effect.
 
   - name: Disorientate
-    id: Disorientate
+    id: disorientate
     tags: [Tier II, Utility]
     cost:
       - "[section:clr-encost]2 EN[/section]"
@@ -124,7 +124,7 @@ utility:
       [br][b]EFFECT+10:[/b] No effect.
 
   - name: Find Weakness
-    id: FindWeakness
+    id: find-weakness
     tags: [Tier II, Utility]
     cost:
       - "[section:clr-encost]1 EN[/section]"
@@ -135,7 +135,7 @@ utility:
       [br][i]Applies only to the user of this skill.[/i]
 
   - name: Overwatch
-    id: Overwatch
+    id: overwatch
     tags: [Tier II, Utility, "Range: Weapon"]
     cost:
       - "[section:clr-encost]1 EN (Utility)[/section]"
@@ -146,7 +146,7 @@ utility:
       [br][i]Can be used as Attack or Utility action. No energy cost if used as Attack action.[/i]
 
   - name: "Stance: Intercept"
-    id: StanceIntercept
+    id: stance-intercept
     tags: [Tier II, Utility, "[url:def#Concentration]Concentration[/url]"]
     cost:
       - "[section:clr-encost]–[/section]"
@@ -154,7 +154,7 @@ utility:
       The user may strike any target entering weapon range with a [url:def#MeleeAttack]melee attack[/url] as a reaction.
 
   - name: "Technique: Constitution"
-    id: TechniqueConstitution
+    id: technique-constitution
     tags: [Tier II, Utility, "[url:def#Concentration]Concentration[/url]"]
     cost:
       - "[section:clr-encost]1 EN[/section]"
@@ -162,7 +162,7 @@ utility:
       Gains [url:core#Advantage]Advantage 1[/url] on [section:clr-attr]CON[/section] checks while [url:def#Concentration]Concentration[/url] is kept.
 
   - name: "Technique: Strength"
-    id: TechniqueStrength
+    id: technique-strength
     tags: [Tier II, Utility, "[url:def#Concentration]Concentration[/url]"]
     cost:
       - "[section:clr-encost]1 EN[/section]"
@@ -170,7 +170,7 @@ utility:
       Gains [url:core#Advantage]Advantage 1[/url] on [section:clr-attr]STR[/section] checks while [url:def#Concentration]Concentration[/url] is kept.
 
   - name: "Technique: Dexterity"
-    id: TechniqueDexterity
+    id: technique-dexterity
     tags: [Tier II, Utility, "[url:def#Concentration]Concentration[/url]"]
     cost:
       - "[section:clr-encost]1 EN[/section]"
@@ -178,7 +178,7 @@ utility:
       Gains [url:core#Advantage]Advantage 1[/url] on [section:clr-attr]DEX[/section] checks while [url:def#Concentration]Concentration[/url] is kept.
 
   - name: "Technique: Second Wind"
-    id: TechniqueSecondWind
+    id: technique-second-wind
     tags: [Tier II, Utility, "[url:def#Concentration]Concentration[/url]"]
     cost:
       - "[section:clr-encost]1 EN[/section]"
@@ -186,7 +186,7 @@ utility:
       Gains [url:status#Regeneration]Regeneration 2[/url] while [url:def#Concentration]Concentration[/url] is kept.
 
   - name: Vigilance
-    id: Vigilance
+    id: vigilance
     tags: [Tier II, Defensive, "Range: Weapon", "[url:def#Concentration]Concentration[/url]"]
     cost:
       - "[section:clr-encost]1 EN[/section]"
@@ -197,7 +197,7 @@ utility:
 
 reaction:
   - name: Adrenaline
-    id: Adrenaline
+    id: adrenaline
     tags: [Tier II, Reaction, "Range: Weapon"]
     cost:
       - "[section:clr-encost]2 EN[/section]"
@@ -205,7 +205,7 @@ reaction:
       Immediately executes a [url:def#BasicAttack]basic attack[/url] in exchange for losing next turn's attack action.
 
   - name: Daredevil
-    id: Daredevil
+    id: daredevil
     tags: [Tier II, Reaction, "Range: Weapon"]
     cost:
       - "[section:clr-encost]1 EN[/section]"
@@ -214,7 +214,7 @@ reaction:
       [br]In return, the user has [url:core#Disadvantage]Disadvantage 1[/url] on [url:def#Block]block[/url], [url:def#Dodge]dodge[/url], and [url:def#Parry]parry[/url] rolls until the start of their next turn.
 
   - name: Hold Breath
-    id: HoldBreath
+    id: hold-breath
     tags: [Tier II, Reaction, "Range: Weapon"]
     cost:
       - "[section:clr-encost]1 EN[/section]"
@@ -222,7 +222,7 @@ reaction:
       The next [url:def#RangedAttack]ranged attack[/url] within this turn gains [url:core#Advantage]Advantage 1[/url].
 
   - name: Shoulder Bash
-    id: ShoulderBash
+    id: shoulder-bash
     tags: [Tier II, Reaction, "Range: Weapon"]
     cost:
       - "[section:clr-encost]2 EN[/section]"
