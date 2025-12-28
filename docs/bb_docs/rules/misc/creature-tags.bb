@@ -7,6 +7,7 @@ Creature tags are passive features that are usually inherent to a species (or, m
 [url:values#WT]Wound Treshold[/url] ([b]WT[/b]) is halved, but [url:values#WL]Wound Limit[/url] ([b]WL[/b]) is doubled.
 [br]This tag is gained automatically upon reaching a [section:clr-attr]CON[/section] value of [section:clr-value]20[/section].
 [br][i]Effects are doubled (i.e., WT is quartered and WL is quadrupled) upon reaching [section:clr-value]40[/section] [section:clr-attr]CON[/section].[/i]
+[br][i]The effects of [url:NaturesArmor]Nature's Armor[/url] and [url:#NaturesWill]Nature's Will[/url] are halved as well to avoid unkillable beasts.[/i]
 [/container]
 
 [container:orgblock]
