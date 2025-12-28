@@ -5,7 +5,7 @@ prefix: "druidS"
 
 offensive:
   - name: "Locust Swarm"
-    id: "LocustSwarm"
+    id: "locust-swarm"
     tags: ["TIER II", "Fauna", "Offensive", "Range: 16m", "Radius: 3m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]", "[section:clr-exper]EXPERTISE 2/3[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]CON[/section]"
@@ -26,7 +26,7 @@ offensive:
     saved10: "No Damage."
 
   - name: "Stranglevine"
-    id: "Stranglevine"
+    id: "stranglevine"
     tags: ["TIER II", "Flora", "Offensive", "Vegetation / Staff Spell"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]CON[/section]"
@@ -41,7 +41,7 @@ offensive:
     saved10: "No Effect."
 
   - name: "Whirl of Thorns"
-    id: "WhirlOfThorns"
+    id: "whirl-of-thorns"
     tags: ["TIER II", "Flora", "Offensive", "Radius: 4m", "[section:clr-exper]EXPERTISE 2/3[/section]", "Vegetation / Staff Spell"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]WIL[/section]"
@@ -56,7 +56,7 @@ offensive:
 
 defensive:
   - name: "Thorn Mantle"
-    id: "ThornMantle"
+    id: "thorn-mantle"
     tags: ["TIER II", "Flora", "Defensive", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-exper]EXPERTISE 2/3[/section]", "Staff Spell"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -69,7 +69,7 @@ defensive:
       [br]On hit: [url:status#Poisoned]Poisoned 1/2[/url].
 
   - name: "Root Wall"
-    id: "RootWall"
+    id: "root-wall"
     tags: ["TIER II", "Flora", "Defensive", "Range: 12m", "[section:clr-control]CONTROL[/section]", "[section:clr-terrain]TERRAIN[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Vegetation / Staff Spell"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -87,7 +87,7 @@ defensive:
 
 utility:
   - name: "Ant Hill"
-    id: "AntHill"
+    id: "ant-hill"
     tags: ["TIER II", "Fauna", "Utility", "Range: 16m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-field]FIELD[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section]"
@@ -110,7 +110,7 @@ utility:
     saved10: "No effect."
 
   - name: "Breaking Vine"
-    id: "BreakingVine"
+    id: "breaking-vine"
     tags: ["TIER II", "Flora", "Utility", "Vegetation / Staff Spell"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section]"
@@ -125,7 +125,7 @@ utility:
     saved10: "No Effect."
 
   - name: "Crawling Infestation"
-    id: "CrawlingInfestation"
+    id: "crawling-infestation"
     tags: ["TIER II", "Fauna", "Utility", "Range: 16m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-exper]EXPERTISE 2/3[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -146,7 +146,7 @@ utility:
     saved10: "No Effect."
 
   - name: "Field of Flowers"
-    id: "FieldOfFlowers"
+    id: "field-of-flowers"
     tags: ["TIER II", "Flora", "Utility", "Range: 16m", "Radius: 2m", "[section:clr-heal]HEAL[/section]", "[section:clr-field]ZONE[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-exper]EXPERTISE 2/3[/section]", "Vegetation"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -160,7 +160,7 @@ utility:
       [url:status#Regeneration]Regeneration 1/2[/url]
 
   - name: "Field of Thorns"
-    id: "FieldOfThorns"
+    id: "field-of-thorns"
     tags: ["TIER II", "Flora", "Utility", "Range: 8m", "Radius: 2m", "[section:clr-control]CONTROL[/section]", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Vegetation / Staff Spell"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section]"
@@ -176,7 +176,7 @@ utility:
     saved10: "No effect."
 
   - name: "Panic"
-    id: "Panic"
+    id: "panic"
     tags: ["TIER II", "Fauna", "Utility", "Radius: 4m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -190,7 +190,7 @@ utility:
     saved10: "No effect."
 
   - name: "Poison Vine"
-    id: "PoisonVine"
+    id: "poison-vine"
     tags: ["TIER II", "Flora", "Utility", "Vegetation / Staff Spell"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]CON[/section]"
@@ -204,7 +204,7 @@ utility:
     saved10: "No Effect."
 
   - name: "Theriomorph: Hybrid"
-    id: "TheriomorphHybrid"
+    id: "theriomorph-hybrid"
     tags: ["TIER II", "Fauna", "Utility", "[section:clr-conc]CONCENTRATION[/section]", "Soul Anchor"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -216,7 +216,7 @@ utility:
       Adopt all [section:clr-attr]attribute MODs[/section] and [url:values]values[/url] of the beast that exceed your own, except [i][section:clr-attr]INT-MOD[/section], [section:clr-attr]WIL-MOD[/section], [section:clr-en]EN[/section], [section:clr-mp]MP[/section][/i].
 
   - name: "Toxidermis"
-    id: "Toxidermis"
+    id: "toxidermis"
     tags: ["TIER II", "Flora", "Utility", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -229,7 +229,7 @@ utility:
       [br]Unarmed basic attacks inflict [i]Poisoned 2[/i] on hit.
 
   - name: "Root Field"
-    id: "RootField"
+    id: "root-field"
     tags: ["TIER II", "Flora", "Utility", "Range: 8m", "Radius: 2m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Vegetation / Staff Spell"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section]"
@@ -245,7 +245,7 @@ utility:
 
 ritual:
   - name: "Soulbond"
-    id: "Soulbond"
+    id: "soulbond"
     tags: ["TIER II", "Fauna", "Out of Combat"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"

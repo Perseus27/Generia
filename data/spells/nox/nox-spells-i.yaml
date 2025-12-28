@@ -5,7 +5,7 @@ prefix: "noxS"
 
 offensive:
   - name: "Shadow Strike"
-    id: "ShadowStrike"
+    id: "shadow-strike"
     tags: ["TIER I", "Nox", "Offensive", "Range: Weapon"]
     type:
       - "[section:clr-attack]BASIC ATTACK[/section]"
@@ -18,7 +18,7 @@ offensive:
 
 defensive:
   - name: "Blur"
-    id: "Blur"
+    id: "blur"
     tags: ["TIER I", "Nox", "Defensive", "Reaction"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -31,7 +31,7 @@ defensive:
 
 utility:
   - name: "Shadow Summoning"
-    id: "ShadowSummoning"
+    id: "shadow-summoning"
     tags: ["TIER I", "Nox", "Utility", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -44,7 +44,7 @@ utility:
       An animated shadow manifests next to the caster.
 
   - name: "Shadow Run"
-    id: "ShadowRun"
+    id: "shadow-run"
     tags: ["TIER I", "Nox", "Utility", "[section:clr-movement]MOVEMENT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -56,7 +56,7 @@ utility:
       Basic attacks triggered by [i]Opportunist[/i] have [url:core#Disadvantage]Disadvantage 2[/url].
 
   - name: "Shadow Cloak"
-    id: "ShadowCloak"
+    id: "shadow-cloak"
     tags: ["TIER I", "Nox", "Utility", "Range: 20m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -68,7 +68,7 @@ utility:
       Target gains [url:status#Hidden]Hidden 1[/url].
 
   - name: "Shadow Knives"
-    id: "ShadowKnives"
+    id: "shadow-knives"
     tags: ["TIER I", "Nox", "Utility"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -81,7 +81,7 @@ utility:
       [br]Each knife deals [section:clr-roll]2d4[/section] + [section:clr-attr]STR-MOD[/section] [url:dmgtype#Shadow]Shadow[/url] on hit.
 
   - name: "Terror"
-    id: "Terror"
+    id: "terror"
     tags: ["TIER I", "Nox", "Utility", "Range: 12m", "[section:clr-control]CONTROL[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]PER[/section] vs [section:clr-attr]INT[/section]"
@@ -95,7 +95,7 @@ utility:
 
 ritual:
   - name: "Prayer to Nox"
-    id: "PrayerToNox"
+    id: "prayer-to-nox"
     tags: ["TIER I", "Nox", "Out of Combat"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
@@ -109,7 +109,7 @@ ritual:
       [br]Enables [url:/generia/rules/magic/freecasting]Freecasting[/url].
 
   - name: "Shadow Thief"
-    id: "ShadowThief"
+    id: "shadow-thief"
     tags: ["TIER I", "Nox", "Ritual"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"

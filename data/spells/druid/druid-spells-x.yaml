@@ -8,10 +8,10 @@ exclusive:
   - subheader:
     is_subheader: True
     name: "Ranger"
-    id: "Ranger"
+    id: "ranger"
 
   - name: "Living Arrows"
-    id: "LivingArrows"
+    id: "living-arrows"
     tags: ["TIER X", "Ranger", "Fauna / Flora", "Out of Combat", "SP Cost: 20"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
@@ -37,10 +37,10 @@ exclusive:
   - subheader:
     is_subheader: True
     name: "Wildkeeper"
-    id: "Wildkeeper"
+    id: "wildkeeper"
 
   - name: "Summon Beast"
-    id: "SummonBeast"
+    id: "summon-beast"
     tags: ["TIER X", "Wildkeeper", "Fauna", "Utility", "Soul Anchor", "SP Cost: 20"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"

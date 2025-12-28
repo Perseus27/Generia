@@ -5,7 +5,7 @@ prefix: "thermics"
 
 offensive:
   - name: "Fireball I"
-    id: "FireballI"
+    id: "fireball-i"
     tags: ["TIER II", "Fire", "Offensive", "Range: 20m", "Radius: 2m", "UPCAST 3"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -24,7 +24,7 @@ offensive:
       No effect.
 
   - name: "Frost Lance I"
-    id: "FrostLanceI"
+    id: "frost-lance-i"
     tags: ["TIER II", "Ice", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
@@ -37,7 +37,7 @@ offensive:
       [br][section:clr-roll]+1d8[/section] if [i]chilled[/i]/[i]frozen[/i].
 
   - name: "Thermal Beam II"
-    id: "ThermalBeamII"
+    id: "thermal-beam-ii"
     tags: ["TIER II", "Fire / Ice", "Offensive", "Range: 30m", "UPCAST 5"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -56,7 +56,7 @@ offensive:
       No effect.
 
   - name: "Thermal Bolt II"
-    id: "ThermalBoltII"
+    id: "thermal-bolt-ii"
     tags: ["TIER II", "Fire / Ice", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
@@ -70,7 +70,7 @@ offensive:
 
 defensive:
   - name: "Flame Mantle"
-    id: "FlameMantle"
+    id: "flame-mantle"
     tags: ["TIER II", "Fire", "Utility", "Radius: 2m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -86,7 +86,7 @@ defensive:
       No effect.
 
   - name: "Frost Mantle"
-    id: "FrostMantle"
+    id: "frost-mantle"
     tags: ["TIER II", "Ice", "Utility", "Radius: 2m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
@@ -102,7 +102,7 @@ defensive:
       No effect.
 
   - name: "Thermal Barrier II"
-    id: "ThermalBarrierII"
+    id: "thermal-barrier-ii"
     tags: ["TIER II", "Fire / Ice", "Reaction", "UPCAST 3"]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
@@ -117,7 +117,7 @@ defensive:
 
 utility:
   - name: "Sparkstream II"
-    id: "SparkstreamII"
+    id: "sparkstream-ii"
     tags: ["TIER II", "Fire", "Utility", "Range: 20m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -133,7 +133,7 @@ utility:
       No effect.
 
   - name: "Wall of Fire"
-    id: "WallOfFire"
+    id: "wall-of-fire"
     tags: ["TIER II", "Fire", "Utility", "Range: 20m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"

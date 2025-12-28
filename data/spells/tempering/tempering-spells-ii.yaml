@@ -5,7 +5,7 @@ prefix: "temperedS"
 
 offensive:
   - name: "Crush"
-    id: "Crush"
+    id: "crush"
     tags: ["TIER II", "Body", "Offensive"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]CON[/section] vs [section:clr-attr]CON[/section]"
@@ -24,7 +24,7 @@ offensive:
 
 defensive:
   - name: "Steady"
-    id: "Steady"
+    id: "steady"
     tags: ["TIER II", "Body", "Reaction"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -40,7 +40,7 @@ defensive:
 
 utility:
   - name: "Fleshmending"
-    id: "Fleshmending"
+    id: "fleshmending"
     tags: ["TIER II", "Body", "Utility", "[section:clr-exper]EXPERTISE 2/3[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -54,7 +54,7 @@ utility:
       Gain [url:status#Regeneration]Regeneration 2/3[/url].
 
   - name: "Indomitable Body"
-    id: "IndomitableBody"
+    id: "indomitable-body"
     tags: ["TIER II", "Body", "Utility", "Duration: 1 Phase"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -68,7 +68,7 @@ utility:
       Saves against physical [url:status]status effects[/url] are eased by [[section:clr-value]Body[/section]].
 
   - name: "Indomitable Soul"
-    id: "IndomitableSoul"
+    id: "indomitable-soul"
     tags: ["TIER II", "Soul", "Utility", "Duration: 1 Phase"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -82,7 +82,7 @@ utility:
       Saves against mental [url:status]status effects[/url] are eased by [[section:clr-value]Soul[/section]].
 
   - name: "Looming Aura"
-    id: "LoomingAura"
+    id: "looming-aura"
     tags: ["TIER II", "Soul", "Utility", "Radius: [[section:clr-value]Soul[/section]] m", "[section:clr-ZONE]ZONE[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]CON[/section] vs [section:clr-attr]WIL[/section]"

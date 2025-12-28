@@ -5,7 +5,7 @@ prefix: "meteorics"
 
 offensive:
   - name: "Chain Lightning I"
-    id: "ChainLightningI"
+    id: "chain-lightning-i"
     tags: ["TIER III", "Lightning", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
@@ -21,7 +21,7 @@ offensive:
       No effect.
 
   - name: "Firestorm"
-    id: "Firestorm"
+    id: "firestorm"
     tags: ["TIER III", "Air / Fire", "Offensive", "Range: 4m", "Radius: 2m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -38,7 +38,7 @@ offensive:
       No effect.
 
   - name: "Hailstorm"
-    id: "Hailstorm"
+    id: "hailstorm"
     tags: ["TIER III", "Air / Ice", "Offensive", "Range: 20m", "Radius: 4m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -54,7 +54,7 @@ offensive:
       No effect.
 
   - name: "Lightning Blast II"
-    id: "LightningBlastII"
+    id: "lightning-blast-ii"
     tags: ["TIER III", "Lightning", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
@@ -71,7 +71,7 @@ offensive:
       No effect.
 
   - name: "Meteoric Bolt III"
-    id: "MeteoricBoltIII"
+    id: "meteoric-bolt-iii"
     tags: ["TIER III", "Air / Lightning", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
@@ -83,7 +83,7 @@ offensive:
       [section:clr-roll]2d10[/section] Air / Lightning
 
   - name: "Shockwave"
-    id: "Shockwave"
+    id: "shockwave"
     tags: ["TIER III", "Lightning / Air", "Offensive", "Radius: 4m", "UPCAST 3"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -99,7 +99,7 @@ offensive:
       No effect.
 
   - name: "Thunderbolt II"
-    id: "ThunderboltII"
+    id: "thunderbolt-ii"
     tags: ["TIER II", "Air / Lightning", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -115,7 +115,7 @@ offensive:
       No effect.
 
   - name: "Zap III"
-    id: "ZapIII"
+    id: "zap-iii"
     tags: ["TIER III", "Lightning", "Offensive", "UPCAST 3"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
@@ -135,7 +135,7 @@ offensive:
 
 defensive:
   - name: "Meteoric Barrier III"
-    id: "MeteoricBarrierIII"
+    id: "meteoric-barrier-iii"
     tags: ["TIER III", "Air / Lightning", "Reaction", "UPCAST 3"]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
@@ -149,7 +149,7 @@ defensive:
 
 utility:
   - name: "Blizzard"
-    id: "Blizzard"
+    id: "blizzard"
     tags: ["TIER III", "Air / Ice", "Utility", "Range: 20m", "Radius: 6m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
@@ -165,7 +165,7 @@ utility:
       No effect.
 
   - name: "Flight"
-    id: "Flight"
+    id: "flight"
     tags: ["TIER III", "Air", "Utility|Move", "[section:clr-movement]MOVEMENT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -177,7 +177,7 @@ utility:
       Movement from [i]Levitation[/i] is doubled for this action.
 
   - name: "Static Field"
-    id: "StaticField"
+    id: "static-field"
     tags: ["TIER III", "Lightning", "Utility", "Range: 20m", "Radius: 2m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
@@ -194,7 +194,7 @@ utility:
       No effect.
 
   - name: "Vacuum"
-    id: "Vacuum"
+    id: "vacuum"
     tags: ["TIER III", "Air", "Utility", "Range: 20m", "Radius: 2m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"

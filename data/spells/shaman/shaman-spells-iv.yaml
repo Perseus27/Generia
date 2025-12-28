@@ -5,7 +5,7 @@ prefix: "shamanS"
 
 offensive:
   - name: "Summon: Mighty Elemental"
-    id: "SummonMightyElemental"
+    id: "summon-mighty-elemental"
     tags: ["TIER IV", "Summoning", "Offensive", "Range: 12m", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -17,7 +17,7 @@ offensive:
       A [i][url:/w/generia-perseus27/a/elementals-E28093-mighty-article]Mighty Elemental[/url][/i] manifests at the elemental source.
 
   - name: "Elemental Ire"
-    id: "ElementalIre"
+    id: "elemental-ire"
     tags: ["TIER IV", "Summoning", "Offensive", "Range: 16m"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section]"
@@ -33,7 +33,7 @@ offensive:
 
 defensive:
   - name: "Mighty Stonewall"
-    id: "MightyStonewall"
+    id: "mighty-stonewall"
     tags: ["TIER IV", "Summoning (Stone)", "Defensive", "Range: 12m", "[section:clr-control]CONTROL[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -45,7 +45,7 @@ defensive:
       Stone wall rises (Length 10m, Height 4m, Width 0.2m); provides full cover; permanent.
 
   - name: "Mighty Wind Ward"
-    id: "MightyWindWard"
+    id: "mighty-wind-ward"
     tags: ["TIER IV", "Summoning (Air)", "Defensive", "Range: 8m", "Radius: 4m", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -59,7 +59,7 @@ defensive:
 
 utility:
   - name: "Mighty Elemental Favor"
-    id: "MightyElementalFavor"
+    id: "mighty-elemental-favor"
     tags: ["TIER IV", "Binding", "Utility", "Radius: 12m", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -74,7 +74,7 @@ utility:
       [br]Water: [section:clr-attr]DEX-MOD[/section] +4
 
   - name: "Mighty Elemental Mana"
-    id: "MightyElementalMana"
+    id: "mighty-elemental-mana"
     tags: ["TIER IV", "Binding", "Utility", "Range: 12m", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -86,7 +86,7 @@ utility:
       Reduces MP costs by [section:clr-value]4[/section].
 
   - name: "Mighty Elemental Call"
-    id: "MightyElementalCall"
+    id: "mighty-elemental-call"
     tags: ["TIER IV", "Summoning", "Utility", "Radius: 12m", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -98,7 +98,7 @@ utility:
       Raise the presence of up to [section:clr-value]4[/section] elemental sources in the area from [i]weak[/i] to [i]normal[/i].
 
   - name: "Mighty Flame of Defiance"
-    id: "MightyFlameOfDefiance"
+    id: "mighty-flame-of-defiance"
     tags: ["TIER IV", "Binding (Fire)", "Utility", "Radius: 12m", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -110,7 +110,7 @@ utility:
       Allies gain [section:clr-save]Saves[/section] +[section:clr-value]4[/section].
 
   - name: "Mighty Tailwind"
-    id: "MightyTailwind"
+    id: "mighty-tailwind"
     tags: ["TIER IV", "Binding (Air)", "Utility", "Radius: 24m", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -122,7 +122,7 @@ utility:
       [url:values#MS]MS[/url] +[section:clr-value]8[/section].
 
   - name: "Mighty Wave of Healing"
-    id: "MightyWaveOfHealing"
+    id: "mighty-wave-of-healing"
     tags: ["TIER IV", "Binding (Water)", "Utility", "Range: 12m", "[section:clr-heal]HEAL[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -135,7 +135,7 @@ utility:
       [br][url:core#Explosion]Explosion[/url]: [url:status#Regeneration]Regeneration 4[/url].
 
   - name: "Mighty Wind Tunnel"
-    id: "MightyWindTunnel"
+    id: "mighty-wind-tunnel"
     tags: ["TIER IV", "Summoning (Air)", "Utility", "Range: 8m", "Radius: 4m", "[section:clr-support]SUPPORT[/section]", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"

@@ -5,7 +5,7 @@ prefix: "alchemistS"
 
 offensive:
   - name: "Flame Throw II"
-    id: "FlameThrowII"
+    id: "flame-throw-ii"
     tags: ["TIER II", "Pharmacy", "Offensive", "Volatile", "Range: 4m", "Width: 3m"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -23,7 +23,7 @@ offensive:
     saved10: "No effect."
 
   - name: "Shard Throw II"
-    id: "ShardThrowII"
+    id: "shard-throw-ii"
     tags: ["TIER II", "Mechanics", "Offensive", "Volatile", "Range: 4m", "Width: 3m"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -44,7 +44,7 @@ offensive:
 
 defensive:
   - name: "Emergency Shield II"
-    id: "EmergencyShieldII"
+    id: "emergency-shield-ii"
     tags: ["TIER II", "Mechanics", "Reaction", "Volatile"]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"

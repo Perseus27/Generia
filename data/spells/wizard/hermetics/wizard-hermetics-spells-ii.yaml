@@ -5,7 +5,7 @@ prefix: "hermetics"
 
 offensive:
   - name: "Mana Beam II"
-    id: "ManaBeamII"
+    id: "mana-beam-ii"
     tags: ["TIER II", "Arcane", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -24,7 +24,7 @@ offensive:
       No effect.
 
   - name: "Mana Bolt II"
-    id: "ManaBoltII"
+    id: "mana-bolt-ii"
     tags: ["TIER II", "Arcane", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
@@ -38,7 +38,7 @@ offensive:
 
 defensive:
   - name: "Arcane Barrier II"
-    id: "ArcaneBarrierII"
+    id: "arcane-barrier-ii"
     tags: ["TIER II", "Arcane", "Reaction", "UPCAST 5"]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
@@ -50,7 +50,7 @@ defensive:
       [section:clr-roll]1d8[/section] Protection
 
   - name: "Arcane Shield II"
-    id: "ArcaneShieldII"
+    id: "arcane-shield-ii"
     tags: ["TIER II", "Arcane", "Defensive", "UPCAST 5", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -62,7 +62,7 @@ defensive:
       [section:clr-roll]1d6[/section] Protection
 
   - name: "Blink"
-    id: "Blink"
+    id: "blink"
     tags: ["TIER II", "Arcane", "Reaction", "Range: [[section:clr-value]Arcane[/section]] m"]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
@@ -74,7 +74,7 @@ defensive:
       Teleport to a target position within range.
 
   - name: "Counterspell"
-    id: "Counterspell"
+    id: "counterspell"
     tags: ["TIER II", "Arcane", "Reaction", "Range: 20m"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -88,7 +88,7 @@ defensive:
       On success, the target spell is dispelled. The target spell's MP costs are refunded, except for [section:clr-value]1[/section] MP.
 
   - name: "Projectile Shield"
-    id: "ProjectileShield"
+    id: "projectile-shield"
     tags: ["TIER II", "Arcane", "Defensive", "Range: 12m", "Radius: 4m", "UPCAST 3", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -102,7 +102,7 @@ defensive:
 
 utility:
   - name: "Chameleon"
-    id: "Chameleon"
+    id: "chameleon"
     tags: ["TIER II", "Light", "Utility", "Range: 20m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -114,7 +114,7 @@ utility:
       Target gains [url:status#Hidden]Hidden 2[/url]; the effect refreshes while concentration is maintained.
 
   - name: "Chameleon Field"
-    id: "ChameleonField"
+    id: "chameleon-field"
     tags: ["TIER II", "Light", "Utility", "Range: 20m", "Radius: 4m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -128,7 +128,7 @@ utility:
       Creatures and objects in the area gain [url:status#Hidden]Hidden 2[/url]; the effect continually renews inside the area.
 
   - name: "Dampening Field"
-    id: "DampeningField"
+    id: "dampening-field"
     tags: ["TIER II", "Arcane", "Utility", "Range: 20m", "Radius: 4m", "META", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -145,7 +145,7 @@ utility:
       [/ul]
 
   - name: "Dimension Step"
-    id: "DimensionStep"
+    id: "dimension-step"
     tags: ["TIER II", "Arcane", "Utility", "[section:clr-movement]MOVEMENT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -157,7 +157,7 @@ utility:
       Teleport to a target position up to [section:clr-attr]INT[/section]+[section:clr-value]Arcane[/section] meters away; the destination must be free and in line of sight.
 
   - name: "Illusory Double"
-    id: "IllusoryDouble"
+    id: "illusory-double"
     tags: ["TIER II", "Light", "Utility", "Range: 20m", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]INT[/section]"
@@ -171,7 +171,7 @@ utility:
       Attacker recognizes the double as an illusion.
 
   - name: "Saturation Field"
-    id: "SaturationField"
+    id: "saturation-field"
     tags: ["TIER II", "Arcane", "Utility", "Range: 20m", "Radius: 4m", "UPCAST 3", "[section:clr-meta]META[/section]", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -187,7 +187,7 @@ utility:
       [/ul]
 
   - name: "Thermal Vision"
-    id: "ThermalVision"
+    id: "thermal-vision"
     tags: ["TIER II", "Arcane", "Utility", "Radius: 20m", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -201,7 +201,7 @@ utility:
 
 ritual:
   - name: "Alarm Circle"
-    id: "AlarmCircle"
+    id: "alarm-circle"
     tags: ["TIER II", "Arcane", "Out of Combat", "Radius: 6m"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
@@ -214,7 +214,7 @@ ritual:
       Loud alarm on intrusion; lasts 12 hours per matrix crystal used.
 
   - name: "Mirage"
-    id: "Mirage"
+    id: "mirage"
     tags: ["TIER II", "Light", "Out of Combat", "Radius: 4m"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"

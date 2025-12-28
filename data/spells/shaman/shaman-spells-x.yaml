@@ -8,10 +8,10 @@ exclusive:
   - subheader:
     is_subheader: True
     name: "Elementalist"
-    id: "Elementalist"
+    id: "elementalist"
 
   - name: "Elemental Field"
-    id: "ElementalField"
+    id: "elemental-field"
     tags: ["TIER X", "Elementalist", "Summoning", "Utility", "Range: 20m", "Radius: 2m", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]", "SP Cost: 20"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -32,10 +32,10 @@ exclusive:
   - subheader:
     is_subheader: True
     name: "Monk"
-    id: "Monk"
+    id: "monk"
 
   - name: "Inner World"
-    id: "InnerWorld"
+    id: "inner-world"
     tags: ["TIER X", "Monk", "Binding", "Utility", "[section:clr-conc]CONCENTRATION[/section]", "SP Cost: 10"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"

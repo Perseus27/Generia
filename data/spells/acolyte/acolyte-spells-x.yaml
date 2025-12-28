@@ -8,10 +8,10 @@ exclusive:
   - subheader:
     is_subheader: True
     name: "Moon Dancer"
-    id: "MoonDancer"
+    id: "moon-dancer"
 
   - name: "Intercede"
-    id: "Intercede"
+    id: "intercede"
     tags: ["TIER X", "Moon Dancer", "Luna", "Reaction", "SP Cost: 20"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -25,10 +25,10 @@ exclusive:
   - subheader:
     is_subheader: True
     name: "Sun Cleric"
-    id: "SunCleric"
+    id: "sun-cleric"
 
   - name: "Smite"
-    id: "Smite"
+    id: "smite"
     tags: ["TIER X", "Sun Cleric", "Sol", "Offensive", "SP Cost: 20"]
     type:
       - "[section:clr-attack]BASIC ATTACK[/section]"
@@ -46,10 +46,10 @@ exclusive:
   - subheader:
     is_subheader: True
     name: "Templar"
-    id: "Templar"
+    id: "templar"
 
   - name: "Impulse"
-    id: "Impulse"
+    id: "impulse"
     tags: ["TIER X", "Templar", "Sol", "Utility", "SP Cost: 20"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]CON[/section]"

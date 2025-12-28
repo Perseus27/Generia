@@ -5,7 +5,7 @@ prefix: "meteorics"
 
 offensive:
   - name: "Meteoric Bolt I"
-    id: "MeteoricBoltI"
+    id: "meteoric-bolt-i"
     tags: ["TIER I", "Air / Lightning", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
@@ -17,7 +17,7 @@ offensive:
       [section:clr-roll]1d8[/section] Air / Lightning
 
   - name: "Shocking Touch"
-    id: "ShockingTouch"
+    id: "shocking-touch"
     tags: ["TIER I", "Lightning", "Offensive", "UPCAST 3"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
@@ -34,7 +34,7 @@ offensive:
       No effect.
 
   - name: "Zap I"
-    id: "ZapI"
+    id: "zap-i"
     tags: ["TIER I", "Lightning", "Offensive", "UPCAST 3"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
@@ -54,7 +54,7 @@ offensive:
 
 defensive:
   - name: "Meteoric Barrier I"
-    id: "MeteoricBarrierI"
+    id: "meteoric-barrier-i"
     tags: ["TIER I", "Air / Lightning", "Reaction", "UPCAST 3"]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
@@ -68,7 +68,7 @@ defensive:
 
 utility:
   - name: "Air Burst"
-    id: "AirBurst"
+    id: "air-burst"
     tags: ["TIER I", "Air", "Utility", "UPCAST 3", "[section:clr-control]CONTROL[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]STR[/section]"
@@ -84,7 +84,7 @@ utility:
       No effect.
 
   - name: "Air Cushion"
-    id: "AirCushion"
+    id: "air-cushion"
     tags: ["TIER I", "Air", "Reaction", "Range: 20m", "Radius: 6m", "[section:clr-control]CONTROL[/section]", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -96,7 +96,7 @@ utility:
       Prevents fall damage.
 
   - name: "Discharge"
-    id: "Discharge"
+    id: "discharge"
     tags: ["TIER I", "Lightning", "Utility", "Range: 20m", "[section:clr-affliction]AFFLICTION[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
@@ -110,7 +110,7 @@ utility:
       No effect.
 
   - name: "Lightning Step"
-    id: "LightningStep"
+    id: "lightning-step"
     tags: ["TIER I", "Lightning", "Utility", "[section:clr-movement]MOVEMENT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -122,7 +122,7 @@ utility:
       Attacks granted by the [i]Opportunist[/i] perk have [url:core#Disadvantage]disadvantage 1[/url] against this movement.
 
   - name: "Neuroshock"
-    id: "Neuroshock"
+    id: "neuroshock"
     tags: ["TIER I", "Lightning", "Utility", "Range: 20m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]INT[/section]"
@@ -137,7 +137,7 @@ utility:
 
 ritual:
   - name: "Meteoric Manipulation"
-    id: "MeteoricManipulation"
+    id: "meteoric-manipulation"
     tags: ["TIER I", "Lightning / Air", "Out of Combat"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"

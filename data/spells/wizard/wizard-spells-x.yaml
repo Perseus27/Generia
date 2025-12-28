@@ -8,10 +8,10 @@ exclusive:
   - subheader:
     is_subheader: True
     name: "Magister"
-    id: "Magister"
+    id: "magister"
 
   - name: "Negate"
-    id: "Negate"
+    id: "negate"
     tags: ["TIER X", "Magister", "Utility", "SP Cost: 20"]
     type:
       - "[section:clr-dc]DC+[/section] [section:clr-attr]INT[/section] vs [section:clr-dc]DC[/section]"
@@ -30,10 +30,10 @@ exclusive:
   - subheader:
     is_subheader: True
     name: "Magus"
-    id: "Magus"
+    id: "magus"
 
   - name: "Ley Lines"
-    id: "LeyLines"
+    id: "ley-lines"
     tags: ["TIER X", "Magus", "Utility", "Radius: 1m", "Duration: 1 Phase", "SP Cost: 20"]
     type:
       - "[section:clr-surecast]Surecast[/section]"
@@ -50,10 +50,10 @@ exclusive:
   - subheader:
     is_subheader: True
     name: "Spellblade"
-    id: "Spellblade"
+    id: "spellblade"
 
   - name: "Blade Infusion"
-    id: "BladeInfusion"
+    id: "blade-infusion"
     tags: ["TIER X", "Spellblade", "Utility", "SP Cost: 20", "Duration: 1 Phase"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -70,10 +70,10 @@ exclusive:
   - subheader:
     is_subheader: True
     name: "Spellbow"
-    id: "Spellbow"
+    id: "spellbow"
 
   - name: "Bow Infusion"
-    id: "BowInfusion"
+    id: "bow-infusion"
     tags: ["TIER X", "Spellbow", "Utility", "SP Cost: 20", "Duration: 1 Phase"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"

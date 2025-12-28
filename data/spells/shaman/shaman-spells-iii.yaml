@@ -5,7 +5,7 @@ prefix: "shamanS"
 
 offensive:
   - name: "Summon: Greater Elemental"
-    id: "SummonGreaterElemental"
+    id: "summon-greater-elemental"
     tags: ["TIER III", "Summoning", "Offensive", "Range: 12m", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -17,7 +17,7 @@ offensive:
       A [i][url:/w/generia-perseus27/a/elementals-E28093-greater-article]Greater Elemental[/url][/i] manifests at the elemental source.
 
   - name: "Elemental Fury"
-    id: "ElementalFury"
+    id: "elemental-fury"
     tags: ["TIER III", "Summoning", "Offensive", "Range: 16m"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section]"
@@ -31,7 +31,7 @@ offensive:
 
 defensive:
   - name: "High Stonewall"
-    id: "HighStonewall"
+    id: "high-stonewall"
     tags: ["TIER III", "Summoning (Stone)", "Defensive", "Range: 12m", "[section:clr-control]CONTROL[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -43,7 +43,7 @@ defensive:
       Stone wall rises. Length 8m, height 3m, width 0.2m. Provides full cover. [i]Permanent.[/i]
 
   - name: "Greater Wind Ward"
-    id: "GreaterWindWard"
+    id: "greater-wind-ward"
     tags: ["TIER III", "Summoning (Air)", "Defensive", "Range: 8m", "Radius: 4m", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -57,7 +57,7 @@ defensive:
 
 utility:
   - name: "Greater Cleansing Flame"
-    id: "GreaterCleansingFlame"
+    id: "greater-cleansing-flame"
     tags: ["TIER III", "Binding (Fire)", "Utility", "Range: 12m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-dc]DC+[/section] [section:clr-attr]WIL[/section] vs [section:clr-dc]DC[/section] Status Effects"
@@ -69,7 +69,7 @@ utility:
       Status effects are removed.
 
   - name: "Greater Elemental Favor"
-    id: "GreaterElementalFavor"
+    id: "greater-elemental-favor"
     tags: ["TIER III", "Binding", "Utility", "Radius: 12m", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -84,7 +84,7 @@ utility:
       [br]Water: [section:clr-attr]DEX-MOD[/section] +3
 
   - name: "Greater Elemental Guidance"
-    id: "GreaterElementalGuidance"
+    id: "greater-elemental-guidance"
     tags: ["TIER III", "Binding", "Reaction", "Range: 12m"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -100,7 +100,7 @@ utility:
       [br][b]Air:[/b]  [url:status#AttackBonus]Attack Bonus[/url] [section:clr-value]6[/section]
 
   - name: "Greater Elemental Mana"
-    id: "GreaterElementalMana"
+    id: "greater-elemental-mana"
     tags: ["TIER III", "Binding", "Utility", "Range: 12m", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -112,7 +112,7 @@ utility:
       Reduces MP costs by [section:clr-value]3[/section].
 
   - name: "Greater Elemental Call"
-    id: "GreaterElementalCall"
+    id: "greater-elemental-call"
     tags: ["TIER III", "Summoning", "Utility", "Radius: 12m", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -124,7 +124,7 @@ utility:
       Raise the presence of up to [section:clr-value]3[/section] elemental sources in the area from [i]weak[/i] to [i]normal[/i].
 
   - name: "Greater Flame of Defiance"
-    id: "GreaterFlameOfDefiance"
+    id: "greater-flame-of-defiance"
     tags: ["TIER III", "Binding (Fire)", "Utility", "Radius: 12m", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -136,7 +136,7 @@ utility:
       Allies gain [section:clr-save]Saves[/section] [section:clr-value]+6[/section].
 
   - name: "Greater Tailwind"
-    id: "GreaterTailwind"
+    id: "greater-tailwind"
     tags: ["TIER III", "Binding (Air)", "Utility", "Radius: 20m", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -148,7 +148,7 @@ utility:
       [url:values#MS]MS[/url] +[section:clr-value]6[/section].
 
   - name: "Greater Wave of Healing"
-    id: "GreaterWaveOfHealing"
+    id: "greater-wave-of-healing"
     tags: ["TIER III", "Binding (Water)", "Utility", "Range: 12m", "[section:clr-heal]HEAL[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -161,7 +161,7 @@ utility:
       [br][url:core#Explosion]Explosion[/url]: [url:status#Regeneration]Regeneration 3[/url].
 
   - name: "Greater Wind Tunnel"
-    id: "GreaterWindTunnel"
+    id: "greater-wind-tunnel"
     tags: ["TIER III", "Summoning (Air)", "Utility", "Range: 8m", "Radius: 4m", "[section:clr-support]SUPPORT[/section]", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"

@@ -5,7 +5,7 @@ prefix: "hermetics"
 
 offensive:
   - name: "Arcane Nova"
-    id: "ArcaneNova"
+    id: "arcane-nova"
     tags: ["TIER III", "Arcane", "Offensive", "Radius: 4m", "UPCAST 3"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -21,7 +21,7 @@ offensive:
       No effect.
 
   - name: "Mana Beam III"
-    id: "ManaBeamIII"
+    id: "mana-beam-iii"
     tags: ["TIER III", "Arcane", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -40,7 +40,7 @@ offensive:
       No effect.
 
   - name: "Mana Bolt III"
-    id: "ManaBoltIII"
+    id: "mana-bolt-iii"
     tags: ["TIER III", "Arcane", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
@@ -54,7 +54,7 @@ offensive:
 
 defensive:
   - name: "Arcane Barrier III"
-    id: "ArcaneBarrierIII"
+    id: "arcane-barrier-iii"
     tags: ["TIER III", "Arcane", "Reaction", "UPCAST 5"]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
@@ -66,7 +66,7 @@ defensive:
       [section:clr-roll]1d12[/section] Protection
 
   - name: "Arcane Shield III"
-    id: "ArcaneShieldIII"
+    id: "arcane-shield-iii"
     tags: ["TIER III", "Arcane", "Defensive", "UPCAST 5", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -78,7 +78,7 @@ defensive:
       [section:clr-roll]1d8[/section] Protection
 
   - name: "Return to Sender"
-    id: "ReturnToSender"
+    id: "return-to-sender"
     tags: ["TIER III", "Arcane", "Reaction"]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
@@ -92,7 +92,7 @@ defensive:
 
 utility:
   - name: "Displace"
-    id: "Displace"
+    id: "displace"
     tags: ["TIER III", "Arcane", "Utility", "Range: 20m", "[section:clr-control]CONTROL[/section]", "MATERIAL:", "Matrix Crystal"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
@@ -110,7 +110,7 @@ utility:
       No effect.
 
   - name: "Invisibility Field"
-    id: "InvisibilityField"
+    id: "invisibility-field"
     tags: ["TIER III", "Light", "Utility", "Range: 20m", "Radius: 4m", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]", "MATERIAL:", "Matrix Crystal"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -122,7 +122,7 @@ utility:
       Creatures and objects in the area gain [url:status#Hidden]Hidden 3[/url]; the effect continually refreshes while inside.
 
   - name: "Micro Rift"
-    id: "MicroRift"
+    id: "micro-rift"
     tags: ["TIER III", "Arcane", "Utility", "Range: 20m", "[section:clr-support]SUPPORT[/section]", "[section:clr-movement]MOVEMENT[/section]", "[section:clr-conc]CONCENTRATION[/section]", "MATERIAL:", "Matrix Crystal"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"

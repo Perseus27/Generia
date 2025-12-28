@@ -5,7 +5,7 @@ prefix: "hermetics"
 
 offensive:
   - name: "Mana Beam I"
-    id: "ManaBeamI"
+    id: "mana-beam-i"
     tags: ["TIER I", "Arcane", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -24,7 +24,7 @@ offensive:
       No effect.
 
   - name: "Mana Bolt I"
-    id: "ManaBoltI"
+    id: "mana-bolt-i"
     tags: ["TIER I", "Arcane", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
@@ -38,7 +38,7 @@ offensive:
 
 defensive:
   - name: "Arcane Barrier I"
-    id: "ArcaneBarrierI"
+    id: "arcane-barrier-i"
     tags: ["TIER I", "Arcane", "Reaction", "UPCAST 5"]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
@@ -50,7 +50,7 @@ defensive:
       [section:clr-roll]1d4[/section] Protection
 
   - name: "Arcane Shield I"
-    id: "ArcaneShieldI"
+    id: "arcane-shield-i"
     tags: ["TIER I", "Arcane", "Defensive", "UPCAST 5", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -62,7 +62,7 @@ defensive:
       [section:clr-roll]1d4[/section] Protection
 
   - name: "Counter Shot"
-    id: "CounterShot"
+    id: "counter-shot"
     tags: ["TIER I", "Arcane", "Defensive", "Range: 12m", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
@@ -76,7 +76,7 @@ defensive:
 
 utility:
   - name: "Arcane Leap"
-    id: "ArcaneLeap"
+    id: "arcane-leap"
     tags: ["TIER I", "Arcane", "Utility", "Range: 12m", "[section:clr-movement]MOVEMENT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -88,7 +88,7 @@ utility:
       The jump is [url:core#Eased]eased[/url] by [section:clr-attr]INT[/section]+[[section:clr-value]Arcane[/section]].
 
   - name: "Dim"
-    id: "Dim"
+    id: "dim"
     tags: ["TIER I", "Light", "Utility", "Range: 20m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -100,7 +100,7 @@ utility:
       Target gains [url:status#Hidden]Hidden 1[/url]. The effect refreshes while concentration is maintained.
 
   - name: "Flash of Light"
-    id: "FlashOfLight"
+    id: "flash-of-light"
     tags: ["TIER I", "Light", "Utility", "Radius: 4m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]PER[/section]"
@@ -116,7 +116,7 @@ utility:
       No effect.
 
   - name: "Flicker"
-    id: "Flicker"
+    id: "flicker"
     tags: ["TIER I", "Light", "Reaction", "Range: 20m", "[section:clr-meta]META[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -130,7 +130,7 @@ utility:
 
 ritual:
   - name: "Create Matrix Crystal"
-    id: "CreateMatrixCrystal"
+    id: "create-matrix-crystal"
     tags: ["TIER I", "Arcane", "Out of Combat"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
@@ -143,7 +143,7 @@ ritual:
       Creates a matrix crystal.
 
   - name: "Hermetic Manipulation"
-    id: "HermeticManipulation"
+    id: "hermetic-manipulation"
     tags: ["TIER I", "Arcane / Light", "Out of Combat"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"

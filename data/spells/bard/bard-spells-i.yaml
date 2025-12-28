@@ -5,7 +5,7 @@ prefix: "bardS"
 
 offensive:
   - name: "Verse of Folly"
-    id: "VerseOfFolly"
+    id: "verse-of-folly"
     tags: ["TIER I", "Cacophony", "Offensive", "[section:clr-affliction]AFFLICTION[/section]", "Varieté", "Range: 20m"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]INT[/section]"
@@ -18,7 +18,7 @@ offensive:
     saved: "No effect."
 
   - name: "Verse of Innocence"
-    id: "VerseOfInnocence"
+    id: "verse-of-innocence"
     tags: ["TIER I", "Cacophony", "Offensive", "[section:clr-affliction]AFFLICTION[/section]", "Varieté", "Range: 20m"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -33,7 +33,7 @@ offensive:
 
 defensive:
   - name: "Verse of Love"
-    id: "VerseOfLove"
+    id: "verse-of-love"
     tags: ["TIER I", "Cacophony", "Defensive", "[section:clr-control]CONTROL[/section]", "Varieté", "Radius: 4m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -46,7 +46,7 @@ defensive:
     saved: "No effect."
 
   - name: "Verse of Steadiness"
-    id: "VerseOfSteadiness"
+    id: "verse-of-steadiness"
     tags: ["TIER I", "Euphony", "Defensive", "[section:clr-support]SUPPORT[/section]", "Varieté", "Radius: 8m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -59,7 +59,7 @@ defensive:
     saved: "No effect."
 
   - name: "Melody of Tyranny"
-    id: "MelodyOfTyranny"
+    id: "melody-of-tyranny"
     tags: ["TIER I", "Cacophony", "Defensive", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]", "Da Capo", "Radius: 4m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -74,7 +74,7 @@ defensive:
 
 utility:
   - name: "Verse of Boldness"
-    id: "VerseOfBoldness"
+    id: "verse-of-boldness"
     tags: ["TIER I", "Euphony", "Utility", "[section:clr-support]SUPPORT[/section]", "Varieté", "Radius: 8m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -87,7 +87,7 @@ utility:
     saved: "No effect."
 
   - name: "Verse of Carelessness"
-    id: "VerseOfCarelessness"
+    id: "verse-of-carelessness"
     tags: ["TIER I", "Euphony", "Utility", "[section:clr-affliction]AFFLICTION[/section]", "Varieté", "Radius: 8m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -100,7 +100,7 @@ utility:
     saved: "No effect."
 
   - name: "Verse of Cowardice"
-    id: "VerseOfCowardice"
+    id: "verse-of-cowardice"
     tags: ["TIER I", "Euphony", "Utility", "[section:clr-affliction]AFFLICTION[/section]", "Varieté", "Radius: 8m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -113,7 +113,7 @@ utility:
     saved: "No effect."
 
   - name: "Verse of Healing"
-    id: "VerseOfHealing"
+    id: "verse-of-healing"
     tags: ["TIER I", "Euphony", "Utility", "[section:clr-heal]HEAL[/section]", "Varieté", "Radius: 8m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -126,7 +126,7 @@ utility:
     saved: "No effect."
 
   - name: "Melody of Heroism"
-    id: "MelodyOfHeroism"
+    id: "melody-of-heroism"
     tags: ["TIER I", "Euphony", "Utility", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]", "Da Capo", "Radius: 12m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -139,7 +139,7 @@ utility:
     saved: "No effect."
 
   - name: "Melody of Magic"
-    id: "MelodyOfMagic"
+    id: "melody-of-magic"
     tags: ["TIER I", "Euphony", "Utility", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]", "Da Capo", "Radius: 12m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -152,7 +152,7 @@ utility:
     saved: "No effect."
 
   - name: "Verse of Rebellion"
-    id: "VerseOfRebellion"
+    id: "verse-of-rebellion"
     tags: ["TIER I", "Euphony", "Utility", "[section:clr-support]SUPPORT[/section]", "Varieté", "Radius: 12m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -165,7 +165,7 @@ utility:
     saved: "No effect."
 
   - name: "Verse of Slumber"
-    id: "VerseOfSlumber"
+    id: "verse-of-slumber"
     tags: ["TIER I", "Cacophony", "Utility", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]", "Varieté", "Radius: 4m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -180,7 +180,7 @@ utility:
 
 ritual:
   - name: "Improvisation"
-    id: "Improvisation"
+    id: "improvisation"
     tags: ["TIER I", "Euphony / Cacophony", "Out of Combat", "Performance"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
@@ -191,7 +191,7 @@ ritual:
       Effect, duration, and any costs are negotiated; enables [i][url:/generia/rules/magic/freecasting]Freecasting[/url][/i].
 
   - name: "Everyman’s Tune"
-    id: "EverymansTune"
+    id: "everymans-tune"
     tags: ["TIER I", "Euphony", "Out of Combat", "Performance", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
@@ -200,7 +200,7 @@ ritual:
       All checks (incl. Charisma) to appear harmless, friendly, and inconspicuous have Advantage 1.
 
   - name: "Hymn of Wisdom"
-    id: "HymnOfWisdom"
+    id: "hymn-of-wisdom"
     tags: ["TIER I", "Euphony", "Out of Combat", "[section:clr-support]SUPPORT[/section]", "Performance", "Radius: 8m"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
@@ -208,7 +208,7 @@ ritual:
       [i]Meditation[/i] effects are doubled.
 
   - name: "Hymn of Curiosity"
-    id: "HymnOfCuriosity"
+    id: "hymn-of-curiosity"
     tags: ["TIER I", "Euphony", "Out of Combat", "[section:clr-support]SUPPORT[/section]", "Performance", "Radius: 8m"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
@@ -216,7 +216,7 @@ ritual:
       All [b]SCH[/b] checks have [url:core#Advantage]Advantage 1[/url].
 
   - name: "Hymn of Creation"
-    id: "HymnOfCreation"
+    id: "hymn-of-creation"
     tags: ["TIER I", "Euphony", "Out of Combat", "[section:clr-support]SUPPORT[/section]", "Performance", "Radius: 8m"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"

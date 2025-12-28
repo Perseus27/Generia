@@ -5,7 +5,7 @@ prefix: "acolyteS"
 
 offensive:
   - name: "Purge"
-    id: "Purge"
+    id: "purge"
     tags: ["TIER III", "Sol", "Offensive", "Range: 20m"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]CON[/section]"
@@ -26,7 +26,7 @@ offensive:
 
 defensive:
   - name: "Providence"
-    id: "Providence"
+    id: "providence"
     tags: ["TIER III", "Luna", "Reaction", "Range: 20m"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -41,7 +41,7 @@ defensive:
 
 utility:
   - name: "Expunge"
-    id: "Expunge"
+    id: "expunge"
     tags: ["TIER III", "Sol", "Utility", "Range: 20m"]
     type:
       - "[section:clr-dc]DC+[/section] [section:clr-attr]WIL[/section] vs [section:clr-dc]DC[/section]"
@@ -54,7 +54,7 @@ utility:
       Forcibly ends a [section:clr-field][b]FIELD[/b][/section] or [section:clr-zone][b]ZONE[/b][/section] spell.
 
   - name: "Lunacy"
-    id: "Lunacy"
+    id: "lunacy"
     tags: ["TIER III", "Luna", "Utility", "Radius: 4m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -72,7 +72,7 @@ utility:
     saved10: "No effect."
 
   - name: "Sunrise"
-    id: "Sunrise"
+    id: "sunrise"
     tags: ["TIER III", "Sol", "Utility", "Radius: 20m"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -87,7 +87,7 @@ utility:
       Provides [section:clr-sunlight]True Sunlight[/section] within the radius for one Phase.
 
   - name: "Moonrise"
-    id: "Moonrise"
+    id: "moonrise"
     tags: ["TIER III", "Luna", "Utility", "Radius: 20m"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -104,7 +104,7 @@ utility:
 
 ritual:
   - name: "Prophecy"
-    id: "Prophecy"
+    id: "prophecy"
     tags: ["TIER III", "Luna", "Out of Combat"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"

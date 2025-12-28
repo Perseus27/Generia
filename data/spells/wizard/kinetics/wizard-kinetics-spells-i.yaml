@@ -5,7 +5,7 @@ prefix: "kinetics"
 
 offensive:
   - name: "Kinetic Bolt I"
-    id: "KineticBoltI"
+    id: "kinetic-bolt-i"
     tags: ["TIER I", "Stone / Water", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
@@ -17,7 +17,7 @@ offensive:
       [section:clr-roll]1d8[/section] Blunt / Sharp
 
   - name: "Pebble Shot"
-    id: "PebbleShot"
+    id: "pebble-shot"
     tags: ["TIER I", "Stone", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
@@ -32,7 +32,7 @@ offensive:
 
 defensive:
   - name: "Kinetic Barrier I"
-    id: "KineticBarrierI"
+    id: "kinetic-barrier-i"
     tags: ["TIER I", "Stone / Water", "Reaction", "UPCAST 3"]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
@@ -45,7 +45,7 @@ defensive:
       [br][i]Barrier is [url:status#resistant]resistant[/url] against Blunt / Sharp[/i]
 
   - name: "Tensile Shield I"
-    id: "TensileShieldI"
+    id: "tensile-shield-i"
     tags: ["TIER I", "Water", "Defensive", "Range: 20m", "UPCAST 3", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -61,7 +61,7 @@ defensive:
       [br][i]Shield is [url:status#resistant]resistant[/url] against Physical[/i]
 
   - name: "Water Veil"
-    id: "WaterVeil"
+    id: "water-veil"
     tags: ["TIER I", "Water", "Defensive", "Range: 20m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -77,7 +77,7 @@ defensive:
 
 utility:
   - name: "Stone Shackles"
-    id: "StoneShackles"
+    id: "stone-shackles"
     tags: ["TIER I", "Stone", "Utility", "Range: 20m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -93,7 +93,7 @@ utility:
       No effect.
 
   - name: "Water Jet I"
-    id: "WaterJetI"
+    id: "water-jet-i"
     tags: ["TIER I", "Water", "Utility", "Range: 12m", "UPCAST 3", "[section:clr-control]CONTROL[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]STR[/section]"
@@ -109,7 +109,7 @@ utility:
       No effect.
 
   - name: "Water Walk"
-    id: "WaterWalk"
+    id: "water-walk"
     tags: ["TIER I", "Water", "Utility", "Range: 20m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -122,7 +122,7 @@ utility:
 
 ritual:
   - name: "Kinetic Manipulation"
-    id: "KineticManipulation"
+    id: "kinetic-manipulation"
     tags: ["TIER I", "Stone / Water", "Out of Combat"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"

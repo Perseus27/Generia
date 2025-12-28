@@ -5,7 +5,7 @@ prefix: "kinetics"
 
 offensive:
   - name: "Kinetic Bolt II"
-    id: "KineticBoltII"
+    id: "kinetic-bolt-ii"
     tags: ["TIER II", "Stone / Water", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
@@ -17,7 +17,7 @@ offensive:
       [section:clr-roll]2d8[/section] Blunt / Sharp
 
   - name: "Satellites"
-    id: "Satellites"
+    id: "satellites"
     tags: ["TIER II", "Stone", "Offensive", "Range: 20m", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
@@ -31,7 +31,7 @@ offensive:
       [br]([section:clr-value]+ projectile damage[/section])
 
   - name: "Stone Hail"
-    id: "StoneHail"
+    id: "stone-hail"
     tags: ["TIER II", "Stone", "Offensive", "Range: 20m"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
@@ -46,7 +46,7 @@ offensive:
 
 defensive:
   - name: "Kinetic Barrier II"
-    id: "KineticBarrierII"
+    id: "kinetic-barrier-ii"
     tags: ["TIER II", "Stone / Water", "Reaction", "UPCAST 3"]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
@@ -59,7 +59,7 @@ defensive:
       [br][i]Barrier is [url:status#resistant]resistant[/url] against Blunt / Sharp[/i]
 
   - name: "Tensile Shield II"
-    id: "TensileShieldII"
+    id: "tensile-shield-ii"
     tags: ["TIER II", "Water", "Defensive", "Range: 20m", "UPCAST 3", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -72,7 +72,7 @@ defensive:
       [br][i]Shield is [url:status#resistant]resistant[/url] against Physical[/i]
 
   - name: "Wave Dome"
-    id: "WaveDome"
+    id: "wave-dome"
     tags: ["TIER II", "Water", "Utility", "Radius: 4m", "UPCAST 3", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]", "[section:clr-zone]ZONE[/section]", "MATERIAL:", "Matrix Crystal"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -87,7 +87,7 @@ defensive:
 
 utility:
   - name: "Earthquake"
-    id: "Earthquake"
+    id: "earthquake"
     tags: ["TIER II", "Stone", "Utility", "Range: 20m", "Radius: 2m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -103,7 +103,7 @@ utility:
       No effect.
 
   - name: "Fog Cloud"
-    id: "FogCloud"
+    id: "fog-cloud"
     tags: ["TIER II", "Air / Water", "Utility", "Range: 20m", "UPCAST 3", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -116,7 +116,7 @@ utility:
       [br]To attack a target inside the cloud from outside (or the other way around) with [url:def#RangedAttack]ranged attacks[/url] or [section:clr-pa]projectile spells[/section], first pass a [section:clr-attr]PER[/section] check against the caster’s [section:clr-dc]DC INT[/section].
 
   - name: "Lower/Raise"
-    id: "LowerRaise"
+    id: "lower-raise"
     tags: ["TIER II", "Stone", "Utility", "Range: 20m", "[section:clr-control]CONTROL[/section]", "[section:clr-terrain]TERRAIN[/section]", "MATERIAL:", "Matrix Crystal"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -130,7 +130,7 @@ utility:
       Affected creatures may leave the area as a reaction.
 
   - name: "Quagmire"
-    id: "Quagmire"
+    id: "quagmire"
     tags: ["TIER II", "Stone / Water", "Utility", "Range: 20m", "Radius: 4m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]", "[section:clr-terrain]TERRAIN[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -145,7 +145,7 @@ utility:
       Target may perform a jump as a reaction.
 
   - name: "Sinkhole"
-    id: "Sinkhole"
+    id: "sinkhole"
     tags: ["TIER II", "Stone", "Utility", "Range: 20m", "Radius: 2m", "[section:clr-control]CONTROL[/section]", "[section:clr-terrain]TERRAIN[/section]", "MATERIAL:", "Matrix Crystal"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -159,7 +159,7 @@ utility:
       Off-Balance prevented.
 
   - name: "Water Jet II"
-    id: "WaterJetII"
+    id: "water-jet-ii"
     tags: ["TIER II", "Water", "Utility", "Range: 12m", "UPCAST 3", "[section:clr-control]CONTROL[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]STR[/section]"
@@ -176,7 +176,7 @@ utility:
 
 ritual:
   - name: "Well"
-    id: "Well"
+    id: "well"
     tags: ["TIER II", "Stone / Water", "Out of Combat"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"

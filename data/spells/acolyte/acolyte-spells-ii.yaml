@@ -5,7 +5,7 @@ prefix: "acolyteS"
 
 offensive:
   - name: "Sunlight Arrows"
-    id: "SunlightArrows"
+    id: "sunlight-arrows"
     tags: ["TIER II", "Sol", "Offensive", "[section:clr-exper]EXPERTISE 2/3[/section]", "Range: 20m"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]WIL[/section]"
@@ -17,7 +17,7 @@ offensive:
       [section:clr-roll]2/3d4[/section] Light per arrow
 
   - name: "Prominence"
-    id: "Prominence"
+    id: "prominence"
     tags: ["TIER II", "Sol", "Offensive", "Radius: 4m"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section]"
@@ -33,7 +33,7 @@ offensive:
 
 defensive:
   - name: "Armor of Sol"
-    id: "ArmorOfSol"
+    id: "armor-of-sol"
     tags: ["TIER II", "Sol", "Defensive", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -47,7 +47,7 @@ defensive:
 
 utility:
   - name: "Prayer of Healing"
-    id: "PrayerOfHealing"
+    id: "prayer-of-healing"
     tags: ["TIER II", "Luna", "Utility", "[section:clr-heal]HEAL[/section]", "[section:clr-exper]EXPERTISE 2/3[/section]", "Radius: 8m"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -61,7 +61,7 @@ utility:
       Targets regain [section:clr-roll]3/4d6[/section] HP.
 
   - name: "Prayer of Purification"
-    id: "PrayerOfPurification"
+    id: "prayer-of-purification"
     tags: ["TIER II", "Luna", "Utility", "[section:clr-support]SUPPORT[/section]", "Radius: 8m"]
     type:
       - "[section:spell-casttype][section:clr-dc]DC+[/section] [section:clr-attr]WIL[/section] vs [section:clr-dc]DC[/section]"
@@ -76,7 +76,7 @@ utility:
       Attempts to remove one negative status effect from each target.
 
   - name: "Gleaming Weapon"
-    id: "GleamingWeapon"
+    id: "gleaming-weapon"
     tags: ["TIER II", "Sol", "Utility", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -98,7 +98,7 @@ utility:
       [br][section:clr-roll]2d6[/section] + [i]Sol[/i]
 
   - name: "Photosensitivity"
-    id: "Photosensitivity"
+    id: "photosensitivity"
     tags: ["TIER II", "Sol", "Utility", "Range: 20m", "Radius: 2m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]PER[/section]"
@@ -112,7 +112,7 @@ utility:
     saved10: "No effect."
 
   - name: "Sanctuary"
-    id: "Sanctuary"
+    id: "sanctuary"
     tags: ["TIER II", "Luna", "Utility", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Radius: 2m"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -128,7 +128,7 @@ utility:
       [br][i]Does not apply to status effect saves.[/i]
 
   - name: "Blessing of Resilience"
-    id: "BlessingOfResilience"
+    id: "blessing-of-resilience"
     tags: ["TIER II", "Luna", "Utility", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Range: 20m"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -144,7 +144,7 @@ utility:
 
 ritual:
   - name: "Hospitium Lunae"
-    id: "HospitiumLunae"
+    id: "hospitium-lunae"
     tags: ["TIER II", "Luna", "Out of Combat", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
@@ -157,7 +157,7 @@ ritual:
       Healing received inside is doubled; creatures have [url:core#Advantage]Advantage 1[/url] on all status effect saves and medicine checks.
 
   - name: "Hospitium Solis"
-    id: "HospitiumSolis"
+    id: "hospitium-solis"
     tags: ["TIER II", "Sol", "Out of Combat", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
@@ -170,7 +170,7 @@ ritual:
       Physical attacks against the room’s walls, doors, and windows have no effect. Spells/rituals cast from outside with hostile intent upon or into the room have no effect.
 
   - name: "Fountain of Youth"
-    id: "FountainOfYouth"
+    id: "fountain-of-youth"
     tags: ["TIER II", "Luna", "Out of Combat", "[section:clr-heal]HEAL[/section]"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
@@ -182,7 +182,7 @@ ritual:
       [br][i]Size 1×1, Weight 0[/i]
 
   - name: "Sanare"
-    id: "Sanare"
+    id: "sanare"
     tags: ["TIER II", "Luna", "Out of Combat", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
@@ -193,7 +193,7 @@ ritual:
       Conjures [i]Luna[/i] holy scalpels. [i]Size 1×2, Weight 0, Stack 4[/i]
 
   - name: "Videre"
-    id: "Videre"
+    id: "videre"
     tags: ["TIER II", "Sol", "Out of Combat", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"

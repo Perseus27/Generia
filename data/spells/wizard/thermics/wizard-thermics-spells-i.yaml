@@ -5,7 +5,7 @@ prefix: "thermics"
 
 offensive:
   - name: "Thermal Beam I"
-    id: "ThermalBeamI"
+    id: "thermal-beam-i"
     tags: ["TIER I", "Fire / Ice", "Offensive", "Range: 20m", "UPCAST 5"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -24,7 +24,7 @@ offensive:
       No effect.
 
   - name: "Ice Shrapnel"
-    id: "IceShrapnel"
+    id: "ice-shrapnel"
     tags: ["TIER I", "Ice", "Offensive", "Range: 6m", "UPCAST 3"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -40,7 +40,7 @@ offensive:
       No effect.
 
   - name: "Thermal Bolt I"
-    id: "ThermalBoltI"
+    id: "thermal-bolt-i"
     tags: ["TIER I", "Fire / Ice", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
@@ -54,7 +54,7 @@ offensive:
 
 defensive:
   - name: "Thermal Barrier I"
-    id: "ThermalBarrierI"
+    id: "thermal-barrier-i"
     tags: ["TIER I", "Fire / Ice", "Reaction", "UPCAST 3"]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
@@ -69,7 +69,7 @@ defensive:
 
 utility:
   - name: "Frost Breath"
-    id: "FrostBreath"
+    id: "frost-breath"
     tags: ["TIER I", "Ice", "Utility", "Range: 20m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
@@ -83,7 +83,7 @@ utility:
       No effect.
 
   - name: "Sparkstream I"
-    id: "SparkstreamI"
+    id: "sparkstream-i"
     tags: ["TIER I", "Fire", "Utility", "Range: 20m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -99,7 +99,7 @@ utility:
 
 ritual:
   - name: "Thermal Manipulation"
-    id: "ThermalManipulation"
+    id: "thermal-manipulation"
     tags: ["TIER I", "Ice / Fire", "Out of Combat"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"

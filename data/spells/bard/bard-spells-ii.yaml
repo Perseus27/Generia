@@ -5,7 +5,7 @@ prefix: "bardS"
 
 offensive:
   - name: "Stanza of Folly"
-    id: "StanzaOfFolly"
+    id: "stanza-of-folly"
     tags: ["TIER II", "Cacophony", "Offensive", "[section:clr-affliction]AFFLICTION[/section]", "Varieté", "Range: 20m"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]INT[/section]"
@@ -18,7 +18,7 @@ offensive:
     saved: "No effect."
 
   - name: "Stanza of Innocence"
-    id: "StanzaOfInnocence"
+    id: "stanza-of-innocence"
     tags: ["TIER II", "Cacophony", "Offensive", "[section:clr-affliction]AFFLICTION[/section]", "Varieté", "Range: 20m"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -33,7 +33,7 @@ offensive:
 
 defensive:
   - name: "Stanza of Love"
-    id: "StanzaOfLove"
+    id: "stanza-of-love"
     tags: ["TIER II", "Cacophony", "Defensive", "[section:clr-control]CONTROL[/section]", "Varieté", "Radius: 4m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -47,7 +47,7 @@ defensive:
     saved10: "No effect."
 
   - name: "Stanza of Steadiness"
-    id: "StanzaOfSteadiness"
+    id: "stanza-of-steadiness"
     tags: ["TIER II", "Euphony", "Defensive", "[section:clr-support]SUPPORT[/section]", "Varieté", "Radius: 8m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -61,7 +61,7 @@ defensive:
     saved10: "No effect."
 
   - name: "Song of Tyranny"
-    id: "SongOfTyranny"
+    id: "song-of-tyranny"
     tags: ["TIER II", "Cacophony", "Defensive", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]", "Da Capo", "Radius: 4m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -75,7 +75,7 @@ defensive:
     saved10: "No effect."
 
   - name: "Stanza of Slumber"
-    id: "StanzaOfSlumber"
+    id: "stanza-of-slumber"
     tags: ["TIER II", "Cacophony", "Defensive", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-control]CONTROL[/section]", "Varieté", "Radius: 4m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -91,7 +91,7 @@ defensive:
 
 utility:
   - name: "Stanza of Boldness"
-    id: "StanzaOfBoldness"
+    id: "stanza-of-boldness"
     tags: ["TIER II", "Euphony", "Utility", "[section:clr-support]SUPPORT[/section]", "Varieté", "Radius: 8m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -105,7 +105,7 @@ utility:
     saved10: "No effect."
 
   - name: "Stanza of Carelessness"
-    id: "StanzaOfCarelessness"
+    id: "stanza-of-carelessness"
     tags: ["TIER II", "Euphony", "Utility", "[section:clr-affliction]AFFLICTION[/section]", "Varieté", "Radius: 8m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -119,7 +119,7 @@ utility:
     saved10: "No effect."
 
   - name: "Stanza of Cowardice"
-    id: "StanzaOfCowardice"
+    id: "stanza-of-cowardice"
     tags: ["TIER II", "Euphony", "Utility", "[section:clr-affliction]AFFLICTION[/section]", "Varieté", "Radius: 8m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -133,7 +133,7 @@ utility:
     saved10: "No effect."
 
   - name: "Stanza of Healing"
-    id: "StanzaOfHealing"
+    id: "stanza-of-healing"
     tags: ["TIER II", "Euphony", "Utility", "[section:clr-heal]HEAL[/section]", "Varieté", "Radius: 8m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -147,7 +147,7 @@ utility:
     saved10: "No effect."
 
   - name: "Song of Heroism"
-    id: "SongOfHeroism"
+    id: "song-of-heroism"
     tags: ["TIER II", "Euphony", "Utility", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]", "Da Capo", "Radius: 12m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -160,7 +160,7 @@ utility:
     saved: "No effect."
 
   - name: "Song of Magic"
-    id: "SongOfMagic"
+    id: "song-of-magic"
     tags: ["TIER II", "Euphony", "Utility", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]", "Da Capo", "Radius: 12m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"
@@ -173,7 +173,7 @@ utility:
     saved: "No effect."
 
   - name: "Stanza of Rebellion"
-    id: "StanzaOfRebellion"
+    id: "stanza-of-rebellion"
     tags: ["TIER II", "Euphony", "Utility", "[section:clr-support]SUPPORT[/section]", "Varieté", "Radius: 12m"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]WIL[/section]"

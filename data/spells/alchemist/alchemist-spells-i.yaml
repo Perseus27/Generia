@@ -5,7 +5,7 @@ prefix: "alchemistS"
 
 offensive:
   - name: "Flame Throw I"
-    id: "FlameThrowI"
+    id: "flame-throw-i"
     tags: ["TIER I", "Pharmacy", "Offensive", "Volatile", "Range: 4m", "Width: 1m"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -23,7 +23,7 @@ offensive:
     saved10: "No effect."
 
   - name: "Shard Throw I"
-    id: "ShardThrowI"
+    id: "shard-throw-i"
     tags: ["TIER I", "Mechanics", "Offensive", "Volatile", "Range: 4m", "Width: 1m"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -44,7 +44,7 @@ offensive:
 
 defensive:
   - name: "Emergency Shield I"
-    id: "EmergencyShieldI"
+    id: "emergency-shield-i"
     tags: ["TIER I", "Mechanics", "Reaction", "Volatile"]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
@@ -63,10 +63,10 @@ utility:
   - subheader:
     is_subheader: True
     name: "Ammunition"
-    id: "AmmunitionI"
+    id: "ammunition-i"
 
   - name: "Basic Ammunition I"
-    id: "BasicAmmunitionI"
+    id: "basic-ammunition-i"
     tags: ["TIER I", "Mechanics", "Utility", "Permanent"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -80,7 +80,7 @@ utility:
       [section:clr-roll]2d6[/section] Blunt
 
   - name: "Elemental Ammunition I"
-    id: "ElementalAmmunitionI"
+    id: "elemental-ammunition-i"
     tags: ["TIER I", "Mechanics", "Utility", "Volatile"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -95,7 +95,7 @@ utility:
       [section:clr-roll]2d6[/section] Element
 
   - name: "Status Ammunition I"
-    id: "StatusAmmunitionI"
+    id: "status-ammunition-i"
     tags: ["TIER I", "Pharmacy", "Utility", "Volatile"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -116,7 +116,7 @@ utility:
       [br][b]Lightning:[/b] [url:status#Shocked]Shocked[/url] [[section:clr-value]Pharmacy[/section]]
 
   - name: "Therapeutic Ammunition I"
-    id: "TherapeuticAmmunitionI"
+    id: "therapeutic-ammunition-i"
     tags: ["TIER I", "Pharmacy", "Utility", "Volatile"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -134,10 +134,10 @@ utility:
   - subheader:
     is_subheader: True
     name: "Grenades"
-    id: "GrenadesI"
+    id: "grenades-i"
 
   - name: "Corrosion Grenade I"
-    id: "CorrosionGrenadeI"
+    id: "corrosion-grenade-i"
     tags: ["TIER I", "Pharmacy", "Utility", "Volatile"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -157,7 +157,7 @@ utility:
     saved10: "No effect."
 
   - name: "Fire Grenade I"
-    id: "FireGrenadeI"
+    id: "fire-grenade-i"
     tags: ["TIER I", "Pharmacy", "Utility", "Volatile"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -177,7 +177,7 @@ utility:
     saved10: "No effect."
 
   - name: "Fragmentation Grenade I"
-    id: "FragmentationGrenadeI"
+    id: "fragmentation-grenade-i"
     tags: ["TIER I", "Mechanics", "Utility", "Volatile"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -198,7 +198,7 @@ utility:
     saved10: "No effect."
 
   - name: "Shock Grenade I"
-    id: "ShockGrenadeI"
+    id: "shock-grenade-i"
     tags: ["TIER I", "Pharmacy", "Utility", "Volatile"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -219,10 +219,10 @@ utility:
   - subheader:
     is_subheader: True
     name: "Other Consumables"
-    id: "OtherConsumablesI"
+    id: "other-consumables-i"
 
   - name: "Improvised Remedy I"
-    id: "ImprovisedRemedyI"
+    id: "improvised-remedy-i"
     tags: ["TIER I", "Pharmacy", "Utility", "Volatile"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -241,10 +241,10 @@ utility:
   - subheader:
     is_subheader: True
     name: "Golem Equipment"
-    id: "GolemEquipmentI"
+    id: "golem-equipment-i"
 
   - name: "Golem Kit: Frontliner"
-    id: "GolemKitFrontliner"
+    id: "golem-kit-frontliner"
     tags: ["TIER I", "Mechanics", "Free Action", "Construction"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -259,7 +259,7 @@ utility:
       [br][b]Skills:[/b] [url:skills1#Shove]Shove[/url]
 
   - name: "Golem Kit: Skirmisher"
-    id: "GolemKitFrontliner"
+    id: "golem-kit-frontliner"
     tags: ["TIER I", "Mechanics", "Free Action", "Construction"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -278,10 +278,10 @@ ritual:
   - subheader:
     is_subheader: True
     name: "General"
-    id: "GeneralI"
+    id: "general-i"
 
   - name: "Accumulation"
-    id: "Accumulation"
+    id: "accumulation"
     tags: ["TIER I", "Pharmacy", "Out of Combat"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
@@ -296,7 +296,7 @@ ritual:
       [br]1× Elemental Core, weak
 
   - name: "Desintegration"
-    id: "Desintegration"
+    id: "desintegration"
     tags: ["TIER I", "Pharmacy", "Out of Combat"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
@@ -312,7 +312,7 @@ ritual:
       [br][b]Core, strong:[/b] 40 Dust
 
   - name: "Transmutation"
-    id: "Transmutation"
+    id: "transmutation"
     tags: ["TIER I", "Mechanics / Pharmacy", "Out of Combat"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
@@ -328,10 +328,10 @@ ritual:
   - subheader:
     is_subheader: True
     name: "Weapon Construction"
-    id: "WeaponConstructionI"
+    id: "weapon-construction-i"
 
   - name: "Construction: Handgun"
-    id: "ConstructionHandgun"
+    id: "construction-handgun"
     tags: ["TIER I", "Mechanics", "Out of Combat", "Construction"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
@@ -348,10 +348,10 @@ ritual:
   - subheader:
     is_subheader: True
     name: "Golem Construction"
-    id: "GolemConstructionI"
+    id: "golem-construction-i"
 
   - name: "Construction: Golem Core Mk. I"
-    id: "ConstructionGolemCoreMkI"
+    id: "construction-golem-core-mk-i"
     tags: ["TIER I", "Mechanics", "Out of Combat", "Construction"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
@@ -368,7 +368,7 @@ ritual:
       [br][b]Weight:[/b] 0.1
 
   - name: "Golem Activation"
-    id: "GolemActivation"
+    id: "golem-activation"
     tags: ["TIER I", "Mechanics", "Out of Combat", "Construction"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
@@ -383,7 +383,7 @@ ritual:
       Golem is constructed and activated.
 
   - name: "Golem Armor I"
-    id: "GolemArmorI"
+    id: "golem-armor-i"
     tags: ["TIER I", "Mechanics", "Out of Combat", "Construction"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"

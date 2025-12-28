@@ -5,7 +5,7 @@ prefix: "druidS"
 
 offensive:
   - name: "Whipping Willow"
-    id: "WhippingWillow"
+    id: "whipping-willow"
     tags: ["TIER IV", "Flora", "Offensive", "Range: 16m", "Radius: 8m", "[section:clr-control]CONTROL[/section]", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Vegetation / Staff Spell"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -23,7 +23,7 @@ defensive: []
 
 utility:
   - name: "Theriomorph: Chimera"
-    id: "TheriomorphChimera"
+    id: "theriomorph-chimera"
     tags: ["TIER IV", "Fauna", "Utility", "[section:clr-conc]CONCENTRATION[/section]", "Soul Anchor"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -35,7 +35,7 @@ utility:
       Adopt the higher [i][section:clr-attr]attribute MODs[/section][/i] and [url:values]values[/url] from both beasts; exceptions: [i][section:clr-attr]INT-MOD[/section], [section:clr-attr]WIL-MOD[/section], [section:clr-en]EN[/section], [section:clr-mp]MP[/section][/i]. Wounds are not shared between forms.
 
   - name: "Wildgrowth: Grove"
-    id: "WildgrowthGrove"
+    id: "wildgrowth-grove"
     tags: ["TIER IV", "Flora", "Utility", "Range: 16m", "Radius: 6m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "Vegetation"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"

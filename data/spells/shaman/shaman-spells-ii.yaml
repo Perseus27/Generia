@@ -5,7 +5,7 @@ prefix: "shamanS"
 
 offensive:
   - name: "Summon: Elemental"
-    id: "SummonElemental"
+    id: "summon-elemental"
     tags: ["TIER II", "Summoning", "Offensive", "Range: 12m", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -17,7 +17,7 @@ offensive:
       An [i][url:/w/generia-perseus27/a/elementals-E28093-normal-article]Elemental[/url][/i] manifests at the elemental source.
 
   - name: "Elemental Rage"
-    id: "ElementalRage"
+    id: "elemental-rage"
     tags: ["TIER II", "Summoning", "Offensive", "Range: 16m"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]DEX[/section]"
@@ -31,7 +31,7 @@ offensive:
 
 defensive:
   - name: "Stonewall"
-    id: "Stonewall"
+    id: "stonewall"
     tags: ["TIER II", "Summoning (Stone)", "Defensive", "Range: 12m", "[section:clr-control]CONTROL[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -43,7 +43,7 @@ defensive:
       Stone wall rises. Length 6m, height 2m, width 0.2m. Provides full cover. [i]Permanent.[/i]
 
   - name: "Wind Ward"
-    id: "WindWard"
+    id: "wind-ward"
     tags: ["TIER II", "Summoning (Air)", "Defensive", "Range: 8m", "Radius: 4m", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -57,7 +57,7 @@ defensive:
 
 utility:
   - name: "Cleansing Flame"
-    id: "CleansingFlame"
+    id: "cleansing-flame"
     tags: ["TIER II", "Binding (Fire)", "Utility", "Range: 12m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-dc]DC+[/section] [section:clr-attr]WIL[/section] vs [section:clr-dc]DC[/section] Status Effects"
@@ -69,7 +69,7 @@ utility:
       Status effects are removed.
 
   - name: "Elemental Favor"
-    id: "ElementalFavor"
+    id: "elemental-favor"
     tags: ["TIER II", "Binding", "Utility", "Radius: 12m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -84,7 +84,7 @@ utility:
       [br]Water: [section:clr-attr]DEX-MOD[/section] [section:clr-value]+2[/section]
 
   - name: "Elemental Guidance"
-    id: "ElementalGuidance"
+    id: "elemental-guidance"
     tags: ["TIER II", "Binding", "Reaction", "Range: 12m"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -100,7 +100,7 @@ utility:
       [br][b]Air:[/b]  [url:status#AttackBonus]Attack Bonus[/url] [section:clr-value]4[/section]
 
   - name: "Elemental Mana"
-    id: "ElementalMana"
+    id: "elemental-mana"
     tags: ["TIER II", "Binding", "Utility", "Range: 12m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -112,7 +112,7 @@ utility:
       MP cost reduced by [section:clr-value]2[/section] for that element’s casts.
 
   - name: "Elemental Call"
-    id: "ElementalCall"
+    id: "elemental-call"
     tags: ["TIER II", "Summoning", "Utility", "Radius: 12m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -124,7 +124,7 @@ utility:
       Raise two sources from [i]weak[/i] to [i]normal[/i] presence.
 
   - name: "Flame of Defiance"
-    id: "FlameOfDefiance"
+    id: "flame-of-defiance"
     tags: ["TIER II", "Binding (Fire)", "Utility", "Radius: 12m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -136,7 +136,7 @@ utility:
       All [section:clr-save]Saves[/section] [section:clr-value]+4[/section].
 
   - name: "Tailwind"
-    id: "Tailwind"
+    id: "tailwind"
     tags: ["TIER II", "Binding (Air)", "Utility", "Radius: 16m", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -148,7 +148,7 @@ utility:
       [url:values#MS]MS[/url] [section:clr-value]+4[/section].
 
   - name: "Wave of Healing"
-    id: "WaveOfHealing"
+    id: "wave-of-healing"
     tags: ["TIER II", "Binding (Water)", "Utility", "Range: 12m", "[section:clr-heal]HEAL[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -161,7 +161,7 @@ utility:
       [br][url:core#Explosion]Explosion[/url]: [url:status#Regeneration]Regeneration 2[/url].
 
   - name: "Wind Tunnel"
-    id: "WindTunnel"
+    id: "wind-tunnel"
     tags: ["TIER II", "Summoning (Air)", "Utility", "Range: 8m", "Radius: 4m", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"

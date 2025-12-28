@@ -5,7 +5,7 @@ prefix: "acolyteS"
 
 offensive:
   - name: "Light of Sol"
-    id: "LightOfSol"
+    id: "light-of-sol"
     tags: ["TIER I", "Sol", "Offensive", "[section:clr-exper]EXPERTISE 1/2/3[/section]", "Range: 20m", "Radius: 2m"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]WIL[/section] vs [section:clr-attr]CON[/section]"
@@ -21,7 +21,7 @@ offensive:
     saved10: "No effect."
 
   - name: "Sunlight Spear"
-    id: "SunlightSpear"
+    id: "sunlight-spear"
     tags: ["TIER I", "Sol", "Offensive", "[section:clr-exper]EXPERTISE 1/2/3[/section]", "Range: 20m"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]WIL[/section]"
@@ -35,7 +35,7 @@ offensive:
 
 defensive:
   - name: "Blessing of Fortitude"
-    id: "BlessingOfFortitude"
+    id: "blessing-of-fortitude"
     tags: ["TIER I", "Luna", "Utility", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-exper]EXPERTISE 1/2/3[/section]", "Range: 20m"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -50,7 +50,7 @@ defensive:
       [url:values#WT]WT[/url][section:clr-value]+1/+2/+3[/section].
 
   - name: "Radiant Shield"
-    id: "RadiantShield"
+    id: "radiant-shield"
     tags: ["TIER I", "Sol", "Defensive", "[section:clr-support]SUPPORT[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-exper]EXPERTISE 1/2/3[/section]", "Range: 20m"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -67,7 +67,7 @@ defensive:
 
 utility:
   - name: "Healing"
-    id: "Healing"
+    id: "healing"
     tags: ["TIER I", "Luna", "Utility", "HEAL", "[section:clr-exper]EXPERTISE 1/2/3[/section]", "Range: 16m"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -79,7 +79,7 @@ utility:
       Target regains [section:clr-roll]2/3/4d6[/section] HP.
 
   - name: "Purify"
-    id: "Purify"
+    id: "purify"
     tags: ["TIER I", "Luna", "Utility", "[section:clr-support]SUPPORT[/section]", "[section:clr-exper]EXPERTISE 1/2/3[/section]", "Range: 10m"]
     type:
       - "[section:spell-casttype][section:clr-dc]DC+[/section] [section:clr-attr]WIL[/section] vs [section:clr-dc]DC[/section]"
@@ -94,7 +94,7 @@ utility:
 
 ritual:
   - name: "Prayer to Luna"
-    id: "PrayerToLuna"
+    id: "prayer-to-luna"
     tags: ["TIER I", "Luna", "Out of Combat"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
@@ -108,7 +108,7 @@ ritual:
       [br]Enables [i][url:/generia/rules/magic/freecasting]Freecasting[/url][/i].
 
   - name: "Prayer to Sol"
-    id: "PrayerToSol"
+    id: "prayer-to-sol"
     tags: ["TIER I", "Sol", "Out of Combat"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
@@ -122,7 +122,7 @@ ritual:
       [br]Enables [i][url:/generia/rules/magic/freecasting]Freecasting[/url][/i].
 
   - name: "Mederi"
-    id: "Mederi"
+    id: "mederi"
     tags: ["TIER I", "Luna", "Out of Combat", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"
@@ -133,7 +133,7 @@ ritual:
       Your next [i]Medicine[/i] check has [url:core#Advantage]Advantage 1[/url].
 
   - name: "Consecration"
-    id: "Consecration"
+    id: "consecration"
     tags: ["TIER I", "Sol", "Out of Combat", "[section:clr-support]SUPPORT[/section]"]
     type:
       - "[section:clr-ritual]RITUAL[/section]"

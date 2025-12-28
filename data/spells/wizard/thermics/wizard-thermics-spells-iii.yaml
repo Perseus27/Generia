@@ -5,7 +5,7 @@ prefix: "thermics"
 
 offensive:
   - name: "Explosion"
-    id: "Explosion"
+    id: "explosion"
     tags: ["TIER III", "Fire", "Offensive", "Range: 20m", "Radius: 4m", "UPCAST 3"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -23,7 +23,7 @@ offensive:
       No effect.
 
   - name: "Fireball II"
-    id: "FireballII"
+    id: "fireball-ii"
     tags: ["TIER III", "Fire", "Offensive", "Range: 20m", "Radius: 4m", "UPCAST 3"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -39,7 +39,7 @@ offensive:
       No effect.
 
   - name: "Hailstorm"
-    id: "Hailstorm"
+    id: "hailstorm"
     tags: ["TIER III", "Air / Ice", "Offensive", "Range: 20m", "Radius: 4m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -55,7 +55,7 @@ offensive:
       No effect.
 
   - name: "Thermal Beam III"
-    id: "ThermalBeamIII"
+    id: "thermal-beam-iii"
     tags: ["TIER III", "Fire / Ice", "Offensive", "Range: 30m", "UPCAST 3"]
     type:
       - "[section:clr-sa]SA[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"
@@ -74,7 +74,7 @@ offensive:
       No effect.
 
   - name: "Thermal Bolt III"
-    id: "ThermalBoltIII"
+    id: "thermal-bolt-iii"
     tags: ["TIER III", "Fire / Ice", "Offensive", "Range: 20m", "UPCAST 3"]
     type:
       - "[section:clr-pa]PA[/section] [section:clr-attr]INT[/section]"
@@ -88,7 +88,7 @@ offensive:
 
 defensive:
   - name: "Thermal Barrier III"
-    id: "ThermalBarrierIII"
+    id: "thermal-barrier-iii"
     tags: ["TIER III", "Fire / Ice", "Reaction", "UPCAST 3"]
     type:
       - "[section:clr-sd]SD[/section] [section:clr-attr]INT[/section]+[section:clr-attr]PER[/section]"
@@ -103,7 +103,7 @@ defensive:
 
 utility:
   - name: "Blizzard"
-    id: "Blizzard"
+    id: "blizzard"
     tags: ["TIER III", "Air / Ice", "Utility", "Range: 20m", "Radius: 6m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-control]CONTROL[/section]", "[section:clr-zone]ZONE[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]CON[/section]"
@@ -119,7 +119,7 @@ utility:
       No effect.
 
   - name: "Sparkstream III"
-    id: "SparkstreamIII"
+    id: "sparkstream-iii"
     tags: ["TIER III", "Fire", "Utility", "Range: 20m", "[section:clr-affliction]AFFLICTION[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]INT[/section] vs [section:clr-attr]DEX[/section]"

@@ -5,7 +5,7 @@ prefix: "noxS"
 
 offensive:
   - name: "Shadow Coating"
-    id: "ShadowCoating"
+    id: "shadow-coating"
     tags: ["TIER II", "Nox", "Offensive", "Reaction"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -18,7 +18,7 @@ offensive:
 
 defensive:
   - name: "Night Mist"
-    id: "NightMist"
+    id: "night-mist"
     tags: ["TIER II", "Nox", "Defensive", "Reaction"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -31,7 +31,7 @@ defensive:
 
 utility:
   - name: "Darkness"
-    id: "Darkness"
+    id: "darkness"
     tags: ["TIER II", "Nox", "Utility", "Range: 12m", "Radius: 2m", "[section:clr-control]CONTROL[/section]", "[section:clr-field]FIELD[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -43,7 +43,7 @@ utility:
       The area is in absolute darkness.
 
   - name: "Noxian Bargain"
-    id: "NoxianBargain"
+    id: "noxian-bargain"
     tags: ["TIER II", "Nox", "Utility"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -55,7 +55,7 @@ utility:
       Gain [[section:clr-value]Night[/section]] or [[section:clr-value]Shadow[/section]] Nox Points (NP).
 
   - name: "Shadow Step"
-    id: "ShadowStep"
+    id: "shadow-step"
     tags: ["TIER II", "Nox", "Shadow", "Utility", "Range: 20m", "[section:clr-movement]MOVEMENT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -67,7 +67,7 @@ utility:
       Teleport to the chosen square.
 
   - name: "Substitution"
-    id: "Substitution"
+    id: "substitution"
     tags: ["TIER II", "Nox", "Utility", "Reaction", "Range: 20m", "[section:clr-movement]MOVEMENT[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -79,7 +79,7 @@ utility:
       Teleport.
 
   - name: "Wings of Night"
-    id: "WingsOfNight"
+    id: "wings-of-night"
     tags: ["TIER II", "Nox", "Utility", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -91,7 +91,7 @@ utility:
       [url:status#Levitating]Levitating 2[/url] with MS = [section:clr-attr]DEX-MOD[/section] × [section:clr-value]2[/section].
 
   - name: "Form of Dread"
-    id: "FormOfDread"
+    id: "form-of-dread"
     tags: ["TIER II", "Nox", "Utility", "Radius: 4m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]"]
     type:
       - "[section:clr-dc]DC[/section] [section:clr-attr]PER[/section] vs [section:clr-attr]INT[/section]"

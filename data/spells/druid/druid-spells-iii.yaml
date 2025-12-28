@@ -5,7 +5,7 @@ prefix: "druidS"
 
 offensive:
   - name: "Thorn Fury"
-    id: "ThornFury"
+    id: "thorn-fury"
     tags: ["TIER III", "Flora", "Offensive", "Range: 16m", "Radius: 4m", "[section:clr-control]CONTROL[/section]", "[section:clr-conc]CONCENTRATION[/section]", "[section:clr-exper]EXPERTISE 3[/section]", "Vegetation / Staff Spell"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -20,7 +20,7 @@ offensive:
 
 defensive:
   - name: "Thornroot Wall"
-    id: "ThornrootWall"
+    id: "thornroot-wall"
     tags: ["TIER III", "Flora", "Defensive", "Range: 12m", "[section:clr-control]CONTROL[/section]", "Terrain", "[section:clr-conc]CONCENTRATION[/section]", "Vegetation / Staff Spell"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
@@ -35,7 +35,7 @@ defensive:
 
 utility:
   - name: "Theriomorph: Total"
-    id: "TheriomorphTotal"
+    id: "theriomorph-total"
     tags: ["TIER III", "Fauna", "Utility", "[section:clr-conc]CONCENTRATION[/section]", "Soul Anchor"]
     type:
       - "[section:clr-surecast]SURECAST[/section]"
