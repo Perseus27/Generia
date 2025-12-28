@@ -18,7 +18,7 @@ There are six primary weapon types a character can be proficient with. Each weap
 [h2]Secondary Weapon Types[/h2]
 Additionally, there are two more weapon types meant as catch-all categories for anything that does not fit into the above types.
 [h4]Natural Weapons[/h4]
-[b]Subtype examples:[/b] Fists, Teeth, Tentacles... (Use the catch-all subtype [i]Primitive[/i] for simplicity)
+[b]Subtype examples:[/b] Primitive (universal term for Fists, Teeth, Tentacles...)
 [h4]Exotic Weapons[/h4]
 [b]Subtype examples:[/b] Needles, Sickles, Whips...
 
