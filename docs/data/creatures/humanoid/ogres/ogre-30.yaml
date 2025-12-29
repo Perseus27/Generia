@@ -60,7 +60,7 @@ actions:
       type: Utility, Radius 12m
       hit: "[section:clr-dc]DC 18[/section]"
       effect:
-        - [url:status#Frightened]Frightened[/url].
+        - "[url:status#Frightened]Frightened[/url]."
       save: "[b]Save [section:clr-attr]WIL[/section]:[/b] No effect."
       cost: "[section:clr-en]2[/section]"
   passive:
