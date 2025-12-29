@@ -19,7 +19,7 @@ values:
   EN: 10
   MP: 5
   MPR: 1
-  WL: 4
+  WL: 3
   WT: 6
   TN: 4
   MS: 6
@@ -66,4 +66,3 @@ actions:
       type: Passive
       effect:
         - The universal action [url:actions#StealthyMovement]Stealthy Movement[/url] does not [url:status#Slowed]slow[/url].
-
