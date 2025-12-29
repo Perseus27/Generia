@@ -61,8 +61,8 @@ actions:
       effect:
         - Primitive [section:clr-value]+4[/section]
 
-    - name: Tunneler
+    - name: Anger Issues
       type: Passive
       effect:
-        - "Very proficient at building tunnel systems underground."
+        - Unconsciousness saves from suffering [url:wounds]wounds[/url] automatically succeed.
 
