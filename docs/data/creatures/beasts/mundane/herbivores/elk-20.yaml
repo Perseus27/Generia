@@ -58,6 +58,5 @@ actions:
       hit: "[section:clr-dc]DC 15[/section]"
       effect:
         - "If the target of [i]Charge[/i] is of a smaller size, it gets [url:status#Frightened]Frightened[/url] when noticing the attack."
-      save:
-        - "Save [section:clr-attr]WIL[/section]/[section:clr-attr]INT[/section]: No effect."
+      save: "Save [section:clr-attr]WIL[/section]/[section:clr-attr]INT[/section]: No effect."
 
