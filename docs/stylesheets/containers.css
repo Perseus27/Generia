@@ -241,3 +241,9 @@
 .class-card-body h4 {
 	margin-top: 0.25rem !important;
 }
+
+
+.creature-action-subitem {
+	margin-left: 0.36rem;
+	padding: 0;
+}

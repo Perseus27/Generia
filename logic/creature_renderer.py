@@ -231,22 +231,22 @@ class Creature_Renderer:
                     elif subitem == "type":
                         result += "[br][section:creature-action-type]"+x.get(subitem)+"[/section]"
                     elif subitem == "damage":
-                        result += f"[br]  [section:clr-roll]{x.get(subitem)}[/section]"
+                        result += f"[container:creature-action-subitem][section:clr-roll]{x.get(subitem)}[/section][/container]"
                     elif subitem == "hit":
-                        result += f"[br]  [section:clr-hit]{x.get(subitem)}[/section]"
+                        result += f"[container:creature-action-subitem][section:clr-hit]{x.get(subitem)}[/section][/container]"
                     elif subitem == "skills":
-                        result += f"[br]  {self.format_list_comma(x.get(subitem), 'skill')}"
+                        result += f"[container:creature-action-subitem]{self.format_list_comma(x.get(subitem), 'skill')}[/container]"
                     elif subitem == "perks":
-                        result += f"[br]  {self.format_list_comma(x.get(subitem), 'perk')}"
+                        result += f"[container:creature-action-subitem]{self.format_list_comma(x.get(subitem), 'perk')}[/container]"
                     elif subitem == "effect":
                         y = x.get(subitem)
                         if isinstance(y, list):
                             for z in y:
-                                result += f"[br]  {z}"
+                                result += f"[container:creature-action-subitem]{z}[/container]"
                         else:
-                            result += f"[br]  {y}"
+                            result += f"[container:creature-action-subitem]{y}[/container]"
                     else:
-                        result += "[br]  "+x.get(subitem)
+                        result += "[container:creature-action-subitem]"+x.get(subitem)+"[/container]"
                 result += "[/container]"
         return result
 
