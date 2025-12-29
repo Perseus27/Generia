@@ -4,7 +4,7 @@ info:
   species: Elemental
   level: 5
   size: Tiny
-  tags: [[Flying, 8][Immunity, Air], [Resistance, Physical], Nature's Will]
+  tags: [Freecaster, [Flying, 8][Immunity, Air], [Resistance, Physical], Nature's Will]
 notes: >
   A tiny wisp of pure air mana. Can fly up to 20m high.
   [br]Can follow simple instructions (e.g., "Go over there", "Attack this target").

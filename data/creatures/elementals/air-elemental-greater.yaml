@@ -4,7 +4,7 @@ info:
   species: Elemental
   level: 25
   size: Tiny
-  tags: [[Flying, 14], [Immunity, Air], [Resistance, Physical], Nature's Will, Sapient]
+  tags: [Freecaster, [Flying, 14], [Immunity, Air], [Resistance, Physical], Nature's Will, Sapient]
 notes: >
   A being of pure mana that prefers the shape of a tiny hummingbird, but can appear as a medium-sized humanoid. Can fly up to 100m high.
   [br]About as intelligent as a human. Can communicate verbally.

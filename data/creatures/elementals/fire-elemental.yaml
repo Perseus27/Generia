@@ -4,7 +4,7 @@ info:
   species: Elemental
   level: 15
   size: Small
-  tags: [[Immunity, Fire], [Resistance, Physical], Nature's Will]
+  tags: [Freecaster, [Immunity, Fire], [Resistance, Physical], Nature's Will]
 notes: >
   A being of pure fire mana that prefers the shape of a small salamander.
   [br]Can follow complex instructions (e.g., "Patrol this area and attack all intruders")

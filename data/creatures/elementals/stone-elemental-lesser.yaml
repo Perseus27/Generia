@@ -4,7 +4,7 @@ info:
   species: Elemental
   level: 5
   size: Medium
-  tags: [Natural Defenses]
+  tags: [Freecaster, Natural Defenses]
 notes: >
   A small golem (~1.5m tall).
   [br]Can follow simple instructions (e.g., "Go over there", "Attack this target")
