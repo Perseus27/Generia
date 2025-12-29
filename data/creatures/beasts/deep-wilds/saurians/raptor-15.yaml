@@ -1,0 +1,80 @@
+name: Raptor 15
+id: raptor-15
+info:
+  species: Saurian Beast
+  level: 15
+  size: Small
+  tags: [Natural Defenses, [Tough, 1], [Resistance, Fire], [Vulnerability, Ice]]
+notes: >
+  –
+
+attributes:
+  CON: ["5", "2"]
+  STR: ["5", "2"]
+  DEX: ["12", "6"]
+  INT: ["0", "0"]
+  WIL: ["3", "1"]
+  PER: ["8", "4"]
+values:
+  EN: 15
+  MP: 0
+  MPR: 1
+  WL: 3
+  WT: 6
+  TN: 4
+  MS: 8
+armor:
+  head: 0
+  torso: 2
+  arms: 1
+  legs: 1
+  md: 1
+  enc: 0
+loot:
+  - Trophy (Claw)
+actions:
+  active:
+    - name: Bite
+      type: Melee Attack
+      hit: "Hit+10"
+      damage: 3d4+2 Sharp
+
+    - name: Claw
+      type: Melee Attack
+      hit: "Hit+10"
+      damage: 2d6+2 Sharp
+
+    - name: Pounce
+      type: Melee Attack, Range 8m, min. Range 4m
+      hit: "Hit+10"
+      damage: 2d6+2 Sharp
+      cost: "[section:clr-en]1 EN[/section]"
+
+    - name: Tear
+      type: Reaction
+      hit: "[section:clr-dc]DC 12[/section]"
+      effect:
+        - "After [url:def#Hit]hit[/url] with [i]Bite[/i] or [i]Claw[/i]: Target gets [url:status#Bleeding]Bleeding 1[/url]."
+      save: "[b]Save [section:clr-attr]CON[/section]:[/b] No effect."
+      cost: "[section:clr-en]1 EN[/section]"
+
+  passive:
+    - name: Proficiencies
+      type: Passive
+      effect:
+        - Primitive [section:clr-value]+4[/section]
+
+    - name: Ambush Hunter
+      type: Passive
+      effect:
+        - When attacking with [url:core#Advantage]Advantage[/url] or with [i]Pounce[/i], roll [section:clr-roll]2d10[/section] for hit zone and choose either result.
+
+    - name: Razor Teeth
+      type: Passive
+      effect:
+        - "On [url:def#Hit]hit[/url] with [i]Bite[/i]: [url:status#Bleeding]Bleeding 1[/url]."
+
+    - name: Saurian Senses
+      type: Passive
+      effect:
+        - "[url:core#Advantage]Advantage 1[/url] when attempting to locate stealthy targets."

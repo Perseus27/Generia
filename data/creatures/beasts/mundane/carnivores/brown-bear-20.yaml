@@ -42,12 +42,12 @@ actions:
     - name: Claws
       type: Melee Attack
       hit: "Hit+10"
-      damage: 2d8+9 Sharp
+      damage: 2d10+6 Sharp
 
     - name: Charge
       type: Melee Attack, Range 8m, min. Range 4m
       hit: "Hit+10"
-      damage: 2d8+9 Sharp
+      damage: 2d10+6 Sharp
       effect:
         - "Charges at a target to execute a [i]Claws[/i] attack."
       cost: "[section:clr-en]2 EN[/section]"

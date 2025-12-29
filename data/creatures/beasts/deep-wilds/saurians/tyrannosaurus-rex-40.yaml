@@ -1,0 +1,81 @@
+name: Tyrannosaurus Rex 40
+id: tyrannosaurus-rex-40
+info:
+  species: Saurian Beast
+  level: 40
+  size: Huge
+  tags: [Natural Defenses, [Tough, 2], [Resistance, Fire], [Vulnerability, Ice]]
+notes: >
+  –
+
+attributes:
+  CON: ["14", "7"]
+  STR: ["20", "10"]
+  DEX: ["7", "3"]
+  INT: ["0", "0"]
+  WIL: ["8", "4"]
+  PER: ["6", "3"]
+values:
+  EN: 30
+  MP: 0
+  MPR: 1
+  WL: 9
+  WT: 10
+  TN: 6
+  MS: 6
+armor:
+  head: 5
+  torso: 7
+  arms: 6
+  legs: 6
+  md: 4
+  enc: 0
+loot:
+  - Trophy (Tooth)
+actions:
+  active:
+    - name: Bite
+      type: Melee Attack
+      hit: "Hit+13"
+      damage: 3d8+10 Sharp
+
+    - name: Tail Swipe
+      type: Melee Attack, Radius 4m
+      hit: "Hit+13"
+      damage: 2d12+10
+      cost: "[section:clr-en]2 EN[/section]"
+
+    - name: Clamp
+      type: Reaction, Concentration
+      hit: "[section:clr-dc]DC 20[/section]"
+      effect:
+        - "After [url:def#Hit]hit[/url] with [i]Bite[/i]: Target gets [url:status#Grappled]grappled[/url]."
+      save: "[b]Save [section:clr-attr]STR[/section]/[section:clr-attr]DEX[/section]:[/b] No effect."
+      cost: "[section:clr-en]1 EN[/section]"
+
+    - name: Crush
+      type: Melee Attack
+      hit: "[section:clr-dc]DC 20[/section]"
+      damage: 6d8+10 Sharp
+      effect:
+        - "Crushes a [i]clamped[/i] target with powerful jaws."
+        - "Only possible against targets of a smaller size."
+      save: "[b]Save [section:clr-attr]CON[/section]/[section:clr-attr]STR[/section]/[section:clr-attr]DEX[/section]/+10:[/b] Damage halved/No effect."
+      cost: "[section:clr-cost]1 EN[/section]"
+
+  passive:
+    - name: Proficiencies
+      type: Passive
+      effect:
+        - Primitive [section:clr-value]+10[/section]
+
+    - name: Monstrous Fangs
+      type: Passive
+      effect:
+        - "[section:clr-value]One[/section] [i]Bite[/i] or [i]Crush[/i] damage die may be rerolled [section:clr-value]once[/section]."
+
+    - name: Saurian Senses
+      type: Passive
+      effect:
+        - "[url:core#Advantage]Advantage 1[/url] when attempting to locate stealthy targets."
+

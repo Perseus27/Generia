@@ -42,7 +42,7 @@ actions:
     - name: Claws
       type: Melee Attack
       hit: "Hit+15"
-      damage: 2d8+12 Sharp
+      damage: 2d10+8 Sharp
 
     - name: Charge
       type: Melee Attack, Range 8m, min. Range 4m
