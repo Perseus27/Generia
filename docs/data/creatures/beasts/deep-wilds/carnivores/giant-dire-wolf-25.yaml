@@ -76,5 +76,5 @@ actions:
     - name: Wolf Pack
       type: Passive
       effect:
-        - [url:core#Advantage]Advantage 1[/url] on attack rolls against targets that have been attacked by another wolf this round.
+        - "[url:core#Advantage]Advantage 1[/url] on attack rolls against targets that have been attacked by another wolf this round."
 
