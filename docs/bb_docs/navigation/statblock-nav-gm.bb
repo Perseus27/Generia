@@ -35,8 +35,9 @@ Trolls
 [h4]Dracids[/h4]
 
 [h4]Beasts[/h4]
-[url:/generia/stats/creatures/beasts/mundane-beasts]Mundane Beasts[/url]
-[br][url:/generia/stats/creatures/beasts/rift-beasts]Rift Beasts[/url]
+[url:/generia/stats/creatures/beasts/beasts-mundane]Mundane[/url]
+[br][url:/generia/stats/creatures/beasts/beasts-rift]Rift[/url]
+[br][url:/generia/stats/creatures/beasts/beasts-deep-wilds]Deep Wilds[/url]
 [/container]
 [/container]
 [/container]
