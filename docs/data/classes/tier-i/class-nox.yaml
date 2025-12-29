@@ -11,7 +11,7 @@ prerequisites:
   - None
 
 subclasses:
-  - Hand of Nox
+  - Assassin
 
 perks:
   combat:
