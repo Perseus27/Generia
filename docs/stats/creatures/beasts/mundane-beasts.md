@@ -80,8 +80,8 @@ title: Mundane Beasts
 ## Birds
 
 ### Level 10
-{{ creature('data/creatures/beasts/mundane/birgs/falcon-10.yaml') }}
-{{ creature('data/creatures/beasts/mundane/birgs/owl-10.yaml') }}
+{{ creature('data/creatures/beasts/mundane/birds/falcon-10.yaml') }}
+{{ creature('data/creatures/beasts/mundane/birds/owl-10.yaml') }}
 
 ### Level 20
-{{ creature('data/creatures/beasts/mundane/birgs/eagle-15.yaml') }}
+{{ creature('data/creatures/beasts/mundane/birds/eagle-15.yaml') }}
