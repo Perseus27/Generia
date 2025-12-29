@@ -20,6 +20,11 @@ Universal Action [url:actions#Sprint]Sprint[/url] is unavailable.
 [/container]
 
 [container:orgblock]
+[h4|Freecaster]Freecaster[/h4]
+This creature can [url:/generiarules/magic/freecasting]Freecast[/url] with magic types it is proficient in.
+[/container]
+
+[container:orgblock]
 [h4|Flying]Flying X[/h4]
 The creature is inherently capable of flight, with an unmodified [url:values#MS]movement speed[/url] of [section:clr-value]X[/section].
 [h4|Levitating]Levitating X[/h4]
