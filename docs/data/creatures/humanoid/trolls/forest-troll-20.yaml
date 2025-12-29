@@ -4,7 +4,7 @@ info:
   species: Troll
   level: 20
   size: Large
-  tags: [Miniboss, [Resistance, Poison], [Vulnerability, Fire]]
+  tags: [Freecaster, Miniboss, [Resistance, Poison], [Vulnerability, Fire]]
 notes: >
   
 

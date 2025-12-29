@@ -4,7 +4,7 @@ info:
   species: Elemental
   level: 15
   size: Tiny
-  tags: [[Flying, 12], [Immunity, Air], [Resistance, Physical], Nature's Will]
+  tags: [Freecaster, [Flying, 12], [Immunity, Air], [Resistance, Physical], Nature's Will]
 notes: >
   A being of pure mana that prefers the shape of a tiny hummingbird. Can fly up to 40m high.
   [br]Can follow complex instructions (e.g., "Patrol this area and attack all intruders").

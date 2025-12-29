@@ -4,7 +4,7 @@ info:
   species: Elemental
   level: 5
   size: Small
-  tags: [[Immunity, Fire], [Resistance, Physical], Nature's Will]
+  tags: [Freecaster, [Immunity, Fire], [Resistance, Physical], Nature's Will]
 notes: >
   A small orb (30cm ⌀) of pure mana. Hovers slightly above the ground or settles down on flammable material.
   [br]Can follow simple instructions (e.g., "Go over there", "Attack this target"). 
