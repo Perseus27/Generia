@@ -10,12 +10,12 @@ notes: >
   [br]Needless to say, wyverns are responsible for a great many adventurer casualties.
 
 attributes:
-  CON: ["11", "5"]
-  STR: ["9", "4"]
-  DEX: ["9", "4"]
-  INT: ["6", "3"]
-  WIL: ["7", "3"]
-  PER: ["9", "4"]
+  CON: [11, 5]
+  STR: [9, 4]
+  DEX: [9, 4]
+  INT: [6, 3]
+  WIL: [7, 3]
+  PER: [9, 4]
 values:
   EN: 20
   MP: 10

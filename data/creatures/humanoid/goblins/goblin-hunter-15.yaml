@@ -9,12 +9,12 @@ notes: >
   This type of goblin tries to stay out of melee range and only uses its spear if cornered.
 
 attributes:
-  CON: ["5", "2"]
-  STR: ["6", "3"]
-  DEX: ["11", "5"]
-  INT: ["3", "1"]
-  WIL: ["3", "1"]
-  PER: ["8", "4"]
+  CON: [5, 2]
+  STR: [6, 3]
+  DEX: [11, 5]
+  INT: [3, 1]
+  WIL: [3, 1]
+  PER: [8, 4]
 values:
   EN: 15
   MP: 5

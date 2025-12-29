@@ -9,12 +9,12 @@ notes: >
   A large, humanoid monster with little intellect, but considerable power.
 
 attributes:
-  CON: ["17", "8"]
-  STR: ["14", "7"]
-  DEX: ["7", "3"]
-  INT: ["1", "0"]
-  WIL: ["4", "2"]
-  PER: ["2", "1"]
+  CON: [17, 8]
+  STR: [14, 7]
+  DEX: [7, 3]
+  INT: [1, 0]
+  WIL: [4, 2]
+  PER: [2, 1]
 values:
   EN: 25
   MP: 5

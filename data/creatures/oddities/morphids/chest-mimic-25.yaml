@@ -9,12 +9,12 @@ notes: >
   An ambush hunter with a taste for adventurers.
 
 attributes:
-  CON: ["11", "5"]
-  STR: ["12", "6"]
-  DEX: ["10", "5"]
-  INT: ["5", "2"]
-  WIL: ["5", "2"]
-  PER: ["6", "3"]
+  CON: [11, 5]
+  STR: [12, 6]
+  DEX: [10, 5]
+  INT: [5, 2]
+  WIL: [5, 2]
+  PER: [6, 3]
 values:
   EN: 20
   MP: 10
