@@ -2,7 +2,7 @@ name: Fire Elemental
 id: fire-elemental
 info:
   species: Elemental
-  level: 10
+  level: 15
   size: Small
   tags: [[Immunity, Fire], [Resistance, Physical], Nature's Will]
 notes: >
@@ -12,49 +12,49 @@ notes: >
 attributes:
   CON: [5, 2]
   STR: [1, 0]
-  DEX: [6, 3]
-  INT: [3, 1]
-  WIL: [8, 4]
-  PER: [6, 3]
+  DEX: [8, 3]
+  INT: [5, 3]
+  WIL: [10, 5]
+  PER: [7, 3]
 values:
   EN: 5
-  MP: 5
-  MPR: 2
+  MP: 10
+  MPR: 3
   WL: 5
   WT: 6
   TN: 3
-  MS: 4
+  MS: 6
 armor:
   head: 0
   torso: 0
   arms: 0
   legs: 0
-  md: 4
+  md: 5
   enc: 0
 loot:
   - Elemental Core, normal
 actions:
   active:
     - name: Fire Shot
-      type: Projectile
-      hit: "[section:clr-pa]PA+7[/section], 20m"
-      damage: 2d6+3 Fire
+      type: Projectile Attack
+      hit: "[section:clr-pa]PA+9[/section], 20m"
+      damage: 2d6+4 Fire
       cost: "[section:clr-mp]2 MP[/section]"
     - name: Fire Nova
-      type: AoE, 4m
-      hit: "[section:clr-sa]SA+4[/section]"
-      damage: 3d4+1 Fire
+      type: Spell Attack, AoE, Radius 4m
+      hit: "[section:clr-sa]SA+9[/section]"
+      damage: 3d4+2 Fire
       cost: "[section:clr-mp]3 MP[/section]"
       save: "[b]Save [section:clr-attr]DEX[/section]/+10[/b]: Damage halved/No effect."
   passive:
     - name: Proficiencies
       type: Passive
       effect: >
-        Fire [section:clr-value]+3[/section]
+        Fire [section:clr-value]+4[/section] ([section:clr-attr]WIL[/section])
     - name: Living Mana
       type: Passive
       effect: >
         Regenerates [[section:clr-value]MPR[/section]] [section:clr-mp]MP[/section] at the beginning of each turn.
     - name: Burning Aura II
-      type: Passive, 2m AoE, Zone
-      damage: 3d4+1 Fire
+      type: Passive, Radius 2m, Zone
+      damage: 3d4+2 Fire

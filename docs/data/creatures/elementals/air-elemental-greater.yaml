@@ -4,7 +4,7 @@ info:
   species: Elemental
   level: 25
   size: Tiny
-  tags: [[Immunity, Air], [Resistance, Physical], Nature's Will]
+  tags: [[Flying, 14], [Immunity, Air], [Resistance, Physical], Nature's Will, Sapient]
 notes: >
   A being of pure mana that prefers the shape of a tiny hummingbird, but can appear as a medium-sized humanoid. Can fly up to 100m high.
   [br]About as intelligent as a human. Can communicate verbally.
@@ -23,7 +23,7 @@ values:
   WL: 5
   WT: 6
   TN: 3
-  MS: 14
+  MS: "[section:clr-bonus]14[/section]"
 armor:
   head: 0
   torso: 0
@@ -36,25 +36,25 @@ loot:
 actions:
   active:
     - name: Wind Shot
-      type: Projectile
-      hit: "[section:clr-pa]PA+10[/section], 20m"
-      damage: 2d8+5 Air
+      type: Projectile Attack
+      hit: "[section:clr-pa]PA+11[/section], 20m"
+      damage: 2d8+6 Air
       cost: "[section:clr-mp]2 MP[/section]"
     - name: Turbulence
       type: Reaction, 20m
       effect: >
-        Lowers the attack value of one projectile by 5.
+        Lowers the attack value of one projectile by [section:clr-value]6[/section].
       cost: "[section:clr-mp]1 MP[/section]"
     - name: Air Pressure
-      type: Utility, 2m AoE
-      hit: "[section:clr-dc]DC 20[/section]"
+      type: Utility, Radius 2m
+      hit: "[section:clr-dc]DC 21[/section]"
       effect: >
-        All creatures are [url:status#Knockback]knocked back[/url] by 5m.
+        [url:status#Knockback]Knockback 6[/url].
       cost: "[section:clr-mp]3 MP[/section]"
       save: "[b]Save [section:clr-attr]STR[/section]/+10:[/b] [url:status#OffBalance]Off-Balance[/url]/No effect."
     - name: Vacuum
-      type: Utility, 4m AoE
-      hit: "[section:clr-dc]DC 20[/section]"
+      type: Utility, Radius 4m
+      hit: "[section:clr-dc]DC 21[/section]"
       effect: >
         All creatures with lungs in the area lose Concentration.
       cost: "[section:clr-mp]4 MP[/section]"
@@ -63,12 +63,12 @@ actions:
     - name: Proficiencies
       type: Passive
       effect: >
-        Air [section:clr-value]+5[/section]
+        Air [section:clr-value]+6[/section] ([section:clr-attr]WIL[/section])
     - name: Living Mana
       type: Passive
       effect: >
         Regenerates [[section:clr-value]MPR[/section]] [section:clr-mp]MP[/section] at the beginning of each turn.
     - name: Tailwind III
-      type: Passive, 12m AoE
+      type: Passive, Radius 12m
       effect: >
         Allied creatures gain [section:clr-bonus]+6[/section] MS.

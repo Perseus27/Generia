@@ -4,7 +4,7 @@ info:
   species: Elemental
   level: 25
   size: Medium
-  tags: [Nature's Will]
+  tags: [Nature's Will, Sapient]
 notes: >
   A being of pure water mana. Prefers the shape of a large drop, but can appear as a medium-sized humanoid. Around 1.5m ⌀ in drop shape.
   [br]About as intelligent as a human. Can communicate verbally.
@@ -36,22 +36,22 @@ loot:
 actions:
   active:
     - name: Water Whip
-      type: Melee, 4m
-      hit: "Hit+14, Block+13|8"
-      damage: 3d6+1 Sharp
+      type: Melee Attack, Range 4m
+      hit: "Hit+12, Block+14|8"
+      damage: 3d6+3 Sharp
     - name: Flowing Counter
       type: Reaction
       effect: >
         Can counter with Water Whip after a successful parry.
       cost: "[section:clr-en]1 EN[/section]"
     - name: Healing Tentacle
-      type: Utility, 4m
+      type: Utility, Range 4m
       effect: >
-        Target gains Regeneration 2.
+        Target gains [url:status#Regeneration]Regeneration 2[/url].
         The Elemental takes one wound.
     - name: Grasping Tentacle
       type: Reaction
-      hit: "[section:clr-dc]DC 18[/section]"
+      hit: "[section:clr-dc]DC 19[/section]"
       effect: >
         On [i]Water Whip[/i] [url:def#Hit]hit[/url]: Grapples the target.
       cost: "[section:clr-mp]5 MP[/section]"
@@ -60,12 +60,12 @@ actions:
     - name: Proficiencies
       type: Passive
       effect:
-        - Water [section:clr-value]+5[/section]
-        - Primitive [section:clr-value]+5[/section]
+        - Water [section:clr-value]+6[/section] ([section:clr-attr]WIL[/section])
+        - Primitive [section:clr-value]+6[/section]
     - name: Be like Water
       type: Passive
       effect: >
-        Parries are eased by [section:clr-attr]AGI-MOD[/section].
+        Parries are eased by [[section:clr-value]Water[/section]].
     - name: Living Mana
       type: Passive
       effect: >
@@ -73,4 +73,4 @@ actions:
     - name: Absorption III
       type: Passive
       effect: >
-        Gains 4d4 Healing after causing a wound with Water Whip.
+        Gains [section:clr-roll]4d4[/section] Healing after causing a wound with Water Whip.

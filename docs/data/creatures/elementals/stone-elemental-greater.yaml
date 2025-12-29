@@ -4,7 +4,7 @@ info:
   species: Elemental
   level: 25
   size: Large
-  tags: [Natural Defenses]
+  tags: [Natural Defenses, Sapient]
 notes: >
   A huge golem (~3m tall).
   [br]About as intelligent as a human. Can communicate verbally.
@@ -25,23 +25,23 @@ values:
   TN: 4
   MS: 4
 armor:
-  head: 6
+  head: 4
   torso: 6
-  arms: 6
-  legs: 6
+  arms: 5
+  legs: 5
   md: 4
   enc: 0
 loot:
   - Elemental Core, greater
 actions:
   active:
-    - name: Attack
-      type: Melee
-      hit: "Hit+8, Block+17|12"
-      damage: 2d8+9 Blunt
+    - name: Punch
+      type: Melee Attack
+      hit: "Hit+9, Block+18|12"
+      damage: 2d8+6 Blunt
     - name: Whirling Attack
-      type: Melee, 2m AoE
-      hit: "Hit+8"
+      type: Melee Attack, Radius 2m
+      hit: "Hit+9"
       damage: 2d8+6 Blunt
       cost: "[section:clr-en]2 EN[/section]"
     - name: Defensive Stance
@@ -52,28 +52,28 @@ actions:
     - name: Solidify
       type: Reaction
       effect: >
-        Block Strength +6 until the end of this turn.
+        Block Strength [section:clr-value]+6[/section] until the end of this turn.
       cost: "[section:clr-mp]1 MP[/section]"
     - name: Stony Grasp
-      type: Reaction, 2m
-      hit: "[section:clr-dc]DC 19[/section]"
+      type: Reaction, Range 2m, Concentration
+      hit: "[section:clr-dc]DC 20[/section]"
       effect: >
-        [section:clr-konz]Concentration[/section] A hand of stone grows from the ground to restrain a target.
+        A hand of stone grows from the ground to [url:status#Restrained]restrain[/url] a target.
       cost: "[section:clr-mp]2 MP[/section]"
       save: "Save STR/AGI: No effect."
     - name: Pure Strength
       type: Reaction
-      hit: "[section:clr-dc]DC 21[/section]"
+      hit: "[section:clr-dc]DC 16[/section]"
       effect: >
-        On hit: All targets hit are knocked back by 6m.
+        On [url:def#Hit]hit[/url]: [url:status#Knockback]Knockback 6[/url].
       cost: "[section:clr-en]2 EN[/section]"
       save: "[b]Save [section:clr-attr]STR[/section]/[section:clr-attr]DEX[/section][/b]: No effect."
   passive:
     - name: Proficiencies
       type: Passive
       effect:
-        - Stone [section:clr-value]+5[/section]
-        - Primitive [section:clr-value]+5[/section]
+        - Stone [section:clr-value]+6[/section] ([section:clr-attr]WIL[/section])
+        - Primitive [section:clr-value]+6[/section]
     - name: Living Mana
       type: Passive
       effect: >

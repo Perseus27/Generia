@@ -2,9 +2,9 @@ name: Air Elemental
 id: air-elemental
 info:
   species: Elemental
-  level: 10
+  level: 15
   size: Tiny
-  tags: [[Immunity, Air], [Resistance, Physical], Nature's Will]
+  tags: [[Flying, 12], [Immunity, Air], [Resistance, Physical], Nature's Will]
 notes: >
   A being of pure mana that prefers the shape of a tiny hummingbird. Can fly up to 40m high.
   [br]Can follow complex instructions (e.g., "Patrol this area and attack all intruders").
@@ -12,56 +12,56 @@ notes: >
 attributes:
   CON: [3, 1]
   STR: [1, 0]
-  DEX: [8, 4]
-  INT: [3, 1]
-  WIL: [7, 3]
+  DEX: [11, 5]
+  INT: [4, 2]
+  WIL: [9, 4]
   PER: [6, 3]
 values:
   EN: 5
   MP: 5
-  MPR: 2
+  MPR: 3
   WL: 5
   WT: 5
   TN: 3
-  MS: 10
+  MS: "[section:clr-bonus]12[/section]"
 armor:
   head: 0
   torso: 0
   arms: 0
   legs: 0
-  md: 3
+  md: 4
   enc: 0
 loot:
   - Elemental Core, normal
 actions:
   active:
     - name: Wind Shot
-      type: Projectile
-      hit: "[section:clr-pa]PA+6[/section], 20m"
-      damage: 2d6+3 Air
+      type: Projectile Attack
+      hit: "[section:clr-pa]PA+8[/section], 20m"
+      damage: 2d6+4 Air
       cost: "[section:clr-mp]2 MP[/section]"
     - name: Turbulence
       type: Reaction, 20m
       effect: >
-        Lowers the attack value of one projectile by 3.
+        Lowers the attack value of one projectile by [section:clr-value]4[/section].
       cost: "[section:clr-mp]1 MP[/section]"
     - name: Air Pressure
-      type: Utility, 2m AoE
-      hit: "[section:clr-dc]DC 16[/section]"
+      type: Utility, Radius 2m
+      hit: "[section:clr-dc]DC 18[/section]"
       effect: >
-        All creatures are knocked back by 3m.
+        [url:status#Knockback]Knockback 4[/url].
       cost: "[section:clr-mp]3 MP[/section]"
       save: "[b]Save [section:clr-attr]STR[/section]:[/b] No effect."
   passive:
     - name: Proficiencies
       type: Passive
       effect: >
-        Air [section:clr-value]+3[/section]
+        Air [section:clr-value]+4[/section] ([section:clr-attr]WIL[/section])
     - name: Living Mana
       type: Passive
       effect: >
         Regenerates [[section:clr-value]MPR[/section]] [section:clr-mp]MP[/section] at the beginning of each turn.
     - name: Tailwind II
-      type: Passive, 12m AoE
+      type: Passive, Radius 12m
       effect: >
         Allied creatures gain [section:clr-bonus]+4[/section] MS.

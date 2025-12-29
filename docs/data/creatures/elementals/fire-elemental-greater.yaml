@@ -4,7 +4,7 @@ info:
   species: Elemental
   level: 25
   size: Small
-  tags: [[Immunity, Fire], [Resistance, Physical], Nature's Will]
+  tags: [[Immunity, Fire], [Resistance, Physical], Nature's Will, Sapient]
 notes: >
   A being of pure fire mana that prefers the shape of a small salamander, but can appear as a medium-sized humanoid.
   [br]About as intelligent as a human. Can communicate verbally.
@@ -36,13 +36,13 @@ loot:
 actions:
   active:
     - name: Fire Shot
-      type: Projectile
-      hit: "[section:clr-pa]PA+11[/section], 20m"
+      type: Projectile Attack
+      hit: "[section:clr-pa]PA+12[/section], 20m"
       damage: 2d8+5 Fire
       cost: "[section:clr-mp]2 MP[/section]"
     - name: Fire Nova
-      type: AoE, 4m
-      hit: "[section:clr-sa]SA+11[/section]"
+      type: Spell Attack, AoE, Radius 4m
+      hit: "[section:clr-sa]SA+12[/section]"
       damage: 4d4+2 Fire
       cost: "[section:clr-mp]4 MP[/section]"
       save: "[b]Save [section:clr-attr]DEX[/section]/+10[/b]: Damage halved/No effect."
@@ -50,16 +50,16 @@ actions:
       type: Reaction
       effect: >
         On [url:def#Hit]hit[/url]: Immediately triggers all [url:status#Burning]Burning[/url] stacks on all targets hit.
-      cost: "[section:clr-mp]2 MP[/section]"
+      cost: "[section:clr-mp]1 MP[/section] per target"
   passive:
     - name: Proficiencies
       type: Passive
       effect: >
-        Fire [section:clr-value]+5[/section]
+        Fire [section:clr-value]+6[/section] ([section:clr-attr]WIL[/section])
     - name: Living Mana
       type: Passive
       effect: >
         Regenerates [[section:clr-value]MPR[/section]] [section:clr-mp]MP[/section] at the beginning of each turn.
     - name: Burning Aura III
-      type: Passive, 2m AoE, Zone
+      type: Passive, Radius 2m, Zone
       damage: 4d4+2 Fire

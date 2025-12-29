@@ -2,7 +2,7 @@ name: Lesser Fire Elemental
 id: fire-elemental-lesser
 info:
   species: Elemental
-  level: 3
+  level: 5
   size: Small
   tags: [[Immunity, Fire], [Resistance, Physical], Nature's Will]
 notes: >
@@ -12,10 +12,10 @@ notes: >
 attributes:
   CON: [1, 0]
   STR: [1, 0]
-  DEX: [3, 1]
-  INT: [1, 0]
-  WIL: [5, 2]
-  PER: [3, 1]
+  DEX: [4, 2]
+  INT: [3, 1]
+  WIL: [6, 3]
+  PER: [4, 2]
 values:
   EN: 5
   MP: 5
@@ -29,27 +29,27 @@ armor:
   torso: 0
   arms: 0
   legs: 0
-  md: 2
+  md: 3
   enc: 0
 loot:
   - Elemental Core, lesser
 actions:
   active:
     - name: Fire Shot
-      type: Projectile
-      hit: "[section:clr-pa]PA+3[/section], 20m"
-      damage: 2d4+1 Fire
+      type: Projectile Attack
+      hit: "[section:clr-pa]PA+5[/section], 20m"
+      damage: 2d4+2 Fire
       cost: "[section:clr-mp]2 MP[/section]"
   passive:
     - name: Proficiencies
       type: Passive
       effect: >
-        Fire [section:clr-value]+1[/section]
+        Fire [section:clr-value]+2[/section] ([section:clr-attr]WIL[/section])
     - name: Living Mana
       type: Passive
       effect: >
         Regenerates [[section:clr-value]MPR[/section]] [section:clr-mp]MP[/section] at the beginning of each turn.
   passive:
     - name: Burning Aura I
-      type: Passive, 2m Radius, Zone
+      type: Passive, Radius 2m, Zone
       damage: 2d4+1 Fire

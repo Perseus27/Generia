@@ -2,7 +2,7 @@ name: Lesser Stone Elemental
 id: stone-elemental-lesser
 info:
   species: Elemental
-  level: 3
+  level: 5
   size: Medium
   tags: [Natural Defenses]
 notes: >
@@ -10,12 +10,12 @@ notes: >
   [br]Can follow simple instructions (e.g., "Go over there", "Attack this target")
 
 attributes:
-  CON: [5, 2]
-  STR: [3, 1]
-  DEX: [1, 0]
-  INT: [1, 0]
-  WIL: [3, 1]
-  PER: [1, 0]
+  CON: [6, 3]
+  STR: [4, 2]
+  DEX: [2, 1]
+  INT: [2, 1]
+  WIL: [4, 2]
+  PER: [2, 1]
 values:
   EN: 10
   MP: 5
@@ -25,20 +25,20 @@ values:
   TN: 3
   MS: 2
 armor:
-  head: 2
-  torso: 2
+  head: 1
+  torso: 3
   arms: 2
   legs: 2
-  md: 1
+  md: 2
   enc: 0
 loot:
   - Elemental Core, lesser
 actions:
   active:
-    - name: Attack
-      type: Melee
-      hit: "Hit+1, Block+4|3"
-      damage: 2d6+1 Blunt
+    - name: Punch
+      type: Melee Attack
+      hit: "Hit+3, Block+7|5"
+      damage: 2d6+2 Blunt
     - name: Defensive Stance
       type: Utility
       effect: >
@@ -47,14 +47,14 @@ actions:
     - name: Solidify
       type: Reaction
       effect: >
-        Block Strength +2 until the end of this turn.
+        Block Strength [section:clr-value]+2[/section] until the end of this turn.
       cost: "[section:clr-mp]1 MP[/section]"
   passive:
     - name: Proficiencies
       type: Passive
       effect:
-        - Stone [section:clr-value]+1[/section]
-        - Primitive [section:clr-value]+1[/section]
+        - Stone [section:clr-value]+2[/section] ([section:clr-attr]WIL[/section])
+        - Primitive [section:clr-value]+2[/section]
     - name: Living Mana
       type: Passive
       effect: >

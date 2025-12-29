@@ -11,38 +11,38 @@ notes: >
 
 attributes:
   CON: [9, 4]
-  STR: [7, 3]
-  DEX: [4, 2]
-  INT: [3, 1]
-  WIL: [4, 2]
-  PER: [1, 0]
+  STR: [8, 4]
+  DEX: [5, 2]
+  INT: [5, 2]
+  WIL: [8, 4]
+  PER: [2, 1]
 values:
   EN: 15
-  MP: 5
-  MPR: 1
-  WL: 6
+  MP: 10
+  MPR: 2
+  WL: 7
   WT: 8
   TN: 3
   MS: 4
 armor:
-  head: 4
+  head: 2
   torso: 4
-  arms: 4
-  legs: 4
-  md: 2
+  arms: 3
+  legs: 3
+  md: 4
   enc: 0
 loot:
   - Elemental Core, normal
 actions:
   active:
-    - name: Attack
-      type: Melee
-      hit: "Hit+5, Block+10|7"
+    - name: Punch
+      type: Melee Attack
+      hit: "Hit+6, Block+12|8"
       damage: 2d8+4 Blunt
     - name: Whirling Attack
-      type: Melee, 2m AoE
-      hit: "Hit+5"
-      damage: 2d8+3 Blunt
+      type: Melee Attack, Radius 2m
+      hit: "Hit+6"
+      damage: 2d8+4 Blunt
       cost: "[section:clr-en]2 EN[/section]"
     - name: Defensive Stance
       type: Utility
@@ -52,21 +52,21 @@ actions:
     - name: Solidify
       type: Reaction
       effect: >
-        Block Strength +4 until the end of this turn.
+        Block Strength [section:clr-value]+4[/section] until the end of this turn.
       cost: "[section:clr-mp]1 MP[/section]"
     - name: Stony Grasp
-      type: Reaction, 2m, [section:clr-conc]Concentration[/section]
-      hit: "[section:clr-dc]DC 13[/section]"
+      type: Reaction, Range 2m, Concentration
+      hit: "[section:clr-dc]DC 18[/section]"
       effect: >
-        A hand of stone grows from the ground to restrain a target.
+        A hand of stone grows from the ground to [url:status#Restrained]restrain[/url] a target.
       cost: "[section:clr-mp]2 MP[/section]"
       save: "[b]Save [section:clr-attr]STR[/section]/[section:clr-attr]AGI[/section]:[/b] No effect."
   passive:
     - name: Proficiencies
       type: Passive
       effect:
-        - Stone [section:clr-value]+3[/section]
-        - Primitive [section:clr-value]+3[/section]
+        - Stone [section:clr-value]+4[/section] ([section:clr-attr]WIL[/section])
+        - Primitive [section:clr-value]+4[/section]
     - name: Living Mana
       type: Passive
       effect: >

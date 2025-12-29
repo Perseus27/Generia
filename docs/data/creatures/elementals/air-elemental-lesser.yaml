@@ -2,9 +2,9 @@ name: Lesser Air Elemental
 id: air-elemental-lesser
 info:
   species: Elemental
-  level: 3
+  level: 5
   size: Tiny
-  tags: [[Immunity, Air], [Resistance, Physical], Nature's Will]
+  tags: [[Flying, 8][Immunity, Air], [Resistance, Physical], Nature's Will]
 notes: >
   A tiny wisp of pure air mana. Can fly up to 20m high.
   [br]Can follow simple instructions (e.g., "Go over there", "Attack this target").
@@ -12,9 +12,9 @@ notes: >
 attributes:
   CON: [1, 0]
   STR: [1, 0]
-  DEX: [5, 2]
-  INT: [1, 0]
-  WIL: [3, 1]
+  DEX: [7, 2]
+  INT: [2, 1]
+  WIL: [4, 2]
   PER: [3, 1]
 values:
   EN: 5
@@ -23,38 +23,38 @@ values:
   WL: 4
   WT: 3
   TN: 3
-  MS: 6
+  MS: "[section:clr-bonus]8[/section]"
 armor:
   head: 0
   torso: 0
   arms: 0
   legs: 0
-  md: 1
+  md: 2
   enc: 0
 loot:
   - Elemental Core, lesser
 actions:
   active:
     - name: Wind Shot
-      type: Projectile
-      hit: "[section:clr-pa]PA+2[/section], 20m"
-      damage: 2d4+1 Air
+      type: Projectile Attack
+      hit: "[section:clr-pa]PA+4[/section], 20m"
+      damage: 2d4+2 Air
       cost: "[section:clr-mp]2 MP[/section]"
     - name: Turbulence
       type: Reaction, 20m
       effect: >
-        Lowers the attack value of one projectile by 1.
+        Lowers the attack value of one projectile by [section:clr-value]2[/section].
       cost: "[section:clr-mp]1 MP[/section]"
   passive:
     - name: Proficiencies
       type: Passive
       effect: >
-        Air [section:clr-value]+1[/section]
+        Air [section:clr-value]+2[/section] ([section:clr-attr]WIL[/section])
     - name: Living Mana
       type: Passive
       effect: >
         Regenerates [[section:clr-value]MPR[/section]] [section:clr-mp]MP[/section] at the beginning of each turn.
     - name: Tailwind I
-      type: Passive, 12m AoE
+      type: Passive, Radius 12m
       effect: >
         Allied creatures gain [section:clr-bonus]+2[/section] MS.

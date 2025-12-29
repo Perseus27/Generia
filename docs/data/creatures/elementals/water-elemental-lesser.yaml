@@ -2,7 +2,7 @@ name: Lesser Water Elemental
 id: water-elemental-lesser
 info:
   species: Elemental
-  level: 3
+  level: 5
   size: Medium
   tags: [Nature's Will]
 notes: >
@@ -10,9 +10,9 @@ notes: >
   [br]Can follow simple instructions (e.g., "Go over there", "Attack this target")
 
 attributes:
-  CON: [3, 1]
+  CON: [5, 2]
   STR: [3, 1]
-  DEX: [4, 2]
+  DEX: [6, 3]
   INT: [1, 0]
   WIL: [3, 1]
   PER: [1, 0]
@@ -21,7 +21,7 @@ values:
   MP: 5
   MPR: 1
   WL: 4
-  WT: 5
+  WT: 6
   TN: 3
   MS: 4
 armor:
@@ -36,9 +36,9 @@ loot:
 actions:
   active:
     - name: Water Whip
-      type: Melee, 4m
-      hit: "Hit+4, Block+3|2"
-      damage: 2d6 Sharp
+      type: Melee Attack, Range 4m
+      hit: "Hit+5, Block+5|3"
+      damage: 2d6+1 Sharp
     - name: Flowing Counter
       type: Reaction
       effect: >
@@ -48,12 +48,12 @@ actions:
     - name: Proficiencies
       type: Passive
       effect:
-        - Water [section:clr-value]+1[/section]
-        - Primitive [section:clr-value]+1[/section]
+        - Water [section:clr-value]+2[/section] ([section:clr-attr]WIL[/section])
+        - Primitive [section:clr-value]+2[/section] ([section:clr-attr]WIL[/section])
     - name: Be like Water
       type: Passive
       effect: >
-        Parries are eased by [section:clr-attr]AGI-MOD[/section].
+        Parries are eased by [[section:clr-value]Water[/section]].
     - name: Living Mana
       type: Passive
       effect: >
