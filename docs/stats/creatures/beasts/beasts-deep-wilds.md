@@ -10,7 +10,7 @@ title: Beasts of the Deep Wilds
     <ul>
     <li><a href="#giant-wolf-20">Giant Wolf</a></li>
     <li><a href="#sabertooth-20">Sabertooth</a></li>
-    <li><a href="#dire-wolf-25">Giant Dire Wolf</a></li>
+    <li><a href="#giant-dire-wolf-25">Giant Dire Wolf</a></li>
     <li><a href="#cave-bear-40">Cave Bear</a></li>
     </ul>
     </p>
