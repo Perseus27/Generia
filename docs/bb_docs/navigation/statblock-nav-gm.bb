@@ -33,7 +33,7 @@ Trolls
 [url:/generia/stats/creatures/elementals/elementals-lesser]Lesser[/url], [url:/generia/stats/creatures/elementals/elementals-normal]Normal[/url], [url:/generia/stats/creatures/elementals/elementals-greater]Greater[/url]
 [br][url:/generia/stats/creatures/elementals/elementals-water]Water[/url], [url:/generia/stats/creatures/elementals/elementals-stone]Stone[/url], [url:/generia/stats/creatures/elementals/elementals-fire]Fire[/url], [url:/generia/stats/creatures/elementals/elementals-air]Air[/url]
 [h4]Dracids[/h4]
-
+[url:/generia/stats/creatures/dracids/wyverns]Wyverns[/url]
 [h4]Beasts[/h4]
 [url:/generia/stats/creatures/beasts/beasts-mundane]Mundane[/url]
 [br][url:/generia/stats/creatures/beasts/beasts-rift]Rift[/url]
