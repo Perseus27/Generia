@@ -9,12 +9,12 @@ notes: >
   This type of goblin fights with primitive sorcery based on fire and stone. Goblin shamans seem to enjoy high social status and are usually escorted by multiple warriors.
 
 attributes:
-  CON: ["5", "2"]
-  STR: ["3", "1"]
-  DEX: ["5", "2"]
-  INT: ["7", "3"]
-  WIL: ["3", "1"]
-  PER: ["12", "6"]
+  CON: [5, 2]
+  STR: [3, 1]
+  DEX: [5, 2]
+  INT: [7, 3]
+  WIL: [3, 1]
+  PER: [12, 6]
 values:
   EN: 10
   MP: 15

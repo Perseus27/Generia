@@ -13,12 +13,12 @@ notes: >
   [br][b]Weight:[/b] 0.25
 
 attributes:
-  CON: ["1", "0"]
-  STR: ["1", "0"]
-  DEX: ["11", "5"]
-  INT: ["0", "0"]
-  WIL: ["0", "0"]
-  PER: ["7", "3"]
+  CON: [1, 0]
+  STR: [1, 0]
+  DEX: [11, 5]
+  INT: [0, 0]
+  WIL: [0, 0]
+  PER: [7, 3]
 values:
   EN: 5
   MP: 0

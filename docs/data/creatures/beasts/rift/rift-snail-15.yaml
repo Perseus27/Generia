@@ -9,12 +9,12 @@ notes: >
   –
 
 attributes:
-  CON: ["11", "5"]
-  STR: ["10", "5"]
-  DEX: ["2", "1"]
-  INT: ["1", "0"]
-  WIL: ["6", "3"]
-  PER: ["2", "1"]
+  CON: [11, 5]
+  STR: [10, 5]
+  DEX: [2, 1]
+  INT: [1, 0]
+  WIL: [6, 3]
+  PER: [2, 1]
 values:
   EN: 20
   MP: 5

@@ -9,12 +9,12 @@ notes: >
   This type of goblin engages in melee combat, but will retreat to the backline if wounded or outnumbered.
 
 attributes:
-  CON: ["5", "2"]
-  STR: ["7", "3"]
-  DEX: ["8", "4"]
-  INT: ["2", "1"]
-  WIL: ["2", "1"]
-  PER: ["5", "2"]
+  CON: [5, 2]
+  STR: [7, 3]
+  DEX: [8, 4]
+  INT: [2, 1]
+  WIL: [2, 1]
+  PER: [5, 2]
 values:
   EN: 15
   MP: 5

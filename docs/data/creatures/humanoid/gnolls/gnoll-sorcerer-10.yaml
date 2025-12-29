@@ -9,12 +9,12 @@ notes: >
   Extremely aggressive.
 
 attributes:
-  CON: ["7", "3"]
-  STR: ["4", "2"]
-  DEX: ["4", "2"]
-  INT: ["3", "1"]
-  WIL: ["4", "2"]
-  PER: ["8", "4"]
+  CON: [7, 3]
+  STR: [4, 2]
+  DEX: [4, 2]
+  INT: [3, 1]
+  WIL: [4, 2]
+  PER: [8, 4]
 values:
   EN: 10
   MP: 5
