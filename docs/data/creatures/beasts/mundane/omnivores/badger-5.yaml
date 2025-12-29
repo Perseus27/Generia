@@ -1,0 +1,52 @@
+name: Badger 5
+id: badger-5
+info:
+  species: Beast
+  level: 5
+  size: Medium
+  tags: [Natural Defenses, [Tough, 1]]
+notes: >
+  –
+
+attributes:
+  CON: ["4", "2"]
+  STR: ["3", "1"]
+  DEX: ["6", "3"]
+  INT: ["1", "0"]
+  WIL: ["1", "0"]
+  PER: ["4", "2"]
+values:
+  EN: 10
+  MP: 5
+  MPR: 1
+  WL: 3
+  WT: 5
+  TN: 4
+  MS: 4
+armor:
+  head: 0
+  torso: 2
+  arms: 1
+  legs: 1
+  md: 0
+  enc: 0
+loot:
+  - Trophy (Hair)
+actions:
+  active:
+    - name: Bite
+      type: Melee Attack
+      hit: "Hit+5"
+      damage: 3d4+1 Sharp
+
+  passive:
+    - name: Proficiencies
+      type: Passive
+      effect:
+        - Primitive [section:clr-value]+2[/section]
+
+    - name: Tunneler
+      type: Passive
+      effect:
+        - "Very proficient at building tunnel systems underground."
+

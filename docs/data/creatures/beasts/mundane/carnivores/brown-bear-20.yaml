@@ -1,0 +1,99 @@
+name: Brown Bear 20
+id: brown-bear-20
+info:
+  species: Beast
+  level: 20
+  size: Large
+  tags: [[Mount, 6], Natural Defenses, [Tough, 1]]
+notes: >
+  –
+
+attributes:
+  CON: ["10", "5"]
+  STR: ["12", "6"]
+  DEX: ["8", "4"]
+  INT: ["2", "1"]
+  WIL: ["4", "2"]
+  PER: ["5", "2"]
+values:
+  EN: 20
+  MP: 5
+  MPR: 1
+  WL: 6
+  WT: 8
+  TN: 5
+  MS: 6
+armor:
+  head: 3
+  torso: 5
+  arms: 4
+  legs: 4
+  md: 2
+  enc: 0
+loot:
+  - Trophy (Tooth)
+actions:
+  active:
+    - name: Bite
+      type: Melee Attack
+      hit: "Hit+10"
+      damage: 3d6+6 Sharp
+
+    - name: Claws
+      type: Melee Attack
+      hit: "Hit+10"
+      damage: 2d8+9 Sharp
+
+    - name: Charge
+      type: Melee Attack, Range 8m, min. Range 4m
+      hit: "Hit+10"
+      damage: 2d8+9 Sharp
+      effect:
+        - "Charges at a target to execute a [i]Claws[/i] attack."
+      cost: "[section:clr-en]2 EN[/section]"
+
+    - name: Tear
+      type: Reaction
+      hit: "[section:clr-dc]DC 16[/section]"
+      effect:
+        - "After [url:def#Hit]hit[/url] with [i]Bite[/i] or [i]Claws[/i]: Target gets [url:status#Bleeding]Bleeding 2[/url]."
+      save: "[b]Save [section:clr-attr]CON[/section]/+10:[/b] [url:status#Bleeding]Bleeding 1[/url]/No effect."
+      cost: "[section:clr-en]1 EN[/section]"
+
+    - name: Slam
+      type: Reaction
+      hit: "[section:clr-dc]DC 16[/section]"
+      effect:
+        - "After [url:def#Hit]hit[/url] with [i]Claws[/i]: [url:status#Prone]Prone[/url]."
+      save: "[b]Save [section:clr-attr]DEX[/section]/[section:clr-attr]STR[/section]/+10:[/b] [url:status#OffBalance]Off-Balance[/url]/No effect."
+      cost: "[section:clr-en]1 EN[/section]"
+
+    - name: Pin
+      type: Utility, Melee
+      effect:
+        - "Pins a [url:status#Prone]prone[/url] target against the ground with a large claw to [url:status#Grappled]grapple[/url] it."
+
+  passive:
+    - name: Proficiencies
+      type: Passive
+      effect:
+        - Primitive [section:clr-value]+6[/section]
+
+    - name: Imposing
+      type: Passive
+      hit: "[section:clr-dc]DC 15[/section]"
+      effect:
+        - "If the target of [i]Charge[/i] is of a smaller size, it gets [url:status#Frightened]Frightened[/url] when noticing the attack."
+      save:
+        - "Save [section:clr-attr]WIL[/section]/[section:clr-attr]INT[/section]: No effect."
+
+    - name: Monstrous Fangs
+      type: Passive
+      effect:
+        - "[section:clr-value]One[/section] [i]Bite[/i] damage die may be rerolled [section:clr-value]once[/section]."
+
+    - name: Savage Predator
+      type: Passive
+      effect:
+        - "When using [i]Bite[/i] against [url:status#Prone]prone[/url] or [url:status#Grappled]grappled[/url] targets, the [i]Bite[/i] action may be repeated [section:clr-value]once[/section]."
+

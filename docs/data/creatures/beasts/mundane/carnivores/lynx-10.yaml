@@ -1,0 +1,69 @@
+name: Lynx 10
+id: lynx-10
+info:
+  species: Beast
+  level: 10
+  size: Small
+  tags: [Natural Defenses, [Tough, 1]]
+notes: >
+  –
+
+attributes:
+  CON: ["5", "2"]
+  STR: ["4", "2"]
+  DEX: ["9", "4"]
+  INT: ["2", "1"]
+  WIL: ["3", "1"]
+  PER: ["6", "3"]
+values:
+  EN: 10
+  MP: 5
+  MPR: 1
+  WL: 4
+  WT: 6
+  TN: 4
+  MS: 6
+armor:
+  head: 0
+  torso: 2
+  arms: 1
+  legs: 1
+  md: 1
+  enc: 0
+loot:
+  - Trophy (Tooth)
+actions:
+  active:
+    - name: Bite
+      type: Melee Attack
+      hit: "Hit+8"
+      damage: 3d4+2 Sharp
+
+    - name: Pounce
+      type: Melee Attack, Range 6m, min. Range 2m
+      hit: "Hit+8"
+      damage: 3d4+2 Sharp
+      cost: "[section:clr-en]1 EN[/section]"
+
+    - name: Camouflage
+      type: Utility, Concentration
+      effect:
+        - "Gains [url:status#Hidden]Hidden 1[/url]."
+      cost: "[section:clr-en]1 EN[/section]"
+
+  passive:
+    - name: Proficiencies
+      type: Passive
+      effect:
+        - Primitive [section:clr-value]+4[/section]
+
+    - name: Ambush Hunter
+      type: Passive
+      effect:
+        - When attacking with [url:core#Advantage]Advantage[/url] or with [i]Pounce[/i], roll [section:clr-roll]2d10[/section] for hit zone and choose either result.
+
+    - name: Sneaky
+      type: Passive
+      effect:
+        - The universal action [url:actions#StealthyMovement]Stealthy Movement[/url] does not [url:status#Slowed]slow[/url].
+

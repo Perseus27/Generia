@@ -1,0 +1,75 @@
+name: Wolf 10
+id: wolf-10
+info:
+  species: Beast
+  level: 10
+  size: Medium
+  tags: [Natural Defenses, [Tough, 1]]
+notes: >
+  –
+
+attributes:
+  CON: ["7", "3"]
+  STR: ["6", "3"]
+  DEX: ["7", "3"]
+  INT: ["2", "1"]
+  WIL: ["4", "2"]
+  PER: ["4", "2"]
+values:
+  EN: 15
+  MP: 5
+  MPR: 1
+  WL: 4
+  WT: 7
+  TN: 4
+  MS: 6
+armor:
+  head: 1
+  torso: 3
+  arms: 2
+  legs: 2
+  md: 2
+  enc: 0
+loot:
+  - Trophy (Tooth)
+actions:
+  active:
+    - name: Bite
+      type: Melee Attack
+      hit: "Hit+7"
+      damage: 3d4+3 Sharp
+
+    - name: Howl
+      type: Utility, Radius 12m
+      hit: "[section:clr-dc]DC 10[/section]"
+      effect:
+        - "Targets are [url:status#Frightened]Frightened[/url]."
+        - "DC is increased by [section:clr-value]1[/section] for each wolf in the radius."
+      save: "[b]Save [section:clr-attr]WIL[/section]:[/b] No effect."
+      effect10: "[url:status#Panicked]Panicked[/url]."
+      cost: "[section:clr-en]2 EN[/section]"
+
+    - name: Tear
+      type: Reaction
+      hit: "[section:clr-dc]DC 13[/section]"
+      effect:
+        - "After [url:def#Hit]hit[/url] with [i]Bite[/i]: Target gets [url:status#Bleeding]Bleeding 1[/url]."
+      save: "[b]Save [section:clr-attr]CON[/section]:[/b] No effect."
+      cost: "[section:clr-en]1 EN[/section]"
+
+  passive:
+    - name: Proficiencies
+      type: Passive
+      effect:
+        - Primitive [section:clr-value]+4[/section]
+
+    - name: Pursuit Hunter
+      type: Passive
+      effect:
+        - The [section:clr-en]EN[/section] cost of the universal action [url:actions#Sprint]Sprint[/url] is halved. While traveling, [section:clr-en]EN[/section] costs are reduced by one travel-mode stage.
+
+    - name: Wolf Pack
+      type: Passive
+      effect:
+        - [url:core#Advantage]Advantage 1[/url] on attack rolls against targets that have been attacked by another wolf this round.
+

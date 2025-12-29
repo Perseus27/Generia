@@ -1,0 +1,63 @@
+name: Elk 20
+id: elk-20
+info:
+  species: Beast
+  level: 20
+  size: Large
+  tags: [[Mount, 4], Natural Defenses, [Tough, 1]]
+notes: >
+  –
+
+attributes:
+  CON: ["11", "5"]
+  STR: ["11", "5"]
+  DEX: ["8", "4"]
+  INT: ["1", "0"]
+  WIL: ["4", "2"]
+  PER: ["6", "3"]
+values:
+  EN: 20
+  MP: 5
+  MPR: 1
+  WL: 6
+  WT: 9
+  TN: 5
+  MS: 6
+armor:
+  head: 3
+  torso: 5
+  arms: 4
+  legs: 4
+  md: 2
+  enc: 0
+loot:
+  - Trophy (Horn)
+actions:
+  active:
+    - name: Horns
+      type: Melee Attack
+      hit: "Hit+10"
+      damage: 3d6+5 Sharp
+
+    - name: Charge
+      type: Melee Attack, Range 12m, min. Range 6m
+      hit: "Hit+10"
+      damage: 3d6+5 Sharp
+      effect:
+        - "Charges at a target to execute a [i]Horns[/i] attack."
+      cost: "[section:clr-en]2 EN[/section]"
+
+  passive:
+    - name: Proficiencies
+      type: Passive
+      effect:
+        - Primitive [section:clr-value]+6[/section]
+
+    - name: Imposing
+      type: Passive
+      hit: "[section:clr-dc]DC 15[/section]"
+      effect:
+        - "If the target of [i]Charge[/i] is of a smaller size, it gets [url:status#Frightened]Frightened[/url] when noticing the attack."
+      save:
+        - "Save [section:clr-attr]WIL[/section]/[section:clr-attr]INT[/section]: No effect."
+

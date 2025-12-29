@@ -1,0 +1,85 @@
+name: Aurochs 20
+id: aurochs-20
+info:
+  species: Beast
+  level: 20
+  size: Large
+  tags: [[Mount, 3], Natural Defenses, [Tough, 2]]
+notes: >
+  –
+
+attributes:
+  CON: ["15", "7"]
+  STR: ["10", "5"]
+  DEX: ["3", "1"]
+  INT: ["1", "0"]
+  WIL: ["3", "1"]
+  PER: ["4", "2"]
+values:
+  EN: 20
+  MP: 5
+  MPR: 1
+  WL: 6
+  WT: 11
+  TN: 6
+  MS: 4
+armor:
+  head: 5
+  torso: 7
+  arms: 6
+  legs: 6
+  md: 1
+  enc: 0
+loot:
+  - Trophy (Horn)
+actions:
+  active:
+    - name: Horns
+      type: Melee Attack
+      hit: "Hit+7"
+      damage: 3d6+5 Sharp
+
+    - name: Hooves
+      type: Melee Attack
+      hit: "Hit+6"
+      damage: 2d8+7 Blunt
+
+    - name: Charge
+      type: Melee Attack, Range 12m, min. Range 6m
+      hit: "Hit+7"
+      damage: 3d6+5 Sharp
+      effect:
+        - "Charges at a target to execute a [i]Horns[/i] attack."
+      cost: "[section:clr-en]3 EN[/section]"
+
+    - name: Gore
+      type: Reaction
+      hit: "[section:clr-dc]DC 15[/section]"
+      effect:
+        - "After [url:def#Hit]hit[/url] with [i]Horns[/i]: Target gets [url:status#Bleeding]Bleeding 2[/url]."
+      save: "[b]Save [section:clr-attr]CON[/section]/+10:[/b] [url:status#Bleeding]Bleeding 1[/url]/No effect."
+      cost: "[section:clr-en]1 EN[/section]"
+
+    - name: Slam
+      type: Reaction
+      hit: "[section:clr-dc]DC 15[/section]"
+      effect:
+        - "After [url:def#Hit]hit[/url] with [i]Horns[/i] or [i]Hooves[/i]: [url:status#Knockback]Knockback 5[/url]."
+      save: "[b]Save [section:clr-attr]DEX[/section]/[section:clr-attr]STR[/section]/+10:[/b] Distance halved/No effect."
+      cost: "[section:clr-en]1 EN[/section]"
+
+
+  passive:
+    - name: Proficiencies
+      type: Passive
+      effect:
+        - Primitive [section:clr-value]+6[/section]
+
+    - name: Imposing
+      type: Passive
+      hit: "[section:clr-dc]DC 17[/section]"
+      effect:
+        - "If the target of [i]Charge[/i] is of a smaller size, it gets [url:status#Frightened]Frightened[/url] when noticing the attack."
+      save:
+        - "Save [section:clr-attr]WIL[/section]/[section:clr-attr]INT[/section]: No effect."
+
