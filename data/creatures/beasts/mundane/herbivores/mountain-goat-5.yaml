@@ -3,7 +3,7 @@ id: mountain-goat-5
 info:
   species: Beast
   level: 5
-  size: Medium
+  size: Small
   tags: [Natural Defenses, [Tough, 1]]
 notes: >
   –
@@ -19,7 +19,7 @@ values:
   EN: 10
   MP: 5
   MPR: 1
-  WL: 4
+  WL: 3
   WT: 5
   TN: 4
   MS: 4
