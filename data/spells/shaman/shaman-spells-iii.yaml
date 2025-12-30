@@ -14,7 +14,7 @@ offensive:
     description: >
       Summons a powerful elemental under direct control.
     effect: >
-      A [i][url:/w/generia-perseus27/a/elementals-E28093-greater-article]Greater Elemental[/url][/i] manifests at the elemental source.
+      A [i][url:/generia/stats/creatures/elementals/elementals-greater]Greater Elemental[/url][/i] manifests at the elemental source.
 
   - name: "Elemental Fury"
     id: "elemental-fury"

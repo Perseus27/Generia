@@ -14,7 +14,7 @@ offensive:
     description: >
       Summon a mighty elemental under your direct control.
     effect: >
-      A [i][url:/w/generia-perseus27/a/elementals-E28093-mighty-article]Mighty Elemental[/url][/i] manifests at the elemental source.
+      A [i][url:/generia/stats/creatures/elementals/elementals-mighty]Mighty Elemental[/url][/i] manifests at the elemental source.
 
   - name: "Elemental Ire"
     id: "elemental-ire"

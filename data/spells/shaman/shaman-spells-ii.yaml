@@ -14,7 +14,7 @@ offensive:
     description: >
       Summons an elemental under direct control.
     effect: >
-      An [i][url:/w/generia-perseus27/a/elementals-E28093-normal-article]Elemental[/url][/i] manifests at the elemental source.
+      An [i][url:/generia/stats/creatures/elementals/elementals-normal]Elemental[/url][/i] manifests at the elemental source.
 
   - name: "Elemental Rage"
     id: "elemental-rage"
