@@ -16,7 +16,7 @@ theme:
     - search.suggest
     - search.highlight
   font:
-    text: Tinos
+    text:  Barlow
 
 
 markdown_extensions:
