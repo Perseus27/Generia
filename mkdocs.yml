@@ -16,7 +16,7 @@ theme:
     - search.suggest
     - search.highlight
   font:
-    text: Vollkorn
+    text: Tinos
 
 
 markdown_extensions:
