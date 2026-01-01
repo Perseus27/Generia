@@ -44,7 +44,7 @@ items:
 - name: Orkish Warbow
   type: Bow
   damage: 1d8 Arrow
-  skill: Draw
+  skill: Force
   hr: 0.5
   dr: 1.5
   range: -3/0/0, 28m
@@ -57,7 +57,7 @@ items:
 - name: Yumi
   type: Bow
   damage: 1d8 Arrow
-  skill: Draw
+  skill: Force
   hr: 1.0
   dr: 1.0
   range: -2/0/0, 28m
@@ -72,7 +72,7 @@ items:
 - name: Staff Sling
   type: Sling
   damage: 1d8 Blunt
-  skill: Draw
+  skill: Force
   hr: 1.0
   dr: 0.0
   range: -2/0/0, 24m

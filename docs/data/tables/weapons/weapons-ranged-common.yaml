@@ -29,7 +29,7 @@ items:
 - name: Riding Bow
   type: Bow
   damage: 1d6 Arrow
-  skill: Draw
+  skill: Force
   hr: 1.0
   dr: 1.0
   range: 0/0/-1, 20m
@@ -41,7 +41,7 @@ items:
 - name: Longbow
   type: Bow
   damage: 1d8 Arrow
-  skill: Draw
+  skill: Force
   hr: 1.0
   dr: 1.0
   range: -2/0/0, 28m
@@ -119,7 +119,7 @@ items:
 - name: Javelin
   type: Thrown
   damage: 2d6 Arrow
-  skill: Draw
+  skill: Force
   hr: 1.0
   dr: 1.0
   range: 16m

@@ -16,7 +16,7 @@ items:
 - name: Flail
   type: Club
   damage: 2d6 Blunt
-  skill: Smash
+  skill: Force
   hr: 0.5
   dr: 1.5
   weight: 2
@@ -29,7 +29,7 @@ items:
 - name: Spiked Mace
   type: Club
   damage: 2d6 Blunt
-  skill: Smash
+  skill: Force
   hr: 0.5
   dr: 1.5
   weight: 2
@@ -41,7 +41,7 @@ items:
 - name: Dwarven Hammer
   type: Hammer
   damage: 2d6 Blunt
-  skill: Smash
+  skill: Force
   hr: 0.5
   dr: 1.5
   weight: 4
@@ -80,7 +80,7 @@ items:
 - name: Nunchaku
   type: Staff
   damage: 2d6 Blunt
-  skill: Smash
+  skill: Force
   hr: 1.0
   dr: 1.0
   weight: 0.5
@@ -93,7 +93,7 @@ items:
 - name: Shillelagh
   type: Staff
   damage: 2d8 Blunt
-  skill: Smash
+  skill: Force
   hr: 0.5
   dr: 1.5
   weight: 1

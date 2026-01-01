@@ -38,12 +38,12 @@ content:
       [li][b]Heavy:[/b] –[/li]
       [/ul]
 
-  - name: Draw
+  - name: Force
     tags: [Offensive]
     cost:
       - "[section:clr-encost]1 EN[/section]"
     description: >
-      Executes a [url:def#RangedAttack]ranged attack[/url]. Damage dealt is increased by [[section:clr-attr]STR-MOD[/section]].
+      Executes a [url:def#BasicAttack]basic attack[/url]. Damage dealt is increased by [[section:clr-attr]STR-MOD[/section]].
 
   - name: Kite
     tags: [Offensive]
@@ -95,10 +95,3 @@ content:
       - "[section:clr-encost]1 EN[/section]"
     description: >
       Executes a [url:def#RangedAttack]ranged attack[/url]. The attacker is [url:status#Knockback]knocked back[/url] [section:clr-value]one field[/section]. On a [url:def#Hit]hit[/url], the defender is also [url:status#Knockback]knocked back[/url] [section:clr-value]one field[/section].
-
-  - name: Smash
-    tags: [Offensive]
-    cost:
-      - "[section:clr-encost]1 EN[/section]"
-    description: >
-      Executes a [url:def#MeleeAttack]melee attack[/url]. Damage dealt is increased by [[section:clr-attr]STR-MOD[/section]].

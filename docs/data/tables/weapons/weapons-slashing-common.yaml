@@ -68,7 +68,7 @@ items:
 - name: Poleaxe
   type: Polearm
   damage: 2d8 Sharp
-  skill: Smash
+  skill: Force
   hr: 1.0
   dr: 1.0
   weight: 2.5

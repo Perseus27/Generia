@@ -29,7 +29,7 @@ items:
 - name: Great Mace
   type: Club
   damage: 2d8 Blunt
-  skill: Smash
+  skill: Force
   hr: 0.5
   dr: 1.5
   weight: 3
@@ -43,7 +43,7 @@ items:
 - name: Knobbed Mace
   type: Club
   damage: 2d6 Blunt
-  skill: Smash
+  skill: Force
   hr: 0.5
   dr: 1.5
   weight: 2
@@ -56,7 +56,7 @@ items:
 - name: Hand Hammer
   type: Hammer
   damage: 2d6 Blunt
-  skill: Smash
+  skill: Force
   hr: 0.5
   dr: 1.5
   weight: 1.5
@@ -70,7 +70,7 @@ items:
 - name: Sledgehammer
   type: Hammer
   damage: 2d8 Blunt
-  skill: Smash
+  skill: Force
   hr: 0.5
   dr: 1.5
   weight: 5
