@@ -7,10 +7,10 @@ content:
   - subheader:
     is_subheader: True
     name: Ranger
-    id: Ranger
+    id: ranger
 
   - name: Teamwork
-    id: Teamwork
+    id: teamwork
     sp-cost: 20
     requirements: "[url:class3/class-ranger]Ranger[/url]"
     description: >

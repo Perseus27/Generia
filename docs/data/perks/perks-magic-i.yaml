@@ -4,28 +4,28 @@ prefix: "perksM"
 
 content:
   - name: Arcane Artillery
-    id: ArcaneArtillery
+    id: arcane-artillery
     sp-cost: 10
     requirements: –
     description: >
       The MP cost of all [url:def#PA]PA[/url] spells is reduced by [section:clr-value]1[/section].
 
   - name: Astral Body I
-    id: AstralBodyI
+    id: astral-body-i
     sp-cost: 10
     requirements: –
     description: >
       Increase maximum [url:values#MP]Mana Points[/url] ([section:clr-mp]MP[/section]) by [section:clr-value]5[/section] and [url:values#MPR]MP Regeneration[/url] (MPR) by [section:clr-value]1[/section].
 
   - name: Battle Meditation
-    id: BattleMeditation
+    id: battle-meditation
     sp-cost: 10
     requirements: –
     description: >
       By spending [i]Concentration[/i] and any two [url:def#Action]actions[/url], you regenerate an amount of MP equal to your [url:values#MPR]MPR[/url].
 
   - name: Cold Calculation
-    id: ColdCalculation
+    id: cold-calculation
     sp-cost: 10
     requirements: –
     description: >
@@ -33,7 +33,7 @@ content:
       This value increases by [section:clr-value]2[/section] per [url:core#Advantage]Advantage[/url] stage and decreases by [section:clr-value]2[/section] per [url:core#Disadvantage]Disadvantage[/url] stage.
       
   - name: Focus I
-    id: FocusI
+    id: focus-i
     sp-cost: 10
     requirements: –
     description: >

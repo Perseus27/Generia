@@ -4,56 +4,56 @@ prefix: "perksC"
 
 content:
   - name: Armor Familiarity II
-    id: ArmorFamiliarityII
+    id: armor-familiarity-i-i
     sp-cost: 20
     requirements: Armor Familiarity I
     description: >
       Encumbrance of [url:armor#HeavyArmor]heavy armor[/url] is further reduced by [section:clr-value]1[/section] per piece.
 
   - name: Butcher
-    id: Butcher
+    id: butcher
     sp-cost: 20
     requirements: –
     description: >
       If you inflict [url:status#Bleeding]Bleeding[/url] on a target that is already bleeding, the target immediately takes the original Bleeding damage again. The effect remains.
 
   - name: Conditioned II
-    id: ConditionedII
+    id: conditioned-i-i
     sp-cost: 20
     requirements: –
     description: >
       Increase maximum [url:values#EN]Energy[/url] ([section:clr-en]EN[/section]) by [section:clr-value]5[/section] and [url:values#TN]Toughness[/url] (TN) by [section:clr-value]1[/section].
 
   - name: David
-    id: David
+    id: david
     sp-cost: 20
     requirements: Ranged weapon
     description: >
       When rolling damage with ranged weapons, you may reroll [section:clr-value]one[/section] die if its result is below that die’s average.
 
   - name: Dodge Tank
-    id: DodgeTank
+    id: dodge-tank
     sp-cost: 20
     requirements: Max. light armor
     description: >
       [url:core#Advantage]Advantage 1[/url] on [url:def#Dodge]dodge[/url] rolls.
 
   - name: Goliath
-    id: Goliath
+    id: goliath
     sp-cost: 20
     requirements: Melee weapon
     description: >
       When rolling damage with melee weapons, you may reroll one die if its result is below that die’s average.
 
   - name: Retaliator
-    id: Retaliator
+    id: retaliator
     sp-cost: 20
     requirements: –
     description: >
       [url:core#Advantage]Advantage 1[/url] on [i][url:skills1#Counter]Counter[/url][/i].
 
   - name: Sharpshooter
-    id: Sharpshooter
+    id: sharpshooter
     sp-cost: 20
     requirements: Ranged weapon
     description: >
