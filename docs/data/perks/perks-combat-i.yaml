@@ -101,7 +101,7 @@ content:
     sp-cost: 10
     requirements: –
     description: >
-      By spending [i]Concentration[/i] and [section:clr-en]2 EN[/section], you may set any [url:def#BasicAttack]basic attack[/url] roll to [section:clr-value]10[/section] instead of rolling.
+      By spending [i]Concentration[/i], you may set any [url:def#BasicAttack]basic attack[/url] roll to [section:clr-value]10[/section] instead of rolling.
       This value increases by [section:clr-value]2[/section] per [url:core#Advantage]Advantage[/url] stage and decreases by [section:clr-value]2[/section] per [url:core#Disadvantage]Disadvantage[/url] stage.
 
   - name: Shield Wall
