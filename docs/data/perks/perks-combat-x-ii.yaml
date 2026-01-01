@@ -7,10 +7,10 @@ content:
   - subheader:
     is_subheader: True
     name: Slasher
-    id: Slasher
+    id: slasher
 
   - name: Edge Alignment
-    id: EdgeAlignment
+    id: edge-alignment
     sp-cost: 10
     requirements: "[url:class2/class-slasher]Slasher[/url]"
     description: >
@@ -19,10 +19,10 @@ content:
   - subheader:
     is_subheader: True
     name: Berserker
-    id: Berserker
+    id: berserker
 
   - name: Bloodlust
-    id: Bloodlust
+    id: bloodlust
     sp-cost: 20
     requirements: "[url:class2/class-berserker]Berserker[/url]"
     description: >
@@ -31,10 +31,10 @@ content:
   - subheader:
     is_subheader: True
     name: Duelist
-    id: Duelist
+    id: duelist
 
   - name: Lone Fighter
-    id: LoneFighter
+    id: lone-fighter
     sp-cost: 20
     requirements: "[url:class2/class-duelist]Duelist[/url]"
     description: >
@@ -43,10 +43,10 @@ content:
   - subheader:
     is_subheader: True
     name: Hunter
-    id: Hunter
+    id: hunter
 
   - name: On the Prowl
-    id: OnTheProwl
+    id: on-the-prowl
     sp-cost: 10
     requirements: "[url:class2/class-hunter]Hunter[/url]"
     description: >
@@ -55,10 +55,10 @@ content:
   - subheader:
     is_subheader: True
     name: Breaker
-    id: Breaker
+    id: breaker
 
   - name: Sheer Force
-    id: SheerForce
+    id: sheer-force
     sp-cost: 10
     requirements: "[url:class2/class-breaker]Breaker[/url]"
     description: >
@@ -67,10 +67,10 @@ content:
   - subheader:
     is_subheader: True
     name: Stabber
-    id: Stabber
+    id: stabber
 
   - name: Spearhead
-    id: Spearhead
+    id: spearhead
     sp-cost: 10
     requirements: "[url:class2/class-stabber]Stabber[/url]"
     description: >
@@ -79,10 +79,10 @@ content:
   - subheader:
     is_subheader: True
     name: War Dancer
-    id: WarDancer
+    id: war-dancer
 
   - name: Zone of Control
-    id: ZoneOfControl
+    id: zone-of-control
     sp-cost: 10
     requirements: "[url:class2/class-war-dancer]War Dancer[/url]"
     description: >

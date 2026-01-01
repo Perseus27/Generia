@@ -7,10 +7,10 @@ content:
   - subheader:
     is_subheader: True
     name: Elementalist
-    id: Elementalist
+    id: elementalist
 
   - name: Channel Element
-    id: ChannelElement
+    id: channel-element
     sp-cost: 20
     requirements: "[url:class3/class-elementalist]Elementalist[/url]"
     description: >
@@ -24,10 +24,10 @@ content:
   - subheader:
     is_subheader: True
     name: Templar
-    id: Templar
+    id: templar
 
   - name: Corona
-    id: Corona
+    id: corona
     sp-cost: 20
     requirements: "[url:class3/class-templar]Templar[/url]"
     description: >
@@ -36,10 +36,10 @@ content:
   - subheader:
     is_subheader: True
     name: Magister
-    id: Magister
+    id: magister
 
   - name: Disruption Matrix
-    id: DisruptionMatrix
+    id: disruption-matrix
     sp-cost: 20
     requirements: "[url:class3/class-magister]Magister[/url]"
     description: >
@@ -48,10 +48,10 @@ content:
   - subheader:
     is_subheader: True
     name: Magus
-    id: Magus
+    id: magus
 
   - name: Mighty Magics
-    id: MightyMagics
+    id: mighty-magics
     sp-cost: 20
     requirements: "[url:class3/class-magus]Magus[/url]"
     description: >
@@ -60,10 +60,10 @@ content:
   - subheader:
     is_subheader: True
     name: Moon Dancer
-    id: MoonDancer
+    id: moon-dancer
 
   - name: "Luna's Protective Hand"
-    id: LunasProtectiveHand
+    id: lunas-protective-hand
     sp-cost: 10
     requirements: "[url:class3/class-moon-dancer]Moon Dancer[/url]"
     description: >

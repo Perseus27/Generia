@@ -4,14 +4,14 @@ prefix: "perksM"
 
 content:
   - name: Astral Body II
-    id: AstralBodyII
+    id: astral-body-i-i
     sp-cost: 20
     requirements: Astral Body I
     description: >
       Further increase maximum [url:values#MP]Mana Points[/url] ([section:clr-mp]MP[/section]) by [section:clr-value]5[/section] and [url:values#MPR]MP Regeneration[/url] (MPR) by [section:clr-value]1[/section].
 
   - name: Blood Mage
-    id: BloodMage
+    id: blood-mage
     sp-cost: 20
     requirements: –
     description: >
@@ -19,21 +19,21 @@ content:
       At most a number of MP equal to your Wound Treshold (WT) can be replaced in this way.
 
   - name: Focus II
-    id: FocusII
+    id: focus-i-i
     sp-cost: 20
     requirements: Focus I
     description: >
       May concentrate on one additional spell.
 
   - name: Shield Mage
-    id: ShieldMage
+    id: shield-mage
     sp-cost: 20
     requirements: –
     description: >
       When casting a [url:def#SD]Spell Defense[/url], you gain an amount of effect die rerolls equal to the spell tier.
 
   - name: Supporter
-    id: Supporter
+    id: supporter
     sp-cost: 20
     requirements: –
     description: >

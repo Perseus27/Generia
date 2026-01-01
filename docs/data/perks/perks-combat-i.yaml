@@ -4,42 +4,42 @@ prefix: "perksC"
 
 content:
   - name: Armor Familiarity I
-    id: ArmorFamiliarityI
+    id: armor-familiarity-i
     sp-cost: 10
     requirements: –
     description: >
       Encumbrance of [url:armor#HeavyArmor]heavy armor[/url] is reduced by [section:clr-value]1[/section] per piece.
       
   - name: Blood Avenger
-    id: BloodAvenger
+    id: blood-avenger
     sp-cost: 10
     requirements: –
     description: >
       [section:clr-value]+2[/section] to [url:def#BasicAttack]basic attack[/url] rolls for each wound you have suffered.
 
   - name: Cavalry
-    id: Cavalry
+    id: cavalry
     sp-cost: 10
     requirements: Mounted
     description: >
       Negates penalties from mounted combat when using weapons with the [i]Cavalry[/i] tag.
 
   - name: Conditioned I
-    id: ConditionedI
+    id: conditioned-i
     sp-cost: 10
     requirements: –
     description: >
       Increase maximum [url:values#EN]Energy[/url] ([section:clr-en]EN[/section]) by [section:clr-value]5[/section] and [url:values#TN]Toughness[/url] (TN) by [section:clr-value]1[/section].
 
   - name: Dancer
-    id: Dancer
+    id: dancer
     sp-cost: 10
     requirements: Max. medium armor
     description: >
       After each [url:def#BasicAttack]basic attack[/url], you may move up to [section:clr-value]3m[/section] for free.
 
   - name: Deflector
-    id: Deflector
+    id: deflector
     sp-cost: 10
     requirements: –
     description: >
@@ -47,42 +47,42 @@ content:
       The damage of such a projectile equals [url:def#RangedAttack]ammunition damage[/url] + [[section:clr-attr]STR-MOD[/section]].
 
   - name: Forerunner
-    id: Forerunner
+    id: forerunner
     sp-cost: 10
     requirements: Not surprised
     description: >
       Before the first round, you may take one [url:def#MovementAction]Movement Action[/url].
 
   - name: Grapple Expert
-    id: GrappleExpert
+    id: grapple-expert
     sp-cost: 10
     requirements: –
     description: >
       You can [url:def#Grappling]grapple[/url] foes one-handed. Your free hand may be used to perform [url:def#BasicAttack]basic attacks[/url] against any other targets.
 
   - name: Juggernaut
-    id: Juggernaut
+    id: juggernaut
     sp-cost: 10
     requirements: Heavy armor (torso)
     description: >
       [url:core#Advantage]Advantage 1[/url] on [i][url:skills1#Charge]Charge[/url][/i] and [i][url:skills2#Bodycheck]Bodycheck[/url][/i].
 
   - name: Opportunist
-    id: Opportunist
+    id: opportunist
     sp-cost: 10
     requirements: Melee weapon
     description: >
       When a target leaves your weapon’s reach, you may execute a [url:def#MeleeAttack]melee attack[/url] as a [url:def#Reaction]reaction[/url].
 
   - name: Pack Tactics
-    id: PackTactics
+    id: pack-tactics
     sp-cost: 10
     requirements: –
     description: >
       [url:def#BasicAttack]Basic attacks[/url] against flanked enemies gain [url:core#Advantage]Advantage 1[/url].
 
   - name: Pugilist
-    id: Pugilist
+    id: pugilist
     sp-cost: 10
     requirements: –
     description: >
@@ -90,14 +90,14 @@ content:
       [i](Gloves and glove-like weapons count as “unarmed.”)[/i]
 
   - name: Rock Steady
-    id: RockSteady
+    id: rock-steady
     sp-cost: 10
     requirements: –
     description: >
       Gain [url:core#Advantage]Advantage 1[/url] on [url:def#Block]block[/url] rolls if you did not take a [url:def#MovementAction]Movement Action[/url] on your last turn.
 
   - name: Routine
-    id: Routine
+    id: routine
     sp-cost: 10
     requirements: –
     description: >
@@ -105,14 +105,14 @@ content:
       This value increases by [section:clr-value]2[/section] per [url:core#Advantage]Advantage[/url] stage and decreases by [section:clr-value]2[/section] per [url:core#Disadvantage]Disadvantage[/url] stage.
 
   - name: Shield Wall
-    id: ShieldWall
+    id: shield-wall
     sp-cost: 10
     requirements: Shield; part of a formation
     description: >
       [section:clr-value]+2[/section] to [url:def#Block]block[/url] rolls with shields for each adjacent shield-bearer in the formation.
 
   - name: Sprinter
-    id: Sprinter
+    id: sprinter
     sp-cost: 10
     requirements: Max. medium armor
     description: >

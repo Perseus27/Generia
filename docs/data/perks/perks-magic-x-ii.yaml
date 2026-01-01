@@ -7,10 +7,10 @@ content:
   - subheader:
     is_subheader: True
     name: Arsenalist
-    id: Arsenalist
+    id: arsenalist
 
   - name: Catalysis
-    id: Catalysis
+    id: catalysis
     sp-cost: 10
     requirements: "[url:class2/class-arsenalist]Arsenalist[/url]"
     description: >
@@ -19,10 +19,10 @@ content:
   - subheader:
     is_subheader: True
     name: Skald
-    id: Skald
+    id: skald
 
   - name: Defiance
-    id: Defiance
+    id: defiance
     sp-cost: 20
     requirements: "[url:class2/class-skald]Skald[/url]"
     description: >
@@ -32,10 +32,10 @@ content:
   - subheader:
     is_subheader: True
     name: Medic
-    id: Medic
+    id: medic
 
   - name: Disinfection
-    id: Disinfection
+    id: disinfection
     sp-cost: 10
     requirements: "[url:class2/class-medic]Medic[/url]"
     description: >
@@ -45,10 +45,10 @@ content:
   - subheader:
     is_subheader: True
     name: Summoner
-    id: Summoner
+    id: summoner
 
   - name: Firm Bond
-    id: FirmBond
+    id: firm-bond
     sp-cost: 20
     requirements: "[url:class2/class-summoner]Summoner[/url]"
     description: >
@@ -57,10 +57,10 @@ content:
   - subheader:
     is_subheader: True
     name: Moon Warden
-    id: MoonWarden
+    id: moon-warden
 
   - name: "Luna's Guiding Hand"
-    id: LunasGuidingHand
+    id: lunas-guiding-hand
     sp-cost: 10
     requirements: "[url:class2/class-moon-warden]Moon Warden[/url]"
     description: >
@@ -69,10 +69,10 @@ content:
   - subheader:
     is_subheader: True
     name: Moon Priest
-    id: MoonPriest
+    id: moon-priest
 
   - name: Misereor
-    id: Misereor
+    id: misereor
     sp-cost: 10
     requirements: "[url:class2/class-moon-priest]Moon Priest[/url]"
     description: >
@@ -81,10 +81,10 @@ content:
   - subheader:
     is_subheader: True
     name: Hermetician
-    id: Hermetician
+    id: hermetician
 
   - name: Practiced Hermetician
-    id: PracticedHermetician
+    id: practiced-hermetician
     sp-cost: 20
     requirements: "[url:class2/class-hermetician]Hermetician[/url]"
     description: >
@@ -93,10 +93,10 @@ content:
   - subheader:
     is_subheader: True
     name: Kinetician
-    id: Kinetician
+    id: kinetician
 
   - name: Practiced Kinetician
-    id: PracticedKinetician
+    id: practiced-kinetician
     sp-cost: 20
     requirements: "[url:class2/class-kinetician]Kinetician[/url]"
     description: >
@@ -105,10 +105,10 @@ content:
   - subheader:
     is_subheader: True
     name: Meteorician
-    id: Meteorician
+    id: meteorician
 
   - name: Practiced Meteorician
-    id: PracticedMeteorician
+    id: practiced-meteorician
     sp-cost: 20
     requirements: "[url:class2/class-meteorician]Meteorician[/url]"
     description: >
@@ -117,10 +117,10 @@ content:
   - subheader:
     is_subheader: True
     name: Thermician
-    id: Thermician
+    id: thermician
 
   - name: Practiced Thermician
-    id: PracticedThermician
+    id: practiced-thermician
     sp-cost: 20
     requirements: "[url:class2/class-thermician]Thermician[/url]"
     description: >
@@ -129,10 +129,10 @@ content:
   - subheader:
     is_subheader: True
     name: Sun Envoy
-    id: SunEnvoy
+    id: sun-envoy
 
   - name: Radiant Light
-    id: RadiantLight
+    id: radiant-light
     sp-cost: 10
     requirements: "[url:class2/class-sun-envoy]Sun Envoy[/url]"
     description: >
@@ -141,10 +141,10 @@ content:
   - subheader:
     is_subheader: True
     name: Therianthrope
-    id: Therianthrope
+    id: therianthrope
 
   - name: Second Nature
-    id: SecondNature
+    id: second-nature
     sp-cost: 10
     requirements: "[url:class2/class-therianthrope]Therianthrope[/url]"
     description: >
@@ -153,10 +153,10 @@ content:
   - subheader:
     is_subheader: True
     name: Siren
-    id: Siren
+    id: siren
 
   - name: Seduction
-    id: Seduction
+    id: seduction
     sp-cost: 10
     requirements: "[url:class2/class-siren]Siren[/url]"
     description: >
@@ -165,10 +165,10 @@ content:
   - subheader:
     is_subheader: True
     name: Binder
-    id: Binder
+    id: binder
 
   - name: Spiritual Resilience
-    id: SpiritualResilience
+    id: spiritual-resilience
     sp-cost: 20
     requirements: "[url:class2/class-binder]Binder[/url]"
     description: >
@@ -177,10 +177,10 @@ content:
   - subheader:
     is_subheader: True
     name: Engineer
-    id: Engineer
+    id: engineer
 
   - name: Subroutines
-    id: Subroutines
+    id: subroutines
     sp-cost: 10
     requirements: "[url:class2/class-engineer]Engineer[/url]"
     description: >
@@ -189,10 +189,10 @@ content:
   - subheader:
     is_subheader: True
     name: Treewarden
-    id: Treewarden
+    id: treewarden
 
   - name: "Wildgrowth: Permanence"
-    id: WildgrowthPermanence
+    id: wildgrowth-permanence
     sp-cost: 10
     requirements: "[url:class2/class-treewarden]Treewarden[/url]"
     description: >
@@ -201,10 +201,10 @@ content:
   - subheader:
     is_subheader: True
     name: Assassin
-    id: Assassin
+    id: assassin
 
   - name: Withering Shadows
-    id: WitheringShadows
+    id: withering-shadows
     sp-cost: 10
     requirements: "[url:class2/class-assassin]Assassin[/url]"
     description: >
