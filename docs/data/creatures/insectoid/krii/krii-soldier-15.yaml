@@ -45,7 +45,7 @@ actions:
       type: Melee Attack
       hit: "Hit+7, Block+13|9"
       damage: 2d8+6 Sharp
-      skills: [Aimed Strike, Charge, Feint]
+      skills: [Aimed Strike, Charge, Feint, Whirl]
 
     - name: Shield
       type: Melee Attack
