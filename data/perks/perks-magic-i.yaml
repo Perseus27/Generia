@@ -39,6 +39,13 @@ content:
     description: >
       May concentrate on one additional spell.
 
+  - name: Intensity
+    id: intensity
+    sp-cost: 10
+    requirements: –
+    description: >
+      By spending [section:clr-mp]1 MP[/section] per spell tier, you may make any offensive spell apply a single instance of its [url:core#Explosion]explosion[/url] effect on [url:def#Hit]hit[/url].
+
   - name: Overchannel
     id: overchannel
     sp-cost: 10
