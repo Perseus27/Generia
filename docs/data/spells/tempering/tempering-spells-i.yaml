@@ -25,7 +25,7 @@ defensive:
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
-      - "[b]Strain 1[/b]"
+      - "[b]Strain 2[/b]"
       - "[section:clr-mp]1 MP[/section]"
     description: >
       The Tempered's body becomes significantly denser and more resilient, but fast movement becomes more exhausting.
@@ -42,7 +42,7 @@ defensive:
     type:
       - "[section:clr-surecast]SURECAST[/section]"
     cost:
-      - "[b]Strain 1[/b]"
+      - "[b]Strain 2[/b]"
       - "[section:clr-mp]1 MP[/section]"
     description: >
       The Tempered circulates mana through their skin, increasing their defense in exchange for lowered mobility.
