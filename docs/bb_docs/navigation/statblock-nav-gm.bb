@@ -30,7 +30,7 @@
 [br][url:/generia/stats/creatures/humanoids/ogres]Ogres[/url]
 [br][url:/generia/stats/creatures/humanoids/trolls]Trolls[/url]
 [h4]Insectoids[/h4]
-[url:/generia/stats/creatures/Insectoids/krii]Krii[/url]
+[url:/generia/stats/creatures/insectoids/krii]Krii[/url]
 [h4]Dracids[/h4]
 [url:/generia/stats/creatures/dracids/wyverns]Wyverns[/url]
 [h4]Beasts[/h4]
