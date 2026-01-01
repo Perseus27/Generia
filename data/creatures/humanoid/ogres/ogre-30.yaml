@@ -3,7 +3,7 @@ id: ogre-30
 info:
   species: Ogre
   level: 30
-  size: Large
+  size: Huge
   tags: [Miniboss, [Reflexes, -10], [Resistance, Physical (Torso)], [Tough, 2], [Vulnerability, Lightning]]
 notes: >
   A large, humanoid monster with little intellect, but considerable power.
@@ -19,7 +19,7 @@ values:
   EN: 25
   MP: 5
   MPR: 1
-  WL: 6
+  WL: 8
   WT: 12
   TN: 6
   MS: 6
