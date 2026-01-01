@@ -1,0 +1,107 @@
+name: Krii Soldier, Infantry
+id: krii-soldier-15
+info:
+  species: Krii
+  level: 15
+  size: Large
+  tags: [Nature's Armor, [Immunity, Poison], [Resistance, Sharp], [Vulnerability, Fire/Blunt], Sapient]
+notes: >
+  A regular Krii soldier, armed with a long pike, javelins, and monstrous mandibles. The backbone of any Krii army.
+
+attributes:
+  CON: [9, 4]
+  STR: [10, 5]
+  DEX: [6, 3]
+  INT: [3, 1]
+  WIL: [4, 2]
+  PER: [4, 2]
+values:
+  EN: 20
+  MP: 5
+  MPR: 1
+  WL: 6
+  WT: 8
+  TN: 3
+  MS: 4
+armor:
+  head: 3
+  torso: 5
+  arms: 4
+  legs: 4
+  md: 3
+  enc: 0
+loot:
+  - Resin Pike+1
+  - Resin Roundshield+1
+  - "[section:clr-roll-noex]1d6[/section] Resin Javelins+1"
+  - "[section:clr-roll-noex]1d4[/section] units Krii Acid"
+  - Resin Armor+1
+  - Krii Amulet+3
+  - "[section:clr-roll-noex]1d4[/section] Krii Honey Potion+2, small"
+  - Monster Core, lesser
+actions:
+  active:
+    - name: Pike
+      type: Melee Attack
+      hit: "Hit+7, Block+13|9"
+      damage: 2d8+6 Sharp
+      skills: [Aimed Strike, Charge, Feint]
+
+    - name: Shield
+      type: Melee Attack
+      hit: "Hit+3, Block+11|12"
+      damage: 1d6+7 Blunt
+      skills: [Shield Bash]
+
+    - name: Javelin
+      type: Ranged Attack, Range 16m
+      hit: "Hit+7"
+      damage: 2d6+6 Arrow
+
+    - name: Bite
+      type: Melee Attack
+      hit: "Hit+7"
+      damage: 3d6+5 Sharp
+
+    - name: Acid Fangs
+      type: Reaction
+      effect:
+        - "On [url:def#Hit]hit[/url] with [i]Bite[/i]: Hit zone gets [url:status#Brittle]Brittle 1[/url]."
+        - "If effective AV is [section:clr-value]0[/section], target is [url:status#Poisoned]Poisoned 2[/url] instead."
+      cost: "[section:clr-en]1 EN[/section]"
+
+  passive:
+    - name: Perks
+      type: Passive
+      perks: [Goliath, Opportunist, Shield Wall]
+
+    - name: Proficiencies
+      type: Passive
+      effect:
+        - Polearms [section:clr-value]+4[/section]
+        - Shields [section:clr-value]+2[/section]
+        - Primitive [section:clr-value]+4[/section]
+
+    - name: Climber
+      type: Passive
+      effect:
+        - Can walk on walls like on even ground, and on ceilings like on difficult terrain (i.e., [url:status#Slowed]slowed[/url]).
+
+    - name: Distributed Anatomy
+      type: Passive
+      effect:
+        - Unconsciousness saves caused by [url:wounds]wounds[/url] automatically succeed.
+
+    - name: Ectothermic
+      type: Passive
+      effect:
+        - Saves against [url:status#Chilled]Chilled[/url] have [url:core#Disadvantage]Disadvantage 1[/url].
+
+    - name: Eusocial
+      type: Passive, Radius 16m
+      effect:
+        - If other Krii are present in the radius, saves against mental status effects have [url:core#Advantage]Advantage 1[/url].
+        - If no other Krii are present in the radius, the Krii is permanently [url:status#Confused]Confused[/url].
+
+
+
