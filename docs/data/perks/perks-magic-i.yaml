@@ -38,3 +38,10 @@ content:
     requirements: –
     description: >
       May concentrate on one additional spell.
+
+  - name: Overchannel
+    id: overchannel
+    sp-cost: 10
+    requirements: –
+    description: >
+      Once per Phase, you may as a [url:def#FreeAction]Free Action[/url] gain [[section:clr-value]MPR[/section]] [section:clr-mp]MP[/section] in exchange for one point of [url:values#Exhaustion]Exhaustion[/url].

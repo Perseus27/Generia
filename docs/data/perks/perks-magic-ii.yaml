@@ -4,7 +4,7 @@ prefix: "perksM"
 
 content:
   - name: Astral Body II
-    id: astral-body-i-i
+    id: astral-body-ii
     sp-cost: 20
     requirements: Astral Body I
     description: >
@@ -19,11 +19,18 @@ content:
       At most a number of MP equal to your Wound Treshold (WT) can be replaced in this way.
 
   - name: Focus II
-    id: focus-i-i
+    id: focus-ii
     sp-cost: 20
     requirements: Focus I
     description: >
       May concentrate on one additional spell.
+
+  - name: Precision Casting
+    id: precision-casting
+    sp-cost: 20
+    requirements: –
+    description: >
+      When rolling effect dice for single-target spells, you may reroll [section:clr-value]one[/section] die [section:clr-value]once[/section].
 
   - name: Shield Mage
     id: shield-mage
