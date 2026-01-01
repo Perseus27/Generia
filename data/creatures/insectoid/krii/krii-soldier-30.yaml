@@ -1,0 +1,108 @@
+name: Krii Soldier, Queen's Guard
+id: krii-soldier-30
+info:
+  species: Krii
+  level: 30
+  size: Large
+  tags: [Nature's Armor, [Immunity, Poison], [Resistance, Sharp], [Vulnerability, Fire/Blunt], Sapient]
+notes: >
+  Only the strongest, smartest, fastest, and toughest soldiers are granted the honor to guard the Hive Queen.
+  [br]Every single member of the Queen's Guard is a terrifying opponent and should under no circumstances be underestimated.
+
+attributes:
+  CON: [13, 6]
+  STR: [14, 7]
+  DEX: [9, 4]
+  INT: [6, 3]
+  WIL: [7, 3]
+  PER: [4, 2]
+values:
+  EN: 35
+  MP: 5
+  MPR: 1
+  WL: 6
+  WT: 10
+  TN: 6
+  MS: 6
+armor:
+  head: 7
+  torso: 9
+  arms: 8
+  legs: 8
+  md: 6
+  enc: 0
+loot:
+  - Resin Pike+3
+  - Resin Roundshield+3
+  - "[section:clr-roll-noex]1d6[/section] Resin Javelins+3"
+  - "[section:clr-roll-noex]1d4[/section] units Krii Acid"
+  - Resin Armor+3
+  - Krii Amulet+6
+  - "[section:clr-roll-noex]1d4[/section] Krii Honey Potion+1, large"
+  - Monster Core, normal
+actions:
+  active:
+    - name: Pike
+      type: Melee Attack
+      hit: "Hit+12, Block+17|13"
+      damage: 2d8+10 Sharp
+      skills: [Aimed Strike, Charge, Feint, Mighty Strike]
+
+    - name: Shield
+      type: Melee Attack
+      hit: "Hit+8, Block+19|18"
+      damage: 1d6+10 Blunt
+      skills: [Shield Bash]
+
+    - name: Javelin
+      type: Ranged Attack, Range 16m
+      hit: "Hit+12"
+      damage: 2d6+10 Arrow
+
+    - name: Bite
+      type: Melee Attack
+      hit: "Hit+12"
+      damage: 3d6+7 Sharp
+
+    - name: Acid Fangs
+      type: Reaction
+      effect:
+        - "On [url:def#Hit]hit[/url] with [i]Bite[/i]: Hit zone gets [url:status#Brittle]Brittle 1[/url]."
+        - "If effective AV is [section:clr-value]0[/section], target is [url:status#Poisoned]Poisoned 2[/url] instead."
+      cost: "[section:clr-en]1 EN[/section]"
+
+  passive:
+    - name: Perks
+      type: Passive
+      perks: [Conditioned II, Goliath, Opportunist, Routine, Shield Wall]
+
+    - name: Proficiencies
+      type: Passive
+      effect:
+        - Polearms [section:clr-value]+8[/section]
+        - Shields [section:clr-value]+6[/section]
+        - Primitive [section:clr-value]+8[/section]
+
+    - name: Climber
+      type: Passive
+      effect:
+        - Can walk on walls like on even ground, and on ceilings like on difficult terrain (i.e., [url:status#Slowed]slowed[/url]).
+
+    - name: Distributed Anatomy
+      type: Passive
+      effect:
+        - Unconsciousness saves caused by [url:wounds]wounds[/url] automatically succeed.
+
+    - name: Ectothermic
+      type: Passive
+      effect:
+        - Saves against [url:status#Chilled]Chilled[/url] have [url:core#Disadvantage]Disadvantage 1[/url].
+
+    - name: Eusocial
+      type: Passive, Radius 16m
+      effect:
+        - If other Krii are present in the radius, saves against mental status effects have [url:core#Advantage]Advantage 1[/url].
+        - If no other Krii are present in the radius, the Krii is permanently [url:status#Confused]Confused[/url].
+
+
+

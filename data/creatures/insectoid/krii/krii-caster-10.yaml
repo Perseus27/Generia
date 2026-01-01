@@ -1,0 +1,103 @@
+name: Krii Caster, Neophyte
+id: krii-caster-10
+info:
+  species: Krii
+  level: 10
+  size: Large
+  tags: [[Flying, 8], Freecaster, Nature's Armor, [Immunity, Poison], [Resistance, Sharp], [Vulnerability, Fire/Blunt], Sapient]
+notes: >
+  A recently hatched Krii with a talent for alien soul magic.
+
+attributes:
+  CON: [5, 2]
+  STR: [4, 2]
+  DEX: [6, 3]
+  INT: [5, 2]
+  WIL: [5, 2]
+  PER: [6, 3]
+values:
+  EN: 10
+  MP: 10
+  MPR: 2
+  WL: 6
+  WT: 6
+  TN: 3
+  MS: 4
+armor:
+  head: 1
+  torso: 3
+  arms: 2
+  legs: 2
+  md: 3
+  enc: 0
+loot:
+  - "[section:clr-roll-noex]1d4[/section] units Krii Acid"
+  - Resin Armor+1
+  - Krii Amulet+3
+  - "[section:clr-roll-noex]1d4[/section] Krii Honey Potion+1, small"
+  - Monster Core, lesser
+actions:
+  active:
+    - name: Soul Spike
+      type: Spell Attack, Range 20m
+      hit: "[section:clr-sa]SA +7[/section]"
+      damage: 2d4+4 Absolute
+      save: "Save WIL/+10: Damage halved/No effect."
+      cost: "[section:clr-mp]1 MP[/section]"
+
+    - name: Confuse
+      type: Utility, Range 20m
+      hit: "[section:clr-dc]DC 17[/section]"
+      effect:
+        - "[url:status#Confused]Confused[/url]."
+      save: "Save [section:clr-attr]INT[/section]: No effect."
+      cost: "[section:clr-mp]1 MP[/section]"
+
+    - name: Bite
+      type: Melee Attack
+      hit: "Hit+7"
+      damage: 3d6+2 Sharp
+
+    - name: Acid Fangs
+      type: Reaction
+      effect:
+        - "On [url:def#Hit]hit[/url] with [i]Bite[/i]: Hit zone gets [url:status#Brittle]Brittle 1[/url]."
+        - "If effective AV is [section:clr-value]0[/section], target is [url:status#Poisoned]Poisoned 2[/url] instead."
+      cost: "[section:clr-en]1 EN[/section]"
+
+  passive:
+    - name: Perks
+      type: Passive
+      perks: [Battle Meditation]
+
+    - name: Proficiencies
+      type: Passive
+      effect:
+        - Soul [section:clr-value]+4[/section] ([section:clr-attr]PER[/section])
+        - Primitive [section:clr-value]+4[/section]
+
+    - name: Climber
+      type: Passive
+      effect:
+        - Can walk on walls like on even ground, and on ceilings like on difficult terrain (i.e., [url:status#Slowed]slowed[/url]).
+
+    - name: Distributed Anatomy
+      type: Passive
+      effect:
+        - Unconsciousness saves caused by [url:wounds]wounds[/url] automatically succeed.
+
+    - name: Ectothermic
+      type: Passive
+      effect:
+        - Saves against [url:status#Chilled]Chilled[/url] have [url:core#Disadvantage]Disadvantage 1[/url].
+
+    - name: Eusocial
+      type: Passive, Radius 16m
+      effect:
+        - If other Krii are present in the radius, saves against mental status effects have [url:core#Advantage]Advantage 1[/url].
+        - If no other Krii are present in the radius, the Krii is permanently [url:status#Confused]Confused[/url].
+
+    - name: Psychic Node
+      type: Passive, Radius 16m
+      effect:
+        - All Krii in the vicinity may use the Caster's mental attribute MODs for saves.
