@@ -54,7 +54,7 @@ inventory:
   armor:
     - name: "Leather Helmet+1"
     - name: "Cloth Armor+2"
-      enchantment: "[section:clr-bonus]RES [i]Slashing[/i][/section]"
+      enchantment: "[section:clr-bonus]RES [i]Sharp[/i][/section]"
     - name: "Leather Gauntlets+2"
     - name: "Padded Greaves+1"
       enchantment: "[section:clr-bonus]DEX+1[/section]"
