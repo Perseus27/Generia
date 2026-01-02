@@ -33,7 +33,7 @@ values:
   MS: 6
 armor:
   head: 3
-  torso: 7
+  torso: 5
   arms: 5
   legs: 3
   md: 3
@@ -53,7 +53,8 @@ inventory:
       damage: "2d6"
   armor:
     - name: "Leather Helmet+1"
-    - name: "Leather Armor+2"
+    - name: "Cloth Armor+2"
+      enchantment: "[section:clr-bonus]RES [i]Slashing[/i][/section]"
     - name: "Leather Gauntlets+2"
     - name: "Padded Greaves+1"
       enchantment: "[section:clr-bonus]DEX+1[/section]"
