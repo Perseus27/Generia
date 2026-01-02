@@ -7,14 +7,14 @@ info:
   classes: [Nox, Archer]
   tags: [–]
 notes: >
-  635 XP
+  1000 XP
   [br]
   [br]85 SP Base
   [br]+10 Bonus
-  [br]+5 Challenge
+  [br]+10 Challenge
   [br]+5 Lv5 Boss
   [br]== 105 Total
-  [br]REST 1
+  [br]REST 6
 
 attributes:
   CON: [5, 2]
