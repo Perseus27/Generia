@@ -4,7 +4,6 @@ import yaml
 import sys
 sys.path.append("logic")
 
-from test_renderer import Test_Renderer
 from character_renderer import Character_Renderer
 from creature_renderer import Creature_Renderer
 from class_renderer import Class_Renderer
