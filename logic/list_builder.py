@@ -45,6 +45,56 @@ class List_Builder:
             result += "[/ul]"
         return result
     
+    def build_list_with_subitems(self, input_list, supercontainer = False, list_type="ul"):
+        result = ""
+        if list_type == "ul":
+            result += "[ul]"
+
+        for x in input_list:
+            if supercontainer == "creature-action":
+                result += "[container:creature-action-container]"
+
+            if list_type == "ul":
+                result += "[li]"
+
+            for subitem in x:
+                #result+=subitem
+                if subitem == "name":
+                    if supercontainer == "creature-action":
+                        result += "[section:creature-action-name]"+x.get(subitem)+"[/section]"
+                    else:
+                        result += x.get(subitem)
+                elif subitem == "type" and supercontainer == "creature-action":
+                    result += "[br][section:creature-action-type]"+x.get(subitem)+"[/section]"
+                elif subitem == "damage":
+                    result += f"[container:subitem][section:clr-roll]{x.get(subitem)}[/section][/container]"
+                elif subitem == "hit":
+                    result += f"[container:subitem][section:clr-hit]{x.get(subitem)}[/section][/container]"
+                elif subitem == "skills":
+                    result += f"[container:subitem]{self.build_list(x.get(subitem), to_link ='skill', list_type='comma')}[/container]"
+                elif subitem == "perks":
+                    result += f"[container:subitem]{self.build_list(x.get(subitem), to_link ='perk', list_type='comma')}[/container]"
+                elif subitem == "effect":
+                    y = x.get(subitem)
+                    if isinstance(y, list):
+                        for z in y:
+                            result += f"[container:subitem]{z}[/container]"
+                    else:
+                        result += f"[container:subitem]{y}[/container]"
+                else:
+                    result += "[container:subitem]"+x.get(subitem)+"[/container]"
+
+            if list_type == "ul":
+                result += "[/li]"
+
+            if supercontainer:
+                result += "[/container]"
+
+            
+        if list_type == "ul":
+            result += "[/ul]"
+        return result
+    
 
 
     def get_link(self, s, to_link):

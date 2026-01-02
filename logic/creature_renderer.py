@@ -12,15 +12,13 @@ class Creature_Renderer:
     BB_HELPER = BB_Renderer()
     
     def __init__(self, yaml_input, autolinker):
-        self.yaml_input = yaml_input;
-        self.html_output = ""
+        self.yaml_input = yaml_input
         self.autolinker = autolinker
         self.list_builder = List_Builder(autolinker)
 
 
     def get_output(self):
-        self.format_to_html()
-        return self.html_output
+        return self.format_to_html()
 
     def format_attributes(self):
         all_attributes = self.yaml_input.get("attributes", {})
@@ -127,8 +125,8 @@ class Creature_Renderer:
 
     def format_actions(self):
         all_items = self.yaml_input.get("actions", {})
-        actions = self.build_actions_from_category(all_items.get("active", {}))
-        passives = self.build_actions_from_category(all_items.get("passive", {}))
+        actions = self.list_builder.build_list_with_subitems(all_items.get("active", {}), supercontainer = "creature-action", list_type="br")
+        passives = self.list_builder.build_list_with_subitems(all_items.get("passive", {}), supercontainer = "creature-action", list_type="br")
         return {"active":self.BB_HELPER.process(actions), "passive":self.BB_HELPER.process(passives)}
     
     def format_loot(self):
@@ -185,56 +183,4 @@ class Creature_Renderer:
 </div>
         """
         #result = self.format_attributes()
-        self.html_output = result
-    
-    def build_list_of_items_of_category(self, input_category):
-        list_start = "[ul]"
-        list_end = "[/ul]"
-        #return input_category
-        result = list_start
-        if len(input_category):
-            for x in input_category:
-                result += "[li]"
-                first = True
-                for subitem in x:
-                    if first:
-                        first = False
-                    else:
-                        result += "[br]  "
-                    result += x.get(subitem)
-                result += "[/li]"
-        else:
-            result += "[li][/li]"
-        result += list_end
-        return result
-    
-    def build_actions_from_category(self, input_category):
-        result = ""
-        if len(input_category):
-            for x in input_category:
-                result += "[container:creature-action-container]"
-                for subitem in x:
-                    #result+=subitem
-                    if subitem == "name":
-                        result += "[section:creature-action-name]"+x.get(subitem)+"[/section]"
-                    elif subitem == "type":
-                        result += "[br][section:creature-action-type]"+x.get(subitem)+"[/section]"
-                    elif subitem == "damage":
-                        result += f"[container:subitem][section:clr-roll]{x.get(subitem)}[/section][/container]"
-                    elif subitem == "hit":
-                        result += f"[container:subitem][section:clr-hit]{x.get(subitem)}[/section][/container]"
-                    elif subitem == "skills":
-                        result += f"[container:subitem]{self.list_builder.build_list(x.get(subitem), to_link ='skill', list_type='comma')}[/container]"
-                    elif subitem == "perks":
-                        result += f"[container:subitem]{self.list_builder.build_list(x.get(subitem), to_link ='perk', list_type='comma')}[/container]"
-                    elif subitem == "effect":
-                        y = x.get(subitem)
-                        if isinstance(y, list):
-                            for z in y:
-                                result += f"[container:subitem]{z}[/container]"
-                        else:
-                            result += f"[container:subitem]{y}[/container]"
-                    else:
-                        result += "[container:subitem]"+x.get(subitem)+"[/container]"
-                result += "[/container]"
         return result

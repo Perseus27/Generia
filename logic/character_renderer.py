@@ -13,14 +13,12 @@ class Character_Renderer:
     
     def __init__(self, yaml_input, autolinker):
         self.yaml_input = yaml_input
-        self.html_output = ""
         self.autolinker = autolinker
         self.list_builder = List_Builder(autolinker)
 
 
     def get_output(self):
-        self.format_to_html()
-        return self.html_output
+        return self.format_to_html()
 
     def format_attributes(self):
         all_attributes = self.yaml_input.get("attributes", {})
@@ -133,9 +131,9 @@ class Character_Renderer:
 
     def format_items(self):
         all_items = self.yaml_input.get("inventory")
-        weapons = self.build_list_of_items_of_category(all_items.get("weapons"))
-        armor = self.build_list_of_items_of_category(all_items.get("armor"))
-        misc = self.build_list_of_items_of_category(all_items.get("misc"))
+        weapons = self.list_builder.build_list_with_subitems(all_items.get("weapons"))
+        armor = self.list_builder.build_list_with_subitems(all_items.get("armor"))
+        misc = self.list_builder.build_list_with_subitems(all_items.get("misc"))
         items_formatted = {"weapons" : self.BB_HELPER.process(weapons), "armor" : self.BB_HELPER.process(armor), "misc" : self.BB_HELPER.process(misc)}
         return items_formatted
 
@@ -264,30 +262,4 @@ class Character_Renderer:
 </div>
         """
         #result = self.format_attributes()
-        self.html_output = result
-    
-    def build_list_of_items_of_category(self, input_category):
-        list_start = "[ul]"
-        list_end = "[/ul]"
-        #return input_category
-        result = list_start
-        if len(input_category):
-            for x in input_category:
-                result += "[li]"
-                first = True
-                for subitem in x:
-                    if first:
-                        first = False
-                    else:
-                        result += "[br]  "
-                    if subitem == "damage":
-                        result += f"[section:clr-roll]{x.get(subitem)}[/section]"
-                    elif subitem == "hit":
-                        result += f"[section:clr-hit]{x.get(subitem)}[/section]"
-                    else:
-                        result += x.get(subitem)
-                result += "[/li]"
-        else:
-            result += "[li][/li]"
-        result += list_end
         return result
