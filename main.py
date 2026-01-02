@@ -32,10 +32,6 @@ def define_env(env):
         return {name:getattr(env, name) for name in dir(env) if not name.startswith('_')}
     
     @env.macro
-    def test_autolinker(spellname: str):
-        return Test_Renderer().autolink_test(spellname)
-    
-    @env.macro
     def character(path: str):
         yaml_content = _read_yaml(path)
         return Character_Renderer(yaml_content, autolinker).get_output()
@@ -74,11 +70,6 @@ def define_env(env):
     def spells(path: str):
         yaml_content = _read_yaml(path)
         return Spell_Renderer(yaml_content).get_output()
-
-    @env.macro
-    def test_block(path: str):
-        yaml_content = _read_yaml(path)
-        return Test_Renderer(yaml_content).get_output()
 
     @env.macro
     def bb(text: str):
