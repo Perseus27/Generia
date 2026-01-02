@@ -101,7 +101,7 @@ class Character_Renderer:
         if isinstance(species, list):
             species = self.format_list_comma(i.get("species"), to_link="perk")
         else:
-            species = f"[url:{self.autolinker.link_tag(species)}]{species}[/url]"
+            species = f"[url:{self.autolinker.link_perk(species)}]{species}[/url]"
         size = i.get("size")
         class_list = self.format_list_comma(i.get("classes"), to_link="class")
         tag_list = self.format_list_comma(i.get("tags"), to_link="tag")
