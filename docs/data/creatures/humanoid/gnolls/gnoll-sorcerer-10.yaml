@@ -42,7 +42,7 @@ actions:
     - name: Frenzy
       type: Utility, 16m Radius
       effect:
-        - Nearby gnolls gain [url:status#AttackBonus]Attack Bonus 6[/url] and [url:status#DefenseMalus]Defense Malus 2[/url].
+        - Nearby gnolls gain [url:status#AttackBonus]Attack Bonus 6[/url] and [url:status#DefenseMalus]Defense Malus 4[/url].
       cost: "[section:clr-mp]2 MP[/section]"
     - name: Blood Sacrifice
       type: Utility
