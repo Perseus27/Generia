@@ -1,5 +1,7 @@
 from bb_renderer import BB_Renderer
 
+from list_builder import List_Builder
+
 class Character_Renderer:
     
     ATTRIBUTE_ORDER = ["CON", "STR", "DEX", "INT", "WIL", "PER"]
@@ -13,6 +15,7 @@ class Character_Renderer:
         self.yaml_input = yaml_input
         self.html_output = ""
         self.autolinker = autolinker
+        self.list_builder = List_Builder(autolinker)
 
 
     def get_output(self):
@@ -99,12 +102,12 @@ class Character_Renderer:
         i = self.yaml_input.get("info", {})
         species = i.get("species")
         if isinstance(species, list):
-            species = self.format_list_comma(i.get("species"), to_link="perk")
+            species = self.list_builder.build_list(i.get("species"), to_link="perk", list_type="comma")
         else:
-            species = f"[url:{self.autolinker.link_perk(species)}]{species}[/url]"
+            species = f"[url:{self.autolinker.link_perk(species)}]{species}[/url]"        
         size = i.get("size")
-        class_list = self.format_list_comma(i.get("classes"), to_link="class")
-        tag_list = self.format_list_comma(i.get("tags"), to_link="tag")
+        class_list = self.list_builder.build_list(i.get("classes"), to_link="class", list_type="comma")
+        tag_list = self.list_builder.build_list(i.get("tags"), to_link="tag", list_type="commabr")
         info_bb = f"""
 [table][tr][td][b]Species:[/b][/td]
 [td]{species}[/td]
@@ -117,10 +120,8 @@ class Character_Renderer:
 [/tr]
 [/table]
 [container:chara-info-container]
-[br]
 [b]Classes:[/b]
 [br]{class_list}
-[br]
 [br][b]Tags:[/b]
 [br]{tag_list}
 [/container]
@@ -140,25 +141,25 @@ class Character_Renderer:
 
     def format_proficiencies(self):
         all_proficiencies = self.yaml_input.get("proficiencies")
-        magic = self.build_list_from_list(all_proficiencies.get("magic"))
-        weapons = self.build_list_from_list(all_proficiencies.get("weapons"))
-        civilian = self.build_list_from_list(all_proficiencies.get("civilian"))
+        magic = self.list_builder.build_list(all_proficiencies.get("magic"))
+        weapons = self.list_builder.build_list(all_proficiencies.get("weapons"))
+        civilian = self.list_builder.build_list(all_proficiencies.get("civilian"))
         proficiencies_formatted = {"magic" : self.BB_HELPER.process(magic), "weapons" : self.BB_HELPER.process(weapons), "civilian" : self.BB_HELPER.process(civilian)}
         return proficiencies_formatted
     
     def format_actions(self):
         all_actions = self.yaml_input.get("actions")
-        skills = self.build_list_with_autolink(all_actions.get("skills"), "skill")
-        spells = self.build_list_with_autolink(all_actions.get("spells"), "spell")
-        rituals = self.build_list_with_autolink(all_actions.get("rituals"), "spell")
+        skills = self.list_builder.build_list(all_actions.get("skills"), to_link="skill")
+        spells = self.list_builder.build_list(all_actions.get("spells"), to_link="spell")
+        rituals = self.list_builder.build_list(all_actions.get("rituals"), to_link="spell")
         actions_formatted = {"skills" : self.BB_HELPER.process(skills), "spells" : self.BB_HELPER.process(spells), "rituals" : self.BB_HELPER.process(rituals)}
         return actions_formatted
 
     def format_perks(self):
         all_perks = self.yaml_input.get("perks")
-        special_perks_bb = self.build_list_with_autolink(all_perks.get("special"), "perk")
-        combat_perks_bb = self.build_list_with_autolink(all_perks.get("combat"), "perk")
-        magic_perks_bb = self.build_list_with_autolink(all_perks.get("magic"), "perk")
+        special_perks_bb = self.list_builder.build_list(all_perks.get("special"), to_link="perk")
+        combat_perks_bb = self.list_builder.build_list(all_perks.get("combat"), to_link="perk")
+        magic_perks_bb = self.list_builder.build_list(all_perks.get("magic"), to_link="perk")
         perks_formatted = {"special" : self.BB_HELPER.process(special_perks_bb), "combat" : self.BB_HELPER.process(combat_perks_bb), "magic" : self.BB_HELPER.process(magic_perks_bb)}
         return perks_formatted
 
@@ -264,29 +265,6 @@ class Character_Renderer:
         """
         #result = self.format_attributes()
         self.html_output = result
-
-
-    def build_list_from_list(self, input_list, autolink = False):
-        list_start = "[ul]"
-        list_end = "[/ul]"
-        result = list_start
-        if len(input_list):
-            for x in input_list:
-                link = False
-                if autolink == "perk":
-                    pass
-                elif autolink == "skill":
-                    pass
-                elif autolink == "spell":
-                    link = self.autolinker.link_spell(x)
-                if link:
-                    result += "[li][url:"+link+"]"+x+"[/url][/li]"
-                else:
-                    result += "[li]"+x+"[/li]"
-        else:
-            result += "[li][/li]"
-        result += list_end
-        return result
     
     def build_list_of_items_of_category(self, input_category):
         list_start = "[ul]"
@@ -312,71 +290,4 @@ class Character_Renderer:
         else:
             result += "[li][/li]"
         result += list_end
-        return result
-    
-
-    def build_list_with_autolink(self, input_list, link_type):
-        list_start = "[ul]"
-        list_end = "[/ul]"
-        result = list_start
-        if len(input_list):
-            for x in input_list:
-                if isinstance(x, list):
-                    to_link = x[0]
-                else:
-                    to_link = x
-                if link_type == "perk":
-                    link = self.autolinker.link_perk(to_link)
-                elif link_type == "skill":
-                    link = self.autolinker.link_skill(to_link)
-                elif link_type == "spell":
-                    link = self.autolinker.link_spell(to_link)
-                if isinstance(x, list):
-                    if link:
-                        result += f"[li][url:{link}]{x[0]}[/url] {x[1]}[/li]"
-                    else:
-                        result += f"{x[0]} {x[1]}"
-                else:
-                    if link:
-                        result += f"[li][url:{link}]{x}[/url][/li]"
-                    else:
-                        result += f"[li]{x}[/li]"
-
-        result += list_end
-        return result
-
-    def format_list_comma(self, input_list, to_link=False):
-        result = ""
-        first = True
-        for i in input_list:
-            list_flag = False
-            if first:
-                first = False
-            else:
-                result += ", "
-            if isinstance(i, list):
-                first_part = i[0]
-                second_part = i[1]
-                i = first_part
-                list_flag = True
-            if to_link:
-                link = False
-                if to_link == "class":
-                    link = self.autolinker.link_class(i)
-                elif to_link == "perk":
-                    link = self.autolinker.link_perk(i)
-                elif to_link == "tag":
-                    link = self.autolinker.link_tag(i)
-                if link:
-                    if list_flag:
-                        result += f"[url:{link}]{first_part}[/url] {second_part}"
-                    else:
-                        result += f"[url:{link}]{i}[/url]"
-                else:
-                    if list_flag:
-                        result += f"{first_part} {second_part}"
-                    else:
-                        result += i
-            else:
-                result += i
         return result

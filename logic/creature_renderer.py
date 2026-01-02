@@ -1,5 +1,7 @@
 from bb_renderer import BB_Renderer
 
+from list_builder import List_Builder
+
 class Creature_Renderer:
     
     ATTRIBUTE_ORDER = ["CON", "STR", "DEX", "INT", "WIL", "PER"]
@@ -13,6 +15,7 @@ class Creature_Renderer:
         self.yaml_input = yaml_input;
         self.html_output = ""
         self.autolinker = autolinker
+        self.list_builder = List_Builder(autolinker)
 
 
     def get_output(self):
@@ -99,7 +102,7 @@ class Creature_Renderer:
         i = self.yaml_input.get("info", {})
         species = i.get("species")
         size = i.get("size")
-        tag_list = self.format_list_comma(i.get("tags"), to_link="tag")
+        tag_list = self.list_builder.build_list(i.get("tags"), to_link="tag", list_type="commabr")
         info_bb = f"""
 [table][tr][td][b]Species:[/b][/td]
 [td][url:{self.autolinker.link_perk(species)}]{species}[/url][/td]
@@ -112,8 +115,7 @@ class Creature_Renderer:
 [/tr]
 [/table]
 [container:creature-info-container]
-[br]
-[br][b]Tags:[/b]
+[b]Tags:[/b]
 [br]{tag_list}
 [/container]
         """
@@ -130,7 +132,7 @@ class Creature_Renderer:
         return {"active":self.BB_HELPER.process(actions), "passive":self.BB_HELPER.process(passives)}
     
     def format_loot(self):
-        return self.BB_HELPER.process(self.build_list_from_array(self.yaml_input.get("loot")))
+        return self.BB_HELPER.process(self.list_builder.build_list(self.yaml_input.get("loot")))
 
 
     def format_to_html(self):
@@ -184,19 +186,6 @@ class Creature_Renderer:
         """
         #result = self.format_attributes()
         self.html_output = result
-
-
-    def build_list_from_array(self, input_array):
-        list_start = "[ul]"
-        list_end = "[/ul]"
-        result = list_start
-        if len(input_array):
-            for x in input_array:
-                result += "[li]"+x+"[/li]"
-        else:
-            result += "[li][/li]"
-        result += list_end
-        return result
     
     def build_list_of_items_of_category(self, input_category):
         list_start = "[ul]"
@@ -231,59 +220,21 @@ class Creature_Renderer:
                     elif subitem == "type":
                         result += "[br][section:creature-action-type]"+x.get(subitem)+"[/section]"
                     elif subitem == "damage":
-                        result += f"[container:creature-action-subitem][section:clr-roll]{x.get(subitem)}[/section][/container]"
+                        result += f"[container:subitem][section:clr-roll]{x.get(subitem)}[/section][/container]"
                     elif subitem == "hit":
-                        result += f"[container:creature-action-subitem][section:clr-hit]{x.get(subitem)}[/section][/container]"
+                        result += f"[container:subitem][section:clr-hit]{x.get(subitem)}[/section][/container]"
                     elif subitem == "skills":
-                        result += f"[container:creature-action-subitem]{self.format_list_comma(x.get(subitem), 'skill')}[/container]"
+                        result += f"[container:subitem]{self.list_builder.build_list(x.get(subitem), to_link ='skill', list_type="comma")}[/container]"
                     elif subitem == "perks":
-                        result += f"[container:creature-action-subitem]{self.format_list_comma(x.get(subitem), 'perk')}[/container]"
+                        result += f"[container:subitem]{self.list_builder.build_list(x.get(subitem), to_link ='perk', list_type="comma")}[/container]"
                     elif subitem == "effect":
                         y = x.get(subitem)
                         if isinstance(y, list):
                             for z in y:
-                                result += f"[container:creature-action-subitem]{z}[/container]"
+                                result += f"[container:subitem]{z}[/container]"
                         else:
-                            result += f"[container:creature-action-subitem]{y}[/container]"
+                            result += f"[container:subitem]{y}[/container]"
                     else:
-                        result += "[container:creature-action-subitem]"+x.get(subitem)+"[/container]"
+                        result += "[container:subitem]"+x.get(subitem)+"[/container]"
                 result += "[/container]"
-        return result
-
-    def format_list_comma(self, input_list, to_link=False):
-        result = ""
-        first = True
-        for i in input_list:
-            list_flag = False
-            if first:
-                first = False
-            else:
-                result += ", "
-            if isinstance(i, list):
-                first_part = i[0]
-                second_part = i[1]
-                i = first_part
-                list_flag = True
-            if to_link:
-                link = False
-                if to_link == "class":
-                    link = self.autolinker.link_class(i)
-                elif to_link == "tag":
-                    link = self.autolinker.link_tag(i)
-                elif to_link == "skill":
-                    link = self.autolinker.link_skill(i)
-                elif to_link == "perk":
-                    link = self.autolinker.link_perk(i)
-                if link:
-                    if list_flag:
-                        result += f"[url:{link}]{first_part}[/url] {second_part}"
-                    else:
-                        result += f"[url:{link}]{i}[/url]"
-                else:
-                    if list_flag:
-                        result += f"{first_part} {second_part}"
-                    else:
-                        result += i                    
-            else:
-                result += i
         return result

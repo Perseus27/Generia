@@ -31,14 +31,14 @@
     font-size: 0.6rem;
     line-height: 1em;
     float: left;
-    width: 30%;}
+    width: 40%;}
 .creature-info-container {
     margin-left: 0.5em;
 }
 .creature-notes {
     font-size: 0.5rem;
     float: left;
-    width: 70%;}
+    width: 60%;}
 
 .creature-content-body {
     display: flex;
