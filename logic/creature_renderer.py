@@ -224,9 +224,9 @@ class Creature_Renderer:
                     elif subitem == "hit":
                         result += f"[container:subitem][section:clr-hit]{x.get(subitem)}[/section][/container]"
                     elif subitem == "skills":
-                        result += f"[container:subitem]{self.list_builder.build_list(x.get(subitem), to_link ='skill', list_type="comma")}[/container]"
+                        result += f"[container:subitem]{self.list_builder.build_list(x.get(subitem), to_link ='skill', list_type='comma')}[/container]"
                     elif subitem == "perks":
-                        result += f"[container:subitem]{self.list_builder.build_list(x.get(subitem), to_link ='perk', list_type="comma")}[/container]"
+                        result += f"[container:subitem]{self.list_builder.build_list(x.get(subitem), to_link ='perk', list_type='comma')}[/container]"
                     elif subitem == "effect":
                         y = x.get(subitem)
                         if isinstance(y, list):
