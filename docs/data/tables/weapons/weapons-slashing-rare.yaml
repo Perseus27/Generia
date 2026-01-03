@@ -24,7 +24,7 @@ items:
   rarity: 3
   tags:
     - - Blockbreaker
-      - 1
+      - 1.0
     - Short
 
 - name: Nord Axe

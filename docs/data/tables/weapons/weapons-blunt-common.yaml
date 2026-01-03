@@ -24,7 +24,7 @@ items:
   rarity: 1
   tags:
     - - Blockbreaker
-      - 1
+      - 1.0
 
 - name: Great Mace
   type: Club
@@ -37,7 +37,7 @@ items:
   rarity: 2
   tags:
     - - Blockbreaker
-      - 1
+      - 1.0
     - Two-Handed
 
 - name: Knobbed Mace
@@ -51,7 +51,7 @@ items:
   rarity: 1
   tags:
     - - Blockbreaker
-      - 1
+      - 1.0
 
 - name: Hand Hammer
   type: Hammer
@@ -64,7 +64,7 @@ items:
   rarity: 1
   tags:
     - - Blockbreaker
-      - 1
+      - 1.0
     - Short
 
 - name: Sledgehammer
@@ -78,7 +78,7 @@ items:
   rarity: 2
   tags:
     - - Blockbreaker
-      - 2
+      - 2.0
     - Two-Handed
 
 - name: War Hammer
@@ -92,7 +92,7 @@ items:
   rarity: 2
   tags:
     - - Blockbreaker
-      - 1
+      - 1.0
     - Two-Handed
   
 - name: Quarterstaff
