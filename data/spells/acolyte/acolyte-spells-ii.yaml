@@ -199,6 +199,6 @@ ritual:
       - "[section:clr-ritual]RITUAL[/section]"
     cast_time: ½ Phase
     description: >
-      Grants the caster and up to [i]Sol[/i] additional targets the ability to see in darkness up to [i]Sol×2[/i] meters.
+      Grants the caster and up to [i]Sol[/i] additional targets the ability to see in darkness up to [i]Sol×2[/i] meters and sharpens their eyesight.
     effect: >
-      [i]Sol×2[/i] meters darkvision; targets’ PER-related origin value increased by [i]Sol[/i].
+      [i]Sol×2[/i] meters darkvision; [section:clr-attr]PER-MOD[/section] increased by [i]Sol[/i].
