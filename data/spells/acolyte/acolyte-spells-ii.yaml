@@ -198,7 +198,9 @@ ritual:
     type:
       - "[section:clr-ritual]RITUAL[/section]"
     cast_time: ½ Phase
+    material: "Sunstone (optional)"
     description: >
-      Grants the caster and up to [i]Sol[/i] additional targets the ability to see in darkness up to [i]Sol×2[/i] meters and sharpens their eyesight.
+      Grants the caster and up to [[section:clr-value]Sol[/section]] additional targets the ability to see in darkness up to [[section:clr-value]Sol×2[/section]] meters and sharpens their eyesight.
+      [br][b]Sunstone:[/b] Does not require Concentration. Duration is set to [section:clr-value]1 Phase[/section].
     effect: >
-      [i]Sol×2[/i] meters darkvision; [section:clr-attr]PER-MOD[/section] increased by [i]Sol[/i].
+      [[section:clr-value]Sol×2[/section]] meters darkvision; [section:clr-attr]PER-MOD[/section] increased by [i]Sol[/i].
