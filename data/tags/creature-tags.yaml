@@ -21,8 +21,10 @@ content:
   - name: Immunity
 
   - name: Resistance
+    alias: ["Res."]
 
   - name: Vulnerability
+    alias: ["Vuln."]
 
   - name: Mindless
 
