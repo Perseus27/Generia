@@ -57,3 +57,34 @@ The weight of worn torso armor is ignored. [url:core#Advantage]Advantage 1[/url]
 [h4]Unyielding[/h4]
 [url:core#Advantage]Advantage 1[/url] on all [section:clr-save]Saves[/section] against magic.
 [/container]
+
+
+[h1]Non-Playable Species[/h1]
+[section:clr-malus]These species are intended only for (usually hostile) NPCs. They are not available to player characters unless party and GM explicitly consent.[/section]
+[br]Instead of two combinable perks, these species get a list of [i]Features[/i] that apply to each individual, unless the creature notes say otherwise.
+
+[container:orgblock]
+[h2|Demon]Demon[/h2]
+A denizen of the Void Between Worlds with an unrelenting drive to consume the souls of all living things. May or may not be sapient.
+[h4]Features[/h4]
+[ul]
+[li][url:#Vulnerability]Vulnerability[/url] Light[/li]
+[li][url:#Immunity]Immunity[/url] Void[/li]
+[li][url:#Immunity]Immunity[/url] [url:status#Unconscious]Unconsciousness[/url][/li]
+[li]Incoming [section:clr-heal]Healing[/section] has no effect.[/li]
+[li]Can only regenerate [section:clr-en]EN[/section] and wounds by consuming souled creatures.[/li]
+[/ul]
+[/container]
+
+[container:orgblock]
+[h2|Undead]Undead[/h2]
+An unsouled corpse, reanimated through demonic rituals. May or may not be sapient.
+[h4]Features[/h4]
+[ul]
+[li][url:#Vulnerability]Vulnerability[/url] Blunt, Light, Fire[/li]
+[li][url:#Resistance]Resistance[/url] Arrow, Ice, Lightning, Void[/li]
+[li][url:#Immunity]Immunity[/url] [url:status#Bleeding]Bleeding[/url], [url:status#Poisoned]Poisoned[/url][/li]
+[li]Incoming [section:clr-heal]Healing[/section] has no effect.[/li]
+[li]Can only regenerate [section:clr-en]EN[/section] and wounds by consuming souled creatures, or to a lesser extent, fresh biomass.[/li]
+[/ul]
+[/container]
