@@ -307,6 +307,7 @@ Ghoul plague always has a [b][section:clr-dc]DC[/section][/b] of [section:clr-va
 [section:clr-support]SUPPORT[/section]
 [br]Incoming damage type [i][b]X[/b][/i] is negated for [i][b]Y[/b][/i] rounds.
 [br][i][b]Example immunities:[/b] Fire, Ice, Magical, Sharp, Blunt, Physical[/i]
+[br]if a status effect (e.g., [url:#Poisoned]Poisoned[/url], [url:#Frightened]Frightened[/url]) is specified instead of a damage type, the creature cannot be affected with this status effect.
 [/container]
 
 [container:statusblock]
