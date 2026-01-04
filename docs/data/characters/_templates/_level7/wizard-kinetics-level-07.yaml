@@ -1,5 +1,5 @@
-name: "Level 7 – Wizard (Meteorics)"
-id: wizard-meteorics-7
+name: "Level 7 – Wizard (Kinetics)"
+id: wizard-kinetics-level-07
 info:
   species: Human
   level: 7
@@ -7,7 +7,7 @@ info:
   classes: [Wizard]
   tags: [–]
 notes: >
-  [br]Classes: Wizard (Meteorics)
+  [br]Classes: Wizard (Kinetics)
   [br]50 SP Total
   [br]Rest 0
 
@@ -54,19 +54,19 @@ actions:
     - ""
   spells:
     - "Mana Beam I"
-    - "Meteoric Bolt I"
-    - "Discharge"
-    - "Arcane Barrier I"
-    - "Lightning Step"
+    - "Kinetic Bolt I"
+    - "Kinetic Barrier I"
+    - "Tensile Shield I"
+    - "Water Veil"
   rituals: 
     - "Hermetic Manipulation"
-    - "Meteoric Manipulation"
+    - "Kinetic Manipulation"
 proficiencies:
   magic:
     - "Hermetics: Beginner"
     - "[i]Arcane 1[/i]"
-    - "Meteorics: Beginner"
-    - "[i]Lightning 2[/i]"
+    - "Kinetics: Beginner"
+    - "[i]Water 2[/i]"
   weapons:
     - ""
   civilian:

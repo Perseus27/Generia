@@ -1,17 +1,17 @@
-name: Deer 5
-id: deer-5
+name: Hare 5
+id: hare-05
 info:
   species: Beast
   level: 5
-  size: Medium
+  size: Small
   tags: [Natural Defenses, [Tough, 1]]
 notes: >
   –
 
 attributes:
-  CON: [3, 1]
-  STR: [2, 1]
-  DEX: [7, 3]
+  CON: [1, 0]
+  STR: [1, 0]
+  DEX: [8, 4]
   INT: [1, 0]
   WIL: [1, 0]
   PER: [4, 2]
@@ -19,25 +19,31 @@ values:
   EN: 5
   MP: 5
   MPR: 1
-  WL: 3
-  WT: 5
+  WL: 2
+  WT: 3
   TN: 4
   MS: 6
 armor:
   head: 0
-  torso: 1
+  torso: 0
   arms: 0
   legs: 0
   md: 0
   enc: 0
 loot:
-  - Trophy (Horn)
+  - Trophy (Foot)
 actions:
   active:
-    - name: Horns
+    - name: Claws
       type: Melee Attack
       hit: "Hit+5"
-      damage: 3d4+1 Sharp
+      damage: 3d4 Sharp
+
+    - name: Nimble
+      type: Reaction
+      effect:
+        - "[url:core#Advantage]Advantage 1[/url] on the next [url:def#Dodge]dodge[/url] roll within this turn."
+      cost: "1 EN"
 
   passive:
     - name: Proficiencies

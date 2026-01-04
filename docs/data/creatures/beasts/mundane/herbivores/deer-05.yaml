@@ -1,34 +1,34 @@
-name: Mountain Goat 5
-id: mountain-goat-5
+name: Deer 5
+id: deer-05
 info:
   species: Beast
   level: 5
-  size: Small
+  size: Medium
   tags: [Natural Defenses, [Tough, 1]]
 notes: >
   –
 
 attributes:
   CON: [3, 1]
-  STR: [3, 1]
-  DEX: [6, 3]
+  STR: [2, 1]
+  DEX: [7, 3]
   INT: [1, 0]
-  WIL: [3, 1]
+  WIL: [1, 0]
   PER: [4, 2]
 values:
-  EN: 10
+  EN: 5
   MP: 5
   MPR: 1
   WL: 3
   WT: 5
   TN: 4
-  MS: 4
+  MS: 6
 armor:
   head: 0
   torso: 1
   arms: 0
   legs: 0
-  md: 1
+  md: 0
   enc: 0
 loot:
   - Trophy (Horn)
@@ -45,8 +45,8 @@ actions:
       effect:
         - Primitive [section:clr-value]+2[/section]
 
-    - name: Climber
+    - name: Alert
       type: Passive
       effect:
-        - "[url:core#Advantage]Advantage 1[/url] on [i]Athletics[/i] checks to jump or climb."
+        - "[url:core#Advantage]Advantage 1[/url] on [section:clr-attr]PER[/section] checks to perceive nearby predators."
 

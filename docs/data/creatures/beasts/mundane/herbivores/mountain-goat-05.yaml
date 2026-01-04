@@ -1,0 +1,52 @@
+name: Mountain Goat 5
+id: mountain-goat-05
+info:
+  species: Beast
+  level: 5
+  size: Small
+  tags: [Natural Defenses, [Tough, 1]]
+notes: >
+  –
+
+attributes:
+  CON: [3, 1]
+  STR: [3, 1]
+  DEX: [6, 3]
+  INT: [1, 0]
+  WIL: [3, 1]
+  PER: [4, 2]
+values:
+  EN: 10
+  MP: 5
+  MPR: 1
+  WL: 3
+  WT: 5
+  TN: 4
+  MS: 4
+armor:
+  head: 0
+  torso: 1
+  arms: 0
+  legs: 0
+  md: 1
+  enc: 0
+loot:
+  - Trophy (Horn)
+actions:
+  active:
+    - name: Horns
+      type: Melee Attack
+      hit: "Hit+5"
+      damage: 3d4+1 Sharp
+
+  passive:
+    - name: Proficiencies
+      type: Passive
+      effect:
+        - Primitive [section:clr-value]+2[/section]
+
+    - name: Climber
+      type: Passive
+      effect:
+        - "[url:core#Advantage]Advantage 1[/url] on [i]Athletics[/i] checks to jump or climb."
+

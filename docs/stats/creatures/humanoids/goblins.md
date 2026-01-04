@@ -8,9 +8,9 @@ title: Goblins
     <h5>Level 5</h5>
     <p>
     <ul>
-    <li><a href="#goblin-hunter-5">Goblin Hunter</a></li>
-    <li><a href="#goblin-shaman-5">Goblin Shaman</a></li>
-    <li><a href="#goblin-warrior-5">Goblin Warrior</a></li>
+    <li><a href="#goblin-hunter-05">Goblin Hunter</a></li>
+    <li><a href="#goblin-shaman-05">Goblin Shaman</a></li>
+    <li><a href="#goblin-warrior-05">Goblin Warrior</a></li>
     </ul>
     </p>
     <h5>Level 10</h5>
@@ -38,9 +38,9 @@ title: Goblins
 # Goblins
 
 ## Level 5
-{{ creature('data/creatures/humanoid/goblins/goblin-hunter-5.yaml') }}
-{{ creature('data/creatures/humanoid/goblins/goblin-shaman-5.yaml') }}
-{{ creature('data/creatures/humanoid/goblins/goblin-warrior-5.yaml') }}
+{{ creature('data/creatures/humanoid/goblins/goblin-hunter-05.yaml') }}
+{{ creature('data/creatures/humanoid/goblins/goblin-shaman-05.yaml') }}
+{{ creature('data/creatures/humanoid/goblins/goblin-warrior-05.yaml') }}
 
 ## Level 10
 {{ creature('data/creatures/humanoid/goblins/goblin-hunter-10.yaml') }}

@@ -1,5 +1,5 @@
-name: "Level 7 – Wizard (Kinetics)"
-id: wizard-kinetics-7
+name: "Level 7 – Wizard (Thermics)"
+id: wizard-thermics-level-07
 info:
   species: Human
   level: 7
@@ -7,7 +7,7 @@ info:
   classes: [Wizard]
   tags: [–]
 notes: >
-  [br]Classes: Wizard (Kinetics)
+  [br]Classes: Wizard (Thermics)
   [br]50 SP Total
   [br]Rest 0
 
@@ -54,19 +54,19 @@ actions:
     - ""
   spells:
     - "Mana Beam I"
-    - "Kinetic Bolt I"
-    - "Kinetic Barrier I"
-    - "Tensile Shield I"
-    - "Water Veil"
+    - "Thermal Beam I"
+    - "Thermal Bolt I"
+    - "Sparkstream I"
+    - "Arcane Barrier I"
   rituals: 
     - "Hermetic Manipulation"
-    - "Kinetic Manipulation"
+    - "Thermic Manipulation"
 proficiencies:
   magic:
     - "Hermetics: Beginner"
     - "[i]Arcane 1[/i]"
-    - "Kinetics: Beginner"
-    - "[i]Water 2[/i]"
+    - "Thermics: Beginner"
+    - "[i]Fire 2[/i]"
   weapons:
     - ""
   civilian:

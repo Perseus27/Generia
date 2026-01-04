@@ -1,23 +1,23 @@
-name: "Level 7 – Fighter"
-id: fighter-7
+name: "Level 7 – Marauder"
+id: marauder-level-07
 info:
   species: Human
   level: 7
   size: Medium
-  classes: [Fighter]
+  classes: [Marauder]
   tags: [–]
 notes: >
-  [br]Classes: Fighter
-  [br]55 SP Total
+  [br]Classes: Marauder
+  [br]50 SP Total
   [br]Rest 0
 
 attributes:
-  CON: [5, 2]
-  STR: [5, 2]
-  DEX: [5, 2]
+  CON: [6, 3]
+  STR: [6, 3]
+  DEX: [4, 2]
   INT: [3, 1]
   WIL: [3, 1]
-  PER: [4, 2]
+  PER: [3, 1]
 values:
   EN: 15
   MP: 5
@@ -27,7 +27,7 @@ values:
   TN: 3
   MS: 4
 armor:
-  head: 2
+  head: 0
   torso: 5
   arms: 3
   legs: 3
@@ -35,35 +35,32 @@ armor:
   enc: 0
 inventory:
   weapons:
-    - name: "Broadsword"
-      damage: "2d6+2"
-      hit: "Hit+6, Block+8|4"
-    - name: "Roundshield"
-      damage: "1d6+4"
-      hit: "Hit+3, Block+7|6"
+    - name: "Battleaxe"
+      damage: "2d8+4"
+      hit: "Hit+3, Block+8|6"
     - name: "Knife"
       damage: "2d6"
-      hit: "Hit+2, Block+4|4"
+      hit: "Hit+2, Block+6|6"
+    - name: "Fist"
+      damage: "1d6+3"
+      hit: "Hit+3, Block+6|3"
   armor:
-    - name: "Leather Helmet"
     - name: "Leather Armor"
     - name: "Leather Gauntlets"
     - name: "Leather Greaves"
     - name: "Adventurer's Belt"
-    - name: "Adventurer's Pouch"
-    - name: "Weapon Belt, double"
+    - name: "Adventurer's Belt"
+    - name: "Weapon Belt, two-handed"
   misc:
-    - name: "5 Silver"
+    - name: "2 Silver"
 actions:
   skills:
     - "Charge"
-    - "Feint"
-    - "Counter"
     - "Leg Sweep"
     - "Shove"
-    - "Aimed Strike"
-    - "Shield Bash"
-    - "Steady Block"
+    - "Swing"
+    - "Feint"
+    - "Mighty Strike"
   spells:
     - ""
   rituals: 
@@ -73,20 +70,19 @@ proficiencies:
     - ""
   weapons:
     - "Slashing: Beginner"
-    - "[i]Swords 4[/i]"
-    - "Defensive: Beginner"
-    - "[i]Shields 3[/i]"
+    - "[i]Axes 2[/i]"
+    - "Natural: Beginner"
+    - "[i]Primitive 1[/i]"
   civilian:
-    - "[i]Athletics 2[/i]"
-    - "[i]Monster Lore 1[/i]"
-    - "[i]Warfare 2[/i]"
+    - "[i]Athletics 3[/i]"
+    - "[i]Survival 1[/i]"
 perks:
   special:
     - Efficient Metabolism
     - Pursuit Hunter
   
   combat:
-    - ""
+    - Sprinter
   
   magic:
     - ""

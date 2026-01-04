@@ -1,5 +1,5 @@
-name: "Level 7 – Wizard (Thermics)"
-id: wizard-thermics-7
+name: "Level 7 – Wizard (Meteorics)"
+id: wizard-meteorics-level-07
 info:
   species: Human
   level: 7
@@ -7,7 +7,7 @@ info:
   classes: [Wizard]
   tags: [–]
 notes: >
-  [br]Classes: Wizard (Thermics)
+  [br]Classes: Wizard (Meteorics)
   [br]50 SP Total
   [br]Rest 0
 
@@ -54,19 +54,19 @@ actions:
     - ""
   spells:
     - "Mana Beam I"
-    - "Thermal Beam I"
-    - "Thermal Bolt I"
-    - "Sparkstream I"
+    - "Meteoric Bolt I"
+    - "Discharge"
     - "Arcane Barrier I"
+    - "Lightning Step"
   rituals: 
     - "Hermetic Manipulation"
-    - "Thermic Manipulation"
+    - "Meteoric Manipulation"
 proficiencies:
   magic:
     - "Hermetics: Beginner"
     - "[i]Arcane 1[/i]"
-    - "Thermics: Beginner"
-    - "[i]Fire 2[/i]"
+    - "Meteorics: Beginner"
+    - "[i]Lightning 2[/i]"
   weapons:
     - ""
   civilian:

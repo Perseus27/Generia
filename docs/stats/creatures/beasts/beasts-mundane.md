@@ -17,16 +17,16 @@ title: Mundane Beasts
     <h5><a href="#omnivores">Omnivores</a></h5>
     <p>
     <ul>
-    <li><a href="#badger-5">Badger</a></li>
+    <li><a href="#badger-05">Badger</a></li>
     <li><a href="#boar-10">Boar</a></li>
     </ul>
     </p>
     <h5><a href="#herbivores">Herbivores</a></h5>
     <p>
     <ul>
-    <li><a href="#hare-5">Hare</a></li>
-    <li><a href="#deer-5">Deer (small)</a></li>
-    <li><a href="#mountain-goat-5">Mountain Goat</a></li>
+    <li><a href="#hare-05">Hare</a></li>
+    <li><a href="#deer-05">Deer (small)</a></li>
+    <li><a href="#mountain-goat-05">Mountain Goat</a></li>
     <li><a href="#deer-10">Deer (big)</a></li>
     <li><a href="#aurochs-20">Aurochs</a></li>
     <li><a href="#elk-20">Elk</a></li>
@@ -56,7 +56,7 @@ title: Mundane Beasts
 ## Omnivores
 
 ### Level 5
-{{ creature('data/creatures/beasts/mundane/omnivores/badger-5.yaml') }}
+{{ creature('data/creatures/beasts/mundane/omnivores/badger-05.yaml') }}
 
 ### Level 10
 {{ creature('data/creatures/beasts/mundane/omnivores/boar-10.yaml') }}
@@ -65,9 +65,9 @@ title: Mundane Beasts
 ## Herbivores
 
 ### Level 5
-{{ creature('data/creatures/beasts/mundane/herbivores/hare-5.yaml') }}
-{{ creature('data/creatures/beasts/mundane/herbivores/deer-5.yaml') }}
-{{ creature('data/creatures/beasts/mundane/herbivores/mountain-goat-5.yaml') }}
+{{ creature('data/creatures/beasts/mundane/herbivores/hare-05.yaml') }}
+{{ creature('data/creatures/beasts/mundane/herbivores/deer-05.yaml') }}
+{{ creature('data/creatures/beasts/mundane/herbivores/mountain-goat-05.yaml') }}
 
 ### Level 10
 {{ creature('data/creatures/beasts/mundane/herbivores/deer-10.yaml') }}
