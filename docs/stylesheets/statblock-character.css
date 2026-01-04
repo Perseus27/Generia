@@ -11,17 +11,12 @@
 
 .chara-content-head {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;}
+    flex-direction: row;}
 .chara-general {
     border: 1px solid rgb(64, 64, 64);
     margin: 1px;
     width: 49.75%;}
-@media screen and (max-width: 1000px) {
-  .chara-general {
-    width: 100%;
-  }
-}
+
 .chara-value-table {
     float: left;
     padding: 1px;
@@ -43,17 +38,11 @@
 
 .chara-content-body {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;}
+    flex-direction: row;}
 .chara-content-tile {
     border: 1px solid rgb(64, 64, 64);
     margin: 1px;
     width: 49.75%;}
-@media screen and (max-width: 1000px) {
-  .chara-content-tile {
-    width: 100%;
-  }
-}
 .chara-content-subtile {
     float: left;
     width: 32%;
@@ -114,3 +103,15 @@
 .chara-info-text {
     font-size: 1rem;
 }
+
+
+@media screen and (max-width: 640px) {
+  .chara-general {
+    width: 100%;}
+  .chara-content-tile {
+    width: 100%;}
+  .chara-content-head {
+    flex-wrap: wrap;}
+  .chara-content-head {
+    flex-wrap: wrap;}
+  }

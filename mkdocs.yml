@@ -42,6 +42,7 @@ extra:
 
 
 extra_css:
+  - stylesheets/layout.css
   - stylesheets/typography.css
   - stylesheets/sections.css
   - stylesheets/containers.css

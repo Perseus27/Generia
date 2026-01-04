@@ -1,6 +1,3 @@
-.md-grid {
-  max-width: 80%;
-}
 
 .md-typeset h1 { margin: 1.5rem 0 0rem; }
 .md-typeset h2 { margin: 1.0rem 0 0rem; }
@@ -68,6 +65,3 @@ h1 {
 }
 
 
-.md-header__source {
-  display: none;
-}
