@@ -6,6 +6,8 @@ prefix: ctags
 content:
   - name: Colossus
 
+  - name: Corrupted
+
   - name: Fast
 
   - name: Slow

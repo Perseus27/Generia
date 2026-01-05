@@ -1,7 +1,7 @@
 name: Tiny Golem, Mk. I
 id: golem-mk1-tiny
 info:
-  species: Construct
+  species: Golem
   level: 10
   size: Tiny
   tags: ["Construct", "Mindless"]

@@ -1,7 +1,7 @@
 name: Medium Golem, Mk. II
 id: golem-mk2-medium
 info:
-  species: Construct
+  species: Golem
   level: 20
   size: Medium
   tags: ["Construct", "Mindless"]

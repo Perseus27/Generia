@@ -1,7 +1,7 @@
 name: Large Golem, Mk. I
 id: golem-mk1-large
 info:
-  species: Construct
+  species: Golem
   level: 10
   size: Large
   tags: ["Construct", "Mindless"]

@@ -1,7 +1,7 @@
 name: Medium Golem, Mk. I
 id: golem-mk1-medium
 info:
-  species: Construct
+  species: Golem
   level: 10
   size: Medium
   tags: ["Construct", "Mindless"]

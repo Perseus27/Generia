@@ -24,7 +24,7 @@ Gains [section:clr-mp]1 MP[/section] per spell tier from allied spell effects.
 [h2|Alb]Alb[/h2]
 Albs are the offspring of an elven tribe who became corrupted by the void millennia ago. Today, the remnants of this curse can no longer be called true corruption, but they are still regarded with suspicion wherever they go – particularly by their ancient cousins.
 [h4|DarkHeritage]Dark Heritage[/h4]
-The effects of [url:status#Corrupted]Corruption[/url] count as one stage lower. Gains permanent [url:status#Resistant]Resistance: Void[/url].
+The effects of [url:status#Corruption]Corruption[/url] count as one stage lower. Gains permanent [url:status#Resistant]Resistance: Void[/url].
 [h4|Dissonance]Dissonance[/h4]
 Gains [section:clr-mp]1 MP[/section] per spell tier from hostile spell [url:def#Hit]hits[/url].
 [/container]

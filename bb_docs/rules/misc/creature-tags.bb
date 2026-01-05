@@ -11,6 +11,11 @@ Creature tags are passive features that are usually inherent to a species (or, m
 [/container]
 
 [container:orgblock]
+[h4|Corrupted]Corrupted X[/h4]
+This creature is cursed with [url:status#Corruption]Corruption[/url], severity [section:clr-value]X[/section].
+[/container]
+
+[container:orgblock]
 [h4|Fast]Fast X[/h4]
 [url:values#MS]Movement Speed[/url] ([b]MS[/b]) is increased by [section:clr-value]X[/section].
 [h4|Slow]Slow X[/h4]
