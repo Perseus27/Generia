@@ -24,12 +24,11 @@ title: Status Effects
         <li><a href="#Charmed">Charmed</a></li>
         <li><a href="#Chilled">Chilled</a></li>
         <li><a href="#Confused">Confused</a></li>
-        <li><a href="#Corrupted">Corrupted</a></li>
         <li><a href="#Disarmed">Disarmed</a></li>
+        <li><a href="#Drowsy">Drowsy</a></li>
         <li><a href="#Frail">Frail</a></li>
         <li><a href="#Frightened">Frightened</a></li>
         <li><a href="#Frozen">Frozen</a></li>
-        <li><a href="#GhoulPlague">Ghoul Plague</a></li>
         <li><a href="#Grappled">Grappled</a></li>
         <li><a href="#Hyperpathia">Hyperpathia</a></li>
         <li><a href="#Knockback">Knockback</a></li>
@@ -38,6 +37,7 @@ title: Status Effects
         <li><a href="#Prone">Prone</a></li>
         <li><a href="#Restrained">Restrained</a></li>
         <li><a href="#Shocked">Shocked</a></li>
+        <li><a href="#Sick">Sick</a></li>
         <li><a href="#Silenced">Silenced</a></li>
         <li><a href="#Slowed">Slowed</a></li>
         <li><a href="#Stunned">Stunned</a></li>
@@ -58,6 +58,7 @@ title: Status Effects
         <li><a href="#AttributeCurse">Attribute Curse</a></li>
         <li><a href="#StatusCurse">Status Curse</a></li>
         <li><a href="#ValueCurse">Value Curse</a></li>
+        <li><a href="#Corruption">Corruption</a></li>
     </ul>
     <br>
     <h5><a href="#Misc">Miscellaneous</a></h5>

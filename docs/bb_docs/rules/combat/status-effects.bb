@@ -137,18 +137,6 @@ When an effect is actively dispelled/removed (e.g., by a spell), use the above [
 [/container]
 
 [container:statusblock]
-[h4|Corrupted]Corrupted[/h4]
-[section:clr-affliction]AFFLICTION[/section]
-[br]Under the destructive influence of the Void.
-[br][b]Tier 1:[/b] Healing received is halved.
-[br][b]Tier 2:[/b] Healing received is negated. Each severe wound suffered imposes [url:core#Disadvantage]Disadvantage 1[/url] on attack and defense rolls.
-[br][b]Tier 3:[/b] Healing received causes [url:dmgtype#Absolute]absolute damage[/url].
-[br]The wound limit is increased by [section:clr-value]1[/section] per tier.
-[br]Corruption decreases by one tier every [section:clr-value]24 hours[/section]. Direct sunlight dramatically accelerates the process ([section:clr-value]2 hours[/section]/tier).
-[br]Corruption always has a [b][section:clr-dc]DC[/section][/b] of [section:clr-value]10 + 2 per tier[/section].
-[/container]
-
-[container:statusblock]
 [h4|Disarmed]Disarmed[/h4]
 [section:clr-control]CONTROL[/section]
 [br]An equipped weapon is unavailable until the creature spends any [url:def#Actions]action[/url] to pick it up/equip it again.
@@ -182,14 +170,6 @@ When an effect is actively dispelled/removed (e.g., by a spell), use the above [
 [section:clr-affliction]AFFLICTION[/section], [section:clr-control]CONTROL[/section]
 [br][url:core#Disadvantage]Disadvantage 1[/url] on attack rolls. Movement toward an enemy counts as [url:#Slowed]Slowed[/url].
 [br][b][section:clr-save]Save[/section]:[/b] [b][section:clr-attr]WIL[/section][/b] vs [b][section:clr-dc]DC[/section][/b] at the end of the turn or when taking damage.
-[/container]
-
-[container:statusblock]
-[h4|GhoulPlague]Ghoul Plague[/h4]
-[section:clr-affliction]AFFLICTION[/section], [section:clr-control]CONTROL[/section]
-[br]Counts as [url:status#Weakened]Weakened[/url] and [url:status#Slowed]Slowed[/url].
-Ghoul plague always has a [b][section:clr-dc]DC[/section][/b] of [section:clr-value]12[/section].
-[br][i]Can be removed by a successful Medicine check or certain spells.[/i]
 [/container]
 
 [container:statusblock]
@@ -256,6 +236,13 @@ Ghoul plague always has a [b][section:clr-dc]DC[/section][/b] of [section:clr-va
 [h4|Shocked]Shocked X[/h4]
 [section:clr-affliction]AFFLICTION[/section]
 [br]Dodge, Parry, and attack rolls are [url:core#Hindered]hindered[/url] by [section:clr-value]X[/section] until the end of the creature's next turn.
+[/container]
+
+[container:statusblock]
+[h4|Sick]Sick[/h4]
+[section:clr-affliction]AFFLICTION[/section]
+[br]Counts as [url:status#Weakened]Weakened[/url] and [url:status#Slowed]Slowed[/url].
+[br][i]Can be removed by a successful Medicine check or cleansing spells.[/i]
 [/container]
 
 [container:statusblock]
@@ -334,10 +321,10 @@ Curses are rare and particularly insidious status effects that cannot be regular
 [h2]Curse Severity[/h2]
 Curses have different level of severity. These are specified in the curse description.
 [h2]Curse DC[/h2]
-The [section:clr-dc]DC[/section] of a curse depends on its severity. The default DC of [section:clr-value]10[/section] is increased by [section:clr-value]5[/section] for each severity level.
-[br][b]Severity 1:[/b] [section:clr-value]15[/section]
-[br][b]Severity 2:[/b] [section:clr-value]20[/section]
-[br][b]Severity 3:[/b] [section:clr-value]25[/section]
+The [section:clr-dc]DC[/section] of a curse depends on its severity. The default DC of [section:clr-value]10[/section] is increased by [section:clr-value]10[/section] for each severity level.
+[br][b]Severity 1:[/b] [section:clr-value]20[/section]
+[br][b]Severity 2:[/b] [section:clr-value]30[/section]
+[br][b]Severity 3:[/b] [section:clr-value]40[/section]
 [br][b]etc.[/b]
 
 [container:statusblock]
@@ -355,12 +342,40 @@ Permanently applies a specified [url:status]status effect[/url]. This status eff
 Directly reduces the specified [url:values]value[/url] by [[section:clr-value]Severity[/section]].
 [/container]
 
+[container:statusblock]
+[h4|Corruption]Corruption[/h4]
+Under the corrupting influence of the Void. Common symptoms include:
+Loss of empathy and inhibitions, violent urges, insensitivity to pain, and an appetite for very fresh meat.
+[br][b]Severity 1:[/b]
+[ul]
+[li]Healing points received are halved.[/li]
+[li]Permanent [url:#Vulnerable]Vulnerability[/url] [i]Light[/i].[/li]
+[li][url:values#WL]WL[/url] is increased by [section:clr-value]1[/section].[/li]
+[/ul]
+[br][b]Severity 2:[/b]
+[ul]
+[li]Healing points received are negated.[/li]
+[li][url:core#Advantage]Advantage 1[/url] on [section:clr-attr]CON[/section] checks.[/li]
+[li][url:core#Disadvantage]Disadvantage 1[/url] on [section:clr-attr]WIL[/section] checks.[/li]
+[li]Permanent [url:#Resistant]Resistance[/url] [i]Void[/i].[/li]
+[li]Permanent [url:#Vulnerable]Vulnerability[/url] [i]Fire[/i].[/li]
+[li][url:values#WL]WL[/url] is increased by [section:clr-value]1[/section].[/li]
+[/ul]
+[br][b]Severity 3:[/b]
+[ul]
+[li]Permanent [url:#Immune]Immunity[/url] [i][url:#Unconscious]Unconsciousness[/url][/i].[/li]
+[li]Consuming unsouled food no longer regenerates [section:clr-en]EN[/section].[/li]
+[li][url:values#WL]WL[/url] is increased by [section:clr-value]1[/section].[/li]
+[/ul]
+The effects are cumulative.
+[/container]
+
 [hr]
 
 [h1|Misc]Miscellaneous[/h1]
 [container:statusblock]
 [h4|Confined]Confined[/h4]
-The creature cannot use its full range of movement. Primarily affects [url:/w/generia-perseus27/a/tags-E28093-equipment-article#Long]long[/url] and [url:/w/generia-perseus27/a/tags-E28093-equipment-article#Short]short[/url] weapons.
+The creature cannot use its full range of movement. Primarily affects [url:eqtags#Long]long[/url] and [url:eqtags#Short]short[/url] weapons.
 [br]A creature counts as [i]confined[/i] if:
 [br][b]a)[/b] it is positioned directly adjacent to terrain in two or more directions, or
 [br][b]b)[/b] it is directly surrounded by three or more creatures of the same (or bigger) size, or
@@ -375,7 +390,7 @@ A creature is isolated if its nearest ally is more than 4 meters away.
 
 [container:statusblock]
 [h4|Unconscious]Unconscious[/h4]
-[i]See also: [url:/w/generia-perseus27/a/wounds-article#Unconsciousness]Wounds[/url][/i]
+[i]See also: [url:wounds#Unconsciousness]Wounds[/url][/i]
 [br]Cannot take actions or reactions and counts as [url:#Prone]Prone[/url]. [url:def#AttackAction]Attack Actions[/url] against an unconscious creature automatically hit. All [section:clr-save]Saves[/section] (except [section:clr-attr]CON[/section] saves) automatically fail.
 [br][b][section:clr-save]Save[/section]:[/b] [b][section:clr-attr]CON[/section][/b] vs [section:clr-zahl]10[/section] [url:core#Hindered]hindered[/url] by [section:clr-zahl][total wounds * 2][/section] at the start of the turn and when taking damage or receiving healing.
 [br][i]This save is only possible if the [url:values#Wounds]Wound Limit (WL)[/url] has not been reached.[/i]
