@@ -2,12 +2,12 @@ name: Sayless
 id: sayless
 info:
   species: Alb
-  level: 12
+  level: 13
   size: Medium
   classes: [Nox, Archer]
   tags: [–]
 notes: >
-  1000 XP
+  100 XP
   [br]
   [br]85 SP Base
   [br]+10 Bonus
@@ -15,6 +15,7 @@ notes: >
   [br]+5 Lv5 Boss
   [br]== 105 Total
   [br]REST 6
+  [br][section:clr-malus]LEVELUP 13 PENDING[/section]
 
 attributes:
   CON: [5, 2]
@@ -45,9 +46,9 @@ inventory:
       hit: "Hit+10"
     - name: "20× Arrows, light"
       damage: "1d6"
-    - name: "Rapier+1"
+    - name: "Rapier+3"
       enchantment: "[section:clr-bonus]Sharp I[/section]"
-      damage: "2d6+2"
+      damage: "2d6+4"
       hit: "Hit+10, Block+7|4"
     - name: "Dagger"
       damage: "2d6"
