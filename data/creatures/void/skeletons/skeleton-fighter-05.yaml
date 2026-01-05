@@ -1,0 +1,87 @@
+name: Skeleton Fighter 05
+id: skeleton-fighter-05
+info:
+  species: Undead
+  level: 5
+  size: Medium
+  tags: [Construct]
+notes: >
+  A reanimated humanoid skeleton. Has an unfortunate tendency to stand back up unless thoroughly destroyed.
+
+attributes:
+  CON: [2, 1]
+  STR: [8, 4]
+  DEX: [4, 2]
+  INT: [0, 0]
+  WIL: [0, 0]
+  PER: [1, 0]
+values:
+  EN: 15
+  MP: 0
+  MPR: 0
+  WL: 3
+  WT: 3
+  TN: 3
+  MS: 4
+armor:
+  head: 0
+  torso: 2
+  arms: 1
+  legs: 1
+  md: 0
+  enc: 0
+loot:
+  - Void Core, lesser
+actions:
+  active:
+    - name: "LOADOUTS"
+    
+    - name: Axe / Sword
+      type: Melee Attack
+      hit: "Hit+4, Block+7|5"
+      damage: 2d8+4 Sharp
+      skills: [Charge, Swing]
+    
+    - name: Cutlass
+      type: Melee Attack
+      hit: "Hit+4, Block+7|5"
+      damage: 2d6+4 Sharp
+      skills: [Charge, Feint]
+    
+    - name: Mace
+      type: Melee Attack
+      hit: "Hit+3, Block+7|5"
+      damage: 2d6+6 Blunt
+      skills: [Charge, Swing]
+    
+    - name: Spear
+      type: Melee Attack
+      hit: "Hit+4, Block+7|5"
+      damage: 2d6+6 Sharp
+      skills: [Charge, Feint]
+
+    - name: Tank (Broadsword & Shield)
+      type: Melee Attack
+      hit: "Hit+4, Block+7|7"
+      damage: 2d6+4 Sharp
+      skills: [Charge, Feint]
+
+  passive:
+    - name: Perks
+      type: Passive
+      perks: [Opportunist]
+    - name: Proficiencies
+      type: Passive
+      effect:
+        - Equipped Weapons [section:clr-value]+2[/section]
+    - name: Artificial Pawn
+      type: Passive
+      effect:
+        - "[url:values#MD]MD[/url] and [url:values#AttackValue]hit[/url]/[url:values#BlockValue]block[/url] values are increased by the reanimator's [i]Necromancy[/i] value."
+    - name: Revenant
+      type: Passive
+      effect:
+        - The skeleton may attempt a [section:clr-attr]CON[/section] check against [section:clr-value]20[/section] at the beginning of its turn (or Phase out of combat).
+        - On success, it regenerates [section:clr-value]one[/section] light wound.
+        - "[i]Not possible under [section:clr-sunlight]True Sunlight[/section] or if all wounds are severe.[/i]"
+        - "[i]Certain religious rites can disable this feature.[/i]"

@@ -1,0 +1,87 @@
+name: Skeleton Fighter 25
+id: skeleton-fighter-25
+info:
+  species: Undead
+  level: 25
+  size: Medium
+  tags: [Construct]
+notes: >
+  A reanimated humanoid skeleton. Has an unfortunate tendency to stand back up unless thoroughly destroyed.
+
+attributes:
+  CON: [12, 6]
+  STR: [13, 6]
+  DEX: [12, 6]
+  INT: [0, 0]
+  WIL: [0, 0]
+  PER: [2, 1]
+values:
+  EN: 25
+  MP: 0
+  MPR: 0
+  WL: 6
+  WT: 9
+  TN: 4
+  MS: 8
+armor:
+  head: 4
+  torso: 6
+  arms: 5
+  legs: 5
+  md: 0
+  enc: 0
+loot:
+  - Void Core, normal
+actions:
+  active:
+    - name: "LOADOUTS"
+    
+    - name: Axe / Sword
+      type: Melee Attack
+      hit: "Hit+8, Block+14|12"
+      damage: 2d8+6 Sharp
+      skills: [Charge, Mighty Strike, Swing, Whirl]
+    
+    - name: Cutlass
+      type: Melee Attack
+      hit: "Hit+8, Block+14|12"
+      damage: 2d6+6 Sharp
+      skills: [Charge, Multistrike, Feint, Whirl]
+    
+    - name: Mace
+      type: Melee Attack
+      hit: "Hit+5, Block+14|12"
+      damage: 2d6+8 Blunt
+      skills: [Charge, Mighty Strike, Swing, Heavy Blow]
+    
+    - name: Spear
+      type: Melee Attack
+      hit: "Hit+8, Block+14|12"
+      damage: 2d6+8 Sharp
+      skills: [Charge, Multistrike, Feint, Whirl]
+
+    - name: Tank (Broadsword & Shield)
+      type: Melee Attack
+      hit: "Hit+8, Block+14|14"
+      damage: 2d6+6 Sharp
+      skills: [Charge, Mighty Strike, Feint, Whirl]
+
+  passive:
+    - name: Perks
+      type: Passive
+      perks: [Goliath, Opportunist]
+    - name: Proficiencies
+      type: Passive
+      effect:
+        - Equipped Weapons [section:clr-value]+2[/section]
+    - name: Artificial Pawn
+      type: Passive
+      effect:
+        - "[url:values#MD]MD[/url] and [url:values#AttackValue]hit[/url]/[url:values#BlockValue]block[/url] values are increased by the reanimator's [i]Necromancy[/i] value."
+    - name: Revenant
+      type: Passive
+      effect:
+        - The skeleton may attempt may attempt a [section:clr-attr]CON[/section] check against [section:clr-value]20[/section] at the beginning of its turn (or Phase out of combat).
+        - On success, it regenerates [section:clr-value]one[/section] light wound.
+        - "[i]Not possible under [section:clr-sunlight]True Sunlight[/section] or if all wounds are severe.[/i]"
+        - "[i]Certain religious rites can disable this feature.[/i]"
