@@ -37,7 +37,8 @@ content:
     sp-cost: 20
     requirements: –
     description: >
-      When casting a [url:def#SD]Spell Defense[/url], you gain an amount of effect die rerolls equal to the spell tier.
+      After casting a [section:clr-sd]Spell Defense[/section] as a reaction, you may cast up to [[section:clr-attr]PER-MOD[/section]] additional [section:clr-value]Tier I[/section] [section:clr-sd]SD[/section] spells as [url:def#FreeAction]Free Reactions[/url] during this turn.
+      [br]Only one reactive [section:clr-sd]SD[/section] effect may be active at any time.
 
   - name: Supporter
     id: supporter
