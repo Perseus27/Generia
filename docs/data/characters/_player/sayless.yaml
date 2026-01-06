@@ -41,28 +41,31 @@ armor:
   enc: 0
 inventory:
   weapons:
-    - name: "Hunting Bow+1"
-      damage: "1d6+4"
-      hit: "Hit+10"
-    - name: "20× Arrows, light"
-      damage: "1d6"
-    - name: "Rapier+3"
+    - name: Hunting Bow+1
+      hit: Hit+10
+      damage: 1d6+4
+    - name: 20× Arrows, light
+      damage: 1d6
+    - name: Rapier+3
+      hit: Hit+10, Block+7|4
+      damage: 2d6+4
       enchantments:
         - Sharp I
-      damage: "2d6+4"
-      hit: "Hit+10, Block+7|4"
-    - name: "Dagger"
-      damage: "2d6"
+    - name: Dagger
+      hit: Hit+7
+      damage: 2d6
   armor:
-    - name: "Leather Helmet+1"
-    - name: "Cloth Armor+2"
+    - name: Leather Helmet+1
+    - name: Cloth Armor+2
       enchantments: 
         - [RES, Sharp]
-    - name: "Leather Gauntlets+2"
-    - name: "Padded Greaves+1"
+    - name: Leather Gauntlets+2
+    - name: Padded Greaves+1
       enchantments:
         - DEX+1
-    - name: "Nox Amulet+3"
+    - name: Amulet+3
+      enchantments:
+        - [Focus, Nox]
   misc:
     - ""
 actions:
