@@ -47,7 +47,8 @@ inventory:
     - name: "20× Arrows, light"
       damage: "1d6"
     - name: "Rapier+3"
-      enchantment: "[section:clr-bonus]Sharp I[/section]"
+      enchantments:
+        - Sharp I
       damage: "2d6+4"
       hit: "Hit+10, Block+7|4"
     - name: "Dagger"
@@ -55,10 +56,12 @@ inventory:
   armor:
     - name: "Leather Helmet+1"
     - name: "Cloth Armor+2"
-      enchantment: "[section:clr-bonus]RES [i]Sharp[/i][/section]"
+      enchantments: 
+        - [RES, Sharp]
     - name: "Leather Gauntlets+2"
     - name: "Padded Greaves+1"
-      enchantment: "[section:clr-bonus]DEX+1[/section]"
+      enchantments:
+        - DEX+1
     - name: "Nox Amulet+3"
   misc:
     - ""
