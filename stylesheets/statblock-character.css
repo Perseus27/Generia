@@ -15,7 +15,7 @@
 .chara-general {
     border: 1px solid rgb(64, 64, 64);
     margin: 1px;
-    width: 49.75%;}
+    width: 49.5%;}
 
 .chara-value-table {
     float: left;
@@ -37,12 +37,13 @@
     width: 60%;}
 
 .chara-content-body {
+    flex-wrap: wrap;
     display: flex;
     flex-direction: row;}
 .chara-content-tile {
     border: 1px solid rgb(64, 64, 64);
     margin: 1px;
-    width: 49.75%;}
+    width: 49.5%;}
 .chara-content-subtile {
     float: left;
     width: 32%;
@@ -110,8 +111,6 @@
     width: 100%;}
   .chara-content-tile {
     width: 100%;}
-  .chara-content-head {
-    flex-wrap: wrap;}
   .chara-content-head {
     flex-wrap: wrap;}
   }

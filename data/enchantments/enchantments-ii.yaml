@@ -1,5 +1,6 @@
 name: Enchantments II
 id: Enchantments-ii
+prefix: ench
 
 
 content:
@@ -25,6 +26,12 @@ content:
     description: >
       [url:values#MD]Magic Defense[/url] is increased by [section:clr-value]4[/section] while the item is equipped.
 
+  - name: Guiding Wind
+    id: guiding-wind
+    medium: [Weapon (Bow)]
+    description: >
+      This bow has [url:Advantage]Advantage 1[/url] on long range [url:def#RangedAttack]attack rolls[/url].
+
   - name: Penetration II
     id: penetration-ii
     medium: [Weapon]
@@ -39,6 +46,7 @@ content:
       When attacking with this weapon, you gain [section:clr-value]two[/section] [url:core#Reroll]Damage Rerolls[/url].
 
   - name: Resistance
+    alias: [RES]
     id: resistance
     medium: [Armor, Trinket]
     description: >
