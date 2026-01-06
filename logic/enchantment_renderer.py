@@ -28,7 +28,7 @@ class Enchantment_Renderer:
         ###
         ench_bb = f"[container:enchantment][h2|{ench.get('id')}]{ench.get('name')}[/h2]"
         # medium
-        ench_bb += f"[b]Medium:[/b][br]{self.list_builder.build_list(ench.get('medium'), list_type='comma')}"
+        ench_bb += f"[b]Medium:[/b][br][section:clr-enchantment-medium]{self.list_builder.build_list(ench.get('medium'), list_type='comma')}[/section]"
         # description
         ench_bb += f"[br][b]Description:[/b][br]{ench.get('description')}"
         # attunement?
