@@ -83,7 +83,7 @@ class Autolinker:
                 name = p.get("name")
                 if name == x or x in p.get("alias", []):
                     return f"{prefix}#{p.get('id', name)}"
-        return False
+        return self.link_ench(x)
     
     def link_ench(self, x):
         for y in self.ench_yamls:
