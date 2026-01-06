@@ -1,11 +1,13 @@
 .clr-roll {
-	color:deepskyblue;}
+	color:lightskyblue;}
 .clr-roll-noex {
 	color:orchid;}
 .clr-hit {
 	color: burlywood;}
+.clr-emphasis {
+	color: burlywood;}
 .clr-value {
-	color:deepskyblue;}
+	color:lightskyblue;}
 .clr-attr {
 	color:#008e02;}
 .clr-sa {
@@ -20,7 +22,7 @@
 .clr-field {}
 .clr-zone {}
 .clr-exper {
-	color:darkblue;}
+	color:steelblue;}
 
 .clr-bonus {
 	color:lawngreen;}
@@ -28,9 +30,9 @@
 	color:red;}
 
 .clr-ench {
-	color:lawngreen;}
+	color:darkseagreen;}
 .clr-curse {
-	color:red;}
+	color:indianred;}
 
 
 .clr-mpcost {
@@ -56,7 +58,7 @@
 .clr-support {
 	color:green;}
 .clr-heal {
-	color:darkred;}
+	color:salmon;}
 .clr-affliction {
 	color:#6b7529;}
 .clr-control {
@@ -68,7 +70,7 @@
 .clr-movement {
 	color:#c19e00;}
 .clr-meta {
-	color:#00369b;}
+	color:steelblue;}
 .clr-counter {
 	color:#b20080;}
 .clr-summon {}
