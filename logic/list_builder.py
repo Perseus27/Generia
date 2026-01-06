@@ -74,15 +74,13 @@ class List_Builder:
                     result += f"[container:subitem]{self.build_list(x.get(subitem), to_link ='skill', list_type='comma')}[/container]"
                 elif subitem == "perks":
                     result += f"[container:subitem]{self.build_list(x.get(subitem), to_link ='perk', list_type='comma')}[/container]"
-                elif subitem == "effect":
+                else:
                     y = x.get(subitem)
                     if isinstance(y, list):
                         for z in y:
                             result += f"[container:subitem]{z}[/container]"
                     else:
                         result += f"[container:subitem]{y}[/container]"
-                else:
-                    result += "[container:subitem]"+x.get(subitem)+"[/container]"
 
             if list_type == "ul":
                 result += "[/li]"
