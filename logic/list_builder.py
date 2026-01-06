@@ -3,8 +3,10 @@ class List_Builder:
         self.autolinker = autolinker
 
 
-    def build_list(self, input_list, to_link = False, list_type = "ul"): # br, comma, li, commabr
+    def build_list(self, input_list, to_link = False, list_type = "ul", color_id=False): # br, comma, li, commabr
         result = ""
+        ctag_open = ""
+        ctag_close = ""
         if list_type == "ul":
             result += "[ul]"
         first = True
@@ -20,6 +22,9 @@ class List_Builder:
                         result += ", "
                     if list_type in ["br", "commabr"]:
                         result += "[br]"
+            if color_id:
+                ctag_open = f"[section:{color_id}]"
+                ctag_close = f"[/section]"
             if isinstance(i, list):
                 first_part = i[0]
                 second_part = i[1]
@@ -29,16 +34,16 @@ class List_Builder:
                 link = self.get_link(i, to_link)
                 if link:
                     if list_flag:
-                        result += f"[url:{link}]{first_part}[/url] {second_part}"
+                        result += f"[url:{link}]{ctag_open}{first_part}{ctag_close}[/url] {ctag_open}{second_part}{ctag_close}"
                     else:
-                        result += f"[url:{link}]{i}[/url]"
+                        result += f"[url:{link}]{ctag_open}{i}{ctag_close}[/url]"
                 else:
                     if list_flag:
-                        result += f"{first_part} {second_part}"
+                        result += f"{ctag_open}{first_part} {second_part}{ctag_close}"
                     else:
-                        result += i                    
+                        result += ctag_open+i+ctag_close
             else:
-                result += i
+                result += ctag_open+i+ctag_close
             if list_type == "ul":
                 result += "[/li]"
         if list_type == "ul":
@@ -74,6 +79,10 @@ class List_Builder:
                     result += f"[container:subitem]{self.build_list(x.get(subitem), to_link ='skill', list_type='comma')}[/container]"
                 elif subitem == "perks":
                     result += f"[container:subitem]{self.build_list(x.get(subitem), to_link ='perk', list_type='comma')}[/container]"
+                elif subitem == "enchantments":
+                    result += f"[container:subitem]{self.build_list(x.get(subitem), to_link ='ench', list_type='comma', color_id='clr-ench')}[/container]"
+                elif subitem == "curses":
+                    result += f"[container:subitem]{self.build_list(x.get(subitem), to_link ='ench', list_type='comma', color_id='clr-curse')}[/container]"
                 else:
                     y = x.get(subitem)
                     if isinstance(y, list):
