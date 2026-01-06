@@ -1,0 +1,45 @@
+name: Enchantments III
+id: Enchantments-iii
+
+
+content:
+  - name: Attribute Bonus III
+    alias: [CON+3, STR+3, DEX+3, INT+3, WIL+3, PER+3]
+    id: attribute-bonus-i
+    medium: [Armor, Trinket, Weapon]
+    description: >
+      The [section:clr-attr]MOD[/section] of the specified attribute is increased by [section:clr-value]2[/section] while the enchanted item is equipped.
+    attunement: 30
+
+  - name: AV Bonus III
+    alias: [AV+6]
+    id: av-bonus-iii
+    medium: [Armor]
+    description: >
+      The [url:values#AV]Armor Value[/url] of this item is increased by [section:clr-value]6[/section].
+
+  - name: MD Bonus III
+    alias: [MD+6]
+    id: md-bonus-iii
+    medium: [Armor, Trinket]
+    description: >
+      [url:values#MD]Magic Defense[/url] is increased by [section:clr-value]6[/section] while the item is equipped.
+
+  - name: Penetration III
+    id: penetration-iii
+    medium: [Weapon]
+    description: >
+      Physical damage dealt with this weapon ignores up to [section:clr-value]6[/section] [url:values#AV]Armor Value[/url].
+
+  - name: Reroll III
+    alias: [Blunt III, Sharp III]
+    id: reroll-iii
+    medium: [Weapon]
+    description: >
+      When attacking with this weapon, you gain [section:clr-value]three[/section] [url:core#Reroll]Damage Rerolls[/url].
+
+  - name: Self Repair III
+    id: self-repair-iii
+    medium: [Armor, Weapon (Shield)]
+    description: >
+      This armor piece loses [section:clr-value]six[/section] stacks of [url:status#Brittle]Brittle[/url] each Phase.

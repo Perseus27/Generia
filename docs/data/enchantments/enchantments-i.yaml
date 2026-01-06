@@ -1,0 +1,54 @@
+name: Enchantments I
+id: Enchantments-i
+
+
+content:
+  - name: Attribute Bonus I
+    alias: [CON+1, STR+1, DEX+1, INT+1, WIL+1, PER+1]
+    id: attribute-bonus-i
+    medium: [Armor, Trinket, Weapon]
+    description: >
+      The [section:clr-attr]MOD[/section] of the specified attribute is increased by [section:clr-value]1[/section] while the enchanted item is equipped.
+    attunement: 10
+
+  - name: AV Bonus I
+    alias: [AV+2]
+    id: av-bonus-i
+    medium: [Armor]
+    description: >
+      The [url:values#AV]Armor Value[/url] of this item is increased by [section:clr-value]2[/section].
+
+  - name: MD Bonus I
+    alias: [MD+2]
+    id: md-bonus-i
+    medium: [Armor, Trinket]
+    description: >
+      [url:values#MD]Magic Defense[/url] is increased by [section:clr-value]2[/section] while the item is equipped.
+
+  - name: Penetration I
+    id: penetration-i
+    medium: [Weapon]
+    description: >
+      Physical damage dealt with this weapon ignores up to [section:clr-value]2[/section] [url:values#AV]Armor Value[/url].
+
+  - name: Recall
+    id: recall
+    medium: [Armor, Trinket, Weapon, Item]
+    description: >
+      The attuned owner of this item may, as a [url:def#FreeAction]Free Action[/url], teleport it to a free hand. It instantly rematerializes and does not need to be re-equipped.
+      [br]The item must be mostly uncovered for the enchantment to work. 
+      [br]The maximum recall range is [section:clr-value]20 meters[/section].
+    attunement: 10
+
+  - name: Reroll I
+    alias: [Blunt I, Sharp I]
+    id: reroll-i
+    medium: [Weapon]
+    description: >
+      When attacking with this weapon, you gain [section:clr-value]one[/section] [url:core#Reroll]Damage Reroll[/url].
+
+  - name: Self Repair I
+    id: self-repair-i
+    medium: [Armor, Weapon (Shield)]
+    description: >
+      This armor piece loses [section:clr-value]two[/section] stacks of [url:status#Brittle]Brittle[/url] each Phase.

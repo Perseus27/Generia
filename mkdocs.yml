@@ -76,6 +76,7 @@ nav:
     - Equipment:
       - rules/equipment/equipment-tags.md
       - rules/equipment/weapon-skills.md
+      - rules/equipment/enchantments.md
     - Miscellaneous:
       - rules/misc/creature-sizes.md
       - rules/misc/creature-tags.md
