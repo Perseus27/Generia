@@ -19,6 +19,13 @@ content:
     description: >
       The [url:values#AV]Armor Value[/url] of this item is increased by [section:clr-value]4[/section].
 
+  - name: Blooddrinker
+    id: blooddrinker
+    medium: [Weapon (Slashing, Stabbing)]
+    description: >
+      Whenever this weapon causes one or more stacks of [url:status#Bleeding]Bleeding[/url], the wielder gains [url:status#Regeneration]Regeneration 1[/url].
+    attunement: 20
+
   - name: MD Bonus II
     alias: [MD+4]
     id: md-bonus-ii
@@ -31,12 +38,20 @@ content:
     medium: [Weapon (Bow)]
     description: >
       This bow has [url:Advantage]Advantage 1[/url] on long range [url:def#RangedAttack]attack rolls[/url].
+    attunement: 20
 
   - name: Penetration II
     id: penetration-ii
     medium: [Weapon]
     description: >
       Physical damage dealt with this weapon ignores up to [section:clr-value]4[/section] [url:values#AV]Armor Value[/url].
+
+  - name: Punisher
+    id: punisher
+    medium: [Weapon (Blunt)]
+    description: >
+      Whenever this weapon causes [url:status#OffBalance]Off-Balance[/url], [url:status#Prone]Prone[/url] or [url:status#Stunned]Stunned[/url], the wielder applies [url:status#DefensePenalty]Defense Penalty[/url] [[section:clr-attr]STR-MOD[/section]] to the target.
+    attunement: 20
 
   - name: Reroll II
     alias: [Blunt II, Sharp II]

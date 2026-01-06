@@ -19,6 +19,19 @@ content:
     description: >
       The [url:values#AV]Armor Value[/url] of this item is increased by [section:clr-value]2[/section].
 
+  - name: Ember
+    id: ember
+    medium: [Weapon]
+    description: >
+      This weapon applies [url:status#Burning]Burning 1[/url] on [url:def#Hit]hit[/url].
+    attunement: 10
+
+  - name: Focus
+    id: focus
+    medium: [Weapon, Trinket]
+    description: >
+      This item can serve as [url:def#Foci]Focus[/url] for a specified spellcasting tradition (Acolytes, Druids, Wizards...).
+
   - name: MD Bonus I
     alias: [MD+2]
     id: md-bonus-i
@@ -53,3 +66,9 @@ content:
     medium: [Armor, Weapon (Shield)]
     description: >
       This armor piece loses [section:clr-value]two[/section] stacks of [url:status#Brittle]Brittle[/url] each Phase.
+
+  - name: Swiftstep
+    id: swiftstep
+    medium: [Armor (Legs)]
+    description:
+      This piece of armor increases its wearer's [url:values#MS]Movement Speed[/url] by [section:clr-value]2[/section].
