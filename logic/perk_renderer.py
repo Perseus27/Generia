@@ -1,20 +1,22 @@
 from bb_renderer import BB_Renderer
 
+from list_builder import List_Builder
+
 class Perk_Renderer:
 
     BB_HELPER = BB_Renderer()
     
-    def __init__(self, yaml_input):
+    def __init__(self, yaml_input, autolinker):
         self.yaml_input = yaml_input
-        self.html_output = ""
+        self.autolinker = autolinker
+        self.list_builder = List_Builder(autolinker)
 
 
     def get_output(self):
-        self.format_to_html()
-        return self.html_output
+        return self.format_to_html()
     
     def format_to_html(self):
-        self.html_output = self.BB_HELPER.process(self.format_all(self.yaml_input.get("content")))    
+        return self.BB_HELPER.process(self.format_all(self.yaml_input.get("content")))    
 
     def format_all(self, perk_yaml):
         if not perk_yaml:
