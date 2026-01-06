@@ -149,7 +149,7 @@ If not otherwise specified in the spell description, most spells and [url:/gener
 [br][i]Stone spells are usually not ethereal.[/i]
 
 [h3|Foci]Foci[/h3]
-If not otherwise specified, all spellcasting traditions require specific items to channel magic. If a caster does not have access to their focus, they have [url:core#Disadvantage]Disadvantage 1[/url] on all magic-related rolls, and all targets have [url:core#Advantage]Advantage 1[/url] on all [section:clr-save]saves[/section] against their magic.
+If not otherwise specified, all spellcasting traditions require specific [url:ench#Focus]enchanted[/url] items to channel magic. If a caster does not have access to their focus, they have [url:core#Disadvantage]Disadvantage 1[/url] on all magic-related rolls, and all targets have [url:core#Advantage]Advantage 1[/url] on all [section:clr-save]saves[/section] against their magic.
 
 [h2|SpellTypes]Spell Types[/h2]
 [h3|SA]Spell Attack ([section:clr-sa]SA[/section])[/h3]
