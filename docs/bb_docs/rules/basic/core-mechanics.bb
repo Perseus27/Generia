@@ -25,6 +25,11 @@ Sum of Advantage X and Disadvantage −X for a specific action.
 [br]If the [i]Advantage Score[/i] is positive [section:clr-value]X[/section]: perform the action with [url:#Advantage]Advantage X[/url].
 [br]If it is negative [section:clr-value]-X[/section]: perform the action with [url:#Disadvantage]Disadvantage X[/url].
 
+[h4|Reroll]Reroll X[/h4]
+If a roll allows [section:clr-value]X[/section] [i]Rerolls[/i], that amount of dice may be discarded and rolled again.
+[br]The type of dice that may be rerolled is usually specified and may vary in scope. For example, a [i]Damage Reroll[/i] only applies to damage rolls, while an [i]Effect Reroll[/i] includes not just damage, but any other roll that results from the action.
+[br]If the type is not specified, assume an [i]Effect Reroll[/i].
+
 [h4|Eased]Eased X[/h4]
 If a roll is [i]Eased by [section:clr-value]X[/section][/i], add [b][section:clr-val]X[/section][/b] to the result.
 
@@ -32,7 +37,7 @@ If a roll is [i]Eased by [section:clr-value]X[/section][/i], add [b][section:clr
 If a roll is [i]Hindered by [section:clr-value]X[/section][/i], deduct [b][section:clr-val]X[/section][/b] from the result.
 
 [h4|MedianCheck]Median Check[/h4]
-For a Median Check, roll three identical dice. Ignore the highest and lowest dice; only the middle value counts.
+For a Median Check, roll three identical dice. Ignore the highest and lowest dice, only the middle value counts.
 [br]Example:
 [br]The results are [section:clr-value]2[/section], [section:clr-value]11[/section], and [section:clr-value]17[/section]. The [section:clr-value]11[/section] is the result of the roll.
 [br]If a creature has [url:#Advantage]Advantage[/url] on a Median Check, roll four or more dice. The second-highest result counts.
