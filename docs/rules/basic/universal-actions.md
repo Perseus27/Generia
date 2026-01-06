@@ -5,7 +5,7 @@ title: Universal Actions
 
 # Combat
 
-{{ skills('data/skills/actions-combat.yaml') }} 
+{{ skills('data/skills/actions-combat.yaml') }}
 
 # Non-Combat
 
