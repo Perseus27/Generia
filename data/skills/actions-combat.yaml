@@ -1,0 +1,29 @@
+name: "Actions (Combat)"
+id: "actions-combat"
+prefix: "actions"
+special: True
+
+content:
+  - name: Preparation
+    id: preparation
+    tags: [Universal, "Any Action"]
+    description: >
+      Prepares a specified action for the next turn, adding a non-explosive [section:clr-roll-noex]1d6[/section] to the initial check.
+      [br]All actions that require a check to take effect (e.g. most attack actions, anti-[url:status#Grappled]Grapple[/url] saves, [url:def#Jumping]jumps[/url]...) are eligible.
+      [br][i]Preparation does not stack.[/i]
+
+  - name: Sprint
+    id: sprint
+    tags: [Universal, "Movement"]
+    cost:
+      - "[section:clr-en]2 EN[/section]"
+    description: >
+      Performs a basic movement action with [url:values#MS]MS[/url] increased by [[section:clr-attr]STR-MOD[/section]] or [[section:clr-attr]DEX-MOD[/section]], whichever is higher.
+
+  - name: Stealthy Movement
+    id: stealthy-movement
+    tags: [Universal, "Movement"]
+    cost:
+      - "[section:clr-en]1 EN[/section]"
+    description: >
+      Performs a [url:status#Slowed]slowed[/url] basic movement action with [url:status#Hidden]Hidden 1[/url].

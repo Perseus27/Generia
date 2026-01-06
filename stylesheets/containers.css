@@ -89,6 +89,21 @@
 	margin-top: 0px;
 }
 
+.enchantment {
+	background: rgba(180,180,180,0.05);
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 5px;
+	padding: 4px;
+	margin: 12px;
+	line-height: 1.2;
+	font-size: .7rem;
+}
+.enchantment h2 {
+	margin-top: 0px;
+}
+
 
 
 .orgblock {	
@@ -130,12 +145,11 @@
 	margin: 0.5rem;
 }
 .statusblock h2 {
-	margin-top: 0px;
-}
+	margin-top: 0px;}
 .statusblock h4 {
-	margin-top: 0px;
-}
-
+	margin-top: 0px;}
+.statusblock li {
+	font-size: 0.6rem;}
 
 
 

@@ -1,0 +1,52 @@
+name: Enchantments II
+id: Enchantments-ii
+
+
+content:
+  - name: Attribute Bonus II
+    alias: [CON+2, STR+2, DEX+2, INT+2, WIL+2, PER+2]
+    id: attribute-bonus-i
+    medium: [Armor, Trinket, Weapon]
+    description: >
+      The [section:clr-attr]MOD[/section] of the specified attribute is increased by [section:clr-value]2[/section] while the enchanted item is equipped.
+    attunement: 20
+
+  - name: AV Bonus II
+    alias: [AV+4]
+    id: av-bonus-ii
+    medium: [Armor]
+    description: >
+      The [url:values#AV]Armor Value[/url] of this item is increased by [section:clr-value]4[/section].
+
+  - name: MD Bonus II
+    alias: [MD+4]
+    id: md-bonus-ii
+    medium: [Armor, Trinket]
+    description: >
+      [url:values#MD]Magic Defense[/url] is increased by [section:clr-value]4[/section] while the item is equipped.
+
+  - name: Penetration II
+    id: penetration-ii
+    medium: [Weapon]
+    description: >
+      Physical damage dealt with this weapon ignores up to [section:clr-value]4[/section] [url:values#AV]Armor Value[/url].
+
+  - name: Reroll II
+    alias: [Blunt II, Sharp II]
+    id: reroll-ii
+    medium: [Weapon]
+    description: >
+      When attacking with this weapon, you gain [section:clr-value]two[/section] [url:core#Reroll]Damage Rerolls[/url].
+
+  - name: Resistance
+    id: resistance
+    medium: [Armor, Trinket]
+    description: >
+      This item grants its wearer [url:status#Resistant]Resistance[/url] against the specified [url:dmgtype]damage type[/url].
+    attunement: 20
+
+  - name: Self Repair II
+    id: self-repair-ii
+    medium: [Armor, Weapon (Shield)]
+    description: >
+      This armor piece loses [section:clr-value]four[/section] stacks of [url:status#Brittle]Brittle[/url] each Phase.

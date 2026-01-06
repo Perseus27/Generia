@@ -1,0 +1,48 @@
+name: "Actions (Non-Combat)"
+id: "actions-noncombat"
+prefix: "actions"
+special: True
+
+content:
+  - name: Ambush
+    id: ambush
+    tags: [Universal, Non-Combat]
+    time: ½ Phase
+    description: >
+      Select a specified [url:def#Action]Offensive[/url] or [url:def#Action]Utility Action[/url] to be executed immediately upon entering combat.
+      [br]For [section:clr-en]1 EN[/section], a [url:def#MovementAction]Movement Action[/url] may be executed as well.
+      [br]The selected action counts as [url:actions#preparation]prepared[/url], if applicable.
+
+  - name: Meditation
+    id: meditation
+    tags: [Universal, Non-Combat]
+    time: 1 Phase
+    description: >
+      [section:clr-mp]MPR[/section] is [section:clr-value]doubled[/section] for this Phase.
+      [br]Passive [section:clr-attr]PER[/section] checks are hindered by [section:clr-value]10[/section]. [url:values#INI]Initiative[/url] rolls have [url:core#Disadvantage]Disadvantage 1[/url].
+      [br]All effects and spells requiring [url:def#Concentration]Concentration[/url] end.
+      [br]Meditation is impossible while afflicted with:
+      [ul]
+      [li]Any DoT [url:status]status effects[/url][/li]
+      [li][url:status#Confused]Confused[/url][/li]
+      [li][url:status#Drowsy]Drowsy[/url][/li]
+      [li][url:status#Frightened]Frightened[/url][/li]
+      [li][url:status#Panicked]Panicked[/url][/li]
+      [/ul]
+
+  - name: Proficiency Check
+    id: proficiency-check
+    tags: [Universal, Non-Combat]
+    time: 1 Phase
+    description: >
+      Executes a check related to a learned proficiency (e.g., [url:/generia/character/proficiencies/proficiencies-civilian#Knowledge]Medicine[/url]).
+       The check difficulty is otherwise specified or subject to GM discretion.
+      [br]It is possible to increase or decrease the difficulty of a [i]Proficiency Check[/i] by doubling or halving the time required. Doubling the time reduces the difficulty by [section:clr-value]5[/section], while halving the time increases it by [section:clr-value]5[/section].
+      [br]This effect is stackable within the bounds of reason (meaning, subject to GM discretion).
+      [br][b]Example:[/b] Base Difficulty [section:clr-value]12[/section]
+      [ul]
+      [li]1 Phase: [section:clr-value]12[/section][/li]
+      [li]½ Phase: [section:clr-value]17[/section][/li]
+      [li]2 Phases: [section:clr-value]7[/section][/li]
+      [li]4 Phases: [section:clr-value]2[/section][/li]
+      [/ul]
