@@ -9,6 +9,7 @@ class Autolinker:
     SKILL_DIR = DATA_DIR / "skills"
     SPELL_DIR = DATA_DIR / "spells"
     TAG_DIR = DATA_DIR / "tags"
+    ENCH_DIR = DATA_DIR / "enchantments"
 
     def __init__(self):
         self.class_yamls = [
@@ -31,6 +32,11 @@ class Autolinker:
             yaml.safe_load(path.read_text(encoding="utf-8"))
             for path in sorted(self.TAG_DIR.rglob("*.yaml"))
         ]
+        self.ench_yamls = [
+            yaml.safe_load(path.read_text(encoding="utf-8"))
+            for path in sorted(self.ENCH_DIR.rglob("*.yaml"))
+        ]
+
 
     def link_class(self, x, overview=False):
         for c in self.class_yamls:
@@ -73,7 +79,16 @@ class Autolinker:
     def link_tag(self, x):
         for y in self.tag_yamls:
             prefix = y.get("prefix")
-            for p in self.get_all_tags_from_file(y):
+            for p in self.get_all_contents_from_file(y):
+                name = p.get("name")
+                if name == x or x in p.get("alias", []):
+                    return f"{prefix}#{p.get('id', name)}"
+        return False
+    
+    def link_ench(self, x):
+        for y in self.ench_yamls:
+            prefix = y.get("prefix")
+            for p in self.get_all_contents_from_file(y):
                 name = p.get("name")
                 if name == x or x in p.get("alias", []):
                     return f"{prefix}#{p.get('id', name)}"
@@ -105,6 +120,6 @@ class Autolinker:
         result = [x for x in all if x]
         return result
     
-    def get_all_tags_from_file(self, f):
+    def get_all_contents_from_file(self, f):
         return f.get("content", [])
     

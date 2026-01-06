@@ -54,6 +54,7 @@ class BB_Renderer:
             'class3'    :   '/generia/character/classes/tier-iii',
             'eqtags'    :   '/generia/rules/equipment/equipment-tags',
             'skillsW'   :   '/generia/rules/equipment/weapon-skills',
+            'ench'      :   '/generia/rules/equipment/enchantments',
             'armor'     :   '/generia/equipment/armor',
             'weapons'   :   '/generia/equipment/weapons',
         }
