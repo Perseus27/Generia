@@ -194,5 +194,7 @@ nav:
   - Equipment:
     - equipment/armor.md
     - equipment/weapons.md
+    - equipment/consumables.md
+    - equipment/materials-tools.md
   - Player Materials: 
     - stats/index.md

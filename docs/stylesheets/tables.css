@@ -56,3 +56,8 @@
 .weapon-table-ranged th:nth-child(10) {
     width: 24%;
 }
+
+
+.item-table th:nth-child(1) {
+    width: 20%;
+}

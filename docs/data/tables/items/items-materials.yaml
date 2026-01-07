@@ -1,0 +1,64 @@
+name: Materials
+id: items-materials
+table_type: item-table item-table-material
+headers:
+- Name
+- Description
+
+items:
+- name: Elemental Core, lesser
+  description: >
+    A small piece of crystallized mana of a specific basic element (Water, Stone, Fire, Air).
+    Dropped by Lesser Elementals or collected through specific rituals.
+    [br]An important material for [url:/generia/character/spellcasting-traditions/alchemist/what-is-an-alchemist]Alchemists[/url] and [url:/generia/character/spellcasting-traditions/shaman/what-is-a-shaman]Shamans[/url].
+  price: 1
+
+- name: Elemental Core, normal
+  description: >
+    A piece of crystallized mana of a specific basic element (Water, Stone, Fire, Air).
+    Dropped by Elementals or collected through specific rituals.
+    [br]An important material for [url:/generia/character/spellcasting-traditions/alchemist/what-is-an-alchemist]Alchemists[/url] and [url:/generia/character/spellcasting-traditions/shaman/what-is-a-shaman]Shamans[/url].
+  price: 10
+
+- name: Elemental Core, greater
+  description: >
+    A large piece of crystallized mana of a specific basic element (Water, Stone, Fire, Air).
+    Dropped by Greater Elementals or collected through specific rituals.
+    [br]An important material for [url:/generia/character/spellcasting-traditions/alchemist/what-is-an-alchemist]Alchemists[/url] and [url:/generia/character/spellcasting-traditions/shaman/what-is-a-shaman]Shamans[/url].
+  price: 100
+
+- name: Matrix Crystal
+  description: >
+    A faintly glowing crystal, inscribed with a generic spell matrix.
+    [br]An important material for [url:/generia/character/spellcasting-traditions/wizard/what-is-a-wizard]Wizards[/url].
+  price: 1
+
+- name: Matrix Crystal, greater
+  description: >
+    A brightly glowing crystal, inscribed with a generic, but extremely potent spell matrix.
+    [br]An important material for [url:/generia/character/spellcasting-traditions/wizard/what-is-a-wizard]Wizards[/url].
+  price: 100
+
+- name: Moonstone
+  description: >
+    A shimmering piece of stone that fell from the sky, imbued with Luna's divine mana.
+    [br]An important material for [url:/generia/character/spellcasting-traditions/acolyte/what-is-an-acolyte]Acolytes[/url].
+  price: 1
+
+- name: Moonstone, greater
+  description: >
+    A shimmering piece of stone that fell from the sky, imbued with Luna's divine grace.
+    [br]An important material for [url:/generia/character/spellcasting-traditions/acolyte/what-is-an-acolyte]Acolytes[/url].
+  price: 100
+
+- name: Sunstone
+  description: >
+    A smoldering piece of stone that fell from the sky, imbued with Sol's divine mana.
+    [br]An important material for [url:/generia/character/spellcasting-traditions/acolyte/what-is-an-acolyte]Acolytes[/url].
+  price: 1
+
+- name: Sunstone, greater
+  description: >
+    A smoldering piece of stone that fell from the sky, imbued with Sol's divine might.
+    [br]An important material for [url:/generia/character/spellcasting-traditions/acolyte/what-is-an-acolyte]Acolytes[/url].
+  price: 100
