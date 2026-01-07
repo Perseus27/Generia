@@ -4,6 +4,38 @@ prefix: "actions"
 special: True
 
 content:
+  - name: Analyze Character
+    id: analyze-character
+    tags: [Universal, Free Action]
+    description: >
+      Attempt to perceive system information about a character within [section:clr-value]20 meters[/section].
+      [br]The [i]"Analyze Value"[/i] equals [[section:clr-value]User Level[/section] - [section:clr-value]Target Level[/section]].
+      [br][b]Results:[/b]
+      [ul]
+      [li][b]<= 0:[/b] Displayed [i][url:/generia/character/classes/class-overview]Class[/url][/i] and [i]Title[/i][/li]
+      [li][b]>= 1:[/b] Level[/li]
+      [li][b]>= 10:[/b] All classes[/li]
+      [li][b]>= 15:[/b] Highest Attribute value[/li]
+      [li][b]>= 20:[/b] All Attribute values[/li]
+      [/ul]
+      It is possible to increase the [i]Analyze Value[/i] by the result of a simple [section:clr-value]PER[/section] check. However, if the check result is below the target's own [section:clr-attr]PER[/section] [section:clr-dc]DC[/section], it becomes aware of the Analyze attempt.
+
+  - name: Analyze Creature
+    id: analyze-creature
+    tags: [Universal, Free Action]
+    description: >
+      Attempt to perceive system information about a creature within [section:clr-value]20 meters[/section].
+      [br]The [i]"Analyze Value"[/i] equals [[section:clr-value]User Level[/section] - [section:clr-value]Target Level[/section]].
+      [br][b]Results:[/b]
+      [ul]
+      [li][b]<= 0:[/b] No information[/li]
+      [li][b]>= 1:[/b] Level[/li]
+      [li][b]>= 10:[/b] [i]Perks[/i] and [i]Skills[/i], if applicable[/li]
+      [li][b]>= 15:[/b] Highest Attribute value[/li]
+      [li][b]>= 20:[/b] All Attribute values[/li]
+      [/ul]
+      It is possible to increase the [i]Analyze Value[/i] by the result of a simple [section:clr-value]PER[/section] check. However, if the check result is below the target's own [section:clr-attr]PER[/section] [section:clr-dc]DC[/section], it becomes aware of the Analyze attempt.
+
   - name: Preparation
     id: preparation
     tags: [Universal, "Any Action"]
