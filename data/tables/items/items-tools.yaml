@@ -1,0 +1,38 @@
+name: Tools
+id: items-tools
+table_type: item-table item-table-tools
+headers:
+- Name
+- Description
+- Weight
+- Size
+
+items:
+- name: Analyzer
+  description: >
+    A small, rectangular magical item with a round hole in the middle. Looking through that hole while attempting to [url:actions#analyze-character]analyze[/url] characters or creatures grants [url:core#Advantage]Advantage 1[/url] on the [section:clr-attr]PER[/section] check.
+  weight: 0.1
+  size: 1x1
+  price: 10
+
+- name: Medikit
+  description: >
+    A field toolkit for medics. Includes bandages, ointments and antiseptics, along with needles and a scalpel.
+    [br]Necessary for healing [url:wounds]wounds[/url] through [i]Medicine[/i]. [section:clr-value]5 uses[/section] per item.
+  weight: 0.25
+  size: 1x1
+  price: 1
+
+- name: Smith-in-a-Bottle
+  description: >
+    A small flask of a metallic alchemical liquid, capable of removing [url:status#Brittle]Brittle[/url] from a piece of equipment.
+  weight: 0.1
+  size: 1x1
+  price: 1
+
+- name: Clean-o-Quick
+  description: >
+    A small flask of a clear alchemical liquid. Quickly spreads over people and surfaces it is applied to, cleansing all filth and leaving only a faint scent of peppermint.
+  weight: 0.1
+  size: 1x1
+  price: 1

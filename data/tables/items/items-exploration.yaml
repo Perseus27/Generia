@@ -1,0 +1,99 @@
+name: Exploration
+id: items-exploration
+table_type: item-table item-table-exploration
+headers:
+- Name
+- Description
+- Weight
+- Size
+
+items:
+- name: Canned Fire
+  description: >
+    A metallic box filled with stable elemental fire, capable of producing enough heat to cook on it.
+    [br]Requires [section:clr-value]1 MP[/section] per Phase of operation.
+  weight: 0.25
+  size: 1x1
+  price: 5
+
+- name: Insect Zapper
+  description: >
+    A magical tool that automatically kills small insects with low-powered [url:meteorics#zap-i]Zap[/url] spells.
+    [br]Must be recharged with [section:clr-mp]4 MP[/section] for each full day of operation.
+  weight: 0.25
+  size: 1x1
+  price: 5
+
+- name: Rope, simple
+  description: >
+    A mundane, sturdy rope. Around 10 meters long.
+  weight: 0.5
+  size: 2x1
+  price: 1
+
+- name: Rope, enchanted
+  description: >
+    An enchanted rope. Around 10 meters long. Can move like a snake when mentally commanded by its owner.
+    [br]Requires Attunement [section:clr-malus]10[/section].
+  weight: 0.5
+  size: 2x1
+  price: 25
+
+- name: Telescope, simple
+  description: >
+    A mundane telescope. Grants [url:core#Advantage]Advantage 1[/url] on visual [section:clr-attr]PER[/section] checks beyond [section:clr-value]20 meters[/section].
+  weight: 0.25
+  size: 2x1
+  price: 2
+
+- name: Telescope, enchanted
+  description: >
+    An enchanted telescope. Grants [url:core#Advantage]Advantage 2[/url] on visual [section:clr-attr]PER[/section] checks beyond [section:clr-value]20 meters[/section]. Has an integrated [i]Analyzer[/i] that works up to a range of [section:clr-value]100 meters[/section].
+  weight: 0.25
+  size: 2x1
+  price: 50
+
+- name: Tent, mundane, small
+  description: >
+    A simple canvas tent for one person.
+  weight: 1.0
+  size: 6x1
+  price: 2
+
+- name: Tent, mundane, medium
+  description: >
+    A simple canvas tent for two people.
+  weight: 1.5
+  size: 8x1
+  price: 4
+
+- name: Tent, mundane, large
+  description: >
+    A simple canvas tent for four people.
+  weight: 2.0
+  size: 6x2
+  price: 6
+
+- name: Tent, enchanted, small
+  description: >
+    An enchanted canvas tent for one person. Keeps the inside at a comfortable temperature even in extreme climates.
+    [br]A powerful SEP field grants camouflage in all environments, [url:core#Hindered]hindering[/url] hostile [section:clr-attr]PER[/section] checks by [section:clr-value]20[/section].
+  weight: 1.0
+  size: 6x1
+  price: 100
+
+- name: Tent, enchanted, medium
+  description: >
+    An enchanted canvas tent for two people. Keeps the inside at a comfortable temperature even in extreme climates.
+    [br]A powerful SEP field grants camouflage in all environments, [url:core#Hindered]hindering[/url] hostile [section:clr-attr]PER[/section] checks by [section:clr-value]20[/section].
+  weight: 1.5
+  size: 8x1
+  price: 200
+
+- name: Tent, enchanted, large
+  description: >
+    An enchanted canvas tent for four people. Keeps the inside at a comfortable temperature even in extreme climates.
+    [br]A powerful SEP field grants camouflage in all environments, [url:core#Hindered]hindering[/url] hostile [section:clr-attr]PER[/section] checks by [section:clr-value]20[/section].
+  weight: 2.0
+  size: 6x2
+  price: 400

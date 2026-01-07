@@ -4,60 +4,52 @@ table_type: item-table item-table-poison
 headers:
 - Name
 - Effect
-- Save
 
 items:
 - name: Poison I
   effect: Causes [url:status#Poisoned]Poisoned 1[/url].
-  save: Regular
   price: 1
 
 - name: Poison II
   effect: Causes [url:status#Poisoned]Poisoned 2[/url].
-  save: Regular
   price: 2
 
 - name: Poison III
   effect: Causes [url:status#Poisoned]Poisoned 3[/url].
-  save: Regular
   price: 4
 
 - name: Poison IV
   effect: Causes [url:status#Poisoned]Poisoned 4[/url].
-  save: Regular
   price: 8
 
 - name: Poison V
   effect: Causes [url:status#Poisoned]Poisoned 5[/url].
-  save: Regular
   price: 16
 
 - name: "Toxin: Charmed"
   effect: Causes [url:status#Charmed]Charmed[/url].
-  save: "[section:clr-attr]CON[/section] vs [section:clr-dc]10+Q[/section]"
   price: 1
 
 - name: "Toxin: Confusion"
   effect: Causes [url:status#Weakened]Weakened[/url].
-  save: "[section:clr-attr]CON[/section] vs [section:clr-dc]10+Q[/section]"
   price: 1
 
 - name: "Toxin: Drowsy"
   effect: Causes [url:status#Drowsy]Drowsy[/url].
-  save: "[section:clr-attr]CON[/section] vs [section:clr-dc]10+Q[/section]"
+  price: 1
+
+- name: "Toxin: Frail"
+  effect: Causes [url:status#Frail]Frail[/url].
   price: 1
 
 - name: "Toxin: Slowed"
   effect: Causes [url:status#Slowed]Slowed[/url].
-  save: "[section:clr-attr]CON[/section] vs [section:clr-dc]10+Q[/section]"
   price: 1
 
 - name: "Toxin: Weakened"
   effect: Causes [url:status#Weakened]Weakened[/url].
-  save: "[section:clr-attr]CON[/section] vs [section:clr-dc]10+Q[/section]"
   price: 1
 
 - name: "Toxin: Vulnerable"
   effect: Causes [url:status#Vulnerable]Vulnerable[/url] against the specified damage type for [section:clr-value]one Phase[/section].
-  save: "Cleanse: [section:clr-dc]DC 20[/section]"
   price: 8

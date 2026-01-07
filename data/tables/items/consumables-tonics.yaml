@@ -10,6 +10,10 @@ items:
   effect: Grants [url:core#Advantage]Advantage 1[/url] on saves against [url:status#Poisoned]Poisoned[/url].
   price: 1
 
+- name: Coagulant
+  effect: Grants [url:core#Advantage]Advantage 1[/url] on saves against [url:status#Bleeding]Bleeding[/url].
+  price: 1
+
 - name: Stimulant
   effect: Grants [url:core#Advantage]Advantage 1[/url] on saves against [url:status#Confused]Confused[/url], [url:status#Drowsy]Drowsy[/url], [url:status#Stunned]Stunned[/url].
   price: 1
