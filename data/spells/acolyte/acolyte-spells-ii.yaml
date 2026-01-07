@@ -91,10 +91,10 @@ utility:
       [br]Bastard Sword
       [br][section:clr-roll]2d6[/section] + [i]Sol[/i]
       [br][b]Pride[/b]
-      [br]War Spear
+      [br]Spear
       [br][section:clr-roll]2d6[/section] + [i]Sol[/i]
       [br][b]Strength[/b]
-      [br]Mace
+      [br]Flanged Mace
       [br][section:clr-roll]2d6[/section] + [i]Sol[/i]
 
   - name: "Photosensitivity"
@@ -152,7 +152,7 @@ ritual:
       - Moonstone
     cast_time: 1 Phase
     description: >
-      Blesses a room as a sacred refuge for the sick and wounded; must be renewed at sunset. Room max: 40 m², 6 m high, clearly bounded on all sides.
+      Blesses a room as a sacred refuge for the sick and wounded. The ritual must be renewed at sunset. Room max: 40 m², 6 m high, clearly bounded on all sides.
     effect: >
       Healing received inside is doubled; creatures have [url:core#Advantage]Advantage 1[/url] on all status effect saves and medicine checks.
 
@@ -165,7 +165,7 @@ ritual:
       - Sunstone
     cast_time: 1 Phase
     description: >
-      Blesses a room as a sacred fortress; must be renewed at sunrise and sunset or it ends. Room max: 40 m², 6 m high, clearly bounded on all sides.
+      Blesses a room as a sacred fortress. The ritual must be renewed at sunrise and sunset or it ends. Room max: 40 m², 6 m high, clearly bounded on all sides.
     effect: >
       Physical attacks against the room’s walls, doors, and windows have no effect. Spells/rituals cast from outside with hostile intent upon or into the room have no effect.
 
@@ -176,7 +176,7 @@ ritual:
       - "[section:clr-ritual]RITUAL[/section]"
     cast_time: 1 Phase
     description: >
-      Conjures a holy well containing [i]Luna[/i] portions of moonwater. Upon polite request, Luna may also provide phials of light that can carry the water. The well, moonwater, and phials dissolve at sunrise; likewise if polluted or traded for profit.
+      Conjures a holy well containing [[section:clr-value]Luna[/section]] portions of Moonwater. Upon polite request, Luna may also provide phials of light that can carry the water. The well, moonwater, and phials dissolve at sunrise; likewise if polluted or traded for profit.
     effect: >
       Each portion grants [url:status#Regeneration]Regeneration 2[/url] to the drinker.
       [br][i]Size 1×1, Weight 0[/i]

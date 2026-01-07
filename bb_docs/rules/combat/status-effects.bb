@@ -165,9 +165,8 @@ If the source of a status effect is non-magical in nature (e.g., [url:#Stunned]S
 [container:statusblock]
 [h4|Frail]Frail[/h4]
 [section:clr-affliction]AFFLICTION[/section]
-[br]Incoming [section:clr-heal]healing points[/section] are halved.
-[br][b][section:clr-save]Save[/section]:[/b] [b][section:clr-attr]CON[/section][/b] vs [b][section:clr-value]20[/section][/b] at the start of the turn.
-[br]Automatically removed after a wound is healed.
+[br][section:clr-attr]CON[/section] checks have [url:core#Disadvantage]Disadvantage 1[/url] (except the [section:clr-save]Save[/section] against this effect).
+[br][b][section:clr-save]Save[/section]:[/b] [b][section:clr-attr]CON[/section][/b] vs [b][section:clr-dc]DC[/section][/b] at the start of the turn or whenever a wound is healed. The save has [url:core#Advantage]Advantage 1[/url] if the creature is not wounded.
 [/container]
 
 [container:statusblock]
@@ -286,10 +285,10 @@ If the source of a status effect is non-magical in nature (e.g., [url:#Stunned]S
 [/container]
 
 [container:statusblock]
-[h4|Weakened]Weakened X[/h4]
+[h4|Weakened]Weakened[/h4]
 [section:clr-affliction]AFFLICTION[/section]
-[br][url:core#Disadvantage]Disadvantage 1[/url] on [url:def#BasicAttack]basic attacks[/url] for [section:clr-value]X[/section] turns.
-[br][i]At the end of each of the creature’s turns, reduce [section:clr-zahl]X[/section] by [section:clr-zahl]1[/section].[/i]
+[br][section:clr-attr]STR[/section] checks have [url:core#Disadvantage]Disadvantage 1[/url].
+[br][b][section:clr-save]Save[/section]:[/b] [b][section:clr-attr]CON[/section][/b] vs [b][section:clr-dc]DC[/section][/b] at the start of the turn.
 [/container]
 
 [hr]
