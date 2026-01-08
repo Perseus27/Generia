@@ -46,10 +46,10 @@ title: Beasts of the Deep Wilds
 ## Saurians
 
 ### Level 15
-{{ creature('data/creatures/beasts/deep-wilds/carnivores/raptor-15.yaml') }}
+{{ creature('data/creatures/beasts/deep-wilds/saurians/raptor-15.yaml') }}
 
 ### Level 25
-{{ creature('data/creatures/beasts/deep-wilds/carnivores/allosaurus-25.yaml') }}
+{{ creature('data/creatures/beasts/deep-wilds/saurians/allosaurus-25.yaml') }}
 
 ### Level 40
 {{ creature('data/creatures/beasts/deep-wilds/saurians/tyrannosaurus-rex-40.yaml') }}
