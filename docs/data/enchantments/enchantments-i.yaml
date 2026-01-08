@@ -73,6 +73,12 @@ content:
     description: >
       This armor piece loses [section:clr-value]two[/section] stacks of [url:status#Brittle]Brittle[/url] each Phase.
 
+  - name: Steady
+    id: steady
+    medium: [Weapon (Shield)]
+    description: >
+      [section:clr-conc]Concentration[/section] saves caused by blocked attacks have [url:core#Advantage]Advantage 1[/url].
+
   - name: Swiftstep
     id: swiftstep
     medium: [Armor (Legs)]
