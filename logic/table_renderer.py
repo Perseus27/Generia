@@ -1,21 +1,22 @@
 from bb_renderer import BB_Renderer
 
+from list_builder import List_Builder
+
 class Table_Renderer:
 
     BB_HELPER = BB_Renderer()
     
     def __init__(self, yaml_input, autolinker):
         self.yaml_input = yaml_input
-        self.html_output = ""
         self.autolinker = autolinker
+        self.list_builder = List_Builder(autolinker)
 
 
     def get_output(self):
-        self.format_to_html()
-        return self.html_output
+        return self.format_to_html()
 
-
-
+    def get_price_table(self):
+        return self.format_price_table()
 
     def format_to_html(self):
         include_fields = []
@@ -31,7 +32,18 @@ class Table_Renderer:
 </div>
         """
         
-        self.html_output = result
+        return result
+    
+    def format_price_table(self):
+        result = f"""
+<div class="rendered-table rendered-table-50">
+    <h3 id="{self.yaml_input.get("id")}">{self.BB_HELPER.process(self.yaml_input.get("name"))}</h3>
+    <table class="price-table rendered-table-inner">
+        {self.build_price_table()}
+    </table>
+</div>
+        """
+        return result
 
     def build_header(self, input_array):
         result = "<tr>"
@@ -51,46 +63,28 @@ class Table_Renderer:
                 if subitem == "damage":
                     result += "<td>"+self.BB_HELPER.process(f"[section:clr-roll]{str(x.get(subitem))}[/section]")+"</td>"
                 elif subitem == "skill":
-                    result += "<td>"+self.BB_HELPER.process(self.format_list_comma(x.get(subitem), to_link="skill"))+"</td>"
+                    result += "<td>"+self.BB_HELPER.process(self.list_builder.build_list(x.get(subitem), to_link="skill", list_type="comma"))+"</td>"
                 elif subitem == "tags":
-                    result += "<td>"+self.BB_HELPER.process(self.format_list_comma(x.get(subitem), to_link="tag"))+"</td>"
+                    result += "<td>"+self.BB_HELPER.process(self.list_builder.build_list(x.get(subitem), to_link="tag", list_type="comma"))+"</td>"
                 else:
                     result += "<td>"+self.BB_HELPER.process(str(x.get(subitem)))+"</td>"
             result += "</tr>"
         return result
+    
 
-    def format_list_comma(self, input_list, to_link=False):
-        result = ""
-        first = True
-        if not isinstance(input_list, list):
-            input_list = [input_list]
-        for i in input_list:
-            list_flag = False
-            if first:
-                first = False
-            else:
-                result += ", "
-            if isinstance(i, list):
-                first_part = i[0]
-                second_part = i[1]
-                i = first_part
-                list_flag = True
-            if to_link:
-                link = False
-                if to_link == "tag":
-                    link = self.autolinker.link_tag(i)
-                elif to_link == "skill":
-                    link = self.autolinker.link_skill(i)
-                if link:
-                    if list_flag:
-                        result += f"[url:{link}]{first_part}[/url] {second_part}"
-                    else:
-                        result += f"[url:{link}]{i}[/url]"
-                else:
-                    if list_flag:
-                        result += f"{first_part} {second_part}"
-                    else:
-                        result += i
-            else:
-                result += i
+    def build_price_table(self):
+        # Build Header
+        result = "<tr>"
+        result += "<th>Name</th>"
+        result += "<th>Price</th>"
+        result += "<th>Rarity</th>"
+        result += "</tr>"
+        for x in self.yaml_input.get("items"):
+            result += "<tr>"
+            for subitem in x:
+                if subitem in ["name", "price", "rarity"]:
+                    result += f"<td>{x.get(subitem)}</td>"
+            result += "</tr>"
         return result
+
+        

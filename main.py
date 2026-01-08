@@ -58,6 +58,11 @@ def define_env(env):
         return Table_Renderer(yaml_content, autolinker).get_output()
     
     @env.macro
+    def price_table(path: str):
+        yaml_content = _read_yaml(path)
+        return Table_Renderer(yaml_content, autolinker).get_price_table()
+    
+    @env.macro
     def perks(path: str):
         yaml_content = _read_yaml(path)
         return Perk_Renderer(yaml_content, autolinker).get_output()
