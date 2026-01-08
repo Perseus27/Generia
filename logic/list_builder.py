@@ -30,6 +30,9 @@ class List_Builder:
             if isinstance(i, list):
                 first_part = i[0]
                 second_part = i[1]
+                rest = False
+                if len(i) > 2:
+                    rest = i[2:]
                 i = first_part
                 list_flag = True
             if to_link:
@@ -37,11 +40,17 @@ class List_Builder:
                 if link:
                     if list_flag:
                         result += f"[url:{link}]{ctag_open}{first_part}{ctag_close}[/url] {ctag_open}{second_part}{ctag_close}"
+                        if rest:
+                            for x in rest:
+                                result += f"[br][section:clr-subitem]{x}[/section]"
                     else:
                         result += f"[url:{link}]{ctag_open}{i}{ctag_close}[/url]"
                 else:
                     if list_flag:
                         result += f"{ctag_open}{first_part} {second_part}{ctag_close}"
+                        if rest:
+                            for x in rest:
+                                result += f"[br][section:clr-subitem]{x}[/section]"
                     else:
                         result += ctag_open+i+ctag_close
             else:
