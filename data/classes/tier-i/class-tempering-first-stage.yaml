@@ -1,5 +1,6 @@
 name: "Tempering: First Stage"
 id: "class-tempering-first-stage"
+alias: [Tempering I]
 prefix: "class1"
 spellcaster_info: >
   See also: [url:/generia/character/spellcasting-traditions/tempering/what-is-a-tempered]What is a Tempered?[/url]
@@ -34,7 +35,7 @@ actions:
     - []
   spells:
     - [Impact, 4 SP]
-    - [Bones of Steel, 4 SP]
+    - [Skin of Bronze, 4 SP]
     - [Great Leap, 4 SP]
     - [Killing Intent, 4 SP]
     - [Looming Presence, 4 SP]

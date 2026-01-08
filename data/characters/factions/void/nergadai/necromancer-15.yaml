@@ -12,10 +12,10 @@ notes: >
 attributes:
   CON: [5, 2]
   STR: [3, 1]
-  DEX: [4, 2]
+  DEX: [7, 2]
   INT: [7, 3]
-  WIL: [8, "[section:clr-malus]3[/section]"]
-  PER: [10, "[section:clr-bonus]6[/section]"]
+  WIL: [7, "[section:clr-malus]2[/section]"]
+  PER: [9, "[section:clr-bonus]5[/section]"]
 values:
   EN: 10
   MP: 20
@@ -23,7 +23,7 @@ values:
   WL: 5
   WT: 6
   TN: 3
-  MS: 4
+  MS: 6
 armor:
   head: 1
   torso: "[section:clr-bonus]6[/section]"
@@ -63,10 +63,10 @@ actions:
     - ""
   spells:
     - "Improvise Void [url:sorcererS]Sorceries[/url]"
-    - "[section:clr-pa]PA[/section] Void: [section:clr-pa]+9[/section]"
-    - "[section:clr-sa]SA[/section] Void: [section:clr-sa]+9[/section]"
-    - "[section:clr-sd]SD[/section] Void: [section:clr-sd]+12[/section]"
-    - "[section:clr-dc]DC[/section] Void: [section:clr-dc]19[/section]"
+    - "[section:clr-pa]PA[/section] Void: [section:clr-pa]+8[/section]"
+    - "[section:clr-sa]SA[/section] Void: [section:clr-sa]+8[/section]"
+    - "[section:clr-sd]SD[/section] Void: [section:clr-sd]+11[/section]"
+    - "[section:clr-dc]DC[/section] Void: [section:clr-dc]18[/section]"
   rituals: 
     - Void Sorcery
 proficiencies:

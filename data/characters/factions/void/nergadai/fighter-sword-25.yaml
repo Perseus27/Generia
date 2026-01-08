@@ -1,0 +1,117 @@
+name: Veteran Swordfighter
+id: fighter-sword-25
+info:
+  species: [Alb, Human]
+  level: 25
+  size: Medium
+  classes: [Fighter, Slasher, Tempering I]
+  tags: [[Corrupted, 1]]
+notes: >
+  160 SP Base
+  [br]+50 Bonus
+  [br]Rest 0
+
+attributes:
+  CON: [12, 6]
+  STR: [13, "[section:clr-bonus]7[/section]"]
+  DEX: [10, 5]
+  INT: [4, 2]
+  WIL: [4, 2]
+  PER: [4, 2]
+values:
+  EN: 30
+  MP: 5
+  MPR: 1
+  WL: 4
+  WT: 8
+  TN: 5
+  MS: "[section:clr-bonus]8[/section]"
+armor:
+  head: 4
+  torso: 8
+  arms: 6
+  legs: 6
+  md: "[section:clr-bonus]5[/section]"
+  enc: 0
+inventory:
+  weapons:
+    - name: "Longsword+2"
+      damage: "2d8+8"
+      hit: "Hit+11, Block+18|12"
+      enchantments:
+        - Penetration I
+    - name: "Shortsword+1"
+      damage: "2d6+4"
+      hit: "Hit+13, Block+18|12"
+    - name: "Knife"
+      damage: "2d6"
+      hit: "Hit+5, Block+12|12"
+  armor:
+    - name: "Chain Helmet+1"
+    - name: "Chain Armor+2"
+      enchantments:
+        - STR+1
+    - name: "Chain Gauntlets+2"
+      enchantments:
+        - MD+1
+    - name: "Chain Greaves+2"
+      enchantments:
+        - Swiftstep
+    - name: "Amulet +2"
+    - name: "Ring +1"
+    - name: "Ring +1"
+  misc:
+    - name: "Adventurer's Pack II"
+actions:
+  skills:
+    - "Stance: Attack"
+    - Whirl
+    - Mordhau
+    - Mighty Strike
+    - Bodycheck
+    - Disarm
+    - Aimed Strike
+    - Charge
+    - Swing
+    - Feint
+    - Counter
+    - Leg Sweep
+    - Shove
+  spells:
+    - Impact
+    - Bones of Steel
+    - Great Leap
+    - [Killing Intent, "[section:clr-dc]20[/section]"]
+    - [Looming Presence, "[section:clr-dc]20[/section]"]
+    - [Stomp, "[section:clr-dc]20[/section]"]
+    - [Toxin Purge, "[section:clr-dc]20+[/section]"]    
+  rituals: 
+    - ""
+proficiencies:
+  magic:
+    - "Tempering: Beginner"
+    - "[i]Body 4[/i]"
+    - "[i]Soul 4[/i]"
+  weapons:
+    - "Slashing: Intermediate"
+    - "[i]Swords 6[/i]"
+    - "Defensive: Beginner"
+  civilian:
+    - "[i]Athletics 2[/i]"
+    - "[i]Monster Lore 1[/i]"
+    - "[i]Warfare 2[/i]"
+perks:
+  special:
+    - Dark Heritage
+    - Efficient Metabolism
+  
+  combat:
+    - Edge Alignment
+    - Goliath
+    - Conditioned I
+    - Forerunner
+    - Opportunist
+    - Sprinter
+  
+  magic:
+    - ""

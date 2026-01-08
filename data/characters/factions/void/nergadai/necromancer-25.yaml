@@ -10,12 +10,12 @@ notes: >
   An experienced necromancer. Stacked to the teeth with magical items.
 
 attributes:
-  CON: [5, "[section:clr-bonus]3[/section]"]
-  STR: [3, 1]
-  DEX: [5, 2]
-  INT: [7, 3]
-  WIL: [11, "[section:clr-malus]4[/section]"]
-  PER: [15, "[section:clr-bonus]10[/section]"]
+  CON: [8, "[section:clr-bonus]5[/section]"]
+  STR: [6, 3]
+  DEX: [8, 4]
+  INT: [8, 4]
+  WIL: [10, "[section:clr-malus]4[/section]"]
+  PER: [11, "[section:clr-bonus]7[/section]"]
 values:
   EN: 10
   MP: 25
@@ -23,7 +23,7 @@ values:
   WL: 5
   WT: 6
   TN: 3
-  MS: "[section:clr-bonus]6[/section]"
+  MS: "[section:clr-bonus]8[/section]"
 armor:
   head: 4
   torso: "[section:clr-bonus]8[/section]"
@@ -37,7 +37,7 @@ inventory:
       damage: 2d8+3 Blunt
       hit: Hit+4, Block+5|3
       enchantments:
-        - PER+2
+        - PER+1
     - name: Knife
       damage: 2d6 Sharp
       hit: Hit+2, Block+3|3
@@ -59,7 +59,7 @@ inventory:
         - Swiftstep
     - name: Amulet+4
       enchantments:
-        - [Element Reroll II, "[section:clr-value]Void[/section]"]
+        - [Element Reroll I, "[section:clr-value]Void[/section]"]
       curses:
         - WIL-1
     - name: Ring+1
@@ -71,16 +71,16 @@ actions:
     - ""
   spells:
     - "Improvise Void [url:sorcererS]Sorceries[/url]"
-    - "[section:clr-pa]PA[/section] Void: [section:clr-pa]+14[/section]"
-    - "[section:clr-sa]SA[/section] Void: [section:clr-sa]+14[/section]"
-    - "[section:clr-sd]SD[/section] Void: [section:clr-sd]+17[/section]"
-    - "[section:clr-dc]DC[/section] Void: [section:clr-dc]24[/section]"
+    - "[section:clr-pa]PA[/section] Void: [section:clr-pa]+12[/section]"
+    - "[section:clr-sa]SA[/section] Void: [section:clr-sa]+12[/section]"
+    - "[section:clr-sd]SD[/section] Void: [section:clr-sd]+16[/section]"
+    - "[section:clr-dc]DC[/section] Void: [section:clr-dc]22[/section]"
   rituals: 
     - Void Sorcery
 proficiencies:
   magic:
     - "Sorcerer: Adept"
-    - "[i]Concept: Voidmage 4[/i]"
+    - "[i]Concept: Voidmage 5[/i]"
     - "[i]Concept: Necromancer 5[/i]"
     - "[i]Element: Void 5[/i]"
   weapons:

@@ -24,7 +24,6 @@ content:
     medium: [Weapon (Slashing, Stabbing)]
     description: >
       Whenever this weapon causes one or more stacks of [url:status#Bleeding]Bleeding[/url], the wielder gains [url:status#Regeneration]Regeneration 1[/url].
-    attunement: 10
 
   - name: Element Reroll II
     id: element-reroll-ii
