@@ -3,6 +3,9 @@
     width: 100%;
     overflow-x: auto;
 }
+.rendered-table-50 {
+    width: 50%;
+}
 .rendered-table table, th, td {
     border: 1px solid var(--md-default-fg-color--lighter);
     border-collapse: collapse;
@@ -61,3 +64,6 @@
 .item-table th:nth-child(1) {
     width: 20%;
 }
+
+.price-table th:nth-child(1) {
+    width: 40%;}
