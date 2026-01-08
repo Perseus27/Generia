@@ -13,24 +13,31 @@ content:
     attunement: 30
 
   - name: AV Bonus III
-    alias: [AV+6]
+    alias: [AV+3]
     id: av-bonus-iii
     medium: [Armor]
     description: >
-      The [url:values#AV]Armor Value[/url] of this item is increased by [section:clr-value]6[/section].
+      The [url:values#AV]Armor Value[/url] of this item is increased by [section:clr-value]3[/section].
+
+  - name: Element Reroll III
+    id: element-reroll-iii
+    medium: [Weapon, Trinket]
+    description: >
+      While this item is equipped, you gain [section:clr-value]two[/section] [url:core#Reroll]Effect Rerolls[/url] for the specified element.
+    attunement: 30
 
   - name: MD Bonus III
-    alias: [MD+6]
+    alias: [MD+3]
     id: md-bonus-iii
     medium: [Armor, Trinket]
     description: >
-      [url:values#MD]Magic Defense[/url] is increased by [section:clr-value]6[/section] while the item is equipped.
+      [url:values#MD]Magic Defense[/url] is increased by [section:clr-value]3[/section] while the item is equipped.
 
   - name: Penetration III
     id: penetration-iii
     medium: [Weapon]
     description: >
-      Physical damage dealt with this weapon ignores up to [section:clr-value]6[/section] [url:values#AV]Armor Value[/url].
+      Physical damage dealt with this weapon ignores up to [section:clr-value]3[/section] [url:values#AV]Armor Value[/url].
 
   - name: Reroll III
     alias: [Blunt III, Sharp III]

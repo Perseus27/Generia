@@ -13,11 +13,19 @@ content:
     attunement: 10
 
   - name: AV Bonus I
-    alias: [AV+2]
+    alias: [AV+1]
     id: av-bonus-i
     medium: [Armor]
     description: >
-      The [url:values#AV]Armor Value[/url] of this item is increased by [section:clr-value]2[/section].
+      The [url:values#AV]Armor Value[/url] of this item is increased by [section:clr-value]1[/section].
+
+  - name: Element Reroll I
+    id: element-reroll-i
+    medium: [Weapon, Trinket]
+    description: >
+      While this item is equipped, you gain [section:clr-value]one[/section] [url:core#Reroll]Effect Reroll[/url] for the specified element.
+      [br]This item must be [section:clr-curse]cursed[/section].
+    attunement: 10
 
   - name: Ember
     id: ember
@@ -33,17 +41,17 @@ content:
       This item can serve as [url:def#Foci]Focus[/url] for a specified spellcasting tradition (Acolytes, Druids, Wizards...).
 
   - name: MD Bonus I
-    alias: [MD+2]
+    alias: [MD+1]
     id: md-bonus-i
     medium: [Armor, Trinket]
     description: >
-      [url:values#MD]Magic Defense[/url] is increased by [section:clr-value]2[/section] while the item is equipped.
+      [url:values#MD]Magic Defense[/url] is increased by [section:clr-value]1[/section] while the item is equipped.
 
   - name: Penetration I
     id: penetration-i
     medium: [Weapon]
     description: >
-      Physical damage dealt with this weapon ignores up to [section:clr-value]2[/section] [url:values#AV]Armor Value[/url].
+      Physical damage dealt with this weapon ignores up to [section:clr-value]1[/section] [url:values#AV]Armor Value[/url].
 
   - name: Recall
     id: recall
