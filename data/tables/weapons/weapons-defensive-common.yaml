@@ -1,5 +1,5 @@
 name: Defensive Weapons - Common
-id: DefensiveWeaponsCommon
+id: weapons-defensive-common
 table_type: weapon-table weapon-table-melee
 headers:
 - Name

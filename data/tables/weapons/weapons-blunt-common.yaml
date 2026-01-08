@@ -1,5 +1,5 @@
 name: Blunt Weapons - Common
-id: BluntWeaponsCommon
+id: weapons-blunt-common
 table_type: weapon-table weapon-table-melee
 headers:
 - Name

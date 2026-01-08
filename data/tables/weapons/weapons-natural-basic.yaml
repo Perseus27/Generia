@@ -1,5 +1,5 @@
 name: Natural Weapons - Basic
-id: NaturalWeaponsBasic
+id: weapons-natural-basic
 table_type: weapon-table weapon-table-melee
 headers:
 - Name

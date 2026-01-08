@@ -1,5 +1,5 @@
 name: Transmuted Weapons
-id: AlchemistWeapons
+id: weapons-alchemist
 table_type: weapon-table weapon-table-alchemist
 headers:
 - Name

@@ -1,5 +1,5 @@
 name: Ammunition - Rare
-id: AmmunitionRare
+id: weapons-ammunition-rare
 table_type: weapon-table weapon-table-ammo
 headers:
 - Name

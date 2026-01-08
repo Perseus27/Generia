@@ -1,5 +1,5 @@
 name: Natural Weapons - Enhanced
-id: NaturalWeaponsEnhanced
+id: weapons-natural-enhanced
 table_type: weapon-table weapon-table-melee
 headers:
 - Name

@@ -1,5 +1,5 @@
 name: Slashing Weapons - Rare
-id: SlashingWeaponsRare
+id: weapons-slashing-rare
 table_type: weapon-table weapon-table-melee
 headers:
 - Name

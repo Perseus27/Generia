@@ -1,5 +1,5 @@
 name: Stabbing Weapons - Common
-id: StabbingWeaponsCommon
+id: weapons-stabbing-common
 table_type: weapon-table weapon-table-melee
 headers:
 - Name

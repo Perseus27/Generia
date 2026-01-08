@@ -1,5 +1,5 @@
 name: Slashing Weapons - Common
-id: SlashingWeaponsCommon
+id: weapons-slashing-common
 table_type: weapon-table weapon-table-melee
 headers:
 - Name

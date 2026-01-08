@@ -1,5 +1,5 @@
 name: Ammunition - Common
-id: AmmunitionCommon
+id: weapons-ammunition-common
 table_type: weapon-table weapon-table-ammo
 headers:
 - Name
