@@ -1,5 +1,5 @@
 name: Light Armor
-id: LightArmor
+id: armor-light
 table_type: armor-table
 
 headers:

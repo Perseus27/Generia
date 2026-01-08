@@ -1,5 +1,5 @@
 name: Heavy Armor
-id: HeavyArmor
+id: armor-heavy
 table_type: armor-table
 
 headers:
