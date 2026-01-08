@@ -12,6 +12,7 @@ title: Nergadai
     <h4>Level 25</h4>
     <p>
     <a href="#necromancer-25">Journeyman Necromancer</a>
+    <br><a href="#fighter-sword-25">Veteran Swordfighter</a>
     </p>
     <hr>
     <h5><a href="/generia/stats/gm/">Stat Overview</a></h5>
@@ -26,3 +27,4 @@ title: Nergadai
 
 ## Level 25
 {{ character('data/characters/factions/void/nergadai/necromancer-25.yaml') }}
+{{ character('data/characters/factions/void/nergadai/fighter-sword-25.yaml') }}
