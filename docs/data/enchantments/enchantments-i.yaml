@@ -19,6 +19,14 @@ content:
     description: >
       The [url:values#AV]Armor Value[/url] of this item is increased by [section:clr-value]2[/section].
 
+  - name: Element Reroll I
+    id: element-reroll-i
+    medium: [Weapon, Trinket]
+    description: >
+      While this item is equipped, you gain [section:clr-value]one[/section] [url:core#Reroll]Effect Reroll[/url] for the specified element.
+      [br]This item must be [section:clr-curse]cursed[/section].
+    attunement: 10
+
   - name: Ember
     id: ember
     medium: [Weapon]

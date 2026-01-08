@@ -19,6 +19,13 @@ content:
     description: >
       The [url:values#AV]Armor Value[/url] of this item is increased by [section:clr-value]6[/section].
 
+  - name: Element Reroll III
+    id: element-reroll-iii
+    medium: [Weapon, Trinket]
+    description: >
+      While this item is equipped, you gain [section:clr-value]two[/section] [url:core#Reroll]Effect Rerolls[/url] for the specified element.
+    attunement: 30
+
   - name: MD Bonus III
     alias: [MD+6]
     id: md-bonus-iii

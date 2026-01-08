@@ -26,6 +26,14 @@ content:
       Whenever this weapon causes one or more stacks of [url:status#Bleeding]Bleeding[/url], the wielder gains [url:status#Regeneration]Regeneration 1[/url].
     attunement: 20
 
+  - name: Element Reroll II
+    id: element-reroll-ii
+    medium: [Weapon, Trinket]
+    description: >
+      While this item is equipped, you gain [section:clr-value]one[/section] [url:core#Reroll]Effect Reroll[/url] for the specified element.
+      [br]If the item is [section:clr-curse]cursed[/section], you gain [section:clr-value]two[/section] Effect Rerolls instead.
+    attunement: 20
+
   - name: MD Bonus II
     alias: [MD+4]
     id: md-bonus-ii
