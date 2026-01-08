@@ -3888,25 +3888,361 @@
   
 
 
-<h1 id="macro-rendering-error"><em>Macro Rendering Error</em><a class="headerlink" href="#macro-rendering-error" title="Permanent link">&para;</a></h1>
-<p><em>File</em>: <code>stats/creatures/beasts/beasts-deep-wilds.md</code></p>
-<p><em>FileNotFoundError</em>: YAML not found: data/creatures/beasts/deep-wilds/carnivores/raptor-15.yaml</p>
-<div class="highlight"><pre><span></span><code>Traceback (most recent call last):
-  File &quot;/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/mkdocs_macros/plugin.py&quot;, line 527, in render
-    return md_template.render(**page_variables)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File &quot;/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/jinja2/environment.py&quot;, line 1295, in render
-    self.environment.handle_exception()
-  File &quot;/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/jinja2/environment.py&quot;, line 942, in handle_exception
-    raise rewrite_traceback_stack(source=source)
-  File &quot;&lt;template&gt;&quot;, line 45, in top-level template code
-  File &quot;/home/runner/work/generia/generia/main.py&quot;, line 42, in creature
-    yaml_content = _read_yaml(path)
-                   ^^^^^^^^^^^^^^^^
-  File &quot;/home/runner/work/generia/generia/main.py&quot;, line 28, in _read_yaml
-    raise FileNotFoundError(f&quot;YAML not found: {rel_path}&quot;)
-FileNotFoundError: YAML not found: data/creatures/beasts/deep-wilds/carnivores/raptor-15.yaml
-</code></pre></div>
+<p><template id="sidebar-extra">
+<br />
+<div class="sidebar-extra sidebar-extra-larger">
+    <h4>NAVIGATION</h4>
+    <h5><a href="#mammals">Mammals</a></h5>
+    <p>
+    <ul>
+    <li><a href="#giant-wolf-20">Giant Wolf</a></li>
+    <li><a href="#sabertooth-20">Sabertooth</a></li>
+    <li><a href="#giant-dire-wolf-25">Giant Dire Wolf</a></li>
+    <li><a href="#cave-bear-40">Cave Bear</a></li>
+    </ul>
+    </p>
+    <h5><a href="#saurians">Saurians</a></h5>
+    <p>
+    <ul>
+    <li><a href="#raptor-15">Raptor</a></li>
+    <li><a href="#allosaurus-25">Allosaurus</a></li>
+    <li><a href="#tyrannosaurus-rex-40">Tyrannosaurus Rex</a></li>
+    </ul>
+    </p>
+    <hr>
+    <h5><a href="/generia/stats/gm/">Stat Overview</a></h5>
+  </div></p>
+<p></template></p>
+<h1 id="beasts-of-the-deep-wilds">Beasts of the Deep Wilds<a class="headerlink" href="#beasts-of-the-deep-wilds" title="Permanent link">&para;</a></h1>
+<h2 id="mammals">Mammals<a class="headerlink" href="#mammals" title="Permanent link">&para;</a></h2>
+<h3 id="level-20">Level 20<a class="headerlink" href="#level-20" title="Permanent link">&para;</a></h3>
+<div class="creature-block">
+    <div class="creature-toprow">
+        <h3 id="giant-wolf-20">Giant Wolf 20</h3>
+    </div>
+    <div class="creature-content-head">
+        <div class="creature-general">
+            <h6>General</h6>
+            <div class="creature-value-table">
+                <span class="creature-table-title">Attributes</span>
+                <table class='table'><tr><td><strong>CON</strong></td><td>11 [5]</td></tr><tr><td><strong>STR</strong></td><td>10 [5]</td></tr><tr><td><strong>DEX</strong></td><td>9 [4]</td></tr><tr><td><strong>INT</strong></td><td>2 [1]</td></tr><tr><td><strong>WIL</strong></td><td>4 [2]</td></tr><tr><td><strong>PER</strong></td><td>6 [3]</td></tr></table>        
+            </div>
+            <div class="creature-value-table">
+                <span class="creature-table-title">Values</span>
+                <table class='table'><tr><td><strong>EN</strong></td><td>20</td></tr><tr><td><strong>MP|R</strong></td><td>5|1</td></tr><tr><td><strong>WL</strong></td><td>6</td></tr><tr><td><strong>WT</strong></td><td>9</td></tr><tr><td><strong>TN</strong></td><td>5</td></tr><tr><td><strong>MS</strong></td><td>6</td></tr></table>        
+            </div>
+            <div class="creature-value-table">
+                <span class="creature-table-title">Armor</span>
+                <table class='table'><tr><td><strong>Head</strong></td><td>3</td></tr><tr><td><strong>Torso</strong></td><td>5</td></tr><tr><td><strong>Arms</strong></td><td>4</td></tr><tr><td><strong>Legs</strong></td><td>4</td></tr><tr><td><strong>MD</strong></td><td>2</td></tr><tr><td><strong>Enc.</strong></td><td>0</td></tr></table>        
+            </div>
+        </div>
+        <div class="creature-general">
+            <h6>Info</h6>
+            <div class="creature-info">
+                <table class='table'><tr><td><strong>Species:</strong></td><td><a href='False'>Beast</a></td></tr><tr><td><strong>Level:</strong></td><td>20</td></tr><tr><td><strong>Size:</strong></td><td><a href='/generia/rules/misc/creature-sizes#Large'>Large</a></td></tr></table><div class='creature-info-container container'><strong>Tags:</strong><br><a href='/generia/rules/misc/creature-tags#NaturalDefenses'>Natural Defenses</a>, <br><a href='/generia/rules/misc/creature-tags#Tough'>Tough</a> 1</div>        
+            </div>
+            <div class="creature-notes">
+                –
+            </div>
+        </div>
+    </div>
+    <div class="creature-content-body">
+        <div class="creature-content-tile">
+            <h6>Actions</h6>
+            <div class='creature-action-container container'><span class='creature-action-name section'>Bite</span><br><span class='creature-action-type section'>Melee Attack</span><div class='subitem container'><span class='clr-hit section'>Hit+10</span></div><div class='subitem container'><span class='clr-roll section'>3d6+5 Sharp</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Howl</span><br><span class='creature-action-type section'>Utility, Radius 12m</span><div class='subitem container'><span class='clr-hit section'><span class='clr-dc section'>DC 10</span></span></div><div class='subitem container'>Targets are <a href='/generia/rules/combat/status-effects#Frightened'>Frightened</a>.</div><div class='subitem container'>DC is increased by <span class='clr-value section'>2</span> for each wolf in the radius.</div><div class='subitem container'><strong>Save <span class='clr-attr section'>WIL</span>:</strong> No effect.</div><div class='subitem container'><a href='/generia/rules/combat/status-effects#Panicked'>Panicked</a>.</div><div class='subitem container'><span class='clr-en section'>2 EN</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Tear</span><br><span class='creature-action-type section'>Reaction</span><div class='subitem container'><span class='clr-hit section'><span class='clr-dc section'>DC 15</span></span></div><div class='subitem container'>After <a href='/generia/rules/basic/definitions#Hit'>hit</a> with <em>Bite</em>: Target gets <a href='/generia/rules/combat/status-effects#Bleeding'>Bleeding 2</a>.</div><div class='subitem container'><strong>Save <span class='clr-attr section'>CON</span>/+10:</strong> <a href='/generia/rules/combat/status-effects#Bleeding'>Bleeding 1</a>/No effect.</div><div class='subitem container'><span class='clr-en section'>1 EN</span></div></div>
+        </div>
+        <div class="creature-content-tile">
+            <h6>Passives</h6>
+            <div class='creature-action-container container'><span class='creature-action-name section'>Proficiencies</span><br><span class='creature-action-type section'>Passive</span><div class='subitem container'>Primitive <span class='clr-value section'>+6</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Monstrous Fangs</span><br><span class='creature-action-type section'>Passive</span><div class='subitem container'><span class='clr-value section'>One</span> <em>Bite</em> damage die may be rerolled <span class='clr-value section'>once</span>.</div></div><div class='creature-action-container container'><span class='creature-action-name section'>Pursuit Hunter</span><br><span class='creature-action-type section'>Passive</span><div class='subitem container'>The <span class='clr-en section'>EN</span> cost of the universal action <a href='/generia/rules/basic/universal-actions#Sprint'>Sprint</a> is halved. While traveling, <span class='clr-en section'>EN</span> costs are reduced by one travel-mode stage.</div></div><div class='creature-action-container container'><span class='creature-action-name section'>Wolf Pack</span><br><span class='creature-action-type section'>Passive</span><div class='subitem container'><a href='/generia/rules/basic/core-mechanics#Advantage'>Advantage 1</a> on attack rolls against targets that have been attacked by another wolf this round.</div></div>
+        </div>
+        <div class="creature-content-loot">
+            <h6>Loot</h6>
+            <ul><li>Trophy (Tooth)</li></ul>
+        </div>
+    </div>
+</div>
+
+<div class="creature-block">
+    <div class="creature-toprow">
+        <h3 id="sabertooth-20">Sabertooth 20</h3>
+    </div>
+    <div class="creature-content-head">
+        <div class="creature-general">
+            <h6>General</h6>
+            <div class="creature-value-table">
+                <span class="creature-table-title">Attributes</span>
+                <table class='table'><tr><td><strong>CON</strong></td><td>9 [4]</td></tr><tr><td><strong>STR</strong></td><td>10 [5]</td></tr><tr><td><strong>DEX</strong></td><td>11 [5]</td></tr><tr><td><strong>INT</strong></td><td>2 [1]</td></tr><tr><td><strong>WIL</strong></td><td>4 [2]</td></tr><tr><td><strong>PER</strong></td><td>6 [3]</td></tr></table>        
+            </div>
+            <div class="creature-value-table">
+                <span class="creature-table-title">Values</span>
+                <table class='table'><tr><td><strong>EN</strong></td><td>20</td></tr><tr><td><strong>MP|R</strong></td><td>5|1</td></tr><tr><td><strong>WL</strong></td><td>6</td></tr><tr><td><strong>WT</strong></td><td>8</td></tr><tr><td><strong>TN</strong></td><td>4</td></tr><tr><td><strong>MS</strong></td><td>8</td></tr></table>        
+            </div>
+            <div class="creature-value-table">
+                <span class="creature-table-title">Armor</span>
+                <table class='table'><tr><td><strong>Head</strong></td><td>2</td></tr><tr><td><strong>Torso</strong></td><td>4</td></tr><tr><td><strong>Arms</strong></td><td>3</td></tr><tr><td><strong>Legs</strong></td><td>3</td></tr><tr><td><strong>MD</strong></td><td>2</td></tr><tr><td><strong>Enc.</strong></td><td>0</td></tr></table>        
+            </div>
+        </div>
+        <div class="creature-general">
+            <h6>Info</h6>
+            <div class="creature-info">
+                <table class='table'><tr><td><strong>Species:</strong></td><td><a href='False'>Beast</a></td></tr><tr><td><strong>Level:</strong></td><td>20</td></tr><tr><td><strong>Size:</strong></td><td><a href='/generia/rules/misc/creature-sizes#Large'>Large</a></td></tr></table><div class='creature-info-container container'><strong>Tags:</strong><br><a href='/generia/rules/misc/creature-tags#NaturalDefenses'>Natural Defenses</a>, <br><a href='/generia/rules/misc/creature-tags#Tough'>Tough</a> 1</div>        
+            </div>
+            <div class="creature-notes">
+                –
+            </div>
+        </div>
+    </div>
+    <div class="creature-content-body">
+        <div class="creature-content-tile">
+            <h6>Actions</h6>
+            <div class='creature-action-container container'><span class='creature-action-name section'>Bite</span><br><span class='creature-action-type section'>Melee Attack</span><div class='subitem container'><span class='clr-hit section'>Hit+11</span></div><div class='subitem container'><span class='clr-roll section'>3d6+5 Sharp</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Pounce</span><br><span class='creature-action-type section'>Melee Attack, Range 8m, min. Range 4m</span><div class='subitem container'><span class='clr-hit section'>Hit+11</span></div><div class='subitem container'><span class='clr-roll section'>3d6+5 Sharp</span></div><div class='subitem container'><span class='clr-en section'>1 EN</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Camouflage</span><br><span class='creature-action-type section'>Utility, Concentration</span><div class='subitem container'>Gains <a href='/generia/rules/combat/status-effects#Hidden'>Hidden 1</a>.</div><div class='subitem container'><span class='clr-en section'>1 EN</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Tear</span><br><span class='creature-action-type section'>Reaction</span><div class='subitem container'><span class='clr-hit section'><span class='clr-dc section'>DC 15</span></span></div><div class='subitem container'>After <a href='/generia/rules/basic/definitions#Hit'>hit</a> with <em>Bite</em>: Target gets <a href='/generia/rules/combat/status-effects#Bleeding'>Bleeding 2</a>.</div><div class='subitem container'><strong>Save <span class='clr-attr section'>CON</span>/+10:</strong> <a href='/generia/rules/combat/status-effects#Bleeding'>Bleeding 1</a>/No effect.</div><div class='subitem container'><span class='clr-en section'>1 EN</span></div></div>
+        </div>
+        <div class="creature-content-tile">
+            <h6>Passives</h6>
+            <div class='creature-action-container container'><span class='creature-action-name section'>Proficiencies</span><br><span class='creature-action-type section'>Passive</span><div class='subitem container'>Primitive <span class='clr-value section'>+6</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Monstrous Fangs</span><br><span class='creature-action-type section'>Passive</span><div class='subitem container'><span class='clr-value section'>One</span> <em>Bite</em> damage die may be rerolled <span class='clr-value section'>once</span>.</div></div><div class='creature-action-container container'><span class='creature-action-name section'>Ambush Hunter</span><br><span class='creature-action-type section'>Passive</span><div class='subitem container'>When attacking with <a href='/generia/rules/basic/core-mechanics#Advantage'>Advantage</a> or with <em>Pounce</em>, roll <span class='clr-roll section'>2d10</span> for hit zone and choose either result.</div></div><div class='creature-action-container container'><span class='creature-action-name section'>Sneaky</span><br><span class='creature-action-type section'>Passive</span><div class='subitem container'>The universal action <a href='/generia/rules/basic/universal-actions#StealthyMovement'>Stealthy Movement</a> does not <a href='/generia/rules/combat/status-effects#Slowed'>slow</a>.</div></div>
+        </div>
+        <div class="creature-content-loot">
+            <h6>Loot</h6>
+            <ul><li>Trophy (Tooth)</li></ul>
+        </div>
+    </div>
+</div>
+
+<h3 id="level-25">Level 25<a class="headerlink" href="#level-25" title="Permanent link">&para;</a></h3>
+<div class="creature-block">
+    <div class="creature-toprow">
+        <h3 id="giant-dire-wolf-25">Giant Dire Wolf 25</h3>
+    </div>
+    <div class="creature-content-head">
+        <div class="creature-general">
+            <h6>General</h6>
+            <div class="creature-value-table">
+                <span class="creature-table-title">Attributes</span>
+                <table class='table'><tr><td><strong>CON</strong></td><td>11 [5]</td></tr><tr><td><strong>STR</strong></td><td>11 [5]</td></tr><tr><td><strong>DEX</strong></td><td>11 [5]</td></tr><tr><td><strong>INT</strong></td><td>2 [1]</td></tr><tr><td><strong>WIL</strong></td><td>4 [2]</td></tr><tr><td><strong>PER</strong></td><td>6 [3]</td></tr></table>        
+            </div>
+            <div class="creature-value-table">
+                <span class="creature-table-title">Values</span>
+                <table class='table'><tr><td><strong>EN</strong></td><td>20</td></tr><tr><td><strong>MP|R</strong></td><td>5|2</td></tr><tr><td><strong>WL</strong></td><td>7</td></tr><tr><td><strong>WT</strong></td><td>9</td></tr><tr><td><strong>TN</strong></td><td>5</td></tr><tr><td><strong>MS</strong></td><td>8</td></tr></table>        
+            </div>
+            <div class="creature-value-table">
+                <span class="creature-table-title">Armor</span>
+                <table class='table'><tr><td><strong>Head</strong></td><td>3</td></tr><tr><td><strong>Torso</strong></td><td>5</td></tr><tr><td><strong>Arms</strong></td><td>4</td></tr><tr><td><strong>Legs</strong></td><td>4</td></tr><tr><td><strong>MD</strong></td><td>2</td></tr><tr><td><strong>Enc.</strong></td><td>0</td></tr></table>        
+            </div>
+        </div>
+        <div class="creature-general">
+            <h6>Info</h6>
+            <div class="creature-info">
+                <table class='table'><tr><td><strong>Species:</strong></td><td><a href='False'>Beast</a></td></tr><tr><td><strong>Level:</strong></td><td>25</td></tr><tr><td><strong>Size:</strong></td><td><a href='/generia/rules/misc/creature-sizes#Large'>Large</a></td></tr></table><div class='creature-info-container container'><strong>Tags:</strong><br><a href='/generia/rules/misc/creature-tags#NaturalDefenses'>Natural Defenses</a>, <br><a href='/generia/rules/misc/creature-tags#Tough'>Tough</a> 1</div>        
+            </div>
+            <div class="creature-notes">
+                –
+            </div>
+        </div>
+    </div>
+    <div class="creature-content-body">
+        <div class="creature-content-tile">
+            <h6>Actions</h6>
+            <div class='creature-action-container container'><span class='creature-action-name section'>Bite</span><br><span class='creature-action-type section'>Melee Attack</span><div class='subitem container'><span class='clr-hit section'>Hit+11</span></div><div class='subitem container'><span class='clr-roll section'>3d6+5 Sharp</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Howl</span><br><span class='creature-action-type section'>Utility, Radius 12m</span><div class='subitem container'><span class='clr-hit section'><span class='clr-dc section'>DC 10</span></span></div><div class='subitem container'>Targets are <a href='/generia/rules/combat/status-effects#Frightened'>Frightened</a>.</div><div class='subitem container'>DC is increased by <span class='clr-value section'>2</span> for each wolf in the radius.</div><div class='subitem container'><strong>Save <span class='clr-attr section'>WIL</span>:</strong> No effect.</div><div class='subitem container'><a href='/generia/rules/combat/status-effects#Panicked'>Panicked</a>.</div><div class='subitem container'><span class='clr-en section'>2 EN</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Tear</span><br><span class='creature-action-type section'>Reaction</span><div class='subitem container'><span class='clr-hit section'><span class='clr-dc section'>DC 15</span></span></div><div class='subitem container'>After <a href='/generia/rules/basic/definitions#Hit'>hit</a> with <em>Bite</em>: Target gets <a href='/generia/rules/combat/status-effects#Bleeding'>Bleeding 2</a>.</div><div class='subitem container'><strong>Save <span class='clr-attr section'>CON</span>/+10:</strong> <a href='/generia/rules/combat/status-effects#Bleeding'>Bleeding 1</a>/No effect.</div><div class='subitem container'><span class='clr-en section'>1 EN</span></div></div>
+        </div>
+        <div class="creature-content-tile">
+            <h6>Passives</h6>
+            <div class='creature-action-container container'><span class='creature-action-name section'>Proficiencies</span><br><span class='creature-action-type section'>Passive</span><div class='subitem container'>Primitive <span class='clr-value section'>+6</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Monstrous Fangs</span><br><span class='creature-action-type section'>Passive</span><div class='subitem container'><span class='clr-value section'>One</span> <em>Bite</em> damage die may be rerolled <span class='clr-value section'>once</span>.</div></div><div class='creature-action-container container'><span class='creature-action-name section'>Pursuit Hunter</span><br><span class='creature-action-type section'>Passive</span><div class='subitem container'>The <span class='clr-en section'>EN</span> cost of the universal action <a href='/generia/rules/basic/universal-actions#Sprint'>Sprint</a> is halved. While traveling, <span class='clr-en section'>EN</span> costs are reduced by one travel-mode stage.</div></div><div class='creature-action-container container'><span class='creature-action-name section'>Wolf Pack</span><br><span class='creature-action-type section'>Passive</span><div class='subitem container'><a href='/generia/rules/basic/core-mechanics#Advantage'>Advantage 1</a> on attack rolls against targets that have been attacked by another wolf this round.</div></div>
+        </div>
+        <div class="creature-content-loot">
+            <h6>Loot</h6>
+            <ul><li>Trophy (Tooth)</li></ul>
+        </div>
+    </div>
+</div>
+
+<h3 id="level-40">Level 40<a class="headerlink" href="#level-40" title="Permanent link">&para;</a></h3>
+<div class="creature-block">
+    <div class="creature-toprow">
+        <h3 id="brown-bear-20">Cave Bear 40</h3>
+    </div>
+    <div class="creature-content-head">
+        <div class="creature-general">
+            <h6>General</h6>
+            <div class="creature-value-table">
+                <span class="creature-table-title">Attributes</span>
+                <table class='table'><tr><td><strong>CON</strong></td><td>17 [8]</td></tr><tr><td><strong>STR</strong></td><td>17 [8]</td></tr><tr><td><strong>DEX</strong></td><td>11 [5]</td></tr><tr><td><strong>INT</strong></td><td>2 [1]</td></tr><tr><td><strong>WIL</strong></td><td>4 [2]</td></tr><tr><td><strong>PER</strong></td><td>5 [2]</td></tr></table>        
+            </div>
+            <div class="creature-value-table">
+                <span class="creature-table-title">Values</span>
+                <table class='table'><tr><td><strong>EN</strong></td><td>30</td></tr><tr><td><strong>MP|R</strong></td><td>5|1</td></tr><tr><td><strong>WL</strong></td><td>6</td></tr><tr><td><strong>WT</strong></td><td>12</td></tr><tr><td><strong>TN</strong></td><td>6</td></tr><tr><td><strong>MS</strong></td><td>8</td></tr></table>        
+            </div>
+            <div class="creature-value-table">
+                <span class="creature-table-title">Armor</span>
+                <table class='table'><tr><td><strong>Head</strong></td><td>6</td></tr><tr><td><strong>Torso</strong></td><td>8</td></tr><tr><td><strong>Arms</strong></td><td>7</td></tr><tr><td><strong>Legs</strong></td><td>7</td></tr><tr><td><strong>MD</strong></td><td>2</td></tr><tr><td><strong>Enc.</strong></td><td>0</td></tr></table>        
+            </div>
+        </div>
+        <div class="creature-general">
+            <h6>Info</h6>
+            <div class="creature-info">
+                <table class='table'><tr><td><strong>Species:</strong></td><td><a href='False'>Beast</a></td></tr><tr><td><strong>Level:</strong></td><td>20</td></tr><tr><td><strong>Size:</strong></td><td><a href='/generia/rules/misc/creature-sizes#Large'>Large</a></td></tr></table><div class='creature-info-container container'><strong>Tags:</strong><br><a href='/generia/rules/misc/creature-tags#Mount'>Mount</a> 8, <br><a href='/generia/rules/misc/creature-tags#NaturalDefenses'>Natural Defenses</a>, <br><a href='/generia/rules/misc/creature-tags#Tough'>Tough</a> 2</div>        
+            </div>
+            <div class="creature-notes">
+                –
+            </div>
+        </div>
+    </div>
+    <div class="creature-content-body">
+        <div class="creature-content-tile">
+            <h6>Actions</h6>
+            <div class='creature-action-container container'><span class='creature-action-name section'>Bite</span><br><span class='creature-action-type section'>Melee Attack</span><div class='subitem container'><span class='clr-hit section'>Hit+15</span></div><div class='subitem container'><span class='clr-roll section'>3d6+8 Sharp</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Claws</span><br><span class='creature-action-type section'>Melee Attack</span><div class='subitem container'><span class='clr-hit section'>Hit+15</span></div><div class='subitem container'><span class='clr-roll section'>2d10+8 Sharp</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Charge</span><br><span class='creature-action-type section'>Melee Attack, Range 8m, min. Range 4m</span><div class='subitem container'><span class='clr-hit section'>Hit+15</span></div><div class='subitem container'><span class='clr-roll section'>2d8+12 Sharp</span></div><div class='subitem container'>Charges at a target to execute a <em>Claws</em> attack.</div><div class='subitem container'><span class='clr-en section'>2 EN</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Tear</span><br><span class='creature-action-type section'>Reaction</span><div class='subitem container'><span class='clr-hit section'><span class='clr-dc section'>DC 18</span></span></div><div class='subitem container'>After <a href='/generia/rules/basic/definitions#Hit'>hit</a> with <em>Bite</em> or <em>Claws</em>: Target gets <a href='/generia/rules/combat/status-effects#Bleeding'>Bleeding 2</a>.</div><div class='subitem container'><strong>Save <span class='clr-attr section'>CON</span>/+10:</strong> <a href='/generia/rules/combat/status-effects#Bleeding'>Bleeding 1</a>/No effect.</div><div class='subitem container'><span class='clr-en section'>1 EN</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Slam</span><br><span class='creature-action-type section'>Reaction</span><div class='subitem container'><span class='clr-hit section'><span class='clr-dc section'>DC 18</span></span></div><div class='subitem container'>After <a href='/generia/rules/basic/definitions#Hit'>hit</a> with <em>Claws</em>: <a href='/generia/rules/combat/status-effects#Prone'>Prone</a>.</div><div class='subitem container'><strong>Save <span class='clr-attr section'>DEX</span>/<span class='clr-attr section'>STR</span>/+10:</strong> <a href='/generia/rules/combat/status-effects#OffBalance'>Off-Balance</a>/No effect.</div><div class='subitem container'><span class='clr-en section'>1 EN</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Pin</span><br><span class='creature-action-type section'>Utility, Melee</span><div class='subitem container'>Pins a <a href='/generia/rules/combat/status-effects#Prone'>prone</a> target against the ground with a large claw to <a href='/generia/rules/combat/status-effects#Grappled'>grapple</a> it.</div></div>
+        </div>
+        <div class="creature-content-tile">
+            <h6>Passives</h6>
+            <div class='creature-action-container container'><span class='creature-action-name section'>Proficiencies</span><br><span class='creature-action-type section'>Passive</span><div class='subitem container'>Primitive <span class='clr-value section'>+10</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Imposing</span><br><span class='creature-action-type section'>Passive</span><div class='subitem container'><span class='clr-hit section'><span class='clr-dc section'>DC 18</span></span></div><div class='subitem container'>If the target of <em>Charge</em> is of a smaller size, it gets <a href='/generia/rules/combat/status-effects#Frightened'>Frightened</a> when noticing the attack.</div><div class='subitem container'>Save <span class='clr-attr section'>WIL</span>/<span class='clr-attr section'>INT</span>: No effect.</div></div><div class='creature-action-container container'><span class='creature-action-name section'>Monstrous Fangs</span><br><span class='creature-action-type section'>Passive</span><div class='subitem container'><span class='clr-value section'>One</span> <em>Bite</em> damage die may be rerolled <span class='clr-value section'>once</span>.</div></div><div class='creature-action-container container'><span class='creature-action-name section'>Savage Predator</span><br><span class='creature-action-type section'>Passive</span><div class='subitem container'>When using <em>Bite</em> against <a href='/generia/rules/combat/status-effects#Prone'>prone</a> or <a href='/generia/rules/combat/status-effects#Grappled'>grappled</a> targets, the <em>Bite</em> action may be repeated <span class='clr-value section'>once</span>.</div></div>
+        </div>
+        <div class="creature-content-loot">
+            <h6>Loot</h6>
+            <ul><li>Trophy (Claw)</li></ul>
+        </div>
+    </div>
+</div>
+
+<h2 id="saurians">Saurians<a class="headerlink" href="#saurians" title="Permanent link">&para;</a></h2>
+<h3 id="level-15">Level 15<a class="headerlink" href="#level-15" title="Permanent link">&para;</a></h3>
+<div class="creature-block">
+    <div class="creature-toprow">
+        <h3 id="raptor-15">Raptor 15</h3>
+    </div>
+    <div class="creature-content-head">
+        <div class="creature-general">
+            <h6>General</h6>
+            <div class="creature-value-table">
+                <span class="creature-table-title">Attributes</span>
+                <table class='table'><tr><td><strong>CON</strong></td><td>5 [2]</td></tr><tr><td><strong>STR</strong></td><td>5 [2]</td></tr><tr><td><strong>DEX</strong></td><td>12 [6]</td></tr><tr><td><strong>INT</strong></td><td>0 [0]</td></tr><tr><td><strong>WIL</strong></td><td>3 [1]</td></tr><tr><td><strong>PER</strong></td><td>8 [4]</td></tr></table>        
+            </div>
+            <div class="creature-value-table">
+                <span class="creature-table-title">Values</span>
+                <table class='table'><tr><td><strong>EN</strong></td><td>15</td></tr><tr><td><strong>MP|R</strong></td><td>0|1</td></tr><tr><td><strong>WL</strong></td><td>3</td></tr><tr><td><strong>WT</strong></td><td>6</td></tr><tr><td><strong>TN</strong></td><td>4</td></tr><tr><td><strong>MS</strong></td><td>8</td></tr></table>        
+            </div>
+            <div class="creature-value-table">
+                <span class="creature-table-title">Armor</span>
+                <table class='table'><tr><td><strong>Head</strong></td><td>0</td></tr><tr><td><strong>Torso</strong></td><td>2</td></tr><tr><td><strong>Arms</strong></td><td>1</td></tr><tr><td><strong>Legs</strong></td><td>1</td></tr><tr><td><strong>MD</strong></td><td>1</td></tr><tr><td><strong>Enc.</strong></td><td>0</td></tr></table>        
+            </div>
+        </div>
+        <div class="creature-general">
+            <h6>Info</h6>
+            <div class="creature-info">
+                <table class='table'><tr><td><strong>Species:</strong></td><td><a href='False'>Saurian Beast</a></td></tr><tr><td><strong>Level:</strong></td><td>15</td></tr><tr><td><strong>Size:</strong></td><td><a href='/generia/rules/misc/creature-sizes#Small'>Small</a></td></tr></table><div class='creature-info-container container'><strong>Tags:</strong><br><a href='/generia/rules/misc/creature-tags#NaturalDefenses'>Natural Defenses</a>, <br><a href='/generia/rules/misc/creature-tags#Tough'>Tough</a> 1, <br><a href='/generia/rules/misc/creature-tags#Resistance'>Resistance</a> Fire, <br><a href='/generia/rules/misc/creature-tags#Vulnerability'>Vulnerability</a> Ice</div>        
+            </div>
+            <div class="creature-notes">
+                –
+            </div>
+        </div>
+    </div>
+    <div class="creature-content-body">
+        <div class="creature-content-tile">
+            <h6>Actions</h6>
+            <div class='creature-action-container container'><span class='creature-action-name section'>Bite</span><br><span class='creature-action-type section'>Melee Attack</span><div class='subitem container'><span class='clr-hit section'>Hit+10</span></div><div class='subitem container'><span class='clr-roll section'>3d4+2 Sharp</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Claw</span><br><span class='creature-action-type section'>Melee Attack</span><div class='subitem container'><span class='clr-hit section'>Hit+10</span></div><div class='subitem container'><span class='clr-roll section'>2d6+2 Sharp</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Pounce</span><br><span class='creature-action-type section'>Melee Attack, Range 8m, min. Range 4m</span><div class='subitem container'><span class='clr-hit section'>Hit+10</span></div><div class='subitem container'><span class='clr-roll section'>2d6+2 Sharp</span></div><div class='subitem container'><span class='clr-en section'>1 EN</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Tear</span><br><span class='creature-action-type section'>Reaction</span><div class='subitem container'><span class='clr-hit section'><span class='clr-dc section'>DC 12</span></span></div><div class='subitem container'>After <a href='/generia/rules/basic/definitions#Hit'>hit</a> with <em>Bite</em> or <em>Claw</em>: Target gets <a href='/generia/rules/combat/status-effects#Bleeding'>Bleeding 1</a>.</div><div class='subitem container'><strong>Save <span class='clr-attr section'>CON</span>:</strong> No effect.</div><div class='subitem container'><span class='clr-en section'>1 EN</span></div></div>
+        </div>
+        <div class="creature-content-tile">
+            <h6>Passives</h6>
+            <div class='creature-action-container container'><span class='creature-action-name section'>Proficiencies</span><br><span class='creature-action-type section'>Passive</span><div class='subitem container'>Primitive <span class='clr-value section'>+4</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Ambush Hunter</span><br><span class='creature-action-type section'>Passive</span><div class='subitem container'>When attacking with <a href='/generia/rules/basic/core-mechanics#Advantage'>Advantage</a> or with <em>Pounce</em>, roll <span class='clr-roll section'>2d10</span> for hit zone and choose either result.</div></div><div class='creature-action-container container'><span class='creature-action-name section'>Razor Teeth</span><br><span class='creature-action-type section'>Passive</span><div class='subitem container'>On <a href='/generia/rules/basic/definitions#Hit'>hit</a> with <em>Bite</em>: <a href='/generia/rules/combat/status-effects#Bleeding'>Bleeding 1</a>.</div></div><div class='creature-action-container container'><span class='creature-action-name section'>Saurian Senses</span><br><span class='creature-action-type section'>Passive</span><div class='subitem container'><a href='/generia/rules/basic/core-mechanics#Advantage'>Advantage 1</a> when attempting to locate stealthy targets.</div></div>
+        </div>
+        <div class="creature-content-loot">
+            <h6>Loot</h6>
+            <ul><li>Trophy (Claw)</li></ul>
+        </div>
+    </div>
+</div>
+
+<h3 id="level-25_1">Level 25<a class="headerlink" href="#level-25_1" title="Permanent link">&para;</a></h3>
+<div class="creature-block">
+    <div class="creature-toprow">
+        <h3 id="allosaurus-25">Allosaurus 25</h3>
+    </div>
+    <div class="creature-content-head">
+        <div class="creature-general">
+            <h6>General</h6>
+            <div class="creature-value-table">
+                <span class="creature-table-title">Attributes</span>
+                <table class='table'><tr><td><strong>CON</strong></td><td>11 [5]</td></tr><tr><td><strong>STR</strong></td><td>15 [7]</td></tr><tr><td><strong>DEX</strong></td><td>7 [3]</td></tr><tr><td><strong>INT</strong></td><td>0 [0]</td></tr><tr><td><strong>WIL</strong></td><td>3 [1]</td></tr><tr><td><strong>PER</strong></td><td>7 [3]</td></tr></table>        
+            </div>
+            <div class="creature-value-table">
+                <span class="creature-table-title">Values</span>
+                <table class='table'><tr><td><strong>EN</strong></td><td>25</td></tr><tr><td><strong>MP|R</strong></td><td>0|1</td></tr><tr><td><strong>WL</strong></td><td>6</td></tr><tr><td><strong>WT</strong></td><td>9</td></tr><tr><td><strong>TN</strong></td><td>5</td></tr><tr><td><strong>MS</strong></td><td>6</td></tr></table>        
+            </div>
+            <div class="creature-value-table">
+                <span class="creature-table-title">Armor</span>
+                <table class='table'><tr><td><strong>Head</strong></td><td>3</td></tr><tr><td><strong>Torso</strong></td><td>5</td></tr><tr><td><strong>Arms</strong></td><td>4</td></tr><tr><td><strong>Legs</strong></td><td>4</td></tr><tr><td><strong>MD</strong></td><td>1</td></tr><tr><td><strong>Enc.</strong></td><td>0</td></tr></table>        
+            </div>
+        </div>
+        <div class="creature-general">
+            <h6>Info</h6>
+            <div class="creature-info">
+                <table class='table'><tr><td><strong>Species:</strong></td><td><a href='False'>Saurian Beast</a></td></tr><tr><td><strong>Level:</strong></td><td>25</td></tr><tr><td><strong>Size:</strong></td><td><a href='/generia/rules/misc/creature-sizes#Large'>Large</a></td></tr></table><div class='creature-info-container container'><strong>Tags:</strong><br><a href='/generia/rules/misc/creature-tags#NaturalDefenses'>Natural Defenses</a>, <br><a href='/generia/rules/misc/creature-tags#Tough'>Tough</a> 1, <br><a href='/generia/rules/misc/creature-tags#Resistance'>Resistance</a> Fire, <br><a href='/generia/rules/misc/creature-tags#Vulnerability'>Vulnerability</a> Ice</div>        
+            </div>
+            <div class="creature-notes">
+                –
+            </div>
+        </div>
+    </div>
+    <div class="creature-content-body">
+        <div class="creature-content-tile">
+            <h6>Actions</h6>
+            <div class='creature-action-container container'><span class='creature-action-name section'>Bite</span><br><span class='creature-action-type section'>Melee Attack</span><div class='subitem container'><span class='clr-hit section'>Hit+9</span></div><div class='subitem container'><span class='clr-roll section'>3d6+7 Sharp</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Tail Swipe</span><br><span class='creature-action-type section'>Melee Attack, Radius 4m</span><div class='subitem container'><span class='clr-hit section'>Hit+9</span></div><div class='subitem container'><span class='clr-roll section'>2d10+7</span></div><div class='subitem container'><span class='clr-en section'>2 EN</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Clamp</span><br><span class='creature-action-type section'>Reaction, Concentration</span><div class='subitem container'><span class='clr-hit section'><span class='clr-dc section'>DC 17</span></span></div><div class='subitem container'>After <a href='/generia/rules/basic/definitions#Hit'>hit</a> with <em>Bite</em>: Target gets <a href='/generia/rules/combat/status-effects#Grappled'>grappled</a>.</div><div class='subitem container'><strong>Save <span class='clr-attr section'>STR</span>/<span class='clr-attr section'>DEX</span>:</strong> No effect.</div><div class='subitem container'><span class='clr-en section'>1 EN</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Crush</span><br><span class='creature-action-type section'>Melee Attack</span><div class='subitem container'><span class='clr-hit section'><span class='clr-dc section'>DC 17</span></span></div><div class='subitem container'><span class='clr-roll section'>6d6+7 Sharp</span></div><div class='subitem container'>Crushes a <em>clamped</em> target with powerful jaws.</div><div class='subitem container'>Only possible against targets of a smaller size.</div><div class='subitem container'><strong>Save <span class='clr-attr section'>CON</span>/<span class='clr-attr section'>STR</span>/<span class='clr-attr section'>DEX</span>/+10:</strong> Damage halved/No effect.</div><div class='subitem container'><span class='clr-cost section'>1 EN</span></div></div>
+        </div>
+        <div class="creature-content-tile">
+            <h6>Passives</h6>
+            <div class='creature-action-container container'><span class='creature-action-name section'>Proficiencies</span><br><span class='creature-action-type section'>Passive</span><div class='subitem container'>Primitive <span class='clr-value section'>+6</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Monstrous Fangs</span><br><span class='creature-action-type section'>Passive</span><div class='subitem container'><span class='clr-value section'>One</span> <em>Bite</em> or <em>Crush</em> damage die may be rerolled <span class='clr-value section'>once</span>.</div></div><div class='creature-action-container container'><span class='creature-action-name section'>Saurian Senses</span><br><span class='creature-action-type section'>Passive</span><div class='subitem container'><a href='/generia/rules/basic/core-mechanics#Advantage'>Advantage 1</a> when attempting to locate stealthy targets.</div></div>
+        </div>
+        <div class="creature-content-loot">
+            <h6>Loot</h6>
+            <ul><li>Trophy (Tooth)</li></ul>
+        </div>
+    </div>
+</div>
+
+<h3 id="level-40_1">Level 40<a class="headerlink" href="#level-40_1" title="Permanent link">&para;</a></h3>
+<div class="creature-block">
+    <div class="creature-toprow">
+        <h3 id="tyrannosaurus-rex-40">Tyrannosaurus Rex 40</h3>
+    </div>
+    <div class="creature-content-head">
+        <div class="creature-general">
+            <h6>General</h6>
+            <div class="creature-value-table">
+                <span class="creature-table-title">Attributes</span>
+                <table class='table'><tr><td><strong>CON</strong></td><td>14 [7]</td></tr><tr><td><strong>STR</strong></td><td>20 [10]</td></tr><tr><td><strong>DEX</strong></td><td>7 [3]</td></tr><tr><td><strong>INT</strong></td><td>0 [0]</td></tr><tr><td><strong>WIL</strong></td><td>8 [4]</td></tr><tr><td><strong>PER</strong></td><td>6 [3]</td></tr></table>        
+            </div>
+            <div class="creature-value-table">
+                <span class="creature-table-title">Values</span>
+                <table class='table'><tr><td><strong>EN</strong></td><td>30</td></tr><tr><td><strong>MP|R</strong></td><td>0|1</td></tr><tr><td><strong>WL</strong></td><td>9</td></tr><tr><td><strong>WT</strong></td><td>10</td></tr><tr><td><strong>TN</strong></td><td>6</td></tr><tr><td><strong>MS</strong></td><td>6</td></tr></table>        
+            </div>
+            <div class="creature-value-table">
+                <span class="creature-table-title">Armor</span>
+                <table class='table'><tr><td><strong>Head</strong></td><td>5</td></tr><tr><td><strong>Torso</strong></td><td>7</td></tr><tr><td><strong>Arms</strong></td><td>6</td></tr><tr><td><strong>Legs</strong></td><td>6</td></tr><tr><td><strong>MD</strong></td><td>4</td></tr><tr><td><strong>Enc.</strong></td><td>0</td></tr></table>        
+            </div>
+        </div>
+        <div class="creature-general">
+            <h6>Info</h6>
+            <div class="creature-info">
+                <table class='table'><tr><td><strong>Species:</strong></td><td><a href='False'>Saurian Beast</a></td></tr><tr><td><strong>Level:</strong></td><td>40</td></tr><tr><td><strong>Size:</strong></td><td><a href='/generia/rules/misc/creature-sizes#Huge'>Huge</a></td></tr></table><div class='creature-info-container container'><strong>Tags:</strong><br><a href='/generia/rules/misc/creature-tags#NaturalDefenses'>Natural Defenses</a>, <br><a href='/generia/rules/misc/creature-tags#Tough'>Tough</a> 2, <br><a href='/generia/rules/misc/creature-tags#Resistance'>Resistance</a> Fire, <br><a href='/generia/rules/misc/creature-tags#Vulnerability'>Vulnerability</a> Ice</div>        
+            </div>
+            <div class="creature-notes">
+                –
+            </div>
+        </div>
+    </div>
+    <div class="creature-content-body">
+        <div class="creature-content-tile">
+            <h6>Actions</h6>
+            <div class='creature-action-container container'><span class='creature-action-name section'>Bite</span><br><span class='creature-action-type section'>Melee Attack</span><div class='subitem container'><span class='clr-hit section'>Hit+13</span></div><div class='subitem container'><span class='clr-roll section'>3d8+10 Sharp</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Tail Swipe</span><br><span class='creature-action-type section'>Melee Attack, Radius 4m</span><div class='subitem container'><span class='clr-hit section'>Hit+13</span></div><div class='subitem container'><span class='clr-roll section'>2d12+10</span></div><div class='subitem container'><span class='clr-en section'>2 EN</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Clamp</span><br><span class='creature-action-type section'>Reaction, Concentration</span><div class='subitem container'><span class='clr-hit section'><span class='clr-dc section'>DC 20</span></span></div><div class='subitem container'>After <a href='/generia/rules/basic/definitions#Hit'>hit</a> with <em>Bite</em>: Target gets <a href='/generia/rules/combat/status-effects#Grappled'>grappled</a>.</div><div class='subitem container'><strong>Save <span class='clr-attr section'>STR</span>/<span class='clr-attr section'>DEX</span>:</strong> No effect.</div><div class='subitem container'><span class='clr-en section'>1 EN</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Crush</span><br><span class='creature-action-type section'>Melee Attack</span><div class='subitem container'><span class='clr-hit section'><span class='clr-dc section'>DC 20</span></span></div><div class='subitem container'><span class='clr-roll section'>6d8+10 Sharp</span></div><div class='subitem container'>Crushes a <em>clamped</em> target with powerful jaws.</div><div class='subitem container'>Only possible against targets of a smaller size.</div><div class='subitem container'><strong>Save <span class='clr-attr section'>CON</span>/<span class='clr-attr section'>STR</span>/<span class='clr-attr section'>DEX</span>/+10:</strong> Damage halved/No effect.</div><div class='subitem container'><span class='clr-cost section'>1 EN</span></div></div>
+        </div>
+        <div class="creature-content-tile">
+            <h6>Passives</h6>
+            <div class='creature-action-container container'><span class='creature-action-name section'>Proficiencies</span><br><span class='creature-action-type section'>Passive</span><div class='subitem container'>Primitive <span class='clr-value section'>+10</span></div></div><div class='creature-action-container container'><span class='creature-action-name section'>Monstrous Fangs</span><br><span class='creature-action-type section'>Passive</span><div class='subitem container'><span class='clr-value section'>One</span> <em>Bite</em> or <em>Crush</em> damage die may be rerolled <span class='clr-value section'>once</span>.</div></div><div class='creature-action-container container'><span class='creature-action-name section'>Saurian Senses</span><br><span class='creature-action-type section'>Passive</span><div class='subitem container'><a href='/generia/rules/basic/core-mechanics#Advantage'>Advantage 1</a> when attempting to locate stealthy targets.</div></div>
+        </div>
+        <div class="creature-content-loot">
+            <h6>Loot</h6>
+            <ul><li>Trophy (Tooth)</li></ul>
+        </div>
+    </div>
+</div>
 
 
 
