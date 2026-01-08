@@ -81,9 +81,12 @@ class Table_Renderer:
         result += "</tr>"
         for x in self.yaml_input.get("items"):
             result += "<tr>"
-            for subitem in x:
-                if subitem in ["name", "price", "rarity"]:
-                    result += f"<td>{x.get(subitem)}</td>"
+            name = x.get("name")
+            price = x.get("price", "–")
+            rarity = x.get("rarity", "–")
+            result += f"<td>{name}</td>"
+            result += f"<td>{price}</td>"
+            result += f"<td>{rarity}</td>"
             result += "</tr>"
         return result
 
