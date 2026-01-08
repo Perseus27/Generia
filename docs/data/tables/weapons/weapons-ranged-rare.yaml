@@ -1,5 +1,5 @@
 name: Ranged Weapons - Rare
-id: RangedWeaponsRare
+id: weapons-ranged-rare
 table_type: weapon-table weapon-table-ranged
 headers:
 - Name

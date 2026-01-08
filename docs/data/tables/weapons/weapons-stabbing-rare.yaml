@@ -1,5 +1,5 @@
 name: Stabbing Weapons - Rare
-id: StabbingWeaponsRare
+id: weapons-stabbing-rare
 table_type: weapon-table weapon-table-melee
 headers:
 - Name

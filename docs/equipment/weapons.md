@@ -6,13 +6,13 @@ title: Weapons
     <h3>Navigation</h3>
     <hr>
     <p>
-    <a href="#BluntWeaponsCommon">Blunt</a>
-    <br><a href="#SlashingWeaponsCommon">Slashing</a>
-    <br><a href="#StabbingWeaponsCommon">Stabbing</a>
-    <br><a href="#RangedWeaponsCommon">Ranged</a>
-    <br><a href="#DefensiveWeaponsCommon">Defensive</a>
-    <br><a href="#NaturalWeaponsBasic">Natural</a>
-    <br><a href="#AmmunitionCommon">Ammunition</a>
+    <a href="#weapons-blunt-common">Blunt</a>
+    <br><a href="#weapons-slashing-common">Slashing</a>
+    <br><a href="#weapons-stabbing-common">Stabbing</a>
+    <br><a href="#weapons-ranged-common">Ranged</a>
+    <br><a href="#weapons-defensive-common">Defensive</a>
+    <br><a href="#weapons-natural-basic">Natural</a>
+    <br><a href="#weapons-ammunition-common">Ammunition</a>
     </p>
   </div>
 </template>

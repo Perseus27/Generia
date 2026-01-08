@@ -1,5 +1,5 @@
 name: Blunt Weapons - Rare
-id: BluntWeaponsRare
+id: weapons-blunt-rare
 table_type: weapon-table weapon-table-melee
 headers:
 - Name

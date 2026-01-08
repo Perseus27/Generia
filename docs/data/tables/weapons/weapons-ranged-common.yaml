@@ -1,5 +1,5 @@
 name: Ranged Weapons - Common
-id: RangedWeaponsCommon
+id: weapons-ranged-common
 table_type: weapon-table weapon-table-ranged
 headers:
 - Name
