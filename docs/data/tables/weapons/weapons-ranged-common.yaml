@@ -24,6 +24,7 @@ items:
   weight: 1
   size: 12x3
   rarity: 1
+  price: 1
   tags: []
 
 - name: Riding Bow
@@ -36,6 +37,7 @@ items:
   weight: 1
   size: 10x3
   rarity: 1
+  price: 1
   tags: []
 
 - name: Longbow
@@ -48,6 +50,7 @@ items:
   weight: 2
   size: 18x3
   rarity: 2
+  price: 2
   tags:
     - Long
 
@@ -61,6 +64,7 @@ items:
   weight: 4
   size: 10x4
   rarity: 2
+  price: 2
   tags:
     - Long
     - - Reload
@@ -76,6 +80,7 @@ items:
   weight: 2
   size: 8x4
   rarity: 1
+  price: 1
   tags:
     - - Reload
       - 1
@@ -90,6 +95,7 @@ items:
   weight: 0.25
   size: 2x1
   rarity: 1
+  price: 1
   tags: []
 
 - name: Short Sling
@@ -102,6 +108,7 @@ items:
   weight: 0.1
   size: 1x1
   rarity: 1
+  price: 1
   tags: []
 
 - name: Grenade
@@ -114,6 +121,7 @@ items:
   weight: '0.25'
   size: 1x1
   rarity: 2
+  price: 2
   tags: []
 
 - name: Javelin
@@ -126,6 +134,7 @@ items:
   weight: 0.5
   size: 18x1
   rarity: 1
+  price: 1
   tags: []
 
 - name: Throwing Knife
@@ -138,4 +147,5 @@ items:
   weight: 0.1
   size: 2x1
   rarity: 1
+  price: 1
   tags: []

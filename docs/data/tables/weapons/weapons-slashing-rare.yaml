@@ -22,6 +22,7 @@ items:
   weight: 1.5
   size: 5x3
   rarity: 3
+  price: 3
   tags:
     - - Blockbreaker
       - 1.0
@@ -36,6 +37,7 @@ items:
   weight: 4
   size: 14x3
   rarity: 3
+  price: 3
   tags:
     - Two-Handed
 
@@ -48,6 +50,7 @@ items:
   weight: 3
   size: 24x2
   rarity: 3
+  price: 3
   tags:
     - Cavalry
     - Complex
@@ -65,6 +68,7 @@ items:
   weight: 3
   size: 24x2
   rarity: 3
+  price: 3
   tags:
     - Complex
     - Long
@@ -81,6 +85,7 @@ items:
   weight: 1.5
   size: 12x2
   rarity: 3
+  price: 3
   tags:
     - - Flexible
       - 1.0|1.5
@@ -94,6 +99,7 @@ items:
   weight: 0.75
   size: 8x2
   rarity: 3
+  price: 3
   tags:
     - Short
 
@@ -106,6 +112,7 @@ items:
   weight: 1.5
   size: 12x2
   rarity: 4
+  price: 4
   tags:
     - Complex
     - - Flexible
@@ -121,6 +128,7 @@ items:
   weight: 6
   size: 20x2
   rarity: 4
+  price: 4
   tags:
     - Long
     - Two-Handed
@@ -134,6 +142,7 @@ items:
   weight: 4
   size: 18x2
   rarity: 3
+  price: 3
   tags:
     - Long
     - Two-Handed

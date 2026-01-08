@@ -22,6 +22,7 @@ items:
   weight: 1
   size: 3x3
   rarity: 1
+  price: 1
   tags:
     - Parry
     - Shield
@@ -35,6 +36,7 @@ items:
   weight: 2
   size: 6x6
   rarity: 1
+  price: 1
   tags:
     - - Shield
       - 2
@@ -48,6 +50,7 @@ items:
   weight: 6
   size: 14x6
   rarity: 2
+  price: 2
   tags:
     - - Shield
       - 6

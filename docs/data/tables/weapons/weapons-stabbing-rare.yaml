@@ -22,6 +22,7 @@ items:
   weight: 0.5
   size: 4x1
   rarity: 3
+  price: 3
   tags:
     - Complex
     - Parry
@@ -35,6 +36,7 @@ items:
   weight: 0.25
   size: 4x1
   rarity: 3
+  price: 3
   tags:
     - Precise
     - Short
@@ -48,6 +50,7 @@ items:
   weight: 2
   size: 26x1
   rarity: 3
+  price: 3
   tags:
     - Cavalry
     - Long
@@ -62,6 +65,7 @@ items:
   weight: 1.5
   size: 22x1
   rarity: 3
+  price: 3
   tags:
     - Long
     - Two-Handed
@@ -75,5 +79,6 @@ items:
   weight: 2
   size: 14x2
   rarity: 3
+  price: 3
   tags:
     - Two-Handed

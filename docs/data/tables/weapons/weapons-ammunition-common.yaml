@@ -16,6 +16,7 @@ items:
   weight: 0.1
   size: 8x1
   rarity: 1
+  price: 1
   tags:
     - - Stack
       - 10
@@ -26,6 +27,7 @@ items:
   weight: 0.2
   size: 8x1
   rarity: 2
+  price: 2
   tags:
     - - Stack
       - 10
@@ -36,6 +38,7 @@ items:
   weight: 0.1
   size: 8x1
   rarity: 1
+  price: 1
   tags:
     - - Stack
       - 10
@@ -46,6 +49,7 @@ items:
   weight: 0.1
   size: 8x1
   rarity: 1
+  price: 1
   tags:
     - - Stack
       - 10
@@ -56,6 +60,7 @@ items:
   weight: 0.2
   size: 8x1
   rarity: 2
+  price: 2
   tags:
     - - Stack
       - 10
@@ -66,6 +71,7 @@ items:
   weight: 0.1
   size: 1x1
   rarity: 1
+  price: 1
   tags:
     - - Stack
       - 4
@@ -76,6 +82,7 @@ items:
   weight: 0.2
   size: 1x1
   rarity: 1
+  price: 1
   tags:
     - - Stack
       - 4

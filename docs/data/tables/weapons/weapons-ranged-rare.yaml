@@ -24,6 +24,7 @@ items:
   weight: 4
   size: 10x3
   rarity: 3
+  price: 3
   tags: []
 
 - name: Elvish Bow
@@ -36,6 +37,7 @@ items:
   weight: 1
   size: 16x3
   rarity: 4
+  price: 4
   tags:
     - Complex
     - Guiding Wind
@@ -51,6 +53,7 @@ items:
   weight: 3
   size: 20x3
   rarity: 3
+  price: 3
   tags:
    - Long
 
@@ -64,6 +67,7 @@ items:
   weight: 2
   size: 22x3
   rarity: 3
+  price: 3
   tags:
     - Cavalry
     - Complex
@@ -79,4 +83,5 @@ items:
   weight: 1
   size: 12x1
   rarity: 3
+  price: 3
   tags: []
