@@ -32,7 +32,6 @@ content:
     medium: [Weapon]
     description: >
       This weapon applies [url:status#Burning]Burning 1[/url] on [url:def#Hit]hit[/url].
-    attunement: 5
 
   - name: Focus
     id: focus
