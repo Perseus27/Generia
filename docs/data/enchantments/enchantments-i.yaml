@@ -10,7 +10,7 @@ content:
     medium: [Armor, Trinket, Weapon]
     description: >
       The [section:clr-attr]MOD[/section] of the specified attribute is increased by [section:clr-value]1[/section] while the enchanted item is equipped.
-    attunement: 10
+    attunement: 5
 
   - name: AV Bonus I
     alias: [AV+1]
@@ -25,14 +25,14 @@ content:
     description: >
       While this item is equipped, you gain [section:clr-value]one[/section] [url:core#Reroll]Effect Reroll[/url] for the specified element.
       [br]This item must be [section:clr-curse]cursed[/section].
-    attunement: 10
+    attunement: 5
 
   - name: Ember
     id: ember
     medium: [Weapon]
     description: >
       This weapon applies [url:status#Burning]Burning 1[/url] on [url:def#Hit]hit[/url].
-    attunement: 10
+    attunement: 5
 
   - name: Focus
     id: focus
@@ -60,7 +60,7 @@ content:
       The attuned owner of this item may, as a [url:def#FreeAction]Free Action[/url], teleport it to a free hand. It instantly rematerializes and does not need to be re-equipped.
       [br]The item must be mostly uncovered for the enchantment to work. 
       [br]The maximum recall range is [section:clr-value]20 meters[/section].
-    attunement: 10
+    attunement: 5
 
   - name: Reroll I
     alias: [Blunt I, Sharp I]

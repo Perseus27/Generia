@@ -10,7 +10,7 @@ content:
     medium: [Armor, Trinket, Weapon]
     description: >
       The [section:clr-attr]MOD[/section] of the specified attribute is increased by [section:clr-value]2[/section] while the enchanted item is equipped.
-    attunement: 30
+    attunement: 15
 
   - name: AV Bonus III
     alias: [AV+3]
@@ -24,7 +24,7 @@ content:
     medium: [Weapon, Trinket]
     description: >
       While this item is equipped, you gain [section:clr-value]two[/section] [url:core#Reroll]Effect Rerolls[/url] for the specified element.
-    attunement: 30
+    attunement: 15
 
   - name: MD Bonus III
     alias: [MD+3]

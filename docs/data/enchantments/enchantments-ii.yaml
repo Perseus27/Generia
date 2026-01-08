@@ -10,7 +10,7 @@ content:
     medium: [Armor, Trinket, Weapon]
     description: >
       The [section:clr-attr]MOD[/section] of the specified attribute is increased by [section:clr-value]2[/section] while the enchanted item is equipped.
-    attunement: 20
+    attunement: 10
 
   - name: AV Bonus II
     alias: [AV+2]
@@ -24,7 +24,7 @@ content:
     medium: [Weapon (Slashing, Stabbing)]
     description: >
       Whenever this weapon causes one or more stacks of [url:status#Bleeding]Bleeding[/url], the wielder gains [url:status#Regeneration]Regeneration 1[/url].
-    attunement: 20
+    attunement: 10
 
   - name: Element Reroll II
     id: element-reroll-ii
@@ -32,7 +32,7 @@ content:
     description: >
       While this item is equipped, you gain [section:clr-value]one[/section] [url:core#Reroll]Effect Reroll[/url] for the specified element.
       [br]If the item is [section:clr-curse]cursed[/section], you gain [section:clr-value]two[/section] Effect Rerolls instead.
-    attunement: 20
+    attunement: 10
 
   - name: MD Bonus II
     alias: [MD+2]
@@ -46,7 +46,6 @@ content:
     medium: [Weapon (Bow)]
     description: >
       This bow has [url:Advantage]Advantage 1[/url] on long range [url:def#RangedAttack]attack rolls[/url].
-    attunement: 20
 
   - name: Penetration II
     id: penetration-ii
@@ -59,7 +58,7 @@ content:
     medium: [Weapon (Blunt)]
     description: >
       Whenever this weapon causes [url:status#OffBalance]Off-Balance[/url], [url:status#Prone]Prone[/url] or [url:status#Stunned]Stunned[/url], the wielder applies [url:status#DefensePenalty]Defense Penalty[/url] [[section:clr-attr]STR-MOD[/section]] to the target.
-    attunement: 20
+    attunement: 10
 
   - name: Reroll II
     alias: [Blunt II, Sharp II]
@@ -74,7 +73,7 @@ content:
     medium: [Armor, Trinket]
     description: >
       This item grants its wearer [url:status#Resistant]Resistance[/url] against the specified [url:dmgtype]damage type[/url].
-    attunement: 20
+    attunement: 10
 
   - name: Self Repair II
     id: self-repair-ii
