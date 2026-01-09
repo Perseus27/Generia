@@ -36,9 +36,16 @@ content:
       [/ul]
       It is possible to increase the [i]Analyze Value[/i] by the result of a simple [section:clr-value]PER[/section] check. However, if the check result is below the target's own [section:clr-attr]PER[/section] [section:clr-dc]DC[/section], it becomes aware of the Analyze attempt.
 
+  - name: Long Range Cast
+    id: long-range-cast
+    tags: [Universal, Free Action, "[section:clr-conc]CONCENTRATION[/section]"]
+    description: >
+      Invest [section:clr-conc]Concentration[/section] to increase the range of the next [section:clr-pa]Projectile Attack[/section] or [section:clr-sa]Spell Attack[/section] within this turn by a relevant proficiency value.
+      [br][i]Only possible if the spell has a base range greater than [section:clr-value]4 meters[/section].[/i]
+
   - name: Preparation
     id: preparation
-    tags: [Universal, "Any Action"]
+    tags: [Universal, Any Action]
     description: >
       Prepares a specified action for the next turn, adding a non-explosive [section:clr-roll-noex]1d6[/section] to the initial check.
       [br]All actions that require a check to take effect (e.g. most attack actions, anti-[url:status#Grappled]Grapple[/url] saves, [url:def#Jumping]jumps[/url]...) are eligible.
@@ -46,7 +53,7 @@ content:
 
   - name: Sprint
     id: sprint
-    tags: [Universal, "Movement"]
+    tags: [Universal, Movement]
     cost:
       - "[section:clr-en]2 EN[/section]"
     description: >
@@ -54,7 +61,7 @@ content:
 
   - name: Stealthy Movement
     id: stealthy-movement
-    tags: [Universal, "Movement"]
+    tags: [Universal, Movement]
     cost:
       - "[section:clr-en]1 EN[/section]"
     description: >
