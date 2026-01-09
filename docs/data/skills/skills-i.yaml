@@ -123,7 +123,7 @@ reaction:
     cost:
       - "[section:clr-encost]1 EN[/section]"
     description: >
-      Gain [url:core#Advantage]Advantage 1[/url] on the next [url:def#Dodge]dodge[/url] within this turn.
+      Gain [url:core#Advantage]Advantage 1[/url] on [url:def#Dodge]dodges[/url] within this turn.
 
   - name: Shield Bash
     id: shield-bash
@@ -140,7 +140,7 @@ reaction:
     cost:
       - "[section:clr-encost]1 EN[/section]"
     description: >
-      Gain [url:core#Advantage]Advantage 1[/url] on the next [url:def#Block]block[/url] within this turn.
+      Gain [url:core#Advantage]Advantage 1[/url] on [url:def#Block]blocks[/url] within this turn.
 
   - name: Swift Parry
     id: swift-parry
@@ -148,7 +148,7 @@ reaction:
     cost:
       - "[section:clr-encost]1 EN[/section]"
     description: >
-      Gain [url:core#Advantage]Advantage 1[/url] on the next [url:def#Parry]parry[/url] within this turn.
+      Gain [url:core#Advantage]Advantage 1[/url] on [url:def#Parry]parries[/url] within this turn.
 
   - name: Threat
     id: threat
