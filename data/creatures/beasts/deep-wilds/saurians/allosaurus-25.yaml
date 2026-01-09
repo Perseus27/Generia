@@ -42,7 +42,7 @@ actions:
     - name: Tail Swipe
       type: Melee Attack, Radius 4m
       hit: "Hit+9"
-      damage: 2d10+7
+      damage: 2d10+7 Blunt
       cost: "[section:clr-en]2 EN[/section]"
 
     - name: Clamp
@@ -61,7 +61,7 @@ actions:
         - "Crushes a [i]clamped[/i] target with powerful jaws."
         - "Only possible against targets of a smaller size."
       save: "[b]Save [section:clr-attr]CON[/section]/[section:clr-attr]STR[/section]/[section:clr-attr]DEX[/section]/+10:[/b] Damage halved/No effect."
-      cost: "[section:clr-cost]1 EN[/section]"
+      cost: "[section:clr-en]1 EN[/section]"
 
   passive:
     - name: Proficiencies
